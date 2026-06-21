@@ -1,0 +1,135 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "lencr.org - Let's Encrypt",
+  "uri_ins": "https://lencr.org",
+  "uri_dest": "https://letsencrypt.org/docs/lencr.org/",
+  "uri_redirects": [
+    "https://lencr.org/",
+    "https://letsencrypt.org/docs/lencr.org"
+  ],
+  "secure_connection": {},
+  "host": "lencr.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:53:12.491Z",
+  "end_time": "2026-06-11T06:53:15.397Z",
+  "browsing_history": [
+    "https://letsencrypt.org/docs/lencr.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "lencr.org",
+        "letsencrypt.org"
+      ],
+      "third_party": [
+        "outreach.abetterinternet.org",
+        "fonts.googleapis.com",
+        "pi.pardot.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://outreach.abetterinternet.org/js/piUtils.js?ver=2021-09-20": [
+          "mouseup"
+        ],
+        "https://letsencrypt.org/js/le-2025-theme.baca0a37d412391799a4e5f6d58968c12b948b4c91c053a3c025ab758ffb70bc.js": [
+          "click"
+        ],
+        "https://letsencrypt.org/js/main.a572b61495f9d8fe4e5ec075082ddfe85e5a5ff501c15c499d3f2a4bed71afb6fe89e85f3202aa8fdeebcda97645416bfc75683c2d3471485b5668a6d5f98740.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://letsencrypt.org/js/le-2025-theme.baca0a37d412391799a4e5f6d58968c12b948b4c91c053a3c025ab758ffb70bc.js": [
+          "keydown"
+        ],
+        "https://letsencrypt.org/js/main.a572b61495f9d8fe4e5ec075082ddfe85e5a5ff501c15c499d3f2a4bed71afb6fe89e85f3202aa8fdeebcda97645416bfc75683c2d3471485b5668a6d5f98740.js": [
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "https://letsencrypt.org/js/main.a572b61495f9d8fe4e5ec075082ddfe85e5a5ff501c15c499d3f2a4bed71afb6fe89e85f3202aa8fdeebcda97645416bfc75683c2d3471485b5668a6d5f98740.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pardot.com/pd.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://outreach.abetterinternet.org/l/1011011/2025-01-14/31v6r",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pi.pardot.com/pd.js"
+      }
+    ]
+  }
+}

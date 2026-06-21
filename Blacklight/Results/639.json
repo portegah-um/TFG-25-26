@@ -1,0 +1,218 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Identity Digital | Create authentic digital identities with the world's largest and most relevant domain extension portfolio.",
+  "uri_ins": "https://nic.network",
+  "uri_dest": "https://identity.digital/",
+  "uri_redirects": [
+    "https://nic.network/",
+    "http://identity.digital/"
+  ],
+  "secure_connection": {},
+  "host": "nic.network",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:53:26.663Z",
+  "end_time": "2026-06-11T08:53:30.858Z",
+  "browsing_history": [
+    "https://identity.digital/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nic.network",
+        "identity.digital"
+      ],
+      "third_party": [
+        "cdn.prod.website-files.com",
+        "cdn.cookielaw.org",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdnjs.cloudflare.com",
+        "www.googletagmanager.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5VQF86T": [
+          "click"
+        ],
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=643d4b3fc3e02d37e33dd7d5": [
+          "click",
+          "scroll"
+        ],
+        "https://identity.digital/": [
+          "scroll"
+        ],
+        "https://cdn.prod.website-files.com/643d4b3fc3e02d37e33dd7d5/js/webflow.schunk.b006b42e0d7d18b5.js": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn.prod.website-files.com/643d4b3fc3e02d37e33dd7d5/js/webflow.schunk.b006b42e0d7d18b5.js": [
+          "orientationchange"
+        ],
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=643d4b3fc3e02d37e33dd7d5": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.prod.website-files.com/643d4b3fc3e02d37e33dd7d5/js/webflow.schunk.b006b42e0d7d18b5.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://cdn.prod.website-files.com/643d4b3fc3e02d37e33dd7d5/js/webflow.schunk.c42549641b7d4501.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_cfuvid",
+        "value": "urbfzS8qKdrAbcXTKGUYCfMecfpBKcnYTzMCGFOgtZQ-1781168007.6541865-1.0.1.1-v94dYPxZJvNm6LT.eSD1U6.oL6BqOU4qKVPO2xQh74s",
+        "domain": "identity.digital",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A53%3A28+GMT%2B0200+(Central+European+Summer+Time)&version=202510.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fidentity.digital%2F&groups=C0004%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0",
+        "domain": "identity.digital",
+        "path": "/",
+        "expires": "2026-07-11T08:53:28.000Z",
+        "size": 269,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ccid": 119129537,
+            "cid": "GTM-5VQF86T",
+            "gtm": "45He6691v9119129537za200zd9119129537",
+            "h": "Ag",
+            "l": "L695.S13.Y5.B26.E50.I1111.TC28.HTC1.F813.C1~gtm.init_consent.S5.V4.E37~gtm.init.S1.V0.E31~gtm.js.S1.V0.E41.TS5lcl.TI70.TE2.TS5lcl.TI71.TE0.TS5lcl.TI72.TE0.TS5cl.TI73.TE0.TS5cl.TI74.TE0.TS5lcl.TI75.TE0.TS5lcl.TI77.TE0.TS5cl.TI78.TE0.TS5lcl.TI79.TE0.TS5lcl.TI80.TE0.TS5lcl.TI81.TE0.TS5fsl.TI82.TE1.TS5lcl.TI83.TE0.TS5tg.TI84.TE0.TS5tg.TI86.TE0.TS5tg.TI90.TE0.TS5tg.TI94.TE0.TS5tg.TI98.TE0.TS5tg.TI102.TE0.TS5tg.TI106.TE0.TS5tg.TI110.TE0.TS5tg.TI114.TE0.TS5tg.TI118.TE0.TS5tg.TI122.TE0.TS5tg.TI126.TE0.TS5tg.TI130.TE0.TS5html.TI10.TE1.TS5lcl.TI76.TE25~gtm.dom.S1.V1.E18~gtm.load.S0.V0.E5",
+            "pid": 62063994,
+            "rv": 6691,
+            "t": "l",
+            "tag_exp": "0~115938465~115938469",
+            "u": "AAAAAAAAAAAAAACA",
+            "v": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://identity.digital/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=62063994&rv=6691&tag_exp=0~115938465~115938469&u=AAAAAAAAAAAAAACA&h=Ag&gtm=45He6691v9119129537za200zd9119129537&ccid=119129537&cid=GTM-5VQF86T&l=L695.S13.Y5.B26.E50.I1111.TC28.HTC1.F813.C1~gtm.init_consent.S5.V4.E37~gtm.init.S1.V0.E31~gtm.js.S1.V0.E41.TS5lcl.TI70.TE2.TS5lcl.TI71.TE0.TS5lcl.TI72.TE0.TS5cl.TI73.TE0.TS5cl.TI74.TE0.TS5lcl.TI75.TE0.TS5lcl.TI77.TE0.TS5cl.TI78.TE0.TS5lcl.TI79.TE0.TS5lcl.TI80.TE0.TS5lcl.TI81.TE0.TS5fsl.TI82.TE1.TS5lcl.TI83.TE0.TS5tg.TI84.TE0.TS5tg.TI86.TE0.TS5tg.TI90.TE0.TS5tg.TI94.TE0.TS5tg.TI98.TE0.TS5tg.TI102.TE0.TS5tg.TI106.TE0.TS5tg.TI110.TE0.TS5tg.TI114.TE0.TS5tg.TI118.TE0.TS5tg.TI122.TE0.TS5tg.TI126.TE0.TS5tg.TI130.TE0.TS5html.TI10.TE1.TS5lcl.TI76.TE25~gtm.dom.S1.V1.E18~gtm.load.S0.V0.E5"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5VQF86T"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://identity.digital/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5VQF86T"
+      }
+    ]
+  }
+}

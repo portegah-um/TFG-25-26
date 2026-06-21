@@ -1,0 +1,204 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Ubiquiti - Rethinking IT - Ubiquiti",
+  "uri_ins": "https://ui.com",
+  "uri_dest": "https://ui.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "ui.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:03:29.100Z",
+  "end_time": "2026-06-11T06:03:34.808Z",
+  "browsing_history": [
+    "https://ui.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ui.com",
+        "megaphone.svc.ui.com",
+        "sso.ui.com",
+        "store.ui.com",
+        "images.svc.ui.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://ui.com/microsite/static/useTranslation-D7d3Ktn1.js": [
+          "scroll"
+        ],
+        "https://ui.com/microsite/static/Tooltip_Default-xFEb4Vyj.js": [
+          "scroll"
+        ],
+        "https://ui.com/microsite/static/resolvePropWithContext-C3if5leK.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://ui.com/microsite/static/index-BQi9vpzB.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ui.com/microsite/static/resolvePropWithContext-C3if5leK.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "country-code-session",
+        "value": "ES",
+        "domain": "ui.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AWSALB",
+        "value": "aiRzzDDKcXIBWnsl0nve/whSwHC5lHun/uHYmkpAA/2MpbEFayHpDrSRwgWJHjcRo47Xkyo5PpsW7vHsg7hjlte7jy5pyhkI9H0DCrFo82hnXQGvmB8sw3CUPxp6",
+        "domain": "megaphone.svc.ui.com",
+        "path": "/",
+        "expires": "2026-06-18T06:03:32.099Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "aiRzzDDKcXIBWnsl0nve/whSwHC5lHun/uHYmkpAA/2MpbEFayHpDrSRwgWJHjcRo47Xkyo5PpsW7vHsg7hjlte7jy5pyhkI9H0DCrFo82hnXQGvmB8sw3CUPxp6",
+        "domain": "megaphone.svc.ui.com",
+        "path": "/",
+        "expires": "2026-06-18T06:03:32.099Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A03%3A32+GMT%2B0200+(Central+European+Summer+Time)&version=202511.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7cb6d137-5253-42ce-af1b-b4d384fcf365&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fui.com%2F&groups=C0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0001%3A1",
+        "domain": "ui.com",
+        "path": "/",
+        "expires": "2027-06-11T06:03:32.000Z",
+        "size": 338,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/OtAutoBlock.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://ui.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cookielaw.org/consent/224b28b6-c7e2-45ef-9c82-fe34c2648b5a/OtAutoBlock.js"
+      }
+    ]
+  }
+}

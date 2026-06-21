@@ -1,0 +1,480 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Amazon.de: Low Prices in Electronics, Books, Sports Equipment & more",
+  "uri_ins": "https://amazon.de",
+  "uri_dest": "https://www.amazon.de/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "amazon.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:37:24.726Z",
+  "end_time": "2026-06-11T07:37:30.402Z",
+  "browsing_history": [
+    "https://www.amazon.de/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "amazon.de",
+        "www.amazon.de",
+        "fls-eu.amazon.de",
+        "unagi.amazon.de"
+      ],
+      "third_party": [
+        "m.media-amazon.com",
+        "api.stores.eu-west-1.prod.paets.advertising.amazon.dev",
+        "aes.eu-west.ono.axp.amazon-adsystem.com",
+        "images-eu.ssl-images-amazon.com",
+        "aax-eu.amazon-adsystem.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://m.media-amazon.com/images/I/91u1iWIbVEL.js?AUIClients/VideoJsCardsBuzz": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://m.media-amazon.com/images/I/01A8CUOyW-L._RC%7C01wGOYsRBlL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "keydown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://m.media-amazon.com/images/S/sash/Haq5GKZE43Nq-aB._RCs%7CpgpyuMhEQeQ8-QE.js,oGXjegImpg$t$hw.js,dO3FyOazv-LBdHB.js,11JZ1aoBmmrYEZe.js,GzghzgN8SWH60np.js,0CZ8dUqf2z5eClT.js,19FvC3K2AnbXm-l.js,5SoMqO0XyJcoRUG.js,TBLy5tW0mne0OgS.js_.js?AUIClients/": [
+          "input",
+          "keyup",
+          "keydown"
+        ],
+        "https://www.amazon.de/": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://m.media-amazon.com/images/I/01A8CUOyW-L._RC%7C01wGOYsRBlL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "touchmove",
+          "touchend"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "touchend",
+          "touchcancel",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://m.media-amazon.com/images/S/sash/Haq5GKZE43Nq-aB._RCs%7CpgpyuMhEQeQ8-QE.js,oGXjegImpg$t$hw.js,dO3FyOazv-LBdHB.js,11JZ1aoBmmrYEZe.js,GzghzgN8SWH60np.js,0CZ8dUqf2z5eClT.js,19FvC3K2AnbXm-l.js,5SoMqO0XyJcoRUG.js,TBLy5tW0mne0OgS.js_.js?AUIClients/": [
+          "touchcancel",
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.amazon.de/": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://m.media-amazon.com/images/I/01A8CUOyW-L._RC%7C01wGOYsRBlL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "click"
+        ],
+        "https://www.amazon.de/": [
+          "scroll",
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://m.media-amazon.com/images/S/sash/Haq5GKZE43Nq-aB._RCs%7CpgpyuMhEQeQ8-QE.js,oGXjegImpg$t$hw.js,dO3FyOazv-LBdHB.js,11JZ1aoBmmrYEZe.js,GzghzgN8SWH60np.js,0CZ8dUqf2z5eClT.js,19FvC3K2AnbXm-l.js,5SoMqO0XyJcoRUG.js,TBLy5tW0mne0OgS.js_.js?AUIClients/": [
+          "mousedown",
+          "mouseup",
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "session-id",
+        "value": "261-6852945-7627564",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:25.197Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:25.198Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "i18n-prefs",
+        "value": "EUR",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:25.198Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lc-acbde",
+        "value": "en_GB",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:25.198Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sp-cdn",
+        "value": "\"L5Z9:ES\"",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:26.198Z",
+        "size": 15,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "153E6488115AAE666E5AD649D5164D12~000000000000000000000000000000~YAAQzW1lX+py352eAQAAqE+dtQDwCXGpxBMtd6z/LxlfjawEgRFAzb8dgqc4bXP/PgeCHReWRLo8/KAIjkN025WXjNEqgl3wlU/IL1r2eNHheyYwRtrd6r/JK6WJ/89qfe40AqlxGggw6JNU1VWsaYPVms06SyfuEMeP24AljDtYPg4LFIl/oM5Ex9H/J1Qf3Av1xPR/Oen2Op3vXhVk2I/BzJNT9kXCq1gmf6IRdr8nzqR8i9C6gfHTrfQ1nNK543Hg6uuepMcikJeE2A0rOUvQB6YqiK1RFrrhZmZSfFqbdZvxZ8RipjJRlEMgGMY/kz60E0mX5T3J/IItLHlkZvlnee+vl4TvnE1rC4byZpB2gnR5fDfsgzwPZn6gJgSqk4X20Yy5G25HnTjIQhdRl6om87qRGRYKkxXerGXXuLKYBove4SHbtkWUBJWuvGCJoZUFsMZjHU0E+8/IRFtX8igR5IiY8kHKx1tdBmDXYdqgNA==",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2026-06-11T09:37:25.198Z",
+        "size": 567,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ubid-acbde",
+        "value": "259-1668824-3310544",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:27.515Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-token",
+        "value": "8YXmllbetF1pfwPDxabPwiyIsxOIwuL3wYPBqjVV8KuLA6RkBa1VEJscA34tdVXQjPqlbtzn7tFH30GmTtPcNdTu4ERCbIf6LmE9L3RTxVZpgJqzs3lcOTmtlClWv/WCVxGlmR8BR5RxPfBElq1GYGj0/veVo71FVFazeqbXg7iRai1HqAuNMAudP/jICCXmFliADOWhbuqaJ6e/wghmSNAgvRh5fPy8",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2027-06-11T07:37:27.024Z",
+        "size": 237,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2027-07-16T07:37:28.104Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rxc",
+        "value": "AIvJftc5H8HG8QOdwiE",
+        "domain": "www.amazon.de",
+        "path": "/",
+        "expires": "2026-06-12T07:37:28.683Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "csm-hit",
+        "value": "4B02CYQ0A2FG9TT11RME+s-4B02CYQ0A2FG9TT11RME|1781163449452",
+        "domain": "www.amazon.de",
+        "path": "/",
+        "expires": "2026-06-18T07:37:26.000Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sv",
+        "value": "CE98576DD8F18FB6FD934F8C70129DA8~YAAQzW1lXzZ6352eAQAAaV6dtQBfQOit0hl/HKAYgxLuSlm3qVUlRdY9vq+R0pA4JAO8PvTY8ZRg2PEJgrsqpRrYIbX1Hi+6VI8GhMqCjSUFohfEFdydPErcmi+NAXR5iqkUfu3BHui3mz6UNEOe3wPgFZ1n2heA55aVYxk8P6hZ/FJ3WWdoDFrJdwR4lfi2eayginCM2c5SzynWagO+yWqbuSYJOR+Wg+TF1soYRMNyTdeH32ZCXfgzH23GoZ0=~1",
+        "domain": "amazon.de",
+        "path": "/",
+        "expires": "2026-06-11T09:37:26.967Z",
+        "size": 296,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781163446146,
+            "d": "amazon.de",
+            "dcc": "t",
+            "gdpr_consent": "",
+            "gdpr_consent_avl": "",
+            "old_oo": 0,
+            "s": "ATsVFt9P0F8fzXPKOHChDd2ga9yDSPOfBFnz3oEn35zy",
+            "slot": "navFooter",
+            "ts": 1781163446146
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.de&slot=navFooter&old_oo=0&ts=1781163446146&s=ATsVFt9P0F8fzXPKOHChDd2ga9yDSPOfBFnz3oEn35zy&gdpr_consent=&gdpr_consent_avl=&cb=1781163446146&dcc=t"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781163446146,
+            "d": "amazon.de",
+            "gdpr_consent": "",
+            "gdpr_consent_avl": "",
+            "old_oo": 0,
+            "s": "ATsVFt9P0F8fzXPKOHChDd2ga9yDSPOfBFnz3oEn35zy",
+            "slot": "navFooter",
+            "ts": 1781163446146
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.de&slot=navFooter&old_oo=0&ts=1781163446146&s=ATsVFt9P0F8fzXPKOHChDd2ga9yDSPOfBFnz3oEn35zy&gdpr_consent=&gdpr_consent_avl=&cb=1781163446146"
+      },
+      {
+        "data": {
+          "filter": "/px?t=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bi": "v1_CGrnRw8wg_mu5wmXYtsomgPQHkx2baAwsph9nmDSqZO7PKpql6wiG80X5QgCmgO2vaNgw5R2kmLinHmvWQJ8P1cb_0_jLqiJThFUOB8uEAv6RN0j7GQow6E2DxS-Ybv8GtHdZkqs65FGRRt2yg-DFhocbhZUUJgtWQM9BP9tCk_Sn7bw1AdqBADmbMO0YfV0UypAIIyBwiU2Qm92OI0QIvMIi8601scgBRbQO6k0kQIC8Il1l_aqQ0M6gEX-z19BQmbxPODDuBR1z1QbL8lzOA_hQCCKhSDDFbmU07_TFZcGI0aV242v0jrOdVbhR9q-1v0Zxe5vY_3zm4fhD9rlV-In1f52ZRQbqIkl5_pELcMNwlN7X26b012Iw60iRm-jSCFSoWi4pzgymQ7JVZO6AllqZ7vWseg-YNUkOWZFjjRfJuBeohQFPCRIyLh8Z0YlCoCTRM76utC9XxgfbyqMkL80CXqGoEmWZiw2OKxtoPjyLV52msbFgGeuMhIHS9ftxaoOr1ocROtRwEPb1wrAkmeFG3VILgEPJ2mOHTKrb-uxKXP7YGp2mStMTAv-fzjkRqc37NQkfEX979UF-IVdX0-Za1c73WK0vbN-2v3Qtk4znaea7oE_RgfNxC7WOtzeIm8QWf0XGBVUrutIdvgJ02938azoMQp2RSqh0V0ihr4r4pImHoFAB5z3HTM",
+            "c": {
+              "atf": true
+            },
+            "t": "atf"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.amazon.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aes.eu-west.ono.axp.amazon-adsystem.com/x/px?t=atf&bi=v1_CGrnRw8wg_mu5wmXYtsomgPQHkx2baAwsph9nmDSqZO7PKpql6wiG80X5QgCmgO2vaNgw5R2kmLinHmvWQJ8P1cb_0_jLqiJThFUOB8uEAv6RN0j7GQow6E2DxS-Ybv8GtHdZkqs65FGRRt2yg-DFhocbhZUUJgtWQM9BP9tCk_Sn7bw1AdqBADmbMO0YfV0UypAIIyBwiU2Qm92OI0QIvMIi8601scgBRbQO6k0kQIC8Il1l_aqQ0M6gEX-z19BQmbxPODDuBR1z1QbL8lzOA_hQCCKhSDDFbmU07_TFZcGI0aV242v0jrOdVbhR9q-1v0Zxe5vY_3zm4fhD9rlV-In1f52ZRQbqIkl5_pELcMNwlN7X26b012Iw60iRm-jSCFSoWi4pzgymQ7JVZO6AllqZ7vWseg-YNUkOWZFjjRfJuBeohQFPCRIyLh8Z0YlCoCTRM76utC9XxgfbyqMkL80CXqGoEmWZiw2OKxtoPjyLV52msbFgGeuMhIHS9ftxaoOr1ocROtRwEPb1wrAkmeFG3VILgEPJ2mOHTKrb-uxKXP7YGp2mStMTAv-fzjkRqc37NQkfEX979UF-IVdX0-Za1c73WK0vbN-2v3Qtk4znaea7oE_RgfNxC7WOtzeIm8QWf0XGBVUrutIdvgJ02938azoMQp2RSqh0V0ihr4r4pImHoFAB5z3HTM&c=%7B%22atf%22%3Atrue%7D"
+      },
+      {
+        "data": {
+          "filter": "/px?t=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bi": "v1_CGrnRw8wg_mu5wmXYtsomgPQHkx2baAwsph9nmDSqZO7PKpql6wiG80X5QgCmgO2vaNgw5R2kmLinHmvWQJ8P1cb_0_jLqiJThFUOB8uEAv6RN0j7GQow6E2DxS-Ybv8GtHdZkqs65FGRRt2yg-DFhocbhZUUJgtWQM9BP9tCk_Sn7bw1AdqBADmbMO0YfV0UypAIIyBwiU2Qm92OI0QIvMIi8601scgBRbQO6k0kQIC8Il1l_aqQ0M6gEX-z19BQmbxPODDuBR1z1QbL8lzOA_hQCCKhSDDFbmU07_TFZcGI0aV242v0jrOdVbhR9q-1v0Zxe5vY_3zm4fhD9rlV-In1f52ZRQbqIkl5_pELcMNwlN7X26b012Iw60iRm-jSCFSoWi4pzgymQ7JVZO6AllqZ7vWseg-YNUkOWZFjjRfJuBeohQFPCRIyLh8Z0YlCoCTRM76utC9XxgfbyqMkL80CXqGoEmWZiw2OKxtoPjyLV52msbFgGeuMhIHS9ftxaoOr1ocROtRwEPb1wrAkmeFG3VILgEPJ2mOHTKrb-uxKXP7YGp2mStMTAv-fzjkRqc37NQkfEX979UF-IVdX0-Za1c73WK0vbN-2v3Qtk4znaea7oE_RgfNxC7WOtzeIm8QWf0XGBVUrutIdvgJ02938azoMQp2RSqh0V0ihr4r4pImHoFAB5z3HTM",
+            "c": {
+              "measurementMethod": "btr_client"
+            },
+            "t": "btr"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.amazon.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aes.eu-west.ono.axp.amazon-adsystem.com/x/px?t=btr&bi=v1_CGrnRw8wg_mu5wmXYtsomgPQHkx2baAwsph9nmDSqZO7PKpql6wiG80X5QgCmgO2vaNgw5R2kmLinHmvWQJ8P1cb_0_jLqiJThFUOB8uEAv6RN0j7GQow6E2DxS-Ybv8GtHdZkqs65FGRRt2yg-DFhocbhZUUJgtWQM9BP9tCk_Sn7bw1AdqBADmbMO0YfV0UypAIIyBwiU2Qm92OI0QIvMIi8601scgBRbQO6k0kQIC8Il1l_aqQ0M6gEX-z19BQmbxPODDuBR1z1QbL8lzOA_hQCCKhSDDFbmU07_TFZcGI0aV242v0jrOdVbhR9q-1v0Zxe5vY_3zm4fhD9rlV-In1f52ZRQbqIkl5_pELcMNwlN7X26b012Iw60iRm-jSCFSoWi4pzgymQ7JVZO6AllqZ7vWseg-YNUkOWZFjjRfJuBeohQFPCRIyLh8Z0YlCoCTRM76utC9XxgfbyqMkL80CXqGoEmWZiw2OKxtoPjyLV52msbFgGeuMhIHS9ftxaoOr1ocROtRwEPb1wrAkmeFG3VILgEPJ2mOHTKrb-uxKXP7YGp2mStMTAv-fzjkRqc37NQkfEX979UF-IVdX0-Za1c73WK0vbN-2v3Qtk4znaea7oE_RgfNxC7WOtzeIm8QWf0XGBVUrutIdvgJ02938azoMQp2RSqh0V0ihr4r4pImHoFAB5z3HTM&c=%7B%22measurementMethod%22%3A%22btr_client%22%7D"
+      },
+      {
+        "data": {
+          "filter": "?adspot_",
+          "listName": "easylist.txt",
+          "query": {
+            "adspot_": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.amazon.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adspot_=1"
+      }
+    ]
+  }
+}

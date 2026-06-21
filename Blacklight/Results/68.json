@@ -1,0 +1,271 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cloudflare, Inc. - Investor Relations",
+  "uri_ins": "https://cloudflare.net",
+  "uri_dest": "https://cloudflare.net/home/default.aspx",
+  "uri_redirects": [
+    "https://cloudflare.net/"
+  ],
+  "secure_connection": {},
+  "host": "cloudflare.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:51:26.298Z",
+  "end_time": "2026-06-11T05:51:35.564Z",
+  "browsing_history": [
+    "https://cloudflare.net/home/default.aspx"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cloudflare.net"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "widgets.q4app.com",
+        "assets.web.q4inc.com",
+        "static.cloudflareinsights.com",
+        "login.q4inc.com",
+        "identity.q4inc.com",
+        "d1azc1qln24ryf.cloudfront.net",
+        "auth.platform.q4inc.com",
+        "cdn.icomoon.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://widgets.q4app.com/widgets/requireslib/pdf-js/web/viewer.js": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://widgets.q4app.com/widgets/requireslib/pdf-js/web/viewer.js": [
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ],
+        "https://cloudflare.net/files/js/q4.core.1.0.8.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://cloudflare.net/js/module/widgets/dist/dependencies/evergreen.core.1.0.0.min.js": [
+          "mousedown",
+          "click",
+          "mouseup"
+        ]
+      },
+      "SENSOR": {
+        "https://cloudflare.net/files/js/q4.core.1.0.8.min.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "privacy_jurisdiction",
+        "value": "gdpr",
+        "domain": "cloudflare.net",
+        "path": "/",
+        "expires": "2026-06-12T05:51:27.068Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bpazaws52gukakzc__ctrl0_ctl36_uccaptcha",
+        "value": "4rUcR2fqyHteoUGP0k1VRt1VlS9qCUQeakDgBgV1qWMbupWELgvOfyOZHCzynTJmQ6T2jf/A5t2cTJPor9pctTbYeRA9bdv+BdSGbct8dLlua5P4/ZFMJ8fTMN2m+gs6y5u6t0Y0oFMOuVlRk9tSnheIFpy09oySvZssZflZa7kxXsYEHeEsW/HLJaGrzwqDX0R2WlTpu8g9s8fg0MnW9SwqjILmy3y3jUxO5TFbF/7Oqb/dF1TYtQQ+mZWNQJc8",
+        "domain": "cloudflare.net",
+        "path": "/",
+        "expires": "2026-06-11T07:51:31.137Z",
+        "size": 295,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+07%3A51%3A31+GMT%2B0200+(Central+European+Summer+Time)&version=202505.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=64610cc4-8ccf-4e7c-a411-94b1f3851837&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fcloudflare.net%2Fhome%2Fdefault.aspx&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "cloudflare.net",
+        "path": "/",
+        "expires": "2027-06-11T05:51:31.000Z",
+        "size": 365,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "did",
+        "value": "s%3Av0%3A0e406830-5ef8-4ed4-a400-d31dd50c82c7.7DRl%2FNXy%2BFeq9%2Fe0yKuemPL5wgdTlEg64T%2F4XJGd%2BiI",
+        "domain": "login.q4inc.com",
+        "path": "/",
+        "expires": "2027-06-11T11:51:31.049Z",
+        "size": 102,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "9z9QY31zEy2ptoME2nLGwDCY1PsyHI2OEgbnmBDm.Wc-1781157092-1.2.1.1-lfH6tJWOnJwQKM.BNiDC3lq_oBCmmy1Q_Jz.a5wVVvc3SoDvPVeBQ_I0_vlZxRC0DeH_ETkqNrmtMO5HYbk3MerFJyeEIgv2oeAyiJy.djoLRkBm5uNgQPmkupyxuE4kIwURvesrn4gHsRBWy4N0xOb6y__sHF6zE0UveWtCBhidPEeJGlrz3oxrFkNQ7YIPPqBUOKI.WduWBsaQQZfDC8FScTdX5FjXy5.HOOlhgCDuetEh9lifq.PyNRp2yRuZSCVxFfIf8I_BZYiJU3avAweAGXJE_DQlpDotgtC6B.DCR5XszWiEjFmYB7S8yRbc8xFAE6H6UYgGOwgwc_QCjQ",
+        "domain": "cloudflare.net",
+        "path": "/",
+        "expires": "2027-06-11T05:51:32.352Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://cloudflare.net",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudflare.net/files/js/pdf-js/viewer-v2.html?file=https://cloudflare.net/files/doc_downloads/Presentations/2026/06/New/Master-Deck-2026-Investor-Day-FINAL.pdf#zoom=page-fit",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudflare.net/files/js/pdf-js/viewer-v2.html?file=https://cloudflare.net/files/doc_downloads/Presentations/2026/06/New/Master-Deck-2026-Investor-Day-FINAL.pdf#zoom=page-fit",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "data": {
+          "filter": "/OtAutoBlock.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudflare.net/home/default.aspx",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cookielaw.org/consent/b30980c7-c551-40f8-9e90-b82f97aa67b0-test/OtAutoBlock.js"
+      }
+    ]
+  }
+}

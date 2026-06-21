@@ -1,0 +1,288 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Snap for Developers",
+  "uri_ins": "https://snapkit.com",
+  "uri_dest": "https://developers.snap.com/",
+  "uri_redirects": [
+    "https://snapkit.com/"
+  ],
+  "secure_connection": {},
+  "host": "snapkit.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:41:25.311Z",
+  "end_time": "2026-06-11T10:41:30.945Z",
+  "browsing_history": [
+    "https://developers.snap.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "snapkit.com",
+        "developers.snap.com",
+        "web-platform.snap.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "csp-central.appspot.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "fonts.gstatic.com",
+        "graphql.contentful.com",
+        "www.snapchat.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://developers.snap.com/assets/js/50374.7492fcc3.js": [
+          "touchstart"
+        ],
+        "https://developers.snap.com/assets/js/main.42b288ac.js": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://developers.snap.com/assets/js/50374.7492fcc3.js": [
+          "scroll",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://developers.snap.com/assets/js/main.42b288ac.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-69Q97XG3YZ": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PSZBF8VJ": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://developers.snap.com/assets/js/50374.7492fcc3.js": [
+          "keydown"
+        ],
+        "https://developers.snap.com/assets/js/main.42b288ac.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-69Q97XG3YZ": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.2112711858.1781174488",
+        "domain": "snap.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:27.774Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_69Q97XG3YZ",
+        "value": "GS2.1.s1781174487$o1$g0$t1781174487$j60$l0$h1699881895",
+        "domain": "snap.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:27.813Z",
+        "size": 68,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 2112711858.1781175,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v892286647z89198064795za20gzb9198064795zd9198064795",
+            "npa": 1,
+            "rcb": 11,
+            "tag_exp": "0~115938466~115938469~119349418",
+            "tid": "G-69Q97XG3YZ",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://developers.snap.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-69Q97XG3YZ&cid=2112711858.1781174488&gtm=45je6691v892286647z89198064795za20gzb9198064795zd9198064795&rcb=11&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115938466~115938469~119349418"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 2112711858.1781175,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v892286647z89198064795za20gzb9198064795zd9198064795",
+            "npa": 1,
+            "rcb": 11,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "0~115938466~115938469~119349418",
+            "tid": "G-69Q97XG3YZ",
+            "v": 1,
+            "z": 1298035883
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://developers.snap.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-69Q97XG3YZ&cid=2112711858.1781174488&gtm=45je6691v892286647z89198064795za20gzb9198064795zd9198064795&rcb=11&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115938466~115938469~119349418&z=1298035883"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-69Q97XG3YZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://developers.snap.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-69Q97XG3YZ&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PSZBF8VJ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://developers.snap.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PSZBF8VJ"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-69Q97XG3YZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://developers.snap.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-69Q97XG3YZ"
+      }
+    ]
+  }
+}

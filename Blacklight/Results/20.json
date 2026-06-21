@@ -1,0 +1,598 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Outlook",
+  "uri_ins": "https://live.com",
+  "uri_dest": "https://outlook.live.com/mail/",
+  "uri_redirects": [
+    "https://live.com/",
+    "https://outlook.live.com/owa/"
+  ],
+  "secure_connection": {},
+  "host": "live.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:37:48.775Z",
+  "end_time": "2026-06-11T05:38:11.031Z",
+  "browsing_history": [
+    "https://outlook.live.com/mail/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "live.com",
+        "outlook.live.com",
+        "login.live.com"
+      ],
+      "third_party": [
+        "res.public.onecdn.static.microsoft",
+        "login.microsoftonline.com",
+        "www.microsoft.com",
+        "browser.events.data.microsoft.com",
+        "eu-office.events.data.microsoft.com",
+        "rum.hlx.page",
+        "play.vidyard.com",
+        "uhf.microsoft.com",
+        "cdn-dynmedia-1.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "c.s-microsoft.com",
+        "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "catalogapi.azure.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.microsoft.com/golf/etc.clientlibs/onecloud/clientlibs/clientlib-mwf-new/main-light.ACSHASHfe9d5283cc0a38f995b64bf0f39192eb.min.js": [
+          "mousedown"
+        ],
+        "https://www.microsoft.com/golf/etc.clientlibs/onecloud/clientlibs/clientlib-reimagine/main-light.ACSHASH0610cd00db4c594b8c8fb91de864fba2.min.js": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "click"
+        ],
+        "https://www.microsoft.com/golf/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js": [
+          "scroll",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "keydown"
+        ],
+        "https://www.microsoft.com/golf/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "Cascade.AuthSSO",
+        "value": "1",
+        "domain": "www.microsoft.com",
+        "path": "/en-us/microsoft-365/outlook",
+        "expires": "2026-06-11T06:08:10.781Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ClientId",
+        "value": "A8F4585A05794A26821F2D52C3D4A39D",
+        "domain": "outlook.live.com",
+        "path": "/",
+        "expires": "2027-06-11T05:37:49.851Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "msal.cache.encryption",
+        "value": "%7B%22id%22%3A%22019eb52f-d184-7be2-b683-b46498fbfd01%22%2C%22key%22%3A%22LKbi_JWOpbfvcfvnlNTBvK4zdS8hZ0EafbDUkLiERMg%22%7D",
+        "domain": "outlook.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 144,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esctx-0c7In5dmMx0",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAs7zHs7VCEx74U9FNQ0DwlViDRRxO5FQCaNM9RL9R1Vacn3IZMuwre4fz_vcQIE72vzAFyurnb-k-KvkLNKkHQahPtBMKlFjAFKUQOrYzmb3bZliu6X2nmn2l-kV6KugMmqiPC3c-ewe14twMfxwCOyAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T06:02:52.029Z",
+        "size": 229,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fpc",
+        "value": "At_GifbHp8hMnweV-JGcZJc",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T05:38:09.597Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "stsservicecookie",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MC1",
+        "value": "GUID=545a37b14ae64d7184bdabf85276e0d3&HASH=545a&LV=202606&V=4&LU=1781156272082",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:37:53.208Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MS0",
+        "value": "6f1d2286298646538a972c6da2be46a4",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:07:53.208Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MicrosoftApplicationsTelemetryDeviceId",
+        "value": "92c4976b-91c3-4dfc-b89a-32e2996d3d8b",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:37:55.538Z",
+        "size": 74,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ai_session",
+        "value": "iKBmf1ueXSanwqRSR3YnOm|1781156275572|1781156275572",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:07:55.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSFPC",
+        "value": "GUID=545a37b14ae64d7184bdabf85276e0d3&HASH=545a&LV=202606&V=4&LU=1781156272082",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:38:08.896Z",
+        "size": 83,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "X-OWA-RedirectHistory",
+        "value": "AufwYZgBnNmbnnvH3gg%7CAj4T_GcBJGw8k3vH3gg",
+        "domain": "outlook.live.com",
+        "path": "/",
+        "expires": "2026-06-11T11:40:08.924Z",
+        "size": 62,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esctx-umItwfEGgZo",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAVXCha9MBbw_w_eIV2zHzG03QBrjMYYIAWmZvlZlzKJn3uJgYOzRJiRXco2kQxmJOGT6ZedKBM4OjhrY8IJ0oS0FF99qu9hRdahXn9YdDbiOIlRL1dzmnvF2PX6sY-lyiJ-btUabd38MTsShv5MVSCSAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T06:03:09.597Z",
+        "size": 229,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781156290&co=0",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uaid",
+        "value": "6000bbdfe5b1f4ca774c45508ee16f21",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OParams",
+        "value": "11O.DhzBcQH*clvxylzV1tBltlJZLnkO3eBQ2LQ5P2mXd4bP!jNJIKfV9Ye2uk62nS7Hz1uHZujwQVtOS8aoGzqbpMwRzd0uyxXh4NbAfpMlS4SmUNw36GnqplQFXIiavGdrTrl6PCfdfn6fYsFRtZFTyRk4vp2H3ThJ2UVYsigA5DFzNVTz1ll4zfMKHUu5PXA9J5PX6X6mqNK1QFOuZyy7Mxu5*zDFgx1y7QmH*pgioU3VsxAfwt0UqdExrgLwgVylAmNhduZL7jmu5BNBVvaLkVRBPlmqAZDRC6uF9iAwsffg8flCPqh!j0Kg92YUjoKhl5mDPbTtmE*SskMfbQvu7dyEEa3E0*XFbqYsWKMfHZl1FzXf*KgY6aO4PaXkJ*NMAnSkMT*wiSX5KzGpuxn4z!6ONVutO4urFJfuHPlRO2irvBSf4UYoZkoCa!ZMe1C*fbgGWmQ16j0Pr5utZVLHBDnn594PmR08uR2*qmYq9dpsOBcAG5rzOEt2!iFY0lKm0HRs*cdttObnQ5OzPGaX0tcFmN1q!0Y2kkGiMLw8ZmAEcR*l8EIJ6SU2TyTn1*MnbeI5tARzXegdajcCNkXqnYmY5xoF6MmkDjVO0xYTv*RP8g40rTCw5YVxXZfGi0AIWBLND153CXm1dgf3v9I*8kfQLjSkzz1O6y1Zd2w11wopsPMhb8Cu8FjbpqOjwTjNPLp0uJ3NrsXaG*Dhdzt!eeS8l63A9WujcexsEOaVskn5wHRO91M7ttM88eNtlOad5JWiwvwWw5tOOAkC1EChaFJo1HvjveDVCAftIcBVGJTUTl*ur7m9jhD1qnh2FiJt3IpDpFOHNW6xM0SKS5QYiKzMt8hROaqNqiGu1913Tc3F6ZHOfPk5nNKmUn8HbzXLPfEV*7sUMphHTy0R!JKuTGOvSPNGmvxltmU8lPfcdsau5Ji5KbbYXEql2P37HSBbpJfIFhddfpZDJPb45vE6HIBZ3LLJ4HLUpeNcChOsl*HmrH69tsi1A2V7NlxroQgPbaZWYlrJEFbjoux5YtQYQAmZPjzcJffBCs!JocrlqXGa0hKh!ixSCDrHQ3DonEZyV71Iu0!cf*AQCZr*VoH*X6vNjeHoZB32hVOcQVQrflcbsDSjuCjWbT2kgUXs44IEs713bGlwmfYOUYmIWWgBbiudrCB18PePBQyhh0gCljB0Qrwm8Jo8cYwCnaK!cfcy1mPjHgWRrwCbzPaatRD!2Hkc8Tu0A*QohE3wn6A6tWDAJh5hqfjgW3OUa128yReThiU8Q3VxoEJ20NNyPsDgFmZ5RzGUvF!cRIiaKVQXihU5dHBQTBv5fC6eMO9ZGJXo1GAnXFTlxO5qGpefQ7OZU0V6JNVhj0oNPLYIPL21bykvybU5aeMP*stIsChBRGS3J2vGpA2ct240bhZ5ovPb3Yrm82wDMSy2QLmOSWIdoOfoCVq9ZgDVxzZPj7jN4o9UGklRNqXx88y1JiCG*uZqHkWkMGj3U8o1gUeBC7ykhRzEW7njUUcqSrABsZsQ0jQPpqKpz4pNVxsE8Ff4oS90mZvumhPUBZ2LPnZ2VQgh!FHinAgdl!tmCC8F5spoacAzMmAAjJ*HZaRSKIOaxO9JknP5cSimY8lvgZIVAqUwxuj6EH7N7i05OOsnq1iv98aICDKNvl9G1v4DK3iuushL1ibtIZCv!ePhIv1wm4B6eZTVLtMTBHTVElgTe*evPYfC3hgx7z7ARPeY3iGFOQeCEin1V3w!q8ePuFqJqAU2ioy5f43sJp66XUfefQvTbxNcFWpNVlK0SQC1PpzG1GF2Tsq8SxPvSkn11NHicT7AqNpYeEfc8Z3EY0PPA7v4GXb7MMF18uf3D9BZEGKlyCnTEHEBuPc536h0FcZKvO4zabhIa82KD7oRQDW3cHVI5EffgIKpoElauH5o5Z9fqt6dVjJuk5ilqN!qkZwdZlXB3zojqD5yQg1P!XclsxyhL5t2TjcylZIeTS0*OqhWwFABRqhG6wNbmTiqg!onJVUqPGWYbjyar83oMaD2ILJJamyjiQ$$",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 2063,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "NoResponseBody": true,
+            "apikey": "56468f6991c348029c6bba403b444607-2cc7a802-0cc9-4c56-a5c7-539f55b73f11-6967",
+            "client-id": "NO_AUTH",
+            "client-version": "1DS-Web-JS-4.3.7",
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "time-delta-to-apply-millis": "use-collector-delta",
+            "upload-time": 1781156290611,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://outlook.live.com/mail/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eu-office.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-4.3.7&apikey=56468f6991c348029c6bba403b444607-2cc7a802-0cc9-4c56-a5c7-539f55b73f11-6967&upload-time=1781156290611&time-delta-to-apply-millis=use-collector-delta&w=0&NoResponseBody=true"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apikey": "1cfc1aff02e4437889594f14c4cad289-5bf9ec06-73a3-4827-a5e7-d709ff3d3b12-6941",
+            "client-id": "NO_AUTH",
+            "client-version": "1DS-Web-JS-3.2.18",
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "upload-time": 1781156288889,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?redirectTo=%2Fmail%2F&sdf=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=1cfc1aff02e4437889594f14c4cad289-5bf9ec06-73a3-4827-a5e7-d709ff3d3b12-6941&upload-time=1781156288889&w=0"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "NoResponseBody": true,
+            "apikey": "1cfc1aff02e4437889594f14c4cad289-5bf9ec06-73a3-4827-a5e7-d709ff3d3b12-6941",
+            "client-id": "NO_AUTH",
+            "client-version": "1DS-Web-JS-3.2.18",
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "time-delta-to-apply-millis": "use-collector-delta",
+            "upload-time": 1781156288882,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?redirectTo=%2Fmail%2F&sdf=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-3.2.18&apikey=1cfc1aff02e4437889594f14c4cad289-5bf9ec06-73a3-4827-a5e7-d709ff3d3b12-6941&upload-time=1781156288882&time-delta-to-apply-millis=use-collector-delta&w=0&NoResponseBody=true"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?redirectTo=%2Fmail%2F&sdf=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "NoResponseBody": true,
+            "apikey": "56468f6991c348029c6bba403b444607-2cc7a802-0cc9-4c56-a5c7-539f55b73f11-6967",
+            "client-id": "NO_AUTH",
+            "client-version": "1DS-Web-JS-4.3.7",
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "time-delta-to-apply-millis": "use-collector-delta",
+            "upload-time": 1781156271897,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://outlook.live.com/mail/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eu-office.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-4.3.7&apikey=56468f6991c348029c6bba403b444607-2cc7a802-0cc9-4c56-a5c7-539f55b73f11-6967&upload-time=1781156271897&time-delta-to-apply-millis=use-collector-delta&w=0&NoResponseBody=true"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "NoResponseBody": true,
+            "apikey": "d634483c08244c1ca09af2b2d952c92e-ab2bba03-2ba3-49d8-a82c-ef6da750d8ab-7725",
+            "client-id": "NO_AUTH",
+            "client-version": "1DS-Web-JS-4.3.7",
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "time-delta-to-apply-millis": "use-collector-delta",
+            "upload-time": 1781156271893,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://outlook.live.com/mail/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-4.3.7&apikey=d634483c08244c1ca09af2b2d952c92e-ab2bba03-2ba3-49d8-a82c-ef6da750d8ab-7725&upload-time=1781156271893&time-delta-to-apply-millis=use-collector-delta&w=0&NoResponseBody=true"
+      }
+    ]
+  }
+}

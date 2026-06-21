@@ -1,0 +1,494 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "VDS/VPS хостинг от NetAngels — надежные виртуальные серверы в России",
+  "uri_ins": "https://netangels.ru",
+  "uri_dest": "https://www.netangels.ru/",
+  "uri_redirects": [
+    "https://netangels.ru/"
+  ],
+  "secure_connection": {},
+  "host": "netangels.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:54:09.804Z",
+  "end_time": "2026-06-11T07:54:18.221Z",
+  "browsing_history": [
+    "https://www.netangels.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "netangels.ru",
+        "www.netangels.ru",
+        "media.netangels.ru"
+      ],
+      "third_party": [
+        "api.s.mindbox.ru",
+        "mc.yandex.ru",
+        "web-static.s.mindbox.ru",
+        "mc.yandex.com",
+        "www.google.com",
+        "www.gstatic.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.netangels.ru/_next/static/chunks/main-9dcd7fbe3ee68d926202.js": [
+          "click"
+        ],
+        "https://www.netangels.ru/_next/static/chunks/161-00d37bdd7ad8bf62fba7.js": [
+          "mouseup"
+        ],
+        "https://www.netangels.ru/_next/static/chunks/5382-cdfa79859e47ee8f5297.js": [
+          "scroll"
+        ],
+        "https://www.netangels.ru/_next/static/chunks/2c26fc71-a9fcb85f85369c1de334.js": [
+          "mouseup",
+          "mousemove"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "scroll",
+          "select",
+          "mousedown",
+          "mousemove",
+          "click",
+          "mouseup",
+          "dblclick"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.netangels.ru/_next/static/chunks/main-9dcd7fbe3ee68d926202.js": [
+          "keydown"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "keyup",
+          "keydown",
+          "input",
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__ddg9_",
+        "value": "88.20.13.109",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2026-06-11T08:14:15.486Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__ddg1_",
+        "value": "kHTy8Sz12sHqodhfx4dK",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:54:10.964Z",
+        "size": 27,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "deviceUUID",
+        "value": "f90703e3-697a-4f76-ad0f-147877664bd9",
+        "domain": "api.s.mindbox.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:54:13.028Z",
+        "size": 46,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mindboxDeviceUUID",
+        "value": "f90703e3-697a-4f76-ad0f-147877664bd9",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:54:13.037Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "directCrm-session",
+        "value": "%7B%22deviceGuid%22%3A%22f90703e3-697a-4f76-ad0f-147877664bd9%22%7D",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:54:13.039Z",
+        "size": 84,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_uid",
+        "value": "1781164453548157708",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:54:13.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1781164453",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:54:13.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2026-06-12T03:54:13.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_visorc",
+        "value": "w",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2026-06-11T08:24:13.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__ddg10_",
+        "value": "1781164455",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2026-06-11T08:14:15.486Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__ddg8_",
+        "value": "I5AG15rqhuhk81XA",
+        "domain": "netangels.ru",
+        "path": "/",
+        "expires": "2026-06-11T08:14:15.486Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "mc.yandex.ru/metrika/tag.js": [
+        "mc.yandex.ru/metrika/tag.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "we:1:et:1781164458:w:375x812:v:2540:z:120:i:20260611095418:u:1781164453548157708:vf:pupr1nz2sms3kwcribikwbeshnsgr:st:1781164458",
+            "hidv2": 3223651260102344700,
+            "page-url": "https://www.netangels.ru/",
+            "rn": 548077551,
+            "t": "gdpr(14)ti(1)",
+            "wmode": 0,
+            "wv-check": 8266,
+            "wv-hit": 893666654,
+            "wv-part": 1,
+            "wv-type": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/webvisor/24432221?wv-part=1&wv-check=8266&wv-type=0&wmode=0&wv-hit=893666654&page-url=https%3A%2F%2Fwww.netangels.ru%2F&rn=548077551&hidv2=3223651260102344855&browser-info=we%3A1%3Aet%3A1781164458%3Aw%3A375x812%3Av%3A2540%3Az%3A120%3Ai%3A20260611095418%3Au%3A1781164453548157708%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Ast%3A1781164458&t=gdpr(14)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/ytm-config/24432221?wmode=7"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:66722376081:hid:893666654:z:120:i:20260611095413:et:1781164453:c:1:rn:392617025:rqn:1:u:1781164453548157708:w:375x812:s:375x812x24:sk:3:fp:2587:wv:2:ds:0,114,436,25,755,0,,1160,,,,,:co:0:hdl:1:ns:1781164450210:rqnl:1:st:1781164453:t:VDS/VPS хостинг от NetAngels — надежные виртуальные серверы в России",
+            "charset": "utf-8",
+            "page-url": "https://www.netangels.ru/",
+            "redirnss": 1,
+            "t": "gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010116)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/24432221/1?wmode=7&page-url=https%3A%2F%2Fwww.netangels.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A66722376081%3Ahid%3A893666654%3Az%3A120%3Ai%3A20260611095413%3Aet%3A1781164453%3Ac%3A1%3Arn%3A392617025%3Arqn%3A1%3Au%3A1781164453548157708%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A2587%3Awv%3A2%3Ads%3A0%2C114%2C436%2C25%2C755%2C0%2C%2C1160%2C%2C%2C%2C%2C%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781164450210%3Arqnl%3A1%3Ast%3A1781164453%3At%3AVDS%2FVPS%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%BE%D1%82%20NetAngels%20%E2%80%94%20%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%8B%20%D0%B2%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29eco%2842010116%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:66722376081:hid:893666654:z:120:i:20260611095413:et:1781164453:c:1:rn:392617025:rqn:1:u:1781164453548157708:w:375x812:s:375x812x24:sk:3:fp:2587:wv:2:ds:0,114,436,25,755,0,,1160,,,,,:co:0:hdl:1:ns:1781164450210:rqnl:1:st:1781164453:t:VDS/VPS хостинг от NetAngels — надежные виртуальные серверы в России",
+            "charset": "utf-8",
+            "page-url": "https://www.netangels.ru/",
+            "t": "gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010116)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/24432221?wmode=7&page-url=https%3A%2F%2Fwww.netangels.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A66722376081%3Ahid%3A893666654%3Az%3A120%3Ai%3A20260611095413%3Aet%3A1781164453%3Ac%3A1%3Arn%3A392617025%3Arqn%3A1%3Au%3A1781164453548157708%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A2587%3Awv%3A2%3Ads%3A0%2C114%2C436%2C25%2C755%2C0%2C%2C1160%2C%2C%2C%2C%2C%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781164450210%3Arqnl%3A1%3Ast%3A1781164453%3At%3AVDS%2FVPS%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%BE%D1%82%20NetAngels%20%E2%80%94%20%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%8B%20%D0%B2%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8&t=gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010116)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "/track-visit?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "transport": "XmlHttpRequest",
+            "version": "1.0.798"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.s.mindbox.ru/v1.1/customer/track-visit?version=1.0.798&transport=XmlHttpRequest"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/v1/tracker.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netangels.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.s.mindbox.ru/scripts/v1/tracker.js"
+      }
+    ]
+  }
+}

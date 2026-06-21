@@ -1,0 +1,707 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "AI Infrastructure, Secure Networking, and Software Solutions - Cisco",
+  "uri_ins": "https://cisco.com",
+  "uri_dest": "https://www.cisco.com/",
+  "uri_redirects": [
+    "https://cisco.com/"
+  ],
+  "secure_connection": {},
+  "host": "cisco.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:53:41.106Z",
+  "end_time": "2026-06-11T06:53:47.800Z",
+  "browsing_history": [
+    "https://www.cisco.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cisco.com",
+        "www.cisco.com",
+        "virtualconcierge.cisco.com"
+      ],
+      "third_party": [
+        "rum.hlx.page",
+        "cdn.cookielaw.org",
+        "s.go-mpulse.net",
+        "players.brightcove.net",
+        "cf-images.us-east-1.prod.boltdns.net",
+        "c.go-mpulse.net",
+        "edge.api.brightcove.com",
+        "metrics.brightcove.com",
+        "geolocation.onetrust.com",
+        "manifest.prod.boltdns.net",
+        "684dd331.akstat.io",
+        "fastly-signed-us-east-1-prod.brightcovecdn.com",
+        "trial-eum-clientnsv4-s.akamaihd.net",
+        "trial-eum-clienttons-s.akamaihd.net",
+        "laka23iccbme42rkln4a-pdf9z8-5baeea7f0-clientnsv4-s.akamaihd.net",
+        "tags.tiqcdn.com",
+        "88-20-13-109_s-185-43-182-121_ts-1781160825-clienttons-s.akamaihd.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://tags.tiqcdn.com/utag/cisco/home/prod/utag.js": [
+          "click"
+        ],
+        "https://s.go-mpulse.net/boomerang/GKZXC-NS3SU-A7VFH-HKBHM-U7LKH": [
+          "mousedown",
+          "mousemove",
+          "click",
+          "scroll",
+          "mouseup"
+        ],
+        "https://www.cisco.com/etc.clientlibs/cisco-cdc/clientlibs/clientlib-homepage.lc-ab3e57fb1637789ba5d7245dce2654c5-lc.min.js": [
+          "click"
+        ],
+        "https://www.cisco.com/etc.clientlibs/cisco-cdc/clientlibs/clientlib-dependencies.lc-0c88cdcf7f4e6e25665417a58577120c-lc.min.js": [
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://s.go-mpulse.net/boomerang/GKZXC-NS3SU-A7VFH-HKBHM-U7LKH": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://s.go-mpulse.net/boomerang/GKZXC-NS3SU-A7VFH-HKBHM-U7LKH": [
+          "orientationchange"
+        ],
+        "https://www.cisco.com/etc.clientlibs/cisco-cdc/clientlibs/clientlib-dependencies.lc-0c88cdcf7f4e6e25665417a58577120c-lc.min.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://s.go-mpulse.net/boomerang/GKZXC-NS3SU-A7VFH-HKBHM-U7LKH": [
+          "keydown"
+        ],
+        "https://www.cisco.com/etc.clientlibs/cisco-cdc/clientlibs/clientlib-homepage.lc-ab3e57fb1637789ba5d7245dce2654c5-lc.min.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "c_bi",
+        "value": "c47bbafb538ed72b4d78aed1610a9ad0",
+        "domain": "www.cisco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "affinity",
+        "value": "\"b57f006774c01720\"",
+        "domain": "www.cisco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "RT",
+        "value": "\"z=1&dm=www.cisco.com&si=4ae4e4dd-a087-42fa-835b-3a042c3269cf&ss=mq955xrk&sl=1&tt=28j&bcn=%2F%2F684dd331.akstat.io%2F&ld=29y\"",
+        "domain": "www.cisco.com",
+        "path": "/",
+        "expires": "2026-06-18T06:53:44.000Z",
+        "size": 127,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A53%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8943ef1a-b120-4356-8067-df05267820de&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.cisco.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0",
+        "domain": "cisco.com",
+        "path": "/",
+        "expires": "2027-06-11T06:53:44.000Z",
+        "size": 329,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main",
+        "value": "v_id:019eb57551df0014ef44573bb20d00087001607f004bb$_sn:1$_se:1$_ss:1$_st:1781162625315$ses_id:1781160825315%3Bexp-session$_pn:1%3Bexp-session$entryurl:https%253A%252F%252Fwww.cisco.com%252F%3Bexp-session",
+        "domain": "cisco.com",
+        "path": "/",
+        "expires": "2027-06-11T06:53:45.000Z",
+        "size": 212,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "ads_enabled": false,
+            "autoplay": true,
+            "custom_fields": "[object Object]",
+            "delivery_type": "ondemand",
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "video_engagement",
+            "forward_buffer_seconds": 4.352695,
+            "measured_bps": 10000000,
+            "media_bytes_transferred": 250040,
+            "media_requests": 1,
+            "media_seconds_loaded": 7.033,
+            "media_transfer_duration": 217,
+            "media_type": "video",
+            "media_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1384193102001/559e401f-c80d-4155-8629-f7ef52b9f0be/10s/master.m3u8?fastly_token=NmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%3D%3D",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_height": 212,
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "player_width": 375,
+            "qos.bitrates": {
+              "bitrates": [],
+              "playlists": [],
+              "rendered": [
+                [
+                  1781160824897,
+                  273900
+                ]
+              ],
+              "throughput": []
+            },
+            "qos.derived_range": "0..1",
+            "qos.events.content.canplay": 1781160824901,
+            "qos.events.content.canplaythrough": 1781160824902,
+            "qos.events.content.durationchange": [
+              1781160824283,
+              1781160824618,
+              1781160824889
+            ],
+            "qos.events.content.loadeddata": 1781160824900,
+            "qos.events.content.loadedmetadata": 1781160824892,
+            "qos.events.content.loadstart": 1781160824285,
+            "qos.events.content.play": 1781160824305,
+            "qos.events.content.playing": 1781160824901,
+            "qos.events.content.resize": 1781160824889,
+            "qos.events.content.waiting": 1781160824311,
+            "qos.frames.corrupted": 0,
+            "qos.frames.dropped": 1,
+            "qos.frames.total": 88,
+            "qos.player.dimensions": [
+              [
+                1781160824890,
+                "0x0",
+                "375x211.875"
+              ],
+              [
+                1781160824895,
+                "0x0",
+                "375x211.875"
+              ]
+            ],
+            "qos.player.pixelratio": [
+              [
+                1781160824890,
+                3
+              ],
+              [
+                1781160824895,
+                3
+              ]
+            ],
+            "qos.player.screendimensions": [
+              [
+                1781160824890,
+                "375x812"
+              ],
+              [
+                1781160824895,
+                "375x812"
+              ]
+            ],
+            "range": "0..1",
+            "rendition_height": 216,
+            "rendition_indicated_bps": 273900,
+            "rendition_mime_type": "application/vnd.apple.mpegurl",
+            "rendition_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1384193102001/559e401f-c80d-4155-8629-f7ef52b9f0be/3d3be073-0a6a-4131-8f2a-783e286befe2/10s/rendition.m3u8?fastly_token=NmEyYWIzNjRfMzZiMDMyMzllOWUwMDBkZWJjNDYyYWI4YmIyOGQ0ODQ1YmM4MjQ4YmNlZTU3MDYzMjFhNTQ3YzBjMjViM2E2Ng%3D%3D",
+            "rendition_width": 384,
+            "seq": "7_0",
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "tags": "ai,campaign,anonymous guest",
+            "time": 1781160827688,
+            "usage": "not-viewable,not-viewable-0.59,pagehide,qualityLevels!4.1.0,variant%3Aen-us,viewable,viewable-1",
+            "video": 6396875227112,
+            "video_ads_supported": true,
+            "video_data": "[object Object]",
+            "video_duration": 7.033333,
+            "video_name": "AI brand campaign video with smoke animation"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&autoplay=true&ads_enabled=false&delivery_type=ondemand&media_type=video&time=1781160827688&usage=not-viewable%2Cnot-viewable-0.59%2Cpagehide%2CqualityLevels!4.1.0%2Cvariant%253Aen-us%2Cviewable%2Cviewable-1&event=video_engagement&video=6396875227112&video_name=AI%20brand%20campaign%20video%20with%20smoke%20animation&custom_fields=%5Bobject%20Object%5D&video_data=%5Bobject%20Object%5D&video_ads_supported=true&tags=ai%2Ccampaign%2Canonymous%20guest&video_duration=7.033333&media_url=https%3A%2F%2Fmanifest.prod.boltdns.net%2Fmanifest%2Fv1%2Fhls%2Fv4%2Fclear%2F1384193102001%2F559e401f-c80d-4155-8629-f7ef52b9f0be%2F10s%2Fmaster.m3u8%3Ffastly_token%3DNmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%253D%253D&qos.bitrates=%7B%22bitrates%22%3A%5B%5D%2C%22playlists%22%3A%5B%5D%2C%22rendered%22%3A%5B%5B1781160824897%2C273900%5D%5D%2C%22throughput%22%3A%5B%5D%7D&qos.events.content.durationchange=%5B1781160824283%2C1781160824618%2C1781160824889%5D&qos.events.content.loadstart=1781160824285&qos.events.content.play=1781160824305&qos.events.content.waiting=1781160824311&qos.events.content.resize=1781160824889&qos.events.content.loadedmetadata=1781160824892&qos.events.content.loadeddata=1781160824900&qos.events.content.canplay=1781160824901&qos.events.content.playing=1781160824901&qos.events.content.canplaythrough=1781160824902&qos.player.dimensions=%5B%5B1781160824890%2C%220x0%22%2C%22375x211.875%22%5D%2C%5B1781160824895%2C%220x0%22%2C%22375x211.875%22%5D%5D&qos.player.pixelratio=%5B%5B1781160824890%2C3%5D%2C%5B1781160824895%2C3%5D%5D&qos.player.screendimensions=%5B%5B1781160824890%2C%22375x812%22%5D%2C%5B1781160824895%2C%22375x812%22%5D%5D&qos.frames.dropped=1&qos.frames.corrupted=0&qos.frames.total=88&seq=7_0&player_height=212&player_width=375&rendition_width=384&rendition_height=216&rendition_url=https%3A%2F%2Fmanifest.prod.boltdns.net%2Fmanifest%2Fv1%2Fhls%2Fv4%2Fclear%2F1384193102001%2F559e401f-c80d-4155-8629-f7ef52b9f0be%2F3d3be073-0a6a-4131-8f2a-783e286befe2%2F10s%2Frendition.m3u8%3Ffastly_token%3DNmEyYWIzNjRfMzZiMDMyMzllOWUwMDBkZWJjNDYyYWI4YmIyOGQ0ODQ1YmM4MjQ4YmNlZTU3MDYzMjFhNTQ3YzBjMjViM2E2Ng%253D%253D&rendition_indicated_bps=273900&rendition_mime_type=application%2Fvnd.apple.mpegurl&media_requests=1&media_transfer_duration=217&media_bytes_transferred=250040&measured_bps=10000000&media_seconds_loaded=7.033&forward_buffer_seconds=4.352695&qos.derived_range=0..1&range=0..1"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "ads_enabled": false,
+            "autoplay": true,
+            "custom_fields": "[object Object]",
+            "delivery_type": "ondemand",
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "video_view",
+            "load_time_ms": 616,
+            "media_type": "video",
+            "media_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1384193102001/559e401f-c80d-4155-8629-f7ef52b9f0be/10s/master.m3u8?fastly_token=NmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%3D%3D",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "seq": "6_0",
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "start_time_ms": 593,
+            "tags": "ai,campaign,anonymous guest",
+            "time": 1781160824901,
+            "video": 6396875227112,
+            "video_ads_supported": true,
+            "video_data": "[object Object]",
+            "video_duration": 7,
+            "video_name": "AI brand campaign video with smoke animation"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&autoplay=true&ads_enabled=false&delivery_type=ondemand&media_type=video&time=1781160824901&event=video_view&video=6396875227112&video_name=AI%20brand%20campaign%20video%20with%20smoke%20animation&custom_fields=%5Bobject%20Object%5D&video_data=%5Bobject%20Object%5D&video_ads_supported=true&tags=ai%2Ccampaign%2Canonymous%20guest&video_duration=7&media_url=https%3A%2F%2Fmanifest.prod.boltdns.net%2Fmanifest%2Fv1%2Fhls%2Fv4%2Fclear%2F1384193102001%2F559e401f-c80d-4155-8629-f7ef52b9f0be%2F10s%2Fmaster.m3u8%3Ffastly_token%3DNmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%253D%253D&seq=6_0&load_time_ms=616&start_time_ms=593"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://684dd331.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "ads_enabled": false,
+            "autoplay": true,
+            "custom_fields": "[object Object]",
+            "delivery_type": "ondemand",
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "video_impression",
+            "media_type": "video",
+            "media_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1384193102001/559e401f-c80d-4155-8629-f7ef52b9f0be/10s/master.m3u8?fastly_token=NmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%3D%3D",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "preload": "auto",
+            "qos.content.sourceMimeType": "application/vnd.apple.mpegurl",
+            "seq": "5_0",
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "tags": "ai,campaign,anonymous guest",
+            "time": 1781160824285,
+            "video": 6396875227112,
+            "video_ads_supported": true,
+            "video_data": "[object Object]",
+            "video_duration": 7,
+            "video_name": "AI brand campaign video with smoke animation"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&autoplay=true&ads_enabled=false&delivery_type=ondemand&media_type=video&time=1781160824285&event=video_impression&video=6396875227112&video_name=AI%20brand%20campaign%20video%20with%20smoke%20animation&custom_fields=%5Bobject%20Object%5D&video_data=%5Bobject%20Object%5D&video_ads_supported=true&tags=ai%2Ccampaign%2Canonymous%20guest&video_duration=7&media_url=https%3A%2F%2Fmanifest.prod.boltdns.net%2Fmanifest%2Fv1%2Fhls%2Fv4%2Fclear%2F1384193102001%2F559e401f-c80d-4155-8629-f7ef52b9f0be%2F10s%2Fmaster.m3u8%3Ffastly_token%3DNmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%253D%253D&qos.content.sourceMimeType=application%2Fvnd.apple.mpegurl&seq=5_0&preload=auto"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "ads_enabled": false,
+            "autoplay": true,
+            "custom_fields": "[object Object]",
+            "delivery_type": "ondemand",
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "play_request",
+            "media_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/1384193102001/559e401f-c80d-4155-8629-f7ef52b9f0be/10s/master.m3u8?fastly_token=NmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%3D%3D",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "seq": "4_-1",
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "tags": "ai,campaign,anonymous guest",
+            "time": 1781160824305,
+            "video": 6396875227112,
+            "video_ads_supported": true,
+            "video_data": "[object Object]",
+            "video_duration": 7,
+            "video_name": "AI brand campaign video with smoke animation"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&autoplay=true&ads_enabled=false&delivery_type=ondemand&time=1781160824305&event=play_request&video=6396875227112&video_name=AI%20brand%20campaign%20video%20with%20smoke%20animation&custom_fields=%5Bobject%20Object%5D&video_data=%5Bobject%20Object%5D&video_ads_supported=true&tags=ai%2Ccampaign%2Canonymous%20guest&video_duration=7&media_url=https%3A%2F%2Fmanifest.prod.boltdns.net%2Fmanifest%2Fv1%2Fhls%2Fv4%2Fclear%2F1384193102001%2F559e401f-c80d-4155-8629-f7ef52b9f0be%2F10s%2Fmaster.m3u8%3Ffastly_token%3DNmEyYWE5NDNfY2I3OGY3MGJiODRmM2U0MDEzMWQxODg4ZDdmNWQ1YWEzZDI0ZjU3MjUwZjQ0YjA5MjU4N2MyY2ZmMTUzNjhmOQ%253D%253D&seq=4_-1"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "ads_enabled": false,
+            "autoplay": true,
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "catalog_response",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "response_time_ms": 142,
+            "seq": 3,
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "time": 1781160824180,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/1384193102001/videos/6396875227112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&autoplay=true&ads_enabled=false&event=catalog_response&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F1384193102001%2Fvideos%2F6396875227112&time=1781160824180&seq=3&response_time_ms=142"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "ads_enabled": false,
+            "autoplay": true,
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "player_load",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "qos.performance.memory.jsHeapSizeLimit": 2298478592,
+            "qos.performance.memory.totalJSHeapSize": 18875988,
+            "qos.performance.memory.usedJSHeapSize": 14478824,
+            "qos.performance.navigation.directedMigration": false,
+            "qos.performance.navigation.redirectCount": 0,
+            "qos.performance.navigation.type": 0,
+            "qos.performance.timing.connectEnd": 1781160822266,
+            "qos.performance.timing.connectStart": 1781160822204,
+            "qos.performance.timing.domComplete": 0,
+            "qos.performance.timing.domContentLoadedEventEnd": 1781160823692,
+            "qos.performance.timing.domContentLoadedEventStart": 1781160823635,
+            "qos.performance.timing.domInteractive": 1781160823635,
+            "qos.performance.timing.domLoading": 1781160822319,
+            "qos.performance.timing.domainLookupEnd": 1781160822204,
+            "qos.performance.timing.domainLookupStart": 1781160822204,
+            "qos.performance.timing.fetchStart": 1781160822182,
+            "qos.performance.timing.loadEventEnd": 0,
+            "qos.performance.timing.loadEventStart": 0,
+            "qos.performance.timing.navigationStart": 1781160821552,
+            "qos.performance.timing.redirectEnd": 0,
+            "qos.performance.timing.redirectStart": 0,
+            "qos.performance.timing.requestStart": 1781160822267,
+            "qos.performance.timing.responseEnd": 1781160822355,
+            "qos.performance.timing.responseStart": 1781160822306,
+            "qos.performance.timing.secureConnectionStart": 1781160822224,
+            "qos.performance.timing.unloadEventEnd": 0,
+            "qos.performance.timing.unloadEventStart": 0,
+            "qos.player.dimensions": [
+              [
+                1781160824083,
+                "0x0",
+                "375x211.875"
+              ]
+            ],
+            "qos.player.pixelratio": [
+              [
+                1781160824083,
+                3
+              ]
+            ],
+            "qos.player.screendimensions": [
+              [
+                1781160824083,
+                "375x812"
+              ]
+            ],
+            "seq": 2,
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "time": 1781160824085,
+            "usage": "additionalClasses!,inpage-embed"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&autoplay=true&ads_enabled=false&usage=additionalClasses!%2Cinpage-embed&event=player_load&time=1781160824085&qos.performance.memory.jsHeapSizeLimit=2298478592&qos.performance.memory.usedJSHeapSize=14478824&qos.performance.memory.totalJSHeapSize=18875988&qos.performance.navigation.redirectCount=0&qos.performance.navigation.type=0&qos.performance.navigation.directedMigration=false&qos.performance.timing.loadEventEnd=0&qos.performance.timing.loadEventStart=0&qos.performance.timing.domComplete=0&qos.performance.timing.domContentLoadedEventEnd=1781160823692&qos.performance.timing.domContentLoadedEventStart=1781160823635&qos.performance.timing.domInteractive=1781160823635&qos.performance.timing.domLoading=1781160822319&qos.performance.timing.responseEnd=1781160822355&qos.performance.timing.responseStart=1781160822306&qos.performance.timing.requestStart=1781160822267&qos.performance.timing.secureConnectionStart=1781160822224&qos.performance.timing.connectEnd=1781160822266&qos.performance.timing.connectStart=1781160822204&qos.performance.timing.domainLookupEnd=1781160822204&qos.performance.timing.domainLookupStart=1781160822204&qos.performance.timing.fetchStart=1781160822182&qos.performance.timing.redirectEnd=0&qos.performance.timing.redirectStart=0&qos.performance.timing.unloadEventEnd=0&qos.performance.timing.unloadEventStart=0&qos.performance.timing.navigationStart=1781160821552&qos.player.dimensions=%5B%5B1781160824083%2C%220x0%22%2C%22375x211.875%22%5D%5D&qos.player.pixelratio=%5B%5B1781160824083%2C3%5D%5D&qos.player.screendimensions=%5B%5B1781160824083%2C%22375x812%22%5D%5D&seq=2"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "autoplay": true,
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "catalog_request",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "seq": 1,
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "time": 1781160824038,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/1384193102001/videos/6396875227112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&event=catalog_request&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F1384193102001%2Fvideos%2F6396875227112&time=1781160824038&autoplay=true&seq=1"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1384193102001,
+            "autoplay": true,
+            "destination": "https://www.cisco.com/",
+            "domain": "videocloud",
+            "event": "player_init",
+            "platform": "video-js",
+            "platform_version": "7.41.6",
+            "player": "players.brightcove.com/1384193102001/NyTWWjn5e_default",
+            "player_mode": "media",
+            "player_name": "Background player - IN PRODUCTION",
+            "seq": 0,
+            "session": "df402b0d70d6e6dce74af090",
+            "source": "",
+            "time": 1781160824031
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=df402b0d70d6e6dce74af090&player_mode=media&account=1384193102001&destination=https%3A%2F%2Fwww.cisco.com%2F&platform_version=7.41.6&player=players.brightcove.com%2F1384193102001%2FNyTWWjn5e_default&player_name=Background%20player%20-%20IN%20PRODUCTION&source=&event=player_init&time=1781160824031&autoplay=true&seq=0"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 271834,
+            "d": "www.cisco.com",
+            "key": "GKZXC-NS3SU-A7VFH-HKBHM-U7LKH",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN",
+            "si": "2d48fa4b-3d18-4cf4-a81d-b36fe72c54e3-tggghi",
+            "sl": 0,
+            "t": 5937203,
+            "v": "1.737.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=GKZXC-NS3SU-A7VFH-HKBHM-U7LKH&d=www.cisco.com&t=5937203&v=1.737.0&sl=0&si=2d48fa4b-3d18-4cf4-a81d-b36fe72c54e3-tggghi&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=271834"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/GKZXC-NS3SU-A7VFH-HKBHM-U7LKH"
+      }
+    ]
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Newest Questions - Stack Overflow",
+  "uri_ins": "https://stackoverflow.com",
+  "uri_dest": "https://stackoverflow.com/questions",
+  "uri_redirects": [
+    "https://stackoverflow.com/"
+  ],
+  "secure_connection": {},
+  "host": "stackoverflow.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:10:57.882Z",
+  "end_time": "2026-06-11T08:11:05.132Z",
+  "browsing_history": [
+    "https://stackoverflow.com/questions"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "stackoverflow.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "ajax.googleapis.com",
+        "www.gravatar.com",
+        "i.sstatic.net",
+        "lh3.googleusercontent.com",
+        "www.googletagmanager.com",
+        "securepubads.g.doubleclick.net",
+        "htlbid.com",
+        "accounts.google.com",
+        "geolocation.onetrust.com",
+        "dn0qt3r0xannq.cloudfront.net",
+        "region1.google-analytics.com",
+        "raven-edge.aditude.io",
+        "edge.aditude.io",
+        "geo-location.prebid.cloud",
+        "raven-static.aditude.io",
+        "geo.aditude.io",
+        "fonts.gstatic.com",
+        "ams-pageview-public.s3.amazonaws.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "/_/gsi/_/js/k=gsi.gsi.es.1VCmNegQPO0.O/am=AAAAAAkC2AIC/d=1/rs=AF0KOtXH0u1vxE1vDJ6LMlNSi1yANtn23A/m=credential_server_library": [
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "https://accounts.google.com/gsi/client": [
+          "click"
+        ],
+        "https://cdn.cookielaw.org/scripttemplates/202604.2.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ": [
+          "click"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js": [
+          "click"
+        ],
+        "https://stackoverflow.com/Content/Js/webpack-chunks/7663.en.js?v=c67f16729ba4": [
+          "scroll"
+        ],
+        "https://stackoverflow.com/Content/Js/webpack-chunks/stacks-svelte.en.js?v=94e45f550373": [
+          "click"
+        ],
+        "https://stackoverflow.com/Content/Js/webpack-chunks/svelte.en.js?v=8bac2001aba0": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js": [
+          "keyup"
+        ],
+        "https://stackoverflow.com/Content/Js/webpack-chunks/svelte.en.js?v=8bac2001aba0": [
+          "keydown",
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "prov",
+        "value": "e7814e47-efc3-4243-8b51-d4e95729717e",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2027-06-11T08:10:59.400Z",
+        "size": 40,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cflb",
+        "value": "02DiuFA7zZL3enAQJD3AX8ZzvyzLcaG7ut6YuW1HbYZmN",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2026-06-12T07:10:58.791Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "o7S8bzXTKWVU_sGhm5wrq8WN_U4x37fonVqSVvbaCd4-1781165458.6288261-1.0.1.1-djXW79IWROi2Dlt1HPyEPN4vu1RlEawMw.XmpVTRW5g",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "9AxPbyq_e_lZqlFwqEJBEjyeKdISEzXMbxPQxrIdntI-1781165459.5731072-1.0.1.1-LaqzoomJRcdbTPTBYu8GNWid0ST33Bxg_0MM2dwyRaD5xuAQTNNqBT9iHxVY6m14l5R.HCOgWxRx2aT99dBENn.xWref3etmucjgC68NY_WErBUjGWQzgjU4h7gMbpy9",
+        "domain": "i.sstatic.net",
+        "path": "/",
+        "expires": "2026-06-11T08:40:59.591Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "N2Kc93dVMoQQT_v36VFd_MWT75bVUSCQ1Dzjgxbg1Q4-1781165459.5731072-1.0.1.1-rYCnIIt0AglGelPJNZ_unyiWZB2g9BnKPph2Q7KxnDU",
+        "domain": "i.sstatic.net",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "zCRwzlCY8kobb47CWM3oftUhor5rVbY0964cZ0izBMU-1781165460-1.2.1.1-Qbp8G7MEQmMu3D3Qg0Cv0fDDpbFh4VIokoWo8Y30y2GG94pdEaIwKTVkh.sxZnFGQY6.VlSD6rAPmon2SaK0CEkouIX3aYUXH5xCz9eo4FfHlbGUHSPdjGhPV6eouLwIujuCYJtnUUFyLB3..23abFEpCprbOo_JW24CJ9ZbRKaX_FWy5AUlbpWXQvnlbnZNzF.IgXOi_s64I.eYcUparwPdqoSALe3Z06n2zCDjYrf0suMEaVL90koYzMrprOYYTzMfKFTn1uoCAcbjXWGM67VQukXMF69OfGcLQeX3uMpPjOC5nY4qYI3_kynlBt1lZObIu2mkE4yJWnxHvWy1xA",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2027-06-11T08:11:00.194Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://stackoverflow.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "08BgxJZvC2TGu53Q.Q8tQ1OTidfniuUEORx.4WsdPPM-1781165460.1683128-1.0.1.1-rc9mWXtPQnVkbk8jTbYn3JOW9I4_RRxoAvgezerUXMixPTePXnmNSsQnnoHHJ_B1L18x2FDveFp40am_IJkHuLJXw6tVWI.aaoLYjjeIyrKMhEgCtFsqw7VWjJ6XFpp1",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2026-06-11T08:41:00.194Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-00000000_htlbid-tude_0_100",
+        "value": "tude",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2026-07-11T08:11:00.000Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OTGPPConsent",
+        "value": "DBABMA~CQlqEfTQlqEfTAcABBENCiFwAAAAAAAAACiQAAASSgEAA4ACKAZ8A14CVQGjAPtAkkAA.YAAAAAAAAAAA",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2027-06-11T08:11:01.000Z",
+        "size": 100,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A11%3A01+GMT%2B0200+(Central+European+Summer+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=72e5abb9-8a3b-46ec-95ed-d13cf9804f7d&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1&gppSid=2&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2027-06-11T08:11:01.000Z",
+        "size": 415,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-20260604_gpt-setconfig-init_75_25",
+        "value": "control",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2026-07-11T08:11:01.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781165461627,\"i_b\":\"4/Cs9lUMXY3eu9jhVF+zLGpt2fl/pCZohUlrREdgTPE\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781165461618}",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": "2026-12-08T08:11:01.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1313,
+            "_eu": "AAAAAGA",
+            "_p": 1781165459951,
+            "_s": 2,
+            "are": 1,
+            "cid": 550730409.1781166,
+            "dl": "https://stackoverflow.com/questions",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Newest Questions - Stack Overflow",
+            "en": "user_engagement",
+            "ep.ads_blocked": false,
+            "ep.requestid": "169ac945-655d-4a6f-9a90-bacc5a27d909",
+            "ep.routename": "Questions/List",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45je66a0h2v891602898za200zd891602898",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165460,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~119456240~119456248",
+            "tcfd": 10001,
+            "tfd": 6521,
+            "tid": "G-WCZ03SZFCQ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-WCZ03SZFCQ&gtm=45je66a0h2v891602898za200zd891602898&_p=1781165459951&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&gdid=dYWJhMj&_eu=AAAAAGA&are=1&cid=550730409.1781165460&frm=0&pscdl=denied&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115938466~115938469~119456240~119456248&sid=1781165460&sct=1&seg=0&dl=https%3A%2F%2Fstackoverflow.com%2Fquestions&dt=Newest%20Questions%20-%20Stack%20Overflow&en=user_engagement&ep.requestid=169ac945-655d-4a6f-9a90-bacc5a27d909&ep.routename=Questions%2FList&ep.ads_blocked=false&_et=1313&tfd=6521"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||ams-pageview-public.s3.amazonaws.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "b1ffe3826ebc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ams-pageview-public.s3.amazonaws.com/1x1-pixel.png?id=b1ffe3826ebc"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/taboola-auto-tagId-component.d35311409295ad808f5b.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/refresh-all-ads-component.db7de998acab3aec35b2.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/first-party-data-component.9031b634218747370847.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/activity-refresh-component.059097ebda70e7a1783a.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/creative-timed-refresh-component.a1a922b438373b9fb61a.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/throttle-refresh-component.de8e70e8b17a42bbf034.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/htl-injector-component.6f9fd855080891057769.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/htl-prebid-floors-component.d3bc1be21aeafbc98240.js"
+      },
+      {
+        "data": {
+          "filter": ".prebid.$domain=~prebid.org",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://geo-location.prebid.cloud/v1/geo"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "/prebid/*$script",
+          "listName": "easylist.txt",
+          "query": {
+            "fork": 1,
+            "modules": "WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRpdHVkZSIsImFsbG93QWN0aXZpdGllcyIsImFwcG5leHVzQmlkQWRhcHRlciIsImNvbnNlbnRNYW5hZ2VtZW50IiwiY29uc2VudE1hbmFnZW1lbnRHcHAiLCJjb25zZW50TWFuYWdlbWVudFVzcCIsImNvbnZlcnNhbnRCaWRBZGFwdGVyIiwiY3JpdGVvSWRTeXN0ZW0iLCJlcXVhdGl2QmlkQWRhcHRlciIsImZhYnJpY2tJZFN5c3RlbSIsImdkcHJFbmZvcmNlbWVudCIsImdwdFByZUF1Y3Rpb24iLCJpZDVJZFN5c3RlbSIsIml4QmlkQWRhcHRlciIsImthcmdvQmlkQWRhcHRlciIsIm1lZGlhbmV0QmlkQWRhcHRlciIsIm9wZW54QmlkQWRhcHRlciIsInByZWJpZFNlcnZlckJpZEFkYXB0ZXIiLCJwcmljZUZsb29ycyIsInB1YlByb3ZpZGVkSWRTeXN0ZW0iLCJwdWJtYXRpY0JpZEFkYXB0ZXIiLCJydWJpY29uQmlkQWRhcHRlciIsInNoYXJlZElkU3lzdGVtIiwic2hhcmV0aHJvdWdoQmlkQWRhcHRlciIsInRyaXBsZWxpZnRCaWRBZGFwdGVyIiwidHRkQmlkQWRhcHRlciIsInVuaWZpZWRJZFN5c3RlbSJd",
+            "v": "6167788a58e716d678c6d136265c856c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://edge.aditude.io/prebid/9.53.5.js?fork=1&v=6167788a58e716d678c6d136265c856c&modules=WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRpdHVkZSIsImFsbG93QWN0aXZpdGllcyIsImFwcG5leHVzQmlkQWRhcHRlciIsImNvbnNlbnRNYW5hZ2VtZW50IiwiY29uc2VudE1hbmFnZW1lbnRHcHAiLCJjb25zZW50TWFuYWdlbWVudFVzcCIsImNvbnZlcnNhbnRCaWRBZGFwdGVyIiwiY3JpdGVvSWRTeXN0ZW0iLCJlcXVhdGl2QmlkQWRhcHRlciIsImZhYnJpY2tJZFN5c3RlbSIsImdkcHJFbmZvcmNlbWVudCIsImdwdFByZUF1Y3Rpb24iLCJpZDVJZFN5c3RlbSIsIml4QmlkQWRhcHRlciIsImthcmdvQmlkQWRhcHRlciIsIm1lZGlhbmV0QmlkQWRhcHRlciIsIm9wZW54QmlkQWRhcHRlciIsInByZWJpZFNlcnZlckJpZEFkYXB0ZXIiLCJwcmljZUZsb29ycyIsInB1YlByb3ZpZGVkSWRTeXN0ZW0iLCJwdWJtYXRpY0JpZEFkYXB0ZXIiLCJydWJpY29uQmlkQWRhcHRlciIsInNoYXJlZElkU3lzdGVtIiwic2hhcmV0aHJvdWdoQmlkQWRhcHRlciIsInRyaXBsZWxpZnRCaWRBZGFwdGVyIiwidHRkQmlkQWRhcHRlciIsInVuaWZpZWRJZFN5c3RlbSJd"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781165459951,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 550730409.1781166,
+            "dl": "https://stackoverflow.com/questions",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Newest Questions - Stack Overflow",
+            "en": "page_view",
+            "ep.ads_blocked": false,
+            "ep.requestid": "169ac945-655d-4a6f-9a90-bacc5a27d909",
+            "ep.routename": "Questions/List",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gtm": "45je66a0h2v891602898za200zd891602898",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165460,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~119456240~119456248",
+            "tcfd": 10001,
+            "tfd": 1979,
+            "tid": "G-WCZ03SZFCQ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-WCZ03SZFCQ&gtm=45je66a0h2v891602898za200zd891602898&_p=1781165459951&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&_eu=AAAAAGA&are=1&cid=550730409.1781165460&frm=0&pscdl=denied&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938466~115938469~119456240~119456248&sid=1781165460&sct=1&seg=0&dl=https%3A%2F%2Fstackoverflow.com%2Fquestions&dt=Newest%20Questions%20-%20Stack%20Overflow&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.requestid=169ac945-655d-4a6f-9a90-bacc5a27d909&ep.routename=Questions%2FList&ep.ads_blocked=false&tfd=1979"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/stackoverflow-M6HzSe6yue/mapping.base/prebid-wrapper.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/stackoverflow-M6HzSe6yue/mapping.base/prebid-load.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||htlbid.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "v": 1.4
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://htlbid.com/v3/mapping.base/htlbid.js?v=1.4"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-WCZ03SZFCQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stackoverflow.com/questions",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ"
+      }
+    ]
+  }
+}

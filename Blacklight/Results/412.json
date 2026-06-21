@@ -1,0 +1,316 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "6.1 million+ Stunning Free Images to Use Anywhere - Pixabay",
+  "uri_ins": "https://pixabay.com",
+  "uri_dest": "https://pixabay.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "pixabay.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:43:06.626Z",
+  "end_time": "2026-06-11T07:43:11.296Z",
+  "browsing_history": [
+    "https://pixabay.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "pixabay.com",
+        "cdn.pixabay.com"
+      ],
+      "third_party": [
+        "cdn-au.onetrust.com",
+        "apis.google.com",
+        "accounts.google.com",
+        "connect.facebook.net",
+        "cdn.jsdelivr.net",
+        "geolocation.onetrust.com",
+        "o13855.ingest.us.sentry.io",
+        "challenges.cloudflare.com",
+        "api.canva.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://pixabay.com/static/frontend/chunk-2137.e2aaf11bcd059b52.js": [
+          "mousedown"
+        ],
+        "https://pixabay.com/static/frontend/chunk-client_startup.fdd51e9cef9ba57d.js": [
+          "click",
+          "mousemove",
+          "scroll"
+        ],
+        "https://pixabay.com/static/frontend/chunk-5863.f3fc47c028bc17ec.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://pixabay.com/static/frontend/chunk-client_startup.fdd51e9cef9ba57d.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://pixabay.com/static/frontend/chunk-5863.f3fc47c028bc17ec.js": [
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://pixabay.com/static/frontend/chunk-client_startup.fdd51e9cef9ba57d.js": [
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "wJH4SB9OXr1x1ho01aw5gW00t6jsjWEaO5hBdmT5p8g-1781163787.2701364-1.0.1.1-ESZ6hDktUnXDYdWxPjXglrL3RWOI1MOBg.khw_0ArgoKROkUGV3MOTBSvj0ReCYmw1fl.lA2.uKbnrv2F9KlAOlbOJmc_vHUqM.iB95mjzmGbFM9OvVTL7vkRoq29x.u",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": "2026-06-11T08:13:07.296Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "csrftoken",
+        "value": "19mI5p4Dg94kvZvL5HbptRIvGz6rVewZ",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": "2027-06-10T07:43:08.408Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "anonymous_user_id",
+        "value": "9694e7d751364696931d5ee033dec231",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": "2027-07-16T07:43:08.415Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "QyOZedBbntMFwr1HROqztOgFB294SMmd.ojIw4nwvkE-1781163788.2709405-1.0.1.1-d1SbRK4ghxyUyg5HjKfBPtgGBHzUlQED6tO4hrf6LWA",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_sp2_ses.aded",
+        "value": "*",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": "2026-06-11T08:13:08.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_sp2_id.aded",
+        "value": "2491e110-a1d1-4817-8d6a-923bc26ec7b6.1781163789.1.1781163789..87be1fd3-5046-4fbc-b479-5421ec56af2f..2194b65b-0ac2-4c7a-a060-70b40b0331ee.1781163788744.2",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": "2027-07-16T07:43:08.779Z",
+        "size": 164,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A43%3A09+GMT%2B0200+(Central+European+Summer+Time)&version=202603.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=68d09c7c-705f-4685-b71b-6ec4a5b53a19&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fpixabay.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+        "domain": "pixabay.com",
+        "path": "/",
+        "expires": "2027-06-11T07:43:09.000Z",
+        "size": 358,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pixabay.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pixabay.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/10.47.0",
+            "sentry_key": "7ecc22eb6f181062171b52983f5a7116",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pixabay.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13855.ingest.us.sentry.io/api/4511487941672960/envelope/?sentry_version=7&sentry_key=7ecc22eb6f181062171b52983f5a7116&sentry_client=sentry.javascript.browser%2F10.47.0"
+      }
+    ]
+  }
+}

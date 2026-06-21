@@ -1,0 +1,560 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Dailymotion",
+  "uri_ins": "https://dailymotion.com",
+  "uri_dest": "https://www.dailymotion.com/es",
+  "uri_redirects": [
+    "https://dailymotion.com/"
+  ],
+  "secure_connection": {},
+  "host": "dailymotion.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:29:06.431Z",
+  "end_time": "2026-06-11T07:29:12.694Z",
+  "browsing_history": [
+    "https://www.dailymotion.com/es"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "dailymotion.com",
+        "www.dailymotion.com",
+        "consent.dailymotion.com",
+        "geo.dailymotion.com",
+        "static.neon-ssr.dailymotion.com",
+        "dmads.dailymotion.com",
+        "graphql.api.dailymotion.com"
+      ],
+      "third_party": [
+        "challenges.cloudflare.com",
+        "webed.dm-event.net",
+        "fonts.googleapis.com",
+        "pebed.dm-event.net",
+        "static1.dmcdn.net",
+        "imasdk.googleapis.com",
+        "vendorlist.dmcdn.net",
+        "s0.2mdn.net",
+        "pagead2.googlesyndication.com",
+        "cdn.hubvisor.io",
+        "securepubads.g.doubleclick.net",
+        "s2.dmcdn.net",
+        "s1.dmcdn.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.5236ff7ea710270e51a9.js": [
+          "scroll"
+        ],
+        "https://cdn.hubvisor.io/wrapper/01EZWD1S0HKM48S35DDHP8C9C1/hubvisor.js": [
+          "click"
+        ],
+        "https://imasdk.googleapis.com/js/core/bridge3.769.0_en.html?gdpr=1": [
+          "mousedown"
+        ],
+        "https://s0.2mdn.net/instream/video/client.js": [
+          "mousemove",
+          "scroll",
+          "mousedown"
+        ],
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": [
+          "mousemove",
+          "scroll",
+          "mousedown"
+        ],
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.54e0530e5a66a5b438f5.js": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.5236ff7ea710270e51a9.js": [
+          "keydown"
+        ],
+        "https://consent.dailymotion.com/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.54e0530e5a66a5b438f5.js": [
+          "keypress",
+          "keydown",
+          "keyup"
+        ],
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.5236ff7ea710270e51a9.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://s0.2mdn.net/instream/video/client.js": [
+          "touchstart"
+        ],
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": [
+          "touchmove"
+        ],
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.54e0530e5a66a5b438f5.js": [
+          "touchstart",
+          "touchend"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ff",
+        "value": "on",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": -1,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ts",
+        "value": "509604",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2027-07-06T07:29:07.376Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "v1st",
+        "value": "D50EE88A3B10473FA6B2F10E51DCB732",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2027-07-06T07:29:07.376Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "consentUUID",
+        "value": "e405510e-e31c-4413-b566-0d4a99af0e90",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2026-12-08T07:29:08.801Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lang",
+        "value": "en_US",
+        "domain": "www.dailymotion.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2027-07-06T07:29:09.589Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "client_token",
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiYXpsbVV4dDVRa0JZUVJjS0wxNG5KaFV0Q2o0T054Ql9PeVVGT2ciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzgxMTYyOTUwLCJleHAiOjE3ODExOTg3NzgsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6IkQ1MEVFODhBM0IxMDQ3M0ZBNkIyRjEwRTUxRENCNzMyIiwiZnRzIjo1MDk2MDQsImNhZCI6MiwiY3hwIjoyLCJjYXUiOjIsImtpZCI6IkFGODQ5REQ3M0E1ODYzQ0Q3RDk3RDBCQUIwNzIyNDNCIn0.1Uw5ELhOClTf6JESFzMNWWmD_Jscx65hGjFGIbHFl8M",
+        "domain": "www.dailymotion.com",
+        "path": "/",
+        "expires": "2026-06-11T17:26:17.946Z",
+        "size": 1484,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/ppub_config"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://webed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||hubvisor.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.hubvisor.io/wrapper/01EZWD1S0HKM48S35DDHP8C9C1/hubvisor.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "c": 2463796889231730,
+            "domain": "geo.dailymotion.com",
+            "e": "95322027,95331589,95332046,95390088",
+            "enabled": "t",
+            "error": "",
+            "id": "ima_html5",
+            "lid": 236,
+            "sdkv": "h.3.769.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://imasdk.googleapis.com/js/core/bridge3.769.0_en.html?gdpr=1#deid=%22%22&eventfe_experiment_ids=%5B%5D&fid=%22goog_920319233%22&genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45796605%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45774999%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45784857%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2Cnull%2C45792627%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45765927%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45794243%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45761216%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B31097690%5D%2C%5B31097691%2C%5B%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95382403%2C%5B%5B45794243%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386528%2C%5B%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95389581%5D%2C%5B95389582%2C%5B%5B635466687%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95390088%5D%2C%5B95390089%2C%5B%5B45784857%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95391735%5D%5D%5D%2C%5B10%2C%5B%5B95391980%5D%2C%5B95391981%2C%5B%5Bnull%2Cnull%2C45792627%2C%5Bnull%2Cnull%2C%5C%22https%3A%2F%2Fpagead2.googlesyndication.com%2Fpagead%2Fmanaged%2Fjs%2Factiveview%2Fcurrent%2Frx_omid_video.js%5C%22%5D%5D%5D%5D%2C%5B95391982%2C%5B%5Bnull%2Cnull%2C45792627%2C%5Bnull%2Cnull%2C%5C%22https%3A%2F%2Fpagead2.googlesyndication.com%2Fomsdk%2Freleases%2Flive%2Fomid_monitoring_bin.js%5C%22%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95392425%5D%2C%5B95392426%2C%5B%5B45761216%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95393784%5D%2C%5B95393785%2C%5B%5B45796605%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&imalib_experiments=%5B95322027%2C95331589%2C95332046%2C95390088%5D&is_eap_loader=false&managed_js_experiment_id=0&page_correlator=240340342016221&pvsid=2166741970995804&top_accessible_page_url=%22https%3A%2F%2Fwww.dailymotion.com%2F%22",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?enabled=t&error&lid=236&sdkv=h.3.769.0&e=95322027%2C95331589%2C95332046%2C95390088&id=ima_html5&c=2463796889231730&domain=geo.dailymotion.com"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/xtv3w.html?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
+      },
+      {
+        "data": {
+          "filter": "||2mdn.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s0.2mdn.net/instream/video/client.js"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "gdpr": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/core/bridge3.769.0_en.html?gdpr=1"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/xtv3w.html?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/xtv3w.html?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/xtv3w.html?",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://webed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dailymotion.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://webed.dm-event.net/"
+      }
+    ]
+  }
+}

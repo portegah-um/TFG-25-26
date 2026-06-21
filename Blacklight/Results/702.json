@@ -1,0 +1,243 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Tapad | Homepage",
+  "uri_ins": "https://tapad.com",
+  "uri_dest": "https://tapad.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "tapad.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:11:16.919Z",
+  "end_time": "2026-06-11T09:11:23.093Z",
+  "browsing_history": [
+    "https://tapad.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "tapad.com"
+      ],
+      "third_party": [
+        "use.typekit.net",
+        "cloud.typography.com",
+        "unpkg.com",
+        "code.jquery.com",
+        "use.fontawesome.com",
+        "cdn.jsdelivr.net",
+        "cdnjs.cloudflare.com",
+        "platform-api.sharethis.com",
+        "assets.adobedtm.com",
+        "insight.adsrvr.org",
+        "p.typekit.net",
+        "buttons-config.sharethis.com",
+        "img.en25.com",
+        "data.stbuttons.click",
+        "l.sharethis.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://tapad.com/js/bundle.js?v=1690473096": [
+          "scroll",
+          "click"
+        ],
+        "https://tapad.com/": [
+          "scroll"
+        ],
+        "https://unpkg.com/aos@next/dist/aos.js": [
+          "scroll"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js": [
+          "scroll"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js": [
+          "scroll"
+        ],
+        "https://code.jquery.com/jquery-3.6.0.min.js": [
+          "click"
+        ],
+        "https://platform-api.sharethis.com/js/sharethis.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://unpkg.com/aos@next/dist/aos.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://code.jquery.com/jquery-3.6.0.min.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "domain": "tapad.com",
+        "name": "__sharethis_cookie_test__",
+        "path": "",
+        "script": "https://platform-api.sharethis.com/js/sharethis.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||l.sharethis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cms": "unknown",
+            "description": "Connecting brands to consumers across devices",
+            "event": "pview",
+            "fcmp": false,
+            "fcmpv2": false,
+            "has_segmentio": false,
+            "hostname": "tapad.com",
+            "lang": "en",
+            "location": "/",
+            "override": "ODguMjAuMTMuMTA5",
+            "product": "custom-share-buttons",
+            "publisher": "5c9282b9c2ca510011c7408c",
+            "sop": true,
+            "source": "sharethis.js",
+            "title": "Tapad | Homepage",
+            "ua": "",
+            "ua_full_version_list": "",
+            "ua_mobile": false,
+            "url": "https://tapad.com/",
+            "uuid": "1da8a7da-a174-4138-a47a-334286fd8eef",
+            "version": "st_sop.js"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tapad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://l.sharethis.com/pview?event=pview&hostname=tapad.com&location=%2F&product=custom-share-buttons&url=https%3A%2F%2Ftapad.com%2F&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Tapad%20%7C%20Homepage&cms=unknown&publisher=5c9282b9c2ca510011c7408c&sop=true&version=st_sop.js&lang=en&description=Connecting%20brands%20to%20consumers%20across%20devices&ua=&ua_mobile=false&ua_full_version_list=&override=ODguMjAuMTMuMTA5&uuid=1da8a7da-a174-4138-a47a-334286fd8eef"
+      },
+      {
+        "data": {
+          "filter": "/elqcfg.min.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://tapad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://img.en25.com/i/elqCfg.min.js"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 5720174,
+            "app": "typekit",
+            "e": "css",
+            "f": "10879.10881.10884.10886",
+            "ht": "tk",
+            "k": "pww8jaz",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tapad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=pww8jaz&ht=tk&f=10879.10881.10884.10886&a=5720174&app=typekit&e=css"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "mh6v0ck",
+            "ct": "0:lsq9k3a",
+            "fmt": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tapad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/conv/?adv=mh6v0ck&ct=0:lsq9k3a&fmt=3"
+      }
+    ]
+  }
+}

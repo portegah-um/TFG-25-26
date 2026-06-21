@@ -1,0 +1,221 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Issuu | Create Interactive Flipbooks on our Digital Publishing Platform",
+  "uri_ins": "https://issuu.com",
+  "uri_dest": "https://issuu.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "issuu.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:14:58.910Z",
+  "end_time": "2026-06-11T07:15:13.845Z",
+  "browsing_history": [
+    "https://issuu.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "issuu.com",
+        "static.issuu.com",
+        "e.issuu.com",
+        "publication.issuu.com",
+        "svg.issuu.com",
+        "pingback.issuu.com"
+      ],
+      "third_party": [
+        "consent.cookiebot.com",
+        "static.isu.pub",
+        "consentcdn.cookiebot.com",
+        "accounts.google.com",
+        "www.google.com",
+        "orion.bendingspoons.com",
+        "www.gstatic.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://e.issuu.com/reader4/0470203/_next/static/chunks/231-adb8c82e42eea5d5.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://issuu.com/publisher-space/assets/_next/static/chunks/b325466e-3b2e1409ce5aaebe.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ],
+        "https://e.issuu.com/reader4/0470203/_next/static/chunks/103ed40d-afde0e24cfcea138.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "/_/gsi/_/js/k=gsi.gsi.es.1VCmNegQPO0.O/am=AAAAAAkCmAIC/d=1/rs=AF0KOtVsivrJzbGys3zuMVn7iwdOGig2ag/m=credential_server_library": [
+          "touchmove"
+        ],
+        "https://issuu.com/publisher-space/assets/_next/static/chunks/b325466e-3b2e1409ce5aaebe.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ],
+        "https://e.issuu.com/reader4/0470203/_next/static/chunks/103ed40d-afde0e24cfcea138.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      },
+      "MOUSE": {
+        "https://accounts.google.com/gsi/client": [
+          "click"
+        ],
+        "https://consent.cookiebot.com/uc.js": [
+          "click"
+        ],
+        "https://issuu.com/publisher-space/assets/_next/static/chunks/4825-d638b665e4112b72.js": [
+          "click"
+        ],
+        "https://issuu.com/publisher-space/assets/_next/static/chunks/b325466e-3b2e1409ce5aaebe.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://e.issuu.com/reader4/0470203/_next/static/chunks/103ed40d-afde0e24cfcea138.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://issuu.com/publisher-space/assets/_next/static/chunks/4825-d638b665e4112b72.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "COOKIE_ID_pico_lsid",
+        "value": "d116dea6-1051-44d3-87c1-edf4882cd2a6",
+        "domain": "issuu.com",
+        "path": "/",
+        "expires": "2027-06-11T07:15:12.000Z",
+        "size": 55,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "iutk",
+        "value": "0a9dfabe-3fe0-4c58-ac88-776364ae8a15",
+        "domain": "issuu.com",
+        "path": "/",
+        "expires": "2026-12-08T07:15:06.813Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781162111245,\"i_b\":\"4E9c3qI9KKdtGWQjrGXkXUJG0bURBilTU+CTJ7QftcA\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781162105884}",
+        "domain": "issuu.com",
+        "path": "/",
+        "expires": "2026-12-08T07:15:11.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

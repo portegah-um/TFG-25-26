@@ -1,0 +1,435 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "TradingView — Track All Markets",
+  "uri_ins": "https://tradingview.com",
+  "uri_dest": "https://www.tradingview.com/",
+  "uri_redirects": [
+    "https://tradingview.com/"
+  ],
+  "secure_connection": {},
+  "host": "tradingview.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:21:04.972Z",
+  "end_time": "2026-06-11T07:21:16.391Z",
+  "browsing_history": [
+    "https://www.tradingview.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "tradingview.com",
+        "www.tradingview.com",
+        "static.tradingview.com",
+        "s3-symbol-logo.tradingview.com",
+        "news-mediator.tradingview.com",
+        "scanner.tradingview.com",
+        "economic-calendar.tradingview.com",
+        "snowplow-pixel.tradingview.com"
+      ],
+      "third_party": [
+        "accounts.google.com",
+        "www.googletagmanager.com",
+        "securepubads.g.doubleclick.net",
+        "region1.google-analytics.com",
+        "pagead2.googlesyndication.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://static.tradingview.com/static/bundles/87887.433176ecc897dc931792.js": [
+          "touchstart"
+        ],
+        "/_/gsi/_/js/k=gsi.gsi.es.1VCmNegQPO0.O/am=AAAAAAkC2AIC/d=1/rs=AF0KOtXH0u1vxE1vDJ6LMlNSi1yANtn23A/m=credential_server_library": [
+          "touchmove"
+        ],
+        "https://static.tradingview.com/static/bundles/78312.3541aebe214fe3f02cea.js": [
+          "touchstart"
+        ],
+        "https://static.tradingview.com/static/bundles/40903.2455a8e6e7429b5c029d.js": [
+          "touchend"
+        ]
+      },
+      "MOUSE": {
+        "https://static.tradingview.com/static/bundles/87887.433176ecc897dc931792.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://accounts.google.com/gsi/client": [
+          "click"
+        ],
+        "https://static.tradingview.com/static/bundles/lightweight-chart-price-time-tooltip.f6dd6bec5a8b49cc15b2.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-YVVRYGL0E0": [
+          "click"
+        ],
+        "https://static.tradingview.com/static/bundles/78312.3541aebe214fe3f02cea.js": [
+          "mousedown"
+        ],
+        "https://static.tradingview.com/static/bundles/82357.38c0ecaddb1f3c3db6ca.js": [
+          "scroll"
+        ],
+        "https://static.tradingview.com/static/bundles/40903.2455a8e6e7429b5c029d.js": [
+          "click"
+        ],
+        "https://static.tradingview.com/static/bundles/49996.07cc16e6e1474ac0ba6e.js": [
+          "scroll"
+        ],
+        "https://static.tradingview.com/static/bundles/66676.eb634893c1f22dee051b.js": [
+          "click"
+        ],
+        "https://static.tradingview.com/static/bundles/46773.c6bb527e57e8a2c3cff3.js": [
+          "click"
+        ],
+        "https://static.tradingview.com/static/bundles/98689.f1c6da22ac62129e494a.js": [
+          "mousemove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.tradingview.com/static/bundles/40903.2455a8e6e7429b5c029d.js": [
+          "keydown"
+        ],
+        "https://static.tradingview.com/static/bundles/98689.f1c6da22ac62129e494a.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://static.tradingview.com/static/bundles/78312.3541aebe214fe3f02cea.js": [
+          "#0F0F0F",
+          "transparent",
+          "{}",
+          "rgba(242, 54, 69, 0)",
+          "#F23645",
+          "rgba(8, 153, 129, 0)",
+          "#089981"
+        ],
+        "https://static.tradingview.com/static/bundles/70090.401724d47e98706aa503.js": [
+          "#448aff"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://static.tradingview.com/static/bundles/78312.3541aebe214fe3f02cea.js": {
+          "0000": 1,
+          "May": null,
+          "0%": null,
+          "01:00": null,
+          "10:00": null,
+          "": null
+        }
+      }
+    },
+    "cookies": [
+      {
+        "name": "_sp_ses.cf1a",
+        "value": "*",
+        "domain": "tradingview.com",
+        "path": "/",
+        "expires": "2026-09-09T07:21:12.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cookiePrivacyPreferenceBannerProduction",
+        "value": "ignored",
+        "domain": "tradingview.com",
+        "path": "/",
+        "expires": "2027-07-16T07:21:12.780Z",
+        "size": 46,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_sp_id.cf1a",
+        "value": ".1781162469.1.1781162473..90a7115b-574c-4171-ab8d-e751360b05d7..979e85ea-960e-4832-84f7-69241190077d.1781162472782.2",
+        "domain": "tradingview.com",
+        "path": "/",
+        "expires": "2027-07-16T07:21:12.802Z",
+        "size": 127,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781162473343,\"i_b\":\"jrVdrZnXcJUVFhyYLSDA1jd8WRosOe1G4dHmpuBXCRg\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781162470747}",
+        "domain": "www.tradingview.com",
+        "path": "/",
+        "expires": "2026-12-08T07:21:13.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sp",
+        "value": "6542baae-65df-4490-8bb7-40d08731e8cc",
+        "domain": "snowplow-pixel.tradingview.com",
+        "path": "/",
+        "expires": "2027-06-11T07:21:14.071Z",
+        "size": 38,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.tradingview.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3l2l5l1",
+            "gcs": "G100",
+            "gtm": "45fe6691v9190700051za200zb9104254764zd9104254764xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 11,
+            "rnd": 1332394002.1781163,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 7642,
+            "tft": 1781162473077,
+            "tid": "DC-13919399",
+            "tids": "DC-13919399"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tradingview.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&en=page_view&dl=https%3A%2F%2Fwww.tradingview.com%2F&scrsrc=www.googletagmanager.com&rnd=1332394002.1781162473&navt=n&npa=1&gtm=45fe6691v9190700051za200zb9104254764zd9104254764xec&gcs=G100&gcd=13p3p3l2l5l1&dma_cps=a&dma=1&tag_exp=0~115938465~115938468&apve=1&apvf=f&apvc=1&tids=DC-13919399&tid=DC-13919399&tft=1781162473077&tfd=7642"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-13919399"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tradingview.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-13919399&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781162467601,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1360418394.1781163,
+            "dl": "https://www.tradingview.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "TradingView — Track All Markets",
+            "en": "page_view",
+            "ep.anonymize_ip": true,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3pPl2l5l1",
+            "gcs": "G1-0",
+            "gtm": "45je6691v9104254764za200zd9104254764",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 8,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162471,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 6164,
+            "tid": "G-YVVRYGL0E0",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tradingview.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-YVVRYGL0E0&gtm=45je6691v9104254764za200zd9104254764&_p=1781162467601&gcs=G1-0&gcd=13l3pPl2l5l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAGA&are=1&cid=1360418394.1781162472&frm=0&pscdl=&rcb=8&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468&sid=1781162471&sct=1&seg=0&dl=https%3A%2F%2Fwww.tradingview.com%2F&dt=TradingView%20%E2%80%94%20Track%20All%20Markets&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&tfd=6164"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099090
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tradingview.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606090101/pubads_impl.js?cb=31099090"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tradingview.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-YVVRYGL0E0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tradingview.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-YVVRYGL0E0"
+      }
+    ]
+  }
+}

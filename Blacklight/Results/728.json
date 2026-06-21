@@ -1,0 +1,406 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Amazon.es: online shopping for consumer electronics, books, sports, household items, fashion and more.",
+  "uri_ins": "https://amazon.es",
+  "uri_dest": "https://www.amazon.es/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "amazon.es",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:20:18.317Z",
+  "end_time": "2026-06-11T09:20:23.770Z",
+  "browsing_history": [
+    "https://www.amazon.es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "amazon.es",
+        "www.amazon.es",
+        "fls-eu.amazon.es",
+        "unagi.amazon.es"
+      ],
+      "third_party": [
+        "m.media-amazon.com",
+        "d1nruqhae353qc.cloudfront.net",
+        "d2h8zr0m6mus4x.cloudfront.net",
+        "images-na.ssl-images-amazon.com",
+        "aax-eu.amazon-adsystem.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://m.media-amazon.com/images/I/01Dlam7CRcL._RC%7C01wGOYsRBlL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "keydown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://www.amazon.es/": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://m.media-amazon.com/images/I/01Dlam7CRcL._RC%7C01wGOYsRBlL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "touchmove",
+          "touchend"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "touchend",
+          "touchcancel",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.amazon.es/": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://m.media-amazon.com/images/I/01Dlam7CRcL._RC%7C01wGOYsRBlL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "click"
+        ],
+        "https://www.amazon.es/": [
+          "scroll",
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "session-id",
+        "value": "522-6101224-2011137",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2027-06-11T09:20:19.675Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2027-06-11T09:20:19.675Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "i18n-prefs",
+        "value": "EUR",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2027-06-11T09:20:19.675Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lc-acbes",
+        "value": "en_GB",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2027-06-11T09:20:19.675Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "30BA29CD9EFE527DC50DA0F95F24ABED~000000000000000000000000000000~YAAQ4G1lX2+MS5yeAQAA0IL7tQCq+vFDDg7yYDaLZ7yGR0wKufiwKBICmUJSFVzZ8durYlHVd6+yi3xAvwaymYnAWsTEHEvGpRI67gIJYUUMK5aEF/mooTcGAr7+F0XEe8i7az309qE3ARDqCmJu3I9FRUuOFdF7r8Wkblx5+YMykWHwQhTTUW5aMauVxXxN3ZL4bO0TM8CKTk1qco5NJ16fJaPmmty/OOiYJNkDylWvXQrbEKfLwHJazJ15zptWer9fy8vfcYyR69gR+NXaB4NJWrGV01QUg8JhtsTXVqUMDzJ6/3G27mGESdop41QD+xxEOMGTPDh3uqoZzzx2/uZ4vYSVVcpu3Mwqu067fn7iqvDo78A9pTdKZd4iveM3IPufaQQkNtElgFElnEpN2lSRr7XIu7ZlfWOS1uT6asyGDipDvgRwO4YgZPg78VDETe2zaH278U3/45FXwQoT5hyp1MzODWxDUyJyiVdqo7KGvA==",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2026-06-11T11:20:19.676Z",
+        "size": 567,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ubid-acbes",
+        "value": "520-0251556-3681959",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2027-06-11T09:20:20.889Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-token",
+        "value": "4w3bvIaqzpie5sDJ9YezLb647xKqJ32UJ0JrcUa9xqxfAd164ae0KNjSUxKjwpkxpBNLWXunaadIKsbgIE/hbLTY4Jhz8zpNmLPObScC/CFItQZ6KcNEOtWhnMirgXikUHU89MJqGYAJ4IWdCbQ8YC8hKnbYFX4u4js2jPXNaL/TMOZA+iNXcYKjcDPNbJ5N+0xn4Xo8WeR/kGux0MAt12umjrosNNZV",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2027-06-11T09:20:20.940Z",
+        "size": 237,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2027-07-16T09:20:21.526Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rxc",
+        "value": "ANzGmVQarxyeeM+7seM",
+        "domain": "www.amazon.es",
+        "path": "/",
+        "expires": "2026-06-12T09:20:22.209Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "csm-hit",
+        "value": "9K466P3191K3M01MSA53+s-9K466P3191K3M01MSA53|1781169622848",
+        "domain": "www.amazon.es",
+        "path": "/",
+        "expires": "2026-06-18T09:20:20.000Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sv",
+        "value": "5E8C5258977F67822783197973DB41C1~YAAQ4G1lXzOSS5yeAQAA0JD7tQB0SU8O2dcui+BwyY0ulQLjresVg9FYZeeuBWQodA+A7mSSCOuz2VsGwlaAPQP32VRRK5OP9iHUECw7y4CzbdxIKTfCIZ399mRRUCoBj6AjuNV3qeg0OIwfMxefsep9FIrM1OWZNMY74+uvt2HU6wqGTw89DH4nIthuRx7pPeSQoLQeumP10gdG39qQNAb4hVTE3Z816uVl2PnhmmzsL7uBMESDrzWc72Aii9s=~1",
+        "domain": "amazon.es",
+        "path": "/",
+        "expires": "2026-06-11T11:20:19.261Z",
+        "size": 296,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781169619682,
+            "d": "amazon.es",
+            "dcc": "t",
+            "gdpr_consent": "",
+            "gdpr_consent_avl": "",
+            "old_oo": 0,
+            "s": "AekpF8WUzbtEo_irE-_0cagDsOr0gmUWRLiQysIc25xW",
+            "slot": "navFooter",
+            "ts": 1781169619682
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.es&slot=navFooter&old_oo=0&ts=1781169619682&s=AekpF8WUzbtEo_irE-_0cagDsOr0gmUWRLiQysIc25xW&gdpr_consent=&gdpr_consent_avl=&cb=1781169619682&dcc=t"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781169619682,
+            "d": "amazon.es",
+            "gdpr_consent": "",
+            "gdpr_consent_avl": "",
+            "old_oo": 0,
+            "s": "AekpF8WUzbtEo_irE-_0cagDsOr0gmUWRLiQysIc25xW",
+            "slot": "navFooter",
+            "ts": 1781169619682
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.es&slot=navFooter&old_oo=0&ts=1781169619682&s=AekpF8WUzbtEo_irE-_0cagDsOr0gmUWRLiQysIc25xW&gdpr_consent=&gdpr_consent_avl=&cb=1781169619682"
+      },
+      {
+        "data": {
+          "filter": "?adspot_",
+          "listName": "easylist.txt",
+          "query": {
+            "adspot_": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.amazon.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adspot_=1"
+      }
+    ]
+  }
+}

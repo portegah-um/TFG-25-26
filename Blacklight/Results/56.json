@@ -1,0 +1,364 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Microsoft 365 Copilot - Sign in",
+  "uri_ins": "https://cloud.microsoft",
+  "uri_dest": "https://m365.cloud.microsoft/",
+  "uri_redirects": [
+    "https://cloud.microsoft/"
+  ],
+  "secure_connection": {},
+  "host": "cloud.microsoft",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:48:00.096Z",
+  "end_time": "2026-06-11T05:48:06.434Z",
+  "browsing_history": [
+    "https://m365.cloud.microsoft/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cloud.microsoft",
+        "m365.cloud.microsoft"
+      ],
+      "third_party": [
+        "res.cdn.office.net",
+        "www.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "mem.gfx.ms",
+        "www.clarity.ms",
+        "c.s-microsoft.com",
+        "scripts.clarity.ms",
+        "h.clarity.ms",
+        "js.monitor.azure.com",
+        "config.edge.skype.com",
+        "admin.microsoft.com",
+        "browser.events.data.microsoft.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://m365.cloud.microsoft/": [
+          "scroll"
+        ],
+        "https://res.cdn.office.net/officehub/bundles/unauth-05016c3d1e.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://res.cdn.office.net/officehub/bundles/unauth-05016c3d1e.js": [
+          "keyup"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "OH.SID",
+        "value": "1f4b516a-e9a4-4c67-b863-9792be931b10",
+        "domain": "m365.cloud.microsoft",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OH.FLID",
+        "value": "80fef84c-7f6e-48b1-bb80-da92b4e486c1",
+        "domain": "m365.cloud.microsoft",
+        "path": "/",
+        "expires": "2027-06-11T05:48:02.949Z",
+        "size": 43,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MicrosoftApplicationsTelemetryDeviceId",
+        "value": "bcf3f9bb-23c6-406c-8596-387a4bd6dff9",
+        "domain": "m365.cloud.microsoft",
+        "path": "/",
+        "expires": "2027-06-11T05:48:04.370Z",
+        "size": 74,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "nO2OnBoU5sv1jlQtmPG7lw|1781156884393|1781156884393",
+        "domain": "m365.cloud.microsoft",
+        "path": "/",
+        "expires": "2026-06-11T06:18:04.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "NoResponseBody": true,
+            "apikey": "aa86c364bc9e4a5a94a6b232c110af26-72da2ec9-498a-44df-8cca-7fd88cf654c1-7527",
+            "client-id": "NO_AUTH",
+            "client-version": "1DS-Web-JS-4.3.9",
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "time-delta-to-apply-millis": "use-collector-delta",
+            "upload-time": 1781156886336,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&client-id=NO_AUTH&client-version=1DS-Web-JS-4.3.9&apikey=aa86c364bc9e4a5a94a6b232c110af26-72da2ec9-498a-44df-8cca-7fd88cf654c1-7527&upload-time=1781156886336&time-delta-to-apply-millis=use-collector-delta&w=0&NoResponseBody=true"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||monitor.azure.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m365.cloud.microsoft/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/suapvfcc4i"
+      }
+    ]
+  }
+}

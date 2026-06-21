@@ -1,0 +1,333 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "GOV.BR",
+  "uri_ins": "https://www.gov.br",
+  "uri_dest": "https://www.gov.br/pt-br",
+  "uri_redirects": [
+    "https://www.gov.br/"
+  ],
+  "secure_connection": {},
+  "host": "www.gov.br",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:07:36.714Z",
+  "end_time": "2026-06-11T10:07:48.863Z",
+  "browsing_history": [
+    "https://www.gov.br/pt-br"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.gov.br"
+      ],
+      "third_party": [
+        "cdnjs.cloudflare.com",
+        "barra.sistema.gov.br",
+        "agenciagov.ebc.com.br",
+        "vlibras.gov.br",
+        "www.googletagmanager.com",
+        "s.go-mpulse.net",
+        "cdn.jsdelivr.net",
+        "c.go-mpulse.net",
+        "browser-update.org",
+        "portalunico.estaleiro.serpro.gov.br"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.gov.br/++theme++padrao_govbr/govbrtheme-a719007.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://www.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-26159e8558d57f6c4268c876d0b520b8.js": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://www.gov.br/++theme++padrao_govbr/govbrtheme-a719007.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://www.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-26159e8558d57f6c4268c876d0b520b8.js": [
+          "scroll",
+          "mousedown",
+          "click",
+          "mouseup"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-X0DQ0CT40G": [
+          "click"
+        ],
+        "    at Object.apply (<anonymous>:13:42)": [
+          "mouseup"
+        ],
+        "https://www.gov.br/portal_javascripts/Sunburst%20Theme/resourcegovbr.policyapplication_cookiebar_1_3_57-cachekey-7cabc19a0ab305133ce6242af608d686.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.gov.br/++theme++padrao_govbr/govbrtheme-a719007.js": [
+          "keydown"
+        ],
+        "https://barra.sistema.gov.br/v1/barra-govbr-wc.iife.js": [
+          "keydown"
+        ],
+        "https://www.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-26159e8558d57f6c4268c876d0b520b8.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.gov.br/++theme++padrao_govbr/govbrtheme-a719007.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "I18N_LANGUAGE",
+        "value": "\"pt-br\"",
+        "domain": "www.gov.br",
+        "path": "/",
+        "expires": -1,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS011ec037",
+        "value": "01d921ee3ce4c994d748671dbf83825b84ccf289fd8a8acc89423a38fa6cace65e4db313bcb96430f57ad58657810a7d07cbc055bb429239d737197dc4c7db597d4d43c732",
+        "domain": "www.gov.br",
+        "path": "/",
+        "expires": -1,
+        "size": 148,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Encrypted-Local-Storage-Key",
+        "value": "TLAu35ki90FL1s94gDfuFO7l+W8aM/TcvemVXytO+QA",
+        "domain": "www.gov.br",
+        "path": "/",
+        "expires": -1,
+        "size": 70,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||browser-update.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.gov.br/pt-br",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-update.org/update.min.js"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 598078,
+            "d": "agenciagov.ebc.com.br",
+            "if": "",
+            "key": "R7WQE-W7S8M-TL2AG-4YP37-KUGD5",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,LOGN",
+            "si": "xl5mg5qznd9-tggpgv",
+            "sl": 0,
+            "t": 5937242,
+            "v": "1.632.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=R7WQE-W7S8M-TL2AG-4YP37-KUGD5&d=agenciagov.ebc.com.br&t=5937242&v=1.632.0&if=&sl=0&si=xl5mg5qznd9-tggpgv&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,LOGN&acao=&ak.ai=598078"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 598078,
+            "d": "agenciagov.ebc.com.br",
+            "if": "",
+            "key": "R7WQE-W7S8M-TL2AG-4YP37-KUGD5",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,LOGN",
+            "si": "999dzfm99ar-tggpgv",
+            "sl": 0,
+            "t": 5937242,
+            "v": "1.632.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=R7WQE-W7S8M-TL2AG-4YP37-KUGD5&d=agenciagov.ebc.com.br&t=5937242&v=1.632.0&if=&sl=0&si=999dzfm99ar-tggpgv&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,LOGN&acao=&ak.ai=598078"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/R7WQE-W7S8M-TL2AG-4YP37-KUGD5"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/R7WQE-W7S8M-TL2AG-4YP37-KUGD5"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-X0DQ0CT40G"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://agenciagov.ebc.com.br/embedgov_view",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-X0DQ0CT40G"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-X0DQ0CT40G"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://agenciagov.ebc.com.br/embedgov_view",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-X0DQ0CT40G"
+      }
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Equativ — The Global End-to-End Media Platform",
+  "uri_ins": "https://smartadserver.com",
+  "uri_dest": "https://www.equativ.com/",
+  "uri_redirects": [
+    "https://smartadserver.com/",
+    "https://equativ.com/"
+  ],
+  "secure_connection": {},
+  "host": "smartadserver.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:00:16.212Z",
+  "end_time": "2026-06-11T07:00:23.523Z",
+  "browsing_history": [
+    "https://www.equativ.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "smartadserver.com",
+        "equativ.com",
+        "www.equativ.com",
+        "assets.equativ.com"
+      ],
+      "third_party": [
+        "cdn.prod.website-files.com",
+        "use.typekit.net",
+        "cdn.jsdelivr.net",
+        "d3e54v103j8qbb.cloudfront.net",
+        "sdk.privacy-center.org",
+        "www.googletagmanager.com",
+        "ipapi.co",
+        "p.typekit.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://cdn.prod.website-files.com/67c08eeba1b1daeadfce8df4/js/equativ-2025.schunk.d88726541c0ca312.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67c08eeba1b1daeadfce8df4": [
+          "click",
+          "scroll"
+        ],
+        "https://cdn.prod.website-files.com/67c08eeba1b1daeadfce8df4/js/equativ-2025.schunk.d88726541c0ca312.js": [
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.equativ.com/": [
+          "keydown"
+        ],
+        "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn.prod.website-files.com/67c08eeba1b1daeadfce8df4/js/equativ-2025.schunk.d88726541c0ca312.js": [
+          "orientationchange"
+        ],
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67c08eeba1b1daeadfce8df4": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_cfuvid",
+        "value": "GMhefcqInGl7VTDQQcP9QYMxYXT3ULG2DVz4_PE55Lw-1781161217.0107093-1.0.1.1-hxkGRfglnMT2oyn3.zq5ddEtgv6st4Y7W9rRdCF1fRw",
+        "domain": "equativ.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "didomi_dcs",
+        "value": "CGetXtcz3bRiMU0hOyUKJUkJaeiNUJaeiNQABEAACAABAAAgAAAA...",
+        "domain": "equativ.com",
+        "path": "/",
+        "expires": "2026-12-11T08:00:21.000Z",
+        "size": 65,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1781161221087,
+            "a": 133976393,
+            "app": "typekit",
+            "e": "js",
+            "f": "55913.55914.55918.55919.55922.55924",
+            "h": "www.equativ.com",
+            "ht": "tk",
+            "js": "1.21.0",
+            "k": "jkd2cvt",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.equativ.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=jkd2cvt&ht=tk&h=www.equativ.com&f=55913.55914.55918.55919.55922.55924&a=133976393&js=1.21.0&app=typekit&e=js&_=1781161221087"
+      },
+      {
+        "data": {
+          "filter": "||ipapi.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.equativ.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ipapi.co/json/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TNJ5QPLL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.equativ.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TNJ5QPLL"
+      },
+      {
+        "data": {
+          "filter": "/smartadserver.$domain=~smartadserver.com|~smartadserver.com.br|~smartadserver.de|~smartadserver.es|~smartadserver.fr|~smartadserver.it|~smartadserver.pl|~smartadserver.ru",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://smartadserver.com/"
+      }
+    ]
+  }
+}

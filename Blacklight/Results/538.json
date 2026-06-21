@@ -1,0 +1,218 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "UK.COM | A Powerful Domain for the United Kingdom",
+  "uri_ins": "https://uk.com",
+  "uri_dest": "https://uk.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "uk.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:21:27.098Z",
+  "end_time": "2026-06-11T08:21:36.738Z",
+  "browsing_history": [
+    "https://uk.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "uk.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-Y61CK76R81&cx=c&gtm=4e6691": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_Y61CK76R81",
+        "value": "GS2.1.s1781166090$o1$g0$t1781166090$j60$l0$h0",
+        "domain": "uk.com",
+        "path": "/",
+        "expires": "2027-07-16T08:21:30.810Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1966692452.1781166091",
+        "domain": "uk.com",
+        "path": "/",
+        "expires": "2027-07-16T08:21:30.812Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781166088400,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1966692452.1781166,
+            "dl": "https://uk.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "UK.COM | A Powerful Domain for the United Kingdom",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9112027232z89115882070za20gzb9115882070zd9115882070",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166090,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938466~115938469",
+            "tfd": 3258,
+            "tid": "G-Y61CK76R81",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://uk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-Y61CK76R81&gtm=45je6691v9112027232z89115882070za20gzb9115882070zd9115882070&_p=1781166088400&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1966692452.1781166091&frm=0&pscdl=&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938466~115938469&sid=1781166090&sct=1&seg=0&dl=https%3A%2F%2Fuk.com%2F&dt=UK.COM%20%7C%20A%20Powerful%20Domain%20for%20the%20United%20Kingdom&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=3258"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-Y61CK76R81"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://uk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-Y61CK76R81&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TMT52RF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://uk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TMT52RF"
+      }
+    ]
+  }
+}

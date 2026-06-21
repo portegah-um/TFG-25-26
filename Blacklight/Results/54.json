@@ -1,0 +1,354 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "ChatGPT",
+  "uri_ins": "https://chatgpt.com",
+  "uri_dest": "https://chatgpt.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "chatgpt.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:47:29.060Z",
+  "end_time": "2026-06-11T05:47:35.982Z",
+  "browsing_history": [
+    "https://chatgpt.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "chatgpt.com"
+      ],
+      "third_party": [
+        "cdn.openai.com",
+        "accounts.google.com",
+        "api.oaistatsig.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "/_/gsi/_/js/k=gsi.gsi.es.1VCmNegQPO0.O/am=AAAAAAkCmAIC/d=1/rs=AF0KOtVsivrJzbGys3zuMVn7iwdOGig2ag/m=credential_server_library": [
+          "touchmove"
+        ],
+        "https://chatgpt.com/cdn/assets/4813494d-npy43t9ic0c89vqw.js": [
+          "touchcancel",
+          "touchstart",
+          "touchend"
+        ],
+        "https://chatgpt.com/cdn/assets/2340486e-bx99lw8b5qpcmtf7.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      },
+      "MOUSE": {
+        "https://accounts.google.com/gsi/client": [
+          "click"
+        ],
+        "https://chatgpt.com/cdn/assets/ae144ef6-cczhn40pejz0ewue.js": [
+          "click"
+        ],
+        "https://chatgpt.com/cdn/assets/conversation-small-md81nd15wen7djg6.js": [
+          "mouseup"
+        ],
+        "https://chatgpt.com/cdn/assets/4813494d-npy43t9ic0c89vqw.js": [
+          "click",
+          "dblclick",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://chatgpt.com/cdn/assets/2340486e-bx99lw8b5qpcmtf7.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://chatgpt.com/cdn/assets/ae144ef6-cczhn40pejz0ewue.js": [
+          "keydown"
+        ],
+        "https://chatgpt.com/cdn/assets/4813494d-npy43t9ic0c89vqw.js": [
+          "keypress",
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://chatgpt.com/cdn/assets/conversation-small-md81nd15wen7djg6.js": [
+          "keypress"
+        ],
+        "https://chatgpt.com/cdn/assets/2340486e-bx99lw8b5qpcmtf7.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "8f32078c71586b285cc13ef1730db67fe4c7bef50f8d2993b3662374844dc83b%7C68b8fd296ff8a9d030bdbb0d74f02307be4c4a5e5c0b847494d3a5dbdc784ec2",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": -1,
+        "size": 158,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fchatgpt.com",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": -1,
+        "size": 56,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "oai-did",
+        "value": "80f17208-f944-4de6-b941-98cfdae315b6",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2027-06-06T05:47:29.868Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "oai-chat-web-route",
+        "value": "\"ChMxMC4xMjkuMTAzLjIwOTozMDAwEIq/ogE=\"",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2026-06-18T05:47:29.868Z",
+        "size": 56,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cflb",
+        "value": "04dTofELUVCxHqRn2XjKNCPM1fQMe2bpUHzLu9uYLK",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2026-06-11T06:47:29.868Z",
+        "size": 48,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "lLZnu_ji_XfeNViLzSmISrf8PGKMTiw_XUrC_KEyqXg-1781156849.7432926-1.0.1.1-aIkHWLuODQ_2IPDsPGz4Qt6FoHLnEKjyZntqeL2rses",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "OuqJiRNkHiLaLW09GWrcBBmZSsh1n70iPQEuceBnLMg-1781156850-1.2.1.1-pO4NsCcpe9UxaUm06_b8ac0LDGVZiR5f5nOA4P_3cdP.gbkHji4SO2rJlImQ5G_oO2d7JfGvZwwfxhRY5VZM0wXZmVotGW1Wih_2.laI5ezNObuZBRJsOWny2JzxZwL2f3lRnOx.QDjfI91CkHlMB_xLtct4vojj91B_P_wTUFL5kuRa4JGg2NF0Sk3xD.9dyFwIJIyaDvEfEEiZ8cJ3Z0mOSj45fDq68ZSOB5DJnXhPlUbr8hQac3rPw1ZjFsATQg9fbmtDPR6xYgIkPRtmekzOkoj47j0K_uLhAJgHUw59JJXO6.lLbKA3F0ev29Tv0Fi1lqY41INCTkfmp8iHAQ",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2027-06-11T05:47:30.531Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://chatgpt.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "zf9npBOPOLsDEN_Pe_bXiv00MZ0_VVqHOlGFhHBDM6o-1781156850.5174947-1.0.1.1-mDlbOZ28exJZGpe6Vii8KMbXPa.IIzdiw7UNp70B2dgeLtNgDAO0BJ7lHB8QAyNK8mTsH53Ywo_5zDspBN9qxEs_ruuE5XhWeBm2ry.Tntik7gSaOhQSWW5VsqiU9Q71",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2026-06-11T06:17:30.531Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=548f977d-be9e-4482-a02a-b7a5fe76946c&rum=0&expire=1781157751805&logs=1&id=62ad91e1-6dc1-4a0a-85e2-273d0f4158a0&created=1781156851805",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2027-06-11T05:47:31.000Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781156853360,\"i_b\":\"zqq1U6wp57YNaFkk9t43Qp3rf4toYzaFFlTLkOKL4Go\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781156853338}",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": "2026-12-08T05:47:33.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "oai-asli",
+        "value": "e91ed161-be09-433e-9c0f-9db493eeada4",
+        "domain": "chatgpt.com",
+        "path": "/",
+        "expires": -1,
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

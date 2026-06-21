@@ -1,0 +1,246 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "g.co",
+  "uri_ins": "https://g.co",
+  "uri_dest": "https://g.co/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "g.co",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:58:14.406Z",
+  "end_time": "2026-06-11T08:58:16.861Z",
+  "browsing_history": [
+    "https://g.co/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "g.co"
+      ],
+      "third_party": [
+        "www.google.com",
+        "fonts.googleapis.com",
+        "ssl.google-analytics.com",
+        "fonts.gstatic.com",
+        "ssl.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__utma",
+        "value": "12287842.321550141.1781168296.1781168296.1781168296.1",
+        "domain": "g.co",
+        "path": "/",
+        "expires": "2027-07-16T08:58:15.630Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__utmc",
+        "value": "12287842",
+        "domain": "g.co",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__utmz",
+        "value": "12287842.1781168296.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "domain": "g.co",
+        "path": "/",
+        "expires": "2026-12-10T20:58:15.000Z",
+        "size": 75,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__utmt",
+        "value": "1",
+        "domain": "g.co",
+        "path": "/",
+        "expires": "2026-06-11T09:08:15.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__utmb",
+        "value": "12287842.1.10.1781168296",
+        "domain": "g.co",
+        "path": "/",
+        "expires": "2026-06-11T09:28:15.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmac": "UA-12481063-1",
+            "utmcc": "__utma=12287842.321550141.1781168296.1781168296.1781168296.1;+__utmz=12287842.1781168296.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmcs": "UTF-8",
+            "utmdt": "g.co",
+            "utmfl": "-",
+            "utmhid": 686939636,
+            "utmhn": "g.co",
+            "utmht": 1781168295627,
+            "utmje": 0,
+            "utmjid": 503980635,
+            "utmn": 86011841,
+            "utmp": "/",
+            "utmr": "-",
+            "utmredir": 1,
+            "utms": 1,
+            "utmsc": "24-bit",
+            "utmsr": "375x812",
+            "utmu": "qKCAAAAAAAAAAAAAAAAAAAAE~",
+            "utmul": "en-us",
+            "utmvp": "375x812",
+            "utmwv": "5.7.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://g.co/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/j/__utm.gif?utmwv=5.7.2&utms=1&utmn=86011841&utmhn=g.co&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=g.co&utmhid=686939636&utmr=-&utmp=%2F&utmht=1781168295627&utmac=UA-12481063-1&utmcc=__utma%3D12287842.321550141.1781168296.1781168296.1781168296.1%3B%2B__utmz%3D12287842.1781168296.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=503980635&utmredir=1&utmu=qKCAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://g.co/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/ga.js"
+      },
+      {
+        "data": {
+          "filter": "/gweb/analytics/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://g.co/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/js/gweb/analytics/autotrack.js"
+      }
+    ]
+  }
+}

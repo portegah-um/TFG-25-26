@@ -1,0 +1,325 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Hybrid Multicloud App Security & Delivery for the AI Era | F5",
+  "uri_ins": "https://f5.com",
+  "uri_dest": "https://www.f5.com/",
+  "uri_redirects": [
+    "https://f5.com/"
+  ],
+  "secure_connection": {},
+  "host": "f5.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:08:03.300Z",
+  "end_time": "2026-06-11T06:08:16.701Z",
+  "browsing_history": [
+    "https://www.f5.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "f5.com",
+        "www.f5.com",
+        "mktg.tags.f5.com",
+        "cdn.studio.f5.com",
+        "mktg.collect.f5.com"
+      ],
+      "third_party": [
+        "app.easyling.com",
+        "consent.trustarc.com",
+        "view.ceros.com",
+        "tags.tiqcdn.com",
+        "skawa-easyling.cdn.easyling.com",
+        "de-de-63iw3vww.app.easyling.com",
+        "k6fem79d.api.sanity.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.f5.com/_next/static/chunks/app/layout-8950f7a631b03d2e.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "scroll"
+        ],
+        "https://view.ceros.com/scroll-proxy.min.js": [
+          "scroll"
+        ],
+        "https://www.f5.com/_next/static/chunks/3617-460375ef5e3bc219.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "click",
+          "scroll"
+        ],
+        "https://www.f5.com/_next/static/chunks/4bd1b696-643ad7e1253fdab5.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://mktg.tags.f5.com/main/prod/utag.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.f5.com/_next/static/chunks/5005-fb93f13cb032b960.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "keydown"
+        ],
+        "https://www.f5.com/_next/static/chunks/1507-7c43ce9587b07fc2.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "keydown"
+        ],
+        "https://www.f5.com/_next/static/chunks/4bd1b696-643ad7e1253fdab5.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://www.f5.com/_next/static/chunks/4bd1b696-643ad7e1253fdab5.js?dpl=dpl_E5RM2Bp2Suk9DYzHQg67HX3b99GH": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "TAsessionID",
+        "value": "bede7943-e27a-4b02-8cf6-d738254b5561|NEW",
+        "domain": "f5.com",
+        "path": "/",
+        "expires": "2026-06-11T06:38:06.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "notice_behavior",
+        "value": "implied,eu",
+        "domain": "f5.com",
+        "path": "/",
+        "expires": -1,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TAPID",
+        "value": "f5/main>019eb54b85bf000c42103e91f67c00087001307f004bb|",
+        "domain": "collect.f5.com",
+        "path": "/",
+        "expires": "2027-06-11T06:08:12.500Z",
+        "size": 59,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utag_main",
+        "value": "_sn:1$_se:3$_ss:0$_st:1781159894624$ses_id:1781158086082%3Bexp-session$_pn:2%3Bexp-session$dc_visit:1$dc_event:1%3Bexp-session$dc_region:us-east-1%3Bexp-session",
+        "domain": "f5.com",
+        "path": "/",
+        "expires": "2027-06-11T06:08:14.000Z",
+        "size": 169,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "coveo_visitorId",
+        "value": "f9040fb8-5446-4b6a-bbf3-5c4289a48e9a",
+        "domain": "f5.com",
+        "path": "/",
+        "expires": "2027-06-11T11:57:27.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "f5.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.f5.com",
+            "session": "bede7943e27a4b028cf6d738254b5561"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.f5.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=f5.com&implied=1&session=bede7943e27a4b028cf6d738254b5561&new=1&referer=https://www.f5.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "f5.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.f5.com",
+            "session": "bede7943e27a4b028cf6d738254b5561"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.f5.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=f5.com&implied=1&session=bede7943e27a4b028cf6d738254b5561&new=1&referer=https://www.f5.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "f5.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.f5.com",
+            "session": "bede7943e27a4b028cf6d738254b5561"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.f5.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=f5.com&implied=1&session=bede7943e27a4b028cf6d738254b5561&new=1&referer=https://www.f5.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "f5.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.f5.com",
+            "session": "bede7943e27a4b028cf6d738254b5561"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.f5.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=f5.com&implied=1&session=bede7943e27a4b028cf6d738254b5561&new=1&referer=https://www.f5.com"
+      }
+    ]
+  }
+}

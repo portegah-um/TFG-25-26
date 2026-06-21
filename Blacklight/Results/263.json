@@ -1,0 +1,339 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Data Access Portal | The Trade Desk",
+  "uri_ins": "https://adsrvr.org",
+  "uri_dest": "https://adsrvr.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "adsrvr.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:56:49.000Z",
+  "end_time": "2026-06-11T06:56:52.506Z",
+  "browsing_history": [
+    "https://adsrvr.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "adsrvr.org"
+      ],
+      "third_party": [
+        "code.jquery.com",
+        "www.thetradedesk.com",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://adsrvr.org/content/scripts/newrelic.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://adsrvr.org/content/scripts/newrelic.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 594525576,
+            "ck": 0,
+            "ptid": "6c48b56025da6f48",
+            "ref": "https://adsrvr.org/",
+            "rst": 2997,
+            "s": "522ec5ab488b7e75",
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.269.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/ad645dc0c7?a=594525576&sa=1&v=1.269.0&t=Unnamed%20Transaction&rst=2997&ck=0&s=522ec5ab488b7e75&ref=https://adsrvr.org/&ptid=6c48b56025da6f48"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "app_id": 594525576,
+            "attributes": "entityGuid=MzE3OTQzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI1NTc2&harvestId=522ec5ab488b7e75_6c48b56025da6f48_2&trace.firstTimestamp=1781161010360&trace.lastTimestamp=1781161012549&trace.nodes=30&trace.originTimestamp=1781161009560&agentVersion=1.269.0&ptid=6c48b56025da6f48&session=522ec5ab488b7e75&currentUrl=https://adsrvr.org/",
+            "browser_monitoring_key": "ad645dc0c7",
+            "protocol_version": 0,
+            "timestamp": 1781161010360,
+            "type": "BrowserSessionChunk"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=ad645dc0c7&type=BrowserSessionChunk&app_id=594525576&protocol_version=0&timestamp=1781161010360&attributes=entityGuid%3DMzE3OTQzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI1NTc2%26harvestId%3D522ec5ab488b7e75_6c48b56025da6f48_2%26trace.firstTimestamp%3D1781161010360%26trace.lastTimestamp%3D1781161012549%26trace.nodes%3D30%26trace.originTimestamp%3D1781161009560%26agentVersion%3D1.269.0%26ptid%3D6c48b56025da6f48%26session%3D522ec5ab488b7e75%26currentUrl%3Dhttps://adsrvr.org/"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 594525576,
+            "ck": 0,
+            "ptid": "6c48b56025da6f48",
+            "ref": "https://adsrvr.org/",
+            "rst": 2994,
+            "s": "522ec5ab488b7e75",
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.269.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/ad645dc0c7?a=594525576&sa=1&v=1.269.0&t=Unnamed%20Transaction&rst=2994&ck=0&s=522ec5ab488b7e75&ref=https://adsrvr.org/&ptid=6c48b56025da6f48"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 594525576,
+            "ck": 0,
+            "ptid": "6c48b56025da6f48",
+            "ref": "https://adsrvr.org/",
+            "rst": 2992,
+            "s": "522ec5ab488b7e75",
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.269.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/ad645dc0c7?a=594525576&sa=1&v=1.269.0&t=Unnamed%20Transaction&rst=2992&ck=0&s=522ec5ab488b7e75&ref=https://adsrvr.org/&ptid=6c48b56025da6f48"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 594525576,
+            "ck": 0,
+            "ptid": "6c48b56025da6f48",
+            "ref": "https://adsrvr.org/",
+            "rst": 2990,
+            "s": "522ec5ab488b7e75",
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.269.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/ad645dc0c7?a=594525576&sa=1&v=1.269.0&t=Unnamed%20Transaction&rst=2990&ck=0&s=522ec5ab488b7e75&ref=https://adsrvr.org/&ptid=6c48b56025da6f48"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 594525576,
+            "ck": 0,
+            "ptid": "6c48b56025da6f48",
+            "ref": "https://adsrvr.org/",
+            "rst": 2766,
+            "s": "522ec5ab488b7e75",
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.269.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/ad645dc0c7?a=594525576&sa=1&v=1.269.0&t=Unnamed%20Transaction&rst=2766&ck=0&s=522ec5ab488b7e75&ref=https://adsrvr.org/&ptid=6c48b56025da6f48"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "app_id": 594525576,
+            "attributes": "entityGuid=MzE3OTQzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI1NTc2&harvestId=522ec5ab488b7e75_6c48b56025da6f48_1&trace.firstTimestamp=1781161009560&trace.lastTimestamp=1781161011773&trace.nodes=26&trace.originTimestamp=1781161009560&agentVersion=1.269.0&firstSessionHarvest=true&ptid=6c48b56025da6f48&session=522ec5ab488b7e75&currentUrl=https://adsrvr.org/",
+            "browser_monitoring_key": "ad645dc0c7",
+            "protocol_version": 0,
+            "timestamp": 1781161009560,
+            "type": "BrowserSessionChunk"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=ad645dc0c7&type=BrowserSessionChunk&app_id=594525576&protocol_version=0&timestamp=1781161009560&attributes=entityGuid%3DMzE3OTQzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI1NTc2%26harvestId%3D522ec5ab488b7e75_6c48b56025da6f48_1%26trace.firstTimestamp%3D1781161009560%26trace.lastTimestamp%3D1781161011773%26trace.nodes%3D26%26trace.originTimestamp%3D1781161009560%26agentVersion%3D1.269.0%26firstSessionHarvest%3Dtrue%26ptid%3D6c48b56025da6f48%26session%3D522ec5ab488b7e75%26currentUrl%3Dhttps://adsrvr.org/"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 594525576,
+            "af": "err,spa,xhr,stn,ins",
+            "be": 784,
+            "ck": 0,
+            "dc": 591,
+            "fe": 1428,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 34,
+                "ce": 428,
+                "dc": 2207,
+                "de": 1376,
+                "di": 1375,
+                "dn": 34,
+                "dne": 34,
+                "ds": 1375,
+                "f": 2,
+                "l": 2207,
+                "le": 2213,
+                "n": 0,
+                "of": 1781161009419,
+                "rp": 785,
+                "rpe": 789,
+                "rq": 429,
+                "s": 378
+              }
+            },
+            "ptid": "6c48b56025da6f48",
+            "ref": "https://adsrvr.org/",
+            "rst": 2317,
+            "s": "522ec5ab488b7e75",
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.269.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/ad645dc0c7?a=594525576&sa=1&v=1.269.0&t=Unnamed%20Transaction&rst=2317&ck=0&s=522ec5ab488b7e75&ref=https://adsrvr.org/&ptid=6c48b56025da6f48&af=err,spa,xhr,stn,ins&be=784&fe=1428&dc=591&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781161009419,%22n%22:0,%22f%22:2,%22dn%22:34,%22dne%22:34,%22c%22:34,%22s%22:378,%22ce%22:428,%22rq%22:429,%22rp%22:785,%22rpe%22:789,%22di%22:1375,%22ds%22:1375,%22de%22:1376,%22dc%22:2207,%22l%22:2207,%22le%22:2213%7D,%22navigation%22:%7B%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://adsrvr.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.269.0.min.js"
+      }
+    ]
+  }
+}

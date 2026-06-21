@@ -1,0 +1,1258 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "USDA",
+  "uri_ins": "https://usda.gov",
+  "uri_dest": "https://www.usda.gov/",
+  "uri_redirects": [
+    "https://usda.gov/"
+  ],
+  "secure_connection": {},
+  "host": "usda.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:03:37.030Z",
+  "end_time": "2026-06-11T10:03:43.938Z",
+  "browsing_history": [
+    "https://www.usda.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "usda.gov",
+        "www.usda.gov"
+      ],
+      "third_party": [
+        "dap.digitalgov.gov",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net",
+        "www.youtube.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-VYRH7BQ1FL&cx=c&_slc=1": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&sp=lookup,locate&exts=pdf,xls,zip,jpg,gif,mp3&dclink=true&yt=true&enhlink=true": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-N65GDDH": [
+          "click"
+        ],
+        "https://www.usda.gov/sites/default/files/js/js_mntDCEgQ_xelKdGLBYlRtJ6O8l_9VPX471kaHFSawk4.js?scope=footer&delta=0&language=en&theme=usda_uswds&include=eJxdje0KwyAMRV-o1jHY80iqVmw1KSbZ19PPsTHa_Qm554Rcv8aQhZoD76mFTGh_2zg3QokYhniXknG1oekGZfzGIRGlEp1AsqmP_zzCAvcjrINyAOeVhWp-gvQatsrgzpeTmwAxts-J8i2wBeYovCeL1u1dbmieu9urChlNjahGKPXOvWOd2Lc8HaDAdPh9zSGSARXaCjxeYUlu2Q": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&sp=lookup,locate&exts=pdf,xls,zip,jpg,gif,mp3&dclink=true&yt=true&enhlink=true": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ak_bmsc",
+        "value": "5D729B3F3E5C1DA305C256224612B77A~000000000000000000000000000000~YAAQSkAQAkIjLIeeAQAAyS4jtgC6DfeEhnJrfNsORXu4q+wtgbhJpHrq6+Nc0vgA9qrT6iPdx5gdv5UkqJEySkD78ATL4SS9oK98XkoP+wotSxvAux1Kd69qj7vZHFTcyA6NdUDq7gIVm49FP03KliX4x2SODCCBN64OyEV+9KNOkgJKPNosO0oHbbjPJXkO1az6+49UvzvTDVd/rZQkqVEJt+qCcHxTGpvSbGZyWrloT7q0eQXSZakeo+3SYx1gWPuRIvWVxiuxs1TS+5ufKcaIcqw37BtunUYQ5IxaG6tITwTnroXwqJI2IdHb43na1pwnUD9KQFxSTy5qRHlYgQBlMsRcCIU1PqRouVRSONLeghd8CysfWxy3IyTptLqWW/B3cRc3JXVA",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2026-06-11T12:03:39.608Z",
+        "size": 467,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1203478150.1781172220",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2026-06-12T10:03:40.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat",
+        "value": "1",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2026-06-11T10:04:40.000Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_usdaTracker",
+        "value": "1",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2026-06-11T10:04:40.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-93344103-7",
+        "value": "1",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2026-06-11T10:04:40.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-YNID",
+        "value": "19.YT=s1JDou6ILP_f55zMXREoKWKRkhKgDErU5H13DVPcBTEThZlQC4VqvyubgTNXUS1IqBRK70eK3pd8S-jo0vQoPxARywvoXPcPpNmj_ib7Lq0zRileI5fQcKVAq_L88JSdwCyhU--etFQxzUIPQkIEI15O_TBZqacDejxk4PC_WKaBIQFMaDnkdOp_SFzTVg77cSLCfUnwiGlix6drZLVnu42HevOEf9-ScmH45EV85ezYe6XZ6nklT6XyQsnQLZ7e7YZbmtGTHIE0RGn5C7022zd5tRCQ0vvG_8wlr9brjCyU1WlckaYRaTtWSkfqwbfCggUmg7gBqQZk1O16O0LMwA",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:40.917Z",
+        "size": 361,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "YSC",
+        "value": "wnk3O1Xq8pI",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CKzC1a22uezcBxC-p4nM9_6UAxi-p4nM9_6UAw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:40.917Z",
+        "size": 66,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://usda.gov",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "cbACio-P9ug",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:40.917Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJFUxIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgUg%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:40.917Z",
+        "size": 84,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_VYRH7BQ1FL",
+        "value": "GS2.2.s1781172220$o1$g0$t1781172220$j60$l0$h0",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:03:40.933Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1971107206.1781172220",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:03:41.228Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_MKM7D79XFX",
+        "value": "GS2.2.s1781172221$o1$g0$t1781172221$j60$l0$h0",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:03:41.477Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_JV4BH8QMXZ",
+        "value": "GS2.2.s1781172221$o1$g0$t1781172221$j60$l0$h0",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:03:41.679Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781172221$o1$g0$t1781172222$j59$l0$h0",
+        "domain": "usda.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:03:42.840Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 1203478150.1781173,
+            "_r": 3,
+            "_u": "IGDAgEABAAAAAGAAI~",
+            "_v": "j102",
+            "aip": 1,
+            "cid": 1971107206.1781173,
+            "gjid": 90179136,
+            "jid": 485161976,
+            "t": "dc",
+            "tid": "UA-27627304-1",
+            "v": 1,
+            "z": 3124787
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-27627304-1&cid=1971107206.1781172220&jid=485161976&gjid=90179136&_gid=1203478150.1781172220&_u=IGDAgEABAAAAAGAAI~&z=3124787"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAAQ",
+            "_p": 1781172219760,
+            "_s": 5,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "USDA",
+            "en": "INP",
+            "ep.agency": "USDA",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "complete",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "usda.gov",
+            "ep.metric_id": "v4-1781172220602-5355360251419",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:usda.gov",
+            "ep.site_topic": "unspecified:usda.gov",
+            "ep.subagency": "USDA.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 8,
+            "epn.metric_value": 8,
+            "epn.value": 8,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~117776793",
+            "tfd": 6294,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200&_p=1781172219760&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=5&tag_exp=0~115938466~115938468~117776793&dl=https%3A%2F%2Fusda.gov%2F&dt=USDA&dr=&sid=1781172221&sct=1&seg=0&_tu=wA&en=INP&_ee=1&ep.agency=USDA&ep.subagency=USDA.GOV&ep.site_topic=unspecified%3Ausda.gov&ep.site_platform=unspecified%3Ausda.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=usda.gov&epn.value=8&ep.metric_id=v4-1781172220602-5355360251419&epn.metric_value=8&epn.metric_delta=8&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=complete&epn.event_time=0&ep.event_name_dimension=INP&tfd=6294"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAAQ",
+            "_p": 1781172219760,
+            "_s": 4,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "USDA",
+            "en": "CLS",
+            "ep.agency": "USDA",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "",
+            "ep.event_name_dimension": "CLS",
+            "ep.hostname_dimension": "usda.gov",
+            "ep.metric_id": "v4-1781172220566-5839909304949",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:usda.gov",
+            "ep.site_topic": "unspecified:usda.gov",
+            "ep.subagency": "USDA.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 0,
+            "epn.metric_value": 0,
+            "epn.value": 0,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~117776793",
+            "tfd": 6273,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200&_p=1781172219760&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=4&tag_exp=0~115938466~115938468~117776793&dl=https%3A%2F%2Fusda.gov%2F&dt=USDA&dr=&sid=1781172221&sct=1&seg=0&_tu=wA&en=CLS&_ee=1&ep.agency=USDA&ep.subagency=USDA.GOV&ep.site_topic=unspecified%3Ausda.gov&ep.site_platform=unspecified%3Ausda.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=usda.gov&epn.value=0&ep.metric_id=v4-1781172220566-5839909304949&epn.metric_value=0&epn.metric_delta=0&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=&epn.event_time=0&ep.event_name_dimension=CLS&tfd=6273"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_et": 878,
+            "_eu": "AAAAAAQ",
+            "_p": 1781172219760,
+            "_s": 3,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "USDA",
+            "en": "INP",
+            "ep.agency": "USDA",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "complete",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "usda.gov",
+            "ep.metric_id": "v4-1781172220565-4184671280928",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:usda.gov",
+            "ep.site_topic": "unspecified:usda.gov",
+            "ep.subagency": "USDA.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 8,
+            "epn.metric_value": 8,
+            "epn.value": 8,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~117776793",
+            "tfd": 6258,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200&_p=1781172219760&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938466~115938468~117776793&dl=https%3A%2F%2Fusda.gov%2F&dt=USDA&dr=&sid=1781172221&sct=1&seg=0&_tu=wA&en=INP&_ee=1&ep.agency=USDA&ep.subagency=USDA.GOV&ep.site_topic=unspecified%3Ausda.gov&ep.site_platform=unspecified%3Ausda.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=usda.gov&epn.value=8&ep.metric_id=v4-1781172220565-4184671280928&epn.metric_value=8&epn.metric_delta=8&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=complete&epn.event_time=0&ep.event_name_dimension=INP&_et=878&tfd=6258"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781172219760,
+            "_s": 2,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "USDA",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~117776793",
+            "tfd": 6240,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200&_p=1781172219760&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938466~115938468~117776793&dl=https%3A%2F%2Fusda.gov%2F&dt=USDA&dr=&sid=1781172221&sct=1&seg=0&_tu=wA&_s=2&tfd=6240"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "ABAIAAQ",
+            "_p": 1781172219760,
+            "_s": 2,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "USDA",
+            "frm": 0,
+            "gcd": "13l3l3l2l2l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9126056786za20g",
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172220,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tfd": 6238,
+            "tid": "G-VYRH7BQ1FL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-VYRH7BQ1FL&gtm=45je6691v9126056786za20g&_p=1781172219760&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=ABAIAAQ&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115616985~115938466~115938469&dl=https%3A%2F%2Fwww.usda.gov%2F&dt=USDA&sid=1781172220&sct=1&seg=0&_tu=QA&_s=2&tfd=6238"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_p": 1781172219760,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "USDA",
+            "en": "page_view",
+            "ep.ua_dimension_1": "https://www.usda.gov/",
+            "ep.ua_dimension_2": 13,
+            "frm": 0,
+            "gap.uat": "0~115616985~115938466~115938468",
+            "gcd": "13l3l3l2l3l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9124074626za20g",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 16,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 4207,
+            "tid": "G-JV4BH8QMXZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-JV4BH8QMXZ&gtm=45je6691v9124074626za20g&_p=1781172219760&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=EBAI&are=1&cid=1971107206.1781172220&frm=0&ir=1&pscdl=&rcb=16&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&dl=https%3A%2F%2Fwww.usda.gov%2F&dt=USDA&sid=1781172221&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=0~115616985~115938466~115938468&ep.ua_dimension_1=https%3A%2F%2Fwww.usda.gov%2F&ep.ua_dimension_2=13&tfd=4207"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_p": 1781172219760,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "USDA",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l2l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691h1v9124496994za20g",
+            "ir": 1,
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 14,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tfd": 4001,
+            "tid": "G-MKM7D79XFX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MKM7D79XFX&gtm=45je6691h1v9124496994za20g&_p=1781172219760&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=EBAI&are=1&cid=1971107206.1781172220&frm=0&ir=1&pscdl=&rcb=14&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938466~115938469&dl=https%3A%2F%2Fwww.usda.gov%2F&dt=USDA&sid=1781172221&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=4001"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781172219760,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "USDA",
+            "en": "page_view",
+            "ep.agency": "USDA",
+            "ep.hostname_dimension": "usda.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:usda.gov",
+            "ep.site_topic": "unspecified:usda.gov",
+            "ep.subagency": "USDA.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172221,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~117776793",
+            "tfd": 3759,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200&_p=1781172219760&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117776793&dl=https%3A%2F%2Fusda.gov%2F&dt=USDA&dr=&sid=1781172221&sct=1&seg=0&_tu=wA&en=page_view&_fv=1&_ss=1&_ee=1&ep.agency=USDA&ep.subagency=USDA.GOV&ep.site_topic=unspecified%3Ausda.gov&ep.site_platform=unspecified%3Ausda.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=usda.gov&tfd=3759"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "ABAI",
+            "_fv": 1,
+            "_p": 1781172219760,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "USDA",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l2l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9126056786za20g",
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172220,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tfd": 3421,
+            "tid": "G-VYRH7BQ1FL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-VYRH7BQ1FL&gtm=45je6691v9126056786za20g&_p=1781172219760&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=ABAI&are=1&cid=1971107206.1781172220&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938466~115938469&dl=https%3A%2F%2Fwww.usda.gov%2F&dt=USDA&sid=1781172220&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=3421"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-JV4BH8QMXZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-JV4BH8QMXZ&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1203478150.1781173,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "aGDAAUAjAAAAAGAAI~",
+            "_v": "j102",
+            "a": 469749842,
+            "aip": 1,
+            "cd1": "https://www.usda.gov/",
+            "cd2": 13,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "USDA",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 1674700507,
+            "gtm": "45He6691n81N65GDDHza200",
+            "jid": 2132849328,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tid": "UA-93344103-7",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 50409730
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=469749842&t=pageview&_s=1&dl=https%3A%2F%2Fwww.usda.gov%2F&ul=en-us&dt=USDA&sr=375x812&vp=375x812&_u=aGDAAUAjAAAAAGAAI~&jid=2132849328&gjid=1674700507&cid=1971107206.1781172220&tid=UA-93344103-7&_gid=1203478150.1781172220&_r=1&_slc=1&gtm=45He6691n81N65GDDHza200&cd1=https%3A%2F%2Fwww.usda.gov%2F&cd2=13&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616985~115938466~115938468&npa=1&z=50409730"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-MKM7D79XFX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-MKM7D79XFX&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-VYRH7BQ1FL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-VYRH7BQ1FL&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/plugins/ua/linkid.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1203478150.1781173,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "IGDAAEABAAAAAGAAI~",
+            "_v": "j102",
+            "a": 469749842,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dt": "USDA",
+            "gjid": 802023065,
+            "jid": 557230790,
+            "sr": "375x812",
+            "t": "pageview",
+            "tid": "UA-96909960-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2110612179
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=469749842&t=pageview&_s=1&dl=https%3A%2F%2Fwww.usda.gov%2F&ul=en-us&dt=USDA&sr=375x812&vp=375x812&_u=IGDAAEABAAAAAGAAI~&jid=557230790&gjid=802023065&cid=1971107206.1781172220&tid=UA-96909960-1&_gid=1203478150.1781172220&_r=1&_slc=1&z=2110612179"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1203478150.1781173,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "IGDAgEABAAAAACAAI~",
+            "_v": "j102",
+            "a": 469749842,
+            "cid": 1971107206.1781173,
+            "dl": "https://www.usda.gov/",
+            "dt": "USDA",
+            "gjid": 90179136,
+            "jid": 485161976,
+            "sr": "375x812",
+            "t": "pageview",
+            "tid": "UA-27627304-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 87243037
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=469749842&t=pageview&_s=1&dl=https%3A%2F%2Fwww.usda.gov%2F&ul=en-us&dt=USDA&sr=375x812&vp=375x812&_u=IGDAgEABAAAAACAAI~&jid=485161976&gjid=90179136&cid=1971107206.1781172220&tid=UA-27627304-1&_gid=1203478150.1781172220&_slc=1&z=87243037"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N65GDDH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N65GDDH"
+      },
+      {
+        "data": {
+          "filter": "||digitalgov.gov/Universal-Federated-Analytics-Min.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "agency": "USDA",
+            "dclink": true,
+            "enhlink": true,
+            "exts": "pdf,xls,zip,jpg,gif,mp3",
+            "sp": "lookup,locate",
+            "yt": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&sp=lookup,locate&exts=pdf,xls,zip,jpg,gif,mp3&dclink=true&yt=true&enhlink=true"
+      }
+    ]
+  }
+}

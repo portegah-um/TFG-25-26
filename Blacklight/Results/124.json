@@ -1,0 +1,613 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Intuit®: Outdo your financial goals—all in one place",
+  "uri_ins": "https://intuit.com",
+  "uri_dest": "https://www.intuit.com/",
+  "uri_redirects": [
+    "https://intuit.com/"
+  ],
+  "secure_connection": {},
+  "host": "intuit.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:09:10.274Z",
+  "end_time": "2026-06-11T06:09:17.810Z",
+  "browsing_history": [
+    "https://www.intuit.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "intuit.com",
+        "www.intuit.com",
+        "privacy-cdn.a.intuit.com",
+        "digitalasset.intuit.com",
+        "consent.intuit.com",
+        "logging.api.intuit.com"
+      ],
+      "third_party": [
+        "uxfabric.intuitcdn.net",
+        "tags.tiqcdn.com",
+        "s.go-mpulse.net",
+        "c.go-mpulse.net",
+        "geolocation.onetrust.com",
+        "consent.intuit.tsheets.com",
+        "consent.intuit.quickbooksconnect.com",
+        "consent.www.firmofthefuture.com",
+        "consent.mailchimp.com",
+        "consent.freecreditkarmatax.com",
+        "684dd311.akstat.io",
+        "trial-eum-clientnsv4-s.akamaihd.net",
+        "trial-eum-clienttons-s.akamaihd.net",
+        "laka23iccbmfi2rkkefa-pr3ew6-5be212b3b-clientnsv4-s.akamaihd.net",
+        "88-20-13-109_s-185-43-182-121_ts-1781158154-clienttons-s.akamaihd.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.intuit.com/_next/static/chunks/625.17164a178f003c35e6d4.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://www.intuit.com/_next/static/chunks/673.7ff67590b82ad79b9159.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://www.intuit.com/_next/static/chunks/4.7793f169d98ce6f74bd3.js": [
+          "touchmove",
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ],
+        "https://www.intuit.com/_next/static/chunks/233.9b3219b9f2c2075a2ab8.js": [
+          "touchmove",
+          "touchcancel"
+        ]
+      },
+      "MOUSE": {
+        "https://www.intuit.com/_next/static/chunks/625.17164a178f003c35e6d4.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://www.intuit.com/_next/static/chunks/673.7ff67590b82ad79b9159.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://uxfabric.intuitcdn.net/@cloud-monitoring/prod/o11y-rum-web-vitals.min.js": [
+          "click"
+        ],
+        "https://privacy-cdn.a.intuit.com/stable/scripttemplates/202601.2.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://tags.tiqcdn.com/utag/intuit/brand-icom/prod/utag.js": [
+          "click"
+        ],
+        "https://www.intuit.com/_next/static/chunks/icom-components.5704b8835b72a9e0dbf9.js": [
+          "mousedown",
+          "scroll",
+          "click"
+        ],
+        "https://www.intuit.com/_next/static/chunks/main-0676a6a876ed83476762.js": [
+          "scroll"
+        ],
+        "https://www.intuit.com/_next/static/chunks/4.7793f169d98ce6f74bd3.js": [
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ],
+        "https://s.go-mpulse.net/boomerang/XKSVH-VHXLG-3GR2M-FGVYL-VFX7W": [
+          "mouseup"
+        ]
+      },
+      "KEYBOARD": {
+        "https://uxfabric.intuitcdn.net/@cloud-monitoring/prod/o11y-rum-web-vitals.min.js": [
+          "keydown"
+        ],
+        "https://www.intuit.com/_next/static/chunks/main-0676a6a876ed83476762.js": [
+          "keydown"
+        ],
+        "https://www.intuit.com/_next/static/chunks/625.17164a178f003c35e6d4.js": [
+          "keydown"
+        ],
+        "https://www.intuit.com/_next/static/chunks/673.7ff67590b82ad79b9159.js": [
+          "keydown"
+        ],
+        "https://www.intuit.com/_next/static/chunks/icom-components.5704b8835b72a9e0dbf9.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://www.intuit.com/_next/static/chunks/487.1d5a4efaa89229300759.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ivid",
+        "value": "d6848d88-ce5c-4b50-9c08-d56e52fc2a51",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-07-16T06:09:11.502Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AKES_GEO",
+        "value": "ES~MC",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": -1,
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "E7E81E879DDE4364E65DF1CCA2E15366~000000000000000000000000000000~YAAQ4m1lX+gpZJCeAQAAqoRMtQDIX3rOIaMPm60Is3eTOA9WugF/Xuyj7icHvfHo2tWSrbipwdyJ8g/Yvc7I9pm2XJCe/SuJAQrc1Xcr6G0yE9mo9okI2rrZ4X8W3IXiuCZlgFDoSWBK1JdLIhEjMYmCFyNyBaQB3Jfasn+zJ/KKb3b8Mq5/WIQrx1W7ayZ+2nLidNDXJALumvBCUBdY5XaqdBXmipky+zLtwWcZ74xlzNu0sYg1kqtXey6ZzKETY+9Z9OA0k/yh+f+s0in84MvnDYV+bRZMnWO6IZLnSwWZcIYXlopTLgsf/JzFwNqNW5akBeAWoSEtT4BqnD8OdZILoM4St773PMy4dCFiYJPvsryRgDLW/jHB/Z7YRkCALyeVK55bc1tRp8I=",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2026-06-11T08:09:11.442Z",
+        "size": 471,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__sn",
+        "value": "1",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-06-11T06:09:13.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__se",
+        "value": "1%3Bexp-session",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2026-06-11T06:39:13.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__ss",
+        "value": "1%3Bexp-session",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2026-06-11T06:39:13.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__st",
+        "value": "1781159953781%3Bexp-session",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2026-06-11T06:39:13.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main_ses_id",
+        "value": "1781158153781%3Bexp-session",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2026-06-11T06:39:13.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__pn",
+        "value": "1%3Bexp-session",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2026-06-11T06:39:13.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ccpa",
+        "value": "1|0",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-06-11T08:09:13.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cpra",
+        "value": "1|0",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-06-11T08:09:13.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gdpr",
+        "value": "1|0|0|0",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-06-11T00:00:00.135Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A09%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=b9bf5b40-a562-4bf0-943f-ab885696dedc&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.intuit.com%2F&groups=BG195%3A0%2C1%3A1%2CBG196%3A0%2C2%3A0%2CBG197%3A0%2C3%3A0%2CBG198%3A0%2C4%3A0&hosts=H317%3A0%2CH28%3A0%2CH343%3A0%2CH448%3A0%2CH322%3A0%2CH336%3A0%2CH117%3A0%2CH118%3A0%2CH240%3A0%2CH238%3A0%2CH122%3A0%2CH123%3A0%2CH44%3A0%2CH124%3A0%2CH288%3A0%2CH289%3A0%2CH126%3A0%2CH315%3A0%2CH318%3A0%2CH130%3A0%2CH25%3A0%2CH26%3A0%2CH187%3A0%2CH323%3A0%2CH202%3A0%2CH27%3A0%2CH209%3A0%2CH45%3A0%2CH133%3A0%2CH134%3A0%2CH427%3A0%2CH428%3A0%2CH171%3A0%2CH114%3A0%2CH30%3A0%2CH328%3A0%2CH349%3A0%2CH12%3A0%2CH332%3A0%2CH33%3A0%2CH35%3A0%2CH335%3A0%2CH137%3A0%2CH138%3A0%2CH115%3A0%2CH203%3A0%2CH355%3A0%2CH140%3A0%2CH339%3A0&genVendors=",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-06-11T06:09:13.000Z",
+        "size": 931,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gdpr",
+        "value": "1|0|0|0",
+        "domain": "firmofthefuture.com",
+        "path": "/",
+        "expires": "2027-06-11T00:00:00.864Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "gdpr",
+        "value": "1|0|0|0",
+        "domain": "tsheets.com",
+        "path": "/",
+        "expires": "2027-06-11T00:00:00.911Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "gdpr",
+        "value": "1|0|0|0",
+        "domain": "mailchimp.com",
+        "path": "/",
+        "expires": "2027-06-11T00:00:00.131Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "gdpr",
+        "value": "1|0|0|0",
+        "domain": "quickbooksconnect.com",
+        "path": "/",
+        "expires": "2027-06-11T00:00:00.139Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "gdpr",
+        "value": "1|0|0|0",
+        "domain": "freecreditkarmatax.com",
+        "path": "/",
+        "expires": "2027-06-11T00:00:00.436Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "801FBDB0AF576C5F779A5832360C9DCE~000000000000000000000000000000~YAAQjvMUAp15ZnieAQAAbpRMtQCw0lkhhaMCcg5BNT5XP5lWgvEg3zsB0tm2MlckZYJomCC6bCsQDkn3k+ETXM/9WcSCZVW+CVKK2XAeIE6zV63qAOM/2x9U4d1zuc+kOjud8C37UxEgwD/n2pVWBfxZZGjYBWcQviPuyxL7VnxzgEhq1v65XBnnrpVr/ZDfBC7MBWesAZVFNpZSl44YG3NcIaow2Np+8o27Dw/ET7n4i+08cg0WKnd08/0/pfvS1175M23ZlE7HA6zsmray96shgwmNlVMdp+EEiE0j3aO/bDuwWFLR6CyfSGDE/o6ueCNL02PzEps/e0snORtiql2M1xPB040BWRF3aVzQvFBdheUhSCogqVjtIyMkfOIYwRXD0ANpiF+myUaa6w==",
+        "domain": "freecreditkarmatax.com",
+        "path": "/",
+        "expires": "2026-06-11T08:09:14.436Z",
+        "size": 475,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CONSENTMGR",
+        "value": "c1:0%7Cc2:1%7Cc3:1%7Cc4:1%7Cc5:1%7Cc6:1%7Cc7:1%7Cc8:1%7Cc9:1%7Cc10:1%7Cc11:1%7Cc12:1%7Cc13:1%7Cc14:1%7Cc15:1%7Cc16:1%7Cts:1781158156450%7Cconsent:true",
+        "domain": "intuit.com",
+        "path": "/",
+        "expires": "2027-06-11T06:09:16.000Z",
+        "size": 160,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.intuit.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://684dd311.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.intuit.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://684dd311.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 471494,
+            "d": "www.intuit.com",
+            "key": "XKSVH-VHXLG-3GR2M-FGVYL-VFX7W",
+            "plugins": "AK,ConfigOverride,PageParams,RT,PaintTiming,NavigationTiming,ResourceTiming,Memory,Errors,Akamai,EventTiming,BFCache,LOGN",
+            "si": "07954dc8-16ac-4a9b-91d3-2a42b742fbe1-NaN",
+            "sl": 0,
+            "t": 5937194,
+            "v": "1.815.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.intuit.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=XKSVH-VHXLG-3GR2M-FGVYL-VFX7W&d=www.intuit.com&t=5937194&v=1.815.30&sl=0&si=07954dc8-16ac-4a9b-91d3-2a42b742fbe1-NaN&plugins=AK,ConfigOverride,PageParams,RT,PaintTiming,NavigationTiming,ResourceTiming,Memory,Errors,Akamai,EventTiming,BFCache,LOGN&acao=&ak.ai=471494"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.intuit.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/XKSVH-VHXLG-3GR2M-FGVYL-VFX7W"
+      }
+    ]
+  }
+}

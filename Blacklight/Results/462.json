@@ -1,0 +1,144 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "IETF | Internet Engineering Task Force",
+  "uri_ins": "https://ietf.org",
+  "uri_dest": "https://www.ietf.org/",
+  "uri_redirects": [
+    "https://ietf.org/"
+  ],
+  "secure_connection": {},
+  "host": "ietf.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:58:19.866Z",
+  "end_time": "2026-06-11T07:58:23.243Z",
+  "browsing_history": [
+    "https://www.ietf.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ietf.org",
+        "www.ietf.org",
+        "static.ietf.org",
+        "analytics.ietf.org"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.ietf.org/static/dist/main.e2d621c55276.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.ietf.org/static/dist/main.e2d621c55276.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "cf_clearance",
+        "value": "fXM13Ndy8R6fA1XVQGY4ClA0kLjYybr6mmKiefViBhk-1781164701-1.2.1.1-cGRFVT5J9WEclivVXy8YqNrRyn8S4vy1Sxz1Pp8aTTRB6.t0IpfRpwOovWvVRVYNVtpnMoWQhl6See8Nz6MUX_0ggOXS81RQ0EpjnivoLL6Pr3tjjgLvrOqM9Id2MPH_N6rQqOKuI6yfAwwLjgscbH81_ziFm5yZRTcy3V9Xf9LpTaY25lcDN.siysIvkjv9zUIfKHKm1ZFb9J6wWdb09Hi3aYK3MNv69AFQJ5Y3ZlyLCVujc.iOQtpu4vzeMxR1QCPNmHPl8j6wJ7o1CfkH8SXCsZdyOGytlZxYBPKQwt8o6XlVEafwdKkmJmFasHSEhxLkxhpuIs9D.yMDx2nwmg",
+        "domain": "ietf.org",
+        "path": "/",
+        "expires": "2027-06-11T07:58:21.085Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://ietf.org",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "wKCmXuq0s88Cz0P4OceafMRXXkmeHV47BpDAi3BQRyU-1781164701.0722938-1.0.1.1-Qr4wNHILWhaAjZhftWbNIipioW5L_sm4CYX0aKqXHwogQxCj.esndw.tx.VM7raKKZ.nc49TJ2FRUv2W6nqZYiwI6TZLFyNHjNKaKCpTc6Bw11tRLwJn6gSvGJQC_G1Q",
+        "domain": "ietf.org",
+        "path": "/",
+        "expires": "2026-06-11T08:28:21.085Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "AdRiver — Система управления и аудита интернет-рекламы",
+  "uri_ins": "https://adriver.ru",
+  "uri_dest": "https://www.adriver.ru/",
+  "uri_redirects": [
+    "https://adriver.ru/"
+  ],
+  "secure_connection": {},
+  "host": "adriver.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:39:57.154Z",
+  "end_time": "2026-06-11T07:40:02.314Z",
+  "browsing_history": [
+    "https://www.adriver.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "adriver.ru",
+        "www.adriver.ru",
+        "ad.adriver.ru",
+        "content.adriver.ru",
+        "mlb5.adriver.ru",
+        "ev.adriver.ru"
+      ],
+      "third_party": [
+        "maxcdn.bootstrapcdn.com",
+        "cdnjs.cloudflare.com",
+        "www.googletagmanager.com",
+        "tags.soloway.ru",
+        "counter.yadro.ru",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.adriver.ru/wp-content/themes/adriver_2026-02-26_00-30_41/js/tooltip.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-RKJZVPMGE6": [
+          "click"
+        ],
+        "https://www.adriver.ru/wp-content/themes/adriver_2026-02-26_00-30_41/js/3.2.1/jquery.min.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.adriver.ru/wp-content/themes/adriver_2026-02-26_00-30_41/js/3.2.1/jquery.min.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/img/partners",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/bootstrap",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/assets/js",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/js/3.2.1",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/font",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/css",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/img",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41/js",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/plugins/malinky-ajax-pagination/css",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/themes/adriver_2026-02-26_00-30_41",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/plugins/malinky-ajax-pagination/js",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/uploads/2023/03",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/uploads/2024/12",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-content/uploads/2026/03",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/wp-includes/js/jquery",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/img",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Path",
+        "value": "/",
+        "domain": "www.adriver.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_RKJZVPMGE6",
+        "value": "GS2.1.s1781163599$o1$g0$t1781163599$j60$l0$h0",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:39:59.588Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1022227171.1781163600",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:39:59.593Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cid",
+        "value": "AFkf0yupxQLQApS_x0b_8BQ",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.542Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "adrdel",
+        "value": "1781163600558",
+        "domain": "www.adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.558Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "adrdel",
+        "value": "1781163600558",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.559Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "adrcid",
+        "value": "AFkf0yupxQLQApS_x0b_8BQ",
+        "domain": "www.adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.562Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "adrcid",
+        "value": "AFkf0yupxQLQApS_x0b_8BQ",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.563Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "acs_3",
+        "value": "%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1781250000581%2C%22sl%22%3A%7B%22224%22%3A1781163600581%2C%221228%22%3A1781163600581%7D%7D",
+        "domain": "www.adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.585Z",
+        "size": 172,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "acs_3",
+        "value": "%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1781250000581%2C%22sl%22%3A%7B%22224%22%3A1781163600581%2C%221228%22%3A1781163600581%7D%7D",
+        "domain": "adriver.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:40:00.585Z",
+        "size": 172,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781163599343,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1022227171.1781163,
+            "dl": "https://www.adriver.ru/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "AdRiver — Система управления и аудита интернет-рекламы",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9131798257za200zd9131798257",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781163599,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 2042,
+            "tid": "G-RKJZVPMGE6",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.adriver.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-RKJZVPMGE6&gtm=45je6691v9131798257za200zd9131798257&_p=1781163599343&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1022227171.1781163600&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938469&sid=1781163599&sct=1&seg=0&dl=https%3A%2F%2Fwww.adriver.ru%2F&dt=AdRiver%20%E2%80%94%20%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2042"
+      },
+      {
+        "data": {
+          "filter": "||counter.yadro.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r;s375*812*24;uhttps://www.adriver.ru/;0.1262513339125526": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.adriver.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://counter.yadro.ru/hit?r;s375*812*24;uhttps%3A//www.adriver.ru/;0.1262513339125526"
+      },
+      {
+        "data": {
+          "filter": "||tags.soloway.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.adriver.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.soloway.ru/DSPCounter.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-RKJZVPMGE6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.adriver.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-RKJZVPMGE6"
+      }
+    ]
+  }
+}

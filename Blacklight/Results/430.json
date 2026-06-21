@@ -1,0 +1,584 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "淘宝",
+  "uri_ins": "https://taobao.com",
+  "uri_dest": "https://main.m.taobao.com/?sprefer=sypc00",
+  "uri_redirects": [
+    "https://taobao.com/",
+    "https://www.taobao.com/"
+  ],
+  "secure_connection": {},
+  "host": "taobao.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:47:37.617Z",
+  "end_time": "2026-06-11T07:47:45.000Z",
+  "browsing_history": [
+    "https://main.m.taobao.com/?sprefer=sypc00"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "taobao.com",
+        "www.taobao.com",
+        "main.m.taobao.com",
+        "h5api.m.taobao.com",
+        "ugcdn.taobao.com",
+        "login.taobao.com",
+        "login.m.taobao.com"
+      ],
+      "third_party": [
+        "g.alicdn.com",
+        "gw.alicdn.com",
+        "log.mmstat.com",
+        "wgo.mmstat.com",
+        "img.alicdn.com",
+        "gm.mmstat.com",
+        "x.alicdn.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://g.alicdn.com/mtb/lib-mtop/2.6.1/mtop.js": [
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "https://g.alicdn.com/dinamic/h5-tb-home/3.3.45/index.min.js": [
+          "scroll"
+        ],
+        "https://ugcdn.taobao.com/app/starlink/core/index.js?id=169": [
+          "click"
+        ],
+        "    at <anonymous>:6:21305": [
+          "mousedown"
+        ],
+        "https://g.alicdn.com/alilog/mlog/aplus_wap.js": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "    at <anonymous>:6:21305": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_m_h5_tk",
+        "value": "b4480c5c9c363cd5948c1cf11f4203c8_1781174500689",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": "2026-06-11T09:17:40.876Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_m_h5_tk_enc",
+        "value": "4dace1714dccddf591e2cd76de8a966d",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": "2026-06-11T09:17:40.877Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cna",
+        "value": "HFaxImM1vx8CAVgUDW1BFetE",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": "2027-07-16T07:47:41.101Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "d6637990-863c-4442-b63f-a56acdcc37c3",
+        "domain": "login.taobao.com",
+        "path": "/",
+        "expires": -1,
+        "size": 46,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_samesite_flag_",
+        "value": "true",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": -1,
+        "size": 19,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cookie2",
+        "value": "132a52f0e5229824605964d8f1a3520e",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": -1,
+        "size": 39,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "t",
+        "value": "5c9d53088c12e12acf64a06da67c9a12",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": "2026-09-09T07:47:43.288Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_tb_token_",
+        "value": "7b5be5155bbee",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "bd649ad6-e3a6-481d-9b17-d415070d912e",
+        "domain": "login.m.taobao.com",
+        "path": "/",
+        "expires": -1,
+        "size": 46,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "3PcFlag",
+        "value": "1781164064347",
+        "domain": "taobao.com",
+        "path": "/",
+        "expires": "2026-06-21T07:47:44.812Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gm.mmstat.com/jstracker.3?"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "gmkey": "EXP",
+            "gokey": "activity_id=null&star_id=169&slk_sid=HFaxImM1vx8CAVgUDW1BFetE_1781164061396&slk_gid=gid_er_sidebar_1&platform=iOS&platform_version=15.0&request_success=true&bc_fl_src=&target_page_type=h5&phone_ability_ab_code=noTest&sdk_type=er&t=1781164061856&jsver=aplus_wap&lver=8.15.25&pver=0.7.12&cache=5600e27&page_cna=HFaxImM1vx8CAVgUDW1BFetE&_slog=0",
+            "logtype": 2,
+            "spm-cnt": "a215s.7406091.0.0.3d3e2a89Oq6Y4E"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/starlink.sdk.sidebarUIExp?gmkey=EXP&gokey=activity_id%3Dnull%26star_id%3D169%26slk_sid%3DHFaxImM1vx8CAVgUDW1BFetE_1781164061396%26slk_gid%3Dgid_er_sidebar_1%26platform%3DiOS%26platform_version%3D15.0%26request_success%3Dtrue%26bc_fl_src%3D%26target_page_type%3Dh5%26phone_ability_ab_code%3DnoTest%26sdk_type%3Der%26t%3D1781164061856%26jsver%3Daplus_wap%26lver%3D8.15.25%26pver%3D0.7.12%26cache%3D5600e27%26page_cna%3DHFaxImM1vx8CAVgUDW1BFetE%26_slog%3D0&cna=HFaxImM1vx8CAVgUDW1BFetE&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&spm-cnt=a215s.7406091.0.0.3d3e2a89Oq6Y4E&logtype=2"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "gmkey": "EXP",
+            "gokey": "activity_id=null&star_id=169&slk_sid=HFaxImM1vx8CAVgUDW1BFetE_1781164061396&slk_gid=gid_er_sidebar_1&platform=iOS&platform_version=15.0&request_success=true&bc_fl_src=&target_page_type=h5&phone_ability_ab_code=noTest&sdk_type=er&t=1781164061851&jsver=aplus_wap&lver=8.15.25&pver=0.7.12&cache=293bc82&page_cna=HFaxImM1vx8CAVgUDW1BFetE&_slog=0",
+            "logtype": 2,
+            "spm-cnt": "a215s.7406091.0.0.3d3e2a89Oq6Y4E"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/starlink.sdk.evokeUIExp?gmkey=EXP&gokey=activity_id%3Dnull%26star_id%3D169%26slk_sid%3DHFaxImM1vx8CAVgUDW1BFetE_1781164061396%26slk_gid%3Dgid_er_sidebar_1%26platform%3DiOS%26platform_version%3D15.0%26request_success%3Dtrue%26bc_fl_src%3D%26target_page_type%3Dh5%26phone_ability_ab_code%3DnoTest%26sdk_type%3Der%26t%3D1781164061851%26jsver%3Daplus_wap%26lver%3D8.15.25%26pver%3D0.7.12%26cache%3D293bc82%26page_cna%3DHFaxImM1vx8CAVgUDW1BFetE%26_slog%3D0&cna=HFaxImM1vx8CAVgUDW1BFetE&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&spm-cnt=a215s.7406091.0.0.3d3e2a89Oq6Y4E&logtype=2"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "gmkey": "EXP",
+            "gokey": "activity_id=null&star_id=169&slk_sid=HFaxImM1vx8CAVgUDW1BFetE_1781164061396&slk_gid=gid_er_sidebar_1&platform=iOS&platform_version=15.0&request_success=true&bc_fl_src=&target_page_type=h5&phone_ability_ab_code=noTest&sdk_type=er&t=1781164061847&jsver=aplus_wap&lver=8.15.25&pver=0.7.12&cache=b6cc831&page_cna=HFaxImM1vx8CAVgUDW1BFetE&_slog=0",
+            "logtype": 2,
+            "spm-cnt": "a215s.7406091.0.0.3d3e2a89Oq6Y4E"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/starlink.sdk.getResponse?gmkey=EXP&gokey=activity_id%3Dnull%26star_id%3D169%26slk_sid%3DHFaxImM1vx8CAVgUDW1BFetE_1781164061396%26slk_gid%3Dgid_er_sidebar_1%26platform%3DiOS%26platform_version%3D15.0%26request_success%3Dtrue%26bc_fl_src%3D%26target_page_type%3Dh5%26phone_ability_ab_code%3DnoTest%26sdk_type%3Der%26t%3D1781164061847%26jsver%3Daplus_wap%26lver%3D8.15.25%26pver%3D0.7.12%26cache%3Db6cc831%26page_cna%3DHFaxImM1vx8CAVgUDW1BFetE%26_slog%3D0&cna=HFaxImM1vx8CAVgUDW1BFetE&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&spm-cnt=a215s.7406091.0.0.3d3e2a89Oq6Y4E&logtype=2"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gm.mmstat.com/jstracker.3?"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gm.mmstat.com/jstracker.3?"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/tbindex_h5.newh5.newh5index"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/tbindex_h5.newh5.newh5index"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/tbindex_h5.newh5.newh5index"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "gmkey": "CLK",
+            "gokey": "spm=a215s.7406091&jsver=aplus_wap&lver=8.15.25&pver=0.7.12&cache=98bf019&page_cna=HFaxImM1vx8CAVgUDW1BFetE&_slog=0",
+            "logtype": 2,
+            "spm-cnt": "a215s.7406091.0.0.3d3e2a89Oq6Y4E"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/recommend.trade.pv?gmkey=CLK&gokey=spm%3Da215s.7406091%26jsver%3Daplus_wap%26lver%3D8.15.25%26pver%3D0.7.12%26cache%3D98bf019%26page_cna%3DHFaxImM1vx8CAVgUDW1BFetE%26_slog%3D0&cna=HFaxImM1vx8CAVgUDW1BFetE&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&spm-cnt=a215s.7406091.0.0.3d3e2a89Oq6Y4E&logtype=2"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "_slog": 0,
+            "aplus": "",
+            "asid": "AQAAAAAbaCpqUJPYfwAAAAClRf7l/CfUIw==",
+            "b": "other",
+            "cache": "7d015e8",
+            "category": "",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "home_buckets": "tsp2584_31920_1042281_tsp40534_342473_1089271_892388_1010190_tsp2832_340481_tsp41147_344191_tsp39960_340615_1064478_tsp11744_86138_tsp39752_340816_tsp35579_311754_tsp38739_335292_945873_test14_1064492_1064530_1047840_846714_tsp31709_282946_tsp41846_345846_890550_tsp21307_212332_828975_tsp21239_210177_tsp10613_52861_tsp26075_245254_903407",
+            "ism": "iphone",
+            "jsver": "aplus_wap",
+            "logtype": 1,
+            "lstag": 0,
+            "lver": "8.15.25",
+            "mansndlog": 1,
+            "o": "ios15",
+            "p": 1,
+            "pre": "",
+            "pver": "0.7.12",
+            "s": "375x812",
+            "scr": "375x812",
+            "sidx": 0,
+            "spm-cnt": "a215s.7406091.0.0.3d3e2a89Oq6Y4E",
+            "stag": 2,
+            "tag": 0,
+            "title": "淘宝",
+            "udpid": "",
+            "uidaplus": "",
+            "w": "webkit"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.mmstat.com/m.gif?logtype=1&title=%E6%B7%98%E5%AE%9D&pre=&scr=375x812&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&cna=HFaxImM1vx8CAVgUDW1BFetE&spm-cnt=a215s.7406091.0.0.3d3e2a89Oq6Y4E&category=&uidaplus=&&aplus&udpid=&&asid=AQAAAAAbaCpqUJPYfwAAAAClRf7l/CfUIw==&sidx=0&p=1&o=ios15&b=other&s=375x812&w=webkit&ism=iphone&cache=7d015e8&lver=8.15.25&jsver=aplus_wap&pver=0.7.12&mansndlog=1&home_buckets=tsp2584_31920_1042281_tsp40534_342473_1089271_892388_1010190_tsp2832_340481_tsp41147_344191_tsp39960_340615_1064478_tsp11744_86138_tsp39752_340816_tsp35579_311754_tsp38739_335292_945873_test14_1064492_1064530_1047840_846714_tsp31709_282946_tsp41846_345846_890550_tsp21307_212332_828975_tsp21239_210177_tsp10613_52861_tsp26075_245254_903407&tag=0&stag=2&lstag=0&_slog=0"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "gmkey": "EXP",
+            "gokey": "activity_id=null&star_id=169&slk_sid=HFaxImM1vx8CAVgUDW1BFetE_1781164061396&slk_gid=gid_er_sidebar_1&platform=iOS&platform_version=15.0&request_success=&bc_fl_src=&target_page_type=&phone_ability_ab_code=noTest&sdk_type=er&t=1781164061417&jsver=aplus_wap&lver=8.15.25&pver=0.7.12&cache=e7144cd&page_cna=HFaxImM1vx8CAVgUDW1BFetE&_slog=0",
+            "logtype": 2,
+            "spm-cnt": "0.0.0.0.3d3e2a89Oq6Y4E"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/starlink.sdk.setRequest?gmkey=EXP&gokey=activity_id%3Dnull%26star_id%3D169%26slk_sid%3DHFaxImM1vx8CAVgUDW1BFetE_1781164061396%26slk_gid%3Dgid_er_sidebar_1%26platform%3DiOS%26platform_version%3D15.0%26request_success%3D%26bc_fl_src%3D%26target_page_type%3D%26phone_ability_ab_code%3DnoTest%26sdk_type%3Der%26t%3D1781164061417%26jsver%3Daplus_wap%26lver%3D8.15.25%26pver%3D0.7.12%26cache%3De7144cd%26page_cna%3DHFaxImM1vx8CAVgUDW1BFetE%26_slog%3D0&cna=HFaxImM1vx8CAVgUDW1BFetE&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&spm-cnt=0.0.0.0.3d3e2a89Oq6Y4E&logtype=2"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p_url": "https://main.m.taobao.com/?sprefer=sypc00",
+            "cna": "HFaxImM1vx8CAVgUDW1BFetE",
+            "gmkey": "EXP",
+            "gokey": "activity_id=null&star_id=169&slk_sid=HFaxImM1vx8CAVgUDW1BFetE_1781164061396&slk_gid=gid_er_sidebar_1&platform=iOS&platform_version=15.0&request_success=&bc_fl_src=&target_page_type=&phone_ability_ab_code=noTest&sdk_type=er&t=1781164061401&jsver=aplus_wap&lver=8.15.25&pver=0.7.12&cache=3f54178&page_cna=HFaxImM1vx8CAVgUDW1BFetE&_slog=0",
+            "logtype": 2,
+            "spm-cnt": "0.0.0.0.3d3e2a89Oq6Y4E"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wgo.mmstat.com/starlink.sdk.start?gmkey=EXP&gokey=activity_id%3Dnull%26star_id%3D169%26slk_sid%3DHFaxImM1vx8CAVgUDW1BFetE_1781164061396%26slk_gid%3Dgid_er_sidebar_1%26platform%3DiOS%26platform_version%3D15.0%26request_success%3D%26bc_fl_src%3D%26target_page_type%3D%26phone_ability_ab_code%3DnoTest%26sdk_type%3Der%26t%3D1781164061401%26jsver%3Daplus_wap%26lver%3D8.15.25%26pver%3D0.7.12%26cache%3D3f54178%26page_cna%3DHFaxImM1vx8CAVgUDW1BFetE%26_slog%3D0&cna=HFaxImM1vx8CAVgUDW1BFetE&_p_url=https%3A%2F%2Fmain.m.taobao.com%2F%3Fsprefer%3Dsypc00&spm-cnt=0.0.0.0.3d3e2a89Oq6Y4E&logtype=2"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1781164059990
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://main.m.taobao.com/?sprefer=sypc00",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.mmstat.com/eg.js?t=1781164059990"
+      }
+    ]
+  }
+}

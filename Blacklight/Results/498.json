@@ -1,0 +1,366 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Share & Discover Presentations | Slideshare",
+  "uri_ins": "https://slideshare.net",
+  "uri_dest": "https://www.slideshare.net/",
+  "uri_redirects": [
+    "https://slideshare.net/"
+  ],
+  "secure_connection": {},
+  "host": "slideshare.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:10:04.300Z",
+  "end_time": "2026-06-11T08:10:18.902Z",
+  "browsing_history": [
+    "https://www.slideshare.net/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "slideshare.net",
+        "www.slideshare.net",
+        "wa.slideshare.net"
+      ],
+      "third_party": [
+        "image.slidesharecdn.com",
+        "public.slidesharecdn.com",
+        "cmp.osano.com",
+        "o127091.ingest.sentry.io",
+        "featureassets.org",
+        "prodregistryv2.org",
+        "survey.survicate.com",
+        "surveys-static-prd.survicate-cdn.com",
+        "www.googletagmanager.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://surveys-static-prd.survicate-cdn.com/widget_core-28.26.14.js": [
+          "keydown"
+        ],
+        "https://public.slidesharecdn.com/_next/static/chunks/0hyi7f-kp_rlh.js": [
+          "keydown"
+        ],
+        "https://public.slidesharecdn.com/_next/static/chunks/0b~ugb0mea9zu.js": [
+          "keydown"
+        ],
+        "https://public.slidesharecdn.com/_next/static/chunks/0351z_ow4_2r~.js": [
+          "input",
+          "keypress",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://public.slidesharecdn.com/_next/static/chunks/0hyi7f-kp_rlh.js": [
+          "click",
+          "scroll"
+        ],
+        "https://public.slidesharecdn.com/_next/static/chunks/0b~ugb0mea9zu.js": [
+          "click"
+        ],
+        "https://public.slidesharecdn.com/_next/static/chunks/0351z_ow4_2r~.js": [
+          "mouseup",
+          "mousedown",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://public.slidesharecdn.com/_next/static/chunks/0351z_ow4_2r~.js": [
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "browser_id",
+        "value": "9a3202a8-90d8-4361-b236-ab7984737eb7",
+        "domain": "slideshare.net",
+        "path": "/",
+        "expires": "2027-07-16T08:10:04.997Z",
+        "size": 46,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lang",
+        "value": "en",
+        "domain": "slideshare.net",
+        "path": "/",
+        "expires": "2027-07-16T08:10:06.932Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_fs_cd_cp_pRdRgnTnF68pCV2F",
+        "value": "AfuwazDcuVFrZOHaxx0DFYoYyT3zQnDWDKgrM_3iEH-jEH-6NXv9wgWK3sMh9hH24XgO8S6KjgtMQz8p_dJPJTmGOyqmW_s6HYY1gz-mkyIVj0o7DDwRRNbf2bbalvMVtOj2cue8PB6ZUST28MIspdy3aM7nj0VZa3SuJSjOhZz93v69uD2RVwAu",
+        "domain": "slideshare.net",
+        "path": "/",
+        "expires": "2026-06-11T09:10:06.795Z",
+        "size": 210,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.40.0",
+            "sentry_key": "7e7cafa2920448ed81ac67de08abbeed",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o127091.ingest.sentry.io/api/4504911172075520/envelope/?sentry_version=7&sentry_key=7e7cafa2920448ed81ac67de08abbeed&sentry_client=sentry.javascript.nextjs%2F10.40.0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ec": 1,
+            "k": "client-J8aVrNMKcx02VLgYNjsd3XLVDVkT2XTbRpr0ayOAf0U",
+            "sid": "aee84787-a265-431e-bcb7-b59615784ea8",
+            "st": "javascript-client",
+            "sv": "3.32.0",
+            "t": 1781165418747
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://prodregistryv2.org/v1/rgstr?k=client-J8aVrNMKcx02VLgYNjsd3XLVDVkT2XTbRpr0ayOAf0U&st=javascript-client&sv=3.32.0&t=1781165418747&sid=aee84787-a265-431e-bcb7-b59615784ea8&ec=1"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.slideshare.net/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 1,
+            "frm": 0,
+            "gcd": "13q3p3q2q5l1",
+            "gcs": "G100",
+            "gdpr": 1,
+            "gdpr_consent": "CQlo8kAQlo8kAEXzCBENChFgAAAAAEPgAAiQAAAVAgKgAVAA4ACAAEgANAAigBMADQAI4AVoA5wB-gEAAIOAR0BboC8wHigQTAkaBUAAAAAA.IAAA",
+            "gtm": "45He6691v9176047316za200zd9176047316xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 5,
+            "rnd": 8134140.178116541,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": "14n5b",
+            "tfd": 6994,
+            "tft": 1781165411727,
+            "us_privacy": "1---"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.slideshare.net%2F&scrsrc=www.googletagmanager.com&rnd=8134140.1781165412&navt=n&npa=1&us_privacy=1---&gdpr=1&gdpr_consent=CQlo8kAQlo8kAEXzCBENChFgAAAAAEPgAAiQAAAVAgKgAVAA4ACAAEgANAAigBMADQAI4AVoA5wB-gEAAIOAR0BboC8wHigQTAkaBUAAAAAA.IAAA&ep.ads_data_redaction=1&_tu=CA&gtm=45He6691v9176047316za200zd9176047316xea&gcs=G100&gcd=13q3p3q2q5l1&dma_cps=-&dma=1&tcfd=14n5b&tag_exp=0~115938465~115938468&apve=1&apvf=f&apvc=1&tft=1781165411727&tfd=6994"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-M36RG8PT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M36RG8PT"
+      },
+      {
+        "data": {
+          "filter": "||survicate.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://survey.survicate.com/workspaces/535c44679e9c3dcd1b4f50da8a47e3ab/web_surveys.js"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.40.0",
+            "sentry_key": "7e7cafa2920448ed81ac67de08abbeed",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o127091.ingest.sentry.io/api/4504911172075520/envelope/?sentry_version=7&sentry_key=7e7cafa2920448ed81ac67de08abbeed&sentry_client=sentry.javascript.nextjs%2F10.40.0"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.40.0",
+            "sentry_key": "7e7cafa2920448ed81ac67de08abbeed",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o127091.ingest.sentry.io/api/4504911172075520/envelope/?sentry_version=7&sentry_key=7e7cafa2920448ed81ac67de08abbeed&sentry_client=sentry.javascript.nextjs%2F10.40.0"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.40.0",
+            "sentry_key": "7e7cafa2920448ed81ac67de08abbeed",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.slideshare.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o127091.ingest.sentry.io/api/4504911172075520/envelope/?sentry_version=7&sentry_key=7e7cafa2920448ed81ac67de08abbeed&sentry_client=sentry.javascript.nextjs%2F10.40.0"
+      }
+    ]
+  }
+}

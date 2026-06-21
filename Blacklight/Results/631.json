@@ -1,0 +1,958 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "StackAdapt: The AI-Powered Marketing Platform",
+  "uri_ins": "https://stackadapt.com",
+  "uri_dest": "https://www.stackadapt.com/",
+  "uri_redirects": [
+    "https://stackadapt.com/"
+  ],
+  "secure_connection": {},
+  "host": "stackadapt.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:51:19.526Z",
+  "end_time": "2026-06-11T08:51:32.212Z",
+  "browsing_history": [
+    "https://www.stackadapt.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "stackadapt.com",
+        "www.stackadapt.com",
+        "wpvip-staging.stackadapt.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "d1rak7ay9p374i.cloudfront.net",
+        "d343x6qscsp61h.cloudfront.net",
+        "js-na3.hsforms.net",
+        "stats.wp.com",
+        "web.cmp.usercentrics.eu",
+        "player.vimeo.com",
+        "forms-na3.hsforms.com",
+        "pixel.wp.com",
+        "www.google.com",
+        "f.vimeocdn.com",
+        "i.vimeocdn.com",
+        "static.hsappstatic.net",
+        "vod-adaptive-ak.vimeocdn.com",
+        "v1.api.service.cmp.usercentrics.eu",
+        "www.gstatic.com",
+        "341407039.fs1.hubspotusercontent-na3.net",
+        "app.usercentrics.eu",
+        "uct.service.usercentrics.eu",
+        "bat.bing.com",
+        "consent-api.service.consent.usercentrics.eu",
+        "bat.bing.net",
+        "fonts.gstatic.com",
+        "pagead2.googlesyndication.com",
+        "region1.google-analytics.com",
+        "server-side-tagging-45ic35o36a-uc.a.run.app"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-7S619565MN&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://web.cmp.usercentrics.eu/ui/v/3.121.2/UcGdprCmpView.bbcc5a62.js": [
+          "keydown"
+        ],
+        "https://f.vimeocdn.com/p/4.46.58/js/player.module.js": [
+          "keydown",
+          "keyup",
+          "keypress"
+        ],
+        "https://d1rak7ay9p374i.cloudfront.net/main/wp-content/plugins/stackadapt-blocks/build/sta-menu/view.js?ver=4de9ca147d6a0a258757": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-7S619565MN&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://bat.bing.com/p/insights/s/0.8.65": [
+          "click",
+          "scroll"
+        ],
+        "https://f.vimeocdn.com/p/4.46.58/js/player.module.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://d1rak7ay9p374i.cloudfront.net/main/wp-content/plugins/stackadapt-blocks/build/sta-menu/view.js?ver=4de9ca147d6a0a258757": [
+          "click"
+        ],
+        "https://d1rak7ay9p374i.cloudfront.net/main/wp-content/plugins/stackadapt-blocks/build/sta-menu-item/view.js?ver=59a822eb06f9f34cb971": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-K3KLNSX": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://f.vimeocdn.com/p/4.46.58/js/player.module.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://f.vimeocdn.com/p/4.46.58/js/vendor.module.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "18wjo16N1EgNuW5mlFc_c3861AeIMd6dGO4DkteqIvw-1781167881.736789-1.0.1.1-QUB1QrHj6Ltr.yY3mOREy4VT_MSzqMVIihzKndJ8jWfUPS9B7orz79gfVNVX9R3zS7gVM7mMFAteKpHvUARFvEokLfzx53fzzmxqTh9fnaev59G.2X1.r0jTL3.KNqAd",
+        "domain": "hsforms.net",
+        "path": "/",
+        "expires": "2026-06-11T09:21:21.818Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "6DaE8sqBcBhd8Fn5VULaKMXwZGFEGytbXukhzxuzdfM-1781167881.9075236-1.0.1.1-t3sUY9e88Vqhzg.1NGgh4Syvnjf.2CuLQQIgHoFIHFpDliAeEPRPUB0OC9uv_ZrT0g1NxrnJ.jcyY5RnAh8USuYLHodw_ePT3JClhzDm5W_EgXihbPugx2xLwY1Hlov_",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T09:21:22.171Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "HOPgEo8e8TBzZeY09tWchP3tN3SLz3zGRQltn1Mz62s-1781167881.9075236-1.0.1.1-agC3rZgMjqxj6Blg0HkSwytvPUXs3WfOA7HrnXZ8OEs",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "IGP8Ec7m8R_vVsbQGaDtC6Nz2UTW9HdNGs1CsWuTCus-1781167884.0775383-1.0.1.1-c0XwOoR8xZFiAHhKwqeso4W7i5V_o4nZvPL._GUD.b0xHakvplNDm6wQVmMP4lD9rUWEDyo7vvRzTN4UHc7uDGZZrLzkw8ezJWnOO3QerqnNdms4UYfJsr_G_LUS8q7.",
+        "domain": "hsforms.com",
+        "path": "/",
+        "expires": "2026-06-11T09:21:24.204Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {
+      "hsforms.com": [
+        {
+          "filter": [
+            "The Markup"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"locale\":\"EN\",\"fieldValueValidationRequests\":[{\"propertyReference\":\"0-1/jobtitle\",\"values\":[\"The Markup\"]}],\"formDefinitionUpdatedAt\":1774625869606}",
+          "post_request_url": "https://forms-na3.hsforms.com/submissions-validation/v1/validate/341780480/cfe1cc1b-e264-4119-9f36-757e0a23667a",
+          "post_request_ps": "hsforms.com"
+        },
+        {
+          "filter": [
+            "The Markup",
+            "Idaaaa"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"locale\":\"EN\",\"fieldValueValidationRequests\":[{\"propertyReference\":\"0-1/company\",\"values\":[\"IdaaaaTarbelThe Markup\"]}],\"formDefinitionUpdatedAt\":1774625869606}",
+          "post_request_url": "https://forms-na3.hsforms.com/submissions-validation/v1/validate/341780480/cfe1cc1b-e264-4119-9f36-757e0a23667a",
+          "post_request_ps": "hsforms.com"
+        },
+        {
+          "filter": [
+            "IdaaaaTarbell",
+            "Tarbell",
+            "Idaaaa",
+            "IdaaaaTarbell"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"locale\":\"EN\",\"fieldValueValidationRequests\":[{\"propertyReference\":\"0-1/company\",\"values\":[\"IdaaaaTarbell\"]}],\"formDefinitionUpdatedAt\":1774625869606}",
+          "post_request_url": "https://forms-na3.hsforms.com/submissions-validation/v1/validate/341780480/cfe1cc1b-e264-4119-9f36-757e0a23667a",
+          "post_request_ps": "hsforms.com"
+        },
+        {
+          "filter": [
+            "blacklight-headless@themarkup.org"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"locale\":\"EN\",\"fieldValueValidationRequests\":[{\"propertyReference\":\"0-1/email\",\"values\":[\"blacklight-headless@themarkup.org\"]}],\"formDefinitionUpdatedAt\":1774625869606}",
+          "post_request_url": "https://forms-na3.hsforms.com/submissions-validation/v1/validate/341780480/cfe1cc1b-e264-4119-9f36-757e0a23667a",
+          "post_request_ps": "hsforms.com"
+        },
+        {
+          "filter": [
+            "blacklight-headless@themarkup.org"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "blacklight-headless@themarkup.org",
+          "post_request_url": "https://forms-na3.hsforms.com/emailcheck/v1/json-ext?portalId=341780480&formId=cfe1cc1b-e264-4119-9f36-757e0a23667a&includeFreemailSuggestions=true",
+          "post_request_ps": "hsforms.com"
+        },
+        {
+          "filter": [
+            "Tarbell"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"locale\":\"EN\",\"fieldValueValidationRequests\":[{\"propertyReference\":\"0-1/lastname\",\"values\":[\"Tarbell\"]}],\"formDefinitionUpdatedAt\":1774625869606}",
+          "post_request_url": "https://forms-na3.hsforms.com/submissions-validation/v1/validate/341780480/cfe1cc1b-e264-4119-9f36-757e0a23667a",
+          "post_request_ps": "hsforms.com"
+        },
+        {
+          "filter": [
+            "Idaaaa"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"locale\":\"EN\",\"fieldValueValidationRequests\":[{\"propertyReference\":\"0-1/firstname\",\"values\":[\"Idaaaa\"]}],\"formDefinitionUpdatedAt\":1774625869606}",
+          "post_request_url": "https://forms-na3.hsforms.com/submissions-validation/v1/validate/341780480/cfe1cc1b-e264-4119-9f36-757e0a23667a",
+          "post_request_ps": "hsforms.com"
+        }
+      ]
+    },
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 4645,
+            "_eu": "EAAAAGAC",
+            "_p": 1781167881093,
+            "_s": 3,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 544815251.1781168,
+            "dl": "https://www.stackadapt.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "StackAdapt: The AI-Powered Marketing Platform",
+            "en": "user_engagement",
+            "ep.environment": "production",
+            "ep.session_counter": 1,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v867613948za20gzb810247846zd810247846",
+            "gtm_up": 1,
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 4,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167883,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 12058,
+            "tid": "G-7S619565MN",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7S619565MN&gtm=45je6691v867613948za20gzb810247846zd810247846&_p=1781167881093&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dOThhZD&_eu=EAAAAGAC&are=1&cid=544815251.1781167887&frm=0&gtm_up=1&ir=1&pscdl=denied&rcb=4&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938468&sid=1781167883&sct=1&seg=0&dl=https%3A%2F%2Fwww.stackadapt.com%2F&dt=StackAdapt%3A%20The%20AI-Powered%20Marketing%20Platform&_tu=CA&en=user_engagement&ep.session_counter=1&ep.environment=production&_et=4645&tfd=12058"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 481,
+            "_eu": "EAAAAGAC",
+            "_p": 1781167881093,
+            "_s": 2,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 544815251.1781168,
+            "dl": "https://www.stackadapt.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "StackAdapt: The AI-Powered Marketing Platform",
+            "en": "dl_demo_form_start",
+            "ep.container_id": "GTM-K3KLNSX",
+            "ep.container_version": 330,
+            "ep.content_type": "request_demo_regular",
+            "ep.environment": "production",
+            "ep.link_text": "firstname",
+            "ep.page_type2": "marketing site > other",
+            "ep.session_counter": 1,
+            "ep.site_section": "core site",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v867613948z8810247846za20gzb810247846zd810247846",
+            "gtm_up": 1,
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 4,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167883,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 12057,
+            "tid": "G-7S619565MN",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7S619565MN&gtm=45je6691v867613948z8810247846za20gzb810247846zd810247846&_p=1781167881093&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dOThhZD&_eu=EAAAAGAC&are=1&cid=544815251.1781167887&frm=0&gtm_up=1&ir=1&pscdl=denied&rcb=4&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468&sid=1781167883&sct=1&seg=0&dl=https%3A%2F%2Fwww.stackadapt.com%2F&dt=StackAdapt%3A%20The%20AI-Powered%20Marketing%20Platform&_tu=CA&en=dl_demo_form_start&ep.session_counter=1&ep.environment=production&ep.site_section=core%20site&ep.page_type2=marketing%20site%20%3E%20other&ep.container_id=GTM-K3KLNSX&ep.container_version=330&ep.content_type=request_demo_regular&ep.link_text=firstname&_et=481&tfd=12057"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 3,
+            "evt": "pageHide",
+            "mid": "d0ff8212-269f-4bed-a0ef-f8f946feca6b",
+            "ti": 97171026,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=97171026&tm=gtm002&Ver=2&mid=d0ff8212-269f-4bed-a0ef-f8f946feca6b&bo=3&evt=pageHide&asc=D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/c/h"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/c/h"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781167881093,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 544815251.1781168,
+            "dl": "https://www.stackadapt.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "StackAdapt: The AI-Powered Marketing Platform",
+            "en": "page_view",
+            "ep.action_source": "website",
+            "ep.author": "",
+            "ep.container_id": "GTM-K3KLNSX",
+            "ep.container_version": 330,
+            "ep.content_category": "",
+            "ep.content_group": "Marketing Site",
+            "ep.content_type": "",
+            "ep.environment": "production",
+            "ep.page_type2": "marketing site > other",
+            "ep.publish_date": "",
+            "ep.session_counter": 1,
+            "ep.site_section": "core site",
+            "ep.tag_name": "GA4 - Pageview",
+            "epn.event_time": 1781167883,
+            "evnid": "1781168041967_178116810225072",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v867613948z8810247846za20gzb810247846zd810247846",
+            "gtm_up": 1,
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 4,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167883,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 6816,
+            "tid": "G-7S619565MN",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7S619565MN&gtm=45je6691v867613948z8810247846za20gzb810247846zd810247846&_p=1781167881093&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dOThhZD&_eu=EAAAAGAC&are=1&cid=544815251.1781167887&frm=0&gtm_up=1&ir=1&pscdl=denied&rcb=4&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468&sid=1781167883&sct=1&seg=0&dl=https%3A%2F%2Fwww.stackadapt.com%2F&dt=StackAdapt%3A%20The%20AI-Powered%20Marketing%20Platform&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.session_counter=1&ep.environment=production&ep.site_section=core%20site&ep.page_type2=marketing%20site%20%3E%20other&ep.container_id=GTM-K3KLNSX&ep.container_version=330&ep.tag_name=GA4%20-%20Pageview&evnid=1781168041967_178116810225072&epn.event_time=1781167883&ep.action_source=website&ep.content_group=Marketing%20Site&ep.publish_date=&ep.author=&ep.content_category=&ep.content_type=&tfd=6816"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dOThhZD",
+            "dl": "https://www.stackadapt.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "ep.ads_data_redaction": 1,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45be6691v870657746z8810247846za20gzb810247846zd810247846xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 5,
+            "rnd": 1625662887.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 6779,
+            "tft": 1781167886757,
+            "tid": "AW-10828879817",
+            "tids": "AW-10828879817"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&ae=g&dl=https%3A%2F%2Fwww.stackadapt.com%2F&scrsrc=www.googletagmanager.com&rnd=1625662887.1781167887&navt=n&npa=1&ep.ads_data_redaction=1&did=dOThhZD&gdid=dOThhZD&_tu=CA&gtm=45be6691v870657746z8810247846za20gzb810247846zd810247846xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&apve=1&apvf=f&apvc=0&tids=AW-10828879817&tid=AW-10828879817&tft=1781167886757&tfd=6779"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.stackadapt.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 1,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45He6691v810247846za200zd810247846xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 1,
+            "rnd": 1625662887.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115938465~115938469~117776793~119456239~119456247",
+            "tfd": 6778,
+            "tft": 1781167886756
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.stackadapt.com%2F&scrsrc=www.googletagmanager.com&rnd=1625662887.1781167887&navt=n&npa=1&ep.ads_data_redaction=1&gdid=dOThhZD&_tu=CA&gtm=45He6691v810247846za200zd810247846xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115938465~115938469~117776793~119456239~119456247&apve=1&apvf=f&apvc=1&tft=1781167886756&tfd=6778"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "async": 1,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "category": "acrcp_v1_512",
+            "cv": 11,
+            "data": "ads_data_redaction=true",
+            "did": "dOThhZD",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "conversion",
+            "ept": 6,
+            "fmt": 8,
+            "frm": 0,
+            "fst": 1781167884755,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45be6691v870657746z8810247846za20gzb810247846zd810247846xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "ccepCLLshLwZEMmvzqso",
+            "npa": 1,
+            "pscdl": "denied",
+            "random": 1781167884755,
+            "rcb": 5,
+            "tag_exp": "0~115938465~115938469",
+            "tiba": "StackAdapt: The AI-Powered Marketing Platform",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.stackadapt.com",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/10828879817/?random=1781167884755&cv=11&fst=1781167884755&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691v870657746z8810247846za20gzb810247846zd810247846xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&u_w=375&u_h=812&url=https%3A%2F%2Fwww.stackadapt.com&rcb=5&label=ccepCLLshLwZEMmvzqso&frm=0&tiba=StackAdapt%3A%20The%20AI-Powered%20Marketing%20Platform&did=dOThhZD&gdid=dOThhZD&bttype=purchase&value=0&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dtrue&category=acrcp_v1_512&ept=6"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/c/h"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/s/0.8.65"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "d0ff8212-269f-4bed-a0ef-f8f946feca6b",
+            "src": "default",
+            "ti": 97171026,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=97171026&tm=gtm002&Ver=2&mid=d0ff8212-269f-4bed-a0ef-f8f946feca6b&bo=1&evt=consent&src=default&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/t/97171026"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/97171026.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-10828879817"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-10828879817&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||hsforms.com^*/counters.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "count": 1,
+            "key": "developer-forms-embed-v3-developer-RENDER_SUCCESS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://forms-na3.hsforms.com/embed/v3/counters.gif?key=developer-forms-embed-v3-developer-RENDER_SUCCESS&count=1"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-123456"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-123456&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||usercentrics.eu/session/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "settingsId": "zR15uZdmXRB31B"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=zR15uZdmXRB31B"
+      },
+      {
+        "data": {
+          "filter": "||pixel.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "blog": 236864388,
+            "fcp": 1891,
+            "host": "www.stackadapt.com",
+            "hp": "vip",
+            "j": "1:15.7",
+            "post": 3748,
+            "rand": 0.3344071262344346,
+            "ref": "",
+            "srv": "www.stackadapt.com",
+            "tz": 0,
+            "v": "ext"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.wp.com/g.gif?v=ext&blog=236864388&post=3748&tz=0&srv=www.stackadapt.com&hp=vip&j=1%3A15.7&host=www.stackadapt.com&ref=&fcp=1891&rand=0.3344071262344346"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-7S619565MN"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-7S619565MN&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||stats.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.wp.com/e-202624.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-K3KLNSX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stackadapt.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K3KLNSX"
+      }
+    ]
+  }
+}

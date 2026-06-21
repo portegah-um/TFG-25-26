@@ -1,0 +1,361 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "bunny.net - The Global Edge Platform that truly Hops",
+  "uri_ins": "https://b-cdn.net",
+  "uri_dest": "https://bunny.net/",
+  "uri_redirects": [
+    "https://b-cdn.net/"
+  ],
+  "secure_connection": {},
+  "host": "b-cdn.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:07:02.582Z",
+  "end_time": "2026-06-11T06:07:08.059Z",
+  "browsing_history": [
+    "https://bunny.net/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "b-cdn.net",
+        "bunny-reddit.b-cdn.net",
+        "bunny.net",
+        "fonts.bunny.net",
+        "matomo.bunny.net"
+      ],
+      "third_party": [
+        "widget.trustpilot.com",
+        "posthog2.fluffleinfra.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://posthog2.fluffleinfra.net/static/web-vitals.js?v=1.249.3": [
+          "click"
+        ],
+        "https://posthog2.fluffleinfra.net/static/dead-clicks-autocapture.js?v=1.249.3": [
+          "scroll",
+          "click"
+        ],
+        "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://posthog2.fluffleinfra.net/static/array.js": [
+          "mousemove",
+          "click",
+          "scroll"
+        ],
+        "https://bunny.net/app-91975aefa0dfae4b2e07.js": [
+          "scroll",
+          "click"
+        ],
+        "https://bunny.net/commons-3e6d8fdde0582d5dd095.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://posthog2.fluffleinfra.net/static/web-vitals.js?v=1.249.3": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_pk_id.1.1662",
+        "value": "3d48b8bf53984c40.1781158024.",
+        "domain": "bunny.net",
+        "path": "/",
+        "expires": "2027-07-09T06:07:04.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pk_ses.1.1662",
+        "value": "1",
+        "domain": "bunny.net",
+        "path": "/",
+        "expires": "2026-06-11T06:37:04.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ph_phc_x3EqlhW0L1XJarYJUfZAEdBa0lcSuyZjD3lh4qDfSxb_posthog",
+        "value": "%7B%22distinct_id%22%3A%22019eb54a-94d2-792b-92c5-a05952537db5%22%2C%22%24sesid%22%3A%5B1781158024378%2C%22019eb54a-94bd-7a39-a318-4945791a9719%22%2C1781158024378%5D%7D",
+        "domain": "bunny.net",
+        "path": "/",
+        "expires": "2027-06-11T06:07:05.000Z",
+        "size": 226,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ref_domain",
+        "value": "",
+        "domain": "bunny.net",
+        "path": "/",
+        "expires": "2027-06-06T06:07:04.000Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||trustpilot.com/stats/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "businessUnitId": "60ae96c09f902b0001b4569c",
+            "language": "en-US",
+            "locale": "en-US",
+            "nosettings": 1,
+            "platform": "Linux x86_64",
+            "referrer": "",
+            "styleHeight": "24px",
+            "styleWidth": "100%",
+            "theme": "light",
+            "token": "5db9c78b-d326-49cd-833f-4ff46d856fb1",
+            "url": "https://bunny.net/",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "widgetId": "5419b732fbfb950b10de65e5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/5419b732fbfb950b10de65e5/index.html?templateId=5419b732fbfb950b10de65e5&businessunitId=60ae96c09f902b0001b4569c#locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=light",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=light&url=https%3A%2F%2Fbunny.net%2F&referrer=&userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=60ae96c09f902b0001b4569c&widgetId=5419b732fbfb950b10de65e5"
+      },
+      {
+        "data": {
+          "filter": "||trustpilot.com/stats/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "businessUnitId": "60ae96c09f902b0001b4569c",
+            "language": "en-US",
+            "locale": "en-US",
+            "nosettings": 1,
+            "platform": "Linux x86_64",
+            "referrer": "",
+            "styleHeight": "24px",
+            "styleWidth": "100%",
+            "theme": "dark",
+            "token": "5db9c78b-d326-49cd-833f-4ff46d856fb1",
+            "url": "https://bunny.net/",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "widgetId": "5419b732fbfb950b10de65e5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/5419b732fbfb950b10de65e5/index.html?templateId=5419b732fbfb950b10de65e5&businessunitId=60ae96c09f902b0001b4569c#locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=dark",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=dark&url=https%3A%2F%2Fbunny.net%2F&referrer=&userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=60ae96c09f902b0001b4569c&widgetId=5419b732fbfb950b10de65e5"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "1.249.3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bunny.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://posthog2.fluffleinfra.net/static/web-vitals.js?v=1.249.3"
+      },
+      {
+        "data": {
+          "filter": "||trustpilot.com/stats/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "businessUnitId": "60ae96c09f902b0001b4569c",
+            "language": "en-US",
+            "locale": "en-US",
+            "nosettings": 1,
+            "platform": "Linux x86_64",
+            "referrer": "",
+            "styleHeight": "24px",
+            "styleWidth": "100%",
+            "theme": "light",
+            "token": "5db9c78b-d326-49cd-833f-4ff46d856fb1",
+            "url": "https://bunny.net/",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "widgetId": "5419b732fbfb950b10de65e5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/5419b732fbfb950b10de65e5/index.html?templateId=5419b732fbfb950b10de65e5&businessunitId=60ae96c09f902b0001b4569c#locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=light",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=light&url=https%3A%2F%2Fbunny.net%2F&referrer=&userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=60ae96c09f902b0001b4569c&widgetId=5419b732fbfb950b10de65e5"
+      },
+      {
+        "data": {
+          "filter": "||trustpilot.com/stats/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "businessUnitId": "60ae96c09f902b0001b4569c",
+            "language": "en-US",
+            "locale": "en-US",
+            "nosettings": 1,
+            "platform": "Linux x86_64",
+            "referrer": "",
+            "styleHeight": "24px",
+            "styleWidth": "100%",
+            "theme": "dark",
+            "token": "5db9c78b-d326-49cd-833f-4ff46d856fb1",
+            "url": "https://bunny.net/",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "widgetId": "5419b732fbfb950b10de65e5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/5419b732fbfb950b10de65e5/index.html?templateId=5419b732fbfb950b10de65e5&businessunitId=60ae96c09f902b0001b4569c#locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=dark",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=dark&url=https%3A%2F%2Fbunny.net%2F&referrer=&userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=60ae96c09f902b0001b4569c&widgetId=5419b732fbfb950b10de65e5"
+      },
+      {
+        "data": {
+          "filter": "||trustpilot.com/stats/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "businessUnitId": "60ae96c09f902b0001b4569c",
+            "language": "en-US",
+            "locale": "en-US",
+            "nosettings": 1,
+            "platform": "Linux x86_64",
+            "referrer": "",
+            "styleHeight": "24px",
+            "styleWidth": "100%",
+            "theme": "dark",
+            "token": "5db9c78b-d326-49cd-833f-4ff46d856fb1",
+            "url": "https://bunny.net/",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "widgetId": "5419b732fbfb950b10de65e5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/5419b732fbfb950b10de65e5/index.html?templateId=5419b732fbfb950b10de65e5&businessunitId=60ae96c09f902b0001b4569c#locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=dark",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=24px&styleWidth=100%25&token=5db9c78b-d326-49cd-833f-4ff46d856fb1&theme=dark&url=https%3A%2F%2Fbunny.net%2F&referrer=&userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=60ae96c09f902b0001b4569c&widgetId=5419b732fbfb950b10de65e5"
+      }
+    ]
+  }
+}

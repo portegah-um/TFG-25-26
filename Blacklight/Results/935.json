@@ -1,0 +1,568 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Docker: Accelerated Container Application Development",
+  "uri_ins": "https://docker.io",
+  "uri_dest": "https://www.docker.com/",
+  "uri_redirects": [
+    "https://docker.io/"
+  ],
+  "secure_connection": {},
+  "host": "docker.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:23:01.249Z",
+  "end_time": "2026-06-11T10:23:07.975Z",
+  "browsing_history": [
+    "https://www.docker.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "docker.io",
+        "www.docker.com",
+        "marlin-2.docker.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "assets.adobedtm.com",
+        "fonts.googleapis.com",
+        "www.google.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "geolocation.onetrust.com",
+        "www.gstatic.com",
+        "dpm.demdex.net",
+        "docker.demdex.net",
+        "cm.everesttech.net",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.docker.com/": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.docker.com/": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.docker.com/": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://www.docker.com/app/themes/Ponyo/dist/js/index.js?ver=b4b810caef6cc69dc6f5": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "firstPageView",
+        "value": "https%3A%2F%2Fwww.docker.com%2F",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2026-07-11T10:23:03.000Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lastPageView",
+        "value": "https%3A%2F%2Fwww.docker.com%2F",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2026-07-11T10:23:03.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_marlin_last",
+        "value": "1781173383621",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2026-06-11T10:53:03.622Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_marlin_aid",
+        "value": "720bdcf0-d587-43c5-9289-a77b57bdecb2",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2027-06-11T10:23:03.623Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_marlin_sid",
+        "value": "019eb634-f1c9-7b39-b6ee-8ec8a197dc00",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2026-06-11T10:53:03.625Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "91718326606636841064045926167056819656",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T10:23:04.299Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_E0DB1D30624CBF9F0A495CEE%40AdobeOrg",
+        "value": "1",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "marlinSessionID",
+        "value": "019eb634-f1c9-7b39-b6ee-8ec8a197dc00",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2026-07-11T10:23:03.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "marlinAnonymousID",
+        "value": "720bdcf0-d587-43c5-9289-a77b57bdecb2",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2026-07-11T10:23:03.000Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "dpm",
+        "value": "91718326606636841064045926167056819656",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T10:23:04.299Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCV_E0DB1D30624CBF9F0A495CEE%40AdobeOrg",
+        "value": "179643557%7CMCIDTS%7C20616%7CMCMID%7C82866559053629148933778235280964896655%7CMCAAMLH-1781778183%7C6%7CMCAAMB-1781778183%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1781180583s%7CNONE%7CMCSYNCSOP%7C411-20623%7CvVersion%7C5.5.0",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2027-07-16T10:23:04.341Z",
+        "size": 288,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+12%3A23%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202306.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=bc973e12-1d0d-4e0f-9c9b-2a66bacb124c&interactionCount=0&landingPath=https%3A%2F%2Fwww.docker.com%2F&groups=C0003%3A0%2CC0001%3A1%2CC0002%3A0%2CC0004%3A0",
+        "domain": "docker.com",
+        "path": "/",
+        "expires": "2027-06-11T10:23:04.000Z",
+        "size": 333,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1254123379,
+            "ck": 0,
+            "ptid": "43a5fec57ae477f9",
+            "ref": "https://www.docker.com/",
+            "rst": 4236,
+            "s": "98daa316fbd8f26d",
+            "to": "NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-27f33ade91093c8b2a2?a=1254123379&v=1.316.0&to=NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA%3D%3D&rst=4236&ck=0&s=98daa316fbd8f26d&ref=https://www.docker.com/&ptid=43a5fec57ae477f9"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1254123379,
+            "ck": 0,
+            "ptid": "43a5fec57ae477f9",
+            "ref": "https://www.docker.com/",
+            "rst": 4233,
+            "s": "98daa316fbd8f26d",
+            "to": "NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/NRJS-27f33ade91093c8b2a2?a=1254123379&v=1.316.0&to=NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA%3D%3D&rst=4233&ck=0&s=98daa316fbd8f26d&ref=https://www.docker.com/&ptid=43a5fec57ae477f9"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1254123379,
+            "ck": 0,
+            "ptid": "43a5fec57ae477f9",
+            "ref": "https://www.docker.com/",
+            "rst": 4231,
+            "s": "98daa316fbd8f26d",
+            "to": "NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-27f33ade91093c8b2a2?a=1254123379&v=1.316.0&to=NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA%3D%3D&rst=4231&ck=0&s=98daa316fbd8f26d&ref=https://www.docker.com/&ptid=43a5fec57ae477f9"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1254123379,
+            "af": "err,spa,xhr,stn,ins",
+            "ap": 1032,
+            "at": "GkEHGgJCSEg=",
+            "be": 551,
+            "ck": 0,
+            "dc": 1256,
+            "fcp": 2618,
+            "fe": 2898,
+            "fp": 1097,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 465,
+                "ce": 526,
+                "dc": 3443,
+                "de": 1807,
+                "di": 1760,
+                "dn": 464,
+                "dne": 465,
+                "ds": 1760,
+                "f": 378,
+                "l": 3443,
+                "le": 3449,
+                "n": 0,
+                "of": 1781173381777,
+                "rp": 551,
+                "rpe": 588,
+                "rq": 527,
+                "s": 490
+              }
+            },
+            "ptid": "43a5fec57ae477f9",
+            "ref": "https://www.docker.com/",
+            "rst": 3612,
+            "s": "98daa316fbd8f26d",
+            "to": "NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRJS-27f33ade91093c8b2a2?a=1254123379&v=1.316.0&to=NgYEbEpYW0ZQB0MPCw9MJ1tMUFpbHhBSCxQNAhJdFVpUW0cFRA%3D%3D&rst=3612&ck=0&s=98daa316fbd8f26d&ref=https://www.docker.com/&ptid=43a5fec57ae477f9&af=err,spa,xhr,stn,ins&ap=1032&be=551&fe=2898&dc=1256&at=GkEHGgJCSEg%3D&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781173381777,%22n%22:0,%22f%22:378,%22dn%22:464,%22dne%22:465,%22c%22:465,%22s%22:490,%22ce%22:526,%22rq%22:527,%22rp%22:551,%22rpe%22:588,%22di%22:1760,%22ds%22:1760,%22de%22:1807,%22dc%22:3443,%22l%22:3443,%22le%22:3449%7D,%22navigation%22:%7B%7D%7D&fp=1097&fcp=2618"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=aiqMiAAAAKd-gQOJ"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_uuid": 9.171832660663684e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=91718326606636841064045926167056819656"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_nsid": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://docker.demdex.net/dest5.html?d_nsid=0"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "E0DB1D30624CBF9F0A495CEE@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781173383690
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=E0DB1D30624CBF9F0A495CEE%40AdobeOrg&d_nsid=0&ts=1781173383690"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WL2QLG5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.docker.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WL2QLG5"
+      }
+    ]
+  }
+}

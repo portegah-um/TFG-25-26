@@ -1,0 +1,422 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Yandex — hızlı İnternet araması",
+  "uri_ins": "https://yandex.com.tr",
+  "uri_dest": "https://yandex.com.tr/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "yandex.com.tr",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:30:37.265Z",
+  "end_time": "2026-06-11T10:30:41.876Z",
+  "browsing_history": [
+    "https://yandex.com.tr/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "yandex.com.tr"
+      ],
+      "third_party": [
+        "yastatic.net",
+        "avatars.mds.yandex.net",
+        "static-mon.yandex.net",
+        "mc.yandex.ru",
+        "favicon.yandex.net",
+        "mc.yandex.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://yastatic.net/s3/home-static/_/nova/GcsLCwpy.js": [
+          "scroll"
+        ],
+        "https://mc.yandex.ru/metrika/watch_serp.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://yastatic.net/s3/home-static/_/nova/d2c94aeda26f796529476e7d1806855ca1352ccec104973c779c3a1ae797046a.js": [
+          "scroll",
+          "click"
+        ],
+        "https://yandex.com.tr/": [
+          "click",
+          "mousedown",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://mc.yandex.ru/metrika/watch_serp.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://yastatic.net/s3/home-static/_/nova/d2c94aeda26f796529476e7d1806855ca1352ccec104973c779c3a1ae797046a.js": [
+          "orientationchange"
+        ],
+        "https://yandex.com.tr/": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://yastatic.net/s3/home-static/_/nova/d2c94aeda26f796529476e7d1806855ca1352ccec104973c779c3a1ae797046a.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "yandex_gid",
+        "value": "11508",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2026-07-11T10:30:37.120Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "yp",
+        "value": "1783765837.ygu.1",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.120Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "is_gdpr",
+        "value": "1",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.120Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "is_gdpr_b",
+        "value": "CMPkQhCFigMYASgB",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.120Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pi",
+        "value": "D8GHKz7Bfd0eFbM14/C3ORh1Ey1Mhk8plQExQ9sn9lTgbYZ1b3E7vJrlYcu8D7yHUfvrVglyXk40I4Fi3fewT0HFxTo=",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.120Z",
+        "size": 94,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://yandex.com.tr",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "i",
+        "value": "dkT8cL8Pz5cvBXSXizkIciXSdvRPpuWj2taNU7cCEN5Vjmc6SzeS1JLnwWe0Joe/jlK5suBCpNSy51vTMQooiWizujk=",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.120Z",
+        "size": 93,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "yandexuid",
+        "value": "6378303671781173837",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.120Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "yashr",
+        "value": "2650582621781173837",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-06-11T10:30:37.120Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://yandex.com.tr",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bh",
+        "value": "YM2cqtEGaivcyv3sCqnSo90C+tbKsgHr/52rBPrWoqUPhuTx5w3r//32D+a2yacO9/MB",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:37.120Z",
+        "size": 70,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_yasc",
+        "value": "PzS/EIGGJo213VADi/IR7nv7lVHneSLUiit+T4A7sD9vDQd5BWtzOzy4Hq83QNfGfWMUYyv8",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:38.765Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gdpr_popup",
+        "value": "1",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "my",
+        "value": "YwA=",
+        "domain": "yandex.com.tr",
+        "path": "/",
+        "expires": "2027-07-16T10:30:40.914Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:67lfwgzrop4tlmznpqijykh7v07fe:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1081572863255:hid:153601209:z:120:i:20260611123039:et:1781173840:c:1:rn:924834108:rqn:1:u:1781173840243214551:w:375x812:s:375x812x24:sk:3:co:0:hdl:1:eu:1:ns:1781173837690:st:1781173840:t:Yandex — hızlı İnternet araması",
+            "charset": "utf-8",
+            "page-ref": "",
+            "page-url": "https://yandex.com.tr/",
+            "redirnss": 1,
+            "t": "rqnt(1)aw(1)rcm(1)yu(6378303671781173837)ti(2)",
+            "ut": "noindex",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.com.tr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/3/1?wmode=7&page-url=https%3A%2F%2Fyandex.com.tr%2F&page-ref&charset=utf-8&ut=noindex&browser-info=pv%3A1%3Avf%3A67lfwgzrop4tlmznpqijykh7v07fe%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1081572863255%3Ahid%3A153601209%3Az%3A120%3Ai%3A20260611123039%3Aet%3A1781173840%3Ac%3A1%3Arn%3A924834108%3Arqn%3A1%3Au%3A1781173840243214551%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781173837690%3Ast%3A1781173840%3At%3AYandex%20%E2%80%94%20h%C4%B1zl%C4%B1%20%C4%B0nternet%20aramas%C4%B1&t=rqnt%281%29aw%281%29rcm%281%29yu%286378303671781173837%29ti%282%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:67lfwgzrop4tlmznpqijykh7v07fe:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1081572863255:hid:153601209:z:120:i:20260611123039:et:1781173840:c:1:rn:924834108:rqn:1:u:1781173840243214551:w:375x812:s:375x812x24:sk:3:co:0:hdl:1:eu:1:ns:1781173837690:st:1781173840:t:Yandex — hızlı İnternet araması",
+            "charset": "utf-8",
+            "page-ref": "",
+            "page-url": "https://yandex.com.tr/",
+            "t": "rqnt(1)aw(1)rcm(1)yu(6378303671781173837)ti(2)",
+            "ut": "noindex",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.com.tr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/3?wmode=7&page-url=https%3A%2F%2Fyandex.com.tr%2F&page-ref=&charset=utf-8&ut=noindex&browser-info=pv%3A1%3Avf%3A67lfwgzrop4tlmznpqijykh7v07fe%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1081572863255%3Ahid%3A153601209%3Az%3A120%3Ai%3A20260611123039%3Aet%3A1781173840%3Ac%3A1%3Arn%3A924834108%3Arqn%3A1%3Au%3A1781173840243214551%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781173837690%3Ast%3A1781173840%3At%3AYandex%20%E2%80%94%20h%C4%B1zl%C4%B1%20%C4%B0nternet%20aramas%C4%B1&t=rqnt(1)aw(1)rcm(1)yu(6378303671781173837)ti(2)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.com.tr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.com.tr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/watch_serp.js"
+      }
+    ]
+  }
+}

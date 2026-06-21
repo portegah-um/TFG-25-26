@@ -1,0 +1,261 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Latest news, sport and opinion from the Guardian",
+  "uri_ins": "https://theguardian.com",
+  "uri_dest": "https://www.theguardian.com/europe",
+  "uri_redirects": [
+    "https://theguardian.com/",
+    "https://www.theguardian.com/"
+  ],
+  "secure_connection": {},
+  "host": "theguardian.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:32:27.457Z",
+  "end_time": "2026-06-11T06:32:32.573Z",
+  "browsing_history": [
+    "https://www.theguardian.com/europe"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "theguardian.com",
+        "www.theguardian.com",
+        "static.theguardian.com",
+        "ophan.theguardian.com",
+        "sourcepoint.theguardian.com"
+      ],
+      "third_party": [
+        "assets.guim.co.uk",
+        "i.guim.co.uk",
+        "interactive.guim.co.uk",
+        "media.guim.co.uk",
+        "static.guim.co.uk"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.guim.co.uk/assets/4501.client.web.ae17c42ee373d0271f91.js": [
+          "click"
+        ],
+        "https://www.theguardian.com/europe": [
+          "mousedown"
+        ],
+        "https://assets.guim.co.uk/assets/index.client.web.a8ee31c2af52e3729b1a.js": [
+          "mousemove",
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets.guim.co.uk/assets/4501.client.web.ae17c42ee373d0271f91.js": [
+          "keydown"
+        ],
+        "https://sourcepoint.theguardian.com/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://assets.guim.co.uk/assets/9524.client.web.427856f7482fc2098025.js": [
+          "keydown"
+        ],
+        "https://www.theguardian.com/europe": [
+          "keydown"
+        ],
+        "https://assets.guim.co.uk/assets/index.client.web.a8ee31c2af52e3729b1a.js": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "TOUCH": {
+        "https://assets.guim.co.uk/assets/index.client.web.a8ee31c2af52e3729b1a.js": [
+          "touchmove",
+          "touchcancel",
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "GU_mvt_id",
+        "value": "880039",
+        "domain": "theguardian.com",
+        "path": "/",
+        "expires": "2026-09-09T06:32:28.497Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gu_client_ab_tests",
+        "value": "newsletters-signup-card-country-illustration:variantNewField,growth-auxia-banner:variant",
+        "domain": "www.theguardian.com",
+        "path": "/",
+        "expires": "2026-07-11T06:32:28.497Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gu_v2_mvt_id",
+        "value": "596",
+        "domain": "www.theguardian.com",
+        "path": "/",
+        "expires": "2026-07-11T06:32:28.497Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "GU_geo_country",
+        "value": "ES",
+        "domain": "www.theguardian.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bwid",
+        "value": "idFromPV_WGe-E9KeaS0vUHKCwMS6-Q",
+        "domain": "theguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T06:32:29.408Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bwid_withoutSameSiteForIncompatibleClients",
+        "value": "idFromPV_WGe-E9KeaS0vUHKCwMS6-Q",
+        "domain": "theguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T06:32:29.408Z",
+        "size": 73,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "consentUUID",
+        "value": "14d3b043-21f6-47cf-970f-57f281f2fb47",
+        "domain": "theguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T06:32:29.927Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

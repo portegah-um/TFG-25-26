@@ -1,0 +1,157 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Just a moment...",
+  "uri_ins": "https://readthedocs.io",
+  "uri_dest": "https://app.readthedocs.org/welcome/",
+  "uri_redirects": [
+    "https://readthedocs.io/",
+    "https://readthedocs.org/"
+  ],
+  "secure_connection": {},
+  "host": "readthedocs.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:30:22.950Z",
+  "end_time": "2026-06-11T10:30:25.608Z",
+  "browsing_history": [
+    "https://app.readthedocs.org/welcome/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "readthedocs.io",
+        "readthedocs.org",
+        "app.readthedocs.org"
+      ],
+      "third_party": [
+        "challenges.cloudflare.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/w9gcc/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto": [
+          "click",
+          "mousemove"
+        ],
+        "https://app.readthedocs.org/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a09ff0afda59f77f": [
+          "click",
+          "mousemove"
+        ]
+      },
+      "TOUCH": {
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/w9gcc/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto": [
+          "touchstart"
+        ],
+        "https://app.readthedocs.org/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a09ff0afda59f77f": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/w9gcc/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto": [
+          "keydown"
+        ],
+        "https://app.readthedocs.org/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=a09ff0afda59f77f": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "BCFXpEbMorJVz3fiXOfuJ7xvo4qkfxGYlFTGNtsKdxA-1781173823.5477905-1.0.1.1-7.Cr0fZabd72TxeH.SXOR8FvcRgHmUCKXxiqtRykmWloCwY3MgecbtJRWeuqg8LzpxfpO3BZ9lzSKfFTxC7r9Vjd89Wrss7kwzcd5yg13ODjwZxQFkUHFwgVc6D2ytbq",
+        "domain": "readthedocs.io",
+        "path": "/",
+        "expires": "2026-06-11T11:00:23.708Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "VNeQ4aI99rvendQF7OvmKuKFLZUSfw9F1yCHZ6y2KFA-1781173824.2807124-1.0.1.1-LNO3ZDY9gaaih6MHn55cK2S.Re.ayNolJDMB5jyZL96DDSo527ik.J6hRaGKrUJ1GQouWDQq_8kqriX6jZuzyjGT6s2trGfCR8hI4ks0UA4rG5jHYlb95eHptibkTDtO",
+        "domain": "readthedocs.org",
+        "path": "/",
+        "expires": "2026-06-11T11:00:24.295Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

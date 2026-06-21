@@ -1,0 +1,316 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Corporate Domain Management | Business Domain Services from Markmonitor",
+  "uri_ins": "https://markmonitor.com",
+  "uri_dest": "https://www.markmonitor.com/",
+  "uri_redirects": [
+    "https://markmonitor.com/"
+  ],
+  "secure_connection": {},
+  "host": "markmonitor.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:26:26.082Z",
+  "end_time": "2026-06-11T08:26:29.240Z",
+  "browsing_history": [
+    "https://www.markmonitor.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "markmonitor.com",
+        "www.markmonitor.com"
+      ],
+      "third_party": [
+        "js.qualified.com",
+        "app.qualified.com",
+        "go.markmonitor.info",
+        "assets.qualified.com",
+        "static.cloudflareinsights.com",
+        "o209747.ingest.us.sentry.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.qualified.com/packs/js/widget/sandboxed/messenger-ee8fad45.js": [
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://js.qualified.com/qualified.js?token=1dmPuCi7zii5PDYg": [
+          "click",
+          "mousemove",
+          "scroll"
+        ],
+        "https://www.markmonitor.com/wp-includes/blocks/navigation/view.min.js?ver=6.6.2": [
+          "click"
+        ],
+        "https://www.markmonitor.com/": [
+          "mousedown",
+          "dblclick",
+          "click",
+          "mousemove",
+          "mouseup"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets.qualified.com/packs/js/widget/sandboxed/messenger-ee8fad45.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ],
+        "https://js.qualified.com/qualified.js?token=1dmPuCi7zii5PDYg": [
+          "keypress"
+        ],
+        "https://www.markmonitor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keydown"
+        ],
+        "https://www.markmonitor.com/": [
+          "input",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://js.qualified.com/qualified.js?token=1dmPuCi7zii5PDYg": [
+          "touchstart"
+        ],
+        "https://www.markmonitor.com/": [
+          "touchstart",
+          "touchcancel",
+          "touchend",
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_cfuvid",
+        "value": "ulvqdvRj9M13bYSYKnfTFKCV9fpjbCYhRp8xGMmJF8M-1781166386.7865047-1.0.1.1-ZnMBNVjL4BMgPRYsHyrNBBaQgKpNDGGCzXhZ_IudLwg",
+        "domain": "markmonitor.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wp-wpml_current_language",
+        "value": "en",
+        "domain": "www.markmonitor.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wpml_browser_redirect_test",
+        "value": "0",
+        "domain": "www.markmonitor.com",
+        "path": "/",
+        "expires": -1,
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "243afd8a1ab815367a217c4da5696b81",
+        "value": "0b6c744b7c865a0b2b97debac3e59e98",
+        "domain": "www.markmonitor.com",
+        "path": "/",
+        "expires": -1,
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "A5ZGzMue2yhWVhHwHCXgmFY3Tx_6NmgX2DEAA_UvCaI-1781166387-1.2.1.1-XJ8arD7mgkOqdl977Jj8rBDvirXYj8NPDEYpKK6CHjHLPDS2Pgu0u_1Vs.6.2ehW9XNePXnC.Xzt0cUiPpCspzgflIyhlWl.L1e8A6fSDwiPrYwPROyzLmhaOd23RXymdcKZbcfHPysev1EHgL3LWRX7p.ZivHskQQ.iWj6FzPupUMz2y37M3.esyKw67Xjg8bR1LmRPEBAccH386w2b0guKwu8F22dl4cmk2wqfdt_MutVlLT.MqKWzpPt_wqcEKwY255bAMhAdbiFCW1bzJ7FS4umIhzgoP4f7oyd1y_txCoFbtRWev5MQSOzS1oKFbLV3gTOjBVrBP8rsQGKDXw",
+        "domain": "markmonitor.com",
+        "path": "/",
+        "expires": "2027-06-11T08:26:27.410Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://markmonitor.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "oCmNMBGBCT9KE16elzGeGM0KPu6CIAG7a3SclE9.wD8-1781166387.3825226-1.0.1.1-JSPh630JnmgECRF53eRgptU79yTksQb3rjPKVG4HIU3sV5F432sFK1w2Rb_lD7pDkztxgHJkVwnjA2iGSfBRUqBZxHtLUoTTsPNuuG3EF05DGeRjkIWFIOz4frxpoeMn",
+        "domain": "markmonitor.com",
+        "path": "/",
+        "expires": "2026-06-11T08:56:27.410Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__q_state_1dmPuCi7zii5PDYg",
+        "value": "eyJ1dWlkIjoiYTdhZmU4MDUtMGE1NC00MWZhLThmODEtOTdjZGY1YTQ3MzUyIiwiY29va2llRG9tYWluIjoibWFya21vbml0b3IuY29tIn0=",
+        "domain": "markmonitor.com",
+        "path": "/",
+        "expires": "2027-07-16T08:26:28.883Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/7.119.1",
+            "sentry_key": "c36ec735e564530732f0d75311d173b6",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://app.qualified.com/w/1/1dmPuCi7zii5PDYg/messenger?uuid=a7afe805-0a54-41fa-8f81-97cdf5a47352",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o209747.ingest.us.sentry.io/api/4508915056574464/envelope/?sentry_key=c36ec735e564530732f0d75311d173b6&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.119.1"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://app.qualified.com/w/1/1dmPuCi7zii5PDYg/messenger?uuid=a7afe805-0a54-41fa-8f81-97cdf5a47352",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

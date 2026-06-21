@@ -1,0 +1,250 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "The world's best hospital - Mayo Clinic",
+  "uri_ins": "https://mayoclinic.org",
+  "uri_dest": "https://www.mayoclinic.org/",
+  "uri_redirects": [
+    "https://mayoclinic.org/"
+  ],
+  "secure_connection": {},
+  "host": "mayoclinic.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:43:57.078Z",
+  "end_time": "2026-06-11T09:44:02.934Z",
+  "browsing_history": [
+    "https://www.mayoclinic.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mayoclinic.org",
+        "www.mayoclinic.org",
+        "tagdelivery.mayoclinic.org",
+        "assets.mayoclinic.org"
+      ],
+      "third_party": [
+        "transcend-cdn.com",
+        "s.go-mpulse.net",
+        "app.launchdarkly.com",
+        "clientstream.launchdarkly.com",
+        "events.launchdarkly.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.mayoclinic.org/_next/static/chunks/main-778d51de2c630e22.js": [
+          "click"
+        ],
+        "https://www.mayoclinic.org/FMTqKyMDKaqJIhn__SRW_2H-/w51bLQ7wEOOrDwEwYu/SQgqJ1wMBA/bx/4TRgYrWQAC": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "mousemove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.mayoclinic.org/_next/static/chunks/main-778d51de2c630e22.js": [
+          "keydown"
+        ],
+        "https://www.mayoclinic.org/FMTqKyMDKaqJIhn__SRW_2H-/w51bLQ7wEOOrDwEwYu/SQgqJ1wMBA/bx/4TRgYrWQAC": [
+          "input",
+          "keypress",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.mayoclinic.org/FMTqKyMDKaqJIhn__SRW_2H-/w51bLQ7wEOOrDwEwYu/SQgqJ1wMBA/bx/4TRgYrWQAC": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://www.mayoclinic.org/FMTqKyMDKaqJIhn__SRW_2H-/w51bLQ7wEOOrDwEwYu/SQgqJ1wMBA/bx/4TRgYrWQAC": [
+          "devicemotion",
+          "deviceorientation"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "MAYO_CLINIC_USER_GEO",
+        "value": "ES",
+        "domain": "www.mayoclinic.org",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "mayoclinic.org",
+        "path": "/",
+        "expires": "2026-06-11T10:43:58.646Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "DA4ADF19E48AABCEBD9DEAC40546D510~YAAQ1G1lX1ALc4+eAQAApSkRtgASqNbzSQnx08N44h2PJhXR6vWu2kWOnogymuFAkaU64sc82cFNGmWNIZ2QYSnRLjMYl8frfhvRoi6dgLI/DMi4nXJB8r1iS4paT8SmWZdLsPu0KN0KgXX1zaLsRT4kSNl1aaWFnhpHkoL5MLZjw2VocmojaxJBJJ0HzmOcXx8Yoc6q9NdX/2Ux2FFKzyHkIiUgMWvMdH5CD/DYcPfUh0m45KpZfapGFiG3o8BQLAJrRf1MKQj/kUMV7umftEXWqoErTseD+scem+Y6TIkihVpgjFnjMFRyeu9OgdpNmC3JYfeFARIsHhxMXIu9wrnO44EF8AiKsxdheNoPjs2dKOCLqWntw8esvFDQUWTOz7VfcFUZfmdVtnRPcXxJ5g==~3486515~3290178",
+        "domain": "mayoclinic.org",
+        "path": "/",
+        "expires": "2026-06-11T13:43:58.646Z",
+        "size": 462,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_abck",
+        "value": "463F861E87804294BA81A17A176A8F1F~-1~YAAQ1G1lX5gRc4+eAQAAOzgRthDYJQZfL2SssvM+xHr+1vhBkjsxYyLjDr8OmHkqqEDktH1pn6M6dINFXCN9IKRCt89p+auISxpQwt9MWoNq0hYXYgIJ7QvNbb9nWD9F+dJjI3VrBI7ttWe6fQCxSFeQx1k7I7yVBkCRNwWjI93EGM9FKig6PcXrrroU7B9kBkO0tmp6oEY/ieqlLsVFGqOMI2hmh6LS0IVVnv5Pf2aidfo4MZeQe4tSYZEcPT0fZ7VBCUlzf254/TBGwZNg341a9kM7FqBnDUo+DZrqRO4ue7a0FnNu+38adIxXq6u4cPOlmRai1ar+IPArdnqHP/UddVrp8mbfZ9s5eLtlT+qYHS+Lv3L3EG48b6n8pcd63j7OY6SKc6zItLsF1AHmBvrc4O6TTPdzjytGjFUQ0WMCCzpv+hTIUOUKxu9NO+vbCdrAW5PTNU6+JMshN5Gs/49thjSw6YkFF/GCRMpzDILCff224vofXwGV9N3+BxwAhAyP077UthCvG7YgsMINjW6GUKw7mbKSrSTyoXqpInk2bkaAmalO6yXhMYkd5WcrnDpjdJbzo8/i9qCZDXmEKoJT4i/UV2bti39wdjVX~-1~-1~1781174639~AAQAAAAF%2f%2f%2f%2f%2f0GA21EAZFQ9KUljs2sj8E+Ll3RWlD%2fojjJ73R2xcjiUqSVpwvY7V1isfclo9h6p3F4RGGvD7e5+j5EK6rVDY7iK+Unwydj4Zl%2fd~-1",
+        "domain": "mayoclinic.org",
+        "path": "/",
+        "expires": "2027-06-11T09:44:02.415Z",
+        "size": 804,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||events.launchdarkly.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mayoclinic.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.launchdarkly.com/events/bulk/65801b740c1ee60f44aadf37"
+      },
+      {
+        "data": {
+          "filter": "||events.launchdarkly.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mayoclinic.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.launchdarkly.com/events/diagnostic/65801b740c1ee60f44aadf37"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mayoclinic.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/AE377-TGE2S-92GPZ-AE4B3-VR4DY"
+      }
+    ]
+  }
+}

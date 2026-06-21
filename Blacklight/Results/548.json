@@ -1,0 +1,372 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Visual Studio: IDE and Code Editor for Software Development",
+  "uri_ins": "https://visualstudio.com",
+  "uri_dest": "https://visualstudio.microsoft.com/",
+  "uri_redirects": [
+    "https://visualstudio.com/",
+    "https://www.visualstudio.com/"
+  ],
+  "secure_connection": {},
+  "host": "visualstudio.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:24:54.096Z",
+  "end_time": "2026-06-11T08:24:58.592Z",
+  "browsing_history": [
+    "https://visualstudio.microsoft.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "visualstudio.com",
+        "www.visualstudio.com",
+        "app.vssps.visualstudio.com",
+        "spsprodweu1.vssps.visualstudio.com",
+        "visualstudio.microsoft.com",
+        "uhf.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "browser.events.data.microsoft.com"
+      ],
+      "third_party": [
+        "js.monitor.azure.com",
+        "www.clarity.ms",
+        "scripts.clarity.ms",
+        "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "h.clarity.ms"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://visualstudio.microsoft.com/": [
+          "scroll",
+          "click"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://visualstudio.microsoft.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "mousemove",
+          "scroll",
+          "click"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "click"
+        ],
+        "https://visualstudio.microsoft.com/wp-content/uploads/fusion-scripts/60cd6562b8b7dd8a8ef3fcb5fe29a0a5.min.js?ver=3.15.4": [
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ],
+        "https://js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js": [
+          "scroll",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ],
+        "https://visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/common.min.js?1766429038": [
+          "keydown"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "keydown"
+        ],
+        "https://js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js": [
+          "keyup"
+        ]
+      },
+      "TOUCH": {
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://visualstudio.microsoft.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "touchstart",
+          "touchmove",
+          "touchend"
+        ],
+        "https://visualstudio.microsoft.com/wp-content/uploads/fusion-scripts/60cd6562b8b7dd8a8ef3fcb5fe29a0a5.min.js?ver=3.15.4": [
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ai_session",
+        "value": "j0E6LB9WcR8GY+//m1V/cK|1781166295675|1781166295675",
+        "domain": "visualstudio.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T08:54:55.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MC1",
+        "value": "GUID=765783e2d7eb45d49940cb33c86896ae&HASH=7657&LV=202606&V=4&LU=1781166296952",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T08:24:57.020Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MS0",
+        "value": "bffbbb943b65419592de3329e5d150bc",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T08:54:57.020Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MSFPC",
+        "value": "GUID=765783e2d7eb45d49940cb33c86896ae&HASH=7657&LV=202606&V=4&LU=1781166296952",
+        "domain": "visualstudio.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T08:24:57.730Z",
+        "size": 83,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "VstsSession",
+        "value": "%7B%22PersistentSessionId%22%3A%228e31fe71-83e6-4223-a2a8-054380359912%22%2C%22PendingAuthenticationSessionId%22%3A%2249a559cf-c31e-4552-a202-f4e8f1a2c79b%22%2C%22CurrentAuthenticationSessionId%22%3A%2200000000-0000-0000-0000-000000000000%22%2C%22SignInState%22%3A%7B%22spsprodweu1.vssps.visualstudio.com%22%3A%7B%22LastSignInTick%22%3A639167630972589869%2C%22SignInCount%22%3A1%7D%7D%7D",
+        "domain": "visualstudio.com",
+        "path": "/",
+        "expires": "2027-06-11T08:24:58.285Z",
+        "size": 398,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__RequestVerificationToken",
+        "value": "OmXUxe-w3rVaFi23ciRQM4TpJ_vpyo0K2Tv5RuE_5JmlQAAQNvdQac8FCjmkQiU8a0bDZndCTc7bFm3D2FynoPdW6uJuVGTfxvDGSyLia7g1",
+        "domain": "spsprodweu1.vssps.visualstudio.com",
+        "path": "/",
+        "expires": -1,
+        "size": 134,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__RequestVerificationToken23617b23f-6af1-4b4c-a849-b719df0c6fa4",
+        "value": "OmXUxe-w3rVaFi23ciRQM4TpJ_vpyo0K2Tv5RuE_5JmlQAAQNvdQac8FCjmkQiU8a0bDZndCTc7bFm3D2FynoPdW6uJuVGTfxvDGSyLia7g1",
+        "domain": "spsprodweu1.vssps.visualstudio.com",
+        "path": "/",
+        "expires": -1,
+        "size": 171,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://visualstudio.microsoft.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://visualstudio.microsoft.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://visualstudio.microsoft.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://visualstudio.microsoft.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "wordpress"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://visualstudio.microsoft.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/jmjgcz3l72?ref=wordpress"
+      }
+    ]
+  }
+}

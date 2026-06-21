@@ -1,0 +1,729 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Wattpad - Stories to obsess over",
+  "uri_ins": "https://wattpad.com",
+  "uri_dest": "https://www.wattpad.com/",
+  "uri_redirects": [
+    "https://wattpad.com/"
+  ],
+  "secure_connection": {},
+  "host": "wattpad.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:07:09.867Z",
+  "end_time": "2026-06-11T09:07:16.854Z",
+  "browsing_history": [
+    "https://www.wattpad.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "wattpad.com",
+        "www.wattpad.com",
+        "static.wattpad.com",
+        "img.wattpad.com",
+        "track.wattpad.com"
+      ],
+      "third_party": [
+        "accounts.google.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "www.googletagmanager.com",
+        "a.wp-e.net",
+        "www.google-analytics.com",
+        "sb.scorecardresearch.com",
+        "static.clmbtech.com",
+        "region1.google-analytics.com",
+        "ampcid.google.com",
+        "ase.clmbtech.com",
+        "ampcid.google.es"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WD9JLB": [
+          "click"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-C6GJK5TU.js": [
+          "mousedown"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/root-DKGNHZ2P.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-T5QYWQIB.js": [
+          "mousedown"
+        ],
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-BEEYMAMZ.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-C6GJK5TU.js": [
+          "touchstart"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/root-DKGNHZ2P.js": [
+          "touchstart"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-T5QYWQIB.js": [
+          "touchstart"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-BEEYMAMZ.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.wattpad.com/wp-web-assets/build/root-DKGNHZ2P.js": [
+          "keydown"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-T5QYWQIB.js": [
+          "keydown"
+        ],
+        "https://www.wattpad.com/wp-web-assets/build/_shared/chunk-BEEYMAMZ.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "remix_host_header_100",
+        "value": "1",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-12-08T09:07:11.083Z",
+        "size": 22,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wp-web-page",
+        "value": "true",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2027-06-11T09:07:11.083Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wp_id",
+        "value": "77c558d6-0ee0-4b56-a0e5-cd5b609ec6c3",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2027-07-16T09:07:11.083Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "locale",
+        "value": "en_US",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-09-09T09:07:11.083Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lang",
+        "value": "1",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-09-09T09:07:11.083Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sn__time",
+        "value": "null",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-06-11T09:37:11.083Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "feat-fedcm-rollout",
+        "value": "1",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-06-25T09:07:11.083Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A07%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4e97337c-dc1f-4302-b131-c01ffdc53549&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.wattpad.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CV2STACK42%3A0",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2027-07-06T09:07:13.000Z",
+        "size": 378,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "te_session_id",
+        "value": "1781168833774",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_FNDTZ0MZDQ",
+        "value": "GS2.1.s1781168834$o1$g0$t1781168834$j60$l0$h0",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2027-07-16T09:07:14.450Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "incg",
+        "value": "1",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-06-12T09:07:14.000Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_col_uuid",
+        "value": "1df1c5b0-469c-4233-806d-fa46cdd51487-61f8",
+        "domain": "clmbtech.com",
+        "path": "/",
+        "expires": "2027-07-16T09:07:14.750Z",
+        "size": 50,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMP_TOKEN",
+        "value": "%24NOT_FOUND",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-06-11T10:07:15.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.450340675.1781168834",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2027-07-16T09:07:15.077Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1581422176.1781168835",
+        "domain": "wattpad.com",
+        "path": "/",
+        "expires": "2026-06-12T09:07:15.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "logs=1&id=44895781-6dd0-41b7-bab5-31ccc11f39ff&created=1781168833792&expire=1781169735723",
+        "domain": "www.wattpad.com",
+        "path": "/",
+        "expires": "2026-06-11T09:22:15.000Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/publisher:getClientId?key=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ampcid.google.es/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM"
+      },
+      {
+        "data": {
+          "filter": "||clmbtech.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cid": "65973:3140",
+            "val_101": "65973:3140",
+            "val_102": "www.wattpad.com",
+            "val_120": 0,
+            "val_122": "",
+            "val_125": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ase.clmbtech.com/message?cid=65973%3A3140&val_101=65973%3A3140&val_102=www.wattpad.com&val_120=0&val_125=1&val_122="
+      },
+      {
+        "data": {
+          "filter": "||clmbtech.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cid": "65973:3140",
+            "val_101": "ctrt:wattpad.com",
+            "val_102": "www.wattpad.com",
+            "val_120": 0,
+            "val_122": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ase.clmbtech.com/message?cid=65973%3A3140&val_102=www.wattpad.com&val_120=0&val_101=65973%3A3140&val_101=ctrt%3Awattpad.com&val_122="
+      },
+      {
+        "data": {
+          "filter": "/publisher:getClientId?key=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ampcid.google.com/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/internal-c2/default/cs.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 2,
+            "_nsi": 1,
+            "_p": 1781168833800,
+            "_prs": "gs",
+            "_s": 1,
+            "_ss": 2,
+            "are": 1,
+            "cid": 450340675.17811686,
+            "dl": "https://www.wattpad.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Wattpad - Stories to obsess over",
+            "en": "page_view",
+            "ep.wp_web_page": true,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v878746336z86511769za20gzb6511769zd6511769",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781168834,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tcfd": 10001,
+            "tfd": 4198,
+            "tid": "G-FNDTZ0MZDQ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-FNDTZ0MZDQ&gtm=45je6691v878746336z86511769za20gzb6511769zd6511769&_p=1781168833800&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAAC&_prs=gs&are=1&cid=450340675.1781168834&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938466~115938468&sid=1781168834&sct=1&seg=0&dl=https%3A%2F%2Fwww.wattpad.com%2F&dt=Wattpad%20-%20Stories%20to%20obsess%20over&en=page_view&_fv=2&_nsi=1&_ss=2&ep.wp_web_page=true&tfd=4198"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/c2/18767423/cs.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 18767423,
+            "c7": "https://www.wattpad.com/",
+            "c8": "Wattpad - Stories to obsess over",
+            "c9": "",
+            "ns__t": 1781168834198,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=18767423&ns__t=1781168834198&ns_c=UTF-8&c8=Wattpad%20-%20Stories%20to%20obsess%20over&c7=https%3A%2F%2Fwww.wattpad.com%2F&c9="
+      },
+      {
+        "data": {
+          "filter": "||clmbtech.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.clmbtech.com/ase/65973/3140/aa.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-FNDTZ0MZDQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FNDTZ0MZDQ&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "/prebid.$domain=~prebid.org",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.wp-e.net/prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WD9JLB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wattpad.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WD9JLB"
+      }
+    ]
+  }
+}

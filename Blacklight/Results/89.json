@@ -1,0 +1,289 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Opera Web Browser | Faster, Safer, Smarter | Opera",
+  "uri_ins": "https://opera.com",
+  "uri_dest": "https://www.opera.com/",
+  "uri_redirects": [
+    "https://opera.com/"
+  ],
+  "secure_connection": {},
+  "host": "opera.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:56:43.243Z",
+  "end_time": "2026-06-11T05:56:47.038Z",
+  "browsing_history": [
+    "https://www.opera.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "opera.com",
+        "www.opera.com"
+      ],
+      "third_party": [
+        "cdn-production-opera-website.operacdn.com",
+        "www.googletagmanager.com",
+        "pagead2.googlesyndication.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=AW-979253717&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://cdn-production-opera-website.operacdn.com/staticfiles/76339.7ba5a6da2ebc888e2e46.js": [
+          "scroll"
+        ],
+        "https://cdn-production-opera-website.operacdn.com/staticfiles/86139.5db06cb7fd3fc3f0637a.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PRBZ42F": [
+          "click"
+        ],
+        "https://cdn-production-opera-website.operacdn.com/staticfiles/mainHomepage.3c9e73f2cb32.js": [
+          "click",
+          "mousemove",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn-production-opera-website.operacdn.com/staticfiles/mainHomepage.3c9e73f2cb32.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn-production-opera-website.operacdn.com/staticfiles/mainHomepage.3c9e73f2cb32.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "opref",
+        "value": "source%3D(direct)%26medium%3Ddoc%26campaign%3D(direct)%26referrer%3D%26site%3Dopera_com%26sub%3D",
+        "domain": "opera.com",
+        "path": "/",
+        "expires": "2026-12-11T06:56:44.000Z",
+        "size": 101,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781157404187,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 577512653.1781157,
+            "dl": "https://www.opera.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Opera Web Browser | Faster, Safer, Smarter | Opera",
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v878149888z8811573329za20gzb811573329zd811573329",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781157405,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938469",
+            "tfd": 1651,
+            "tid": "G-T18E1GTPQG",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.opera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-T18E1GTPQG&gtm=45je6691v878149888z8811573329za20gzb811573329zd811573329&_p=1781157404187&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAGA&are=1&cid=577512653.1781157405&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469&sid=1781157405&sct=1&seg=0&dl=https%3A%2F%2Fwww.opera.com%2F&dt=Opera%20Web%20Browser%20%7C%20Faster%2C%20Safer%2C%20Smarter%20%7C%20Opera&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1651"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.opera.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v874193565z8811573329za20gzb811573329zd811573329xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 8,
+            "rnd": 1430708604.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938465~115938469~117776793",
+            "tfd": 1510,
+            "tft": 1781157405219,
+            "tid": "AW-979253717",
+            "tids": "AW-979253717"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.opera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&en=page_view&dl=https%3A%2F%2Fwww.opera.com%2F&scrsrc=www.googletagmanager.com&rnd=1430708604.1781157405&navt=n&npa=1&gtm=45be6691v874193565z8811573329za20gzb811573329zd811573329xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938465~115938469~117776793&apve=1&apvf=f&apvc=1&tids=AW-979253717&tid=AW-979253717&tft=1781157405219&tfd=1510"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-T18E1GTPQG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.opera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-T18E1GTPQG&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-979253717"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.opera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-979253717&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PRBZ42F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.opera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PRBZ42F"
+      }
+    ]
+  }
+}

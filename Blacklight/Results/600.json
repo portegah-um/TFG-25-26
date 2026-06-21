@@ -1,0 +1,348 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "A global provider of domain name registry services and internet infrastructure | Verisign",
+  "uri_ins": "https://verisign.com",
+  "uri_dest": "https://www.verisign.com/",
+  "uri_redirects": [
+    "https://verisign.com/"
+  ],
+  "secure_connection": {},
+  "host": "verisign.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:41:59.912Z",
+  "end_time": "2026-06-11T08:42:04.955Z",
+  "browsing_history": [
+    "https://www.verisign.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "verisign.com",
+        "www.verisign.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "players.brightcove.net",
+        "geolocation.onetrust.com",
+        "edge.api.brightcove.com",
+        "metrics.brightcove.com",
+        "cf-images.us-east-1.prod.boltdns.net",
+        "manifest.prod.boltdns.net",
+        "fastly-signed-us-east-1-prod.brightcovecdn.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.verisign.com/js/components/index.be06f2aedba9e597f47ec31fd39ba88906e06ef65bc13eb91c67f29ca6642dfb.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.verisign.com/": [
+          "click",
+          "scroll"
+        ]
+      },
+      "SENSOR": {
+        "https://www.verisign.com/js/components/index.be06f2aedba9e597f47ec31fd39ba88906e06ef65bc13eb91c67f29ca6642dfb.js": [
+          "orientationchange"
+        ],
+        "https://www.verisign.com/": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A42%3A02+GMT%2B0200+(Central+European+Summer+Time)&version=202505.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4178f174-c884-4e89-a66d-e2512aa89627&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.verisign.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0",
+        "domain": "www.verisign.com",
+        "path": "/",
+        "expires": "2027-06-11T08:42:02.000Z",
+        "size": 336,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 6056665203001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "custom_fields": "[object Object]",
+            "destination": "https://www.verisign.com/",
+            "domain": "videocloud",
+            "event": "video_impression",
+            "media_type": "video",
+            "media_url": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/6056665203001/57c258a3-3b35-4341-abe2-da8e6307643a/10s/master.m3u8?fastly_token=NmEyYWI3YjZfZjFmYTA0NmIxOGEzMDA2ZDAyMjU5MzI4ODIzNmYxOTRlZTNmODMwN2M1YzQ2ODNiMDEzZTZhZjdjM2M0N2JiNg%3D%3D",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/6056665203001/DlTUBPjho_default",
+            "player_mode": "media",
+            "player_name": "cweb-brightcove-test-player",
+            "preload": "metadata",
+            "qos.content.sourceMimeType": "application/vnd.apple.mpegurl",
+            "reference_id": "",
+            "seq": "4_0",
+            "session": "e8123e8825956fc07366ff7d",
+            "tags": "",
+            "time": 1781167322531,
+            "video": 6387662453112,
+            "video_ads_supported": true,
+            "video_data": "[object Object]",
+            "video_duration": 223,
+            "video_name": "What We Do "
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://players.brightcove.net/6056665203001/DlTUBPjho_default/index.html?videoId=6387662453112",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=e8123e8825956fc07366ff7d&player_mode=media&account=6056665203001&destination=https%3A%2F%2Fwww.verisign.com%2F&platform_version=7.42.4&player=players.brightcove.com%2F6056665203001%2FDlTUBPjho_default&player_name=cweb-brightcove-test-player&autoplay=false&ads_enabled=false&media_type=video&time=1781167322531&event=video_impression&video=6387662453112&video_name=What%20We%20Do%20&reference_id=&custom_fields=%5Bobject%20Object%5D&video_data=%5Bobject%20Object%5D&video_ads_supported=true&tags=&video_duration=223&media_url=https%3A%2F%2Fmanifest.prod.boltdns.net%2Fmanifest%2Fv1%2Fhls%2Fv4%2Fclear%2F6056665203001%2F57c258a3-3b35-4341-abe2-da8e6307643a%2F10s%2Fmaster.m3u8%3Ffastly_token%3DNmEyYWI3YjZfZjFmYTA0NmIxOGEzMDA2ZDAyMjU5MzI4ODIzNmYxOTRlZTNmODMwN2M1YzQ2ODNiMDEzZTZhZjdjM2M0N2JiNg%253D%253D&qos.content.sourceMimeType=application%2Fvnd.apple.mpegurl&seq=4_0&preload=metadata"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 6056665203001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "destination": "https://www.verisign.com/",
+            "domain": "videocloud",
+            "event": "catalog_response",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/6056665203001/DlTUBPjho_default",
+            "player_mode": "media",
+            "player_name": "cweb-brightcove-test-player",
+            "response_time_ms": 99,
+            "seq": 3,
+            "session": "e8123e8825956fc07366ff7d",
+            "time": 1781167322480,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/6056665203001/videos/6387662453112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://players.brightcove.net/6056665203001/DlTUBPjho_default/index.html?videoId=6387662453112",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=e8123e8825956fc07366ff7d&player_mode=media&account=6056665203001&destination=https%3A%2F%2Fwww.verisign.com%2F&platform_version=7.42.4&player=players.brightcove.com%2F6056665203001%2FDlTUBPjho_default&player_name=cweb-brightcove-test-player&autoplay=false&ads_enabled=false&event=catalog_response&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F6056665203001%2Fvideos%2F6387662453112&time=1781167322480&seq=3&response_time_ms=99"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 6056665203001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "destination": "https://www.verisign.com/",
+            "domain": "videocloud",
+            "event": "player_load",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/6056665203001/DlTUBPjho_default",
+            "player_mode": "media",
+            "player_name": "cweb-brightcove-test-player",
+            "qos.performance.bcParse": 323.7000000178814,
+            "qos.performance.memory.jsHeapSizeLimit": 2298478592,
+            "qos.performance.memory.totalJSHeapSize": 9741909,
+            "qos.performance.memory.usedJSHeapSize": 5950021,
+            "qos.performance.navigation.directedMigration": false,
+            "qos.performance.navigation.redirectCount": 0,
+            "qos.performance.navigation.type": 0,
+            "qos.performance.timing.connectEnd": 1781167321870,
+            "qos.performance.timing.connectStart": 1781167321535,
+            "qos.performance.timing.domComplete": 0,
+            "qos.performance.timing.domContentLoadedEventEnd": 1781167322391,
+            "qos.performance.timing.domContentLoadedEventStart": 1781167322391,
+            "qos.performance.timing.domInteractive": 1781167322391,
+            "qos.performance.timing.domLoading": 1781167322033,
+            "qos.performance.timing.domainLookupEnd": 1781167321535,
+            "qos.performance.timing.domainLookupStart": 1781167321535,
+            "qos.performance.timing.fetchStart": 1781167321524,
+            "qos.performance.timing.loadEventEnd": 0,
+            "qos.performance.timing.loadEventStart": 0,
+            "qos.performance.timing.navigationStart": 1781167321515,
+            "qos.performance.timing.redirectEnd": 0,
+            "qos.performance.timing.redirectStart": 0,
+            "qos.performance.timing.requestStart": 1781167321870,
+            "qos.performance.timing.responseEnd": 1781167322035,
+            "qos.performance.timing.responseStart": 1781167321994,
+            "qos.performance.timing.secureConnectionStart": 1781167321850,
+            "qos.performance.timing.unloadEventEnd": 0,
+            "qos.performance.timing.unloadEventStart": 0,
+            "qos.player.dimensions": [
+              [
+                1781167322396,
+                "0x0",
+                "100x100"
+              ]
+            ],
+            "qos.player.pixelratio": [
+              [
+                1781167322396,
+                1
+              ]
+            ],
+            "qos.player.screendimensions": [
+              [
+                1781167322396,
+                "800x600"
+              ]
+            ],
+            "seq": 2,
+            "session": "e8123e8825956fc07366ff7d",
+            "time": 1781167322398,
+            "usage": "social!7.42.4,cweb-brightcove-iframe!,using-ad-blocker,iframe-embed"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://players.brightcove.net/6056665203001/DlTUBPjho_default/index.html?videoId=6387662453112",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=e8123e8825956fc07366ff7d&player_mode=media&account=6056665203001&destination=https%3A%2F%2Fwww.verisign.com%2F&platform_version=7.42.4&player=players.brightcove.com%2F6056665203001%2FDlTUBPjho_default&player_name=cweb-brightcove-test-player&autoplay=false&ads_enabled=false&usage=social!7.42.4%2Ccweb-brightcove-iframe!%2Cusing-ad-blocker%2Ciframe-embed&event=player_load&time=1781167322398&qos.performance.memory.jsHeapSizeLimit=2298478592&qos.performance.memory.usedJSHeapSize=5950021&qos.performance.memory.totalJSHeapSize=9741909&qos.performance.navigation.redirectCount=0&qos.performance.navigation.type=0&qos.performance.navigation.directedMigration=false&qos.performance.timing.loadEventEnd=0&qos.performance.timing.loadEventStart=0&qos.performance.timing.domComplete=0&qos.performance.timing.domContentLoadedEventEnd=1781167322391&qos.performance.timing.domContentLoadedEventStart=1781167322391&qos.performance.timing.domInteractive=1781167322391&qos.performance.timing.domLoading=1781167322033&qos.performance.timing.responseEnd=1781167322035&qos.performance.timing.responseStart=1781167321994&qos.performance.timing.requestStart=1781167321870&qos.performance.timing.secureConnectionStart=1781167321850&qos.performance.timing.connectEnd=1781167321870&qos.performance.timing.connectStart=1781167321535&qos.performance.timing.domainLookupEnd=1781167321535&qos.performance.timing.domainLookupStart=1781167321535&qos.performance.timing.fetchStart=1781167321524&qos.performance.timing.redirectEnd=0&qos.performance.timing.redirectStart=0&qos.performance.timing.unloadEventEnd=0&qos.performance.timing.unloadEventStart=0&qos.performance.timing.navigationStart=1781167321515&qos.performance.bcParse=323.7000000178814&qos.player.dimensions=%5B%5B1781167322396%2C%220x0%22%2C%22100x100%22%5D%5D&qos.player.pixelratio=%5B%5B1781167322396%2C1%5D%5D&qos.player.screendimensions=%5B%5B1781167322396%2C%22800x600%22%5D%5D&seq=2"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 6056665203001,
+            "autoplay": false,
+            "destination": "https://www.verisign.com/",
+            "domain": "videocloud",
+            "event": "catalog_request",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/6056665203001/DlTUBPjho_default",
+            "player_mode": "media",
+            "player_name": "cweb-brightcove-test-player",
+            "seq": 1,
+            "session": "e8123e8825956fc07366ff7d",
+            "time": 1781167322381,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/6056665203001/videos/6387662453112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://players.brightcove.net/6056665203001/DlTUBPjho_default/index.html?videoId=6387662453112",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=e8123e8825956fc07366ff7d&player_mode=media&account=6056665203001&destination=https%3A%2F%2Fwww.verisign.com%2F&platform_version=7.42.4&player=players.brightcove.com%2F6056665203001%2FDlTUBPjho_default&player_name=cweb-brightcove-test-player&event=catalog_request&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F6056665203001%2Fvideos%2F6387662453112&time=1781167322381&autoplay=false&seq=1"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 6056665203001,
+            "autoplay": false,
+            "destination": "https://www.verisign.com/",
+            "domain": "videocloud",
+            "event": "player_init",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/6056665203001/DlTUBPjho_default",
+            "player_mode": "media",
+            "player_name": "cweb-brightcove-test-player",
+            "seq": 0,
+            "session": "e8123e8825956fc07366ff7d",
+            "time": 1781167322370
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://players.brightcove.net/6056665203001/DlTUBPjho_default/index.html?videoId=6387662453112",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=e8123e8825956fc07366ff7d&player_mode=media&account=6056665203001&destination=https%3A%2F%2Fwww.verisign.com%2F&platform_version=7.42.4&player=players.brightcove.com%2F6056665203001%2FDlTUBPjho_default&player_name=cweb-brightcove-test-player&event=player_init&time=1781167322370&autoplay=false&seq=0"
+      }
+    ]
+  }
+}

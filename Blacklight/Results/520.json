@@ -1,0 +1,140 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Blogger.com - Create a unique and beautiful blog easily.",
+  "uri_ins": "https://blogger.com",
+  "uri_dest": "https://www.blogger.com/about/?bpli=1",
+  "uri_redirects": [
+    "https://blogger.com/",
+    "https://www.blogger.com/",
+    "https://accounts.google.com/ServiceLogin?passive=true&go=true&service=blogger&continue=https://www.blogger.com/?bpli%3D1",
+    "https://www.blogger.com/?bpli=1",
+    "https://www.blogger.com/about?bpli=1"
+  ],
+  "secure_connection": {},
+  "host": "blogger.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:16:44.647Z",
+  "end_time": "2026-06-11T08:16:56.418Z",
+  "browsing_history": [
+    "https://www.blogger.com/about/?bpli=1"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "blogger.com",
+        "www.blogger.com"
+      ],
+      "third_party": [
+        "accounts.google.com",
+        "fonts.googleapis.com",
+        "blogger.googleusercontent.com",
+        "ajax.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.blogger.com/about/js/main.min.js?v=1476060773": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__Host-GAPS",
+        "value": "1:fkXrvMYsZmJ1hUCvoSQ0rtW2aEceRg:6j35IDYkphhdzWre",
+        "domain": "accounts.google.com",
+        "path": "/",
+        "expires": "2027-07-16T08:16:45.524Z",
+        "size": 60,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "NID",
+        "value": "532=QSWOjyiuqGmfuiXWuQRG5BVUQpHLLWKBkKbsV7QUjUJCGbB6nWG3LhqJYvrwmGVHgxAhxHjotLZuTeKNQY8EdgsIa2Y4_WWkF5YmQtfGbgKTCKWx-cyW2ryFQX6SehnfLucZeWralw3ki0BTSD3fZ6VkG1d_rIQwShviww4HGgAVjcuBwsVJel-KW5DUnuMLUcaUniyiCeOGn3RUvLeUPcTKDbYHu4EC",
+        "domain": "blogger.com",
+        "path": "/",
+        "expires": "2026-12-11T08:16:45.588Z",
+        "size": 231,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

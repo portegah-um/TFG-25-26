@@ -1,0 +1,770 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Hosting Control Panel Licenses | Plesk",
+  "uri_ins": "https://plesk.com",
+  "uri_dest": "https://www.plesk.com/",
+  "uri_redirects": [
+    "https://plesk.com/",
+    "http://www.plesk.com/"
+  ],
+  "secure_connection": {},
+  "host": "plesk.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:31:41.005Z",
+  "end_time": "2026-06-11T07:31:48.490Z",
+  "browsing_history": [
+    "https://www.plesk.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "plesk.com",
+        "www.plesk.com",
+        "try.plesk.com"
+      ],
+      "third_party": [
+        "cdn-ilemdpo.nitrocdn.com",
+        "to.getnitropack.com",
+        "dev.visualwebsiteoptimizer.com",
+        "www.googletagmanager.com",
+        "js.partnerstack.com",
+        "app.usercentrics.eu",
+        "www.redditstatic.com",
+        "cdn.equalweb.com",
+        "pagead2.googlesyndication.com",
+        "grsm.io",
+        "region1.google-analytics.com",
+        "partnerlinks.io",
+        "api.usercentrics.eu",
+        "pixel-config.reddit.com",
+        "alb.reddit.com",
+        "aggregator.service.usercentrics.eu",
+        "consent-api.service.consent.usercentrics.eu",
+        "uct.service.usercentrics.eu"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.plesk.com/": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.plesk.com/": [
+          "scroll",
+          "mousedown",
+          "click",
+          "mousemove",
+          "mouseup"
+        ]
+      },
+      "TOUCH": {
+        "https://www.plesk.com/": [
+          "touchmove",
+          "touchstart",
+          "touchend"
+        ]
+      },
+      "SENSOR": {
+        "https://www.plesk.com/": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "nitroCachedPage",
+        "value": "1",
+        "domain": "www.plesk.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "TxVpYQ_Hp635STJRFvFyAkLDseAdnv83xekQVyLKFcw-1781163103.1818156-1.0.1.1-MnQZ5Um00fyr9SBWzh144E.ucQuYTtCfS38TsLLjx2m2ZEAJhx_2ejX6mH9RrRq9bsXqSTCwbD2e5a5WChhsT4JmWncg3bx2OpMdXH7ukY1skVWcjceIpJW2ZBZ0z.s_",
+        "domain": "nitrocdn.com",
+        "path": "/",
+        "expires": "2026-06-11T08:01:43.199Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "9gHdnrbE8_b0X7pBsSbl3syJ62mbs57V7ZwsPDAKP7A-1781163104.024623-1.0.1.1-zxQI5dk74dbqd8gjC3ojhP6uO7uwSsWmH1rh97nIbCxUjFLtWILyLuDIwNzs2hJUR1imkryDdlqsszG8_gZXsClWr6AX.0.RKiTXRCwCrJKr8HUwME93PeTgOj4Jg7iX",
+        "domain": "getnitropack.com",
+        "path": "/",
+        "expires": "2026-06-11T08:01:44.062Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_vwo_uuid_v2",
+        "value": "DEAFF62F162B90EDF329DF183882BFA11|523e0cebb6af61671ab90a989e4d748c",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2027-06-12T07:31:44.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_uuid",
+        "value": "DEAFF62F162B90EDF329DF183882BFA11",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2027-06-11T13:20:56.000Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_sn",
+        "value": "0%3A1",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2026-06-11T08:01:47.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_ds",
+        "value": "3%241781163104%3A17.4780872%3A%3A%3A%3A%3A1781163104%3A1781163104%3A1",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2026-07-11T07:31:44.000Z",
+        "size": 76,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vis_opt_s",
+        "value": "1%7C",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2026-09-19T07:31:45.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vis_opt_test_cookie",
+        "value": "1",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": -1,
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo",
+        "value": "ts~pWRC1CC(MR0)_vwo_consent~2%2C2%3A~(2sg)w~DEAFF62F162B90EDF329DF183882BFA11%7C523e0cebb6af61671ab90a989e4d748c(2sg)u~DEAFF62F162B90EDF329DF183882BFA11(8WI)m~3%241781163104%3A17.4780872%3A%3A%3A%3A%3A1781163104%3A1781163104%3A1(KU)n~0%3A1(2)l~1%7C(2sg)k~*(MR0",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2027-06-11T07:31:48.000Z",
+        "size": 264,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_rdt_uuid",
+        "value": "1781163105787.31ce9011-b1e3-4cd4-a7ee-68c64c7e8269",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2026-09-09T07:31:45.000Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_consent",
+        "value": "3%2C3%3A~",
+        "domain": "plesk.com",
+        "path": "/",
+        "expires": "2027-06-11T07:31:46.969Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||usercentrics.eu/session/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "settingsId": "MVFcLTaums8dVM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=MVFcLTaums8dVM"
+      },
+      {
+        "data": {
+          "filter": "||alb.reddit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aaid": "",
+            "dpcc": "",
+            "dpm": "",
+            "dprc": "",
+            "esurl": "https://www.plesk.com/",
+            "event": "PageVisit",
+            "external_id": "",
+            "id": "a2_iyv0r7l7iwr6",
+            "idfa": "",
+            "integration": "gtm",
+            "m.conversionId": "",
+            "m.customEventName": "",
+            "m.products": "",
+            "m.transactionId": "",
+            "m.value": "",
+            "opt_out": 0,
+            "partner": "",
+            "partner_version": "1.0.4",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781163105791,
+            "uuid": "31ce9011-b1e3-4cd4-a7ee-68c64c7e8269",
+            "v": "rdt_afb90018"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://alb.reddit.com/rp.gif?ts=1781163105791&id=a2_iyv0r7l7iwr6&event=PageVisit&m.value=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=31ce9011-b1e3-4cd4-a7ee-68c64c7e8269&aaid=&external_id=&idfa=&integration=gtm&partner=&partner_version=1.0.4&opt_out=0&sh=812&sw=375&v=rdt_afb90018&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.plesk.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 935671,
+            "cc": "ES",
+            "dt": "mobile",
+            "settings_type": 4,
+            "ts": 1781157667
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/dcdn/settings.js?a=935671&settings_type=4&ts=1781157667&dt=mobile&cc=ES"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/grc/pk_nSa1ynBI2kin9dLGD8vRfVZb30IFtSKJ"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dOThhZD",
+            "dl": "https://www.plesk.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.debug_mode": true,
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691h1v896057643z871764056za20gzb71764056zd71764056xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 5,
+            "rnd": 1453011319.1781163,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468~119349418",
+            "tfd": 3483,
+            "tft": 1781163105106,
+            "tid": "AW-16866085049",
+            "tids": "AW-16866085049"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&en=page_view&dl=https%3A%2F%2Fwww.plesk.com%2F&scrsrc=www.googletagmanager.com&rnd=1453011319.1781163105&navt=n&npa=1&ep.debug_mode=true&did=dOThhZD&gdid=dOThhZD&_tu=CA&gtm=45je6691h1v896057643z871764056za20gzb71764056zd71764056xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468~119349418&apve=1&apvf=f&apvc=0&tids=AW-16866085049&tid=AW-16866085049&tft=1781163105106&tfd=3483"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781163104024,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 2058585113.1781163,
+            "dl": "https://www.plesk.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Hosting Control Panel Licenses | Plesk",
+            "ec_mode": "a",
+            "ecid": 87488180,
+            "en": "page_view",
+            "ep.debug_mode": true,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691h1v896057643z871764056za20gzb71764056zd71764056",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 5,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781163105,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~119349418",
+            "tfd": 3452,
+            "tid": "G-5SX3L7KZCY",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5SX3L7KZCY&gtm=45je6691h1v896057643z871764056za20gzb71764056zd71764056&_p=1781163104024&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dOThhZD&ecid=87488180&_eu=EAAAAGAC&are=1&cid=2058585113.1781163105&ec_mode=a&frm=0&ir=1&pscdl=denied&rcb=5&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468~119349418&sid=1781163105&sct=1&seg=0&dl=https%3A%2F%2Fwww.plesk.com%2F&dt=Hosting%20Control%20Panel%20Licenses%20%7C%20Plesk&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.debug_mode=true&tfd=3452"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {
+            "get_pscd": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/grc/pk_nSa1ynBI2kin9dLGD8vRfVZb30IFtSKJ?get_pscd=true"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/nc_safari-b1f77bf928ce18d938b46a60f2592f5d.br.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.plesk.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 1,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45He6691h1v71764056za200zd71764056xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 0,
+            "rnd": 1453011319.1781163,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938466~115938469",
+            "tfd": 3178,
+            "tft": 1781163104801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=0&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.plesk.com%2F&scrsrc=www.googletagmanager.com&rnd=1453011319.1781163105&navt=n&npa=1&ep.ads_data_redaction=1&gdid=dOThhZD&_tu=CA&gtm=45He6691h1v71764056za200zd71764056xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938469&apve=1&apvf=f&apvc=1&tft=1781163104801&tfd=3178"
+      },
+      {
+        "data": {
+          "filter": "||redditstatic.com/ads/pixel.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pixel_id": "a2_iyv0r7l7iwr6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.redditstatic.com/ads/pixel.js?pixel_id=a2_iyv0r7l7iwr6"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-5SX3L7KZCY"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-5SX3L7KZCY&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 935671,
+            "cd": 0,
+            "d": "plesk.com",
+            "h": "523e0cebb6af61671ab90a989e4d748c",
+            "t": false,
+            "u": "DEAFF62F162B90EDF329DF183882BFA11"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/eu01/collect/v.gif?cd=0&a=935671&d=plesk.com&u=DEAFF62F162B90EDF329DF183882BFA11&h=523e0cebb6af61671ab90a989e4d748c&t=false"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq_safari-4aa4ca406997cf3340e55ec59a49c3b8.br.js"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker_safari-ad749a612fb30fbcbc38be7cc761caea.br.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-K8WWVP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K8WWVP"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 935671,
+            "p": "web",
+            "ph": 1,
+            "st": 2333.300000011921,
+            "u": "https://www.plesk.com/",
+            "vn": 2.2,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=935671&u=https%3A%2F%2Fwww.plesk.com%2F&vn=2.2&ph=1&p=web&st=2333.300000011921&x=true"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.plesk.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://to.getnitropack.com/p"
+      }
+    ]
+  }
+}

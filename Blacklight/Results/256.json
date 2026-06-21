@@ -1,0 +1,656 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Forter – AI decisions for the future of commerce",
+  "uri_ins": "https://forter.com",
+  "uri_dest": "https://www.forter.com/",
+  "uri_redirects": [
+    "https://forter.com/"
+  ],
+  "secure_connection": {},
+  "host": "forter.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:54:59.380Z",
+  "end_time": "2026-06-11T06:55:04.421Z",
+  "browsing_history": [
+    "https://www.forter.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "forter.com",
+        "www.forter.com",
+        "c04d800a6f00.cdn4.forter.com",
+        "ok.forter.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "js.hsforms.net",
+        "www.googletagmanager.com",
+        "www.google.com",
+        "geolocation.onetrust.com",
+        "tracking.intentsify.io",
+        "a.usbrowserspeed.com",
+        "dev.visualwebsiteoptimizer.com",
+        "static.oktopost.com",
+        "ws.zoominfo.com",
+        "cdn.cr-relay.com",
+        "js.hsadspixel.net",
+        "js.hs-analytics.net",
+        "api.cr-relay.com",
+        "cdn.vector.co",
+        "api.vector.co"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.forter.com/wp-content/themes/blank/js/jquery-3.2.1.min.js?ver=1": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TRW3GRR": [
+          "click"
+        ],
+        "https://www.forter.com/wp-content/themes/blank/js/alpine.js?t=1711550916&ver=6.9.4": [
+          "scroll"
+        ],
+        "https://www.forter.com/": [
+          "dblclick",
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.forter.com/": [
+          "input",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.forter.com/": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "userId",
+        "value": "6dfe186d-1708-4e45-9020-c2dc97bdceee",
+        "domain": "tracking.intentsify.io",
+        "path": "/page-tracking/intentsify-forter",
+        "expires": "2027-07-16T06:55:03.281Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "qLxPM9CAGGRmi6ekcksEkdP2xQX0pyAjxevKEYyGfjs-1781160900.0565107-1.0.1.1-5q2pLmLmM7RIi.q8pD_2mwH6tAe7jr1XCqDcViXssvNsmMPBJbKodzLoL7CJKR8gI0H5_k04ByTy7_CzRmknhx3HZCME7uh9oyW93nIcQULkMza27e.kDpvxTxjkmLQS",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2026-06-11T07:25:00.073Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "wEpAk7I_tRTY5W.CsaTF1CzqfDRKWAlkMov0PkQI0p8-1781160900.9304812-1.0.1.1-w_BxxnF7IsP4NwFOJpIKVcEX0ZKIsHlY0ILpJASlSLLqOn1814o.1aB8XLigZX4yymyrsnVULhpJwYgj4_uVgbCtNJYdQir96eODZELrcjIUKjg9psFiricyDocH4bS2",
+        "domain": "hsforms.net",
+        "path": "/",
+        "expires": "2026-06-11T07:25:00.945Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.182522996.1781160901",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2026-09-09T06:55:01.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A55%3A02+GMT%2B0200+(Central+European+Summer+Time)&version=202307.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fwww.forter.com%2F&groups=C0004%3A0%2CC0003%3A0%2CC0001%3A1%2CC0002%3A0",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2027-06-11T06:55:02.000Z",
+        "size": 267,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "forterToken",
+        "value": "845f829bcd1c4d108d8566832e69ca18_1781160903318___29ck",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2027-07-16T06:55:03.000Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_uuid_v2",
+        "value": "D448108DDE59DD21940C098C7FFD72845|f0d5c38be88d47e35be0355b51800301",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2027-06-12T06:55:03.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "pll_language",
+        "value": "en",
+        "domain": "www.forter.com",
+        "path": "/",
+        "expires": "2027-06-11T06:55:03.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "signals-sdk-user-id",
+        "value": "503be5df-fc47-4721-b471-60fba4182352",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2027-06-11T06:55:03.000Z",
+        "size": 55,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "signals-sdk-session-id",
+        "value": "e60a0abc-4c09-4ac9-9f84-63b0fa097848",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2026-06-11T07:25:03.000Z",
+        "size": 58,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "WoTHbuDxaesdjGhfkuoM3fanrkQiO_rX_kYiyNiYNJ8-1781160903.8478396-1.0.1.1-EAmWPnvZXbRNZXvT7bOg5uFGxIaNIHyTe0QSB_lX1i8JWTSJyrJL52Xk.cpOGanKaABbcd6Oa7j0yxraWszsDBwoMLc6Lzg1.yeQUhjUiF28uLzOlB9WZ0m2V_gzy4KX",
+        "domain": "hsadspixel.net",
+        "path": "/",
+        "expires": "2026-06-11T07:25:03.858Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "visitorId",
+        "value": "42cd58e39fa8e8694a08df8bd47d219d5da33195631c6a985d9fa1f60273905e",
+        "domain": "ws.zoominfo.com",
+        "path": "/",
+        "expires": "2027-06-11T06:55:04.003Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "XZ8aJRNnMlFOeUk_DC36kQFNs_wEDMYdZyRD2YHNxyU-1781160903.840536-1.0.1.1-fxpaL.b0INy4lfh6UrSYSy6ynjTyMGf.e.HYZPTSh28",
+        "domain": "zoominfo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 120,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "Nls8LZWlQ9N3QJ.xHpNvr4bnpU_JSHowB2F.jSD5RKE-1781160903.8628843-1.0.1.1-TlHKSn8eTp9Y1y.xOPTeP0I8CO3WCbY1Zbx8mmf_MV76Ul8NVnIlCEj8RdwgK7BRt9tj8zPwWa3B92w6nw7I_6vNyFcMuTwuGrtV6RGAcfjTqAyZVhRalpd8IgK1OaLA",
+        "domain": "hs-analytics.net",
+        "path": "/",
+        "expires": "2026-06-11T07:25:04.025Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuid",
+        "value": "3f5d36de-6d2d-49c6-9a52-1d2218534f61",
+        "domain": "a.usbrowserspeed.com",
+        "path": "/",
+        "expires": "2027-06-11T06:55:04.068Z",
+        "size": 40,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_li_dcdm_c",
+        "value": ".forter.com",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": -1,
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_lc2_fpi",
+        "value": "406ee79f2353--01kttqd1dsmgmb1c8arcg58n53",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": "2027-07-16T06:55:04.122Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_lc2_fpi_js",
+        "value": "406ee79f2353--01kttqd1dsmgmb1c8arcg58n53",
+        "domain": "forter.com",
+        "path": "/",
+        "expires": -1,
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.cr-relay.com/v1/site/3a0adefe-5239-4508-8c94-70f582a75d28/batch"
+      },
+      {
+        "data": {
+          "filter": "||hs-analytics.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.hs-analytics.net/analytics/1781040000000/2776164.js"
+      },
+      {
+        "data": {
+          "filter": "||hsadspixel.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.hsadspixel.net/pixels.js"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/pwQZfmWmTnoZGS2TAnRV"
+      },
+      {
+        "data": {
+          "filter": "||oktopost.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.oktopost.com/oktrk.js"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1105487,
+            "cd": 0,
+            "d": "forter.com",
+            "h": "f0d5c38be88d47e35be0355b51800301",
+            "t": false,
+            "u": "D448108DDE59DD21940C098C7FFD72845"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/collect/v.gif?cd=0&a=1105487&d=forter.com&u=D448108DDE59DD21940C098C7FFD72845&h=f0d5c38be88d47e35be0355b51800301&t=false"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1105487,
+            "u": "https://www.forter.com/",
+            "vn": 2.1,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=1105487&u=https%3A%2F%2Fwww.forter.com%2F&vn=2.1&x=true"
+      },
+      {
+        "data": {
+          "filter": "||tracking.intentsify.io^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tracking.intentsify.io/page-tracking/intentsify-forter/https%3A%2F%2Fwww.forter.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TRW3GRR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TRW3GRR"
+      },
+      {
+        "data": {
+          "filter": "/OtAutoBlock.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cookielaw.org/consent/4eb1648e-7110-4ffb-b4d8-11815dcc7ca3/OtAutoBlock.js"
+      }
+    ]
+  }
+}

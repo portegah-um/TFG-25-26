@@ -1,0 +1,199 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cookie Consent | Products | OneTrust",
+  "uri_ins": "https://cookielaw.org",
+  "uri_dest": "https://www.onetrust.com/products/cookie-consent/",
+  "uri_redirects": [
+    "https://cookielaw.org/",
+    "https://www.cookielaw.org/"
+  ],
+  "secure_connection": {},
+  "host": "cookielaw.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:51:37.215Z",
+  "end_time": "2026-06-11T08:51:41.402Z",
+  "browsing_history": [
+    "https://www.onetrust.com/products/cookie-consent/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cookielaw.org",
+        "www.cookielaw.org",
+        "cdn.cookielaw.org",
+        "www.onetrust.com",
+        "geolocation.onetrust.com"
+      ],
+      "third_party": [
+        "challenges.cloudflare.com",
+        "assets.adobedtm.com",
+        "vault.pactsafe.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.adobedtm.com/753c34c7c721/1906ac9abeaf/launch-0c183b87ca70.min.js": [
+          "click"
+        ],
+        "https://www.onetrust.com/etc.clientlibs/onetrust/clientlibs/clientlib-base.lc-1b06080768524e2d2b44c1732689b212-lc.min.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.onetrust.com/etc.clientlibs/onetrust/clientlibs/clientlib-base.lc-1b06080768524e2d2b44c1732689b212-lc.min.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://www.onetrust.com/etc.clientlibs/onetrust/clientlibs/clientlib-base.lc-1b06080768524e2d2b44c1732689b212-lc.min.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": ".dgXRpIIFAYmderD5rct_.lvGoPyfieeMkCxGeBttow-1781167898.3285131-1.0.1.1-7.1KzDGcFEvA421M9Hr.6Hgvbd4E95w2kFzaHF1KTGglVebddRiuWxLDXLEJa_QUO0yelGIXU2cXVYUH4aPfqPBpSbGjbCXRDG0enBL3oG8as4vwez4xQztFS6Ay..zY",
+        "domain": "www.onetrust.com",
+        "path": "/",
+        "expires": "2026-06-11T09:21:38.354Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A51%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=d52a0987-2de1-49a6-a04b-a74065792c9d&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.onetrust.com%2Fproducts%2Fcookie-consent%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0&vs=S671%3A1%2CS283%3A1%2CS135%3A1%2CS1%3A1%2CS57%3A1%2CS821%3A1%2CS12%3A0%2CS15%3A0%2CS76%3A0%2CS32%3A0%2CS178%3A0%2CS62%3A0%2CS34%3A0%2CS77%3A0%2CS21%3A0%2CS41%3A0%2CS10%3A0%2CS30%3A0%2CS672%3A0%2CS822%3A0%2CS161%3A0%2CS16%3A0%2CS85%3A0%2CS97%3A0%2CS888%3A0%2CS379%3A0",
+        "domain": "onetrust.com",
+        "path": "/",
+        "expires": "2027-06-11T08:51:40.000Z",
+        "size": 660,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.onetrust.com/products/cookie-consent/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/753c34c7c721/1906ac9abeaf/1aea29922893/RCa2306e6cbdf4411799e40fce6da5ab61-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.onetrust.com/products/cookie-consent/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.onetrust.com/products/cookie-consent/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js"
+      }
+    ]
+  }
+}

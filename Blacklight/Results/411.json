@@ -1,0 +1,419 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Business Insider España: Actualidad económica, tendencias y mundo global",
+  "uri_ins": "https://businessinsider.com",
+  "uri_dest": "https://www.businessinsider.es/",
+  "uri_redirects": [
+    "https://businessinsider.com/",
+    "https://www.businessinsider.com/"
+  ],
+  "secure_connection": {},
+  "host": "businessinsider.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:42:52.465Z",
+  "end_time": "2026-06-11T07:42:58.053Z",
+  "browsing_history": [
+    "https://www.businessinsider.es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "businessinsider.com",
+        "www.businessinsider.com",
+        "www.businessinsider.es",
+        "imagenes.businessinsider.es"
+      ],
+      "third_party": [
+        "marfeelexperimentsexperienceengine.mrf.io",
+        "s3.tradingview.com",
+        "sdk.privacy-center.org",
+        "hb.20m.es",
+        "dkumiip2e9ary.cloudfront.net",
+        "sdk.mrf.io",
+        "es-config.sensic.net",
+        "p1.socy.es",
+        "securepubads.g.doubleclick.net",
+        "c.amazon-adsystem.com",
+        "1781163774178d8f0e0f31a42b23380d80815399154f25b96193e8c5.trk.sensic.net",
+        "es1-s2s.sensic.net",
+        "www.tradingview-widget.com",
+        "hipatia-services-api-pro-esvehatdmq-ew.a.run.app",
+        "localhost.sensic.net",
+        "sb.scorecardresearch.com",
+        "trigger-version-wibdbssi3q-ew.a.run.app",
+        "widget-sheriff.tradingview-widget.com",
+        "s3-symbol-logo.tradingview.com",
+        "experiences.mrf.io",
+        "bd0d60c1-6781-4938-a4fb-cfcf9f6d255d.edge.permutive.app",
+        "flowcards.mrf.io",
+        "pagead2.googlesyndication.com",
+        "www.gstatic.com",
+        "events.newsroom.bi"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://experiences.mrf.io/statics/inline-experiences/esnext/standalone.js": [
+          "keydown"
+        ],
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=1196": [
+          "keydown",
+          "keyup"
+        ],
+        "https://www.tradingview-widget.com/static/bundles/embed/18619.02aa63d3ef21287e0d20.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=1196": [
+          "click",
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.tradingview-widget.com/static/bundles/embed/18619.02aa63d3ef21287e0d20.js": [
+          "mousemove"
+        ],
+        "https://www.tradingview-widget.com/static/bundles/embed/46216.d604ba086b11a39bdbc0.js": [
+          "click"
+        ],
+        "https://www.businessinsider.es/assets/global.bundle.js?1781083462": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=1196": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "didomi_token",
+        "value": "eyJ1c2VyX2lkIjoiMTllYjVhMjUtMjQ4OS02NjQ4LWE4MGYtYmJjZTcxZDA3MGY4IiwiY3JlYXRlZCI6IjIwMjYtMDYtMTFUMDc6NDI6NTQuNTM2WiIsInVwZGF0ZWQiOiIyMDI2LTA2LTExVDA3OjQyOjU0LjUzOVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+        "domain": "businessinsider.es",
+        "path": "/",
+        "expires": "2027-06-12T07:42:54.000Z",
+        "size": 200,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||permutive.app^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bd0d60c1-6781-4938-a4fb-cfcf9f6d255d.edge.permutive.app/327b424d-bd9f-4f77-ba6a-d0996e8679a9-web.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon-ios.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/cs/13194393/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099063
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606090101/pubads_impl.js?cb=31099063"
+      },
+      {
+        "data": {
+          "filter": "||sensic.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "instanceid": "1781163774178D8F0E0F31A42B23380D80815399154F25B96193E8C5",
+            "ipad": false,
+            "m": "BusinessinsiderWeb",
+            "p": "es1",
+            "r": "www.businessinsider.es",
+            "redirect": "manual"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://localhost.sensic.net:54325/?&m=BusinessinsiderWeb&r=www.businessinsider.es&p=es1&instanceid=1781163774178D8F0E0F31A42B23380D80815399154F25B96193E8C5&ipad=false&redirect=manual"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||sensic.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://es1-s2s.sensic.net/"
+      },
+      {
+        "data": {
+          "filter": "||sensic.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://es-config.sensic.net/3pc.html"
+      },
+      {
+        "data": {
+          "filter": "||sensic.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "instanceid": "1781163774178D8F0E0F31A42B23380D80815399154F25B96193E8C5",
+            "ipad": false,
+            "m": "BusinessinsiderWeb",
+            "p": "es1",
+            "r": "www.businessinsider.es",
+            "redirect": "manual"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://1781163774178d8f0e0f31a42b23380d80815399154f25b96193e8c5.trk.sensic.net/tp.gif?m=BusinessinsiderWeb&r=www.businessinsider.es&p=es1&instanceid=1781163774178D8F0E0F31A42B23380D80815399154F25B96193E8C5&ipad=false&redirect=manual"
+      },
+      {
+        "data": {
+          "filter": "/prebid/*$script",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hb.20m.es/prebid/9.43.0-hm-v5.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||sensic.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.businessinsider.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://es-config.sensic.net/s2s-web.js"
+      }
+    ]
+  }
+}

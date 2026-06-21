@@ -1,0 +1,940 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+  "uri_ins": "https://bit.ly",
+  "uri_dest": "https://bitly.com/",
+  "uri_redirects": [
+    "https://bit.ly/"
+  ],
+  "secure_connection": {},
+  "host": "bit.ly",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:03:13.009Z",
+  "end_time": "2026-06-11T06:03:20.486Z",
+  "browsing_history": [
+    "https://bitly.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bit.ly",
+        "bitly.com",
+        "mkt-static.bitly.com",
+        "sp.bitly.com"
+      ],
+      "third_party": [
+        "cdn.optimizely.com",
+        "cdn.cookielaw.org",
+        "global-free-tools.qr-code-generator.com",
+        "www.googletagmanager.com",
+        "a16488430484.cdn.optimizely.com",
+        "cdn.userway.org",
+        "accounts.google.com",
+        "pagead2.googlesyndication.com",
+        "logx.optimizely.com",
+        "region1.google-analytics.com",
+        "geolocation.onetrust.com",
+        "ade.googlesyndication.com",
+        "api.userway.org",
+        "bat.bing.com",
+        "cdn.jsdelivr.net",
+        "fonts.gstatic.com",
+        "bat.bing.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.userway.org/widgetapp/2026-06-09-08-22-25/widget_app_base_1780993345047.js": [
+          "keydown"
+        ],
+        "https://mkt-static.bitly.com/static/1779977317/pages/wp-content/themes/JointsWP-CSS-master/assets/scripts/scripts.js": [
+          "keydown"
+        ],
+        "https://mkt-static.bitly.com/static/1779977317/pages/wp-includes/js/jquery/jquery.min.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://mkt-static.bitly.com/static/1779977317/pages/wp-includes/js/jquery/jquery.min.js": [
+          "click",
+          "mousemove",
+          "mousedown",
+          "scroll"
+        ],
+        "https://bat.bing.com/p/insights/s/0.8.65": [
+          "click",
+          "scroll"
+        ],
+        "https://cdn.userway.org/widgetapp/2026-06-09-08-22-25/widget_app_base_1780993345047.js": [
+          "mousemove"
+        ],
+        "https://accounts.google.com/gsi/client": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MWZVBR2": [
+          "click"
+        ],
+        "https://mkt-static.bitly.com/static/1779977317/pages/wp-content/plugins/page-links-to/dist/new-tab.js": [
+          "click"
+        ],
+        "https://cdn.optimizely.com/js/16488430484.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "/_/gsi/_/js/k=gsi.gsi.es.1VCmNegQPO0.O/am=AAAAAAkCmAIC/d=1/rs=AF0KOtVsivrJzbGys3zuMVn7iwdOGig2ag/m=credential_server_library": [
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "anon_u",
+        "value": "cHN1X19jMDA5YTAyOC00NjhhLWI3NTAtNzNjOS00YmE4ZmZjNDdmOWY=|1781157793|97bcab51c878c6e4e402060d23f92aa09116ae22",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2026-12-08T06:03:13.909Z",
+        "size": 114,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_xsrf",
+        "value": "e91a8b9e-96ec-2407-c20d-c4b0e680ece9",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2026-07-11T06:03:13.909Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "optimizelyEndUserId",
+        "value": "oeu1781157794362r0.015319340304175588",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2026-12-08T06:03:14.000Z",
+        "size": 56,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "https://bitly.com_oeu1781157794362r0.015319340304175588$$16488430484$$session_state",
+        "value": "{\"lastSessionTimestamp\":1781157794373,\"sessionId\":\"04feb16e-83e0-4a94-8573-ddb90fa0dccc\"}",
+        "domain": "a16488430484.cdn.optimizely.com",
+        "path": "/",
+        "expires": "2026-12-08T06:03:15.032Z",
+        "size": 172,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "wp-wpml_current_language",
+        "value": "en",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "optimizelySession",
+        "value": "1781157795607",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2026-12-08T06:03:15.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781157796240,\"i_b\":\"dk2dcfQqLP3BuNJYM61NX1MQ5pBWRRQmeLeRCG2mQjk\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781157796224}",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2026-12-08T06:03:16.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A03%3A16+GMT%2B0200+(Central+European+Summer+Time)&version=202505.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1ad3825b-b413-4d19-8a7d-44d88d7cec54&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fbitly.com%2F&groups=C0001%3A1%2CC0007%3A0%2CC0002%3A0%2CC0004%3A0%2CC0008%3A0",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2027-07-16T06:03:16.851Z",
+        "size": 353,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sp",
+        "value": "bd3413de-113e-4d22-b206-258e6d1c4b7c",
+        "domain": "bitly.com",
+        "path": "/",
+        "expires": "2027-06-11T06:03:17.466Z",
+        "size": 38,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 482,
+            "_eu": "EEEAAGAC",
+            "_p": 1781157794419,
+            "_s": 4,
+            "ae": "a",
+            "are": 1,
+            "cid": 73993590.17811579,
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+            "ecid": 186149218,
+            "en": "form_start",
+            "ep.first_field_id": "pcta-short-link-long-url",
+            "ep.first_field_type": "url",
+            "ep.form_destination": "https://bitly.com/a/sign_up",
+            "ep.form_id": "pcta-short-link",
+            "epn.first_field_position": 1,
+            "epn.form_length": 5,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNzMyY2.dYWJhMj",
+            "gtm": "45je6691v873572655za20gzb846725585zd846725585",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781157795,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 6438,
+            "tid": "G-567GCTL9BB",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-567GCTL9BB&gtm=45je6691v873572655za20gzb846725585zd846725585&_p=1781157794419&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dNzMyY2.dYWJhMj&ecid=186149218&_eu=EEEAAGAC&ae=a&are=1&cid=73993590.1781157796&frm=0&ir=1&pscdl=denied&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=4&tag_exp=0~115938466~115938469~117776793&sid=1781157795&sct=1&seg=0&dl=https%3A%2F%2Fbitly.com%2F&dt=Bitly%20Connections%20Platform%20%7C%20Short%20URLs%2C%20QR%20Codes%2C%20and%20More&en=form_start&ep.form_id=pcta-short-link&ep.form_destination=https%3A%2F%2Fbitly.com%2Fa%2Fsign_up&epn.form_length=5&ep.first_field_id=pcta-short-link-long-url&ep.first_field_type=url&epn.first_field_position=1&_et=482&tfd=6438"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_p": 1781157794419,
+            "_s": 3,
+            "_tu": "KA",
+            "are": 1,
+            "cid": 73993590.17811579,
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+            "ecid": 186149218,
+            "en": "consent_tracking",
+            "ep.consented_groups": "none",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNzMyY2.dYWJhMj",
+            "gtm": "45je6691v873572655z8846725585za20gzb846725585zd846725585",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781157795,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 5785,
+            "tid": "G-567GCTL9BB",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-567GCTL9BB&gtm=45je6691v873572655z8846725585za20gzb846725585zd846725585&_p=1781157794419&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dNzMyY2.dYWJhMj&ecid=186149218&_eu=EAAAAGAC&are=1&cid=73993590.1781157796&frm=0&ir=1&pscdl=denied&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938466~115938469~117776793&sid=1781157795&sct=1&seg=0&dl=https%3A%2F%2Fbitly.com%2F&dt=Bitly%20Connections%20Platform%20%7C%20Short%20URLs%2C%20QR%20Codes%2C%20and%20More&_tu=KA&en=consent_tracking&ep.consented_groups=none&tfd=5785"
+      },
+      {
+        "data": {
+          "filter": "||userway.org/api/v1/stats",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.userway.org/api/v1/stats/enabled-feature"
+      },
+      {
+        "data": {
+          "filter": "||userway.org/api/v1/stats",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.userway.org/api/v1/stats/enabled-feature"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/c/h"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/s/0.8.65"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 1,
+            "cdb": "AQER",
+            "evt": "consent",
+            "mid": "cb315a7a-1bfb-46ae-8102-673daccadf0d",
+            "src": "default",
+            "ti": 355015482
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=355015482&Ver=2&mid=cb315a7a-1bfb-46ae-8102-673daccadf0d&bo=1&evt=consent&src=default&cdb=AQER&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/t/355015482"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/355015482.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_p": 1781157794419,
+            "_s": 2,
+            "are": 1,
+            "cid": 73993590.17811579,
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+            "ecid": 186149218,
+            "en": "experience_impression",
+            "ep.exp_variant_string": "OPT-4564961419067392(HB-2359 Homepage Headline/Subhead Revision)-6366839517741056(Variation #1 (ROI))",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v873572655z8846725585za20gzb846725585zd846725585",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781157795,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 3355,
+            "tid": "G-567GCTL9BB",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-567GCTL9BB&gtm=45je6691v873572655z8846725585za20gzb846725585zd846725585&_p=1781157794419&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&ecid=186149218&_eu=EAAAAGAC&are=1&cid=73993590.1781157796&frm=0&ir=1&pscdl=denied&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~117776793&sid=1781157795&sct=1&seg=0&dl=https%3A%2F%2Fbitly.com%2F&dt=Bitly%20Connections%20Platform%20%7C%20Short%20URLs%2C%20QR%20Codes%2C%20and%20More&en=experience_impression&ep.exp_variant_string=OPT-4564961419067392(HB-2359%20Homepage%20Headline%2FSubhead%20Revision)-6366839517741056(Variation%20%231%20(ROI))&tfd=3355"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||logx.optimizely.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logx.optimizely.com/v1/events"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dNzMyY2",
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNzMyY2",
+            "gtm": "45be6691v9117923533z8846725585za20gzb846725585zd846725585xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 354570359.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115938466~115938468~119456239~119456247",
+            "tfd": 2666,
+            "tft": 1781157796152,
+            "tid": "AW-11180849338",
+            "tids": "AW-11180849338"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&en=page_view&dl=https%3A%2F%2Fbitly.com%2F&scrsrc=www.googletagmanager.com&rnd=354570359.1781157796&navt=n&npa=1&did=dNzMyY2&gdid=dNzMyY2&gtm=45be6691v9117923533z8846725585za20gzb846725585zd846725585xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~119456239~119456247&apve=1&apvf=f&apvc=0&tids=AW-11180849338&tid=AW-11180849338&tft=1781157796152&tfd=2666"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-12389169"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-12389169&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dNzMyY2",
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNzMyY2",
+            "gtm": "45be6691v868422665z8846725585za20gzb846725585zd846725585xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 3,
+            "rnd": 354570359.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468~119349418",
+            "tfd": 2522,
+            "tft": 1781157796008,
+            "tid": "AW-768371374",
+            "tids": "AW-768371374"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fbitly.com%2F&scrsrc=www.googletagmanager.com&rnd=354570359.1781157796&navt=n&npa=1&did=dNzMyY2&gdid=dNzMyY2&gtm=45be6691v868422665z8846725585za20gzb846725585zd846725585xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468~119349418&apve=1&apvf=f&apvc=0&tids=AW-768371374&tid=AW-768371374&tft=1781157796008&tfd=2522"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781157794419,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 73993590.17811579,
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+            "ec_mode": "a",
+            "ecid": 186149218,
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v873572655z8846725585za20gzb846725585zd846725585",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781157795,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 2346,
+            "tid": "G-567GCTL9BB",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-567GCTL9BB&gtm=45je6691v873572655z8846725585za20gzb846725585zd846725585&_p=1781157794419&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&ecid=186149218&_eu=EAAAAGAC&are=1&cid=73993590.1781157796&ec_mode=a&frm=0&ir=1&pscdl=denied&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~117776793&sid=1781157795&sct=1&seg=0&dl=https%3A%2F%2Fbitly.com%2F&dt=Bitly%20Connections%20Platform%20%7C%20Short%20URLs%2C%20QR%20Codes%2C%20and%20More&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2346"
+      },
+      {
+        "data": {
+          "filter": "||logx.optimizely.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logx.optimizely.com/v1/events"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://bitly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dNzMyY2",
+            "gtm": "45He6691v846725585za200zd846725585xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 4,
+            "rnd": 354570359.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 2069,
+            "tft": 1781157795555
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=4&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fbitly.com%2F&scrsrc=www.googletagmanager.com&rnd=354570359.1781157796&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dNzMyY2&gtm=45He6691v846725585za200zd846725585xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=1&tft=1781157795555&tfd=2069"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-768371374"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-768371374&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-11180849338"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11180849338&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-567GCTL9BB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-567GCTL9BB&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a16488430484.cdn.optimizely.com/client_storage/a16488430484.html"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MWZVBR2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MWZVBR2"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://bitly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/js/16488430484.js"
+      }
+    ]
+  }
+}

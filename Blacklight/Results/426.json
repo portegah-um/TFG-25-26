@@ -1,0 +1,541 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Go.com | The Walt Disney Company ",
+  "uri_ins": "https://go.com",
+  "uri_dest": "https://www.go.com/",
+  "uri_redirects": [
+    "https://go.com/"
+  ],
+  "secure_connection": {},
+  "host": "go.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:46:40.413Z",
+  "end_time": "2026-06-11T07:46:46.353Z",
+  "browsing_history": [
+    "https://www.go.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "go.com",
+        "www.go.com",
+        "sw88.go.com"
+      ],
+      "third_party": [
+        "lumiere-a.akamaihd.net",
+        "cdn.matterhorn.app",
+        "www.datadoghq-browser-agent.com",
+        "dcf.espn.com",
+        "cdn.cookielaw.org",
+        "cdn.espn.com",
+        "tag.researchnow.com",
+        "sb.scorecardresearch.com",
+        "disney.demdex.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js": [
+          "click"
+        ],
+        "https://cdn.matterhorn.app/matterhorn-fitt/f1f5805bda58-release-2026-06-02-v5.1.0.2344/client/matterhorn-fitt/938-5a9c284f.js": [
+          "scroll"
+        ],
+        "https://cdn.matterhorn.app/matterhorn-fitt/f1f5805bda58-release-2026-06-02-v5.1.0.2344/client/matterhorn-fitt/296-ad9fa652.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.matterhorn.app/matterhorn-fitt/f1f5805bda58-release-2026-06-02-v5.1.0.2344/client/matterhorn-fitt/296-ad9fa652.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "SWID",
+        "value": "7C2972F5-A9CA-4523-C5E3-D7EDFAB1A138",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": "2027-07-16T07:46:41.836Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "country",
+        "value": "us",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_ensNR",
+        "value": "1781164003176-New",
+        "domain": "go.com",
+        "path": "/",
+        "expires": "2026-07-11T09:46:43.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ensCDS",
+        "value": "0",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dcf",
+        "value": "1",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_ensNSL",
+        "value": "0",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_ensRegion",
+        "value": "ccpa",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "usprivacy",
+        "value": "1YNY",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": "2027-06-11T07:46:44.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A46%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202211.2.0&isIABGlobal=false&hosts=&consentId=93684390-b315-4927-885f-f8a80bb74369&interactionCount=0&landingPath=https%3A%2F%2Fwww.go.com%2F&groups=BG559%3A1%2CC0004%3A1%2CC0002%3A1",
+        "domain": "go.com",
+        "path": "/",
+        "expires": "2027-06-11T07:46:44.000Z",
+        "size": 300,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "34567100983773939690216598567292747875",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T07:46:44.195Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_CC0A3704532E6FD70A490D44%40AdobeOrg",
+        "value": "1",
+        "domain": "go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C23231007843516479880920000274514026406",
+        "domain": "go.com",
+        "path": "/",
+        "expires": "2027-07-16T07:46:44.447Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_CC0A3704532E6FD70A490D44%40AdobeOrg",
+        "value": "-50417514%7CMCIDTS%7C20616%7CMCMID%7C23231007843516479880920000274514026406%7CMCAAMLH-1781768804%7C6%7CMCAAMB-1781768804%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1781171204s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0",
+        "domain": "go.com",
+        "path": "/",
+        "expires": "2027-07-16T07:46:44.406Z",
+        "size": 279,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "go.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=0&expire=1781164905201",
+        "domain": "www.go.com",
+        "path": "/",
+        "expires": "2026-06-11T08:01:45.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "CC0A3704532E6FD70A490D44@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_verify": 1,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781164003939
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://disney.demdex.net/id/rd?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=CC0A3704532E6FD70A490D44%40AdobeOrg&d_nsid=0&ts=1781164003939"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 15354235,
+            "c7": "https://www.go.com/",
+            "c8": "Go.com | The Walt Disney Company ",
+            "c9": "",
+            "cs_cfg": 1101110,
+            "cs_it": "m1",
+            "cv": "4.13.1+2508250908",
+            "ns__t": 1781164004010,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=15354235&cs_it=m1&cv=4.13.1%2B2508250908&ns__t=1781164004010&ns_c=UTF-8&cs_cfg=1101110&c7=https%3A%2F%2Fwww.go.com%2F&c8=Go.com%20%7C%20The%20Walt%20Disney%20Company%C2%A0&c9="
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon-ios.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "CC0A3704532E6FD70A490D44@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_verify": 1,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781164003939
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=CC0A3704532E6FD70A490D44%40AdobeOrg&d_nsid=0&ts=1781164003939"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/cs/15354235/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||researchnow.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adn": 3,
+            "ca": "",
+            "eid": ":us:goc:homepage",
+            "pr": 2701,
+            "si": "www.go.com",
+            "tt": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.researchnow.com/t/beacon?pr=2701&si=www.go.com&eid=:us:goc:homepage&ca=&adn=3&tt=3"
+      },
+      {
+        "data": {
+          "filter": "/twdc-dtci/prod/servercomponent.php?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ClientID": 2750,
+            "PageID": "https://www.go.com/?cds=n&country=us&region=xx&gpc=0&shouldFire=y&nAsyncNgeo=n&portal=matterhorn&site=www.go.com&siteRegion=&realHost=www.go.com&kpTlium=n&eventStep=non-ecom",
+            "custDomain": "dcf.espn.com",
+            "namespace": "Bootstrapper",
+            "staticJsPath": "/TWDC-DTCI/prod/code/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dcf.espn.com/TWDC-DTCI/prod/serverComponent.php?namespace=Bootstrapper&staticJsPath=/TWDC-DTCI/prod/code/&ClientID=2750&PageID=https%3A%2F%2Fwww.go.com%2F%3Fcds%3Dn%26country%3Dus%26region%3Dxx%26gpc%3D0%26shouldFire%3Dy%26nAsyncNgeo%3Dn%26portal%3Dmatterhorn%26site%3Dwww.go.com%26siteRegion%3D%26realHost%3Dwww.go.com%26kpTlium%3Dn%26eventStep%3Dnon-ecom&custDomain=dcf.espn.com"
+      },
+      {
+        "data": {
+          "filter": "||datadoghq-browser-agent.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.go.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js"
+      }
+    ]
+  }
+}

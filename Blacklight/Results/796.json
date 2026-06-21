@@ -1,0 +1,1481 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "UW Homepage",
+  "uri_ins": "https://washington.edu",
+  "uri_dest": "https://www.washington.edu/",
+  "uri_redirects": [
+    "https://washington.edu/"
+  ],
+  "secure_connection": {},
+  "host": "washington.edu",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:38:31.067Z",
+  "end_time": "2026-06-11T09:38:40.749Z",
+  "browsing_history": [
+    "https://www.washington.edu/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "washington.edu",
+        "www.washington.edu",
+        "subscribe.gifts.washington.edu",
+        "api.gifts.washington.edu"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "uw-s3-cdn.s3.us-west-2.amazonaws.com",
+        "www.clarity.ms",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "public-api.wordpress.com",
+        "scripts.clarity.ms",
+        "snap.licdn.com",
+        "script.crazyegg.com",
+        "siteimproveanalytics.com",
+        "nexus.ensighten.com",
+        "up.pixel.ad",
+        "connect.facebook.net",
+        "adp.eab.com",
+        "www.google.com",
+        "d.agkn.com",
+        "di.rlcdn.com",
+        "region1.google-analytics.com",
+        "h.clarity.ms",
+        "ad.doubleclick.net",
+        "www.googleadservices.com",
+        "googleads.g.doubleclick.net",
+        "pixel-sync.sitescout.com",
+        "pixel.sitescout.com",
+        "munchkin.marketo.net",
+        "47642.global.siteimproveanalytics.io",
+        "www.google.es",
+        "www.facebook.com",
+        "px.ads.linkedin.com",
+        "insight.adsrvr.org",
+        "d1eoo1tco6rr5e.cloudfront.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://subscribe.gifts.washington.edu/Scripts/uwmunchkin/uwmunchkin.min.js": [
+          "keydown"
+        ],
+        "    at Object.apply (<anonymous>:13:42)": [
+          "keydown",
+          "input"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-3T65WK0BM8&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://www.washington.edu/static/home/wp-includes/js/jquery/jquery.js?9583878": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js": [
+          "mousedown"
+        ],
+        "https://connect.facebook.net/signals/config/399563999042319?v=2.9.337&r=stable&domain=www.washington.edu&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171": [
+          "click"
+        ],
+        "https://nexus.ensighten.com/choozle/17098/Bootstrap.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-3T65WK0BM8&cx=c&gtm=4e6691": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KQ6QQBT": [
+          "click"
+        ],
+        "https://www.washington.edu/static/home/wp-includes/js/jquery/jquery.js?9583878": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1933252956.1781170715",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2026-09-09T09:38:35.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.673021289.1781170716",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2027-07-16T09:38:36.217Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ab",
+        "value": "0001%3Af3z1i97AGZDclXCKWYSjfyZyWJLK%2BZbp",
+        "domain": "agkn.com",
+        "path": "/",
+        "expires": "2027-06-11T09:38:36.276Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "u",
+        "value": "C|0AAAxvT6cMb0-nAAAAAAA",
+        "domain": "agkn.com",
+        "path": "/",
+        "expires": "2027-06-11T09:38:36.276Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nmstat",
+        "value": "47071827-32e3-edbd-1203-f8c5af26de28",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2027-07-16T09:38:36.603Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1781170716899.315474859350038285",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2026-09-09T09:38:36.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ce.s",
+        "value": "lcw~1781170716948",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2027-06-11T09:38:36.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&b111ad40-bcb0-46b8-8456-f4f925785e08\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2027-06-11T09:38:37.562Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_gc",
+        "value": "MTswOzE3ODExNzA3MTc7MjswMjG9fSxpLEVz5hS4qMz+KBZt0W/PQ4M2G6x1qx+SRbz54w==",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-12-08T09:38:37.562Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=OGST02:s=O:r=O:a=O:p=O:g=3809:u=1:x=1:i=1781170717:t=1781257117:v=2:sig=AQEqg45PjRkDU5oYOJNPSLzCkYu6XWR8\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-12T09:38:37.562Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "lOq.Lf0RnRrCDbvC9LWsHLaRCa2RrqTJYLQDnQa9dzo-1781170717.370025-1.0.1.1-4g0WGY6LH84jmkPvpaHBOBg6SiWY2Xg.2_sPUf0IjTXMWUVHVE4AuzMn2bfrYNRFABHkyImvwcg1osWu9Eqgz1mMf7_ge2U9v.7ix2uHi1qhr1xHYBxlniEA7tTKzL9T",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-11T10:08:37.562Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_affinity",
+        "value": "w11|aiqCI",
+        "domain": "www.washington.edu",
+        "path": "/",
+        "expires": -1,
+        "size": 18,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_3T65WK0BM8",
+        "value": "GS2.1.s1781170715$o1$g0$t1781170720$j55$l0$h0",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2027-07-16T09:38:40.487Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_JLHM9WH4JV",
+        "value": "GS2.1.s1781170716$o1$g0$t1781170720$j56$l0$h0",
+        "domain": "washington.edu",
+        "path": "/",
+        "expires": "2027-07-16T09:38:40.509Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.washington.edu/",
+        "raw": "https://www.facebook.com/tr/?id=399563999042319&ev=PageView&dl=https%3A%2F%2Fwww.washington.edu%2F&rl=&if=false&ts=1781170716927&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781170716899.315474859350038285&cs_est=true&ler=empty&pmd[title]=UW%20Homepage&pmd[locale]=en&pmd[description]=University%20of%20Washington&plt=3537.899999976158&iss=1&imft=1&tz=120&it=1781170716577&coo=false&cdl=&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf1&rqm=GET"
+      }
+    ],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781170714675,
+            "_s": 2,
+            "are": 1,
+            "cid": 673021289.178117,
+            "dl": "https://www.washington.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "UW Homepage",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v870836477z8830688434za20gzb830688434zd830688434",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 12,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170715,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 9115,
+            "tid": "G-3T65WK0BM8",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-3T65WK0BM8&gtm=45je6691v870836477z8830688434za20gzb830688434zd830688434&_p=1781170714675&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=673021289.1781170716&frm=0&pscdl=&rcb=12&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938465~115938468&sid=1781170715&sct=1&seg=0&dl=https%3A%2F%2Fwww.washington.edu%2F&dt=UW%20Homepage&_s=2&tfd=9115"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "2mz4nfn",
+            "ct": "0:v4ju21m",
+            "fmt": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://d1eoo1tco6rr5e.cloudfront.net/2mz4nfn/v4ju21m/iframe",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/pxl/?adv=2mz4nfn&ct=0:v4ju21m&fmt=3"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "adv": "2mz4nfn",
+            "ct": "0:45jvqu5",
+            "fmt": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://d1eoo1tco6rr5e.cloudfront.net/2mz4nfn/45jvqu5/iframe",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/track/pxl/?adv=2mz4nfn&ct=0:45jvqu5&fmt=3"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/tags/2mz4nfn/v4ju21m/iframe"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://insight.adsrvr.org/tags/2mz4nfn/45jvqu5/iframe"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 1010489,
+            "time": 1781170717003,
+            "tm": "gtmv2",
+            "url": "https://www.washington.edu/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=1010489&time=1781170717003&url=https%3A%2F%2Fwww.washington.edu%2F&tm=gtmv2"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 1010489,
+            "time": 1781170717003,
+            "tm": "gtmv2",
+            "url": "https://www.washington.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=1010489&time=1781170717003&url=https%3A%2F%2Fwww.washington.edu%2F&tm=gtmv2"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "g",
+            "medium": "fetch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aems": "0;0",
+            "cdl": "",
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.washington.edu/",
+            "ec": 0,
+            "ev": "PageView",
+            "expv2[0]": "pl1",
+            "expv2[1]": "el2",
+            "expv2[2]": "bc1",
+            "expv2[3]": "ra2",
+            "expv2[4]": "rp2",
+            "expv2[5]": "ct3",
+            "expv2[6]": "hf1",
+            "fbp": "fb.1.1781170716899.315474859350038285",
+            "id": 399563999042319,
+            "if": false,
+            "imft": 1,
+            "iss": 1,
+            "it": 1781170716577,
+            "iw": false,
+            "ler": "empty",
+            "o": 4126,
+            "plt": 3537.899999976158,
+            "pmd[description]": "University of Washington",
+            "pmd[locale]": "en",
+            "pmd[title]": "UW Homepage",
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781170716927,
+            "tz": 120,
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=399563999042319&ev=PageView&dl=https%3A%2F%2Fwww.washington.edu%2F&rl=&if=false&ts=1781170716927&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781170716899.315474859350038285&cs_est=true&ler=empty&pmd[title]=UW%20Homepage&pmd[locale]=en&pmd[description]=University%20of%20Washington&plt=3537.899999976158&iss=1&imft=1&tz=120&it=1781170716577&coo=false&cdl=&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0128/7159/sampling/www.washington.edu.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1933252956.178117,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cerd": "CgEA",
+            "cid": "CAQSUAARCiqBxcs8GH7QA21YqI3NCa028gEBuI1fGeD8cd1-0JugpmnkQ-fHPenxAAscXEnJ8-xfL1UaneMxZzPwHI6GyXfjoLBBY8wZI4fyWnqJ",
+            "crd": "CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSiZ0cmlnZ2VyPWV2ZW50LXNvdXJjZTtuYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "page_view",
+            "ept": 5,
+            "fmt": 8,
+            "frm": 0,
+            "fsk": "ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wlQT6rRD7ZoPg5Gfk-rWnXBHyM_-Q-vO8YP15dCd0drTpvi5El-_N4aAs42",
+            "fst": 1781170716026,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v9191271682za20gzb830688434zd830688434xec",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "AXYqCNCd2s4ZENmiv4E-",
+            "npa": 1,
+            "pscrd": "IhMI9qPI_vH-lAMVgS0GAB1biB7HOhtodHRwczovL3d3dy53YXNoaW5ndG9uLmVkdS9CWENoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXRBQktuRjVTTXpyQ2REYkozeW5UZENRSUJJbkNIaWw2dGx2bGJWbi1pVGc0Zjh5djBKMGR0ZzFJS0ZmYmR6DAgJYggIABAAGAAgAA",
+            "random": 2983023922,
+            "rcb": 2,
+            "tag_exp": "0~115938465~115938468",
+            "tiba": "UW Homepage",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.washington.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/16646132057/?random=1684180501&cv=11&fst=1781170716026&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6691v9191271682za20gzb830688434zd830688434xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938465~115938468&u_w=375&u_h=812&url=https%3A%2F%2Fwww.washington.edu%2F&rcb=2&capi=2&frm=0&tiba=UW%20Homepage&npa=1&auid=1933252956.1781170715&label=AXYqCNCd2s4ZENmiv4E-&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSiZ0cmlnZ2VyPWV2ZW50LXNvdXJjZTtuYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM&cerd=CgEA&fsk=ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wlQT6rRD7ZoPg5Gfk-rWnXBHyM_-Q-vO8YP15dCd0drTpvi5El-_N4aAs42&pscrd=IhMI9qPI_vH-lAMVgS0GAB1biB7HOhtodHRwczovL3d3dy53YXNoaW5ndG9uLmVkdS9CWENoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXRBQktuRjVTTXpyQ2REYkozeW5UZENRSUJJbkNIaWw2dGx2bGJWbi1pVGc0Zjh5djBKMGR0ZzFJS0ZmYmR6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQSUAARCiqBxcs8GH7QA21YqI3NCa028gEBuI1fGeD8cd1-0JugpmnkQ-fHPenxAAscXEnJ8-xfL1UaneMxZzPwHI6GyXfjoLBBY8wZI4fyWnqJ&random=2983023922"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 47642,
+            "luid": "78255437-4950-6625-5211-c4216bea8427",
+            "prev": "47071827-32e3-edbd-1203-f8c5af26de28",
+            "res": "375x812",
+            "rnd": 55093,
+            "rt": 4959,
+            "title": "UW Homepage",
+            "url": "https://www.washington.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://47642.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.washington.edu%2F&title=UW%20Homepage&res=375x812&accountid=47642&rt=4959&prev=47071827-32e3-edbd-1203-f8c5af26de28&luid=78255437-4950-6625-5211-c4216bea8427&rnd=55093"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.washington.edu",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/399563999042319?v=2.9.337&r=stable&domain=www.washington.edu&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0128/7159/site/www.washington.edu.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cntr_url": "https://www.washington.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.sitescout.com/up/9dc70c63eb4a60df?cntr_url=https%3A%2F%2Fwww.washington.edu%2F"
+      },
+      {
+        "data": {
+          "filter": "||sitescout.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-sync.sitescout.com/dmp/asyncPixelSync"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1933252956.178117,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cerd": "CgEA",
+            "crd": "CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSiZ0cmlnZ2VyPWV2ZW50LXNvdXJjZTtuYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "page_view",
+            "ept": 5,
+            "fmt": 8,
+            "frm": 0,
+            "fsk": "ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wlQT6rRD7ZoPg5Gfk-rWnXBHyM_-Q-vO8YP15dCd0drTpvi5El-_N4aAs42",
+            "fst": 1781170716026,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v9191271682za20gzb830688434zd830688434xec",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "AXYqCNCd2s4ZENmiv4E-",
+            "npa": 1,
+            "pscrd": "IhMI9qPI_vH-lAMVgS0GAB1biB7HOhtodHRwczovL3d3dy53YXNoaW5ndG9uLmVkdS9CWENoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXRBQktuRjVTTXpyQ2REYkozeW5UZENRSUJJbkNIaWw2dGx2bGJWbi1pVGc0Zjh5djBKMGR0ZzFJS0ZmYmR6DAgJYggIABAAGAAgAA",
+            "random": 1684180501,
+            "rcb": 2,
+            "tag_exp": "0~115938465~115938468",
+            "tiba": "UW Homepage",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.washington.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16646132057/?random=1684180501&cv=11&fst=1781170716026&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6691v9191271682za20gzb830688434zd830688434xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938465~115938468&u_w=375&u_h=812&url=https%3A%2F%2Fwww.washington.edu%2F&rcb=2&capi=2&frm=0&tiba=UW%20Homepage&npa=1&auid=1933252956.1781170715&label=AXYqCNCd2s4ZENmiv4E-&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSiZ0cmlnZ2VyPWV2ZW50LXNvdXJjZTtuYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM&cerd=CgEA&fsk=ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wlQT6rRD7ZoPg5Gfk-rWnXBHyM_-Q-vO8YP15dCd0drTpvi5El-_N4aAs42&pscrd=IhMI9qPI_vH-lAMVgS0GAB1biB7HOhtodHRwczovL3d3dy53YXNoaW5ndG9uLmVkdS9CWENoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXRBQktuRjVTTXpyQ2REYkozeW5UZENRSUJJbkNIaWw2dGx2bGJWbi1pVGc0Zjh5djBKMGR0ZzFJS0ZmYmR6DAgJYggIABAAGAAgAA"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_p": 1781170714675,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 673021289.178117,
+            "dl": "https://www.washington.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "UW Homepage",
+            "en": "page_view",
+            "frm": 0,
+            "gap.plf": 5,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v870837996z8830688434za20gzb830688434zd830688434",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170716,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tfd": 4712,
+            "tid": "G-JLHM9WH4JV",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-JLHM9WH4JV&gtm=45je6691v870837996z8830688434za20gzb830688434zd830688434&_p=1781170714675&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAAC&are=1&cid=673021289.1781170716&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938465~115938468&sid=1781170716&sct=1&seg=0&dl=https%3A%2F%2Fwww.washington.edu%2F&dt=UW%20Homepage&en=page_view&_fv=1&_ss=1&gap.plf=5&tfd=4712"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "async": 1,
+            "auid": 1933252956.178117,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "page_view",
+            "ept": 5,
+            "fmt": 7,
+            "frm": 0,
+            "fst": 1781170716026,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v9191271682za20gzb830688434zd830688434xec",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "AXYqCNCd2s4ZENmiv4E-",
+            "npa": 1,
+            "random": 1781170716026,
+            "rcb": 2,
+            "tag_exp": "0~115938465~115938468",
+            "tiba": "UW Homepage",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.washington.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/16646132057/?random=1781170716026&cv=11&fst=1781170716026&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6691v9191271682za20gzb830688434zd830688434xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938465~115938468&u_w=375&u_h=812&url=https%3A%2F%2Fwww.washington.edu%2F&rcb=2&capi=2&frm=0&tiba=UW%20Homepage&npa=1&auid=1933252956.1781170715&label=AXYqCNCd2s4ZENmiv4E-&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/activity;src=4532109;type=ip156748;cat=ip1560;rcb=8;ord=3736918643464;npa=1;auiddc=1933252956.1781170715;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;_tu=KFA;gtm=45fe6691v9189012624z8830688434za20gzb830688434zd830688434xea;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=6;tag_exp=115938465~115938469~119456239~119456247;dc_random=1781170715_D5IcS_WU6EUYJcoERbzgQEjB-1DsH4aCNA;epver=2?"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781170714675,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 673021289.178117,
+            "dl": "https://www.washington.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "UW Homepage",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v870836477z8830688434za20gzb830688434zd830688434",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 12,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170715,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 4176,
+            "tid": "G-3T65WK0BM8",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-3T65WK0BM8&gtm=45je6691v870836477z8830688434za20gzb830688434zd830688434&_p=1781170714675&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=673021289.1781170716&frm=0&pscdl=&rcb=12&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&sid=1781170715&sct=1&seg=0&dl=https%3A%2F%2Fwww.washington.edu%2F&dt=UW%20Homepage&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=4176"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pdata": "partner=tap373787,data=type:site$audience:SS_UniversityofWashington_ClientSite_Control"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://di.rlcdn.com/406006.gif?pdata=partner%3Dtap373787%2Cdata%3Dtype%3Asite%24audience%3ASS_UniversityofWashington_ClientSite_Control"
+      },
+      {
+        "data": {
+          "filter": "||agkn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "che": "",
+            "gtmcb": 316164738
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d.agkn.com/pixel/16400/?che=&gtmcb=316164738"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||pixel.ad^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "um": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://up.pixel.ad/assets/up.js?um=1"
+      },
+      {
+        "data": {
+          "filter": "||ensighten.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://nexus.ensighten.com/choozle/17098/Bootstrap.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/9gkmyab2zh"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_47642.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0128/7159.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-4532109"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-4532109&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-11078980387"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11078980387&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-16646132057"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-16646132057&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-JLHM9WH4JV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-JLHM9WH4JV&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-3T65WK0BM8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-3T65WK0BM8&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KQ6QQBT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KQ6QQBT"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "wordpress"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.washington.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/ops6ogokc6?ref=wordpress"
+      }
+    ]
+  }
+}

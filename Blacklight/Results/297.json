@@ -1,0 +1,309 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Nature",
+  "uri_ins": "https://nature.com",
+  "uri_dest": "https://www.nature.com/",
+  "uri_redirects": [
+    "https://nature.com/",
+    "https://www.nature.com/",
+    "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature",
+    "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature&code=cf129728-ef28-4d38-9617-9215ba298a81",
+    "https://www.nature.com/nature"
+  ],
+  "secure_connection": {},
+  "host": "nature.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:07:17.117Z",
+  "end_time": "2026-06-11T07:07:21.883Z",
+  "browsing_history": [
+    "https://www.nature.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nature.com",
+        "www.nature.com",
+        "idp.nature.com",
+        "verify.nature.com",
+        "cmp.nature.com",
+        "sgtm.nature.com"
+      ],
+      "third_party": [
+        "media.springernature.com",
+        "badges.altmetric.com",
+        "www.googletagmanager.com",
+        "sgtm.springernature.com",
+        "pagead2.googlesyndication.com",
+        "scripts.webcontentassessor.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ": [
+          "scroll",
+          "click"
+        ],
+        "https://cmp.nature.com/production_live/en/consent-bundle-8-102.js": [
+          "click"
+        ],
+        "https://www.nature.com/static/js/journal-homepage-es6-bundle-c1df11eaf3.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cmp.nature.com/production_live/en/consent-bundle-8-102.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "idp_session",
+        "value": "sVERSION_1b265460d-185f-4551-858c-c34dda84b300",
+        "domain": "nature.com",
+        "path": "/",
+        "expires": -1,
+        "size": 57,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "idp_session_http",
+        "value": "hVERSION_1bc599075-c7c8-4028-934d-a5f740f385e4",
+        "domain": "nature.com",
+        "path": "/",
+        "expires": -1,
+        "size": 62,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "idp_marker",
+        "value": "1aa3f491-fa70-41cf-a200-95f418362e18",
+        "domain": "nature.com",
+        "path": "/",
+        "expires": "2027-07-16T07:07:17.992Z",
+        "size": 46,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "user.uuid.v2",
+        "value": "\"ed2f265b-ca11-4c17-872a-1aff2438d262\"",
+        "domain": "www.nature.com",
+        "path": "/",
+        "expires": "2026-09-11T07:07:18.393Z",
+        "size": 50,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sncc",
+        "value": "P%3D8%3AV%3D102.0.0%26C%3DC01%26D%3Dfalse",
+        "domain": "nature.com",
+        "path": "/",
+        "expires": "2027-06-11T07:07:18.634Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sncc_tc_8",
+        "value": "CQlo8kAQlo8kAGgABAENCiFgAAAAAAAAAAYgAAAAAADBIAMAAQUrHQAYAAgpWQgAwABBSslABgACClZSADAAEFKy0AGAAIKVgAAA.IKVoBpC5EASFFIDJ3YJsEIAATwBhAAMAgAAAAAAAASBIAIAwAFCAAAAAAACAAAAIAAAAAIAAACAAAAAAAAAAABACAAAAAAAAAIAAAAAAAAEAAAAAAAAgAAAAAAAAEAgAAgQAAABIIQEAAAAAAIQABAIAAAIAAAQAAAAAAQAAAAAAAQAAAQAAIgAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIC.YAAAAAAAAAAA",
+        "domain": "nature.com",
+        "path": "/",
+        "expires": "2027-06-11T07:07:18.757Z",
+        "size": 347,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nature.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nature.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||webcontentassessor.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nature.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nature.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-MRVXSHQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nature.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MRVXSHQ&gtg_health=1"
+      }
+    ]
+  }
+}

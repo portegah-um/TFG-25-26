@@ -1,0 +1,996 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "People.com | Celebrity News, Exclusives, Photos and Videos",
+  "uri_ins": "https://people.com",
+  "uri_dest": "https://people.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "people.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:35:25.612Z",
+  "end_time": "2026-06-11T09:35:30.810Z",
+  "browsing_history": [
+    "https://people.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "people.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "securepubads.g.doubleclick.net",
+        "cdn.cookielaw.org",
+        "cdn.magazines.com",
+        "static.cloudflareinsights.com",
+        "d30qdagvt44524.cloudfront.net",
+        "region1.google-analytics.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://people.com/static/4.288.0/cache/eNp9lNtu2zAMhl9onp8hK4ZdBQjWYL2mJdphLYuGRDlInr600a1xRvtChqTvF8WD6DoLCLl6gCgB6_dcSwKH3-r1vuNh5IhRch3gxkVm5Xuu3AVd_yxWFBg8egM45p4wG6QIBRKbtbHaw56HXT6H1FPsdkUTRs-plkti0a0NM1iBz5vMXSeDDTqpmoTQj0yawn8SZSPyGHDXsQD3W6Y7arY5ttQ9SwI1ea3TSzBldEIcdyrpcmqXj-Uz3BorByN0WE2E1x27nQxLqQO5vvqbe8tWaXJpDPByPH3tsi8BlwDBf2aggpHWK0v--_xjHltocUwnPyd8rMmD6jDAnWN9Kk2gfMF0KJ4wOoX_b1nnjaI-BnNESeTyefYDk6kpSwmrNjCn56V14A2bP6vafKHXwHaUv07neVhIIHUoc-NkaFEjFkuV3bonVgUjr9kluVk4oaa-4Pn5hTw8JTU8K7tRLHolr_4pDtyAthjEiGm9su9tE-YLNAEPW46_aLsKTfhKXYRwhKjvPm12Xv5e4oQULvp3yx8GVgCf.min.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-DK3GDWHWJH&cx=c&gtm=4e6691h1": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P3X3VT7": [
+          "click"
+        ],
+        "https://people.com/static/4.288.0/cache/eNqlVG1y4yAMvdCynp5h_-4lFJCxGgEeJCdxT1_ZTls3aZjM9BfioffQB6ITBSXf-ZLGkjGrdGcKEW31k2hJzjP5o9MK_kg5_oz-6a4yCbIydq_SJTPcCTIxgxNfC_Ot1-5Oyoo1A3cBe6wLfzUqhi9SCROj7FlaLw76nphA0SnEiPUWZcpHV_FcSTdh4yesHlt-jUjxskVKbxtHFs078NcCzvKHidWNPEXKd1UwDsPb7CA0rvro5IAUB_03QI74n0QxWyl-AhtakcvB-jMghJW8LLfuTIc1Mnh5mV0g4BIbihlOFO2s5G5S64LOzqC93SD3pSbpBKH6wS2bvd3gJRSBiO4AeSnC922Dt2VzXdYWPZdZPzHb60fMa3Lft623DWFAodM6Sx_2s_G1QsOzMKq9tmuD7pHWmCYr1hJRpP7TbXcu6Jes7cWVhOPiaz51-yZkbz9HZhtMUdcjhr3tuEBwqVR8NBabA2QTqa0inyhgca_nkWG2_MdSLTzS7g55XuST-2g4WP4eoqA2yuyLfYcXnYDdCHN6hL0D1NA11A.min.js": [
+          "click",
+          "scroll"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-DK3GDWHWJH&cx=c&gtm=4e6691h1": [
+          "keyup"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P3X3VT7": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P3X3VT7": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "TMog",
+        "value": "n278b7053eb204dcda816d4770b93070709",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-07-16T09:35:26.537Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "globalTI_SID",
+        "value": "e1b190a4-15d4-4366-9cf0-0bc25236ef4a",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-07-16T09:35:26.537Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Mint",
+        "value": "n278b7053eb204dcda816d4770b93070709",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2026-06-11T10:05:26.537Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "pWX8I9CtFaqy5FV7hZTCFuwM6iDnjyJ0oFgtMSa0p0A-1781170526463-0.0.1.1-604800000",
+        "domain": "people.com",
+        "path": "/",
+        "expires": -1,
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lb_ld",
+        "value": "search",
+        "domain": "people.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "Jeb6CXVEICdF850Oy9x+xQMzqVqeKsrFicXvHe94GCK0oGREkE+LXe6mEZO85lEWM/jjCYHUaagNLK17edj7MhAMmL6xVueAJwjCRT/F+IzFnzRgEqqn5hz8Ds8I",
+        "domain": "cdn.magazines.com",
+        "path": "/",
+        "expires": "2026-06-18T09:35:26.980Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "SMAxQ3EfSpDzrDNnEBbYwX0fClcyV3SeNYNpEQCKEtw-1781170527-1.2.1.1-n0ZIK9fwhVkzwyXZ9mPo13_8vTzBoXIDN3Cx3Tom4qMBYT92VTaYr38FJEiMZxYQyr1EKs_Ok2IHJo_Mv_ln5VfOC6tnvPLet_qXt76SVPOWULApjkOBIP_C9c14CneTo2xATFO4eTBW5fIHOzbsv7cTWt4hlDBEvdFkBSfVW0RhAxFdlkSJyLZcAbErlEzceMoiLHRzXd23d1765qqrPUhTUCTdSdg4ATkWvYR5ITulCUiEhjX2rJJ2cXOUKwbaQTHpbYuejhucI7vzqjQ_xjqHIpvYKZka10FeETdcT6EnzFJ2BA6wM.YwMX9HyI_VqLHfVNaApAMxQ564U4hIDQ",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:27.698Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://people.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.851659115.1781170528",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-07-16T09:35:28.334Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OTGPPConsent",
+        "value": "DBABMA~CQlqQ3GQlqQ3GAcABBENCiFgAAAAAEPgAAYgAAAUlgTgALAAqABcADgAIAASAAyABoADwAIoATAA0AB-AEIAI4ATgArQB3QEHAQgAiwBHACRAEmAJoAT8Az4BrwDiAHtAVKAvMBlgD-wIJgSzAnKBOkChAFJQAAA.YAAACHwAAAAA",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:28.000Z",
+        "size": 192,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A35%3A28+GMT%2B0200+(Central+European+Summer+Time)&version=202510.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=d67590eb-4440-4878-8210-a5fdda454cd0&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fpeople.com%2F&GPPCookiesCount=1&gppSid=2&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:28.000Z",
+        "size": 353,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_31EK5CQB08",
+        "value": "GS2.1.s1781170527$o1$g1$t1781170528$j60$l0$h0",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-07-16T09:35:28.650Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_DK3GDWHWJH",
+        "value": "GS2.1.s1781170528$o1$g0$t1781170528$j60$l0$h0",
+        "domain": "people.com",
+        "path": "/",
+        "expires": "2027-07-16T09:35:28.672Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1315,
+            "_eu": "AAAAAAQ",
+            "_p": 1781170527310,
+            "_s": 3,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v9191121851za20gzb9223737758zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170528,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938469~117776794~118012009~118395335",
+            "tcfd": 10001,
+            "tfd": 4622,
+            "tid": "G-DK3GDWHWJH",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-DK3GDWHWJH&gtm=45je6691h1v9191121851za20gzb9223737758zd862680616&_p=1781170527310&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAQ&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115616985~115938465~115938469~117776794~118012009~118395335&sid=1781170528&sct=1&seg=0&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=user_engagement&_et=1315&tfd=4622"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781170527310,
+            "_s": 2,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "ddm_standard_event",
+            "ep.ab_proctor": "47|52|81|99-0|99-1|99-2|99-3|99-4|99-5|99-6|99-7|99-8|99-9|99-10|99-11|99-12|99-13|99-14|99-15|99-18|99-19|99-20|99-21|99-22|99-23|99-24|99-25|99-26",
+            "ep.ddm_ids": {
+              "muid": "e1b190a4-15d4-4366-9cf0-0bc25236ef4a",
+              "rid": "n278b7053eb204dcda816d4770b93070709",
+              "sid": "n278b7053eb204dcda816d4770b93070709",
+              "tmog": "n278b7053eb204dcda816d4770b93070709"
+            },
+            "ep.document": {
+              "doc_id": 5324742,
+              "experience_type": "single page",
+              "primary_taxonomy": "People.com",
+              "template_id": "100",
+              "template_type": "TAXONOMY"
+            },
+            "ep.environment": {
+              "application": "people",
+              "data_center": "us-east-1",
+              "mantle": "4.3.247",
+              "server_version": "4.288.0"
+            },
+            "ep.event_category": "Consent Management",
+            "ep.event_metadata": "",
+            "ep.event_subcategory": "Dotdash: Show | OneTrust: Show",
+            "ep.event_subtype": "Banner Display Logic",
+            "ep.event_target_url": "",
+            "ep.event_type": "Impression",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v9191121851z89223737758za20gzb9223737758zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170528,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938469~117776794~118012009~118395335",
+            "tcfd": 10001,
+            "tfd": 4621,
+            "tid": "G-DK3GDWHWJH",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-DK3GDWHWJH&gtm=45je6691h1v9191121851z89223737758za20gzb9223737758zd862680616&_p=1781170527310&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAQ&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115616985~115938465~115938469~117776794~118012009~118395335&sid=1781170528&sct=1&seg=0&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=ddm_standard_event&ep.ddm_ids=%7B%22rid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22sid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22muid%22%3A%22e1b190a4-15d4-4366-9cf0-0bc25236ef4a%22%2C%22tmog%22%3A%22n278b7053eb204dcda816d4770b93070709%22%7D&ep.environment=%7B%22mantle%22%3A%224.3.247%22%2C%22application%22%3A%22people%22%2C%22data_center%22%3A%22us-east-1%22%2C%22server_version%22%3A%224.288.0%22%7D&ep.ab_proctor=47%7C52%7C81%7C99-0%7C99-1%7C99-2%7C99-3%7C99-4%7C99-5%7C99-6%7C99-7%7C99-8%7C99-9%7C99-10%7C99-11%7C99-12%7C99-13%7C99-14%7C99-15%7C99-18%7C99-19%7C99-20%7C99-21%7C99-22%7C99-23%7C99-24%7C99-25%7C99-26&ep.event_category=Consent%20Management&ep.event_metadata=&ep.event_subcategory=Dotdash%3A%20Show%20%7C%20OneTrust%3A%20Show&ep.event_subtype=Banner%20Display%20Logic&ep.event_target_url=&ep.event_type=Impression&ep.document=%7B%22doc_id%22%3A5324742%2C%22template_type%22%3A%22TAXONOMY%22%2C%22template_id%22%3A%22100%22%2C%22primary_taxonomy%22%3A%22People.com%22%2C%22experience_type%22%3A%22single%20page%22%7D&tfd=4621"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1299,
+            "_eu": "AAAAAAQC",
+            "_p": 1781170527310,
+            "_s": 4,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "user_engagement",
+            "ep.ab_proctor": "",
+            "ep.ddm_ids": {
+              "tmog": "n278b7053eb204dcda816d4770b93070709"
+            },
+            "ep.environment": {},
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691h1v9117495350za20gzb862680616zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 12,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781170527,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456239~119456247",
+            "tcfd": 10001,
+            "tfd": 4607,
+            "tid": "G-31EK5CQB08",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-31EK5CQB08&gtm=45je6691h1v9117495350za20gzb862680616zd862680616&_p=1781170527310&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAQC&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=12&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=4&tag_exp=115938465~115938469~119456239~119456247&sid=1781170527&sct=1&seg=1&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=user_engagement&ep.ddm_ids=%7B%22tmog%22%3A%22n278b7053eb204dcda816d4770b93070709%22%7D&ep.environment=%7B%7D&ep.ab_proctor=&_et=1299&tfd=4607"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQC",
+            "_p": 1781170527310,
+            "_s": 3,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "ddm_standard_event",
+            "ep.ab_proctor": "47|52|81|99-0|99-1|99-2|99-3|99-4|99-5|99-6|99-7|99-8|99-9|99-10|99-11|99-12|99-13|99-14|99-15|99-18|99-19|99-20|99-21|99-22|99-23|99-24|99-25|99-26",
+            "ep.ddm_ids": {
+              "muid": "e1b190a4-15d4-4366-9cf0-0bc25236ef4a",
+              "rid": "n278b7053eb204dcda816d4770b93070709",
+              "sid": "n278b7053eb204dcda816d4770b93070709",
+              "tmog": "n278b7053eb204dcda816d4770b93070709"
+            },
+            "ep.document": {
+              "doc_id": 5324742,
+              "experience_type": "single page",
+              "primary_taxonomy": "People.com",
+              "template_id": "100",
+              "template_type": "TAXONOMY"
+            },
+            "ep.environment": {
+              "application": "people",
+              "data_center": "us-east-1",
+              "mantle": "4.3.247",
+              "server_version": "4.288.0"
+            },
+            "ep.event_category": "Consent Management",
+            "ep.event_metadata": "",
+            "ep.event_subcategory": "Dotdash: Show | OneTrust: Show",
+            "ep.event_subtype": "Banner Display Logic",
+            "ep.event_target_url": "",
+            "ep.event_type": "Impression",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691h1v9117495350z8862680616za20gzb862680616zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 12,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781170527,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456239~119456247",
+            "tcfd": 10001,
+            "tfd": 4607,
+            "tid": "G-31EK5CQB08",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-31EK5CQB08&gtm=45je6691h1v9117495350z8862680616za20gzb862680616zd862680616&_p=1781170527310&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAQC&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=12&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938469~119456239~119456247&sid=1781170527&sct=1&seg=1&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=ddm_standard_event&ep.ddm_ids=%7B%22rid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22sid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22muid%22%3A%22e1b190a4-15d4-4366-9cf0-0bc25236ef4a%22%2C%22tmog%22%3A%22n278b7053eb204dcda816d4770b93070709%22%7D&ep.environment=%7B%22mantle%22%3A%224.3.247%22%2C%22application%22%3A%22people%22%2C%22data_center%22%3A%22us-east-1%22%2C%22server_version%22%3A%224.288.0%22%7D&ep.ab_proctor=47%7C52%7C81%7C99-0%7C99-1%7C99-2%7C99-3%7C99-4%7C99-5%7C99-6%7C99-7%7C99-8%7C99-9%7C99-10%7C99-11%7C99-12%7C99-13%7C99-14%7C99-15%7C99-18%7C99-19%7C99-20%7C99-21%7C99-22%7C99-23%7C99-24%7C99-25%7C99-26&ep.event_category=Consent%20Management&ep.event_metadata=&ep.event_subcategory=Dotdash%3A%20Show%20%7C%20OneTrust%3A%20Show&ep.event_subtype=Banner%20Display%20Logic&ep.event_target_url=&ep.event_type=Impression&ep.document=%7B%22doc_id%22%3A5324742%2C%22template_type%22%3A%22TAXONOMY%22%2C%22template_id%22%3A%22100%22%2C%22primary_taxonomy%22%3A%22People.com%22%2C%22experience_type%22%3A%22single%20page%22%7D&tfd=4607"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1781170527310,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "page_view",
+            "ep.ab_proctor": "47|52|81|99-0|99-1|99-2|99-3|99-4|99-5|99-6|99-7|99-8|99-9|99-10|99-11|99-12|99-13|99-14|99-15|99-18|99-19|99-20|99-21|99-22|99-23|99-24|99-25|99-26",
+            "ep.ddm_ids": {
+              "muid": "e1b190a4-15d4-4366-9cf0-0bc25236ef4a",
+              "rid": "n278b7053eb204dcda816d4770b93070709",
+              "sid": "n278b7053eb204dcda816d4770b93070709",
+              "tmog": "n278b7053eb204dcda816d4770b93070709"
+            },
+            "ep.document": {
+              "doc_id": 5324742,
+              "experience_type": "single page",
+              "primary_taxonomy": "People.com",
+              "template_id": "100",
+              "template_type": "TAXONOMY"
+            },
+            "ep.environment": {
+              "application": "people",
+              "data_center": "us-east-1",
+              "mantle": "4.3.247",
+              "server_version": "4.288.0"
+            },
+            "ep.recirc": null,
+            "ep.scrolled_doc_ordinal": "undefined",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v9191121851z89223737758za20gzb9223737758zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170528,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938469~117776794~118012009~118395335",
+            "tcfd": 10001,
+            "tfd": 2257,
+            "tid": "G-DK3GDWHWJH",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-DK3GDWHWJH&gtm=45je6691h1v9191121851z89223737758za20gzb9223737758zd862680616&_p=1781170527310&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938465~115938469~117776794~118012009~118395335&sid=1781170528&sct=1&seg=0&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=page_view&_fv=1&_ss=1&ep.ddm_ids=%7B%22rid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22sid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22muid%22%3A%22e1b190a4-15d4-4366-9cf0-0bc25236ef4a%22%2C%22tmog%22%3A%22n278b7053eb204dcda816d4770b93070709%22%7D&ep.environment=%7B%22mantle%22%3A%224.3.247%22%2C%22application%22%3A%22people%22%2C%22data_center%22%3A%22us-east-1%22%2C%22server_version%22%3A%224.288.0%22%7D&ep.ab_proctor=47%7C52%7C81%7C99-0%7C99-1%7C99-2%7C99-3%7C99-4%7C99-5%7C99-6%7C99-7%7C99-8%7C99-9%7C99-10%7C99-11%7C99-12%7C99-13%7C99-14%7C99-15%7C99-18%7C99-19%7C99-20%7C99-21%7C99-22%7C99-23%7C99-24%7C99-25%7C99-26&ep.document=%7B%22doc_id%22%3A5324742%2C%22template_type%22%3A%22TAXONOMY%22%2C%22template_id%22%3A%22100%22%2C%22primary_taxonomy%22%3A%22People.com%22%2C%22experience_type%22%3A%22single%20page%22%7D&ep.recirc=null&ep.scrolled_doc_ordinal=undefined&tfd=2257"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-DK3GDWHWJH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-DK3GDWHWJH&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_c": 1,
+            "_eu": "AAAAAAQC",
+            "_p": 1781170527310,
+            "_prs": "gs",
+            "_s": 2,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "page_view",
+            "ep.ab_proctor": "47|52|81|99-0|99-1|99-2|99-3|99-4|99-5|99-6|99-7|99-8|99-9|99-10|99-11|99-12|99-13|99-14|99-15|99-18|99-19|99-20|99-21|99-22|99-23|99-24|99-25|99-26",
+            "ep.ddm_ids": {
+              "muid": "e1b190a4-15d4-4366-9cf0-0bc25236ef4a",
+              "rid": "n278b7053eb204dcda816d4770b93070709",
+              "sid": "n278b7053eb204dcda816d4770b93070709",
+              "tmog": "n278b7053eb204dcda816d4770b93070709"
+            },
+            "ep.document": {
+              "doc_id": 5324742,
+              "experience_type": "single page",
+              "primary_taxonomy": "People.com",
+              "template_id": "100",
+              "template_type": "TAXONOMY"
+            },
+            "ep.environment": {
+              "application": "people",
+              "data_center": "us-east-1",
+              "mantle": "4.3.247",
+              "server_version": "4.288.0"
+            },
+            "ep.recirc": null,
+            "ep.scrolled_doc_ordinal": "undefined",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691h1v9117495350z8862680616za20gzb862680616zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 12,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781170527,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456239~119456247",
+            "tcfd": 10001,
+            "tfd": 1854,
+            "tid": "G-31EK5CQB08",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-31EK5CQB08&gtm=45je6691h1v9117495350z8862680616za20gzb862680616zd862680616&_p=1781170527310&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAQC&_prs=gs&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=12&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938469~119456239~119456247&sid=1781170527&sct=1&seg=1&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=page_view&_c=1&ep.ddm_ids=%7B%22rid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22sid%22%3A%22n278b7053eb204dcda816d4770b93070709%22%2C%22muid%22%3A%22e1b190a4-15d4-4366-9cf0-0bc25236ef4a%22%2C%22tmog%22%3A%22n278b7053eb204dcda816d4770b93070709%22%7D&ep.environment=%7B%22mantle%22%3A%224.3.247%22%2C%22application%22%3A%22people%22%2C%22data_center%22%3A%22us-east-1%22%2C%22server_version%22%3A%224.288.0%22%7D&ep.ab_proctor=47%7C52%7C81%7C99-0%7C99-1%7C99-2%7C99-3%7C99-4%7C99-5%7C99-6%7C99-7%7C99-8%7C99-9%7C99-10%7C99-11%7C99-12%7C99-13%7C99-14%7C99-15%7C99-18%7C99-19%7C99-20%7C99-21%7C99-22%7C99-23%7C99-24%7C99-25%7C99-26&ep.document=%7B%22doc_id%22%3A5324742%2C%22template_type%22%3A%22TAXONOMY%22%2C%22template_id%22%3A%22100%22%2C%22primary_taxonomy%22%3A%22People.com%22%2C%22experience_type%22%3A%22single%20page%22%7D&ep.recirc=null&ep.scrolled_doc_ordinal=undefined&tfd=1854"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781170527310,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 851659115.178117,
+            "dl": "https://people.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "People.com | Celebrity News, Exclusives, Photos and Videos",
+            "en": "proctor",
+            "ep.ab_proctor": "47|52|81|99-0|99-1|99-2|99-3|99-4|99-5|99-6|99-7|99-8|99-9|99-10|99-11|99-12|99-13|99-14|99-15|99-18|99-19|99-20|99-21|99-22|99-23|99-24|99-25|99-26",
+            "ep.ddm_ids": {
+              "tmog": "n278b7053eb204dcda816d4770b93070709"
+            },
+            "ep.environment": {},
+            "ep.proctor_data": {
+              "application": "ab-proctor",
+              "proctor_ids": "47|52|81|99-0|99-1|99-2|99-3|99-4|99-5|99-6|99-7|99-8|99-9|99-10|99-11|99-12|99-13|99-14|99-15|99-18|99-19|99-20|99-21|99-22|99-23|99-24|99-25|99-26"
+            },
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691h1v9117495350z8862680616za20gzb862680616zd862680616",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 12,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170527,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456239~119456247",
+            "tcfd": 10001,
+            "tfd": 1838,
+            "tid": "G-31EK5CQB08",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-31EK5CQB08&gtm=45je6691h1v9117495350z8862680616za20gzb862680616zd862680616&_p=1781170527310&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAAAC&are=1&cid=851659115.1781170528&frm=0&pscdl=&rcb=12&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~119456239~119456247&sid=1781170527&sct=1&seg=0&dl=https%3A%2F%2Fpeople.com%2F&dt=People.com%20%7C%20Celebrity%20News%2C%20Exclusives%2C%20Photos%20and%20Videos&en=proctor&_fv=1&_nsi=1&_ss=1&ep.ddm_ids=%7B%22tmog%22%3A%22n278b7053eb204dcda816d4770b93070709%22%7D&ep.environment=%7B%7D&ep.ab_proctor=47%7C52%7C81%7C99-0%7C99-1%7C99-2%7C99-3%7C99-4%7C99-5%7C99-6%7C99-7%7C99-8%7C99-9%7C99-10%7C99-11%7C99-12%7C99-13%7C99-14%7C99-15%7C99-18%7C99-19%7C99-20%7C99-21%7C99-22%7C99-23%7C99-24%7C99-25%7C99-26&ep.proctor_data=%7B%22application%22%3A%22ab-proctor%22%2C%22proctor_ids%22%3A%2247%7C52%7C81%7C99-0%7C99-1%7C99-2%7C99-3%7C99-4%7C99-5%7C99-6%7C99-7%7C99-8%7C99-9%7C99-10%7C99-11%7C99-12%7C99-13%7C99-14%7C99-15%7C99-18%7C99-19%7C99-20%7C99-21%7C99-22%7C99-23%7C99-24%7C99-25%7C99-26%22%7D&tfd=1838"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ccid": 62680616,
+            "cid": "GTM-P3X3VT7",
+            "cl": "3.2.1",
+            "gtm": "45He6691h1v862680616za200zd862680616",
+            "h": "Ag",
+            "l": "L1228.S18.Y60.B63.E170.I807.TC13.HTC5.F611.C4~gtm.init_consent.S9.V8.E77~gtm.init.S3.V3.E76.TS5googtag.TI433.TE10.TS5html.TI485.TE1.TS5html.TI514.TE0.TS5html.TI526.TE0~*.S4.V3.E138.TS5gaawe.TI454.TE6~gtm.js.S2.V2.E127.TS5zone.TI710.TE1.TS5lcl.TI711.TE1.TS5jel.TI712.TE0.TS5tg.TI713.TE0~*.S3.V3.E119.TS5gaawe.TI432.TE6.TS5html.TI140.TE1~gtm.dom.S2.V2.E104.TS5html.TI170.TE2~gtm.load.S2.V2.E99.TS5sdl.TI717.TE1",
+            "pid": 1584185496,
+            "rv": 6691,
+            "t": "l",
+            "tag_exp": "0~115938465~115938468",
+            "u": "AAAAAAAIAAAAAACIAAAAEA",
+            "v": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=1584185496&rv=6691&tag_exp=0~115938465~115938468&u=AAAAAAAIAAAAAACIAAAAEA&h=Ag&gtm=45He6691h1v862680616za200zd862680616&cl=3.2.1&ccid=62680616&cid=GTM-P3X3VT7&l=L1228.S18.Y60.B63.E170.I807.TC13.HTC5.F611.C4~gtm.init_consent.S9.V8.E77~gtm.init.S3.V3.E76.TS5googtag.TI433.TE10.TS5html.TI485.TE1.TS5html.TI514.TE0.TS5html.TI526.TE0~*.S4.V3.E138.TS5gaawe.TI454.TE6~gtm.js.S2.V2.E127.TS5zone.TI710.TE1.TS5lcl.TI711.TE1.TS5jel.TI712.TE0.TS5tg.TI713.TE0~*.S3.V3.E119.TS5gaawe.TI432.TE6.TS5html.TI140.TE1~gtm.dom.S2.V2.E104.TS5html.TI170.TE2~gtm.load.S2.V2.E99.TS5sdl.TI717.TE1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": "4e6691h1",
+            "id": "GTM-WT6XGWDH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WT6XGWDH&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-31EK5CQB08"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-31EK5CQB08&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-31EK5CQB08",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-31EK5CQB08&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-P3X3VT7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://people.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P3X3VT7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Featured Content on Myspace",
+  "uri_ins": "https://myspace.com",
+  "uri_dest": "https://myspace.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "myspace.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:29:47.910Z",
+  "end_time": "2026-06-11T09:29:53.008Z",
+  "browsing_history": [
+    "https://myspace.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "myspace.com"
+      ],
+      "third_party": [
+        "x.myspacecdn.com",
+        "content.myspacecdn.com",
+        "ajax.googleapis.com",
+        "www.google.com",
+        "ucid.vindicosuite.com",
+        "x.vindicosuite.com",
+        "mpp.vindicosuite.com",
+        "www.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://x.myspacecdn.com/new/common/js/mobileGlobal.DB2F55EF78E7746EAE94B0ADE95F97CB.min.js": [
+          "scroll"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js": [
+          "scroll",
+          "mousemove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "persistent_id",
+        "value": "pid%3D86f355ca-1f6d-48a8-8c43-4d9d0b793add%26llid%3D%26lprid%3D%26lltime%3D",
+        "domain": "myspace.com",
+        "path": "/",
+        "expires": "2027-07-16T09:29:49.227Z",
+        "size": 88,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visit_id",
+        "value": "5da14827-c4d9-4c55-963c-a9f13c82b856",
+        "domain": "myspace.com",
+        "path": "/",
+        "expires": "2026-06-11T09:59:50.062Z",
+        "size": 44,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "beacons_enabled",
+        "value": "true",
+        "domain": "myspace.com",
+        "path": "/",
+        "expires": "2026-06-11T09:59:49.228Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||vindicosuite.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "pixid": 21032201,
+            "rnd": 19111619,
+            "spd": 1,
+            "t": "i",
+            "tpr": 0,
+            "y": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://myspace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mpp.vindicosuite.com/mpp/?y=2&t=i&tpr=0&spd=1&pixid=21032201&rnd=19111619"
+      },
+      {
+        "data": {
+          "filter": "||vindicosuite.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "l": 194575,
+            "msd": "2:2:HsoShKbs-pAVG0wg-zs6plz7rPOuHk3NnGM984tdhpY",
+            "rnd": 32688434,
+            "sz": "1x1",
+            "t": "h"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.vindicosuite.com/?l=194575&sz=1x1&msd=2:2:HsoShKbs-pAVG0wg-zs6plz7rPOuHk3NnGM984tdhpY&rnd=32688434&t=h"
+      },
+      {
+        "data": {
+          "filter": "||vindicosuite.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "r": "",
+            "u": "https://myspace.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://myspace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ucid.vindicosuite.com/js/tm.js?r=&u=https%3A%2F%2Fmyspace.com%2F"
+      }
+    ]
+  }
+}

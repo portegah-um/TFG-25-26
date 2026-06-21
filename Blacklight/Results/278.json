@@ -1,0 +1,131 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "AMP - a web component framework to easily create user-first web experiences - amp.dev",
+  "uri_ins": "https://ampproject.org",
+  "uri_dest": "https://amp.dev/",
+  "uri_redirects": [
+    "https://ampproject.org/",
+    "https://www.ampproject.org/"
+  ],
+  "secure_connection": {},
+  "host": "ampproject.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:01:33.757Z",
+  "end_time": "2026-06-11T07:01:36.762Z",
+  "browsing_history": [
+    "https://amp.dev/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ampproject.org",
+        "www.ampproject.org",
+        "cdn.ampproject.org",
+        "amp.dev"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs": [
+          "keyup",
+          "keydown"
+        ],
+        "https://cdn.ampproject.org/v0.mjs": [
+          "keydown",
+          "input"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs": [
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://cdn.ampproject.org/v0.mjs": [
+          "mousedown",
+          "click",
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/amp-analytics-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amp.dev/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs"
+      }
+    ]
+  }
+}

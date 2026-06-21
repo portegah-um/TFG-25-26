@@ -1,0 +1,492 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Página oficial de PlayStation®: Consolas, juegos, accesorios y más",
+  "uri_ins": "https://playstation.com",
+  "uri_dest": "https://www.playstation.com/es-es/",
+  "uri_redirects": [
+    "https://playstation.com/",
+    "https://www.playstation.com/"
+  ],
+  "secure_connection": {},
+  "host": "playstation.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:39:38.198Z",
+  "end_time": "2026-06-11T08:39:45.051Z",
+  "browsing_history": [
+    "https://www.playstation.com/es-es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "playstation.com",
+        "www.playstation.com",
+        "stage.playstation.com",
+        "static.playstation.com",
+        "social.playstation.com",
+        "web-toolbar.playstation.com",
+        "gmedia.playstation.com",
+        "smetrics.aem.playstation.com",
+        "telemetry-web.api.playstation.com",
+        "web.np.playstation.com"
+      ],
+      "third_party": [
+        "assets.adobedtm.com",
+        "cdn.schemaapp.com",
+        "fast.fonts.net",
+        "static.ads-twitter.com",
+        "connect.facebook.net",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "s.btstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.vendor.min.2dda815ad00141feb831600b777f8e2c.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-jetstream.12f068d737f3481bad43457968743e5f.js": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.vendor.min.2dda815ad00141feb831600b777f8e2c.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://web-toolbar.playstation.com/oracle-10d4ffc5828b64fa06fc.js": [
+          "click"
+        ],
+        "https://static.ads-twitter.com/uwt.js": [
+          "click"
+        ],
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.jquery.min.cf2fbbf84281d9ecbffb4993203d543b.js": [
+          "scroll"
+        ],
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-jetstream.12f068d737f3481bad43457968743e5f.js": [
+          "click",
+          "mousedown",
+          "scroll"
+        ],
+        "https://assets.adobedtm.com/3dc13bcabc29/e1d3c7e41fac/launch-c1f03f5b4bc6.min.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.jquery.min.cf2fbbf84281d9ecbffb4993203d543b.js": [
+          "keydown",
+          "input"
+        ],
+        "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.vendor.min.2dda815ad00141feb831600b777f8e2c.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "country",
+        "value": "ES",
+        "domain": "www.playstation.com",
+        "path": "/",
+        "expires": "2026-06-11T20:39:39.662Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-06-11T09:39:39.663Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "C620826AC1925DE2F133D0CCF7287D73~000000000000000000000000000000~YAAQ4W1lX7KMPrOeAQAAOkjWtQDMzK5MIrveu9f6K7s1B2kl8+WuvGqlHG39ipLosXt8JS+usDIMdxJ94MzoJe/hCu47k+BcY6QpBJgLi7Rwn7RfgQlZW1P7x1tSrJS/UEybcTQhDv4KFYVzurQLhdJZqZV2XRTWwKPPKrp0yghCH5mHlSIDE7hLOKpGK/dyj8nCNqQeKGf4JP8FSwFRo37J4kNmGeTN7DZn1SNfN0mY3DeaZjkzep7fKnrAYLCzSRk205KOXd/9iDJsepyTf1fn10vS5BYAe0nNz1hivfM6s/AJljS4+izYlBSUiqOdovFHIblL8OgJz5TO9ftiqHyMKER4HCh3NoWwCjycGOI5zUae1kzCpXHo61ahukdE1Fql8ClypB7Mes4rZfKsYg==",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-06-11T10:39:39.858Z",
+        "size": 479,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "country",
+        "value": "ES",
+        "domain": "stage.playstation.com",
+        "path": "/",
+        "expires": "2026-06-11T20:39:40.359Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "rjSUAqyPhrftSio6O0drBHa6vvwgP4QtZ.60k1Eclz4-1781167180.3361704-1.0.1.1-SlSfsd8Mfos1E3Zzs2GlOAwh1kmNjQypubNZSWfMv8mrNQBbgSbdp3BUUxIi9Fjg18RRLZ1N5PpFtDcCQK0EeRj5sX5lSzvj9OWBlhoUAiV0dNwKuDRCz.kSw1zkQDbU",
+        "domain": "fonts.net",
+        "path": "/",
+        "expires": "2026-06-11T09:09:40.376Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "akacd_clt_webtoolbar_prod_prc",
+        "value": "2147483647~rv=90~id=785693686a7cf5044d288a17970fb462",
+        "domain": "web-toolbar.playstation.com",
+        "path": "/",
+        "expires": "2027-07-16T08:39:40.980Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_BD260C0F53C9733E0A490D45%40AdobeOrg",
+        "value": "MCMID%7C40987743956004843968512873265301914787",
+        "domain": "www.playstation.com",
+        "path": "/",
+        "expires": -1,
+        "size": 86,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "eucookiepreference",
+        "value": "reject",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-06-13T21:29:42.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A39%3A42+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1d4a16a9-cd8f-4ee6-83cf-bb9243c167ce&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.playstation.com%2Fes-es%2F&groups=C0002%3A0%2CC0004%3A0%2CC0003%3A0%2CC0001%3A1%2CSEU21%3A0",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2027-06-11T08:39:42.000Z",
+        "size": 386,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bm_ss",
+        "value": "ab8e18ef4e",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-06-11T09:39:43.445Z",
+        "size": 15,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_abck",
+        "value": "9059377DD05A1F73231A20EC6915920F~-1~YAAQKrkUAlYs/HGeAQAAnVXWtRCXQfX683TTvgIkZVXfX2SFaZxXZ/wVXhDmvqoqVQUnmXaJ3/yfoJGIeCwJOvNhzDyGNrhXEoUWMZnLDCvmWB03ya1kwC6+NPCrJ0O99HRcNvWceJonstK+ew28z4ClrU7DrVQ2UIm6n87prjNafQ5Fl76JNhx8TY1DPu/7ZI06r9F6204mHOkeSAOi5bK98u+sD16AoqZSAm+dqxHGsF3s+JYq6+1PtJ6GH5sIBj86Is6V4K9M9hMlAkwKOfvU27BaVyUVvWcYoczN3OW0Cm69OHvKznG+/9U9alNHmmVAeCp47AHL9tuTLKFeHrJusGxZGt15U5wGsuu9p/VBSfPrCSyFLsxz0P+aeSsnzQ2epneL0gUOh2PS8DtmJGBlVi/daXpqy4M/oQdvxoOlvZt/f1fIOwTt1sUX/4JD1aVQu7ZqEAZODtS81/ZXAeBflXlu+FCbsW74seXL0v/CgxY=~-1~-1~-1~-1~-1",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2027-06-11T08:39:43.445Z",
+        "size": 552,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_s",
+        "value": "YAAQKrkUAlcs/HGeAQAAnVXWtQXpK9+tQr5qDFh1/RyGl2cWoiC6nlH5ThFrYqqfq+On2L5dJzKBcXHOGnapHHXrUcz9Wv2t7lnNfGmEC6mg9xGz2E+9NUVUOMuzcsBuklqVp0++intO4zPgc/5IGJr3LKxhUvR/LF/cCGcZPckIzbUz9EVs47hdNEAV0cV1Zr6IibiogS54MqywAFkoPVgRxS2ixYXPIanCgpq4zNvAKF7L9iLb8Jq37TIEROnge5w8jxYDJN9C6e4iiKeTG8a+5LgroR4IQ5FLR9C1wuhXm41mQINY1j9cPl1DZHw1AAOL2l3mynsrukPdS8Yw72EAyl7lFs2F5EkZ7uAB2EhLx5KjYlSPPEJPLtQ3+GYmT2FiAE9t2AOOWYcme0VRHUPRD9+HTdto5TIFEXWjOGp3LdW9fFA+4sGESituEvTDiAHs8res2/k13Jg5qA5mArkBnmW86UhxE2xDyWn9Yj4NGP8cW/TVAWSuSiAa3iyouggQzX1yfZeWdtn3R7M6zWPtm3zmHnTd38GXaDThu9ceWyd1ZldWO6rXtLqR3Z/mPmQHQaSPTLLy4h2RsgHVSDhHLuoW0LSrbAjHDATj7O4QN0WjSqhVTIrTt5HIpUn5wtiA2JE2M9NtpCc7EEQidX15pPqXrEPIWeprgQWjknmw5RhxKGhgiKcz1LaWGCNemYx0dthM6vauvxfxuUyGumWptQQluQ1qbGs1ClQNMsrvxEFQkpkL4t9PiuMCA82lK7E23OBzPE8rBAk3IbpHyLMG/G7WiWvLFwHijUO805vxUqLvN1BlDyy7lKIcZKJeLEjUSX1uRQA=",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-07-12T08:39:43.445Z",
+        "size": 848,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_so",
+        "value": "55184800CAC9C3D0E8DA7ECD5D594A50E2476B9C21C41A4F69A4F1132DD4D461~YAAQKrkUAlgs/HGeAQAAnVXWtQidVP4HZ4Izrk5AQXL5rzuia+SVHT/CwqqPri7QI8UeLlhxI9tMtYetB8rBrnCXFV5cQV/AowJI7lX0ts2bhv4Z5Xd73b5Hr1gv1dr4wAk3N/tQmA8c0+TThcqJg+hIW1ZkpTaTSkZhQGQ8Wj9yWy3w1t/fKrARl1Z6GLPo9+I0PY/bQ8lWQxmuJxsC0A3Y0qKw58bd7GQnDuFvvUZVTOp4JRSw0MqtNG0EmhnB9PJsPUufv/NYn2UOWDgr+ShjRFMWfS8BjDNO7VSeQpJ8zveOxxql4REps9Rg5xTuV8P0Xjitof8mMrPsgQ/9HK2i7EyguwahQg1hWmkqZWTGcz6n8Dw0J3zi/gYKJ6E2YmPPn16XtqRngrCfC6iNqik8xIKjuz/WKmhQacwufx8FthyGTAw4tpqZ+koW+Utj2P9Nuu/kcjJ7iWpY5ogquEX5ft1lmQ==",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-06-12T08:39:43.445Z",
+        "size": 550,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "CE90795FE3D02D2EDAA3641DA0B52F9E~YAAQKrkUAlks/HGeAQAAnVXWtQBTbFXIUBjs2IGOsl7/j5fR1GWWAhKFyHoJrj9kv8wNi4nNiEbfwK0MholMXG1KmBHx4i2oSd/iD0hb9llMPC6YqB77w+ItsgW4HW9u2AvbFh3DxxD2TSZUrpZFX9NhloIxElb1+gnQlTdeQalJUGW6x/4fbqsSohF0isA0rDcEfr4Ut0AyVp1m1dXqdmIWypQfnMAAahwGWzqlaj1hnb3zU/x93uRvAT9P8ar2DEwBLgiaDTO/jvSw3oVkiBBimv3EeC81AoAKcLB9zUEKDu5fahOjvrF8rfo3fxq/9Y67uryU4OoKbcwfGvP2jxkaADqX3OPhtSfjzpaCxwpqosZDu89aX9VFEs7LzvQVzUtGDuufe6Pv~3617604~4274231",
+        "domain": "playstation.com",
+        "path": "/",
+        "expires": "2026-06-11T12:39:42.445Z",
+        "size": 450,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.playstation.com/es-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.playstation.com/es-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/3dc13bcabc29/e1d3c7e41fac/8f5e93585848/RCaa17c9a7584749baa12684a1c7121c39-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.playstation.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.playstation.com/es-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1611628815822807?v=2.9.337&r=stable&domain=www.playstation.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "/OtAutoBlock.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.playstation.com/es-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cookielaw.org/consent/0194a27f-57a3-7617-afa7-86ca2a2123a3/OtAutoBlock.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.playstation.com/es-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.playstation.com/es-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      }
+    ]
+  }
+}

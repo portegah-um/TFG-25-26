@@ -1,0 +1,470 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Where Creator Communities Thrive — Patreon",
+  "uri_ins": "https://patreon.com",
+  "uri_dest": "https://www.patreon.com/",
+  "uri_redirects": [
+    "https://patreon.com/"
+  ],
+  "secure_connection": {},
+  "host": "patreon.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:22:53.730Z",
+  "end_time": "2026-06-11T08:22:59.928Z",
+  "browsing_history": [
+    "https://www.patreon.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "patreon.com",
+        "www.patreon.com",
+        "c14.patreon.com",
+        "c5.patreon.com"
+      ],
+      "third_party": [
+        "transcend-cdn.com",
+        "static.cloudflareinsights.com",
+        "o83571.ingest.sentry.io",
+        "flagcdn.com",
+        "cloudflareinsights.com",
+        "jobs.ashbyhq.com",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com",
+        "c10.patreonusercontent.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-JF55G82FNT": [
+          "click"
+        ],
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/main-a9a8e9e376903548.js": [
+          "click"
+        ],
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/pages/_app-518849de9a363548.js": [
+          "click",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/529-c17a6f08e7faf7d3.js": [
+          "mousedown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.patreon.com/_marketing_assets/assets/js/app.1780000907351.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/pages/_app-518849de9a363548.js": [
+          "touchend",
+          "touchmove",
+          "touchstart",
+          "touchcancel"
+        ],
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/529-c17a6f08e7faf7d3.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/main-a9a8e9e376903548.js": [
+          "keydown"
+        ],
+        "https://www.patreon.com/_marketing_assets/_next/static/chunks/pages/_app-518849de9a363548.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://www.patreon.com/_marketing_assets/assets/js/app.1780000907351.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "patreon_device_id",
+        "value": "42ebbb4a-8093-4139-9450-97dca09543ae",
+        "domain": "www.patreon.com",
+        "path": "/",
+        "expires": "2027-07-16T08:22:54.489Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "X1B4By0NsBN4SDovq3QcBpR2TP72wVAxtK4vx6NOIWc-1781166174.3654447-1.0.1.1-7uAt8joNEj_cD7suWN06ZJrEmkzKEfgJ0URwwin7FbxCnWGzSNe35L3Ey4eL8cdqRvIAHtMu1KZ8MDaP_xt0bZ2JvQyS.xDZELHLy_ngT7geCgsjs9x6jaDcIyOJgj9Hq9nU4PtUDVyc5zP.18u7qQ",
+        "domain": "patreon.com",
+        "path": "/",
+        "expires": "2026-06-11T08:52:54.489Z",
+        "size": 228,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "patreon_location_country_code",
+        "value": "US",
+        "domain": "www.patreon.com",
+        "path": "/",
+        "expires": "2026-07-11T08:22:55.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "patreon_currency_pref",
+        "value": "USD",
+        "domain": "www.patreon.com",
+        "path": "/",
+        "expires": "2026-07-11T08:22:55.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "a_csrf",
+        "value": "GVi3L7Mz0oAVC5qPUEqRLjnwvsj8T8BhlnDBAYkcuZc",
+        "domain": "patreon.com",
+        "path": "/",
+        "expires": "2026-06-11T09:22:59.609Z",
+        "size": 49,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "analytics_session_id",
+        "value": "6cfa5f64-42e5-409c-9de8-71ac492962cf",
+        "domain": "patreon.com",
+        "path": "/",
+        "expires": "2026-06-11T08:52:58.954Z",
+        "size": 56,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "WlsIl0Dxk63pfY5VcfZ_19osmwv4pxHTmwH12UszQdA-1781166178.6149168-1.0.1.1-czX3sQEPrQdYhqwEVmLTvPxM4L65meh2FrDAoIhYdCI",
+        "domain": "patreon.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.46.0",
+            "sentry_key": "1cf4b989752b490ea5444fd20898f534",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o83571.ingest.sentry.io/api/4504804404625408/envelope/?sentry_key=1cf4b989752b490ea5444fd20898f534&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.46.0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1512,
+            "_eu": "AAAAAAAC",
+            "_p": 1781166176607,
+            "_s": 2,
+            "are": 1,
+            "cid": 1121414399.1781166,
+            "dl": "https://www.patreon.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "Where Creator Communities Thrive — Patreon",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gtm": "45je66a0h2v9105363294za200zd9105363294",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166177,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~119259605",
+            "tfd": 5593,
+            "tid": "G-JF55G82FNT",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-JF55G82FNT&gtm=45je66a0h2v9105363294za200zd9105363294&_p=1781166176607&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAAAC&are=1&cid=1121414399.1781166178&frm=0&pscdl=denied&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115938466~115938469~119259605&dp=%2F&sid=1781166177&sct=1&seg=0&dl=https%3A%2F%2Fwww.patreon.com%2F&dt=Where%20Creator%20Communities%20Thrive%20%E2%80%94%20Patreon&en=user_engagement&_et=1512&tfd=5593"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781166176607,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1121414399.1781166,
+            "dl": "https://www.patreon.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "Where Creator Communities Thrive — Patreon",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gtm": "45je66a0h2v9105363294za200zd9105363294",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166177,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~119259605",
+            "tfd": 3480,
+            "tid": "G-JF55G82FNT",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-JF55G82FNT&gtm=45je66a0h2v9105363294za200zd9105363294&_p=1781166176607&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAAAC&are=1&cid=1121414399.1781166178&frm=0&pscdl=denied&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~119259605&dp=%2F&sid=1781166177&sct=1&seg=0&dl=https%3A%2F%2Fwww.patreon.com%2F&dt=Where%20Creator%20Communities%20Thrive%20%E2%80%94%20Patreon&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3480"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-JF55G82FNT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-JF55G82FNT"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.46.0",
+            "sentry_key": "1cf4b989752b490ea5444fd20898f534",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o83571.ingest.sentry.io/api/4504804404625408/envelope/?sentry_key=1cf4b989752b490ea5444fd20898f534&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.46.0"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.patreon.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js"
+      }
+    ]
+  }
+}

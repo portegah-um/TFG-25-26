@@ -1,0 +1,579 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Leader in Cybersecurity Protection & Software for the Modern Enterprises - Palo Alto Networks",
+  "uri_ins": "https://paloaltonetworks.com",
+  "uri_dest": "https://www.paloaltonetworks.com/",
+  "uri_redirects": [
+    "https://paloaltonetworks.com/"
+  ],
+  "secure_connection": {},
+  "host": "paloaltonetworks.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:06:55.315Z",
+  "end_time": "2026-06-11T08:07:00.918Z",
+  "browsing_history": [
+    "https://www.paloaltonetworks.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "paloaltonetworks.com",
+        "www.paloaltonetworks.com",
+        "sstats.paloaltonetworks.com"
+      ],
+      "third_party": [
+        "assets.adobedtm.com",
+        "s.go-mpulse.net",
+        "dpm.demdex.net",
+        "cdn.cookielaw.org",
+        "c.go-mpulse.net",
+        "geolocation.onetrust.com",
+        "02179911.akstat.io",
+        "trial-eum-clientnsv4-s.akamaihd.net",
+        "trial-eum-clienttons-s.akamaihd.net",
+        "88-20-13-109_s-185-43-181-9_ts-1781165218-clienttons-s.akamaihd.net",
+        "laka23iccbmfi2rknsra-pxq079-3ca66e00a-clientnsv4-s.akamaihd.net",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-KS2MELEEFC": [
+          "click"
+        ],
+        "https://s.go-mpulse.net/boomerang/6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q": [
+          "mousedown",
+          "mousemove",
+          "click",
+          "scroll",
+          "mouseup"
+        ],
+        "https://assets.adobedtm.com/9273d4aedcd2/0d76ae0322d7/launch-425c423d843b.min.js": [
+          "click"
+        ],
+        "https://www.paloaltonetworks.com/": [
+          "scroll",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://s.go-mpulse.net/boomerang/6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://s.go-mpulse.net/boomerang/6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://s.go-mpulse.net/boomerang/6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q": [
+          "keydown"
+        ],
+        "https://assets.adobedtm.com/9273d4aedcd2/0d76ae0322d7/launch-425c423d843b.min.js": [
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "pan-lang-cookie",
+        "value": "en_US",
+        "domain": "paloaltonetworks.com",
+        "path": "/",
+        "expires": -1,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "paloaltonetworks.com",
+        "path": "/",
+        "expires": "2026-06-11T09:06:56.520Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "renderid",
+        "value": "rend01",
+        "domain": "www.paloaltonetworks.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pautc",
+        "value": "c9141eb1da317980bd12645d7cdca882",
+        "domain": "www.paloaltonetworks.com",
+        "path": "/",
+        "expires": "2027-06-11T08:06:57.287Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "22679517853484523443985949334701581702",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T08:06:57.492Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_9A531C8B532965080A490D4D%40AdobeOrg",
+        "value": "1",
+        "domain": "paloaltonetworks.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C16871293045173964564557764616277896598",
+        "domain": "paloaltonetworks.com",
+        "path": "/",
+        "expires": "2027-07-16T08:06:57.667Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_9A531C8B532965080A490D4D%40AdobeOrg",
+        "value": "179643557%7CMCIDTS%7C20616%7CMCMID%7C16871293045173964564557764616277896598%7CMCAAMLH-1781770017%7C6%7CMCAAMB-1781770017%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1781172417s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0",
+        "domain": "paloaltonetworks.com",
+        "path": "/",
+        "expires": "2027-07-16T08:06:57.688Z",
+        "size": 279,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "RT",
+        "value": "\"z=1&dm=www.paloaltonetworks.com&si=5a08a22b-59ae-468b-900d-7c0384ce61ca&ss=mq97s4d6&sl=1&tt=19n&bcn=%2F%2F02179911.akstat.io%2F&ld=1qk\"",
+        "domain": "www.paloaltonetworks.com",
+        "path": "/",
+        "expires": "2026-06-18T08:06:58.000Z",
+        "size": 138,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A06%3A58+GMT%2B0200+(Central+European+Summer+Time)&version=202409.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4711b327-d8f0-4633-b3b2-98c667c9c755&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.paloaltonetworks.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+        "domain": "paloaltonetworks.com",
+        "path": "/",
+        "expires": "2027-06-11T08:06:58.000Z",
+        "size": 356,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://02179911.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781165219060,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 921262114.1781166,
+            "dl": "https://www.paloaltonetworks.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Leader in Cybersecurity Protection & Software for the Modern Enterprises - Palo Alto Networks",
+            "ecid": 1276647082,
+            "en": "page_view",
+            "ep.channel": "home",
+            "ep.clean_url": "https://www.paloaltonetworks.com/",
+            "ep.gtm_internalonlytags": "",
+            "ep.page_name": "en_us:hm",
+            "ep.search_term": "",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3q3q2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45je6691v880354802za200zd880354802",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 13,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165219,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938465~115938469~119456240~119456248",
+            "tfd": 3352,
+            "tid": "G-KS2MELEEFC",
+            "tt": "",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-KS2MELEEFC&gtm=45je6691v880354802za200zd880354802&_p=1781165219060&gcs=G100&gcd=13q3q3q2q5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=1276647082&_eu=EAAAAGAC&are=1&cid=921262114.1781165219&frm=0&ir=1&pscdl=denied&rcb=13&sr=375x812&tt=&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~119456240~119456248&dl=https%3A%2F%2Fwww.paloaltonetworks.com%2F&sid=1781165219&sct=1&seg=0&dt=Leader%20in%20Cybersecurity%20Protection%20%26%20Software%20for%20the%20Modern%20Enterprises%20-%20Palo%20Alto%20Networks&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.page_name=en_us%3Ahm&ep.clean_url=https%3A%2F%2Fwww.paloaltonetworks.com%2F&ep.channel=home&ep.gtm_internalonlytags=&ep.search_term=&tfd=3352"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-KS2MELEEFC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KS2MELEEFC"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/9273d4aedcd2/0d76ae0322d7/9c8c8c6f075c/RCcc39181e695647bdb3f14465ed7d9441-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/9273d4aedcd2/0d76ae0322d7/9c8c8c6f075c/RC4040aed5971d473787ccb362ca68e864-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://02179911.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "9A531C8B532965080A490D4D@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_verify": 1,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781165217241
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id/rd?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=9A531C8B532965080A490D4D%40AdobeOrg&d_nsid=0&ts=1781165217241"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 287050,
+            "d": "www.paloaltonetworks.com",
+            "key": "6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN",
+            "si": "814e0a1e-2c6d-4696-beef-55e5b3f1c924-tggjvk",
+            "sl": 0,
+            "t": 5937217,
+            "v": "1.766.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q&d=www.paloaltonetworks.com&t=5937217&v=1.766.0&sl=0&si=814e0a1e-2c6d-4696-beef-55e5b3f1c924-tggjvk&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=287050"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "9A531C8B532965080A490D4D@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_verify": 1,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781165217241
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=9A531C8B532965080A490D4D%40AdobeOrg&d_nsid=0&ts=1781165217241"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paloaltonetworks.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/6KU9W-5DTLL-AXSJY-VNWUZ-RTS7Q"
+      }
+    ]
+  }
+}

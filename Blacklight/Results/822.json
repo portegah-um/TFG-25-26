@@ -1,0 +1,286 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "EroMe - Porn Video & Photo Sharing",
+  "uri_ins": "https://erome.com",
+  "uri_dest": "https://www.erome.com/",
+  "uri_redirects": [
+    "https://erome.com/"
+  ],
+  "secure_connection": {},
+  "host": "erome.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:45:13.912Z",
+  "end_time": "2026-06-11T09:45:17.213Z",
+  "browsing_history": [
+    "https://www.erome.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "erome.com",
+        "www.erome.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "a.magsrv.com",
+        "cdn.tsyndicate.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.erome.com/js/libraries.js?v=6.4": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.erome.com/js/libraries.js?v=6.4": [
+          "click",
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://a.magsrv.com/ad-provider.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ],
+        "https://cdn.tsyndicate.com/sdk/v1/n.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "XSRF-TOKEN",
+        "value": "eyJpdiI6Ikppb1dsTHdickhNYkdkRE5FTHR0WVE9PSIsInZhbHVlIjoiOFNvT1p4aUVzRk51NVgzK2dVNmllaEVMc29ENFwvWFVwMzBzd0pzTzZXeURsRU1RMHZYY1RDXC9razk3cUtvZTVZIiwibWFjIjoiMjNlYmM3MTI3Y2I1M2JhMGMwNDMxYmY4YzJjMGZiNDU2NDNjZTM3MzM1MGVkZWFkMmIyNTY0NjNhYmU2Y2Y3OCJ9",
+        "domain": "erome.com",
+        "path": "/",
+        "expires": "2026-06-11T11:45:15.084Z",
+        "size": 254,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "erome_session",
+        "value": "eyJpdiI6IlZxNnIzWWN0bTVpclFLbUowcWluMkE9PSIsInZhbHVlIjoiRUJtNjRodjhyY3JUSmEycUFWaGV6UnlBY1R0dW1jTkdpWnlOUjRHdXJuVmx2R1dvUTUzUlZ2NXF3S1wvS2VFb0giLCJtYWMiOiJlNTNhMWY5NzMzOTk3NDFjMzBkODgyNDkwYzZmZDRkYTYxNDlmZWQ1Y2JjM2QzMTkxZTQwOTk4YTAzMzQ3YjhiIn0%3D",
+        "domain": "erome.com",
+        "path": "/",
+        "expires": -1,
+        "size": 259,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_6S5PBWQ8CG",
+        "value": "GS2.1.s1781171115$o1$g0$t1781171115$j60$l0$h0",
+        "domain": "erome.com",
+        "path": "/",
+        "expires": "2027-07-16T09:45:15.431Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.2142164814.1781171115",
+        "domain": "erome.com",
+        "path": "/",
+        "expires": "2027-07-16T09:45:15.433Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781171115333,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 2142164814.178117,
+            "dl": "https://www.erome.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "EroMe - Porn Video & Photo Sharing",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v9115451043za200zd9115451043",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781171115,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 1088,
+            "tid": "G-6S5PBWQ8CG",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.erome.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-6S5PBWQ8CG&gtm=45je6691v9115451043za200zd9115451043&_p=1781171115333&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=2142164814.1781171115&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469&sid=1781171115&sct=1&seg=0&dl=https%3A%2F%2Fwww.erome.com%2F&dt=EroMe%20-%20Porn%20Video%20%26%20Photo%20Sharing&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1088"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-6S5PBWQ8CG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.erome.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-6S5PBWQ8CG"
+      },
+      {
+        "data": {
+          "filter": "||tsyndicate.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.erome.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.tsyndicate.com/sdk/v1/n.js"
+      },
+      {
+        "data": {
+          "filter": "/ad-provider.",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.erome.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.magsrv.com/ad-provider.js"
+      }
+    ]
+  }
+}

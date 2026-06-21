@@ -1,0 +1,223 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "",
+  "uri_ins": "https://hotstar.com",
+  "uri_dest": "https://www.hotstar.com/",
+  "uri_redirects": [
+    "https://hotstar.com/"
+  ],
+  "secure_connection": {},
+  "host": "hotstar.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:37:00.029Z",
+  "end_time": "2026-06-11T10:37:04.131Z",
+  "browsing_history": [
+    "https://www.hotstar.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "hotstar.com",
+        "www.hotstar.com",
+        "img.hotstar.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "o478470.ingest.sentry.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.hotstar.com/assets-x/mweb/_next/static/chunks/main-5bea931afa103130.js": [
+          "click"
+        ],
+        "https://www.hotstar.com/assets-x/mweb/_next/static/chunks/pages/_app-9159a75a2bd564e3.js": [
+          "scroll"
+        ],
+        "https://www.hotstar.com/assets-x/mweb/_next/static/chunks/2627-560932b987032544.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.hotstar.com/assets-x/mweb/_next/static/chunks/main-5bea931afa103130.js": [
+          "keydown"
+        ],
+        "https://www.hotstar.com/assets-x/mweb/_next/static/chunks/2627-560932b987032544.js": [
+          "keypress",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "AK_SERVER_TIME",
+        "value": "1781174221",
+        "domain": "www.hotstar.com",
+        "path": "/",
+        "expires": "2026-06-11T10:37:41.402Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "geo",
+        "value": "ES,MC,MURCIA,37.99,-1.13,3352",
+        "domain": "www.hotstar.com",
+        "path": "/",
+        "expires": "2026-06-11T10:38:01.402Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SELECTED__LANGUAGE",
+        "value": "eng",
+        "domain": "www.hotstar.com",
+        "path": "/",
+        "expires": "2027-07-16T10:37:01.823Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "deviceId",
+        "value": "90c8fa-70f9df-afd1f-37aea3",
+        "domain": "www.hotstar.com",
+        "path": "/",
+        "expires": "2027-06-11T10:37:01.000Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.13.0",
+            "sentry_key": "d32fd9e4889d4669b234f07d232a697f",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotstar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o478470.ingest.sentry.io/api/6223329/envelope/?sentry_key=d32fd9e4889d4669b234f07d232a697f&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.13.0"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.13.0",
+            "sentry_key": "d32fd9e4889d4669b234f07d232a697f",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotstar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o478470.ingest.sentry.io/api/6223329/envelope/?sentry_key=d32fd9e4889d4669b234f07d232a697f&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.13.0"
+      }
+    ]
+  }
+}

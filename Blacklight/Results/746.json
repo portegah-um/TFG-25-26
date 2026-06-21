@@ -1,0 +1,517 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Bandcamp",
+  "uri_ins": "https://bandcamp.com",
+  "uri_dest": "https://bandcamp.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "bandcamp.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:24:44.620Z",
+  "end_time": "2026-06-11T09:24:51.182Z",
+  "browsing_history": [
+    "https://bandcamp.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bandcamp.com"
+      ],
+      "third_party": [
+        "s4.bcbits.com",
+        "f4.bcbits.com",
+        "www.googletagmanager.com",
+        "o363271.ingest.us.sentry.io",
+        "js.stripe.com",
+        "www.recaptcha.net",
+        "www.gstatic.com",
+        "region1.google-analytics.com",
+        "fonts.gstatic.com",
+        "m.stripe.network",
+        "m.stripe.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://js.stripe.com/basil/stripe.js": [
+          "mousemove"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=GT-WV86TPST&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://s4.bcbits.com/vite/homepage/client/v1/en/entrypoints/HomepageApp.vue_en-XYGiQM9m.js": [
+          "scroll",
+          "click",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://s4.bcbits.com/vite/homepage/client/v1/en/entrypoints/HomepageApp.vue_en-XYGiQM9m.js": [
+          "keydown",
+          "input",
+          "keypress",
+          "keyup"
+        ],
+        "https://s4.bcbits.com/client-bundle/1/ArtistsLabelsPages_1/salesfeed_js-6c902ffd1ebda03df46017d093f9aad7.js": [
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://s4.bcbits.com/vite/homepage/client/v1/en/entrypoints/HomepageApp.vue_en-XYGiQM9m.js": [
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://m.stripe.network/out-4.5.45.js": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAA8CAYAAABIFuztAAAAAXNSR0IArs4c6QAAIABJREFUeF7tnQd8FGX6x7/PbHoIEHpTRERsZyOJqHcennp6tlM87AUhuxsUsZ3dQ852imLBQnY3oIK9nHp69e+pd5ZDEuy9oKIoiBCEkLo77z/vuzvLZLNpgIA689EPsDPzvu/83vJ7n/oK3uUh4CHgIeAh4CGwHgjIerzjvfIDR0AFUD/wT1iv5ksYb7yvF3LeSx4C6RHwJtRPcGR4BLL5O109vF3fmqjvZ75c2RlhkIrZX1AX+1R8vJ13widfbP4Wei3wEOgYAY9AOsboR/eERyCbr0tr7huxOzlyq69P5n7iE7DAyEVaJoyBarSJfd307/wsdYIc+/HyzddSr2YPgY4R+GEQiL/8LkSORRFCUYuoMUTKft7x53XyCf+s8WBdRyQ4gDHTMth+YBOifkOo7B+dLKFrj5WGrsbiQMLB0V17Mc3T69HetgjkRbbjF1zAGqbQjYYNbtqWVkCXVFi6jzbyOFs7d7sjpF/Wg1aBlSeZgmQAliQIRKFiQJPCblTY3zQtspqsA3JPeP+zLQ1Hrz0eAg4CrQkkENoapS5HOARkAIqViFoAMp1w8MVNDl1pZBiWvQglh5JT/yx1uYNQ0Z7MnvTaRmuLRyAGyh8SgTyrdqC71FHE550eBl0jkMiwjTnOauZtv5tVaL1uFWYg2YJkCYZEfAkJxAYVU6hGLYUoVINN0xeN7xec+NGOnf5A70EPgU2MQEsCmXDnSDKsl1B8hMW12NYHiOoHlKI4GUsdS6jsz5u0jaWRUVh2FdCXcPDbDao7EMokHGxqVYZHID84AjmcyRyu3qRM/tvpIdElAul0qZ17cM287Z7P3Cb7l5JrYWULV05fwc57ZDBubGGygKuv/Jaddsrgtwd1R9Xb2HWK6KI1ZxdMWDyzc7V4T3kIbFoEWhJIIPQsMJDqwt145NjGFk3xl1+FSCNKloC6nEhwW3M/EMoDVgH3EA76zW+l5QdhyRNkN/SiIetfKJ4H2R5Ro1GSBfa5QCZYvwcGI/wf1YWn8sixWohfd/nDByP2oyDdQK1GyexWKqxgeRG23Ajshqi1IM8Q853H7NKVaMKARkRNQDEV5EXCwVPwzzoJkStABqP4D8LzKM5rocJCBUFOQVGE8Bm2upiKsidN44LlO2FzCyIloLQOYj4x35nMLv04jkn5f0CeRamtELSqrQeKR4iUTYnjk6LCCpYfgi2PIhxBOPhcqyEQLD8ZW/6QxErJU6BuIBLs3ULlZrMfIkcTDq7btY6/K4fMxm/AngTWrqB2m8pfD36MPVlBPmP4kHK5jx7UJSWQ59QMpsjxfKT6sQNLmcM97CFfEFMWF8lYHlDFrJB8BqtVTOZ5zpVnWjX5YnU0T8muvMMfk/dqyKafupHZzOUEqWSeGs218hs+U73ZSlZyunqZC/kXPrGZwGl8oPrzIjc0d5VipcpnpFzJVepJdNv/zQ7k0MTu8gUvM71V/fr5Uk4xz/WUOqbxlC7zreY+mU2k7Fb85VWIPE04OC35sj+0FOFywsEK00eOCstfXobIrFaV2FYRFf6FHU3Zurkjh6m+1iKrpw8rz+Kb76KcOukLhg7NpOLOrc3rdfU2Rx7zKTvvmM1NVw5C1SlDII0fV8/vPn7J3h3V4d33ENgcCKwjkNPn9CWz6RtsdRoVZXPbbMzpd2xFZsZibGsrKvxfEl/kbzKEEC7bPkEq15gFPRw8nEC5Xl12xvb9igr/e/hD1yMEUepuImXnMGH2IDKaPgY5kXDwiTSLZxFKKpMSiHtimzY3LgKZQV3uDeTWdUfxAChFpGx/U5Y/ZCMsQFSQmsZPycnrhxX7EOwgq3rfQ2G1JoH7DbG5bSDwPrYVQMk7+GLnAxcA2xEOLiZQ/g6K12jKnowvZuGLzUap3kTK9ksQyDMgu2FbR1Dhn48/vDtiL2wmMG33eK4FgUyctQc+6zmUTCQSeKzV9+v7lrUQ1Bms6jWHHisPRCQC+FrZbJR8FJce1b6Eyv6XILuxKO6iunYAPfIvQzj/VnkoZwrP8h257KsuZB8+ISz3JgnkaPUa0/kzhazlWALEsHheZnAX+3CFOoLnmcFQVvIKwziMyfyd2xgti1o0/S0GsytTeYdp7MTX5t79lFCmTmKpXMCrbM0hagpPMIv9+YB3ZSBHqDM5T55Bt221ymEXruAy/k5Q/oufU/hc9eJfcqspawjXcbn6W5sSyClM4E01mL/Jbcaec54axxzZtxalzidSVt4lAkntFH/5E4hsRXXh3q02WmkmTu3cEWNlaNZjmjysXGHZ6hin+hczZFAmd0XiBLKmJsbY4z5j5Ihsbps+2JCHXWvT9Fl1fcEJS3I3x+Lg1ekh0BEC6wgkENoLmE/M3rND+0Kg/H2QKwkH708QQg2oyUQz92DOxK/wh14C9SCRstsMgShZTiR4QmJBOwQlfyfm24bZpXEFdqD8dbPwR8qu7xKBBELnoriIVYWDk9JLIKSJ41maoltz15lf4A9FE7vK6xLkdqmWIQgHhybrCoRuRXFcCoFMJRy8yjyjd/FZjStQ9jlEJkU49fbeqO71zDt1bZykwscg9n2Ey3KSBKKoJlI2LlmHP7QIYQbh4B1JAgHtGPA/BI1lKG1nBUJXoDidSHAbV3vnoDg0rdFfS5FKfUykLJD43gf1+mSkQ0O+nBmTsp5WIhTkBn7NTepAvpYLkwRSpa5llMS7RpPGRWos38jvuV4dzCx+yUKuobfEP12zs1NWavt/pqYyjoVMlb+aW0epSUYauJu7GacC9KGGWXJ/8rWb1YHcJfvwJlea3/5P7chx4mcOczldnWZ+30qqzb32CEQpIVdu4071ABPkJfP8t3Sjr5qhDBFvCIEEQpNQ3ACyJ5HAhx1NMH1/7dztJlrbZFcYAskTI4VMnLSYvUvyKD29T7KIsy9Ywu4/y2H8ib2waxVKE8iyteR/7suRKR//+LwaOgOe98wWjcA6AnFsDaKKCZVpm0Pblz90m5E4IsEy/CFtYL8Asadg8yiWaDXPKpTsYiaYIRDeIFKmd/FQOmsMlqXVNFlJe0QgNB/4Rwt1glO7VlG1JYEEQrcnJJ1fJBtbNmswtvUltr0/FZOeNwSCHJfc3fvLZyHsRLjsl+sW9/IzQKa2WJBtNY6KskfXPRP6COEBwsGp+MMHIvbFKNFqPAtRuSD9CAfjeKZ+c/y391FUECm7MU4g6miU6AVteVJaSoe4PzQbYRjh4K/aba/jNRYInQhqlpE4CvMFxTfY9sHMnvRSgkAOUxLc3SnrQVXMCVJKjDJeZrjxwvpOnU13qTeP6PtaFVQjU6gmj6OYRBXbMEZ9wCG8w4ksSJJJavOv5Tc8SLFZ+NeoHPpxI0/L7RzA++zO5bzBVq2+OF81mLqS3c/JRNTPiTCPiQky6IhAlqnuDJAbeJabjHTjXKJCy0FNXW8C8Yd3RuxKTcKEyu7q7MxeM2+7YzOGZj+kiePrb/qT2S3KgK211jf99emb/ek/4Fuy7Aaalqwmf+wEn8g0u7P1ec95CGwqBNYRyKQ7C4n6liPqDMJl4VYN0O6iY7CZNs3GHz4S1HUIe6NYQlNWH7Iay4AdsdWjWIQJlw1LLqbI64SD2t6xjkA+/DqT56dF489sRAIpjQzBsr9AyRgigf8kCOQoIoGnE3XNATW8BYEEQlNQXNqCQJSMJRJ4PIlDoPxDkLuJ+e7DF/0A5BqqC683KgyNh6gnWxCI+5vTEgiXGTWeVt0Jx6VV3+n3tAszbE2k7AAXgZQ1+35OSyuBnDUzm/rsr1BqMpZEQV2TVC3GbS9HKoI/c8q6l70MQdQzOa0XlptAnHdeU1vxD3bmURnFYnrxkprO9rKs1ZD5jN5sq67hfa5ggWzDxRzNYi4xEsse6nIOlbe5htZaS3dBB6lzmC/DCPICN7KOz9uTQJaq7gxMRyCUV8f7uU0V1jcIl7aygegGxaXQBcC7hIPHd2WCrrlv+P4Zg3Oe1QTyl38MZNeDgvTLb2DV6hUtivFpv96MfF5562v6rLmHvfeyqP9oeW3P05bld6U+71kPgU2FQKoRXS+yPyMjujN3nlnTohGBkDZU72l2whNmF5ARXYGSMsQ+zSzGgdCexpYQNwb3MdJJfOHU9oDvh0D85WebCV/da1BShRUsPwAlz2DZQyiftCQNgWj9yGktVFj+ULnWsLQkEHVxUqU27uEselavBJmEsusQeZCchnxumxJXK8QX5su6RiDqYMJlxfjLfw9yCcrazdiUUq9ASNuTNMFst47MQhEUR7QZt+Ivn4mgHQQEkYWEg7qMRDvVWQ1qcvcszS3N4tOV6jDmyt58zOUdEshalU0MSUonWlW0J5cxVl7jD8TVVKnXPlzIb9Ub/I9t2V6+YTpxM4+2raxVWfxVtBAZv7TkUCD15BH33yhX+6FVbE/ILPZWF/FPbmVf+cTca49AtFothzsIcS+n87J5/ivVk8FyvTaPTTIEEgi9gFIvECnTKk04ZW4+ubWrQbR6s6URXd/XUreow0F2Jxz8Lu3HtvGjenhUj7qcmqVWn8ycR59ZzZyHqtlmux0ZOnwHevftT25eAZ988BYfv/cm337zFXm5FpFrB1KY66Pu7S/fLJz03W5dqc971kNgUyHQkkDKZm2DLdr4+i3C1cBbxFQ/REoRxqKsI4kE4i43/vIXQXohPGrUOuMe9lFYvQLUFyhranL3/n0SiLZFZGd+amwLjVnXY9m9yIg+BKqGcNlv4u00Kqx1Eog/XGziWvRCkhm7l6bMfRE70tqIrt5FGIc2TMOFzd5cl+KLDaEpcySW/T9saz+GLHmJLwccZ1QaIvsmHQtSv1m3o5UKywkkVII/9E+jEhy89AAj4bmvQEh7cb2g98DGDq3kQKOigpw2CSQQ+lmzjWQBgk1TdAdjC9JX3AZyzqXy9/zL1V/5mh78ivOMGupaeaJDAjlZTWC5FDBbzWWQrOI9NZADOYebeYTjjZ9D6+t2tT/3UcIbDGE+17OrxDnyBTWCMXIed6t7OI4qvpBCYxfRKqcZ8iifq978jKk8LrOMyus6DqGCn/OGuop8aWB7ruRI3uQS9fe0KjRd1sf0M+/nqibOZRwPSHENigsSBKJJeDc++nofnr8ihj803WwQhHNae2GFD0fsx40jyMdL4s4J+tLvIYpg+enYFBIp084kaa8184aXZwzNCVo5Fn8KLee/8+M2pG6Z2fTPL+CTVXEP9aws4Ypz+7HHiByavlhp2ytqx/eYtGreploQvHo8BLqCQOtAwvF3DCDTdynI4YgaBGix/78mLiRU9kaycG3chWmIOpBQ2b/N74HyvzfHox0I0ie5S/s+CUTXGSzfD1v7eqLVMt+i5G/UNlzIfVNWmzalEohZSMsnYnEpSvT3PYfwJIprjVvsuJtyKcyvNd5oFmUo2RVRn6Os84gE9EKvVW7TQZUaGzLyGL7YxcSMJ9UgfHYJtlS0kLri2KTYQFyR6IHQQOBN4JaktODuRa1ig/NRFMbbqhYgcgnh4KA2I+cD5ZXEDfm/ThYV92A74Bp5cvRtan8aJIMj1JvGkK13/ekCCd0qLO0aO4Xj+Bc7sVpyjBuvtktciu729NdyVcAgrmdHWZo0jjtP3sPehhg+pTe9qOV4Vcl1PE4mMUNMQ2WlcSHWV1RZFMml7Ks+4Q55gBkcxFSOZID6jk/k8laVa2lmopzKf9UIE3B4pXqKiZz6KajphkDMZsmah2JbBK1LmmEwRt1uVLhub79ASDsiHNeqEiUnEAk8iL/8XuNi7Xj+pYFCPb57z9ro2rd9A7IH60DC5ypriL0zgtEFO5mnVzXV8JL1Ej/fXzGodwax7+pp+HjZy73OXLNvVya096yHwKZE4IeRyqTlYqrVMfsRDq4znG9KxDZHXTrWJhysdZH3Zc1uxL8lEixJ2xytcitcqb2+prQI/EzEnyiC2uPuJ3eJCn1ubHeaQDbmZVzRo3cQDh7dXrENd22zQ31W9F9Zgwu2kmwfkhHPhSViHM/jubCaFE3Lqmn8+rsPe59ZM3JjNtMry0NgYyPwwyKQM+7oRpNP7/YgUnbUxgZjiyxvYsVQrNgnCNqmdA8xeySW9XSzjSPSSlrRasT8tQVkNtyIUMSgpXu2UIl5BPL9EEggdI6OBWzTFds1sNS923WvXrPiASvfNzqjR14vX7dcJDsTbJtodQ1NK9a8ToOaWzhp1c1b5Hj0GuUh4ELgh0UgOoAP+iCcmFSb/RS60z/rWBM5r92GhW9QaCP+1KQR38HAH/4lqH8Bb2D7TkxGxjv3PQL5fghkPcfgmorCXRqjsrN+PcvG7paf+6yctqSla9Z6lu295iGwKRD4YRHIpkDkJ1CHl879J9DJ3id6CGwCBDwC2QQgb2lVeASypfWI1x4PgR8mAh6B/DD7bYNa7RHIBsHnvewh4CGQQMAjEG8oeAh4CHgIeAisFwIegawXbN5LHgIeAh4CHgIegXhjwEPAQ8BDwENgvRDwCGS9YPNe8hDwEPAQ2DwIrJk7vJ/PYkQsSwZaGVZ/fNJfKdZKNLoyVitLs0S9l3PKJ/HD7b7nyyOQ7xlgr3gPAQ8BD4GNgUDNPdseKPm+seT5tpI8n8lioC9LTE4lzBE/NqiGmD5LZg01sX/kq/zH5NQ344nXvofLI5DvAVSvSA8BDwEPgY2FwKq5Q4dlZWWeqXpmjJQcH5bPnEfafKKD+S9JJEqzSCIljq3/bLSxq2O10hC9Mf/kRemznW5gIz0C2UAAvdc9BDwEPAS+DwTUw/hq6oeNtfIyj5c+mVkOcehjY4zYoVfvhBRi6ncIREshUWVyq9k6v9qqqJLV0fvzTv1EJwXdqFenCMS/gJ3FxxgUO6PopSBHFGuV8IUFVU0F/HPODqzZqC3bHIVNwyo9jJMtGINQqLPZhouZEKji1wJnAa+GitBZiDfbFajkHBEOwObeUAkP6YYEXzX/Pkcp3ggX0zo17WZrbbzizd2+zVm/v4oyCw5T8Gi4KJFaeDP3h1d9+wgEqhgooA/VawoVMXZz4VUzd5uDJS/zTOmTJVYmGOLwSUL6sOKSSMoKrgkDLYroP6MKpUmkEdR3TbAqdmf+aZ+0nTp7PT60XQIJVJGH4lwRRrvK/k4pGhB6CehP0plEa5Ti+kgJr69HG7aYV4ILOADLLMSay98CVoeLme4RyIZ10eZcwDc3gXkEkn7sBCoJAvuHi+nS6Y4bNhI79/aWQCD1D241PCbZN0r/7IwkeejszT4LK0EkoqWPlBVcEwYxZSQPonEi0dKIIZEVjbZdz4yCkz76b+eQ6PipNglk3Ntk9apnOjBcE4ayeNhu4JnZ+7DSFKt364ewh2RwvAU72IqYinFVxWgWdlztlvmEM9lt+FekCH3ue/xTFdY775CxfDn28/sTP8pvM12eBNJ14DcngXkE0gaBVHEjiiFbIoHokzzHvUNmYT0qXERT10fchr9RM3f4jdIvc6QvX6f919k29Xbd4q0P67hh5nImnF7IAWO6t1JhrVkd47yLvuYX++Zz0tE9jR1EE4pqArvORn1duzj/lM/P3PAWxktok0ACCwmI4ggFdSrG5ZG9+DBdpWOeI2P7blykpRQFS6tzOPORXRJnkm6sVm6ictItzpui6nEP42MnfJ3BzSOQrveIRyBdx+z7fEOvGSMLeFgpGrdIAvk+P74TZa+eN2ykLyfjRumbhZUFkiAP/ffzL/0aopksXlHDQ/cOw6fVWK5r7r3VLH7bx4vvfsv9oa3pob21ojaqUWE3gapuIrp8bXmP0iXpz6DuRPvcj6QlkPGv0TM7xhx9zKodIxTZC31WepvXpBcojOUakfSV6hxe6lnPFAt+iWJWqJi/uV8MVPFzgYv0b7EYUyr24lP3/dJKJvqEo1DcHyrmgWAVZ+tTDmPCzTTxoS+D8UrbYvQRsPC1KJ4IlfBvo24TTsZmtLFf2HwnPv7zwWrmdSQ1+Cv5jSWckfqBtqI+Usy49lRYp79K3wybY0Sxh041r8AWYXkz+S6MNvF4UmJLFB6o4nyBMSrKTcqiWoRSBUMsxU2hEoxoOf45emZ142R9podAd6VYpbHNyOW+aB2lbdlAbHh9VQ5XFa7lBPGhT7Lro2zqxOJNyeDe8t1ZkvqNEyoZmWFxKDY7KIxaUkRYFlO8YonR2687yErbM1z9oXJ43VrLKWKZb++BogYxasx7wkXEz2jtwAYyqZJtY8J1AlnEuD60F+uOjG1jxCXG54nKpkQsuitYoRT/XZXLQ71qORYLfczwQ6FRmLNjUglkYiW7ZAh/0puj6kZOe2Qf6lKr0qReuA1zdfnEuDy0F28EFnCf/rc0MNHOZlizzelosRiKTZY+dl0s/hV6qvlw+Glxr0p9ORKIbo8vmyea6jlZFCUi9FRCjSher4txz9y9zKmIyev0BWyVKRwjwi5g7I5RbZMT4bW6Rp6au0/rvnS/f9ZHZNev4l5LyLFtLo6UoI9CaHUFKrlahN3cNjX90MRKSnxwKIoRWGZurcHmfaV40l1WoIrhzSfz3qjPxJIMzkodY/q+wAyliNkxzrYyOE6P/9SGxKJM64z2Qpen4CRR7KjXAD1Wsfl36G88ETyc68GM4yvCRbyq6whUcpne3MYUFRXFPJlab6CKiwX2dd9Pp8IqnU9/XwYVbQzJ5M+1mRw/bzc2yG127dzhfvpkHukr8CF6ZGUJVqZFTUOMY05dnKzr1hkD2XGH3BZNumTqVyxcWG9+u/oP/SneJQ9b60wabXNYmZZC6hcte79XYOUFHX1LZ+6nJRD/Kxxs+ZisB3h1Nqd1Zmfsrsw1YV/QNgT3Pf8CzhDhYBEsWxGJFPOXFveruMWC4Zbi97OK+UA/b1n8RsV4FMvYKF5UerLajBDhV/rdmHCNpTgBxUplsVCfTy0Wh4qim614PFJsyLDNyyyi2s6jKBZhqK14R4T3tBEtXMT9bRGI/xW2lwz+mKjnS4R3tVpSKXYRYZBe+GM+Lp+9J587lQcqmay/37aZZ1kcYytWimJ5THh8djGvnfIG+bmN3JR4v1opFoplnPP0kb1NKD4T4RfpjOjayK8nldLHtOpvsGhUws6iKNR2KoTzwkV87bRlYiX7WnCBJfiU4iOl+MqyyFGwY4K4Psvuye9vG0GD847TH7bwoMQ4CIv3VYy3ySRbYowRYRulWPJhDZMd4m5LAih7iX6xbG6woFezc8bMUDH/19GgPeNtusXq0WePD1Q2q8VioVL4RChScWz0huQwW3FfpBjjdZKu/kAl5SIMthW3Rop5JrXe0vmM8mUwTSm+CRdRiqCCVdxlzqOx+bPSY9Lm+eYT7Zf4LHop24zpfKV4OlxMKImXY0TX49fHXihygPcRsnWfCuSm4jV+PiOyfPxJhGwFiwBn1dCL8Va6L22bS1M3X2kWx/hmRXgqPMoYhVtceqOSXcDdSmHZMfwVo1mmH/AvwG9ZHGnGG7yqxBxrPURgF6W0godQuKiZKBNXsJITzBk98FaoiEuTlUzDChzGjSKMaH6/IlTMk6UL+YVPsTugj1puUsQX9fpGnumIFFvgovhMKd7TmGOxp4oxXyxGanxEcUl5MW/rcjcWgZw0n+75PiakG58KRlrCEC1RZffkRPd86Wg8p7u/Zu7wmb6tc4a1kD6yhS+WNlA6ed0e8Oo/DqCkKK9FEWVnfcmiRY3mt0vP78uYvQuIaY8sTSANcVtI48dLG3t8uWKcuDY669NO/U56AlnA2ZbFgQoWhIu4qquFT3yHXhl13KPiXkynut8PVjHLhhoUgwXeCRejj6g1V2LxvB+oHVTESdMEO2mXUMRQTI+U8HLqYmYGovBCeBTJU9z8r7G7FeMqW7EmUmwGd4dXWyqsdARidqjbUi4wQE+C8NPNJJXoEG0z+aqKszXB6YU5XMx5TuWBKiYJHKoUyxH+k+qZU1rJqT5hnFJ8XreSi+YdHN/NJFSF5yrYVy/4bXhh6ZGzOFrAVMcrbtzL5PbK4kq9M2uW5F4MFZldmrFhBQ5ljlj0Tt2dnfJP8vN6GywHpkqgLp1+VBR360XB+TZdV2EWFZp8ooqrZhezQN9Lt4BrIojWM11PeNvi7siePNZhB+myFnA6FmMVfBGt56I5P497/2kpOJrDtZbQC8jryEvNX8kxljBebxYixVycWrczFjRRRkZxX2Ixmi1CPy0NiI8LQ3vwkfPehEq2zRRu0otxY5Qpd+/NZ/peEq+4tDH/gzXc4RCr3umiuE0The3jysgeGF99fxWXWLCPW4py6glW8juE0xS8FC7iuvYwK13IKJ/SJjxWhEdxuiZB9/OBKg4TKHNj4GgI9OYxJlzcYvNTxZ4ClyuQJpspd5XwhS7PzIVhhii2w+KW0J7823zHQg63FEEFb4ef5jJnfkx8laEZNrfr6OmuqLD8VWazsYMSng0/xa1OeVoizYpynYIBZm5YXBTak3cTfbZRJJC2cE5IJjP1mIspZlWkaFw6M6ZTn1n70Ig/S/+sTEMg2YKVZRk1ViOKw8euU9jMmjmY4cP1PmTd1UIC0QSza15CfWVDoyLWCNHF1fhWNgbzz/r2q/Vpn/udtAQSqGSaCKPMwljUsdiWrhGBSm7Xu/m6RsqcnYVDLCieQNi6eZc4ItJMFM7ADlSxlxmgiqTkkpyAis/DxUx216V30BkSn/zuepwFd2QBj2rHt2gjp6WqktpocysXWTMI07jxutq66sMaTk9Vk014nwLfGuaZ3T2cEy7iE/eCokkyqwenpu5WApWYRcq2uTFSwn/c7dS7oDwfc9siEP2sggvCRbzvfs8hU/cOSTtJ9KxlN4QeOT15IbUd/oWcZCmO16qhcDE3OOUlVTKwbOUigo8caxwGk5ez+NnCvMgoHtY3UgkkUGWkpKssYefOSIgtFr1K5ojQF4sbQnvGVX7OFXyVnbATBNmBm7NZdGLcpU2TzRJtwC2Z6fahmGeISAg695xSTiYXAAAU8UlEQVS+cY/PlLaZeYPNQ6GSuPrMhdd3Kxvxp6rLAlX8QaDEjZc/IYXbNn9I9WzUi3XPbfhZEyy9u4Sl7S0A+tle2xrX4R7uRTXZl5VcZ/ogxu2RvfinaW8lMyxhe1uYExnF46nla+8pEQ5XNk+FS9ZJNYEqtha4RasF10aZlFNARkYdszTZ2FHOcqQbXd76EIhbhaTgdLeK1LR7AftYFpeY9m4iAklsIq8XGKkU/wsXc217/dGZe+qubXJqCzIfkX5Z+LSSXquvsuMEohWlF1y8hDfeamDggAwis7YmS6u4XNcTT63mzvJv6ZYvzJuzNfnZvrjqShvTGxWqAWLLarGXLb+w4MwarWXZoCu9BJIYWOl2QJ2tLVjJxGZ9+FHuwVlayRifcD4xrrUthlrCSeLjrPI94ru1QBWlAr+NKWZWJNQZrgn4TKioedfhukoXsqtPGQmmNlTEcWkG+wMidEsll7a+oSsSSPL7bP4TKeHGdGUGq5gBbO/exbu+55VQEVe739Okk1mDlsA0EbSaJO4Jnm6HbaQtFyE7ZWuyKKzjURHETWbuurX0kOsjL0vFXbN9FmOwOFmr0MLFTEsuOgmVjA3/iRS1/u5glbEl/UareUIlRuXTkkCK+EOgiguMGg6eCY1iZurOuM3+qaKHEF+YrTpOnfULqlOfDVaZDU//jiQQM94quVSEvVPHeXJzoHfORYlFKf68IXeEO0Kj+Eer8VbFiQIn2FAZKTJSn5tA1kl/rhcDCzmzWTI5xI1XYCHniuJXSni3voGZHal22puTSQne5i+REiLOs6e+Qu8ci7tEiNZmcorW2yfc9vWcsRptznAkjBZzLqHasxWfRoqZ4r7nX8jRlmKCUjyrVXTatuCe/86z60MgzmZRO+qEi/CnfvP458jJ6sbDeoxvKgIJvMJp4uN3WpuQkcuUO3ehprPrY1vPrZmzXV+rp8yRPln4tHCRsH84BLJsWZTIXd9ywu8KGb5dS+nDKfOWmcvZZ3Q+JSV5Rgm5jkB0mhNF7Ns6ot98d3WP4IpXNrS9bUkgZmK1pTvtTKVJHTI8Hy4yC6kmiCkoDlwb4+T8DIY2c+q1COHQKJ5KLI4zLWFYXYzxjlHRmQAxxSMVxcx11x2oMjrka7XuPlxsjPgtrkAV92l1SizKpIrRfNlRu7tCIMnFx7XbTFO/MdDZwmORUdztXlBsm79HSrizxeR8hWE+H1ocJvQ0v3UbY53nglXGAeHnbdhAPgwVcX6673QMwLbNlZGSuKrESEmrOd6y2Mfo9tNfLYInXUbhP4dGxQmixSLiEIzL9uSWQGz4VDtJaBVd9aecnSrBtNdHCTWR3kS0GeDl6Lw7QyDBVyjCZwJDvw09zUQH70ClIbj93OoYM34dAonxx9BeVLX69oQzhlJ8HC7mXHd/I3QaL+2YkRnjOkNWcZva5yjeFMWrK/N5sys2yUAVOwjcoGxWhIvXqbGClfwWodSt1ix7jW1ULO6+ruB5tNq49ZVvPC4VDeFiftfidtzmoW03O5kyhKrwKP6YWsT6EIi/kiMtwW/UYS5Sd5cdrDKbixbS1saygaR+g968WjZXiaBsm8vaclLoaM1Jva8e3qlbrdX0QKoEsmZtPt37t/Bn6VTRq1fkkmXVkylRtG+sJpDo0jWoFSsvKiirMWq+DbnSSyCO4U94Izxq/SKbE3EkD2pDso7mNhOwigjxgTfZdb9Ki34TXqQgI9sMgC/cqiq3F4vjVeN8sEMgwJehIialAvF9EkiwykyMPbUxPFISV9WkXsEqY/vY321YbS8uIDnZIRou4uj2ymxjgXwzXNysa05zBRKqn6jiutnFvJTYbWpj/WBtKBZ4RsVYamfGPZIkxp7aeSE1+r6juAaXzSrpvOAQiPZq015BiUVR2RZ/rBjV+bghB5+2JE4zxipN4OuvOkMg2g4UPJzZmjybY62maicGx3tJLwypHloOgUQVl8xOGGndUJdWcpBPmKIXfGcMrw9eukxth8rpw2Fis59WBTv1aNuEsnlycBEPaxthZya/nnfaVhdr4sKKvY1ziJ6L2nNqpNtWNamSkbakl6bT1bNyEUelbgBKKznUJ/G5qD0nK0bx7MYgkEAV4wROVfBauIipbcyNuJPD96zCMgb1DGYK9HY7a3SmLzp6Rk0jo3bnEQ9J36wsxway5L1B9N/hQFZ99R4NtcuIZkNGXtvhaLEGsGozyM7rS+GAnVi79E0y+3xInq8WpY3oi6vJWN1QljdpRSuvzI7al3o/vQSScLXVOvNoA+MdQ2V7hU98mV6z96barY4ILORqUewWi1KaEUOpbGa7F9PAQq43wUSjODm4gNH4uDRVJ76lEkh7hk4XwRkJRHuQhfeKp7Fob0HRLq22xNV0bUkgHeyw3wsXc2Ebkyu+O0vsnh0jslYJ1K3gHMdY77wbXMgRKAIbk0AMcQhVCt7Uqg7gu2gjUzpjn0osetoL6ZYOJJC4WqqTqV6Stp6EpJzwEtIYtlKZugjEkE0qzv5XONzyGUk4KQmuL4G4yzbqJh+7KhgtitEJD8YOvQuTfbmAk41rs3Z5L2a2Y0/QXmwfruU0x37nSAb6vYY1jLt7f+L+oJ28Eu78t6PI1m3UZLe2icn3jWa1u4j1kUAciak9CSRQyYMJr6zOG9HTuPl2FInu2K10WwaN4rLOEnknYWTNvcNn+obEvbAalc306z5jdfd9OeioE9n/4GPIafiM2JrPUbUriTWsMJ1FdgG+7EIktze+gqH4+u7GO28s4IVn/sK3r87Df1o2PQuyjBdWw0dLYj1LV42VTm5A2mt3WgJx+5CnUx2lFqj1j9kF3K53hrEo0x11kf9VjrFsxmtVgB1DLOFs2+ZPjieVo0NsaOKsrCx+rQMXUw2HWyqBBBdyerNaYWyqkdmNTbDKLHbDozZ3zC6J68zbJZAXKLRz42q6RosJd+3J8lSsHeeEtAukVlOUMD71HbcNxLE5JYnIFS/hfi+pm0/J/7U+C2JSAoFPBo/iPD3hHBWgyd/11+YdZSdcCgNV9BHiarOmbpyYLv9asMoYdgd2lkC0K7GdRUSEegUno7hQq2jSSRmdsIGcJhideNKguj54tTdhHdWwhmDlIsZ1RgVYOp8hvgxmaV291gYkNw8pLseJeaxdn7Xjx5nhoqT7cKfWvmCV0VbspTAbxRxt40znLbZeBLLAqBQvaMcGol2SteNDqhHdbCjsGHMie6V1CrhZe491FAfiAOCo0rS9UYQpqcb8TgHVwUMmDqRf5pEmCj1bmH3fMh59Zh2X77H3GAYNGUb/AUPoO2gr+vQdSO3a1SxdsphlXy1m6deLef/NhaxcHvexOKgki/MmDYzbQupt6t5bvKL35LWt1on1aXubkej+So7XAyCeWYU/hYtIa3BJeKxonfHeeoA21nCGs3NxdtRK8U8RspQySQpPCRfxnW6s42aoAw4RDlGKQQgnuNMHbLEEktCf610cFuNTUx5oicyXaYyUlmRQ5gRYdbSgBBYy18RtRLkpPJrnWizq65K86cybrZIp6mfTTXz/Ana3LK7SHjIfruFEveN0AqhSA8h0GXonaedSrr2QlM1r4ZJ1KoOO2t+eCsud7FGrLDNzjL1HB1/ODRfxSGcGsL+S+y2hwK16cd7T8TyZjgqmkxKIfjdQxZUCe2jnDa1+Sbi9Blq5vToecvBypIg/pbbXcTN1qzW7ipdxb66hWCxiTmBpi3oUElxoXJ4z3bbCjrBzNjN6A2HHmKzVV/g4z+2KnNjgGFdZtydZ6hhUPoY0reItt4Ti5JHT0tfAUVzw/PNY23fjFq1+iylmVBTzvFOOS9JJ6/yS7ltOfZnBuVlmTKZ1MHFi19IQiPGsdGsBnPITsR3aqy+7MwRSGrdRantupoKr21oTO+qLju6vunur4Zndcm6Wflmi817VRm0mXrSE71a38MLuqBhzPycbZl8/mF7dfChtBlm8Anv12pd6TlrTrgt4pwpvL5WJjmVYUmX86rWrZaw5UOvpRpunHddBff/LV9lDbE7Ubn+JBIuXt3AhVUigirkiJlK4u5ZQ3PYNrYcXjNdRlVIUY/FqqtFtSyWQBD53mAAi7e48itkud2TtBuqQalovprayszpuktquUxPlIkf8NzEWmca+sYMe8Gl32Cb/Jm/raHTH0JqQPrSxbyel+He42EhF2kffuOnqoLaBo7jIEcMT8RSXN2cLqDMRyrA4VEQyd05XF0RdV1uBhNqGheLq5shh1SwBXJzqfpxuEDuR8Ao+qM7hUuc7E9H7Oqq6p1HVdY1ATHYEc6qbkN+WXtvlxtsoNn9yG9J15HaG8IfEhmuS4/rbVbwMgdRxt8bE8nGFE8/gYJGM02i2LQ4q4rTOqk/8r3C05WOCVhELHCXCknR2Q5drfG3zhnXqnGI+cOpOYDw1ERiYzDKhJUOE23SQpOXjXMer0gTownQsauujTHYcY7TUl1Bnq2gBJ3U2k7e/EuNko92oqz9lhiN9aQlLMrhGFNrAn+22gTiqL7tZ+o083WyTdEm6OqgX4QDtyt0RgSS0Mrfo+W7DXyNFcTJr7yp7ncGxKEfoZyJPN0vGnZCynfLWzh1+Gf0zR/vy4tHoX34T4+LpS1mxMp1fQ/pW9OguXHl+f7bfOjvhiQW1b38U7d0/f7wcW2028Rt6tZuN1yw+9ZQJHORUZHbcQn2LbLywNKq40T3YnOf9C/i9dtk0ets0wGufd1EM0/fdHlnJ9xMG/XQuxZvTiK7bpyWsKFytd8TacCrCu0qZtBa76lgF7R1Wb3OpO01FRwtKQo98szbQaR0yNm9r10RbsZMlfGvbvK+N2+5FzjHe6nQnSlHQLNH1F4vXdPoIERP12z8RTawj0U2KEbeUASZ6+10FPVEUifC6NBBOqHYsrYYQi5d13EVH7e+sBJLs30pOsYRjm5u0rHYFZ6faYlIHuNbfWz6zs+2mJV6d2kNpD/l4FgEdfawnxq+7QiAmSDOfe0xaFJ13zsfENtSH8RgdZZwmjkF4y4IlCvoKjNKqH30vUpxQpXSgsjREnsZrTQf4oUy8hZgMAcJXouO/YZAJ1tNZgIQZFaN4obMLgI7B8tUaiVivQJnuuJPUMlyR6DGleBvhGz02RJlxna0U8wc1S2AOeTkOJemkFienntuWlgi0vVt0yiFYphRfKnglUky7qcZL57OrpTM/xLOA66h5nT2hQG+OdALU5rRGu2unEDeBmHgfm1k6W4SOlLcl7oFo6Q2rlrCFj4wbdSJSXt9LZwNxjPj6vp4PiSj9VvDHhCdnj8IcJ+tI/vrv6RwO2us79fCQXrXklUu/zFyTjTdTWF2vmH7nNyx8q57Bed357Yjd2KnXAPrlFbCifi3vr1jGYx+9xpdrv2Pk8Gwun9KHPt0zktl46z9crLeYf+11Rk2H5NfZcdWp80BK/8eOksmBKHYS6NssvunEwloHuCgB5nNtZa10ibZ6e2w8gNyNc2I/9G9uVc8PgUASg60PyuQs0gtIHy2t6RxdFvyvdiV/SV0QO1qAdZmJHZqOwdgDoZvOgaSEBfWZzMtr4OjUXE9ORLH2v8/uyZ31qzhJqxQNCdnUac8VZTPPHcxlBrhOxWIZzxadAkLnwPrKjvHc4BKeNHaKKsahd6t6wsbdlf/cUfu7SiApwVitUt+kG8g6T1SGZewV2o1bG2yX2opnBxfx+JJKztJZFNxqpM4kU3TGYXtnqjgSSEyMo0KmZZu8W8N1LiwFS2zF32YX80+36mt98NLfrNW7VoxDdflK0dMSbJ3ZQafLER9/SVU9dWbCO04tmiTdqUvSvet/jWKJcqiWNhTkE9f5f6lxjvy12bMqsZueuIBDMizOtBVfJmwCLbLXJiTnO/SGylbc6ZBEYnHVUeoDdNk2zHNiv9r7Fh0sqmyOTwTvZSAsE5tnQsU8Hlxo4lz6pwZNatWT+DhFhB1FmRQyK1H8b2UT9/fM5HdmA6O4J1RsAo/bIhBj3+oIZ51WqWIU81MJpC2nmPbKWz17wHhfr4JjpDALd0r3zxdHWfPCLgySAWS6sik2xKIssZeSvdc77DAiY10q9yg0LFpKdE3dsr5n1WrX7Y12dYpANlptP9CCtqTzQH6gEG6yZjtZFNIl8myvES6b0A1pbQ/uOBCXm+gm+zCvog4RSDo5bEH9o2ONlMXvu5Kyxf2h1bN6n5LRp+cxvr45vnUnEko8jbtA7cosln7ho//gGPl94jmwzBZWp3C3dQr3GPWLlmDXN1X3Pqt+/MbwvHK3zyOQDoclBCs5tHmnM6mtwKhOFOE9spEQ0CkztGdbTLE8NRbDqFwbqNBOCO6Eeh1VrY26vhgztaT34VpK28revCUuUB1920/p/pbYP/5KJjTnjNvG7YjS1T5ZGSr8eWZ+t8m+/t3yyV53EqE4R9rqPxP2dXOglE4J3hQjurSaxuUrbJ+V/XzhmWuTeQK7Wn97z3sE0gk0g1WU6QyvwHOhIpMJ1rs2EwJOfIoOfkS4yLHpGL36QiboVDjaNlL9Kf7OuLga20AdV+ukjm2lKHE+dUtcoDZTN2yR1W5p/WPsmTnGw/TmDfXYUg8PyV1T03iKyvSNyeiRUyDd84wUoo9GN5c+Ar22ltga/X8d0ZpaW3zZ7+dZOTM3RsBgWx3uEUg7U0EHhkkGo5vzFGnjobhzdG2RM+gn0CjtDdOwmitFGa+yBize0gGvAtuazMiKBrG5Sp/f0R4cgSpO1GddJNJu6JzYr4RGcU17ebm2tAXqJ9DdXfrEn0r/rJxVeLxt2XtYltXTylA+bGXFmpqwsFaLyFcKX2VhcFWLEIAuAdmFhz0CaQesxOFWRyjFalE8N7CYezrrNtmFPvAe7SICOuAtM4/fiMV+CvqLkKvVT+Yce+GxzgTAJXKK7a1sVomPZz5YzYMdHTz2U1mgutgdW8zjXv9s+q7wCGTTY+7V6CHgIeAh8KNAwCOQH0U3eh/hIeAh4CGw6RHwCGTTY+7V6CHgIeAh8KNAwCOQH0U3eh/hIeAh4CGw6RHwCGTTY+7V6CHgIeAh8KNAwCOQH0U3eh/hIeAh4CGw6RHwCGTTY+7V6CHgIeAh8KNAwCOQH0U3eh/hIeAh4CGw6RHwCGTTY+7V6CHgIeAh8KNAwCOQH0U3eh/hIeAh4CGw6RH4f3v19cN2+iO8AAAAAElFTkSuQmCC"
+        ]
+      },
+      "fingerprinters": [
+        "https://m.stripe.network/out-4.5.45.js"
+      ],
+      "styles": {
+        "https://m.stripe.network/out-4.5.45.js": [
+          "rgba(102, 204, 0, 0.7)",
+          "#069",
+          "#f60"
+        ]
+      },
+      "texts": {
+        "https://m.stripe.network/out-4.5.45.js": [
+          "Cwm fjordbank glyphs vext quiz, 😃"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://m.stripe.network/out-4.5.45.js": {
+          "mmmmmmmmmmlli": 58
+        }
+      }
+    },
+    "cookies": [
+      {
+        "name": "_GRECAPTCHA",
+        "value": "09AKhCRwgndksK_r2Y6rfrPPOiwkUO0qfCcQ4vT4jyreYNvWrF-kgB1_GlTHCic6WMOYcBjmX4vK9pKOyCXWAwey0",
+        "domain": "www.recaptcha.net",
+        "path": "/recaptcha",
+        "expires": "2026-12-08T09:24:49.025Z",
+        "size": 100,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "BACKENDID3",
+        "value": "flexocentral-frn0-5",
+        "domain": "bandcamp.com",
+        "path": "/",
+        "expires": -1,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "m",
+        "value": "81d20e30-6a72-4869-a4e2-b0b960008bee291fba",
+        "domain": "m.stripe.com",
+        "path": "/",
+        "expires": "2027-07-16T09:24:50.197Z",
+        "size": 43,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "81f0c530-a834-47d4-8549-d7e0e3a6efa455ab28",
+        "domain": "bandcamp.com",
+        "path": "/",
+        "expires": "2027-06-11T09:24:50.000Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "cd780d83-84f8-4807-a272-84951a453b963952f9",
+        "domain": "bandcamp.com",
+        "path": "/",
+        "expires": "2026-06-11T09:54:50.000Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.vue/10.54.0",
+            "sentry_key": "42c34b06f2ca6504b0c9f52ac8d6fd03",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o363271.ingest.us.sentry.io/api/4508597821571072/envelope/?sentry_version=7&sentry_key=42c34b06f2ca6504b0c9f52ac8d6fd03&sentry_client=sentry.javascript.vue%2F10.54.0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1199,
+            "_eu": "EAAAAAAC",
+            "_p": 1781169886000,
+            "_s": 3,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 977972889.178117,
+            "dl": "https://bandcamp.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "Bandcamp",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45Pe6691v9187632934za20gzb9189855221zd9189855221",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 19,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169887,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 5933,
+            "tid": "G-MN4RN3JYWL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MN4RN3JYWL&gtm=45Pe6691v9187632934za20gzb9189855221zd9189855221&_p=1781169886000&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=EAAAAAAC&are=1&cid=977972889.1781169888&frm=0&ir=1&pscdl=denied&rcb=19&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115616986~115938465~115938469&dp=%2F&dl=https%3A%2F%2Fbandcamp.com%2F&sid=1781169887&sct=1&seg=0&dt=Bandcamp&_tu=QA&en=user_engagement&_et=1199&tfd=5933"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EEAAAAAC",
+            "_p": 1781169886000,
+            "_s": 2,
+            "_tu": "QA",
+            "ae": "a",
+            "are": 1,
+            "cid": 977972889.178117,
+            "dl": "https://bandcamp.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "Bandcamp",
+            "en": "scroll",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45Pe6691v9187632934za20gzb9189855221zd9189855221",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 19,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169887,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 5932,
+            "tid": "G-MN4RN3JYWL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MN4RN3JYWL&gtm=45Pe6691v9187632934za20gzb9189855221zd9189855221&_p=1781169886000&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=EEAAAAAC&ae=a&are=1&cid=977972889.1781169888&frm=0&ir=1&pscdl=denied&rcb=19&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115616986~115938465~115938469&dp=%2F&dl=https%3A%2F%2Fbandcamp.com%2F&sid=1781169887&sct=1&seg=0&dt=Bandcamp&_tu=QA&en=scroll&epn.percent_scrolled=90&tfd=5932"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAAAC",
+            "_fv": 2,
+            "_nsi": 1,
+            "_p": 1781169886000,
+            "_prs": "gs",
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 977972889.178117,
+            "dl": "https://bandcamp.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "Bandcamp",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45Pe6691v9187632934z89189855221za20gzb9189855221zd9189855221",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 19,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169887,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 2720,
+            "tid": "G-MN4RN3JYWL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MN4RN3JYWL&gtm=45Pe6691v9187632934z89189855221za20gzb9189855221zd9189855221&_p=1781169886000&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=EAAAAAAC&_prs=gs&are=1&cid=977972889.1781169888&frm=0&ir=1&pscdl=denied&rcb=19&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938469&dp=%2F&dl=https%3A%2F%2Fbandcamp.com%2F&sid=1781169887&sct=1&seg=0&dt=Bandcamp&_tu=QA&en=page_view&_fv=2&_nsi=1&_ss=1&tfd=2720"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "GT-WV86TPST"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GT-WV86TPST&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.vue/10.54.0",
+            "sentry_key": "42c34b06f2ca6504b0c9f52ac8d6fd03",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o363271.ingest.us.sentry.io/api/4508597821571072/envelope/?sentry_version=7&sentry_key=42c34b06f2ca6504b0c9f52ac8d6fd03&sentry_client=sentry.javascript.vue%2F10.54.0"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.vue/10.54.0",
+            "sentry_key": "42c34b06f2ca6504b0c9f52ac8d6fd03",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o363271.ingest.us.sentry.io/api/4508597821571072/envelope/?sentry_version=7&sentry_key=42c34b06f2ca6504b0c9f52ac8d6fd03&sentry_client=sentry.javascript.vue%2F10.54.0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TKFS52TF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-TKFS52TF"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TKFS52TF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://bandcamp.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TKFS52TF"
+      }
+    ]
+  }
+}

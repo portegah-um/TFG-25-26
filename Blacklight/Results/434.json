@@ -1,0 +1,255 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Statista - The Statistics Portal for Market Data, Market Research and Market Studies",
+  "uri_ins": "https://statista.com",
+  "uri_dest": "https://www.statista.com/",
+  "uri_redirects": [
+    "https://statista.com/",
+    "https://www.statista.com/",
+    "https://www.statista.com/sso/iplogin?__sso_redirect=/"
+  ],
+  "secure_connection": {},
+  "host": "statista.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:48:37.253Z",
+  "end_time": "2026-06-11T07:48:42.627Z",
+  "browsing_history": [
+    "https://www.statista.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "statista.com",
+        "www.statista.com",
+        "data2.statista.com"
+      ],
+      "third_party": [
+        "cdn.statcdn.com",
+        "cdn.cookielaw.org",
+        "www.googletagmanager.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL": [
+          "click"
+        ],
+        "https://www.statista.com/dist/main.21ee7b.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.statista.com/dist/newsFeed.bf1461.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.statista.com/dist/home.49e88d.js": [
+          "keyup"
+        ],
+        "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js": [
+          "keydown"
+        ],
+        "https://www.statista.com/dist/navigationDesktop.117b7b.js": [
+          "keydown"
+        ],
+        "https://www.statista.com/dist/main.21ee7b.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "STATSESSID",
+        "value": "2546301676f9d000eb3f8ee4a6d2c3ab",
+        "domain": "statista.com",
+        "path": "/",
+        "expires": "2026-12-08T07:48:38.022Z",
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__sso_cookie_checker",
+        "value": "ODguMjAuMTMuMTA5",
+        "domain": "statista.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__sso_iplogin",
+        "value": "eyJ3YXNJcExvZ2luQXR0ZW1wdGVkIjp0cnVlLCJpc0xvZ2dlZEluV2l0aElwIjpmYWxzZSwidmVyc2lvbiI6MiwiaXBVc2VkRm9yTG9naW4iOiI4OC4yMC4wLjAifQ%3D%3D",
+        "domain": "statista.com",
+        "path": "/",
+        "expires": -1,
+        "size": 145,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "statistaTrackingUUID",
+        "value": "dea7770b-fcf1-45e2-b5d0-860498c676a7",
+        "domain": "statista.com",
+        "path": "/",
+        "expires": -1,
+        "size": 56,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "statistaContentView",
+        "value": "11167190306a2a685643d487444597228",
+        "domain": "statista.com",
+        "path": "/",
+        "expires": "2027-07-16T07:48:38.573Z",
+        "size": 52,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A48%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=d20cb8df-1ee4-48cb-a055-e4bf20304735&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.statista.com%2F&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0%2CC0003%3A0%2CV2STACK42%3A0&hosts=H27%3A1%2CH14%3A1%2CH105%3A1%2CH15%3A1%2CH9%3A1%2Crwn%3A1%2CH16%3A1%2Cwna%3A1%2CH10%3A1%2CH17%3A1%2CH18%3A1%2CH12%3A1%2CH13%3A1%2CH39%3A0%2CH21%3A0%2CH71%3A0%2CH95%3A0%2CH96%3A0%2CH55%3A0%2CH102%3A0%2CH1%3A0%2CH56%3A0%2CH86%3A0%2CH103%3A0%2CH104%3A0%2CH106%3A0%2CH22%3A0%2CH107%3A0%2CH108%3A0%2Cbsh%3A0%2CH109%3A0%2CH110%3A0%2CH111%3A0%2CH112%3A0%2CH113%3A0%2CH2%3A0%2CH114%3A0%2CH57%3A0%2CH29%3A0%2CH115%3A0%2CH101%3A0%2CH26%3A0%2CH97%3A0%2CH88%3A0%2CH3%3A0%2CH116%3A0%2CH58%3A0%2CH117%3A0%2CH59%3A0%2CH75%3A0%2CH63%3A0%2CH40%3A0%2CH4%3A0%2CH118%3A0%2CH119%3A0%2CH120%3A0%2CH121%3A0%2Ctlv%3A0%2CH98%3A0%2CH90%3A0%2CH64%3A0%2CH122%3A0%2CH123%3A0%2CH124%3A0%2CH6%3A0%2CH47%3A0%2CH52%3A0%2CH11%3A0%2CH127%3A0%2CH129%3A0%2CH67%3A0%2CH130%3A0%2CH131%3A0%2CH132%3A0%2CH68%3A0%2CH133%3A0%2CH25%3A0%2CH134%3A0%2CH99%3A0%2CH136%3A0%2CH137%3A0%2CH48%3A0%2CH92%3A0%2Chkw%3A0%2CH93%3A0%2CH139%3A0%2CH49%3A0%2CH141%3A0%2CH8%3A0%2CH94%3A0%2CH69%3A0%2CH142%3A0%2CH100%3A0%2CH70%3A0%2CH24%3A0%2CH45%3A0%2CH43%3A0%2CH44%3A0%2CH28%3A0%2CH79%3A0%2Cthl%3A0%2CH60%3A0%2CH62%3A0%2CH65%3A0%2CH7%3A0%2CH140%3A0&genVendors=",
+        "domain": "statista.com",
+        "path": "/",
+        "expires": "2027-06-11T07:48:40.000Z",
+        "size": 1478,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-T6PZKL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.statista.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T6PZKL"
+      }
+    ]
+  }
+}

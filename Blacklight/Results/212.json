@@ -1,0 +1,328 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Twitch",
+  "uri_ins": "https://twitch.tv",
+  "uri_dest": "https://m.twitch.tv/?desktop-redirect=true",
+  "uri_redirects": [
+    "https://twitch.tv/",
+    "https://www.twitch.tv/"
+  ],
+  "secure_connection": {},
+  "host": "twitch.tv",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:40:25.092Z",
+  "end_time": "2026-06-11T06:40:39.053Z",
+  "browsing_history": [
+    "https://m.twitch.tv/?desktop-redirect=true"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "twitch.tv",
+        "www.twitch.tv",
+        "m.twitch.tv",
+        "assets.twitch.tv",
+        "spade.twitch.tv",
+        "gql.twitch.tv"
+      ],
+      "third_party": [
+        "k.twitchcdn.net",
+        "static-cdn.jtvnw.net",
+        "api2.branch.io",
+        "reporting.cdndex.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.twitch.tv/assets/49613-f3b73677df0d05a2896e.js": [
+          "mousedown"
+        ],
+        "https://assets.twitch.tv/assets/12121-c489d49c9f4250414ddd.js": [
+          "scroll"
+        ],
+        "https://assets.twitch.tv/assets/mweb-main-743e4482fbf606698723.js": [
+          "scroll"
+        ],
+        "https://assets.twitch.tv/assets/33367-ff17efaf0d38d3c794b4.js": [
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets.twitch.tv/assets/49613-f3b73677df0d05a2896e.js": [
+          "keydown"
+        ],
+        "https://assets.twitch.tv/assets/11838-301a0bbd741f08c942d7.js": [
+          "keydown"
+        ],
+        "https://assets.twitch.tv/assets/33367-ff17efaf0d38d3c794b4.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://assets.twitch.tv/assets/33367-ff17efaf0d38d3c794b4.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://k.twitchcdn.net/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0OtoP1tndM39VKh2j5LFtWApxyyA8JVXC3HEnGMv80GTHdan290ZO6felfzhfl2nkjwBvaR61vb95g6mg5iMgSJ6kXMNBYiYIZZSUqegkBcJ5RuyZ29USjYo90nTsU07UtmBjfSIGMrQw9HLw88wTAc576NOaPH6g3bC9ryvVqaR&x-kpsdk-v=j-1.2.470&x-kpsdk-im=AAIrFKlps7-Fu08ta-NO-U8OhXKroRYNn-qddKJPcmy8LOjJwBHHk_HIc32L7s5V92DKwn3QnogpRWE_sfX92lfQ4zE": [
+          "#ffffff",
+          "#000000",
+          "rgba(127,127,127,0.5)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "twitch.lohp.countryCode",
+        "value": "ES",
+        "domain": "twitch.tv",
+        "path": "/",
+        "expires": "2027-07-06T06:40:35.694Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "unique_id",
+        "value": "8947d65aa1984c5bbb7440c4a955f154",
+        "domain": "twitch.tv",
+        "path": "/",
+        "expires": "2027-07-11T06:40:35.774Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "unique_id_durable",
+        "value": "8947d65aa1984c5bbb7440c4a955f154",
+        "domain": "twitch.tv",
+        "path": "/",
+        "expires": "2027-07-11T06:40:35.774Z",
+        "size": 49,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "experiment_overrides",
+        "value": "{%22experiments%22:{}%2C%22disabled%22:[]}",
+        "domain": "twitch.tv",
+        "path": "/",
+        "expires": "2027-07-11T06:40:26.000Z",
+        "size": 62,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "api_token",
+        "value": "twilight.64418a62cf5c4d8b89536951a779561f",
+        "domain": "twitch.tv",
+        "path": "/",
+        "expires": "2027-07-11T06:40:26.000Z",
+        "size": 50,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "server_session_id",
+        "value": "f278e3ca5c40425a9c08fe77aed9e8ce",
+        "domain": "twitch.tv",
+        "path": "/",
+        "expires": -1,
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "KP_UIDz-ssn",
+        "value": "0PeJ0IecAE6a6OHKg6RFfvKCrGFdNvU5E0wDNO42zpUW4SUP8SH2se3fOFRT409txQsvDZnTDSQEcVHUtV6dPTIvoGL8765jZb99M6FlX014jAg6Jxl1R3mlvwB5p0TADIvMGXZUdMu98ASquI0egmDoKNMEQPFLyEpshpyGkctY",
+        "domain": "k.twitchcdn.net",
+        "path": "/",
+        "expires": "2026-06-12T06:40:37.676Z",
+        "size": 183,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||branch.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.twitch.tv/?desktop-redirect=true",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api2.branch.io/v1/pageview"
+      },
+      {
+        "data": {
+          "filter": "||reporting.cdndex.io^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://k.twitchcdn.net/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.470",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://reporting.cdndex.io/error"
+      },
+      {
+        "data": {
+          "filter": "||reporting.cdndex.io^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://reporting.cdndex.io/error"
+      },
+      {
+        "data": {
+          "filter": "||branch.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.twitch.tv/?desktop-redirect=true",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api2.branch.io/v1/pageview"
+      }
+    ]
+  }
+}

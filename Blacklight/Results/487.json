@@ -1,0 +1,456 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "GIPHY - Be Animated",
+  "uri_ins": "https://giphy.com",
+  "uri_dest": "https://giphy.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "giphy.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:07:09.485Z",
+  "end_time": "2026-06-11T08:07:14.941Z",
+  "browsing_history": [
+    "https://giphy.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "giphy.com",
+        "media1.giphy.com",
+        "media4.giphy.com",
+        "media2.giphy.com",
+        "media3.giphy.com",
+        "media.giphy.com",
+        "api.giphy.com",
+        "cookies.giphy.com",
+        "pingback.giphy.com",
+        "media0.giphy.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "sb.scorecardresearch.com",
+        "sdk.privacy-center.org",
+        "secure.quantserve.com",
+        "pagead2.googlesyndication.com",
+        "rules.quantcount.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-HENKV9QE61&cx=c&gtm=4e66a0h2": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P5GCKB": [
+          "click"
+        ],
+        "https://giphy.com/_next/static/chunks/87c73c54-643a94027626f297.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://giphy.com/_next/static/chunks/7413-184e7e7781b13182.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://giphy.com/_next/static/chunks/87c73c54-643a94027626f297.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://giphy.com/_next/static/chunks/9500-fd1659c7de053946.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://giphy.com/_next/static/chunks/87c73c54-643a94027626f297.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "didomi_accept_cookie",
+        "value": "1",
+        "domain": "giphy.com",
+        "path": "/",
+        "expires": "2026-12-11T09:07:12.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "didomi_token",
+        "value": "eyJ1c2VyX2lkIjoiMTllYjViODgtZjk1MC02Y2NhLTg1MjctOTQyNGEwM2FhZDVmIiwiY3JlYXRlZCI6IjIwMjYtMDYtMTFUMDg6MDc6MTIuMDIxWiIsInVwZGF0ZWQiOiIyMDI2LTA2LTExVDA4OjA3OjEyLjAyM1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+        "domain": "giphy.com",
+        "path": "/",
+        "expires": "2026-12-11T09:07:12.000Z",
+        "size": 200,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=0&expire=1781166133859",
+        "domain": "giphy.com",
+        "path": "/",
+        "expires": "2026-06-11T08:22:14.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781165232038,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 1030037791.1781166,
+            "dl": "https://giphy.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "GIPHY - Be Animated",
+            "en": "page_view",
+            "ep.logged_in_status": false,
+            "ep.page_category": "homepage",
+            "ep.page_name": "Home Page",
+            "ep.page_type": "home",
+            "ep.site_language": "en-US",
+            "ep.site_type": "mobile",
+            "ep.user_type": "anonymous",
+            "ep.verified_status": false,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3pPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dMTc4Zm",
+            "gtm": "45je66a0h2v9105270104z871102673za20gzb71102673zd71102673",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165232,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938466~115938469",
+            "tcfd": "1075r",
+            "tfd": 2844,
+            "tid": "G-HENKV9QE61",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-HENKV9QE61&gtm=45je66a0h2v9105270104z871102673za20gzb71102673zd71102673&_p=1781165232038&gcs=G100&gcd=13q3pPq2q5l1&npa=1&dma_cps=-&dma=1&tcfd=1075r&gdid=dMTc4Zm&_eu=AAAAAGA&are=1&cid=1030037791.1781165233&frm=0&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469&dp=%2F&uid=&sid=1781165232&sct=1&seg=0&dl=https%3A%2F%2Fgiphy.com%2F&dt=GIPHY%20-%20Be%20Animated&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.site_language=en-US&ep.site_type=mobile&ep.page_type=home&ep.page_name=Home%20Page&ep.page_category=homepage&ep.logged_in_status=false&ep.verified_status=false&ep.user_type=anonymous&tfd=2844"
+      },
+      {
+        "data": {
+          "filter": "||quantcount.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rules.quantcount.com/rules-p-jvu6JC2_EEYyU.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://giphy.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13q3p3q2q5l1",
+            "gcs": "G100",
+            "gdid": "dMTc4Zm",
+            "gdpr": 1,
+            "gdpr_consent": "CQlo8kAQlo8kAAHABBENCiFgAAAAAEPgAAAAAAATtgHAALABAAEQAJgAjgBOAD9AIQARYBeYDLAIJgTYAnaAAAAA.IJ2wHIAFAAZAB8AIAAegBEgCYAJwAUAAtABhAEGAI6ATgBOgD9AIQARaArwCvgF1AP4An8BcIC8wGMgMsAccBAgCCYE0QJsATtAA",
+            "gtm": "45He66a0h2v71102673za200zd71102673xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 7,
+            "rnd": 178440287.17811653,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938466~115938468",
+            "tcfd": "1075b",
+            "tfd": 2186,
+            "tft": 1781165232233
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=7&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fgiphy.com%2F&scrsrc=www.googletagmanager.com&rnd=178440287.1781165232&navt=n&npa=1&gdpr=1&gdpr_consent=CQlo8kAQlo8kAAHABBENCiFgAAAAAEPgAAAAAAATtgHAALABAAEQAJgAjgBOAD9AIQARYBeYDLAIJgTYAnaAAAAA.IJ2wHIAFAAZAB8AIAAegBEgCYAJwAUAAtABhAEGAI6ATgBOgD9AIQARaArwCvgF1AP4An8BcIC8wGMgMsAccBAgCCYE0QJsATtAA&ep.ads_data_redaction=0&gdid=dMTc4Zm&_tu=CA&gtm=45He66a0h2v71102673za200zd71102673xea&gcs=G100&gcd=13q3p3q2q5l1&dma_cps=-&dma=1&tcfd=1075b&tag_exp=0~115616986~115938466~115938468&apve=1&apvf=f&apvc=1&tft=1781165232233&tfd=2186"
+      },
+      {
+        "data": {
+          "filter": "||quantserve.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.quantserve.com/quant.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "G-HENKV9QE61"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-HENKV9QE61&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 39588136,
+            "c7": "https://giphy.com/",
+            "c8": "GIPHY - Be Animated",
+            "c9": "",
+            "cs_cfg": 1101110,
+            "cs_it": "m1",
+            "cv": "4.13.1+2508250908",
+            "ns__t": 1781165231726,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=39588136&cs_it=m1&cv=4.13.1%2B2508250908&ns__t=1781165231726&ns_c=UTF-8&cs_cfg=1101110&c7=https%3A%2F%2Fgiphy.com%2F&c8=GIPHY%20-%20Be%20Animated&c9="
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 39588136,
+            "c7": "https://giphy.com/",
+            "c8": "GIPHY - Be Animated",
+            "c9": "",
+            "cs_cfg": 1101110,
+            "cs_it": "m1",
+            "cv": "4.13.1+2508250908",
+            "ns__t": 1781165231300,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=39588136&cs_it=m1&cv=4.13.1%2B2508250908&ns__t=1781165231300&ns_c=UTF-8&cs_cfg=1101110&c7=https%3A%2F%2Fgiphy.com%2F&c8=GIPHY%20-%20Be%20Animated&c9="
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon-ios.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/cs/39588136/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-P5GCKB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://giphy.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P5GCKB"
+      }
+    ]
+  }
+}

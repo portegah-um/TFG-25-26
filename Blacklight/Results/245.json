@@ -1,0 +1,289 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Corporate Website: Information about the Group | Deutsche Telekom",
+  "uri_ins": "https://telekom.net",
+  "uri_dest": "https://www.telekom.com/",
+  "uri_redirects": [
+    "https://telekom.net/"
+  ],
+  "secure_connection": {},
+  "host": "telekom.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:52:12.333Z",
+  "end_time": "2026-06-11T06:52:18.242Z",
+  "browsing_history": [
+    "https://www.telekom.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "telekom.net",
+        "www.telekom.com"
+      ],
+      "third_party": [
+        "f1-eu.readspeaker.com",
+        "tags-eu.tiqcdn.com",
+        "ebs10.telekom.de"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.telekom.com/resource/themes/com/js/com-1021766-18.js": [
+          "scroll"
+        ],
+        "https://www.telekom.com/resource/themes/com/js/commons-1021768-12.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://tags-eu.tiqcdn.com/utag/telekom/com/prod/utag.js": [
+          "scroll"
+        ],
+        "https://f1-eu.readspeaker.com/script/4779/ReadSpeaker.js?pids=embhl&jit=1": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.telekom.com/resource/themes/com/js/commons-1021768-12.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "459a4d1fe4dd889342cea3066e81e2d8",
+        "value": "662d4b9963827caf09fc47a2874b56a7",
+        "domain": "www.telekom.com",
+        "path": "/",
+        "expires": -1,
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__sn",
+        "value": "1",
+        "domain": "telekom.com",
+        "path": "/",
+        "expires": "2027-06-11T06:52:14.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__se",
+        "value": "1%3Bexp-session",
+        "domain": "telekom.com",
+        "path": "/",
+        "expires": "2026-06-11T07:22:14.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__ss",
+        "value": "1%3Bexp-session",
+        "domain": "telekom.com",
+        "path": "/",
+        "expires": "2026-06-11T07:22:14.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__st",
+        "value": "1781162534789%3Bexp-session",
+        "domain": "telekom.com",
+        "path": "/",
+        "expires": "2026-06-11T07:22:14.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main_ses_id",
+        "value": "1781160734789%3Bexp-session",
+        "domain": "telekom.com",
+        "path": "/",
+        "expires": "2026-06-11T07:22:14.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__pn",
+        "value": "1%3Bexp-session",
+        "domain": "telekom.com",
+        "path": "/",
+        "expires": "2026-06-11T07:22:14.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "guid",
+        "value": "19c9e7fd-24fe-4fa3-ba47-8a5cd9efd2c2+c833cb949eb9d3742a0f760d7c4b38f3addcb3efd4e565cc6a6f366289d8d3ae3f5e1dbe29fc56db052b0692f602ec5fa630691b950430d3519e396d247308cdc7705b14b37a02795b8fb1a503a80ad4bd299ddeb1d21a43165e1c0945b611158fb0474e2d17673af886913db327ac651ef17f1bae6dfece9a3a82f1f6c1f4eef0acb81e27ef7f9a6e72d2f65381e8775733b777d52985ca4605635236915c7ea46d4d28a0cf1bcfc023cea5dd848a477f92501f1807890fffde95bfddf6a7a0fdecd3b7a73ab1c3fe49011a5e5f868fa07424dc8e624c20d79138355510e9fe36d401c43b935a7a16f841af42622bae4870e89c6394acba0d97b818406479ef",
+        "domain": "www.telekom.com",
+        "path": "/",
+        "expires": -1,
+        "size": 553,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALB",
+        "value": "C+Z853YvnSM2X3dHMxxj/OIVqyTRo0xdXsJRSZS1i2x215U27xJIZVPNI3N/OsvTun8r+ik1Vg+jKIVbL1inoD6Ch9Gj4EvhTqhdp3D4gQYN6IGEK76Hs4spTKq/",
+        "domain": "www.telekom.com",
+        "path": "/",
+        "expires": "2026-06-18T06:52:16.014Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "C+Z853YvnSM2X3dHMxxj/OIVqyTRo0xdXsJRSZS1i2x215U27xJIZVPNI3N/OsvTun8r+ik1Vg+jKIVbL1inoD6Ch9Gj4EvhTqhdp3D4gQYN6IGEK76Hs4spTKq/",
+        "domain": "www.telekom.com",
+        "path": "/",
+        "expires": "2026-06-18T06:52:16.014Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

@@ -1,0 +1,1808 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+  "uri_ins": "https://nypost.com",
+  "uri_dest": "https://nypost.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "nypost.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:41:01.226Z",
+  "end_time": "2026-06-11T10:41:19.324Z",
+  "browsing_history": [
+    "https://nypost.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nypost.com",
+        "zephr-v4.nypost.com",
+        "vip.nypost.com",
+        "ads.nypost.com",
+        "embeds.nypost.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "securepubads.g.doubleclick.net",
+        "use.typekit.net",
+        "p.typekit.net",
+        "accounts.google.com",
+        "stats.wp.com",
+        "geolocation.onetrust.com",
+        "www.youtube.com",
+        "www.googletagmanager.com",
+        "widgets.sports.gracenote.com",
+        "fonts.gstatic.com",
+        "config.aps.amazon-adsystem.com",
+        "client.aps.amazon-adsystem.com",
+        "pixel.wp.com",
+        "googleads.g.doubleclick.net",
+        "static.doubleclick.net",
+        "www.google.com",
+        "static.ads-twitter.com",
+        "t.co",
+        "analytics.twitter.com",
+        "i.ytimg.com",
+        "jnn-pa.googleapis.com",
+        "region1.analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "cdn.p-n.io",
+        "fonts.googleapis.com",
+        "notifier-configs.airbrake.io",
+        "api.sports.gracenote.com",
+        "images.sports.gracenote.com",
+        "privacyportal.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE": [
+          "touchstart"
+        ],
+        "https://www.google.com/js/th/hyY6e1da6rVFDiABXnm-LBoevEFYc_BrvTRiwevVyJQ.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.youtube.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "touchstart",
+          "touchend"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE": [
+          "scroll",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://widgets.sports.gracenote.com/airbrake.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-0DZ7LHF5PZ&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://www.google.com/js/th/hyY6e1da6rVFDiABXnm-LBoevEFYc_BrvTRiwevVyJQ.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://static.ads-twitter.com/uwt.js": [
+          "click"
+        ],
+        "https://nypost.com/wp-content/plugins/nyp-membership/build/main.bundle.min.js?ver=12cec3e2fb17e34c78e2": [
+          "mousedown"
+        ],
+        "https://www.youtube.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://nypost.com/wp-content/themes/gtf/client/build/js/header-footer.bundle.js?ver=eb612bbe11474b313dac": [
+          "scroll"
+        ],
+        "https://nypost.com/wp-content/themes/gtf/client/build/js/analytics.bundle.js?ver=368e0e26f271e845e47a": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE": [
+          "keydown"
+        ],
+        "https://widgets.sports.gracenote.com/airbrake.js": [
+          "keypress"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-0DZ7LHF5PZ&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.Ngtfv6_zjjw.2021.O/am=AAAAgA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywHRfZqHIdBV9nGHAyiDygiaD_6fAQ/m=r78Drb": [
+          "keydown"
+        ],
+        "https://www.youtube.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.Ngtfv6_zjjw.2021.O/am=AAAAgA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywHRfZqHIdBV9nGHAyiDygiaD_6fAQ/m=r78Drb": [
+          "orientationchange"
+        ],
+        "https://www.youtube.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "YSC",
+        "value": "1Ug37ewzehQ",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "ByQ52VDDfbU",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:41:12.283Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJFUxIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgVw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:41:12.283Z",
+        "size": 84,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "blaize_session",
+        "value": "3d49574b-310c-45a1-b7bb-31c441d79435",
+        "domain": "nypost.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:06.051Z",
+        "size": 50,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_twpid",
+        "value": "tw.1781174467629.990570439672226018",
+        "domain": "nypost.com",
+        "path": "/",
+        "expires": "2027-07-06T10:41:07.639Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "muc_ads",
+        "value": "9ca07832-c7d5-4659-b312-745085aff134",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2027-07-16T10:41:07.835Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "WjZN820gQ6uDBG1kWCyQYhGenfgWilgdKqQjkGpFGi4-1781174467.7185338-1.0.1.1-dMzc8QTzdJgtA310AsJl1bJz5aB3Jhf98lBV9AgJJAxBkXkrdhoU9uf68_IryTKBc1FVkXGPJ5hREQ6YhSglbxhCWZNzQQCqCYRDRabdn5tFxENifvJejLoTH3NDvgnT",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2026-06-11T11:11:07.835Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "guest_id_marketing",
+        "value": "v1%3A178117446777959851",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:07.908Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "guest_id_ads",
+        "value": "v1%3A178117446777959851",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:07.908Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_bATcnN++pzDrIhjQERKQzw==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:07.908Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "guest_id",
+        "value": "v1%3A178117446777959851",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:07.909Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "O2Jw8VcHXx16H5fPjMXcBUueqVGHEwK0faNTNlTUX9g-1781174467.7253714-1.0.1.1-apQG.F2pzOE9h6BoVirajIaZFAw9FwuaAlg3IkMmW4rHnpJ_LN0S_Idgq0gtHLeLT3y0e07_1BpE3uDHB9NlDPnyNC10heTogGRceYx.J3d3QIf8Kifwoa9ZIx8eVqk0",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2026-06-11T11:11:07.909Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.743738372.1781174468",
+        "domain": "nypost.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:15.531Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-YNID",
+        "value": "19.YT=tOjc80s5QsUSQlsuxa9SQ6u40-WLov68lrNFz2Jn9Mw2dgLTI4B9jmIcNmgJmp4CDlit_MRP3P4zbfH9xPp7hoDFUbIOpf7mZ8uwKxHkTBdEhN45i4z1lhRvgF4W5SeNKwfnzHOwD3HKGXSHm9jJKr-xVegUMrZtPk7uGrmiDKGcdkHgBPgtFlxNTQeEzan-JPEhdQwGLIPNBHQV10-O8VdWt2lNy1FTbLuOdx8AD1LoNjRRJwmESKP5uaWsPekB1Bb9UHmnJChoIV7AgcGFTPrATPZg95dPAiLg98815leXillzldoMf3ugD7cbmLE8oDtE7oXXIopnzc-2zQfDpg",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:41:04.283Z",
+        "size": 361,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CMjcxYmI6rPzzgEQhteL-v_-lAMYxsnK_f_-lAM%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:41:12.283Z",
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://nypost.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AWSALB",
+        "value": "0gyqi+V6dq3bFy37nnAqDXH3Yb5GxwJDjaUOmoXojXlW6OOCxG3C8Uqq5A5jPO99gNpw32LGpvBAo4MkwlFYnhenjlpnbs1Agu7uRMezBEwbOInN6hBleQxWllkv",
+        "domain": "zephr-v4.nypost.com",
+        "path": "/",
+        "expires": "2026-06-18T10:41:13.573Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "0gyqi+V6dq3bFy37nnAqDXH3Yb5GxwJDjaUOmoXojXlW6OOCxG3C8Uqq5A5jPO99gNpw32LGpvBAo4MkwlFYnhenjlpnbs1Agu7uRMezBEwbOInN6hBleQxWllkv",
+        "domain": "zephr-v4.nypost.com",
+        "path": "/",
+        "expires": "2026-06-18T10:41:13.573Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+12%3A41%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202603.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=d3f727b7-dfb9-4593-9b96-084d67d0e391&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fnypost.com%2F&groups=V2STACK42%3A0%2CC0004%3A0%2CC0017%3A0%2CC0030%3A0%2CC0024%3A0%2CC0005%3A0%2CC0002%3A0%2CC0001%3A1%2CC0022%3A1%2CC0003%3A1%2CC0023%3A1&crTime=1781174471760",
+        "domain": "nypost.com",
+        "path": "/",
+        "expires": "2027-06-11T10:41:14.000Z",
+        "size": 466,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_0DZ7LHF5PZ",
+        "value": "GS2.1.s1781174468$o1$g1$t1781174475$j53$l0$h0",
+        "domain": "nypost.com",
+        "path": "/",
+        "expires": "2027-07-16T10:41:15.735Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pn",
+        "value": "eyJzdWIiOnsidWRyIjowLCJpZCI6IlZwaXZMYWFQdEN5S2pJenV0bHBiRmV6WXBZYXZJSllrIiwic3MiOjB9LCJsdWEiOjE3ODExNzQ0NzEwMjN9",
+        "domain": "nypost.com",
+        "path": "/",
+        "expires": "2026-12-08T10:41:16.000Z",
+        "size": 115,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 743738372.1781174,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "rcb": 18,
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tid": "G-0DZ7LHF5PZ",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-0DZ7LHF5PZ&cid=743738372.1781174468&gtm=45je6691v895130382za200zb71221804zd71221804&rcb=18&aip=1&dma=1&dma_cps=a&gcd=13l3lPl2l1l1&npa=1&frm=0&tag_exp=0~115616985~115938466~115938468"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGQ",
+            "_p": 1781174472011,
+            "_s": 3,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 7316,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174472011&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938468&sid=1781174468&sct=1&seg=1&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&_s=3&tfd=7316"
+      },
+      {
+        "data": {
+          "filter": "/v1/log_event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "alt": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "data": {
+          "filter": "||airbrake.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "language": "JavaScript",
+            "notifier_name": "airbrake-js/browser",
+            "notifier_version": "2.1.5",
+            "os": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://notifier-configs.airbrake.io/2020-06-18/config/323992/config.json?&notifier_name=airbrake-js%2Fbrowser&notifier_version=2.1.5&os=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=JavaScript"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 14,
+            "_eu": "AAgAAGQ",
+            "_p": 1781174472011,
+            "_s": 2,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "en": "view_home_page",
+            "ep.aqfer_puu": 743738372.1781174,
+            "ep.content_origin": "nypost",
+            "ep.content_origin_slug": "ny",
+            "ep.display_template": "standard",
+            "ep.edition": "nypost",
+            "ep.edition_slug": "ny",
+            "ep.has_brightcove_player": "no",
+            "ep.has_sendtonews_player": "no",
+            "ep.page_type": "home",
+            "ep.paid_user": "not-paid",
+            "ep.photo_display_type": "Null",
+            "ep.redesign_viewer": true,
+            "ep.section": "home",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 3893,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174472011&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAgAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468&sid=1781174468&sct=1&seg=1&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&en=view_home_page&ep.page_type=home&ep.section=home&ep.display_template=standard&ep.has_brightcove_player=no&ep.has_sendtonews_player=no&ep.redesign_viewer=true&ep.photo_display_type=Null&ep.paid_user=not-paid&ep.edition_slug=ny&ep.content_origin_slug=ny&ep.edition=nypost&ep.content_origin=nypost&ep.aqfer_puu=743738372.1781174468&_et=14&tfd=3893"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_et": 25,
+            "_eu": "AgAAAGQ",
+            "_p": 1781174472011,
+            "_s": 1,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "en": "page_view",
+            "ep.aqfer_puu": 743738372.1781174,
+            "ep.content_origin": "nypost",
+            "ep.content_origin_slug": "ny",
+            "ep.display_template": "standard",
+            "ep.edition": "nypost",
+            "ep.edition_slug": "ny",
+            "ep.has_brightcove_player": "no",
+            "ep.has_sendtonews_player": "no",
+            "ep.page_type": "home",
+            "ep.paid_user": "not-paid",
+            "ep.photo_display_type": "Null",
+            "ep.redesign_viewer": true,
+            "ep.section": "home",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 3835,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174472011&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AgAAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468&sid=1781174468&sct=1&seg=1&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&en=page_view&_ee=1&ep.page_type=home&ep.section=home&ep.display_template=standard&ep.has_brightcove_player=no&ep.has_sendtonews_player=no&ep.redesign_viewer=true&ep.photo_display_type=Null&ep.paid_user=not-paid&ep.edition_slug=ny&ep.content_origin_slug=ny&ep.edition=nypost&ep.content_origin=nypost&ep.aqfer_puu=743738372.1781174468&_et=25&tfd=3835"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 3118,
+            "t": 1781174474963,
+            "w": "default-matchdetail",
+            "wid": "3118-multisports-matchdetail"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widgets.sports.gracenote.com/pixel.gif?c=3118&wid=3118-multisports-matchdetail&w=default-matchdetail&t=1781174474963"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "1El7qw": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/generate_204?1El7qw"
+      },
+      {
+        "data": {
+          "filter": "/pushly-sdk.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain_key": "lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/1/i/adsctp"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsctp"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-0DZ7LHF5PZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-0DZ7LHF5PZ&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "slf_rd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id"
+      },
+      {
+        "data": {
+          "filter": "||pixel.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "arch_home": 1,
+            "blog": 163456144,
+            "fcp": 373,
+            "host": "nypost.com",
+            "hp": "vip",
+            "j": "1:15.7",
+            "post": 0,
+            "rand": 0.014421748573430815,
+            "ref": "",
+            "srv": "nypost.com",
+            "tz": -4,
+            "v": "ext"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.wp.com/g.gif?v=ext&blog=163456144&post=0&tz=-4&srv=nypost.com&arch_home=1&hp=vip&j=1%3A15.7&host=nypost.com&ref=&fcp=373&rand=0.014421748573430815"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3105"
+      },
+      {
+        "data": {
+          "filter": "||stats.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.wp.com/e-202624.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TWX9Z9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TWX9Z9"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 738589,
+            "app": "typekit",
+            "e": "css",
+            "f": 39500.39501,
+            "ht": "tk",
+            "k": "pyz4pvc",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=pyz4pvc&ht=tk&f=39500.39501&a=738589&app=typekit&e=css"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAGQ",
+            "_p": 1781174463786,
+            "_s": 5,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "en": "trackOptanonEvent",
+            "ep.optanonAction": "Click",
+            "ep.optanonCategory": "OneTrust Cookie Consent",
+            "ep.optanonLabel": "No interaction",
+            "frm": 0,
+            "gaf": 2,
+            "gap.plf": 5,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tcfd": 10001,
+            "tfd": 10171,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174463786&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=5&tag_exp=0~115616985~115938466~115938468&sid=1781174468&sct=1&seg=1&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&en=trackOptanonEvent&_ee=1&gap.plf=5&ep.optanonCategory=OneTrust%20Cookie%20Consent&ep.optanonAction=Click&ep.optanonLabel=No%20interaction&tfd=10171"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://privacyportal.onetrust.com/request/v1/consentreceipts/anonymous"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAgAAGQ",
+            "_p": 1781174463786,
+            "_s": 4,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "en": "view_home_page",
+            "ep.content_origin": "nypost",
+            "ep.content_origin_slug": "ny",
+            "ep.display_template": "standard",
+            "ep.edition": "nypost",
+            "ep.edition_slug": "ny",
+            "ep.has_brightcove_player": "no",
+            "ep.has_sendtonews_player": "no",
+            "ep.page_type": "home",
+            "ep.paid_user": "not-paid",
+            "ep.photo_display_type": "Null",
+            "ep.redesign_viewer": true,
+            "ep.section": "home",
+            "frm": 0,
+            "gaf": 2,
+            "gap.plf": 5,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tcfd": 10001,
+            "tfd": 10053,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174463786&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAgAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=4&tag_exp=0~115616985~115938466~115938468&sid=1781174468&sct=1&seg=1&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&en=view_home_page&gap.plf=5&ep.page_type=home&ep.section=home&ep.display_template=standard&ep.has_brightcove_player=no&ep.has_sendtonews_player=no&ep.redesign_viewer=true&ep.photo_display_type=Null&ep.paid_user=not-paid&ep.edition_slug=ny&ep.content_origin_slug=ny&ep.edition=nypost&ep.content_origin=nypost&tfd=10053"
+      },
+      {
+        "data": {
+          "filter": "/v1/log_event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "alt": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "data": {
+          "filter": "/v1/log_event",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "alt": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      },
+      {
+        "data": {
+          "filter": "||airbrake.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "language": "JavaScript",
+            "notifier_name": "airbrake-js/browser",
+            "notifier_version": "2.1.5",
+            "os": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://notifier-configs.airbrake.io/2020-06-18/config/323992/config.json?&notifier_name=airbrake-js%2Fbrowser&notifier_version=2.1.5&os=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&language=JavaScript"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 3118,
+            "t": 1781174470178,
+            "w": "default-matchdetail",
+            "wid": "3118-multisports-matchdetail"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widgets.sports.gracenote.com/pixel.gif?c=3118&wid=3118-multisports-matchdetail&w=default-matchdetail&t=1781174470178"
+      },
+      {
+        "data": {
+          "filter": "/pushly-sdk.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain_key": "lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=lGrO4sEYCy0zUu2DRBSBxuOWIGo8lGqPv8wE"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 743738372.1781174,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "rcb": 18,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tid": "G-0DZ7LHF5PZ",
+            "v": 1,
+            "z": 1936685321
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-0DZ7LHF5PZ&cid=743738372.1781174468&gtm=45je6691v895130382za200zb71221804zd71221804&rcb=18&aip=1&dma=1&dma_cps=a&gcd=13l3lPl2l1l1&npa=1&frm=0&tag_exp=0~115616985~115938466~115938468&z=1936685321"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AgAAAGQ",
+            "_p": 1781174463786,
+            "_s": 3,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "en": "page_view",
+            "ep.content_origin": "nypost",
+            "ep.content_origin_slug": "ny",
+            "ep.display_template": "standard",
+            "ep.edition": "nypost",
+            "ep.edition_slug": "ny",
+            "ep.has_brightcove_player": "no",
+            "ep.has_sendtonews_player": "no",
+            "ep.page_type": "home",
+            "ep.paid_user": "not-paid",
+            "ep.photo_display_type": "Null",
+            "ep.redesign_viewer": true,
+            "ep.section": "home",
+            "frm": 0,
+            "gaf": 2,
+            "gap.plf": 5,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tcfd": 10001,
+            "tfd": 6980,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174463786&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AgAAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616985~115938466~115938468&sid=1781174468&sct=1&seg=1&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&en=page_view&_ee=1&gap.plf=5&ep.page_type=home&ep.section=home&ep.display_template=standard&ep.has_brightcove_player=no&ep.has_sendtonews_player=no&ep.redesign_viewer=true&ep.photo_display_type=Null&ep.paid_user=not-paid&ep.edition_slug=ny&ep.content_origin_slug=ny&ep.edition=nypost&ep.content_origin=nypost&tfd=6980"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGQ",
+            "_p": 1781174463786,
+            "_s": 2,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tcfd": 10001,
+            "tfd": 6963,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174463786&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAGQ&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115616985~115938466~115938468&sid=1781174468&sct=1&seg=0&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&_s=2&tfd=6963"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1781174463786,
+            "_s": 1,
+            "_ss": 2,
+            "are": 1,
+            "cid": 743738372.1781174,
+            "dl": "https://nypost.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "New York Post – Breaking News, Top Headlines, Photos & Videos",
+            "en": "impression",
+            "ep.content_origin": "nypost",
+            "ep.content_origin_slug": "ny",
+            "ep.destination": "",
+            "ep.display_template": "standard",
+            "ep.edition": "nypost",
+            "ep.edition_slug": "ny",
+            "ep.event_category": "",
+            "ep.event_label": "",
+            "ep.has_brightcove_player": "no",
+            "ep.has_sendtonews_player": "no",
+            "ep.page_type": "home",
+            "ep.paid_user": "not-paid",
+            "ep.photo_display_type": "Null",
+            "ep.redesign_viewer": true,
+            "ep.section": "home",
+            "ep.source_page": "https://nypost.com/",
+            "ep.source_page_type": "home",
+            "ep.source_unit": "edition_toggle",
+            "frm": 0,
+            "gaf": 2,
+            "gap.plf": 5,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v895130382za200zb71221804zd71221804",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781174468,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tcfd": 10001,
+            "tfd": 6885,
+            "tid": "G-0DZ7LHF5PZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-0DZ7LHF5PZ&gtm=45je6691v895130382za200zb71221804zd71221804&_p=1781174463786&_gaz=1&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAGA&are=1&cid=743738372.1781174468&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938466~115938468&sid=1781174468&sct=1&seg=0&dl=https%3A%2F%2Fnypost.com%2F&dt=New%20York%20Post%20%E2%80%93%20Breaking%20News%2C%20Top%20Headlines%2C%20Photos%20%26%20Videos&en=impression&_fv=1&_nsi=1&_ss=2&_ee=1&gap.plf=5&ep.source_unit=edition_toggle&ep.event_category=&ep.event_label=&ep.page_type=home&ep.section=home&ep.display_template=standard&ep.has_brightcove_player=no&ep.has_sendtonews_player=no&ep.redesign_viewer=true&ep.photo_display_type=Null&ep.paid_user=not-paid&ep.edition_slug=ny&ep.content_origin_slug=ny&ep.edition=nypost&ep.content_origin=nypost&ep.source_page_type=home&ep.source_page=https%3A%2F%2Fnypost.com%2F&ep.destination=&tfd=6885"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "97iUxg": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube.com/generate_204?97iUxg"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/1/i/adsctp"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsctp"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-0DZ7LHF5PZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-0DZ7LHF5PZ&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "slf_rd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/Tq0LvoNEVdA?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/id"
+      },
+      {
+        "data": {
+          "filter": "||pixel.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "arch_home": 1,
+            "blog": 163456144,
+            "fcp": 2582,
+            "host": "nypost.com",
+            "hp": "vip",
+            "j": "1:15.7",
+            "post": 0,
+            "rand": 0.012853147294792144,
+            "ref": "",
+            "srv": "nypost.com",
+            "tz": -4,
+            "v": "ext"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.wp.com/g.gif?v=ext&blog=163456144&post=0&tz=-4&srv=nypost.com&arch_home=1&hp=vip&j=1%3A15.7&host=nypost.com&ref=&fcp=2582&rand=0.012853147294792144"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3105"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TWX9Z9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TWX9Z9"
+      },
+      {
+        "data": {
+          "filter": "||stats.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.wp.com/e-202624.js"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 738589,
+            "app": "typekit",
+            "e": "css",
+            "f": 39500.39501,
+            "ht": "tk",
+            "k": "pyz4pvc",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=pyz4pvc&ht=tk&f=39500.39501&a=738589&app=typekit&e=css"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://nypost.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      }
+    ]
+  }
+}

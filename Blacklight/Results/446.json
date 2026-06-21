@@ -1,0 +1,184 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Главная",
+  "uri_ins": "https://crpt.ru",
+  "uri_dest": "https://crpt.ru/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "crpt.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:52:28.666Z",
+  "end_time": "2026-06-11T07:52:32.647Z",
+  "browsing_history": [
+    "https://crpt.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "crpt.ru"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://crpt.ru/static/js/main97rkj.min.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://crpt.ru/static/js/main97rkj.min.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__ddg9_",
+        "value": "88.20.13.109",
+        "domain": "crpt.ru",
+        "path": "/",
+        "expires": "2026-06-13T00:23:31.092Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__ddg1_",
+        "value": "Xd1JVTBr6eWQeesTkTXE",
+        "domain": "crpt.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:52:29.895Z",
+        "size": 27,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "4ityEXIQrQGH1G8IjjVS5JvxT3YqNiQn",
+        "domain": "crpt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__ddg8_",
+        "value": "VfKs3Z1Iw0TcgdnB",
+        "domain": "crpt.ru",
+        "path": "/",
+        "expires": "2026-06-13T00:23:31.092Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__ddg10_",
+        "value": "1781164351",
+        "domain": "crpt.ru",
+        "path": "/",
+        "expires": "2026-06-13T00:23:31.092Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

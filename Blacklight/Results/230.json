@@ -1,0 +1,790 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Enterprise Open Source and Linux | Ubuntu",
+  "uri_ins": "https://ubuntu.com",
+  "uri_dest": "https://ubuntu.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "ubuntu.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:44:59.148Z",
+  "end_time": "2026-06-11T06:45:05.531Z",
+  "browsing_history": [
+    "https://ubuntu.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ubuntu.com",
+        "assets.ubuntu.com"
+      ],
+      "third_party": [
+        "w.usabilla.com",
+        "jspm.dev",
+        "res.cloudinary.com",
+        "www.googletagmanager.com",
+        "pagead2.googlesyndication.com",
+        "region1.google-analytics.com",
+        "ade.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-5LTL1CNEJM&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://ubuntu.com/static/js/dist/main.js?v=ba62a77": [
+          "keydown"
+        ],
+        "https://ubuntu.com/": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-5LTL1CNEJM&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-K92JCQ": [
+          "click"
+        ],
+        "https://w.usabilla.com/ecdf1756070a.js?lv=1": [
+          "click"
+        ],
+        "https://ubuntu.com/static/js/dist/main.js?v=ba62a77": [
+          "click"
+        ],
+        "https://ubuntu.com/": [
+          "mousemove",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://ubuntu.com/": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "control_or_variant",
+        "value": "",
+        "domain": "ubuntu.com",
+        "path": "/",
+        "expires": -1,
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 2078,
+            "_eu": "AAAAAGAC",
+            "_p": 1781160302245,
+            "_s": 4,
+            "are": 1,
+            "cid": 1180734164.178116,
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Enterprise Open Source and Linux | Ubuntu",
+            "en": "user_engagement",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v882794756za20gzb71014405zd71014405",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160302,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~117776794",
+            "tfd": 5738,
+            "tid": "G-5LTL1CNEJM",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5LTL1CNEJM&gtm=45je6691v882794756za20gzb71014405zd71014405&_p=1781160302245&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAGAC&are=1&cid=1180734164.1781160302&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=4&tag_exp=0~115938465~115938468~117776794&sid=1781160302&sct=1&seg=0&dl=https%3A%2F%2Fubuntu.com%2F&dt=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&en=user_engagement&_et=2078&tfd=5738"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 4,
+            "_eu": "AAgAAGAC",
+            "_p": 1781160302245,
+            "_s": 3,
+            "_tu": "KA",
+            "are": 1,
+            "cid": 1180734164.178116,
+            "cu": "USD",
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Enterprise Open Source and Linux | Ubuntu",
+            "en": "cloud___tools___juju___jujucharms_com",
+            "epn.value": 0,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v882794756za20gzb71014405zd71014405",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160302,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~117776794",
+            "tfd": 5737,
+            "tid": "G-5LTL1CNEJM",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5LTL1CNEJM&gtm=45je6691v882794756za20gzb71014405zd71014405&_p=1781160302245&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAgAAGAC&are=1&cid=1180734164.1781160302&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938468~117776794&sid=1781160302&sct=1&seg=0&dl=https%3A%2F%2Fubuntu.com%2F&dt=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&cu=USD&_tu=KA&en=cloud___tools___juju___jujucharms_com&epn.value=0&_et=4&tfd=5737"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "async": 1,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "category": "acrcp_v1_512",
+            "cv": 11,
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "conversion",
+            "ept": 6,
+            "fmt": 8,
+            "frm": 0,
+            "fst": 1781160303249,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691z871014405za20gzb71014405zd71014405xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "XLJjCObGkswBEOC-3-ID",
+            "npa": 1,
+            "pscdl": "denied",
+            "random": 1781160303249,
+            "rcb": 9,
+            "tag_exp": "0~115938465~115938468~117776793",
+            "tiba": "Enterprise Open Source and Linux | Ubuntu",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://ubuntu.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/1012391776/?random=1781160303249&cv=11&fst=1781160303249&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691z871014405za20gzb71014405zd71014405xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468~117776793&u_w=375&u_h=812&url=https%3A%2F%2Fubuntu.com%2F&rcb=9&label=XLJjCObGkswBEOC-3-ID&frm=0&tiba=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&bttype=purchase&value=0&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&category=acrcp_v1_512&ept=6"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v897036550z871014405za20gzb71014405zd71014405xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 5,
+            "rnd": 2092144936.178116,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tfd": 3403,
+            "tft": 1781160303086,
+            "tid": "AW-604028040",
+            "tids": "AW-604028040"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&ae=g&dl=https%3A%2F%2Fubuntu.com%2F&scrsrc=www.googletagmanager.com&rnd=2092144936.1781160302&navt=n&npa=1&_tu=KA&gtm=45be6691v897036550z871014405za20gzb71014405zd71014405xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938465~115938468&apve=1&apvf=f&apvc=0&tids=AW-604028040&tid=AW-604028040&tft=1781160303086&tfd=3403"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v897033674z871014405za20gzb71014405zd71014405xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 8,
+            "rnd": 2092144936.178116,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 3172,
+            "tft": 1781160302855,
+            "tid": "AW-608589488",
+            "tids": "AW-608589488"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&ae=g&dl=https%3A%2F%2Fubuntu.com%2F&scrsrc=www.googletagmanager.com&rnd=2092144936.1781160302&navt=n&npa=1&_tu=KA&gtm=45be6691v897033674z871014405za20gzb71014405zd71014405xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&apve=1&apvf=f&apvc=0&tids=AW-608589488&tid=AW-608589488&tft=1781160302855&tfd=3172"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "async": 1,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "category": "acrcp_v1_512",
+            "cv": 11,
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "conversion",
+            "ept": 6,
+            "fmt": 8,
+            "frm": 0,
+            "fst": 1781160302823,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v897033674z871014405za20gzb71014405zd71014405xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "CtdfCMqn5NoBELCtmaIC",
+            "npa": 1,
+            "pscdl": "denied",
+            "random": 1781160302823,
+            "rcb": 8,
+            "tag_exp": "0~115938465~115938469",
+            "tiba": "Enterprise Open Source and Linux | Ubuntu",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://ubuntu.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/608589488/?random=1781160302823&cv=11&fst=1781160302823&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691v897033674z871014405za20gzb71014405zd71014405xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&u_w=375&u_h=812&url=https%3A%2F%2Fubuntu.com%2F&rcb=8&label=CtdfCMqn5NoBELCtmaIC&frm=0&tiba=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&bttype=purchase&value=0&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&category=acrcp_v1_512&ept=6"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_p": 1781160302245,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1180734164.178116,
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Enterprise Open Source and Linux | Ubuntu",
+            "en": "impression",
+            "ep.impression_cta": "give it a try",
+            "ep.impression_from": "https://ubuntu.com/",
+            "ep.impression_to": "https://marketplace.microsoft.com/en-us/product/canonical.managed-kubeflow?tab=Overview",
+            "ep.type": "takeover",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9185330166z871014405za20gzb71014405zd71014405",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160302,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938468~119456240~119456248",
+            "tfd": 2991,
+            "tid": "G-PGQQ61N4N6",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-PGQQ61N4N6&gtm=45je6691v9185330166z871014405za20gzb71014405zd71014405&_p=1781160302245&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAAAC&are=1&cid=1180734164.1781160302&frm=0&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~119456240~119456248&sid=1781160302&sct=1&seg=0&dl=https%3A%2F%2Fubuntu.com%2F&dt=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&en=impression&_fv=1&_ss=1&ep.type=takeover&ep.impression_from=https%3A%2F%2Fubuntu.com%2F&ep.impression_to=https%3A%2F%2Fmarketplace.microsoft.com%2Fen-us%2Fproduct%2Fcanonical.managed-kubeflow%3Ftab%3DOverview&ep.impression_cta=give%20it%20a%20try&tfd=2991"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-604028040"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-604028040&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-10451423"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-10451423&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-608589488"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-608589488&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1012391776"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-1012391776&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 5,
+            "_eu": "AAAAAGAC",
+            "_p": 1781160302245,
+            "_s": 2,
+            "are": 1,
+            "cid": 1180734164.178116,
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Enterprise Open Source and Linux | Ubuntu",
+            "en": "impression",
+            "ep.impression_cta": "give it a try",
+            "ep.impression_from": "https://ubuntu.com/",
+            "ep.impression_to": "https://marketplace.microsoft.com/en-us/product/canonical.managed-kubeflow?tab=Overview",
+            "ep.type": "takeover",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v882794756z871014405za20gzb71014405zd71014405",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160302,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~117776794",
+            "tfd": 2856,
+            "tid": "G-5LTL1CNEJM",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5LTL1CNEJM&gtm=45je6691v882794756z871014405za20gzb71014405zd71014405&_p=1781160302245&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAGAC&are=1&cid=1180734164.1781160302&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~117776794&sid=1781160302&sct=1&seg=0&dl=https%3A%2F%2Fubuntu.com%2F&dt=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&en=impression&ep.type=takeover&ep.impression_from=https%3A%2F%2Fubuntu.com%2F&ep.impression_to=https%3A%2F%2Fmarketplace.microsoft.com%2Fen-us%2Fproduct%2Fcanonical.managed-kubeflow%3Ftab%3DOverview&ep.impression_cta=give%20it%20a%20try&_et=5&tfd=2856"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AgAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781160302245,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1180734164.178116,
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Enterprise Open Source and Linux | Ubuntu",
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v882794756z871014405za20gzb71014405zd71014405",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160302,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~117776794",
+            "tfd": 2833,
+            "tid": "G-5LTL1CNEJM",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.color_display": "p3: false | srgb: true | rec2020: false",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5LTL1CNEJM&gtm=45je6691v882794756z871014405za20gzb71014405zd71014405&_p=1781160302245&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&_eu=AgAAAGAC&are=1&cid=1180734164.1781160302&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~117776794&sid=1781160302&sct=1&seg=0&dl=https%3A%2F%2Fubuntu.com%2F&dt=Enterprise%20Open%20Source%20and%20Linux%20%7C%20Ubuntu&en=page_view&_fv=1&_nsi=1&_ss=1&up.color_display=p3%3A%20false%20%7C%20srgb%3A%20true%20%7C%20rec2020%3A%20false&tfd=2833"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://ubuntu.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45He6691v71014405za200zd71014405xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 15,
+            "rnd": 2092144936.178116,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 2638,
+            "tft": 1781160302321
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fubuntu.com%2F&scrsrc=www.googletagmanager.com&rnd=2092144936.1781160302&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He6691v71014405za200zd71014405xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468&apve=1&apvf=f&apvc=1&tft=1781160302321&tfd=2638"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-PGQQ61N4N6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PGQQ61N4N6&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-5LTL1CNEJM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-5LTL1CNEJM&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-K92JCQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ubuntu.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K92JCQ"
+      },
+      {
+        "data": {
+          "filter": "||usabilla.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "lv": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.usabilla.com/ecdf1756070a.js?lv=1"
+      }
+    ]
+  }
+}

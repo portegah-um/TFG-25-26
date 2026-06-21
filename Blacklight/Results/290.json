@@ -1,0 +1,1556 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "IBM",
+  "uri_ins": "https://ibm.com",
+  "uri_dest": "https://www.ibm.com/us-en",
+  "uri_redirects": [
+    "https://ibm.com/",
+    "https://www.ibm.com/",
+    "https://www.ibm.com/es-en"
+  ],
+  "secure_connection": {},
+  "host": "ibm.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:05:13.350Z",
+  "end_time": "2026-06-11T07:05:30.158Z",
+  "browsing_history": [
+    "https://www.ibm.com/us-en"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ibm.com",
+        "www.ibm.com",
+        "www-api.ibm.com",
+        "edgedc.ibm.com",
+        "login.ibm.com",
+        "assets.ibm.com",
+        "lp2.email.ibm.com",
+        "cm-api-v4.contact-module.ibm.com"
+      ],
+      "third_party": [
+        "rum.hlx.page",
+        "assets.adobedtm.com",
+        "1.www.s81c.com",
+        "hybrid-cloud-widgets-production.s3.us.cloud-object-storage.appdomain.cloud",
+        "tags.tiqcdn.com",
+        "d2c7xlmseob604.cloudfront.net",
+        "cdnapisec.kaltura.com",
+        "cdnsecakmi.kaltura.com",
+        "api.smartling.com",
+        "consent.trustarc.com",
+        "munchkin.marketo.net",
+        "298-rse-650.mktoutil.com",
+        "js-agent.newrelic.com",
+        "cfvod.kaltura.com",
+        "analytics.kaltura.com",
+        "bam.nr-data.net",
+        "web-chat.global.assistant.watson.appdomain.cloud",
+        "integrations.us-south.assistant.watson.appdomain.cloud"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://1.www.s81c.com/cognitive-tooling-unified-chat/v1/webchat.bundle.js": [
+          "keydown"
+        ],
+        "https://cdnapisec.kaltura.com/html5/html5lib/v2.101/load.php?debug=false&lang=en&modules=Hlsjs%2CPolyfill_Set%2CacCheck%2CacPreview%2CaudioSelector%2Cbase64_decode%2Cbase64_encode%2Cchapters%2Cclass%2CclosedCaptions%2CcontrolBarContainer%2CcurrentTimeLabel%2Cdotdotdot%2CdualScreen%2CdurationLabel%2CfullScreenBtn%2Cid3Tag%2CjCarouse%2CkAnalony%2Ckdark%2CkeyboardShortcuts%2CkgitGuard%2ClargePlayBtn%2CliveStream%2CmatchMedia%2CmorePlugins%2CnanoScroller%2CnativeBridge%2CplayPauseBtn%2CplaybackRateSelectorPlugin%2Cpolyfill_Array_filter%2Cpolyfill_Array_forEach%2CqualitySettings%2CreportError%2Cscreenfull%2Cscrubber%2Cshare%2CsideBarContainer%2CsourceSelector%2CstreamSelector%2Ctheme%2CtitleLabel%2CtopBarContainer%2CtouchSwipe%2Ctypeahead%2CunMuteOverlayButton%2Cutf8_encode%2CvolumeControl%7Cjquery.client%2Ccolor%2Ccookie%2Cdebouncedresize%2ChoverIntent%2CmessageBox%2CmwEmbedUtil%2CmwExtension%2CnaturalSize%7Cjquery.ui.core%2Cdraggable%2Cdroppable%2Cmouse%2Cposition%2Cresizable%2Cslider%2Ctooltip%2CtouchPunch%2Cwidget%7Cmediawiki.Uri%2CUtilitiesTime%2CUtilitiesUrl%2Cclient%2CjqueryMsg%2Ckmenu%2Clanguage%2Cutil%7Cmediawiki.util.tmpl%7Cmw.EmbedPlayer%2CEmbedPlayerImageOverlay%2CEmbedPlayerKplayer%2CEmbedPlayerNative%2CEmbedPlayerNativeComponent%2CEmbedTypes%2CKBaseButton%2CKBaseComponent%2CKBaseMediaList%2CKBasePlugin%2CKBaseScreen%2CKBaseSmartContainer%2CKCuePoints%2CKDPMapping%2CKEntryLoader%2CKPushServerNotification%2CKWidgetSupport%2CKalturaIframePlayerSetup%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CPlayerElement%2CPlayerElementFlash%2CPlayerElementHTML%2CPluginManager%2CTextSource%2CajaxProxy%7Cmw.Language.names%7Cmw.MwEmbedSupport.style%7Csocket.io%7Cvtt.js&pskwidgetpath=..%2Fkwidget-ps%2F&skin=no-theme&version=20260611T003508Z&*&protocol=https&wid=_1773841": [
+          "keydown"
+        ],
+        "https://lp2.email.ibm.com/index.php/form/XDFrame": [
+          "keydown"
+        ],
+        "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-caem-video-player.lc-9aea50644fb6e837bbe93f8649e2f484-lc.min.js": [
+          "keydown"
+        ],
+        "https://www.ibm.com/lMLHfr/fS/QF/1muK/UKthKwF_4EDTY/O1i3N2LV8JDmpL/AXwXOCo/FCth/PUooQQ8B": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://cdnapisec.kaltura.com/html5/html5lib/v2.101/load.php?debug=false&lang=en&modules=Hlsjs%2CPolyfill_Set%2CacCheck%2CacPreview%2CaudioSelector%2Cbase64_decode%2Cbase64_encode%2Cchapters%2Cclass%2CclosedCaptions%2CcontrolBarContainer%2CcurrentTimeLabel%2Cdotdotdot%2CdualScreen%2CdurationLabel%2CfullScreenBtn%2Cid3Tag%2CjCarouse%2CkAnalony%2Ckdark%2CkeyboardShortcuts%2CkgitGuard%2ClargePlayBtn%2CliveStream%2CmatchMedia%2CmorePlugins%2CnanoScroller%2CnativeBridge%2CplayPauseBtn%2CplaybackRateSelectorPlugin%2Cpolyfill_Array_filter%2Cpolyfill_Array_forEach%2CqualitySettings%2CreportError%2Cscreenfull%2Cscrubber%2Cshare%2CsideBarContainer%2CsourceSelector%2CstreamSelector%2Ctheme%2CtitleLabel%2CtopBarContainer%2CtouchSwipe%2Ctypeahead%2CunMuteOverlayButton%2Cutf8_encode%2CvolumeControl%7Cjquery.client%2Ccolor%2Ccookie%2Cdebouncedresize%2ChoverIntent%2CmessageBox%2CmwEmbedUtil%2CmwExtension%2CnaturalSize%7Cjquery.ui.core%2Cdraggable%2Cdroppable%2Cmouse%2Cposition%2Cresizable%2Cslider%2Ctooltip%2CtouchPunch%2Cwidget%7Cmediawiki.Uri%2CUtilitiesTime%2CUtilitiesUrl%2Cclient%2CjqueryMsg%2Ckmenu%2Clanguage%2Cutil%7Cmediawiki.util.tmpl%7Cmw.EmbedPlayer%2CEmbedPlayerImageOverlay%2CEmbedPlayerKplayer%2CEmbedPlayerNative%2CEmbedPlayerNativeComponent%2CEmbedTypes%2CKBaseButton%2CKBaseComponent%2CKBaseMediaList%2CKBasePlugin%2CKBaseScreen%2CKBaseSmartContainer%2CKCuePoints%2CKDPMapping%2CKEntryLoader%2CKPushServerNotification%2CKWidgetSupport%2CKalturaIframePlayerSetup%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CPlayerElement%2CPlayerElementFlash%2CPlayerElementHTML%2CPluginManager%2CTextSource%2CajaxProxy%7Cmw.Language.names%7Cmw.MwEmbedSupport.style%7Csocket.io%7Cvtt.js&pskwidgetpath=..%2Fkwidget-ps%2F&skin=no-theme&version=20260610T224947Z&*&protocol=https&wid=_1773841": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://1.www.s81c.com/common/stats/ibm-common.js": [
+          "scroll"
+        ],
+        "https://cdnapisec.kaltura.com/html5/html5lib/v2.101/load.php?debug=false&lang=en&modules=Hlsjs%2CPolyfill_Set%2CacCheck%2CacPreview%2CaudioSelector%2Cbase64_decode%2Cbase64_encode%2Cchapters%2Cclass%2CclosedCaptions%2CcontrolBarContainer%2CcurrentTimeLabel%2Cdotdotdot%2CdualScreen%2CdurationLabel%2CfullScreenBtn%2Cid3Tag%2CjCarouse%2CkAnalony%2Ckdark%2CkeyboardShortcuts%2CkgitGuard%2ClargePlayBtn%2CliveStream%2CmatchMedia%2CmorePlugins%2CnanoScroller%2CnativeBridge%2CplayPauseBtn%2CplaybackRateSelectorPlugin%2Cpolyfill_Array_filter%2Cpolyfill_Array_forEach%2CqualitySettings%2CreportError%2Cscreenfull%2Cscrubber%2Cshare%2CsideBarContainer%2CsourceSelector%2CstreamSelector%2Ctheme%2CtitleLabel%2CtopBarContainer%2CtouchSwipe%2Ctypeahead%2CunMuteOverlayButton%2Cutf8_encode%2CvolumeControl%7Cjquery.client%2Ccolor%2Ccookie%2Cdebouncedresize%2ChoverIntent%2CmessageBox%2CmwEmbedUtil%2CmwExtension%2CnaturalSize%7Cjquery.ui.core%2Cdraggable%2Cdroppable%2Cmouse%2Cposition%2Cresizable%2Cslider%2Ctooltip%2CtouchPunch%2Cwidget%7Cmediawiki.Uri%2CUtilitiesTime%2CUtilitiesUrl%2Cclient%2CjqueryMsg%2Ckmenu%2Clanguage%2Cutil%7Cmediawiki.util.tmpl%7Cmw.EmbedPlayer%2CEmbedPlayerImageOverlay%2CEmbedPlayerKplayer%2CEmbedPlayerNative%2CEmbedPlayerNativeComponent%2CEmbedTypes%2CKBaseButton%2CKBaseComponent%2CKBaseMediaList%2CKBasePlugin%2CKBaseScreen%2CKBaseSmartContainer%2CKCuePoints%2CKDPMapping%2CKEntryLoader%2CKPushServerNotification%2CKWidgetSupport%2CKalturaIframePlayerSetup%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CPlayerElement%2CPlayerElementFlash%2CPlayerElementHTML%2CPluginManager%2CTextSource%2CajaxProxy%7Cmw.Language.names%7Cmw.MwEmbedSupport.style%7Csocket.io%7Cvtt.js&pskwidgetpath=..%2Fkwidget-ps%2F&skin=no-theme&version=20260611T003508Z&*&protocol=https&wid=_1773841": [
+          "mouseup"
+        ],
+        "https://munchkin.marketo.net/165/munchkin.js": [
+          "click"
+        ],
+        "https://lp2.email.ibm.com/index.php/form/XDFrame": [
+          "click"
+        ],
+        "https://assets.adobedtm.com/0f2de1d5b89a/565c2aeb0d39/launch-560e54b3e83c.min.js": [
+          "click"
+        ],
+        "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-8ecc81929709e611d4b82a54cdc02816-lc.min.js": [
+          "click"
+        ],
+        "https://www.ibm.com/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/site.lc-711ad564e3a268c6369631bf501f356b-lc.min.js": [
+          "click"
+        ],
+        "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-table-of-contents.lc-3c88aa797deb7067b19a4de2f3f68bf9-lc.min.js": [
+          "scroll"
+        ],
+        "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-e2c2dade1d950d9ef98d9903e2d110ce-lc.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.ibm.com/lMLHfr/fS/QF/1muK/UKthKwF_4EDTY/O1i3N2LV8JDmpL/AXwXOCo/FCth/PUooQQ8B": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "mousemove"
+        ],
+        "https://www.ibm.com/etc.clientlibs/adobe-cms/components/content/atoms/image-dm/clientlibs/site.lc-9b26723627af10e7a2b570da81ed7d5c-lc.min.js": [
+          "scroll"
+        ],
+        "https://1.www.s81c.com/cognitive-tooling-unified-chat/v1/webchat.bundle.js": [
+          "click"
+        ],
+        "https://web-chat.global.assistant.watson.appdomain.cloud/versions/8.11.0/chat~cds-ai-chat-render.js": [
+          "click"
+        ],
+        "https://cdnapisec.kaltura.com/html5/html5lib/v2.101/load.php?debug=false&lang=en&modules=Hlsjs%2CPolyfill_Set%2CacCheck%2CacPreview%2CaudioSelector%2Cbase64_decode%2Cbase64_encode%2Cchapters%2Cclass%2CclosedCaptions%2CcontrolBarContainer%2CcurrentTimeLabel%2Cdotdotdot%2CdualScreen%2CdurationLabel%2CfullScreenBtn%2Cid3Tag%2CjCarouse%2CkAnalony%2Ckdark%2CkeyboardShortcuts%2CkgitGuard%2ClargePlayBtn%2CliveStream%2CmatchMedia%2CmorePlugins%2CnanoScroller%2CnativeBridge%2CplayPauseBtn%2CplaybackRateSelectorPlugin%2Cpolyfill_Array_filter%2Cpolyfill_Array_forEach%2CqualitySettings%2CreportError%2Cscreenfull%2Cscrubber%2Cshare%2CsideBarContainer%2CsourceSelector%2CstreamSelector%2Ctheme%2CtitleLabel%2CtopBarContainer%2CtouchSwipe%2Ctypeahead%2CunMuteOverlayButton%2Cutf8_encode%2CvolumeControl%7Cjquery.client%2Ccolor%2Ccookie%2Cdebouncedresize%2ChoverIntent%2CmessageBox%2CmwEmbedUtil%2CmwExtension%2CnaturalSize%7Cjquery.ui.core%2Cdraggable%2Cdroppable%2Cmouse%2Cposition%2Cresizable%2Cslider%2Ctooltip%2CtouchPunch%2Cwidget%7Cmediawiki.Uri%2CUtilitiesTime%2CUtilitiesUrl%2Cclient%2CjqueryMsg%2Ckmenu%2Clanguage%2Cutil%7Cmediawiki.util.tmpl%7Cmw.EmbedPlayer%2CEmbedPlayerImageOverlay%2CEmbedPlayerKplayer%2CEmbedPlayerNative%2CEmbedPlayerNativeComponent%2CEmbedTypes%2CKBaseButton%2CKBaseComponent%2CKBaseMediaList%2CKBasePlugin%2CKBaseScreen%2CKBaseSmartContainer%2CKCuePoints%2CKDPMapping%2CKEntryLoader%2CKPushServerNotification%2CKWidgetSupport%2CKalturaIframePlayerSetup%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CPlayerElement%2CPlayerElementFlash%2CPlayerElementHTML%2CPluginManager%2CTextSource%2CajaxProxy%7Cmw.Language.names%7Cmw.MwEmbedSupport.style%7Csocket.io%7Cvtt.js&pskwidgetpath=..%2Fkwidget-ps%2F&skin=no-theme&version=20260610T224947Z&*&protocol=https&wid=_1773841": [
+          "mouseup"
+        ]
+      },
+      "SENSOR": {
+        "https://cdnapisec.kaltura.com/html5/html5lib/v2.101/load.php?debug=false&lang=en&modules=Hlsjs%2CPolyfill_Set%2CacCheck%2CacPreview%2CaudioSelector%2Cbase64_decode%2Cbase64_encode%2Cchapters%2Cclass%2CclosedCaptions%2CcontrolBarContainer%2CcurrentTimeLabel%2Cdotdotdot%2CdualScreen%2CdurationLabel%2CfullScreenBtn%2Cid3Tag%2CjCarouse%2CkAnalony%2Ckdark%2CkeyboardShortcuts%2CkgitGuard%2ClargePlayBtn%2CliveStream%2CmatchMedia%2CmorePlugins%2CnanoScroller%2CnativeBridge%2CplayPauseBtn%2CplaybackRateSelectorPlugin%2Cpolyfill_Array_filter%2Cpolyfill_Array_forEach%2CqualitySettings%2CreportError%2Cscreenfull%2Cscrubber%2Cshare%2CsideBarContainer%2CsourceSelector%2CstreamSelector%2Ctheme%2CtitleLabel%2CtopBarContainer%2CtouchSwipe%2Ctypeahead%2CunMuteOverlayButton%2Cutf8_encode%2CvolumeControl%7Cjquery.client%2Ccolor%2Ccookie%2Cdebouncedresize%2ChoverIntent%2CmessageBox%2CmwEmbedUtil%2CmwExtension%2CnaturalSize%7Cjquery.ui.core%2Cdraggable%2Cdroppable%2Cmouse%2Cposition%2Cresizable%2Cslider%2Ctooltip%2CtouchPunch%2Cwidget%7Cmediawiki.Uri%2CUtilitiesTime%2CUtilitiesUrl%2Cclient%2CjqueryMsg%2Ckmenu%2Clanguage%2Cutil%7Cmediawiki.util.tmpl%7Cmw.EmbedPlayer%2CEmbedPlayerImageOverlay%2CEmbedPlayerKplayer%2CEmbedPlayerNative%2CEmbedPlayerNativeComponent%2CEmbedTypes%2CKBaseButton%2CKBaseComponent%2CKBaseMediaList%2CKBasePlugin%2CKBaseScreen%2CKBaseSmartContainer%2CKCuePoints%2CKDPMapping%2CKEntryLoader%2CKPushServerNotification%2CKWidgetSupport%2CKalturaIframePlayerSetup%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CPlayerElement%2CPlayerElementFlash%2CPlayerElementHTML%2CPluginManager%2CTextSource%2CajaxProxy%7Cmw.Language.names%7Cmw.MwEmbedSupport.style%7Csocket.io%7Cvtt.js&pskwidgetpath=..%2Fkwidget-ps%2F&skin=no-theme&version=20260611T003508Z&*&protocol=https&wid=_1773841": [
+          "orientationchange"
+        ],
+        "https://www.ibm.com/lMLHfr/fS/QF/1muK/UKthKwF_4EDTY/O1i3N2LV8JDmpL/AXwXOCo/FCth/PUooQQ8B": [
+          "devicemotion",
+          "deviceorientation"
+        ],
+        "https://cdnapisec.kaltura.com/html5/html5lib/v2.101/load.php?debug=false&lang=en&modules=Hlsjs%2CPolyfill_Set%2CacCheck%2CacPreview%2CaudioSelector%2Cbase64_decode%2Cbase64_encode%2Cchapters%2Cclass%2CclosedCaptions%2CcontrolBarContainer%2CcurrentTimeLabel%2Cdotdotdot%2CdualScreen%2CdurationLabel%2CfullScreenBtn%2Cid3Tag%2CjCarouse%2CkAnalony%2Ckdark%2CkeyboardShortcuts%2CkgitGuard%2ClargePlayBtn%2CliveStream%2CmatchMedia%2CmorePlugins%2CnanoScroller%2CnativeBridge%2CplayPauseBtn%2CplaybackRateSelectorPlugin%2Cpolyfill_Array_filter%2Cpolyfill_Array_forEach%2CqualitySettings%2CreportError%2Cscreenfull%2Cscrubber%2Cshare%2CsideBarContainer%2CsourceSelector%2CstreamSelector%2Ctheme%2CtitleLabel%2CtopBarContainer%2CtouchSwipe%2Ctypeahead%2CunMuteOverlayButton%2Cutf8_encode%2CvolumeControl%7Cjquery.client%2Ccolor%2Ccookie%2Cdebouncedresize%2ChoverIntent%2CmessageBox%2CmwEmbedUtil%2CmwExtension%2CnaturalSize%7Cjquery.ui.core%2Cdraggable%2Cdroppable%2Cmouse%2Cposition%2Cresizable%2Cslider%2Ctooltip%2CtouchPunch%2Cwidget%7Cmediawiki.Uri%2CUtilitiesTime%2CUtilitiesUrl%2Cclient%2CjqueryMsg%2Ckmenu%2Clanguage%2Cutil%7Cmediawiki.util.tmpl%7Cmw.EmbedPlayer%2CEmbedPlayerImageOverlay%2CEmbedPlayerKplayer%2CEmbedPlayerNative%2CEmbedPlayerNativeComponent%2CEmbedTypes%2CKBaseButton%2CKBaseComponent%2CKBaseMediaList%2CKBasePlugin%2CKBaseScreen%2CKBaseSmartContainer%2CKCuePoints%2CKDPMapping%2CKEntryLoader%2CKPushServerNotification%2CKWidgetSupport%2CKalturaIframePlayerSetup%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CPlayerElement%2CPlayerElementFlash%2CPlayerElementHTML%2CPluginManager%2CTextSource%2CajaxProxy%7Cmw.Language.names%7Cmw.MwEmbedSupport.style%7Csocket.io%7Cvtt.js&pskwidgetpath=..%2Fkwidget-ps%2F&skin=no-theme&version=20260610T224947Z&*&protocol=https&wid=_1773841": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.ibm.com/lMLHfr/fS/QF/1muK/UKthKwF_4EDTY/O1i3N2LV8JDmpL/AXwXOCo/FCth/PUooQQ8B": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ucx-pzn-id",
+        "value": "ucx-anon_ce20de14-9da0-46dc-a2ca-a7b6a074c46b",
+        "domain": "www-api.ibm.com",
+        "path": "/unified-chat-auth/api/v1",
+        "expires": "2026-07-11T07:05:28.722Z",
+        "size": 55,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "A6FA4D75DBDEB5E75A68C7E546250A6C~000000000000000000000000000000~YAAQXEAQAnHflpGeAQAAxtR/tQA9iNWzBllS+/RZGExruRf024fGPo/5eCqlAqKNO33Aknk0pIy2G81MBDMRjl7EuIOLbG/w1hCHWKYbTUaO6ykY+okAKc/7eGMOv+i0t7LYhKul3y5DB7yfThxa5skHg8pCeD0m1BHgRwFxEh5fN8b/tpofHq/nmxUA3HsRiJ0Gd9acIjlncGrX1uoxL9s8Wiwyt6TMGMF4FujMnB+1Vh7k6k902tsVFh5ZJ04bR85BIkTtsNh/igLdSrzSovfnAcfzfYi7s26ZDPwR/3b2qKGjeEC6UL0UBe39EXqkt2HxT25zFJWSlmAEimNqWgSKPuMgLwDOM5udxgx/+apzKL3JaWAFyozCoyrvOCn05eDwAUKoPEI=",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T09:05:14.190Z",
+        "size": 467,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "notice_preferences_master",
+        "value": "{}",
+        "domain": "www-api.ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T07:05:15.631Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "e79d2bf4da9603c4863b9214ab815aca",
+        "value": "5235e9501c2159e6a854c4d6e81b0c90",
+        "domain": "www-api.ibm.com",
+        "path": "/",
+        "expires": -1,
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userContext",
+        "value": "n/a|0|0|0|ES|MC|1|n/a|expressed|zz|n/a|n/a|n/a|n/a|n/a",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T07:05:26.000Z",
+        "size": 65,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_D10F27705ED7F5130A495C99_AdobeOrg_cluster",
+        "value": "irl1",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T07:35:16.317Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_D10F27705ED7F5130A495C99_AdobeOrg_identity",
+        "value": "CiY3MzE3OTQzODc2MzIwMzgxNzg3MzM1NzIyODM3NTc5MTI2Njk3OVITCIW6%5F6vrMxABGAIqBElSTDEwAPABhbr%5Fq%2Dsz",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-07-11T07:05:16.317Z",
+        "size": 147,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_D10F27705ED7F5130A495C99_AdobeOrg_consent",
+        "value": "general%3Dpending",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-12-08T07:05:16.317Z",
+        "size": 65,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CIPD-S-SESSION-ID",
+        "value": "0:1:rediscol02a:NI9X4SBP2fj7knKoLQ96jiSNtqq/pK0Ix2GVfBuuqyc=",
+        "domain": "login.ibm.com",
+        "path": "/",
+        "expires": -1,
+        "size": 77,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CISESSIONIDPR07A",
+        "value": "PBC5YS:1082604702",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": -1,
+        "size": 33,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_D10F27705ED7F5130A495C99%40AdobeOrg",
+        "value": "MCMID|73179438763203817873357228375791266979",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-07-06T07:05:17.000Z",
+        "size": 84,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "PUbh9LmjtdqkJEIDSh6GXrs6soeGtdxjgd9nvc.oVGk-1781161518-1.0.1.1-4CgMBMg50HwBs4m9tikS6npEzRYmQr.pbRUO18WamqI3t8Ha.iQh2mPTln3K8w5Om5TmQZB9lkblz2TEflm2nMr1lD2nt4fv2jfPEBIh_Gg",
+        "domain": "lp2.email.ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T07:35:18.282Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OPTOUTMULTI",
+        "value": "0:0%7Cc1:1%7Cc3:1%7Cc2:1",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-09-09T07:05:26.000Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TAsessionID",
+        "value": "70a353d9-24d1-4c53-aa05-03110c148ef8|NEW",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T07:35:18.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "BIGipServer~VS65000-N117~mlm-core-web-0036-prod_9080",
+        "value": "!JYwch/zc8CpyHFYKZpeXdAF7ea9tTvigcwhqhjurPIwvDhF5qA0oEGCQ0rEXIaagnTYZGnNwbYCAMLSOtGVYvGpezMJulgBfwrweK1OlaZUpmw==",
+        "domain": "lp2.email.ibm.com",
+        "path": "/",
+        "expires": -1,
+        "size": 165,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_vnc365",
+        "value": "1812697520027&vn=1",
+        "domain": "www.ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T21:59:59.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_ivc",
+        "value": "true",
+        "domain": "www.ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T07:35:26.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_gpv",
+        "value": "https://www.ibm.com/us-en",
+        "domain": "www.ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T07:35:26.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_mkto_trk_http",
+        "value": "id:298-RSE-650&token:_mch-ibm.com-ec77c28ed46355ca7692995d652c18ec",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-07-16T07:05:20.591Z",
+        "size": 80,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_mkto_trk",
+        "value": "id:298-RSE-650&token:_mch-ibm.com-ec77c28ed46355ca7692995d652c18ec",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T07:05:27.000Z",
+        "size": 75,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "B554B68B964EA8D481DA780DE39CD9C5~YAAQXEAQApTolpGeAQAA5/p/tQAhwujkU9Asqv82Oh07iavaemotpu2IxrWSoyp1S4AAMQ8G8BZHyerBkb6s7SlM3qio5ldTtUZR1c0WhwY+YZxkjbzYd8sz/4dd/o1/gYNJZDnzdGC+3M4wsqM+Uo+JjfoskHNiG5ShfaoTJrRC4UFEsVK41QrZgLQAUyBqmouIDdxOAdD2UiMdyM8mxLL/eSkdFi9U8NMKc9udNqWlpO8xZNHorbIdlEMDgw7OW/9+4jOKxW1TC8Z3GWD0O8JFMX3mB4+9pLgK9VVVDof5hzjrsod9jW88VpvIAdDszb0ia3P+RVEq0OlFMvFJQHVg/su+Up1L0rBA7RRiu3aDgg2rrNu4Sy87gZcWAq/T1YSHhy5ZGNW6sd/XeVlRK5U2SEVa4yZ0eCUVbw==~4342083~4602178",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T11:05:14.950Z",
+        "size": 478,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pageviewContext",
+        "value": "b09c9efc-1f2d-4841-b803-f74d3fffe877",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": -1,
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_nr365",
+        "value": "1781161526352-New",
+        "domain": "www.ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T07:05:26.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utag_main",
+        "value": "_sn:1$_se:2%3Bexp-session$_ss:0%3Bexp-session$_st:1781163326906%3Bexp-session$ses_id:1781161518404%3Bexp-session$_pn:2%3Bexp-session$is_country_requiring_explicit_consent:true",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T07:05:26.000Z",
+        "size": 184,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "notice_behavior",
+        "value": "implied|eu",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": -1,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bm_sv",
+        "value": "F588CFEC630D4C7F831B70D8C69137D9~YAAQ3G1lX5YJyY+eAQAAjg2AtQBdtMGqk5IonXX3ZeNVoJ8a9BmPAHTvCuT//hBi0r2aR6JM8wOHHTxrqYasgMYVNSYZgRBByX9FsFEYlQa9kbVvLP+bZOED5sdGaYhfw9NyEk9ILQ+VNgW6zHY5FFP3433+DqcTTA7dsI98hiPcNuEIeBoslpD5kc9v2Gv4V8nG9pufHCIRcIMj/DlO1UoAaVjq/FV5e7ta6XGdUFFXZJA+etWgqg8oFnZk~1",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2026-06-11T09:05:17.722Z",
+        "size": 292,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_abck",
+        "value": "87C721F1AFB017E1106BA9D6B42A5820~-1~YAAQXEAQAjTtlpGeAQAAHw+AtRDnnWyaNu4fLP7vzaO9qR/ikt7ybMKGhA1rouE+Duzsa+DQALw1VEYj9ri/qBuJc5nDz3uGI/h7U8Mp39IHSVLLkPa5cYiXoRJ+cV0ilRJYmGhRI1UebXRiue61kugLhuCk9jxpcpZl/pp2PXxZ5bkfvhV5HnipBDOXJUClpgefk+Xals6kUG5by/yROAfkR+VDeDOhQSoxfbTB+xt6YAbixCj+2PSyQlbODh5TPTYT4eTOdrBpF1kKm9zRdXQ38nGy9JCpi2J9Pzr+H6wpYM+H0pwX6iVR+z70J3fkjgtofrIl6Ep6Jztjj2oNyuenlsdTITPAkTNKgR9QNOUDNyraoSeCMNn6+D8fQN3nlDtn5+xGyjbCOyy8tt3zhLqy/7+/OLxW3sCK+30nZ8mmJg8r9eDnq20maAw7a0GSejGXKAtszi7916LFAnhlFBykszyMynJ1CRwK7x371FczAqWD8ZUJZsA9h8nKW702UxHDfX25ROrH5W5VBBUg9sELodKiZ3fE2OOJgFf1eQqT4r6cQPvTSYTfp3O+Rg0yrHpaa8M3d3XZqPta0w2EHl49J++emWIw4tcGD1W/9ka/gVe0pZEdqe1wP1RCsfz6Al00IzeIK7m4OOspDayfmxtR9vHtvxwrERaGwRXJ~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f4YW%2fgKcCTyc3cppKRP%2fkLe7T2aRPpsH83DMCWncTHpsHz8bcrFlAr9FsLF3RmooQvOLAQUzgniTyw1Kjb40s3dIDyleJJReXJhj~-1",
+        "domain": "ibm.com",
+        "path": "/",
+        "expires": "2027-06-11T07:05:29.126Z",
+        "size": 860,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": 1038,
+            "apiVersion": 3.1,
+            "bufferTime": 0,
+            "bufferTimeSum": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 4,
+            "eventType": 3,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "joinTime": 0.819,
+            "kalsig": "2ff9d75a285474499adeb57ad4636b0a",
+            "ks": "djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA==",
+            "partnerId": 1773841,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "service": "analytics",
+            "sessionId": "35f7a1a6-4431-5fef-e547-c31261be8c9c",
+            "sessionStartTime": 1781161528.512,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=3&sessionId=35f7a1a6-4431-5fef-e547-c31261be8c9c&eventIndex=4&bufferTime=0&actualBitrate=1038&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=1781161528.512&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&ks=djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA%3D%3D&expectedQuality=1600&bufferTimeSum=0&joinTime=0.819&kalsig=2ff9d75a285474499adeb57ad4636b0a"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": -1,
+            "apiVersion": 3.1,
+            "averageBitrate": 0,
+            "bufferTime": 0,
+            "bufferTimeSum": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 3,
+            "eventType": 99,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "kalsig": "4fdb2e0f11a5cddb5113023932258905",
+            "ks": "djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA==",
+            "networkConnectionType": "4g",
+            "partnerId": 1773841,
+            "playTimeSum": 0,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "screenMode": 1,
+            "service": "analytics",
+            "sessionId": "35f7a1a6-4431-5fef-e547-c31261be8c9c",
+            "sessionStartTime": null,
+            "soundMode": 1,
+            "tabMode": 2,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=99&sessionId=35f7a1a6-4431-5fef-e547-c31261be8c9c&eventIndex=3&bufferTime=0&actualBitrate=-1&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=null&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&ks=djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA%3D%3D&expectedQuality=1600&screenMode=1&tabMode=2&soundMode=1&playTimeSum=0&averageBitrate=0&bufferTimeSum=0&networkConnectionType=4g&kalsig=4fdb2e0f11a5cddb5113023932258905"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": -1,
+            "apiVersion": 3.1,
+            "bufferTime": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 2,
+            "eventType": 2,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "kalsig": "2bbbe78f787d904d63b72e14dbca0357",
+            "ks": "djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA==",
+            "partnerId": 1773841,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "service": "analytics",
+            "sessionId": "35f7a1a6-4431-5fef-e547-c31261be8c9c",
+            "sessionStartTime": 1781161528.094,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=2&sessionId=35f7a1a6-4431-5fef-e547-c31261be8c9c&eventIndex=2&bufferTime=0&actualBitrate=-1&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=1781161528.094&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&ks=djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA%3D%3D&expectedQuality=1600&kalsig=2bbbe78f787d904d63b72e14dbca0357"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": -1,
+            "apiVersion": 3.1,
+            "bufferTime": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 1,
+            "eventType": 1,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "kalsig": "bbf8b71a9479662e080e3e95276a11c3",
+            "partnerId": 1773841,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "service": "analytics",
+            "sessionId": "35f7a1a6-4431-5fef-e547-c31261be8c9c",
+            "sessionStartTime": null,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=1&sessionId=35f7a1a6-4431-5fef-e547-c31261be8c9c&eventIndex=1&bufferTime=0&actualBitrate=-1&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=null&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&expectedQuality=1600&kalsig=bbf8b71a9479662e080e3e95276a11c3"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "3922950ac26b6ad3",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 452,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=452&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=3922950ac26b6ad3"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "3922950ac26b6ad3",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 451,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=451&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=3922950ac26b6ad3"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "3922950ac26b6ad3",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 449,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=449&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=3922950ac26b6ad3"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "ibm.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.ibm.com",
+            "session": "70a353d924d14c53aa0503110c148ef8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=ibm.com&implied=1&session=70a353d924d14c53aa0503110c148ef8&new=1&referer=https://www.ibm.com"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/165/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "ibm.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.ibm.com",
+            "session": "70a353d924d14c53aa0503110c148ef8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=ibm.com&implied=1&session=70a353d924d14c53aa0503110c148ef8&new=1&referer=https://www.ibm.com"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "af": "err,spa,xhr,stn,ins",
+            "ap": 24,
+            "at": "TxpUQQNCHBw=",
+            "be": 4,
+            "ck": 0,
+            "dc": 82,
+            "fe": 84,
+            "fsh": 0,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 2,
+                "ce": 2,
+                "dc": 87,
+                "de": 87,
+                "di": 87,
+                "dn": 2,
+                "dne": 2,
+                "ds": 87,
+                "f": 2,
+                "l": 87,
+                "le": 88,
+                "n": 0,
+                "of": 1781161526795,
+                "rp": 4,
+                "rpe": 7,
+                "rq": 4,
+                "s": 2
+              }
+            },
+            "ptid": "3922950ac26b6ad3",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 180,
+            "s": "c9104367734f9c3e",
+            "timestamp": 1781161527018,
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=180&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=3922950ac26b6ad3&af=err,spa,xhr,stn,ins&ap=24&be=4&fe=84&dc=82&at=TxpUQQNCHBw%3D&fsh=0&perf=%7B%22timing%22:%7B%22of%22:1781161526795,%22n%22:0,%22f%22:2,%22dn%22:2,%22dne%22:2,%22c%22:2,%22s%22:2,%22ce%22:2,%22rq%22:4,%22rp%22:4,%22rpe%22:7,%22di%22:87,%22ds%22:87,%22de%22:87,%22dc%22:87,%22l%22:87,%22le%22:88%7D,%22navigation%22:%7B%7D%7D&timestamp=1781161527018"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": "/tracker.min.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d2c7xlmseob604.cloudfront.net/tracker.min.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 4913,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=4913&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 4912,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=4912&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 4910,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=4910&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": 1038,
+            "apiVersion": 3.1,
+            "bufferTime": 0,
+            "bufferTimeSum": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 4,
+            "eventType": 3,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "joinTime": 0.905,
+            "kalsig": "d61232b824eb1c9b7d87487b23381299",
+            "ks": "djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA==",
+            "partnerId": 1773841,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "service": "analytics",
+            "sessionId": "8cbb6eb7-baef-ddbc-9067-7d17a4b5253f",
+            "sessionStartTime": 1781161521.341,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=3&sessionId=8cbb6eb7-baef-ddbc-9067-7d17a4b5253f&eventIndex=4&bufferTime=0&actualBitrate=1038&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=1781161521.341&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&ks=djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA%3D%3D&expectedQuality=1600&bufferTimeSum=0&joinTime=0.905&kalsig=d61232b824eb1c9b7d87487b23381299"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 1811,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=1811&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 1808,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=1808&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "ck": 0,
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 1806,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=1806&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": -1,
+            "apiVersion": 3.1,
+            "averageBitrate": 0,
+            "bufferTime": 0,
+            "bufferTimeSum": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 3,
+            "eventType": 99,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "kalsig": "ed030491f0d7915b127167785d2ea82f",
+            "ks": "djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA==",
+            "networkConnectionType": "4g",
+            "partnerId": 1773841,
+            "playTimeSum": 0,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "screenMode": 1,
+            "service": "analytics",
+            "sessionId": "8cbb6eb7-baef-ddbc-9067-7d17a4b5253f",
+            "sessionStartTime": null,
+            "soundMode": 1,
+            "tabMode": 2,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=99&sessionId=8cbb6eb7-baef-ddbc-9067-7d17a4b5253f&eventIndex=3&bufferTime=0&actualBitrate=-1&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=null&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&ks=djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA%3D%3D&expectedQuality=1600&screenMode=1&tabMode=2&soundMode=1&playTimeSum=0&averageBitrate=0&bufferTimeSum=0&networkConnectionType=4g&kalsig=ed030491f0d7915b127167785d2ea82f"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": -1,
+            "apiVersion": 3.1,
+            "bufferTime": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 2,
+            "eventType": 2,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "kalsig": "731378c30eb3a2e4f9ce9a629e22e663",
+            "ks": "djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA==",
+            "partnerId": 1773841,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "service": "analytics",
+            "sessionId": "8cbb6eb7-baef-ddbc-9067-7d17a4b5253f",
+            "sessionStartTime": null,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=2&sessionId=8cbb6eb7-baef-ddbc-9067-7d17a4b5253f&eventIndex=2&bufferTime=0&actualBitrate=-1&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=null&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&ks=djJ8MTc3Mzg0MXwmvOb-58wwFcUyYwG3p-Izf2zcYhyQ90WDxbLz_-xKKKvMWqF8In4iNQHoIFrSaulBxAfyqpp9_OY3tIv6yfz3rYdh8C-NeIy8KSa-PiLVBA%3D%3D&expectedQuality=1600&kalsig=731378c30eb3a2e4f9ce9a629e22e663"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1820343446,
+            "af": "err,spa,xhr,stn,ins",
+            "ap": 24,
+            "at": "TxpUQQNCHBw=",
+            "be": 247,
+            "ck": 0,
+            "dc": 681,
+            "fe": 727,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 1,
+                "ce": 1,
+                "dc": 973,
+                "de": 928,
+                "di": 928,
+                "dn": 1,
+                "dne": 1,
+                "ds": 928,
+                "f": 1,
+                "l": 973,
+                "le": 975,
+                "n": 0,
+                "of": 1781161519067,
+                "rp": 248,
+                "rpe": 254,
+                "rq": 3,
+                "s": 1
+              }
+            },
+            "ptid": "7a9e7522d37083a6",
+            "ref": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "rst": 1550,
+            "s": "c9104367734f9c3e",
+            "to": "Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/aef4f65953?a=1820343446&v=1.316.0&to=Y11XN0tYDxJTBRZdVloXdhZKTQ4MHQANRlQbYHElS1gMBA%3D%3D&rst=1550&ck=0&s=c9104367734f9c3e&ref=https://lp2.email.ibm.com/index.php/form/XDFrame&ptid=7a9e7522d37083a6&af=err,spa,xhr,stn,ins&ap=24&be=247&fe=727&dc=681&at=TxpUQQNCHBw%3D&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781161519067,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22s%22:1,%22ce%22:1,%22rq%22:3,%22rp%22:248,%22rpe%22:254,%22di%22:928,%22ds%22:928,%22de%22:928,%22dc%22:973,%22l%22:973,%22le%22:975%7D,%22navigation%22:%7B%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||analytics.kaltura.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "trackEvent",
+            "actualBitrate": -1,
+            "apiVersion": 3.1,
+            "bufferTime": 0,
+            "clientTag": "kwidget:v2.101",
+            "clientVer": 2.101,
+            "deliveryType": "hls",
+            "entryId": "1_b672uzyv",
+            "eventIndex": 1,
+            "eventType": 1,
+            "expectedQuality": 1600,
+            "expiry": 86400,
+            "flavorId": -1,
+            "format": 1,
+            "ignoreNull": 1,
+            "kalsig": "7c0c545d040b96ef0ceff5c206a9fbc9",
+            "partnerId": 1773841,
+            "playbackType": "vod",
+            "position": 0,
+            "referrer": "https://www.ibm.com/us-en",
+            "service": "analytics",
+            "sessionId": "8cbb6eb7-baef-ddbc-9067-7d17a4b5253f",
+            "sessionStartTime": null,
+            "uiConfId": 27941801
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.kaltura.com/api_v3/index.php?service=analytics&apiVersion=3.1&expiry=86400&clientTag=kwidget%3Av2.101&format=1&ignoreNull=1&action=trackEvent&entryId=1_b672uzyv&partnerId=1773841&eventType=1&sessionId=8cbb6eb7-baef-ddbc-9067-7d17a4b5253f&eventIndex=1&bufferTime=0&actualBitrate=-1&flavorId=-1&referrer=https%3A%2F%2Fwww.ibm.com%2Fus-en&deliveryType=hls&sessionStartTime=null&uiConfId=27941801&clientVer=2.101&position=0&playbackType=vod&expectedQuality=1600&kalsig=7c0c545d040b96ef0ceff5c206a9fbc9"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://lp2.email.ibm.com/index.php/form/XDFrame",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "ibm.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.ibm.com",
+            "session": "70a353d924d14c53aa0503110c148ef8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=ibm.com&implied=1&session=70a353d924d14c53aa0503110c148ef8&new=1&referer=https://www.ibm.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "ibm.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.ibm.com",
+            "session": "70a353d924d14c53aa0503110c148ef8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=ibm.com&implied=1&session=70a353d924d14c53aa0503110c148ef8&new=1&referer=https://www.ibm.com"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/165/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "/tracker.min.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ibm.com/us-en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d2c7xlmseob604.cloudfront.net/tracker.min.js"
+      }
+    ]
+  }
+}

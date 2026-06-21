@@ -1,0 +1,380 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Explore the Uber Platform | Earn & Ride | Uber",
+  "uri_ins": "https://uber.com",
+  "uri_dest": "https://www.uber.com/es/en/",
+  "uri_redirects": [
+    "https://uber.com/",
+    "https://www.uber.com/"
+  ],
+  "secure_connection": {},
+  "host": "uber.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:37:58.771Z",
+  "end_time": "2026-06-11T09:38:11.285Z",
+  "browsing_history": [
+    "https://www.uber.com/es/en/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "uber.com",
+        "www.uber.com",
+        "tb-static.uber.com",
+        "cn-geo1.uber.com",
+        "mobile-content.uber.com"
+      ],
+      "third_party": [
+        "tags.tiqcdn.com",
+        "d1a3f4spazzrp4.cloudfront.net",
+        "accounts.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.uber.com/_static/client-main-9916e164d66f38fb.js": [
+          "click",
+          "scroll",
+          "mousedown"
+        ],
+        "https://www.uber.com/_static/client-vendor-5eaa1439fe20ed10.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.uber.com/_static/client-7173-07eee0ca183843fd.js": [
+          "scroll"
+        ],
+        "https://www.uber.com/_static/client-3271-b10ae485732e961c.js": [
+          "scroll"
+        ],
+        "https://www.uber.com/es/en/": [
+          "click",
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.uber.com/_static/client-main-9916e164d66f38fb.js": [
+          "touchstart"
+        ],
+        "https://www.uber.com/es/en/": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.uber.com/_static/client-main-9916e164d66f38fb.js": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://www.uber.com/_static/client-4109-ece783a405d27cf8.js": [
+          "keydown"
+        ],
+        "https://www.uber.com/_static/client-vendor-5eaa1439fe20ed10.js": [
+          "keydown"
+        ],
+        "https://www.uber.com/es/en/": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ua",
+        "value": "{\"session_id\":\"dc966b69-5046-49e2-9f5c-c7f0ff248dc8\",\"session_time_ms\":1781170679660}",
+        "domain": "www.uber.com",
+        "path": "/",
+        "expires": -1,
+        "size": 88,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "marketing_vistor_id",
+        "value": "cde570ef-2fbf-46e8-95d6-3640d03d5b1a",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2027-06-11T09:38:01.253Z",
+        "size": 55,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "jwt-session",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InNsYXRlLWV4cGlyZXMtYXQiOjE3ODExNzI0Nzk2NzF9LCJpYXQiOjE3ODExNzA2NzksImV4cCI6MTc4MTI1NzA3OX0.TYL0zw0iqxMOQRNaF-sI3k6V7Tfwfx2oUBwsUoLxIXk",
+        "domain": "www.uber.com",
+        "path": "/",
+        "expires": "2026-06-12T09:37:59.793Z",
+        "size": 195,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "Kd_6WkdTOdD1EsTHaoc01zy.U2txrRhlmQpcptTR4pM-1781170679-1.0.1.1-lRCEp7DBV4WUEEsP6soeQ6rIkbVFJOG11kA9kYYvVGif3ROLwKW1RNQSuHcdI3p6NNol9XPBsJZqpV6SLTxph3IhTR7ow4cQlkKMztMq8SM",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2026-06-11T10:07:59.793Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uber_sites_geolocalization",
+        "value": "{%22best%22:{%22localeCode%22:%22en%22%2C%22countryCode%22:%22ES%22%2C%22territoryGeoPoint%22:{%22latitude%22:37.93365188254364%2C%22longitude%22:-1.1062273433696168}%2C%22territoryId%22:1999}%2C%22url%22:{%22localeCode%22:%22en%22%2C%22countryCode%22:%22ES%22}%2C%22user%22:{%22geoIpCoordinates%22:{%22lat%22:37.9861%2C%22lng%22:-1.1213}%2C%22expiresAt%22:%222026-06-11T13:37:59.885Z%22%2C%22countryCode%22:%22ES%22%2C%22territoryId%22:1999%2C%22productGeofenceUUID%22:%220642378b-0d1d-4336-9640-8b4320d4ae15%22%2C%22territoryGeoJson%22:[[{%22lat%22:38.7544479%2C%22lng%22:-2.3443069}%2C{%22lat%22:38.7544479%2C%22lng%22:-0.686528}%2C{%22lat%22:37.3737183%2C%22lng%22:-0.686528}%2C{%22lat%22:37.3737183%2C%22lng%22:-2.3443069}]]%2C%22territoryGeoPoint%22:{%22latitude%22:37.93365188254364%2C%22longitude%22:-1.1062273433696168}%2C%22localeCode%22:%22en%22}}",
+        "domain": "www.uber.com",
+        "path": "/",
+        "expires": "2027-06-11T09:38:00.385Z",
+        "size": 884,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "user_city_ids",
+        "value": "1999",
+        "domain": "www.uber.com",
+        "path": "/",
+        "expires": -1,
+        "size": 17,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__sn",
+        "value": "1",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2027-06-11T09:38:09.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main_ses_id",
+        "value": "1781170681019%3Bexp-session",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2026-06-11T10:08:09.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__pn",
+        "value": "1%3Bexp-session",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2026-06-11T10:08:09.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__se",
+        "value": "2%3Bexp-session",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2026-06-11T10:08:09.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__ss",
+        "value": "0%3Bexp-session",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2026-06-11T10:08:09.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main__st",
+        "value": "1781172489717%3Bexp-session",
+        "domain": "uber.com",
+        "path": "/",
+        "expires": "2026-06-11T10:08:09.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {
+      "uber.com": [
+        {
+          "filter": [
+            "IdaaaaTarbell",
+            "Tarbell",
+            "Idaaaa",
+            "IdaaaaTarbell"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"latitude\":37.93365188254364,\"longitude\":-1.1062273433696168,\"query\":\"IdaaaaTarbell\",\"type\":\"DROPOFF\"}",
+          "post_request_url": "https://www.uber.com/api/pudoLocationSearch?localeCode=en",
+          "post_request_ps": "uber.com"
+        },
+        {
+          "filter": [
+            "IdaaaaTarbell",
+            "Tarbell",
+            "Idaaaa",
+            "IdaaaaTarbell"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"latitude\":37.93365188254364,\"longitude\":-1.1062273433696168,\"query\":\"IdaaaaTarbell\",\"type\":\"PICKUP\"}",
+          "post_request_url": "https://www.uber.com/api/pudoLocationSearch?localeCode=en",
+          "post_request_ps": "uber.com"
+        }
+      ]
+    },
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+  "uri_ins": "https://ameblo.jp",
+  "uri_dest": "https://ameblo.jp/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "ameblo.jp",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:28:17.839Z",
+  "end_time": "2026-06-11T09:28:23.682Z",
+  "browsing_history": [
+    "https://ameblo.jp/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ameblo.jp",
+        "sy.ameblo.jp"
+      ],
+      "third_party": [
+        "c.stat100.ameba.jp",
+        "stat100.ameba.jp",
+        "static-lifestyle.ameba.jp",
+        "www.googletagmanager.com",
+        "stat.amebame.com",
+        "ln.ameba.jp",
+        "meas.ad.pr.ameba.jp",
+        "region1.google-analytics.com",
+        "www.googleadservices.com",
+        "googleads.g.doubleclick.net",
+        "www.google.com",
+        "www.google.es"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-HQSMEN0RQG&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://stat100.ameba.jp/ameblo/portal/20251212-4180222/_next/static/chunks/main-9c5dd558e4dc80e5.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://stat100.ameba.jp/ameblo/portal/20251212-4180222/_next/static/chunks/main-9c5dd558e4dc80e5.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_HQSMEN0RQG",
+        "value": "GS2.1.s1781170101$o1$g0$t1781170101$j60$l0$h0",
+        "domain": "ameblo.jp",
+        "path": "/",
+        "expires": "2027-07-16T09:28:21.100Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.2124477132.1781170101",
+        "domain": "ameblo.jp",
+        "path": "/",
+        "expires": "2027-07-16T09:28:21.102Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "P",
+        "value": "df4f3ec7-1207-4a22-b291-aaf00fe2e91f",
+        "domain": "ameblo.jp",
+        "path": "/",
+        "expires": "2027-07-16T09:28:21.199Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.2063504019.1781170101",
+        "domain": "ameblo.jp",
+        "path": "/",
+        "expires": "2026-09-09T09:28:21.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "async": 1,
+            "auid": 2063504019.178117,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cerd": "CgEA",
+            "cid": "CAQSUAARCiqBLfuUXpgF2xBPrRVmbeEh6FNPRaZvu99NCkhHVeF5Kd4eiE7KN4jKf8nHZovWNrt75YllPSnF5tgGteYZj1k0-MLp4CTgNc2MHZAP",
+            "crd": "CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAkoZdHJpZ2dlcj1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM",
+            "ct_cookie_present": false,
+            "currency_code": "JPY",
+            "cv": 11,
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "eitems": "ChAI8Lmp0QYQ34bz4IejzoQPEh0ALZd1CQdfgFRV5FragL31SHYmR_cokGvjAxozJg",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "conversion",
+            "ept": 5,
+            "fmt": 8,
+            "frm": 0,
+            "fsk": "ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wndrjTCGcZg_pt80kdS_GzyfR946dEeT0DhfH0xu83DMz01MjOPWP8aAh5n",
+            "fst": 1781170101219,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v871035054z872367457za20gzb72367457zd72367457xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "B-IKCOzflI0bEKP6o6IC",
+            "npa": 1,
+            "pscrd": "IhMI-Le02e_-lAMVSHD2CB0S3zj_OhJodHRwczovL2FtZWJsby5qcC9CV0NoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXNBQktuRjVTb2xkQVU1WWpCdmFET0N3ZmN2Q0x2STlZaHRYcllnNlB3Z19ZSzFERFZGX0c1TFhwc3dvY3oMCAliCAgAEAAYACAA",
+            "random": 4024621240,
+            "rcb": 6,
+            "tag_exp": "0~115616985~115938466~115938468~118395333",
+            "tiba": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://ameblo.jp/",
+            "value": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/608763171/?random=1029267052&cv=11&fst=1781170101219&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691v871035054z872367457za20gzb72367457zd72367457xea&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616985~115938466~115938468~118395333&u_w=375&u_h=812&url=https%3A%2F%2Fameblo.jp%2F&rcb=6&label=B-IKCOzflI0bEKP6o6IC&capi=2&frm=0&tiba=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%83%96%E3%83%AD%E3%82%B0%EF%BC%88%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD%EF%BC%89%EF%BD%9CAmeba%E3%81%A7%E7%84%A1%E6%96%99%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%82%88%E3%81%86&value=1.0&currency_code=JPY&hn=www.googleadservices.com&npa=1&auid=2063504019.1781170101&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAkoZdHJpZ2dlcj1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM&cerd=CgEA&fsk=ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wndrjTCGcZg_pt80kdS_GzyfR946dEeT0DhfH0xu83DMz01MjOPWP8aAh5n&pscrd=IhMI-Le02e_-lAMVSHD2CB0S3zj_OhJodHRwczovL2FtZWJsby5qcC9CV0NoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXNBQktuRjVTb2xkQVU1WWpCdmFET0N3ZmN2Q0x2STlZaHRYcllnNlB3Z19ZSzFERFZGX0c1TFhwc3dvY3oMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSUAARCiqBLfuUXpgF2xBPrRVmbeEh6FNPRaZvu99NCkhHVeF5Kd4eiE7KN4jKf8nHZovWNrt75YllPSnF5tgGteYZj1k0-MLp4CTgNc2MHZAP&eitems=ChAI8Lmp0QYQ34bz4IejzoQPEh0ALZd1CQdfgFRV5FragL31SHYmR_cokGvjAxozJg&random=4024621240"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "async": 1,
+            "auid": 2063504019.178117,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cerd": "CgEA",
+            "crd": "CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAkoZdHJpZ2dlcj1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM",
+            "ct_cookie_present": false,
+            "currency_code": "JPY",
+            "cv": 11,
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "eitems": "ChAI8Lmp0QYQ34bz4IejzoQPEh0ALZd1CdsQrsRLpqRyxJfjTmzKxaCZczTr4UDp7A",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "conversion",
+            "ept": 5,
+            "fmt": 8,
+            "frm": 0,
+            "fsk": "ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wndrjTCGcZg_pt80kdS_GzyfR946dEeT0DhfH0xu83DMz01MjOPWP8aAh5n",
+            "fst": 1781170101219,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v871035054z872367457za20gzb72367457zd72367457xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "B-IKCOzflI0bEKP6o6IC",
+            "npa": 1,
+            "pscrd": "IhMI-Le02e_-lAMVSHD2CB0S3zj_OhJodHRwczovL2FtZWJsby5qcC9CV0NoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXNBQktuRjVTb2xkQVU1WWpCdmFET0N3ZmN2Q0x2STlZaHRYcllnNlB3Z19ZSzFERFZGX0c1TFhwc3dvY3oMCAliCAgAEAAYACAA",
+            "random": 1029267052,
+            "rcb": 6,
+            "tag_exp": "0~115616985~115938466~115938468~118395333",
+            "tiba": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://ameblo.jp/",
+            "value": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/608763171/?random=1029267052&cv=11&fst=1781170101219&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691v871035054z872367457za20gzb72367457zd72367457xea&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616985~115938466~115938468~118395333&u_w=375&u_h=812&url=https%3A%2F%2Fameblo.jp%2F&rcb=6&label=B-IKCOzflI0bEKP6o6IC&capi=2&frm=0&tiba=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%83%96%E3%83%AD%E3%82%B0%EF%BC%88%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD%EF%BC%89%EF%BD%9CAmeba%E3%81%A7%E7%84%A1%E6%96%99%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%82%88%E3%81%86&value=1.0&currency_code=JPY&hn=www.googleadservices.com&npa=1&auid=2063504019.1781170101&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAkoZdHJpZ2dlcj1uYXZpZ2F0aW9uLXNvdXJjZVoDCgEBYgMKAQM&cerd=CgEA&eitems=ChAI8Lmp0QYQ34bz4IejzoQPEh0ALZd1CdsQrsRLpqRyxJfjTmzKxaCZczTr4UDp7A&fsk=ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wndrjTCGcZg_pt80kdS_GzyfR946dEeT0DhfH0xu83DMz01MjOPWP8aAh5n&pscrd=IhMI-Le02e_-lAMVSHD2CB0S3zj_OhJodHRwczovL2FtZWJsby5qcC9CV0NoRUk4TG1wMFFZUXlZYXQ2YnFTOEtyRkFSSXNBQktuRjVTb2xkQVU1WWpCdmFET0N3ZmN2Q0x2STlZaHRYcllnNlB3Z19ZSzFERFZGX0c1TFhwc3dvY3oMCAliCAgAEAAYACAA"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "CA",
+            "async": 1,
+            "auid": 2063504019.178117,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "currency_code": "JPY",
+            "cv": 11,
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "conversion",
+            "ept": 5,
+            "fmt": 7,
+            "frm": 0,
+            "fst": 1781170101219,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v871035054z872367457za20gzb72367457zd72367457xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "B-IKCOzflI0bEKP6o6IC",
+            "npa": 1,
+            "random": 1781170101219,
+            "rcb": 6,
+            "tag_exp": "0~115616985~115938466~115938468~118395333",
+            "tiba": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://ameblo.jp/",
+            "value": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/608763171/?random=1781170101219&cv=11&fst=1781170101219&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691v871035054z872367457za20gzb72367457zd72367457xea&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616985~115938466~115938468~118395333&u_w=375&u_h=812&url=https%3A%2F%2Fameblo.jp%2F&rcb=6&label=B-IKCOzflI0bEKP6o6IC&capi=2&frm=0&tiba=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%83%96%E3%83%AD%E3%82%B0%EF%BC%88%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD%EF%BC%89%EF%BD%9CAmeba%E3%81%A7%E7%84%A1%E6%96%99%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%82%88%E3%81%86&bttype=purchase&value=1.0&currency_code=JPY&hn=www.googleadservices.com&npa=1&auid=2063504019.1781170101&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781170099877,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 2124477132.178117,
+            "dl": "https://ameblo.jp/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v9104626160z872367457za20gzb72367457zd72367457",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170101,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 2804,
+            "tid": "G-HQSMEN0RQG",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-HQSMEN0RQG&gtm=45je6691v9104626160z872367457za20gzb72367457zd72367457&_p=1781170099877&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAAC&are=1&cid=2124477132.1781170101&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&sid=1781170101&sct=1&seg=0&dl=https%3A%2F%2Fameblo.jp%2F&dt=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%83%96%E3%83%AD%E3%82%B0%EF%BC%88%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD%EF%BC%89%EF%BD%9CAmeba%E3%81%A7%E7%84%A1%E6%96%99%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%82%88%E3%81%86&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2804"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-608763171"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-608763171&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||ln.ameba.jp^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ab_test_id": "",
+            "qat": "view",
+            "qpi": "media-portal-top",
+            "qr": "",
+            "qt": "https://ameblo.jp/",
+            "qv": "1-55-0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ln.ameba.jp/v3/ra/zBymKrvv?qat=view&qv=1-55-0&qpi=media-portal-top&qr=&qt=https%3A%2F%2Fameblo.jp%2F&ab_test_id="
+      },
+      {
+        "data": {
+          "filter": "||ln.ameba.jp^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ln.ameba.jp/fuse.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-HQSMEN0RQG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-HQSMEN0RQG&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N49WWL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ameblo.jp/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N49WWL"
+      }
+    ]
+  }
+}

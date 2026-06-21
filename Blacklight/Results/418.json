@@ -1,0 +1,263 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "LINE｜always at your side.",
+  "uri_ins": "https://line.me",
+  "uri_dest": "https://www.line.me/en/",
+  "uri_redirects": [
+    "https://line.me/"
+  ],
+  "secure_connection": {},
+  "host": "line.me",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:44:32.708Z",
+  "end_time": "2026-06-11T07:44:44.676Z",
+  "browsing_history": [
+    "https://www.line.me/en/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "line.me",
+        "www.line.me"
+      ],
+      "third_party": [
+        "cdn.jsdelivr.net",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com",
+        "landpress-content.line-scdn.net",
+        "vos.line-scdn.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.line.me/static/js/common.min.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-YYPYEVWJ1F&cx=c&gtm=4e6691": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.561252964.1781163878",
+        "domain": "line.me",
+        "path": "/",
+        "expires": "2027-07-16T07:44:43.583Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_YYPYEVWJ1F",
+        "value": "GS2.1.s1781163877$o1$g1$t1781163883$j54$l0$h0",
+        "domain": "line.me",
+        "path": "/",
+        "expires": "2027-07-16T07:44:43.582Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-YYPYEVWJ1F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.line.me/en/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-YYPYEVWJ1F&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TPD736KC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.line.me/en/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TPD736KC"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781163875995,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 561252964.1781164,
+            "dl": "https://www.line.me/en/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "LINE｜always at your side.",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v898287644z89249556471za20gzb9249556471zd9249556471",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781163877,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468~117776794",
+            "tfd": 4591,
+            "tid": "G-YYPYEVWJ1F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.line.me/en/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-YYPYEVWJ1F&gtm=45je6691v898287644z89249556471za20gzb9249556471zd9249556471&_p=1781163875995&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=561252964.1781163878&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117776794&sid=1781163877&sct=1&seg=0&dl=https%3A%2F%2Fwww.line.me%2Fen%2F&dt=LINE%EF%BD%9Calways%20at%20your%20side.&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=4591"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-YYPYEVWJ1F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.line.me/en/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-YYPYEVWJ1F&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TPD736KC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.line.me/en/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TPD736KC"
+      }
+    ]
+  }
+}

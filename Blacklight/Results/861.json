@@ -1,0 +1,125 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Free Porn Videos - XVIDEOS.COM",
+  "uri_ins": "https://xvideos.com",
+  "uri_dest": "https://www.xvideos.com/",
+  "uri_redirects": [
+    "https://xvideos.com/"
+  ],
+  "secure_connection": {},
+  "host": "xvideos.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:56:57.032Z",
+  "end_time": "2026-06-11T09:57:01.406Z",
+  "browsing_history": [
+    "https://www.xvideos.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "xvideos.com",
+        "www.xvideos.com"
+      ],
+      "third_party": [
+        "assets-cdn77.xvideos-cdn.com",
+        "thumb-cdn77.xvideos-cdn.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets-cdn77.xvideos-cdn.com/v3/js/libs/jquery.min.js": [
+          "click"
+        ],
+        "https://assets-cdn77.xvideos-cdn.com/v-411e5eb4c6a/v3/js/skins/min/default.header.static.js": [
+          "mousemove",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://assets-cdn77.xvideos-cdn.com/v-411e5eb4c6a/v3/js/skins/min/default.header.static.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "session_token",
+        "value": "22629ffdf1d27ff6BbESNigN8Q55f0XiFqberfJOZN8cIVxYlzxheMFneRZNQMG-xMNcjtEnUc9vig1qyM6PjV8z64qaM6SIITsPvd2kXsCDeOfEaPpDwxKrQNkSe_hcSeX5OmyyOH0zSK_s92VJV2BRIIOXcH4BVtSpwTImQobGAAQepysnXC77RtuNj3Fb2B85jOf7mpYoHV2U",
+        "domain": "xvideos.com",
+        "path": "/",
+        "expires": "2026-12-08T09:57:00.901Z",
+        "size": 221,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

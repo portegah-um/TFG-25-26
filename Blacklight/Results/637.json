@@ -1,0 +1,350 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "CBS News | Breaking news, top stories & today's latest headlines",
+  "uri_ins": "https://cbsnews.com",
+  "uri_dest": "https://www.cbsnews.com/",
+  "uri_redirects": [
+    "https://cbsnews.com/"
+  ],
+  "secure_connection": {},
+  "host": "cbsnews.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:52:51.348Z",
+  "end_time": "2026-06-11T08:52:59.622Z",
+  "browsing_history": [
+    "https://www.cbsnews.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cbsnews.com",
+        "www.cbsnews.com",
+        "feeds-cbsn.cbsnews.com"
+      ],
+      "third_party": [
+        "cdn.privacy.paramount.com",
+        "assets1.cbsnewsstatic.com",
+        "assets2.cbsnewsstatic.com",
+        "assets3.cbsnewsstatic.com",
+        "global.ketchcdn.com",
+        "disco.headliner.link",
+        "imasdk.googleapis.com",
+        "at.cbsi.com",
+        "cdn.ketchjs.com",
+        "video-api-ipv4.cbssports.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js": [
+          "keydown"
+        ],
+        "https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.video-embed.js?v=8181ad905d9d42315ce706f49e0266b6": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.video-embed.js?v=8181ad905d9d42315ce706f49e0266b6": [
+          "scroll",
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.js?v=8181ad905d9d42315ce706f49e0266b6": [
+          "scroll",
+          "click"
+        ],
+        "https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.responsive.js?v=8181ad905d9d42315ce706f49e0266b6": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.ketchjs.com/ketchtag/stable/v2.12/ketch-sdk.js": [
+          "touchstart"
+        ],
+        "https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.video-embed.js?v=8181ad905d9d42315ce706f49e0266b6": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "fly_device",
+        "value": "mobile",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2026-06-11T08:57:55.441Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fly_geo",
+        "value": "{\"countryCode\": \"ES\", \"region\": \"MU\", \"dma\": \"-1\", \"connection\": { \"type\": \"broadband\"}}",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2026-06-11T08:57:52.812Z",
+        "size": 95,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fly_js_debug",
+        "value": "[]",
+        "domain": "www.cbsnews.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_swb",
+        "value": "4778852a-8e34-4688-9385-d2493158598d",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:52:54.357Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ketch_consent_v1_",
+        "value": "eyJlc3NlbnRpYWxfc2VydmljZXMiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImVzc2VudGlhbF9zZXJ2aWNlcyJdfSwidGNmX3B1cnBvc2VfMiI6eyJzdGF0dXMiOiJncmFudGVkIn0sInRjZl9wdXJwb3NlXzciOnsic3RhdHVzIjoiZ3JhbnRlZCJ9LCJ0Y2ZfcHVycG9zZV84Ijp7InN0YXR1cyI6ImdyYW50ZWQifSwidGNmX3B1cnBvc2VfMTAiOnsic3RhdHVzIjoiZ3JhbnRlZCJ9LCJ0Y2ZfcHVycG9zZV8xMSI6eyJzdGF0dXMiOiJncmFudGVkIn0sInRjZl9zcGVjaWFsUHVycG9zZV8xIjp7InN0YXR1cyI6ImdyYW50ZWQifSwidGNmX3NwZWNpYWxQdXJwb3NlXzIiOnsic3RhdHVzIjoiZ3JhbnRlZCJ9LCJ0Y2Zfc3BlY2lhbFB1cnBvc2VfMyI6eyJzdGF0dXMiOiJncmFudGVkIn19",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:52:56.000Z",
+        "size": 558,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2026-07-11T08:52:56.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "us_privacy",
+        "value": "1---",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2026-07-11T08:52:56.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_swb_consent_",
+        "value": "eyJjb2xsZWN0ZWRBdCI6MTc4MTE2Nzk3NiwiY29udGV4dCI6eyJjb25maWd1cmF0aW9uSWQiOiJZMkp6WDI1bGQzTXZZMkp6Ym1WM2N5OXdjbTlrZFdOMGFXOXVMMmRrY0hJdlpXNHZNVGM0TURBNE5UYzVOdz09IiwiaXNzdWVkQXQiOjAsInNvdXJjZSI6ImxlZ2FsQmFzaXNEZWZhdWx0In0sImNvbnRyb2xsZXJDb2RlIjoiIiwiZW52aXJvbm1lbnRDb2RlIjoicHJvZHVjdGlvbiIsImlkZW50aXRpZXMiOnsic3diX2Nic25ld3MiOiI0Nzc4ODUyYS04ZTM0LTQ2ODgtOTM4NS1kMjQ5MzE1ODU5OGQifSwianVyaXNkaWN0aW9uQ29kZSI6ImdkcHIiLCJwcm9wZXJ0eUNvZGUiOiJjYnNuZXdzIiwicHVycG9zZXMiOnsiZXNzZW50aWFsX3NlcnZpY2VzIjp7ImFsbG93ZWQiOiJ0cnVlIiwiY29sbGVjdGVkQXQiOjAsImlzc3VlZEF0IjowLCJsZWdhbEJhc2lzQ29kZSI6ImxlZ2l0aW1hdGVpbnRlcmVzdCIsInNvdXJjZSI6IiJ9LCJ0Y2ZfcHVycG9zZV8xMCI6eyJhbGxvd2VkIjoidHJ1ZSIsImNvbGxlY3RlZEF0IjowLCJpc3N1ZWRBdCI6MCwibGVnYWxCYXNpc0NvZGUiOiJsZWdpdGltYXRlaW50ZXJlc3Rfb2JqZWN0YWJsZSIsInNvdXJjZSI6IiJ9LCJ0Y2ZfcHVycG9zZV8xMSI6eyJhbGxvd2VkIjoidHJ1ZSIsImNvbGxlY3RlZEF0IjowLCJpc3N1ZWRBdCI6MCwibGVnYWxCYXNpc0NvZGUiOiJsZWdpdGltYXRlaW50ZXJlc3Rfb2JqZWN0YWJsZSIsInNvdXJjZSI6IiJ9LCJ0Y2ZfcHVycG9zZV8yIjp7ImFsbG93ZWQiOiJ0cnVlIiwiY29sbGVjdGVkQXQiOjAsImlzc3VlZEF0IjowLCJsZWdhbEJhc2lzQ29kZSI6ImxlZ2l0aW1hdGVpbnRlcmVzdF9vYmplY3RhYmxlIiwic291cmNlIjoiIn0sInRjZl9wdXJwb3NlXzciOnsiYWxsb3dlZCI6InRydWUiLCJjb2xsZWN0ZWRBdCI6MCwiaXNzdWVkQXQiOjAsImxlZ2FsQmFzaXNDb2RlIjoibGVnaXRpbWF0ZWludGVyZXN0X29iamVjdGFibGUiLCJzb3VyY2UiOiIifSwidGNmX3B1cnBvc2VfOCI6eyJhbGxvd2VkIjoidHJ1ZSIsImNvbGxlY3RlZEF0IjowLCJpc3N1ZWRBdCI6MCwibGVnYWxCYXNpc0NvZGUiOiJsZWdpdGltYXRlaW50ZXJlc3Rfb2JqZWN0YWJsZSIsInNvdXJjZSI6IiJ9LCJ0Y2Zfc3BlY2lhbFB1cnBvc2VfMSI6eyJhbGxvd2VkIjoidHJ1ZSIsImNvbGxlY3RlZEF0IjowLCJpc3N1ZWRBdCI6MCwibGVnYWxCYXNpc0NvZGUiOiJsZWdpdGltYXRlaW50ZXJlc3QiLCJzb3VyY2UiOiIifSwidGNmX3NwZWNpYWxQdXJwb3NlXzIiOnsiYWxsb3dlZCI6InRydWUiLCJjb2xsZWN0ZWRBdCI6MCwiaXNzdWVkQXQiOjAsImxlZ2FsQmFzaXNDb2RlIjoibGVnaXRpbWF0ZWludGVyZXN0Iiwic291cmNlIjoiIn0sInRjZl9zcGVjaWFsUHVycG9zZV8zIjp7ImFsbG93ZWQiOiJ0cnVlIiwiY29sbGVjdGVkQXQiOjAsImlzc3VlZEF0IjowLCJsZWdhbEJhc2lzQ29kZSI6ImxlZ2l0aW1hdGVpbnRlcmVzdCIsInNvdXJjZSI6IiJ9fSwiaW50ZXJhY3RpdmUiOmZhbHNlLCJjYWNoZWRBdCI6MTc4MTE2Nzk3Nn0%3D",
+        "domain": "cbsnews.com",
+        "path": "/",
+        "expires": "2026-06-18T08:52:56.000Z",
+        "size": 2015,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1756064147,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": true,
+            "ids": "eyJzd2JfY2JzbmV3cyI6IjQ3Nzg4NTJhLThlMzQtNDY4OC05Mzg1LWQyNDkzMTU4NTk4ZCJ9",
+            "jurisdiction": "gdpr",
+            "property": "cbsnews",
+            "region": "ES",
+            "tenant": "cbs_news",
+            "url": "https://www.cbsnews.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cbsnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=true&url=https%3A%2F%2Fwww.cbsnews.com%2F&property=cbsnews&environment=production&jurisdiction=gdpr&tenant=cbs_news&dver=1756064147&event_type=once_identities&ids=eyJzd2JfY2JzbmV3cyI6IjQ3Nzg4NTJhLThlMzQtNDY4OC05Mzg1LWQyNDkzMTU4NTk4ZCJ9&region=ES"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1756064147,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": false,
+            "ids": "eyJzd2JfY2JzbmV3cyI6IjQ3Nzg4NTJhLThlMzQtNDY4OC05Mzg1LWQyNDkzMTU4NTk4ZCJ9",
+            "jurisdiction": "gdpr",
+            "property": "cbsnews",
+            "region": "ES",
+            "tenant": "cbs_news",
+            "url": "https://www.cbsnews.com/embed/video/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cbsnews.com/embed/video/?optanonConsent=0&v=8181ad905d9d42315ce706f49e0266b61781167893&usprivacy=null#xVj7byI5Ev5XENKw0ikd%2Bg2dEZojQGZzm03YkIxOClHL7XaDJ%2F06uxtCMvzvW%2BVuoElmZ%2FaHlW4e2JTLj%2FpcrvqK1zYpiyyPyaZ9VoiSnbS5HGVxTHLJg5i1zyISS5CGbMUpfG0nWcBBftJe8ZBl7bPXNi9YIttnD6%2FtYpOjSsxXqMBD6NuWbRoudbXI0Xua7VKmBUZINeK6ZhTahu5ZJugm%2BfMtiy5xhpesZ8XL%2F4r%2F%2Frbhgc8WL7P76XRpj%2BPwmky%2B%2Fge1M8EXPJ2EvOBZClNKCUIZlwvo00CmbI2CghdoQHt0Pmtdg6h1BedqfVHHRoOeYAw6URnHP1alJM1STkl890O1gidMFiTJ22eGbbher6%2BrP7BXKUh1VM04fLsiAYthtasKrrj6msJxALuELJhEdCVisiyKXJ7Nu%2FMukZIV0jytzYT9Ck5PaZbMu8symHf5vCvmXVM37XlXh%2F%2BGC20U9BwSmhrxdE%2Bz7SDQ%2Bj24g74beKFj0IAF5rxbLMskSAmP513X1p8tV4fZlFLLJH3d8ULXxp7JDINZhJKeTk0LdrJ72hPbaHRJ0pTF%2B0U0wzP1Z0Pv66df8wWYt%2Fw%2F2GGYff25Z4Ihnu1FVmhFLDLcyKOGYTFLt%2FvUJSwyTS%2F624ZsT9q5gLfA1vciPrIIzTB11lsuaXBKuJA5AWenYYo2cvVaKvt4GrLn08Qq%2B4dX1FgnJPx0kWWLmFXqMU8ZASyWsZx32Yqlxbw746H9zO%2F%2BuHsa3Rmzq9IVX%2B9nf8y7CZEFE0drm%2F%2FAIaNMJKSAhUiex%2FAQ0Hvn3Wctydni%2FvYKNMo3YKzX693V7qxYsXkXo4K8TPIMj7mPLRB%2FOFWRBH1EJ8R2rKCnOU7f0uzAhVu2w0Bzmec5jmlQT%2B8fPXcNd9HqoLPkTBBBlxDOHnCwVQeDXbel9B7hFokAKO9w62uSNF91c5XzTTX40By9qpcgcVzvoh12aZzmEZyF5VxmIawAD18yIlW8MvD8bJHAAaqBMgenknKPCKw8pBQk53FGn%2FZBQd5LJmZlIKngAQv36jLPUpmJnd6SPQ%2FHLCJljHemn8DftpKeH6SWd2I7J44HAyRE7KM1foLz%2BWteLH38%2Bs875SeIa9Hap5KHg9dDf%2Fux6sOuvoR04ucQ%2FQav4G0%2BDHaqwdWixFmq2cnky%2BAVcxcTMO%2BF7cS4Dpd%2BTArYRbXbTin9XPAVoRuYUnWa6j8YXuT54BU%2BfFkIni4aYl%2FZUXe2HQBJI3mRDSyI%2Bo21Iaz460yEcmezcvht5zVKYFciSCK3HzElrQSqA7ZPR%2BD3Ir3XO12dRutEJKcpA6xJOO8uIMB9egdlh8h0PXBM3TKMDiU4ip%2FbThSTxeCDeU4SGkDDEiqgCQsRQiPjIleNGoNUj00UEDW2SSk0aakmEFbwTsIKMTB00%2Boc9spFFtX9D9bws3KW8fByNBte%2BtfZl%2BnwctzJVyIdPNwOr8c3vz92wOXzwSohuYF7gpfYHdk4%2FCpvKq8gbQ70j3%2FhIihOOYPXkPqVbDDVR%2FrI6g3HmqmPbM2eXPS04YXpaOeT89G54Y4v%2Bs6kc%2BxV7%2FxpCZFqoG4CbPpgXsC%2FN6GtkyPrgWnYVAdp3Hd90xV7GrxW7bYDexQYVAdrFnS%2B561%2F6ZLvnPG9Gy74CnD7fHPz%2BWriX17P7m4nw9%2F9L5fjyY1%2FfXM9mjy%2B87yqq0Lw3pPABZt%2B1T5pf%2BeRolJ9B3sFhSUOVKDu5fIFhU14j9asTFe7ViBgWtlDoKbWIBxN%2B4kKoILyBmLNIb%2B2c4cdPsL6EWOMhGd8tNf%2BYg%2FYVBesaEF9pweOvAVpIQh9gm0RW%2FAWSTPBVB%2FyMqzv6H0X0oZdpZ%2Fr2qcwk7g1M7z7ouFIq2aJqQQ7fAV8nXNAQnKfYF65nneHe51c1IvuJRTRXVHD2ktk8WZjPPKiovU0K1NADFnoAyS7IAZDYo4zMMtsMR1dQGeyS3B1LlLM9WbFhOAorTJSVEqgDLdlGmbr9Ci2RYyFUsP3dMwXzFMDGGA1Yd79xCquP8CzavezDjhskTIxwDnojNXFDZFUqiLi%2B7kIC43yeSqynIli8xtDlwHex0LiuJbRCw3HBqJomJZFLLe9Bash0BHFwuEeC7bYYB9kyyys2BBLQ4VZzUYiRopSsFCjyPEhQ5%2FsaiIwCpI0JvxDYYK5N%2BfQmXcV8wJKtYScSqH8YrTiWPtpiNTx2sCm3vgXl5OUQNEW1hQDMOI0ZgoQ1td7tmf2gTEbUIcxz9U8O7Q06vQAgdAzI%2BocpkzLYAx7IDy60df0vmbYLaN3putnhnlQ29VDe3LVagWCETyP%2Bn7SgufRkkWGbtTqwLeQbH4BDgZry6K1ZCREIiEbK%2B7QSgsw2q9tbu%2Fqz3p4X4NyOWYrPKWKYYvdeCRgvh9mQIngasA93paKIPqVIwN9qHSV6mM1MKuw3y3TWKVeHdMW8C0s%2FSB8t2v%2BqlA2AgLFCOlrPacfalApmZoXGqamA4oR6xNdD%2FTdhJp1Njcpgd7Vm2DJiUUhTzi%2BURv6%2FhQsrGfVb%2BVMUWpgi4rHynf2BIKk4bQOTOqE9cQqgifV%2Bff17ZQUS%2BWOTeHbOucdtUflN5GtXYe2dh3bGvq72PYvjAw%2FC2jwAshxsGquBO6fEPEEhCRdjOKsDG%2FEoroGfWwZpgnVgnNx4fQ8fWh7%2Btge%2F3sYZgEDrdpdajCVCZKB04VEbO6q26zD3rF4JwTwbtRvEE2PmgqIfWJzW%2BUUrKd2xW0VoHYuNN79lHLsSN%2B%2Bfdv7Naoe33QtHKlQ2%2FyRg5GYlwkCz1J8CkDDMOwgG%2BNxQ1cdAhGDUEqmmVQPona2GB5iDcnfuW0VrH6qWFd82%2B2f",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=false&url=https%3A%2F%2Fwww.cbsnews.com%2Fembed%2Fvideo%2F&property=cbsnews&environment=production&jurisdiction=gdpr&tenant=cbs_news&dver=1756064147&event_type=once_identities&ids=eyJzd2JfY2JzbmV3cyI6IjQ3Nzg4NTJhLThlMzQtNDY4OC05Mzg1LWQyNDkzMTU4NTk4ZCJ9&region=ES"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cbsnews.com/embed/video/?optanonConsent=0&v=8181ad905d9d42315ce706f49e0266b61781167893&usprivacy=null#xVj7byI5Ev5XENKw0ikd%2Bg2dEZojQGZzm03YkIxOClHL7XaDJ%2F06uxtCMvzvW%2BVuoElmZ%2FaHlW4e2JTLj%2FpcrvqK1zYpiyyPyaZ9VoiSnbS5HGVxTHLJg5i1zyISS5CGbMUpfG0nWcBBftJe8ZBl7bPXNi9YIttnD6%2FtYpOjSsxXqMBD6NuWbRoudbXI0Xua7VKmBUZINeK6ZhTahu5ZJugm%2BfMtiy5xhpesZ8XL%2F4r%2F%2Frbhgc8WL7P76XRpj%2BPwmky%2B%2Fge1M8EXPJ2EvOBZClNKCUIZlwvo00CmbI2CghdoQHt0Pmtdg6h1BedqfVHHRoOeYAw6URnHP1alJM1STkl890O1gidMFiTJ22eGbbher6%2BrP7BXKUh1VM04fLsiAYthtasKrrj6msJxALuELJhEdCVisiyKXJ7Nu%2FMukZIV0jytzYT9Ck5PaZbMu8symHf5vCvmXVM37XlXh%2F%2BGC20U9BwSmhrxdE%2Bz7SDQ%2Bj24g74beKFj0IAF5rxbLMskSAmP513X1p8tV4fZlFLLJH3d8ULXxp7JDINZhJKeTk0LdrJ72hPbaHRJ0pTF%2B0U0wzP1Z0Pv66df8wWYt%2Fw%2F2GGYff25Z4Ihnu1FVmhFLDLcyKOGYTFLt%2FvUJSwyTS%2F624ZsT9q5gLfA1vciPrIIzTB11lsuaXBKuJA5AWenYYo2cvVaKvt4GrLn08Qq%2B4dX1FgnJPx0kWWLmFXqMU8ZASyWsZx32Yqlxbw746H9zO%2F%2BuHsa3Rmzq9IVX%2B9nf8y7CZEFE0drm%2F%2FAIaNMJKSAhUiex%2FAQ0Hvn3Wctydni%2FvYKNMo3YKzX693V7qxYsXkXo4K8TPIMj7mPLRB%2FOFWRBH1EJ8R2rKCnOU7f0uzAhVu2w0Bzmec5jmlQT%2B8fPXcNd9HqoLPkTBBBlxDOHnCwVQeDXbel9B7hFokAKO9w62uSNF91c5XzTTX40By9qpcgcVzvoh12aZzmEZyF5VxmIawAD18yIlW8MvD8bJHAAaqBMgenknKPCKw8pBQk53FGn%2FZBQd5LJmZlIKngAQv36jLPUpmJnd6SPQ%2FHLCJljHemn8DftpKeH6SWd2I7J44HAyRE7KM1foLz%2BWteLH38%2Bs875SeIa9Hap5KHg9dDf%2Fux6sOuvoR04ucQ%2FQav4G0%2BDHaqwdWixFmq2cnky%2BAVcxcTMO%2BF7cS4Dpd%2BTArYRbXbTin9XPAVoRuYUnWa6j8YXuT54BU%2BfFkIni4aYl%2FZUXe2HQBJI3mRDSyI%2Bo21Iaz460yEcmezcvht5zVKYFciSCK3HzElrQSqA7ZPR%2BD3Ir3XO12dRutEJKcpA6xJOO8uIMB9egdlh8h0PXBM3TKMDiU4ip%2FbThSTxeCDeU4SGkDDEiqgCQsRQiPjIleNGoNUj00UEDW2SSk0aakmEFbwTsIKMTB00%2Boc9spFFtX9D9bws3KW8fByNBte%2BtfZl%2BnwctzJVyIdPNwOr8c3vz92wOXzwSohuYF7gpfYHdk4%2FCpvKq8gbQ70j3%2FhIihOOYPXkPqVbDDVR%2FrI6g3HmqmPbM2eXPS04YXpaOeT89G54Y4v%2Bs6kc%2BxV7%2FxpCZFqoG4CbPpgXsC%2FN6GtkyPrgWnYVAdp3Hd90xV7GrxW7bYDexQYVAdrFnS%2B561%2F6ZLvnPG9Gy74CnD7fHPz%2BWriX17P7m4nw9%2F9L5fjyY1%2FfXM9mjy%2B87yqq0Lw3pPABZt%2B1T5pf%2BeRolJ9B3sFhSUOVKDu5fIFhU14j9asTFe7ViBgWtlDoKbWIBxN%2B4kKoILyBmLNIb%2B2c4cdPsL6EWOMhGd8tNf%2BYg%2FYVBesaEF9pweOvAVpIQh9gm0RW%2FAWSTPBVB%2FyMqzv6H0X0oZdpZ%2Fr2qcwk7g1M7z7ouFIq2aJqQQ7fAV8nXNAQnKfYF65nneHe51c1IvuJRTRXVHD2ktk8WZjPPKiovU0K1NADFnoAyS7IAZDYo4zMMtsMR1dQGeyS3B1LlLM9WbFhOAorTJSVEqgDLdlGmbr9Ci2RYyFUsP3dMwXzFMDGGA1Yd79xCquP8CzavezDjhskTIxwDnojNXFDZFUqiLi%2B7kIC43yeSqynIli8xtDlwHex0LiuJbRCw3HBqJomJZFLLe9Bash0BHFwuEeC7bYYB9kyyys2BBLQ4VZzUYiRopSsFCjyPEhQ5%2FsaiIwCpI0JvxDYYK5N%2BfQmXcV8wJKtYScSqH8YrTiWPtpiNTx2sCm3vgXl5OUQNEW1hQDMOI0ZgoQ1td7tmf2gTEbUIcxz9U8O7Q06vQAgdAzI%2BocpkzLYAx7IDy60df0vmbYLaN3putnhnlQ29VDe3LVagWCETyP%2Bn7SgufRkkWGbtTqwLeQbH4BDgZry6K1ZCREIiEbK%2B7QSgsw2q9tbu%2Fqz3p4X4NyOWYrPKWKYYvdeCRgvh9mQIngasA93paKIPqVIwN9qHSV6mM1MKuw3y3TWKVeHdMW8C0s%2FSB8t2v%2BqlA2AgLFCOlrPacfalApmZoXGqamA4oR6xNdD%2FTdhJp1Njcpgd7Vm2DJiUUhTzi%2BURv6%2FhQsrGfVb%2BVMUWpgi4rHynf2BIKk4bQOTOqE9cQqgifV%2Bff17ZQUS%2BWOTeHbOucdtUflN5GtXYe2dh3bGvq72PYvjAw%2FC2jwAshxsGquBO6fEPEEhCRdjOKsDG%2FEoroGfWwZpgnVgnNx4fQ8fWh7%2Btge%2F3sYZgEDrdpdajCVCZKB04VEbO6q26zD3rF4JwTwbtRvEE2PmgqIfWJzW%2BUUrKd2xW0VoHYuNN79lHLsSN%2B%2Bfdv7Naoe33QtHKlQ2%2FyRg5GYlwkCz1J8CkDDMOwgG%2BNxQ1cdAhGDUEqmmVQPona2GB5iDcnfuW0VrH6qWFd82%2B2f",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3_dai.js"
+      }
+    ]
+  }
+}

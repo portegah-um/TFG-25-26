@@ -1,0 +1,745 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Stream and listen to music online for free with SoundCloud",
+  "uri_ins": "https://soundcloud.com",
+  "uri_dest": "https://m.soundcloud.com/",
+  "uri_redirects": [
+    "https://soundcloud.com/"
+  ],
+  "secure_connection": {},
+  "host": "soundcloud.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:26:49.337Z",
+  "end_time": "2026-06-11T06:26:56.866Z",
+  "browsing_history": [
+    "https://m.soundcloud.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "soundcloud.com",
+        "m.soundcloud.com",
+        "dwt.soundcloud.com",
+        "api-mobi.soundcloud.com"
+      ],
+      "third_party": [
+        "style.sndcdn.com",
+        "onelinksmartscript.appsflyer.com",
+        "cdn.cookielaw.org",
+        "m.sndcdn.com",
+        "geolocation.onetrust.com",
+        "htlbid.com",
+        "dn0qt3r0xannq.cloudfront.net",
+        "raven-edge.aditude.io",
+        "edge.aditude.io",
+        "cadmus.script.ac",
+        "securepubads.g.doubleclick.net",
+        "geo-location.prebid.cloud",
+        "raven-static.aditude.io",
+        "geo.aditude.io",
+        "i.clean.gg",
+        "c.amazon-adsystem.com",
+        "config.aps.amazon-adsystem.com",
+        "web-banner.ads.aps.amazon-adsystem.com",
+        "cdn.id5-sync.com",
+        "tags.crwdcntrl.net",
+        "secure.cdn.fastclick.net",
+        "api.id5-sync.com",
+        "pagead2.googlesyndication.com",
+        "ams-pageview-public.s3.amazonaws.com",
+        "i1.sndcdn.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://m.sndcdn.com/_next/static/chunks/db3caabb5c6e46ae015a8f94b6218a21761cefdb.0ce5ac836c527ff97fc0.js": [
+          "scroll"
+        ],
+        "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://m.sndcdn.com/_next/static/chunks/168.0865054b21ec7a5d58f5.js": [
+          "click"
+        ],
+        "https://dwt.soundcloud.com/tags.js": [
+          "scroll",
+          "click",
+          "mousemove"
+        ],
+        "https://m.sndcdn.com/_next/static/chunks/main-03944671b9a210f23758.js": [
+          "scroll"
+        ],
+        "https://m.sndcdn.com/_next/static/chunks/ad4f03dc8ce5119528e99814b662a358cdd64c80.f3cbf1c092decc3e62ec.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dwt.soundcloud.com/tags.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://m.sndcdn.com/_next/static/chunks/main-03944671b9a210f23758.js": [
+          "keydown"
+        ],
+        "https://m.sndcdn.com/_next/static/chunks/ad4f03dc8ce5119528e99814b662a358cdd64c80.f3cbf1c092decc3e62ec.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://dwt.soundcloud.com/tags.js": [
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "sc_anonymous_id",
+        "value": "29311-573179-182-770430",
+        "domain": "soundcloud.com",
+        "path": "/",
+        "expires": "2027-07-16T06:26:50.377Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "datadome",
+        "value": "DeUSE7onG93cpehuePOxAAL99Mv5985b~r4_ZEJsitWRHtBCuLS0TGGsR7WmOGmXizZ_JrBlpslLtDxWpJft5vAcbnKtFCd_~hkkVfIQCpRsTlL6g_a2GRIkySwW2GKb",
+        "domain": "soundcloud.com",
+        "path": "/",
+        "expires": "2027-06-11T06:26:51.231Z",
+        "size": 136,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A26%3A51+GMT%2B0200+(Central+European+Summer+Time)&version=202603.1.0&browserGpcFlag=0&isIABGlobal=false&identifierType=&hosts=&consentId=9f4a2029-643c-4b9c-835e-9c6612bc0a4f&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fm.soundcloud.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0004%3A0%2CC0002%3A0%2CV2STACK42%3A0",
+        "domain": "soundcloud.com",
+        "path": "/",
+        "expires": "2027-06-11T06:26:51.000Z",
+        "size": 395,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-00000000_htlbid-tude_0_100",
+        "value": "tude",
+        "domain": "m.soundcloud.com",
+        "path": "/",
+        "expires": "2026-07-11T06:26:52.000Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-20250908_bcss_50_50",
+        "value": "control",
+        "domain": "m.soundcloud.com",
+        "path": "/",
+        "expires": "2026-07-11T06:26:53.000Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-20251027_triplelift-test_10_90",
+        "value": "no-triplelift",
+        "domain": "m.soundcloud.com",
+        "path": "/",
+        "expires": "2026-07-11T06:26:53.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-20250425_refresh-viewable-test_30_70",
+        "value": "test",
+        "domain": "m.soundcloud.com",
+        "path": "/",
+        "expires": "2026-07-11T06:26:53.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cw-test-20260604_gpt-setconfig-init_75_25",
+        "value": "control",
+        "domain": "m.soundcloud.com",
+        "path": "/",
+        "expires": "2026-07-11T06:26:53.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||ams-pageview-public.s3.amazonaws.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "237ecab448e7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ams-pageview-public.s3.amazonaws.com/1x1-pixel.png?id=237ecab448e7"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||id5-sync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.id5-sync.com/analytics/1016/id5-api-js"
+      },
+      {
+        "data": {
+          "filter": "||fastclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/c/16576/sync.min.js"
+      },
+      {
+        "data": {
+          "filter": "||id5-sync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.id5-sync.com/api/1.0/id5-api.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/4e8fb3b2-1c6c-42d6-890c-e5a6718315a3"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/taboola-auto-tagId-component.d35311409295ad808f5b.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/refresh-all-ads-component.db7de998acab3aec35b2.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/first-party-data-component.9031b634218747370847.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/activity-refresh-component.059097ebda70e7a1783a.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/throttle-refresh-component.de8e70e8b17a42bbf034.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/htl-injector-component.6f9fd855080891057769.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/htl-traffic-shaping-component.05bf9326dea218af653a.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/creative-timed-refresh-component.a1a922b438373b9fb61a.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/components/schain-config-component.ed1cd260619f0e580cd3.js"
+      },
+      {
+        "data": {
+          "filter": "||clean.gg^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.clean.gg/1a"
+      },
+      {
+        "data": {
+          "filter": "||clean.gg^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.clean.gg/1a"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099014
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js?cb=31099014"
+      },
+      {
+        "data": {
+          "filter": ".prebid.$domain=~prebid.org",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://geo-location.prebid.cloud/v1/geo"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "/prebid/*$script",
+          "listName": "easylist.txt",
+          "query": {
+            "fork": 1,
+            "modules": "WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRhZ2lvQmlkQWRhcHRlciIsImFkZkJpZEFkYXB0ZXIiLCJhZGl0dWRlIiwiYWxsb3dBY3Rpdml0aWVzIiwiYW14QmlkQWRhcHRlciIsImFwcG5leHVzQmlkQWRhcHRlciIsImNvbm5lY3RJZFN5c3RlbSIsImNvbnNlbnRNYW5hZ2VtZW50IiwiY29uc2VudE1hbmFnZW1lbnRHcHAiLCJjb25zZW50TWFuYWdlbWVudFVzcCIsImNwbXN0YXJDdXN0b21CaWRBZGFwdGVyIiwiY3JpdGVvQmlkQWRhcHRlciIsImNyaXRlb0lkU3lzdGVtIiwiZXF1YXRpdkJpZEFkYXB0ZXIiLCJldWlkSWRTeXN0ZW0iLCJmYWJyaWNrSWRTeXN0ZW0iLCJnZHByRW5mb3JjZW1lbnQiLCJncHRQcmVBdWN0aW9uIiwiaWQ1SWRTeXN0ZW0iLCJpbXByb3ZlZGlnaXRhbEJpZEFkYXB0ZXIiLCJpbm1vYmlCaWRBZGFwdGVyIiwiaW5zdGljYXRvckJpZEFkYXB0ZXIiLCJpeEJpZEFkYXB0ZXIiLCJrdWVlelJ0YkJpZEFkYXB0ZXIiLCJsb29wbWVCaWRBZGFwdGVyIiwibG90YW1lUGFub3JhbWFJZFN5c3RlbSIsIm1lZGlhbmV0QmlkQWRhcHRlciIsIm1pbnV0ZW1lZGlhQmlkQWRhcHRlciIsIm1vYmZveHBiQmlkQWRhcHRlciIsIm9tc0JpZEFkYXB0ZXIiLCJvcGVueEJpZEFkYXB0ZXIiLCJwZ2Ftc3NwQmlkQWRhcHRlciIsInByaWNlRmxvb3JzIiwicHViUHJvdmlkZWRJZFN5c3RlbSIsInB1Ym1hdGljQmlkQWRhcHRlciIsInJpc2VCaWRBZGFwdGVyIiwicnViaWNvbkJpZEFkYXB0ZXIiLCJzY2hhaW4iLCJzaGFyZWRJZFN5c3RlbSIsInNoYXJldGhyb3VnaEJpZEFkYXB0ZXIiLCJzbWFhdG9CaWRBZGFwdGVyIiwic21pbGV3YW50ZWRCaWRBZGFwdGVyIiwic29ub2JpQmlkQWRhcHRlciIsInNvdnJuQmlkQWRhcHRlciIsInRlYWxCaWRBZGFwdGVyIiwidHRkQmlkQWRhcHRlciIsInVpZDJJZFN5c3RlbSIsInVuaWZpZWRJZFN5c3RlbSIsInVucnVseUJpZEFkYXB0ZXIiLCJ2aWRhem9vQmlkQWRhcHRlciIsInlpZWxkbW9CaWRBZGFwdGVyIl0=",
+            "v": "6167788a58e716d678c6d136265c856c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://edge.aditude.io/prebid/9.19.0.js?fork=1&v=6167788a58e716d678c6d136265c856c&modules=WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRhZ2lvQmlkQWRhcHRlciIsImFkZkJpZEFkYXB0ZXIiLCJhZGl0dWRlIiwiYWxsb3dBY3Rpdml0aWVzIiwiYW14QmlkQWRhcHRlciIsImFwcG5leHVzQmlkQWRhcHRlciIsImNvbm5lY3RJZFN5c3RlbSIsImNvbnNlbnRNYW5hZ2VtZW50IiwiY29uc2VudE1hbmFnZW1lbnRHcHAiLCJjb25zZW50TWFuYWdlbWVudFVzcCIsImNwbXN0YXJDdXN0b21CaWRBZGFwdGVyIiwiY3JpdGVvQmlkQWRhcHRlciIsImNyaXRlb0lkU3lzdGVtIiwiZXF1YXRpdkJpZEFkYXB0ZXIiLCJldWlkSWRTeXN0ZW0iLCJmYWJyaWNrSWRTeXN0ZW0iLCJnZHByRW5mb3JjZW1lbnQiLCJncHRQcmVBdWN0aW9uIiwiaWQ1SWRTeXN0ZW0iLCJpbXByb3ZlZGlnaXRhbEJpZEFkYXB0ZXIiLCJpbm1vYmlCaWRBZGFwdGVyIiwiaW5zdGljYXRvckJpZEFkYXB0ZXIiLCJpeEJpZEFkYXB0ZXIiLCJrdWVlelJ0YkJpZEFkYXB0ZXIiLCJsb29wbWVCaWRBZGFwdGVyIiwibG90YW1lUGFub3JhbWFJZFN5c3RlbSIsIm1lZGlhbmV0QmlkQWRhcHRlciIsIm1pbnV0ZW1lZGlhQmlkQWRhcHRlciIsIm1vYmZveHBiQmlkQWRhcHRlciIsIm9tc0JpZEFkYXB0ZXIiLCJvcGVueEJpZEFkYXB0ZXIiLCJwZ2Ftc3NwQmlkQWRhcHRlciIsInByaWNlRmxvb3JzIiwicHViUHJvdmlkZWRJZFN5c3RlbSIsInB1Ym1hdGljQmlkQWRhcHRlciIsInJpc2VCaWRBZGFwdGVyIiwicnViaWNvbkJpZEFkYXB0ZXIiLCJzY2hhaW4iLCJzaGFyZWRJZFN5c3RlbSIsInNoYXJldGhyb3VnaEJpZEFkYXB0ZXIiLCJzbWFhdG9CaWRBZGFwdGVyIiwic21pbGV3YW50ZWRCaWRBZGFwdGVyIiwic29ub2JpQmlkQWRhcHRlciIsInNvdnJuQmlkQWRhcHRlciIsInRlYWxCaWRBZGFwdGVyIiwidHRkQmlkQWRhcHRlciIsInVpZDJJZFN5c3RlbSIsInVuaWZpZWRJZFN5c3RlbSIsInVucnVseUJpZEFkYXB0ZXIiLCJ2aWRhem9vQmlkQWRhcHRlciIsInlpZWxkbW9CaWRBZGFwdGVyIl0%3D"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/soundcloud-yUijW49gH8/soundcloud.com/prebid-wrapper.js"
+      },
+      {
+        "data": {
+          "filter": "||dn0qt3r0xannq.cloudfront.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dn0qt3r0xannq.cloudfront.net/soundcloud-yUijW49gH8/soundcloud.com/prebid-load.js"
+      },
+      {
+        "data": {
+          "filter": "||htlbid.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.soundcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://htlbid.com/stage/v3/soundcloud.com/htlbid.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Mixpanel: AI Digital Analytics Platform for Product Teams",
+  "uri_ins": "https://mixpanel.com",
+  "uri_dest": "https://mixpanel.com/home/",
+  "uri_redirects": [
+    "https://mixpanel.com/"
+  ],
+  "secure_connection": {},
+  "host": "mixpanel.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:39:18.111Z",
+  "end_time": "2026-06-11T09:39:28.947Z",
+  "browsing_history": [
+    "https://mixpanel.com/home/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mixpanel.com"
+      ],
+      "third_party": [
+        "cdn.optimizely.com",
+        "consent.trustarc.com",
+        "js.sentry-cdn.com",
+        "js.qualified.com",
+        "events.framer.com",
+        "framerusercontent.com",
+        "cdn3.optimizely.com",
+        "cdn.mxpnl.com",
+        "www.googletagmanager.com",
+        "logx.optimizely.com",
+        "framer.com",
+        "app.framerstatic.com",
+        "pagead2.googlesyndication.com",
+        "region1.google-analytics.com",
+        "api.framer.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-6NLLN3BJ6F&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://framerusercontent.com/sites/1fpo6nzurywULWgNxqBruQ/framer.DTUsI-dW.mjs": [
+          "keydown",
+          "keyup"
+        ],
+        "https://events.framer.com/script?v=2": [
+          "keydown"
+        ],
+        "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js": [
+          "input"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-6NLLN3BJ6F&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://framerusercontent.com/sites/1fpo6nzurywULWgNxqBruQ/motion.WK8vzVp8.mjs": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MRDR9SP": [
+          "click"
+        ],
+        "https://events.framer.com/script?v=2": [
+          "click"
+        ],
+        "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js": [
+          "click",
+          "select"
+        ],
+        "https://cdn.optimizely.com/js/5838709522694144.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "optimizelyEndUserId",
+        "value": "oeu1781170759967r0.5285628010407333",
+        "domain": "mixpanel.com",
+        "path": "/",
+        "expires": "2026-12-08T09:39:19.000Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TAsessionID",
+        "value": "21a21b06-0ada-4a79-9f2f-413a3867450b|NEW",
+        "domain": "mixpanel.com",
+        "path": "/",
+        "expires": "2026-06-11T10:09:22.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "notice_behavior",
+        "value": "implied|eu",
+        "domain": "mixpanel.com",
+        "path": "/",
+        "expires": -1,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "optimizelySession",
+        "value": "1781170763015",
+        "domain": "mixpanel.com",
+        "path": "/",
+        "expires": "2026-12-08T09:39:23.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.framer.com/anonymous"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.framer.com/anonymous"
+      },
+      {
+        "data": {
+          "filter": "||logx.optimizely.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logx.optimizely.com/v1/events"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781170760091,
+            "_prs": "ok",
+            "_s": 1,
+            "_ss": 2,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 1085162750.178117,
+            "dl": "https://mixpanel.com/home/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Mixpanel: AI Digital Analytics Platform for Product Teams",
+            "ec_mode": "a",
+            "ecid": 757551367,
+            "en": "page_view",
+            "ep.debug_mode": false,
+            "ep.hostname": "mixpanel.com",
+            "ep.mpid": "$device:d2b17631-5169-48cd-9d5d-82c0e5029351",
+            "ep.simplified_url": "mixpanel.com/home/",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNTIxZG",
+            "gtm": "45je6691v887435414z8858797400za20gzb858797400zd858797400",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170763,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938468~117776794",
+            "tfd": 5487,
+            "tid": "G-6NLLN3BJ6F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.mpid": "$device:d2b17631-5169-48cd-9d5d-82c0e5029351",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-6NLLN3BJ6F&gtm=45je6691v887435414z8858797400za20gzb858797400zd858797400&_p=1781170760091&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dNTIxZG&ecid=757551367&_eu=AAAAAGAC&_prs=ok&are=1&cid=1085162750.1781170764&ec_mode=a&frm=0&pscdl=denied&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938468~117776794&sid=1781170763&sct=1&seg=0&dl=https%3A%2F%2Fmixpanel.com%2Fhome%2F&dt=Mixpanel%3A%20AI%20Digital%20Analytics%20Platform%20for%20Product%20Teams&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=2&ep.simplified_url=mixpanel.com%2Fhome%2F&ep.hostname=mixpanel.com&ep.mpid=%24device%3Ad2b17631-5169-48cd-9d5d-82c0e5029351&ep.debug_mode=false&up.mpid=%24device%3Ad2b17631-5169-48cd-9d5d-82c0e5029351&tfd=5487"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_tu": "CA",
+            "cv": 11,
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "session_start",
+            "fmt": 8,
+            "frm": 0,
+            "fst": 1781170763274,
+            "gacid": 1085162750.178117,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNTIxZG",
+            "gtm": "45je6691v887435414z8858797400za20gzb858797400zd858797400xec",
+            "npa": 1,
+            "pscdl": "denied",
+            "random": 1781170763274,
+            "rcb": 18,
+            "tag_exp": "0~115616986~115938465~115938468~117776794",
+            "tiba": "Mixpanel: AI Digital Analytics Platform for Product Teams",
+            "tid": "G-6NLLN3BJ6F",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://mixpanel.com/home/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/measurement/conversion?random=1781170763274&cv=11&tid=G-6NLLN3BJ6F&fst=1781170763274&fmt=8&en=session_start&gtm=45je6691v887435414z8858797400za20gzb858797400zd858797400xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938465~115938468~117776794&u_w=375&u_h=812&url=https%3A%2F%2Fmixpanel.com%2Fhome%2F&gacid=1085162750.1781170764&frm=0&tiba=Mixpanel%3A%20AI%20Digital%20Analytics%20Platform%20for%20Product%20Teams&gdid=dNTIxZG&npa=1&pscdl=denied&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&rcb=18"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dNTIxZG",
+            "dl": "https://mixpanel.com/home/",
+            "dma": 1,
+            "dma_cps": "-",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dNTIxZG",
+            "gtm": "45be6691v9122995675z8858797400za20gzb858797400zd858797400xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 11,
+            "rnd": 1937305502.178117,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 5425,
+            "tft": 1781170763964,
+            "tid": "AW-1060727094",
+            "tids": "AW-1060727094"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&ae=g&dl=https%3A%2F%2Fmixpanel.com%2Fhome%2F&scrsrc=www.googletagmanager.com&rnd=1937305502.1781170764&navt=n&npa=1&ep.ads_data_redaction=0&did=dNTIxZG&gdid=dNTIxZG&_tu=CA&gtm=45be6691v9122995675z8858797400za20gzb858797400zd858797400xea&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468&apve=1&apvf=f&apvc=0&tids=AW-1060727094&tid=AW-1060727094&tft=1781170763964&tfd=5425"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://mixpanel.com/home/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dNTIxZG",
+            "gtm": "45He6691v858797400za200zd858797400xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 7,
+            "rnd": 1937305502.178117,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 5424,
+            "tft": 1781170763963
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=7&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fmixpanel.com%2Fhome%2F&scrsrc=www.googletagmanager.com&rnd=1937305502.1781170764&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dNTIxZG&_tu=CA&gtm=45He6691v858797400za200zd858797400xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468&apve=1&apvf=f&apvc=1&tft=1781170763963&tfd=5424"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1060727094"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-1060727094&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||logx.optimizely.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logx.optimizely.com/v1/events"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-6NLLN3BJ6F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-6NLLN3BJ6F&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "9iv2en",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://mixpanel.com",
+            "session": "21a21b060ada4a799f2f413a3867450b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=9iv2en&implied=1&session=21a21b060ada4a799f2f413a3867450b&new=1&referer=https://mixpanel.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "9iv2en",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://mixpanel.com",
+            "session": "21a21b060ada4a799f2f413a3867450b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=9iv2en&implied=1&session=21a21b060ada4a799f2f413a3867450b&new=1&referer=https://mixpanel.com"
+      },
+      {
+        "data": {
+          "filter": "||logx.optimizely.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logx.optimizely.com/v1/events"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MRDR9SP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MRDR9SP"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn3.optimizely.com/js/geo4.js"
+      },
+      {
+        "data": {
+          "filter": "||events.framer.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.framer.com/script?v=2"
+      },
+      {
+        "data": {
+          "filter": "||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.sentry-cdn.com/d73fef86381aca393554093c8e57ce75.min.js"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mixpanel.com/home/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/js/5838709522694144.js"
+      }
+    ]
+  }
+}

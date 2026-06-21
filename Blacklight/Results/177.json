@@ -1,0 +1,312 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Medium: Read and write stories.",
+  "uri_ins": "https://medium.com",
+  "uri_dest": "https://medium.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "medium.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:27:05.220Z",
+  "end_time": "2026-06-11T06:27:10.502Z",
+  "browsing_history": [
+    "https://medium.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "medium.com",
+        "glyph.medium.com",
+        "miro.medium.com",
+        "cdn-client.medium.com"
+      ],
+      "third_party": [
+        "www.google.com",
+        "static.cloudflareinsights.com",
+        "www.gstatic.com",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://cdn-client.medium.com/lite/static/js/4082.672cd7fc.js": [
+          "click"
+        ],
+        "https://cdn-client.medium.com/lite/static/js/main.50fb3cc6.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ],
+        "https://cdn-client.medium.com/lite/static/js/4082.672cd7fc.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "uid",
+        "value": "lo_f2c493bf09af",
+        "domain": "medium.com",
+        "path": "/",
+        "expires": "2027-07-16T06:27:06.760Z",
+        "size": 18,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "fVMa_nkELdgPNJCNWr8cXsB46Y83qaVxUGbn176VNdc-1781159225.9197042-1.0.1.1-yjhlgLsPVO_VLtwO6po_OEyST6dXYhm5g6dh_sTxDSo",
+        "domain": "medium.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "q_P5Ui18JDseFeadweG2tRU0eSueeMdAujtdNDo3NVU-1781159226-1.2.1.1-CZmktCAsTtcU3fEld2EVwUto_.iXyNxa3Fex44xfEWh6nRwlS2l.7b.MSS7H7NHXxHW21QNmhTsG_DaJE1P9_ErX7p3Ro7.Ue3lJa37Q1qVgcKmLWB18O13qCYEefYybzYjpPVG_k4101gIvoWcLVJAKVWoeklh6556mdIAZzcWLVAnd.Zd3ASKx8iPurWloQ.KIBTbK0oXXSg4TROB1FMvYXegvw_5tVOEelfNWUCp9FUM3gnA72nwMrgwONiRNpDLvmN6Ms1iRd90TJUEM7Cf77tGSHyuTVbrXX48Msq3hFoLTWFPSZwhKS3AHN9KocVg5EPxj3n34WCYBPN.pDQ",
+        "domain": "medium.com",
+        "path": "/",
+        "expires": "2027-06-11T06:27:06.715Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://medium.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sid",
+        "value": "1:4CO7+rjYIm68RSlOT1katRj88pDyCkoxfQO5D3wagb7+NIuRMnNlqrfcQ/ZrXoeW",
+        "domain": "medium.com",
+        "path": "/",
+        "expires": "2027-07-16T06:27:06.760Z",
+        "size": 69,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_7JY7T788PK",
+        "value": "GS2.1.s1781159227$o1$g0$t1781159227$j60$l0$h0",
+        "domain": "medium.com",
+        "path": "/",
+        "expires": "2027-07-16T06:27:07.348Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.2060202502.1781159227",
+        "domain": "medium.com",
+        "path": "/",
+        "expires": "2027-07-16T06:27:07.349Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781159226994,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 2060202502.1781158,
+            "dl": "https://medium.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Medium: Read and write stories.",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v9123887712za200zd9123887712",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781159227,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 1708,
+            "tid": "G-7JY7T788PK",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://medium.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7JY7T788PK&gtm=45je6691v9123887712za200zd9123887712&_p=1781159226994&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=2060202502.1781159227&frm=0&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&sid=1781159227&sct=1&seg=0&dl=https%3A%2F%2Fmedium.com%2F&dt=Medium%3A%20Read%20and%20write%20stories.&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1708"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-7JY7T788PK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://medium.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-7JY7T788PK"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://medium.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

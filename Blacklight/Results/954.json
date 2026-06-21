@@ -1,0 +1,529 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "World Edition - The Atlantic",
+  "uri_ins": "https://theatlantic.com",
+  "uri_dest": "https://www.theatlantic.com/world/",
+  "uri_redirects": [
+    "https://theatlantic.com/",
+    "https://www.theatlantic.com/"
+  ],
+  "secure_connection": {},
+  "host": "theatlantic.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:28:48.795Z",
+  "end_time": "2026-06-11T10:28:54.650Z",
+  "browsing_history": [
+    "https://www.theatlantic.com/world/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "theatlantic.com",
+        "www.theatlantic.com",
+        "cdn.theatlantic.com",
+        "graphql.theatlantic.com"
+      ],
+      "third_party": [
+        "cdn.privacy-mgmt.com",
+        "securepubads.g.doubleclick.net",
+        "c.amazon-adsystem.com",
+        "01.cdn.mediatradecraft.com",
+        "static.chartbeat.com",
+        "mab.chartbeat.com",
+        "vi.ml314.com",
+        "dashapi.chartbeat.com",
+        "cadmus.script.ac",
+        "pub.doubleverify.com",
+        "www.google.com",
+        "www.gstatic.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.privacy-mgmt.com/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://cdn.privacy-mgmt.com/Custom.76936.js": [
+          "keydown"
+        ],
+        "https://01.cdn.mediatradecraft.com/theatlantic/main/main.js?template=homepage": [
+          "keydown"
+        ],
+        "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-9c2de2890631dd71.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-9c2de2890631dd71.js": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "atltestbucketv1",
+        "value": "1",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2026-09-09T10:28:51.307Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "atl_trackid",
+        "value": "57dbf2b0-8c5c-413a-aeba-6ab40beee3e1",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2027-06-11T10:28:49.435Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "is_gdpr",
+        "value": "1",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2026-06-11T11:28:51.307Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kppid",
+        "value": "0povbld3vtw",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2027-06-11T10:28:49.435Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "atl_uuid",
+        "value": "d56afce7-7ff7-46a1-999f-f4ccda7a63c7",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2027-07-16T10:28:49.435Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "blaize_session",
+        "value": "5f7939cf-9e9b-4212-9b6c-dfcef6ed0691",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2027-06-11T10:28:49.436Z",
+        "size": 50,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "blaize_tracking_id",
+        "value": "5f7939cf-9e9b-4212-9b6c-dfcef6ed0691",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2027-06-11T10:28:49.436Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "q.89K5ZCqlaSu6sAoKr6Gz02EyykAYNkpcLGSc1tEY0-1781173729.5521908-1.0.1.1-GfIScKp0UE0F49sS8DOM_aR4nXU0OChz7d8vlbRdBBk58KenX5ut5bxAdRzvJ8EbU3fv0olyLERKE9g2MBd1m8kfgTERia3R9bNl1Hzmw7G.6cbpAPWAAJv08L_iVisE",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2026-06-11T10:58:49.566Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALB",
+        "value": "SHT36lraDZ8M0Zzdqrt6RM7joS82hQhUugF67SPBT78LCSWOsJPxPSNDtRn1nO4hYq58ICIt1+C5vF4CeSD+pVtcfGWJNaIFlg/MxnV31euFBetTuyJab9vqV+MJ",
+        "domain": "www.theatlantic.com",
+        "path": "/",
+        "expires": "2026-06-18T10:28:51.307Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "SHT36lraDZ8M0Zzdqrt6RM7joS82hQhUugF67SPBT78LCSWOsJPxPSNDtRn1nO4hYq58ICIt1+C5vF4CeSD+pVtcfGWJNaIFlg/MxnV31euFBetTuyJab9vqV+MJ",
+        "domain": "www.theatlantic.com",
+        "path": "/",
+        "expires": "2026-06-18T10:28:51.307Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "consentUUID",
+        "value": "900645b0-9ce6-46cb-9cb6-21cde05f4bc0",
+        "domain": "theatlantic.com",
+        "path": "/",
+        "expires": "2027-06-11T10:28:51.660Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "usnatUUID",
+        "value": "e2da66b9-25bd-4526-9eeb-57d49765bd2b",
+        "domain": "www.theatlantic.com",
+        "path": "/",
+        "expires": "2027-06-11T10:28:51.760Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abs": 1,
+            "bsc": 1,
+            "cbs": 1,
+            "cmp": "DV1364739",
+            "ctx": 22493059,
+            "token": "KPTofq2cU+KmtNOT0Saatlk1gwH/jrq5yRgMcAQ0WWuV5DNMKiykWorqUJ/WvH4pTG3JH3k7N6qJLrNDtkMSkZPnKIU1RgX+u5RXL8/2Ib0Q0XLqpGeMjFqu6F6Mu6xpJMO/EmzMbDNWkeuAMiBLLWaviowwXLMODu0Zf9Y=",
+            "url": "https://theatlantic.com/world"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=22493059&cmp=DV1364739&url=https%3A%2F%2Ftheatlantic.com%2Fworld&bsc=1&abs=1&cbs=1&token=KPTofq2cU%2BKmtNOT0Saatlk1gwH%2Fjrq5yRgMcAQ0WWuV5DNMKiykWorqUJ%2FWvH4pTG3JH3k7N6qJLrNDtkMSkZPnKIU1RgX%2Bu5RXL8%2F2Ib0Q0XLqpGeMjFqu6F6Mu6xpJMO%2FEmzMbDNWkeuAMiBLLWaviowwXLMODu0Zf9Y%3D"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cmp": "DV1364739",
+            "ctx": 22493059,
+            "ids": 1,
+            "token": "KPTofq2cU+KmtNOT0Saatlk1gwH/jrq5yRgMcAQ0WWuV5DNMKiykWorqUJ/WvH4pTG3JH3k7N6qJLrNDtkMSkZPnKIU1RgX+u5RXL8/2Ib0Q0XLqpGeMjFqu6F6Mu6xpJMO/EmzMbDNWkeuAMiBLLWaviowwXLMODu0Zf9Y=",
+            "url": "https://theatlantic.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=22493059&cmp=DV1364739&url=https%3A%2F%2Ftheatlantic.com&ids=1&token=KPTofq2cU%2BKmtNOT0Saatlk1gwH%2Fjrq5yRgMcAQ0WWuV5DNMKiykWorqUJ%2FWvH4pTG3JH3k7N6qJLrNDtkMSkZPnKIU1RgX%2Bu5RXL8%2F2Ib0Q0XLqpGeMjFqu6F6Mu6xpJMO%2FEmzMbDNWkeuAMiBLLWaviowwXLMODu0Zf9Y%3D"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/22493059/DV1364739/pub.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "host": "theatlantic.com",
+            "path": "/world/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dashapi.chartbeat.com/gamma/v1/pages/data?host=theatlantic.com&path=%2Fworld%2F"
+      },
+      {
+        "data": {
+          "filter": "||ml314.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "eid": 93780,
+            "fp": "",
+            "tk": "Sd8Lhw2fKivbawYXOa0sKaCgKxoI2fc6Kjw9Z4GOBSB2s3d"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vi.ml314.com/get?eid=93780&tk=Sd8Lhw2fKivbawYXOa0sKaCgKxoI2fc6Kjw9Z4GOBSB2s3d&fp="
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "theatlantic.com",
+            "host": "theatlantic.com",
+            "path": "/world/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=theatlantic.com&domain=theatlantic.com&path=%2Fworld%2F"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.theatlantic.com/world/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      }
+    ]
+  }
+}

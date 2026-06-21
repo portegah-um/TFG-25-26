@@ -1,0 +1,218 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "DER SPIEGEL | Online-Nachrichten",
+  "uri_ins": "https://spiegel.de",
+  "uri_dest": "https://www.spiegel.de/",
+  "uri_redirects": [
+    "https://spiegel.de/"
+  ],
+  "secure_connection": {},
+  "host": "spiegel.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:06:10.057Z",
+  "end_time": "2026-06-11T09:06:15.638Z",
+  "browsing_history": [
+    "https://www.spiegel.de/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "spiegel.de",
+        "www.spiegel.de",
+        "cdn.prod.www.spiegel.de",
+        "interactive.spiegel.de",
+        "sp-spiegel-de.spiegel.de",
+        "sams.spiegel.de"
+      ],
+      "third_party": [
+        "s3.eu-central-1.amazonaws.com",
+        "assets.adobedtm.com",
+        "cdn.jwplayer.com",
+        "assets-jpcust.jwpsrv.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://sp-spiegel-de.spiegel.de/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://assets.adobedtm.com/cc10f7b4369d/32ae8c3350c5/launch-8a2e39fde471.min.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://cdn.prod.www.spiegel.de/public/shared/generated/js/commons.da4616ef44f0e42a0e79.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://cdn.prod.www.spiegel.de/public/shared/generated/js/index.928c704d17902a785b6c.js": [
+          "keydown"
+        ],
+        "https://www.spiegel.de/": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://assets.adobedtm.com/cc10f7b4369d/32ae8c3350c5/launch-8a2e39fde471.min.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://cdn.prod.www.spiegel.de/public/shared/generated/js/vendors.f1c4f8bff0ebc606b86f.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://assets.adobedtm.com/cc10f7b4369d/32ae8c3350c5/launch-8a2e39fde471.min.js": [
+          "scroll",
+          "mousedown",
+          "mouseup",
+          "click"
+        ],
+        "https://cdn.prod.www.spiegel.de/public/shared/generated/js/commons.da4616ef44f0e42a0e79.js": [
+          "mousedown"
+        ],
+        "https://cdn.prod.www.spiegel.de/public/shared/generated/js/index.928c704d17902a785b6c.js": [
+          "mousedown"
+        ],
+        "https://www.spiegel.de/": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "kndctr_79655FCF5C1D42160A495E15_AdobeOrg_cluster",
+        "value": "irl1",
+        "domain": "spiegel.de",
+        "path": "/",
+        "expires": "2026-06-11T09:36:14.849Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_79655FCF5C1D42160A495E15_AdobeOrg_identity",
+        "value": "CiY4MDgzMTc3NzQ3ODA4MDc5NzYwMDk2MDA2MzA0MTc0NDkwOTU4N1ITCJesuq%5FrMxABGAIqBElSTDEwAPABl6y6r%2Dsz",
+        "domain": "spiegel.de",
+        "path": "/",
+        "expires": "2027-07-11T09:06:12.658Z",
+        "size": 145,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "spiegel.de",
+        "path": "/",
+        "expires": "2027-06-11T09:06:12.754Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spiegel.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/cc10f7b4369d/32ae8c3350c5/3b2e82121a8e/RC0118948576ac4d62a83d547c23bb667f-source.min.js"
+      }
+    ]
+  }
+}

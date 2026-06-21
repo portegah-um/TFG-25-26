@@ -1,0 +1,408 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Duolingo - The world’s most popular way to learn",
+  "uri_ins": "https://duolingo.com",
+  "uri_dest": "https://www.duolingo.com/",
+  "uri_redirects": [
+    "https://duolingo.com/"
+  ],
+  "secure_connection": {},
+  "host": "duolingo.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:54:26.186Z",
+  "end_time": "2026-06-11T07:54:34.443Z",
+  "browsing_history": [
+    "https://www.duolingo.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "duolingo.com",
+        "www.duolingo.com",
+        "zombie.duolingo.com",
+        "excess.duolingo.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "d35aaqx5ub95lt.cloudfront.net",
+        "www.recaptcha.net",
+        "geolocation.onetrust.com",
+        "www.googletagmanager.com",
+        "accounts.google.com",
+        "www.gstatic.com",
+        "ad.doubleclick.net",
+        "www.google.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://d35aaqx5ub95lt.cloudfront.net/js/app-3a3ea840.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-728842606&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TX6Z97C": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://d35aaqx5ub95lt.cloudfront.net/js/app-3a3ea840.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://d35aaqx5ub95lt.cloudfront.net/js/app-3a3ea840.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://d35aaqx5ub95lt.cloudfront.net/js/5314-33cb86aa.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "logged_out_uuid",
+        "value": "65806eaf-f2d5-4e4b-86ac-2c43108efcc5",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:28.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lang",
+        "value": "en",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:27.874Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wuuid",
+        "value": "ac57a3b1-b6b9-477c-b5c3-57a771cec826",
+        "domain": "www.duolingo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tsl",
+        "value": "1781164468655",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:28.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lu",
+        "value": "https://www.duolingo.com/",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:28.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "initial_referrer",
+        "value": "$direct",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:28.000Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lr",
+        "value": "",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:28.000Z",
+        "size": 2,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lp",
+        "value": "splash",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:54:28.000Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AWSALB",
+        "value": "2odbZgm07oUhFakabWh4vGC6YAtU2W7Zr/0d5oNlmVi3WbvRq6ZJgMMFYobkvR98CpoN2Bit82cVzrO+PMfLFrukCbzXCtQB3q3HST3rpjVSL+ZCxUHV19ssoBcP",
+        "domain": "www.duolingo.com",
+        "path": "/",
+        "expires": "2026-06-18T07:54:29.491Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "2odbZgm07oUhFakabWh4vGC6YAtU2W7Zr/0d5oNlmVi3WbvRq6ZJgMMFYobkvR98CpoN2Bit82cVzrO+PMfLFrukCbzXCtQB3q3HST3rpjVSL+ZCxUHV19ssoBcP",
+        "domain": "www.duolingo.com",
+        "path": "/",
+        "expires": "2026-06-18T07:54:29.491Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.636389619.1781164471",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2026-09-09T07:54:31.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A54%3A31+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f4372c0c-e01b-43c9-8c19-4839e2d501f1&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.duolingo.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+        "domain": "duolingo.com",
+        "path": "/",
+        "expires": "2026-12-08T07:54:31.000Z",
+        "size": 348,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781164471690,\"i_b\":\"WXlyB0pBnp76eoSv4owFVx6f78OF8cmzzovxwmIci2c\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781164471690}",
+        "domain": "www.duolingo.com",
+        "path": "/",
+        "expires": "2026-12-08T07:54:31.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "auid": 636389619.1781164,
+            "gtm": "45be6691v9103119162z8811879556za20gzb811879556zd811879556xec"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.duolingo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=636389619.1781164471&gtm=45be6691v9103119162z8811879556za20gzb811879556zd811879556xec"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-728842606"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.duolingo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-728842606&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TX6Z97C"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.duolingo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TX6Z97C"
+      }
+    ]
+  }
+}

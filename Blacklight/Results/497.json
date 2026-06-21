@@ -1,0 +1,932 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Skyhigh Security | AI SSE Platform for Enterprise Cloud Protection",
+  "uri_ins": "https://skyhigh.cloud",
+  "uri_dest": "https://www.skyhighsecurity.com/",
+  "uri_redirects": [
+    "https://skyhigh.cloud/"
+  ],
+  "secure_connection": {},
+  "host": "skyhigh.cloud",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:09:48.285Z",
+  "end_time": "2026-06-11T08:09:55.658Z",
+  "browsing_history": [
+    "https://www.skyhighsecurity.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "skyhigh.cloud",
+        "www.skyhighsecurity.com",
+        "interest.skyhighsecurity.com",
+        "skyhighsecurity.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "cdn.jsdelivr.net",
+        "unpkg.com",
+        "kit.fontawesome.com",
+        "use.fontawesome.com",
+        "static.addtoany.com",
+        "code.createjs.com",
+        "js.navattic.com",
+        "wordpress-1248419-5741367.cloudwaysapps.com",
+        "cdnjs.cloudflare.com",
+        "ka-p.fontawesome.com",
+        "munchkin.marketo.net",
+        "fonts.gstatic.com",
+        "627-oog-590.mktoutil.com",
+        "api.weglot.com",
+        "www.googletagmanager.com",
+        "cdn.weglot.com",
+        "627-oog-590.mktoresp.com",
+        "snap.licdn.com",
+        "t.contentsquare.net",
+        "region1.analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "px.ads.linkedin.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js": [
+          "touchmove",
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      },
+      "MOUSE": {
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-6WM4HV7Y11&cx=c&gtm=4e6691h1": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WK8WJJK7": [
+          "click"
+        ],
+        "https://www.skyhighsecurity.com/wp-content/plugins/weglot/dist/front-js.js?ver=5.5": [
+          "click"
+        ],
+        "https://www.skyhighsecurity.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1780714018": [
+          "click"
+        ],
+        "https://www.skyhighsecurity.com/wp-content/uploads/83a7a2d768/pa-6XnJfUpZN8donyUO2gBon.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.skyhighsecurity.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "click"
+        ],
+        "https://www.skyhighsecurity.com/wp-content/themes/skyhigh-security/assets/dist/main.bundle.js?ver=3.3.1": [
+          "click"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js": [
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ],
+        "https://munchkin.marketo.net/165/munchkin.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-6WM4HV7Y11&cx=c&gtm=4e6691h1": [
+          "keyup"
+        ],
+        "https://www.skyhighsecurity.com/": [
+          "keydown"
+        ],
+        "https://www.skyhighsecurity.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1780714018": [
+          "keypress"
+        ],
+        "https://www.skyhighsecurity.com/wp-content/themes/skyhigh-security/assets/dist/main.bundle.js?ver=3.3.1": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.skyhighsecurity.com/": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "9h.X1sQdK.TJTC5c0zYt9XnUYEfC9KGS21DEqB33X3M-1781165389-1.0.1.1-DEOZGIphOXOkLtPc9sNVlqqcX6ZQ6ajoGXEwcceBliY1qvLINPdC_1MCuPQxiRo4XEFEUBrRItEfZ.r03wFxDChqI5aOALfCmnNvomGU32Q",
+        "domain": "www.skyhighsecurity.com",
+        "path": "/",
+        "expires": "2026-06-11T08:39:49.779Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_mkto_trk",
+        "value": "id:627-OOG-590&token:_mch-skyhighsecurity.com-7749d00eba808956e38c72ee3fd5a34a",
+        "domain": "skyhighsecurity.com",
+        "path": "/",
+        "expires": "2027-07-16T08:09:52.517Z",
+        "size": 87,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "Qn8HH2pbVOIBKfKQl61dAobd5GJp0pdeyyaZbrO5P8s-1781165392-1.0.1.1-OIwvD6yXdeSJ2qz_vXbm.5BU7MY2gbnxdUWJ6FuSd2.hlRqLr0SKysuMs_QY_koRdvzz.38y9qR1NUOGb7m15OylpNCmTACPS1EXDGMfUj4",
+        "domain": "skyhighsecurity.com",
+        "path": "/",
+        "expires": "2026-06-11T08:39:52.734Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_6WM4HV7Y11",
+        "value": "GS2.1.s1781165393$o1$g0$t1781165393$j60$l0$h2083862055",
+        "domain": "skyhighsecurity.com",
+        "path": "/",
+        "expires": "2027-07-16T08:09:53.054Z",
+        "size": 68,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1116651929.1781165393",
+        "domain": "skyhighsecurity.com",
+        "path": "/",
+        "expires": "2027-07-16T08:09:53.083Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_Z40J50Z1CL",
+        "value": "GS2.1.s1781165393$o1$g0$t1781165393$j60$l0$h359107913",
+        "domain": "skyhighsecurity.com",
+        "path": "/",
+        "expires": "2027-07-16T08:09:53.081Z",
+        "size": 67,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&f2d5d004-cd85-4080-8956-916a95d2aff7\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2027-06-11T08:09:53.862Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_gc",
+        "value": "MTswOzE3ODExNjUzOTM7MjswMjFidWlbx0RxDEsUrPLPwQbjlFrLoP4u+6z4+4p4XwmRuw==",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-12-08T08:09:53.862Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=OGST02:s=O:r=O:a=O:p=O:g=3809:u=1:x=1:i=1781165393:t=1781251793:v=2:sig=AQH5Hinj4n9AhsCZkMCA0m6MMYu3nP12\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-12T08:09:53.862Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "0Y6g4RTzZl3Y4IQSl.VeUONEIv4iVm3SRZONoV2lXdI-1781165393.685484-1.0.1.1-6Mmv0kg4CxEcEskopXUj2HtHwTJU.QJKYt7LWV5E5Xr0giY7ikQPIVPevpEsNE47h2s0b8TprxWXtWf2F_o94PchekuDYYl4jUxQkdJnwApw_bEYI3lZL.ClRm.3fksW",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-11T08:39:53.862Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1116651929.1781166,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320",
+            "npa": 1,
+            "rcb": 7,
+            "tag_exp": "0~115938466~115938469",
+            "tid": "G-Z40J50Z1CL",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-Z40J50Z1CL&cid=1116651929.1781165393&gtm=45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320&rcb=7&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115938466~115938469"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1116651929.1781166,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320",
+            "npa": 1,
+            "rcb": 7,
+            "tag_exp": "0~115938466~115938469",
+            "tid": "G-6WM4HV7Y11",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-6WM4HV7Y11&cid=1116651929.1781165393&gtm=45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320&rcb=7&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115938466~115938469"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1283,
+            "_eu": "EAAAAGQC",
+            "_p": 1781165392157,
+            "_s": 2,
+            "are": 1,
+            "cid": 1116651929.1781166,
+            "dl": "https://www.skyhighsecurity.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Skyhigh Security | AI SSE Platform for Enterprise Cloud Protection",
+            "ecid": 359107913,
+            "en": "user_engagement",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289za20gzb9230747320zd9230747320",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165393,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 6751,
+            "tid": "G-Z40J50Z1CL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-Z40J50Z1CL&gtm=45je6691h1v877046289za20gzb9230747320zd9230747320&_p=1781165392157&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&ecid=359107913&_eu=EAAAAGQC&are=1&cid=1116651929.1781165393&frm=0&ir=1&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469&sid=1781165393&sct=1&seg=0&dl=https%3A%2F%2Fwww.skyhighsecurity.com%2F&dt=Skyhigh%20Security%20%7C%20AI%20SSE%20Platform%20for%20Enterprise%20Cloud%20Protection&en=user_engagement&_et=1283&tfd=6751"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1267,
+            "_eu": "EAAAAGQC",
+            "_p": 1781165392157,
+            "_s": 2,
+            "are": 1,
+            "cid": 1116651929.1781166,
+            "dl": "https://www.skyhighsecurity.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Skyhigh Security | AI SSE Platform for Enterprise Cloud Protection",
+            "ecid": 2083862055,
+            "en": "user_engagement",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289za20gzb9230747320zd9230747320",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165393,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 6739,
+            "tid": "G-6WM4HV7Y11",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-6WM4HV7Y11&gtm=45je6691h1v877046289za20gzb9230747320zd9230747320&_p=1781165392157&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&ecid=2083862055&_eu=EAAAAGQC&are=1&cid=1116651929.1781165393&frm=0&ir=1&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469&sid=1781165393&sct=1&seg=0&dl=https%3A%2F%2Fwww.skyhighsecurity.com%2F&dt=Skyhigh%20Security%20%7C%20AI%20SSE%20Platform%20for%20Enterprise%20Cloud%20Protection&en=user_engagement&_et=1267&tfd=6739"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "g",
+            "medium": "fetch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 7474948,
+            "time": 1781165393291,
+            "url": "https://www.skyhighsecurity.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7474948&time=1781165393291&url=https%3A%2F%2Fwww.skyhighsecurity.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 7474948,
+            "time": 1781165393291,
+            "url": "https://www.skyhighsecurity.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=7474948&time=1781165393291&url=https%3A%2F%2Fwww.skyhighsecurity.com%2F"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 1979072
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/settings/770948.json?r=1979072"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1116651929.1781166,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320",
+            "npa": 1,
+            "rcb": 7,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "0~115938466~115938469",
+            "tid": "G-Z40J50Z1CL",
+            "v": 1,
+            "z": 1551744264
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-Z40J50Z1CL&cid=1116651929.1781165393&gtm=45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320&rcb=7&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115938466~115938469&z=1551744264"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1116651929.1781166,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320",
+            "npa": 1,
+            "rcb": 7,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "0~115938466~115938469",
+            "tid": "G-6WM4HV7Y11",
+            "v": 1,
+            "z": 1295230695
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-6WM4HV7Y11&cid=1116651929.1781165393&gtm=45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320&rcb=7&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115938466~115938469&z=1295230695"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1781165392157,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1116651929.1781166,
+            "dl": "https://www.skyhighsecurity.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Skyhigh Security | AI SSE Platform for Enterprise Cloud Protection",
+            "ec_mode": "a",
+            "ecid": 359107913,
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165393,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4324,
+            "tid": "G-Z40J50Z1CL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-Z40J50Z1CL&gtm=45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320&_p=1781165392157&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&ecid=359107913&_eu=EAAAAGAC&are=1&cid=1116651929.1781165393&ec_mode=a&frm=0&ir=1&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469&sid=1781165393&sct=1&seg=0&dl=https%3A%2F%2Fwww.skyhighsecurity.com%2F&dt=Skyhigh%20Security%20%7C%20AI%20SSE%20Platform%20for%20Enterprise%20Cloud%20Protection&en=page_view&_fv=1&_ss=1&tfd=4324"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1781165392157,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1116651929.1781166,
+            "dl": "https://www.skyhighsecurity.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Skyhigh Security | AI SSE Platform for Enterprise Cloud Protection",
+            "ec_mode": "a",
+            "ecid": 2083862055,
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165393,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4300,
+            "tid": "G-6WM4HV7Y11",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-6WM4HV7Y11&gtm=45je6691h1v877046289z89230747320za20gzb9230747320zd9230747320&_p=1781165392157&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&ecid=2083862055&_eu=EAAAAGAC&are=1&cid=1116651929.1781165393&ec_mode=a&frm=0&ir=1&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469&sid=1781165393&sct=1&seg=0&dl=https%3A%2F%2Fwww.skyhighsecurity.com%2F&dt=Skyhigh%20Security%20%7C%20AI%20SSE%20Platform%20for%20Enterprise%20Cloud%20Protection&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=4300"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/2d8f72a9024e4.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-6WM4HV7Y11"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-6WM4HV7Y11&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_mchCn": "",
+            "_mchEcid": "",
+            "_mchHa": "",
+            "_mchHo": "www.skyhighsecurity.com",
+            "_mchId": "627-OOG-590",
+            "_mchNc": 1781165392519,
+            "_mchPc": "https:",
+            "_mchPo": "",
+            "_mchQp": "",
+            "_mchRe": "",
+            "_mchRu": "/",
+            "_mchTk": "_mch-skyhighsecurity.com-7749d00eba808956e38c72ee3fd5a34a",
+            "_mchVr": 165,
+            "_mchWs": "j0hRcdjO"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://627-oog-590.mktoresp.com/webevents/visitWebPage?_mchNc=1781165392519&_mchCn=&_mchId=627-OOG-590&_mchTk=_mch-skyhighsecurity.com-7749d00eba808956e38c72ee3fd5a34a&_mchWs=j0hRcdjO&_mchHo=www.skyhighsecurity.com&_mchPo=&_mchRu=%2F&_mchPc=https%3A&_mchVr=165&_mchEcid=&_mchHa=&_mchRe=&_mchQp="
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WK8WJJK7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WK8WJJK7"
+      },
+      {
+        "data": {
+          "filter": "||weglot.com/pageviews?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "api_key": "wg_5c22ff2efc255b27379b1ae7cd9cd2591"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.weglot.com/pageviews?api_key=wg_5c22ff2efc255b27379b1ae7cd9cd2591"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/165/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.skyhighsecurity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      }
+    ]
+  }
+}

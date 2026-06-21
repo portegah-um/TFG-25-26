@@ -1,0 +1,224 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Free Online Meetings & Video Calls | Microsoft Teams",
+  "uri_ins": "https://skype.com",
+  "uri_dest": "https://teams.live.com/free",
+  "uri_redirects": [
+    "https://skype.com/",
+    "https://www.skype.com/"
+  ],
+  "secure_connection": {},
+  "host": "skype.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:43:57.256Z",
+  "end_time": "2026-06-11T05:44:06.229Z",
+  "browsing_history": [
+    "https://teams.live.com/free"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "skype.com",
+        "www.skype.com",
+        "teams.live.com",
+        "login.live.com"
+      ],
+      "third_party": [
+        "wcpstatic.microsoft.com",
+        "statics.teams.cdn.live.net",
+        "login.microsoftonline.com",
+        "teams.events.data.microsoft.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "esctx-j3kZu8tXy6Y",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAFBGD1ZiTg4sG3oNYFeiuz04P6hqvNzmwWea07p9At0fByp8KZHUDKMFExhMFRaZVstV5wcZhOf9Sp9JkBAIX3Rv3LZ0OnDW7UcSKSZa0SDuMFdJ1K6TH1SwoYZNG4gb9AxhbtBIULwdKwSn89DqsVCAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T06:09:01.324Z",
+        "size": 229,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fpc",
+        "value": "Ap5Vv8qmbRZHpBv9F_bAY_g",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T05:44:01.324Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "stsservicecookie",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781156640&co=1",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uaid",
+        "value": "1b15fb892bc54eeda1dcb3eb12b0a6cc",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OParams",
+        "value": "11O.DiPsQsO*seB1xkfLmvSwZCklBEzlw7rO8*BaVDONVHOuscsBWa!oWOPE1Uxm3Jf4eqBpWtCD5kIpSM*SwXggKR8YvkCyiGmeo2lSrIvvyvpJ7qzxof6sydhRB8l8mXNU8CUaiD6EdcJvezE25q3E5hkn8QlW3rLNQ9mzzLbaujinPBZiNTBKsSZ6IaWQJrgEXWk8BODBSCujDxg4kuMlvSi84idKNrBQHkxJAYmT0P2c3n3uj!fVsGb4i9w*WvW4ubU8kM!TSAU7bDJAzRL0*XBEktVO6PgnEKxrwjjfy1Jh2OqIRqK1LE!sCimVRZpB*PbEdOdadBCJAaVXd9K18OU9SJ4wlbvblhfZ2!8WXhFUOB*AIzMK9UkS4KSGVAkgeBYMbw1UrTshy27ucNyja3x2BX4DEGSPo3eR5ET3BqM*l0ANhCeYIqInFEg6biBSI7GaEPq68lFp4xwtl9igXXeH3bQMmIRWG7q12LODI4Ikt94SR45KHW8ZGrmy5!BGcgA5b4DGlgdf8gjlhs4b0L8lX!oFEGs5AZEf4HQ9WMCH9hHxW7W3jP4tbvoHPVf7Ehuq!7qnkh4cPZ2NMBLUkVRtSymSE*pJBtII8UugDdwLa!Ya6phw7plnW9CbnHZsGy2UrOLh2ArzqAjfo4sDjzwBNmsB7Ks4Jvw!OpvDYSQWM0N7FY4GPmas3UsYwJudOJvdhNQZzZ23r8cbYq!g1expVYSP7whOkwutn3BcVusHqegXCmPNl!wW!**Z5xayzyZpmdiKiTp5eDuJPQ49wBoQNtnrmVpq8F7MUOB9m6DJ33R5ivxjgtFFnnRqKsQ2POttbV77R4WPQJsuHw0eUpLNtFooBZ3jA1IxTEhrKmDAPeCe*xGDRVEtAD*yQbD!a19sLaPnAnqaV8bfNaWrhusT5UZQS4vamDyEPaVoksvlgWRyrB*wsIcGi67OAzykxh6k01IJb4sP2LdOQjTPT18$",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 995,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

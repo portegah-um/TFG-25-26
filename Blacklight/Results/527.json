@@ -1,0 +1,536 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Dynatrace | Observability built for the age of AI",
+  "uri_ins": "https://dynatrace.com",
+  "uri_dest": "https://www.dynatrace.com/",
+  "uri_redirects": [
+    "https://dynatrace.com/"
+  ],
+  "secure_connection": {},
+  "host": "dynatrace.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:18:34.744Z",
+  "end_time": "2026-06-11T08:18:40.144Z",
+  "browsing_history": [
+    "https://www.dynatrace.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "dynatrace.com",
+        "www.dynatrace.com",
+        "cdn.dm.dynatrace.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "ixfd-api.bc0a.com",
+        "dt-cdn.net",
+        "region1.google-analytics.com",
+        "pagead2.googlesyndication.com",
+        "ade.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-1MEMV02JXV&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://www.dynatrace.com/_deployments/hedgehog/2026-06-11T06:22:02-cd5875f/_nuxt/chunk/259e455.modern.js": [
+          "keydown"
+        ],
+        "https://www.dynatrace.com/_deployments/hedgehog/2026-06-11T06:22:02-cd5875f/_nuxt/chunk/01eb78c.modern.js": [
+          "keydown"
+        ],
+        "https://www.dynatrace.com/_deployments/hedgehog/2026-06-11T06:22:02-cd5875f/_nuxt/chunk/a537fc3.modern.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-1MEMV02JXV&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-N5M6D47&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=DC-9976700&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PMMFLL": [
+          "click"
+        ],
+        "https://www.dynatrace.com/_deployments/hedgehog/2026-06-11T06:22:02-cd5875f/_nuxt/chunk/7674466.modern.js": [
+          "scroll"
+        ],
+        "https://www.dynatrace.com/_deployments/hedgehog/2026-06-11T06:22:02-cd5875f/_nuxt/chunk/01eb78c.modern.js": [
+          "scroll",
+          "click",
+          "mousemove"
+        ]
+      },
+      "TOUCH": {
+        "https://www.dynatrace.com/_deployments/hedgehog/2026-06-11T06:22:02-cd5875f/_nuxt/chunk/01eb78c.modern.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A18%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202409.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e5d74208-28ce-432c-a6b8-807e73b4f466&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.dynatrace.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "dynatrace.com",
+        "path": "/",
+        "expires": "2027-06-11T08:18:37.000Z",
+        "size": 349,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.dynatrace.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be6691v874527237z86740773za20gzb6740773zd6740773xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 10,
+            "rnd": 847599451.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 3626,
+            "tft": 1781165918820,
+            "tid": "AW-960101077",
+            "tids": "AW-960101077"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&ae=g&dl=https%3A%2F%2Fwww.dynatrace.com%2F&scrsrc=www.googletagmanager.com&rnd=847599451.1781165919&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be6691v874527237z86740773za20gzb6740773zd6740773xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469~117776793&apve=1&apvf=f&apvc=0&tids=AW-960101077&tid=AW-960101077&tft=1781165918820&tfd=3626"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.dynatrace.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be6691v874527237z86740773za20gzb6740773zd6740773xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 10,
+            "rnd": 847599451.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 3625,
+            "tft": 1781165918819,
+            "tid": "AW-960101077",
+            "tids": "AW-960101077"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&en=page_view&dl=https%3A%2F%2Fwww.dynatrace.com%2F&scrsrc=www.googletagmanager.com&rnd=847599451.1781165919&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be6691v874527237z86740773za20gzb6740773zd6740773xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469~117776793&apve=1&apvf=f&apvc=0&tids=AW-960101077&tid=AW-960101077&tft=1781165918819&tfd=3625"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.dynatrace.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45fe6691v9181375541z86740773za20gzb6740773zd6740773xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 10,
+            "rnd": 847599451.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 3623,
+            "tft": 1781165918817,
+            "tid": "AW-17336931894",
+            "tids": "AW-17336931894"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&en=page_view&dl=https%3A%2F%2Fwww.dynatrace.com%2F&scrsrc=www.googletagmanager.com&rnd=847599451.1781165919&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45fe6691v9181375541z86740773za20gzb6740773zd6740773xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=0&tids=AW-17336931894&tid=AW-17336931894&tft=1781165918817&tfd=3623"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.dynatrace.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.user_data_mode": "a",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45fe6691v9181375541z86740773za20gzb6740773zd6740773xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 10,
+            "rnd": 847599451.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 3622,
+            "tft": 1781165918816,
+            "tid": "DC-9976700",
+            "tids": "DC-9976700"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&en=page_view&dl=https%3A%2F%2Fwww.dynatrace.com%2F&scrsrc=www.googletagmanager.com&rnd=847599451.1781165919&navt=n&npa=1&gdid=dYWJhMj&ep.user_data_mode=a&_tu=KA&gtm=45fe6691v9181375541z86740773za20gzb6740773zd6740773xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=0&tids=DC-9976700&tid=DC-9976700&tft=1781165918816&tfd=3622"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.dynatrace.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45He6691v6740773za200zd6740773xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 1,
+            "rnd": 847599451.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938466~115938468",
+            "tfd": 3620,
+            "tft": 1781165918814
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.dynatrace.com%2F&scrsrc=www.googletagmanager.com&rnd=847599451.1781165919&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6691v6740773za200zd6740773xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938468&apve=1&apvf=f&apvc=1&tft=1781165918814&tfd=3620"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781165917071,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "aA",
+            "are": 1,
+            "cid": 1978122157.1781166,
+            "dl": "https://www.dynatrace.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "",
+            "dt": "Dynatrace | Observability built for the age of AI",
+            "en": "page_view",
+            "ep.author": "Vincent Murphy",
+            "ep.clean_page_path": "www.dynatrace.com/",
+            "ep.clean_previous_url": "",
+            "ep.dl_event": "gtm.dom",
+            "ep.gtm_container_id": "GTM-N5M6D47",
+            "ep.gtm_container_version": 89,
+            "ep.gtm_tag_name": "C0002_GA4 - Pageview - Standard",
+            "ep.meta_og_title": "Dynatrace | Observability built for the age of AI",
+            "ep.page_category": "Website hedgehog",
+            "ep.parent_zone_container": 1,
+            "ep.primary_header_title": "Observability built for the age of AI",
+            "ep.publish_date": "2021-11-25",
+            "ep.query_parameters": "",
+            "ep.timestamp": "2026-06-11T10:18:38.12+02:00",
+            "ep.user_agent_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45je6691v880635100z89127072429za20gzb9127072429zd6740773",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781165918,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 3555,
+            "tid": "G-1MEMV02JXV",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "upn.timezone_offset": 2,
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-1MEMV02JXV&gtm=45je6691v880635100z89127072429za20gzb9127072429zd6740773&_p=1781165917071&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&_eu=EAAAAAAC&are=1&cid=1978122157.1781165919&frm=0&ir=1&pscdl=denied&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469&dl=https%3A%2F%2Fwww.dynatrace.com%2F&dr=&sid=1781165918&sct=1&seg=0&dt=Dynatrace%20%7C%20Observability%20built%20for%20the%20age%20of%20AI&_tu=aA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.clean_previous_url=&ep.timestamp=2026-06-11T10%3A18%3A38.12%2B02%3A00&ep.dl_event=gtm.dom&ep.clean_page_path=www.dynatrace.com%2F&ep.parent_zone_container=1&ep.gtm_container_id=GTM-N5M6D47&ep.gtm_container_version=89&ep.author=Vincent%20Murphy&ep.page_category=Website%20hedgehog&ep.publish_date=2021-11-25&ep.primary_header_title=Observability%20built%20for%20the%20age%20of%20AI&ep.user_agent_string=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&ep.query_parameters=&ep.meta_og_title=Dynatrace%20%7C%20Observability%20built%20for%20the%20age%20of%20AI&ep.gtm_tag_name=C0002_GA4%20-%20Pageview%20-%20Standard&upn.timezone_offset=2&tfd=3555"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-1MEMV02JXV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-1MEMV02JXV&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-N5M6D47"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N5M6D47&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-960101077"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-960101077&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-9976700"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-9976700&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/api/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ixfd-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000236551/01526180059"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PMMFLL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dynatrace.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PMMFLL"
+      }
+    ]
+  }
+}

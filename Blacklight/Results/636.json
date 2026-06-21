@@ -1,0 +1,1185 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "News | The Independent | Today's headlines and latest breaking news",
+  "uri_ins": "https://independent.co.uk",
+  "uri_dest": "https://www.independent.co.uk/",
+  "uri_redirects": [
+    "https://independent.co.uk/"
+  ],
+  "secure_connection": {},
+  "host": "independent.co.uk",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:52:36.781Z",
+  "end_time": "2026-06-11T08:52:42.647Z",
+  "browsing_history": [
+    "https://www.independent.co.uk/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "independent.co.uk",
+        "www.independent.co.uk",
+        "static.independent.co.uk",
+        "cmpv2.independent.co.uk",
+        "cdn-piano.independent.co.uk"
+      ],
+      "third_party": [
+        "assets.the-independent.com",
+        "delivery.adrecover.com",
+        "securepubads.g.doubleclick.net",
+        "ats-wrapper.privacymanager.io",
+        "experianmatch.info",
+        "www.googletagmanager.com",
+        "geo.privacymanager.io",
+        "www.npttech.com",
+        "code.jquery.com",
+        "script.crazyegg.com",
+        "pub.doubleverify.com",
+        "uk-script.dotmetrics.net",
+        "static.chartbeat.com",
+        "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app",
+        "rm-script.dotmetrics.net",
+        "region1.google-analytics.com",
+        "ping.chartbeat.net",
+        "mab.chartbeat.com",
+        "cdn.taboola.com",
+        "pm-widget.taboola.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.taboola.com/libtrc/eslmedia-theindependent/loader.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://static.chartbeat.com/js/chartbeat_video.js": [
+          "scroll"
+        ],
+        "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js": [
+          "mousedown"
+        ],
+        "https://pub.doubleverify.com/dvtag/34448457/DV1395182/pub.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-PZJCN8L90Z&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://cdn-piano.independent.co.uk/api/tinypass.min.js": [
+          "scroll",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5XT7NPD": [
+          "click"
+        ],
+        "https://www.independent.co.uk/_build/main.a9ffa67f50c8d6bd7239.js": [
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.taboola.com/libtrc/eslmedia-theindependent/loader.js": [
+          "touchstart"
+        ],
+        "https://cdn-piano.independent.co.uk/api/tinypass.min.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cmpv2.independent.co.uk/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://cdn-piano.independent.co.uk/api/tinypass.min.js": [
+          "keypress",
+          "keyup"
+        ],
+        "https://www.independent.co.uk/_build/main.a9ffa67f50c8d6bd7239.js": [
+          "keydown"
+        ],
+        "https://www.independent.co.uk/_build/react-components-base.e080650edb072a390d96.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn-piano.independent.co.uk/api/tinypass.min.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "esi-permutive-id",
+        "value": "(null)",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Locale",
+        "value": "UK",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gdpr",
+        "value": "1",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "subscriber_origin",
+        "value": "eu",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": -1,
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_pc_subscriber_origin",
+        "value": "eu",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "is_mobile_or_tablet",
+        "value": "true",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T08:52:37.495Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "feat__piano_use_vanity_domain",
+        "value": "true",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": "2026-08-10T08:52:37.495Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "feat__article_complete_tracking_commercial",
+        "value": "true",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": "2026-08-10T08:52:37.495Z",
+        "size": 46,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esi-uuid",
+        "value": "8586095d-cafc-4088-8956-04fc24443c99",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T08:52:37.495Z",
+        "size": 44,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esi-permutive-id",
+        "value": "8586095d-cafc-4088-8956-04fc24443c99",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": -1,
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visid_incap_2975417",
+        "value": "snzDyaQMRRmzh2kZ3HC43VV3KmoAAAAAQUIPAAAAAAB2Mjnw9Wsft87hq1cm7ff5",
+        "domain": "experianmatch.info",
+        "path": "/",
+        "expires": "2027-06-10T22:37:09.047Z",
+        "size": 83,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nlbi_2975417",
+        "value": "56pyUo8Oqy7aloNBitP7LAAAAACWwOkUOH0VfRz+tpbi3uNB",
+        "domain": "experianmatch.info",
+        "path": "/",
+        "expires": -1,
+        "size": 60,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "incap_ses_692_2975417",
+        "value": "qVJyM+1VPBZ13dgRZHqaCVV3KmoAAAAADkMeYq3KSgPhjnU3g2ECCQ==",
+        "domain": "experianmatch.info",
+        "path": "/",
+        "expires": -1,
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fs_cd_cp_pRdRgnTnF68pCV2F",
+        "value": "AUfZnrbUa1_QuIivbB5U42-IcM3RvqPkqQy0kA3L8W66SNUiNdjfk8Ymmu7keJFruZdW25kIX6MMnuiZmRA4ZBKeAxlRsKLyfQ-iSk-b8ycw05Td2gIsrUGZwZHtRXJvw2zlsUYXzOxrkESaubkNt9-WVd1rqWcVq3xBVXjSQf_Gvly5Iupy2UEA",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2026-06-11T09:52:38.539Z",
+        "size": 210,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T08:52:39.158Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pctx",
+        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIEYOBmAFgAYAHACZBg-gDYArAE4A7NMmCQAXyA",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2027-07-11T08:52:39.000Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__adblocker",
+        "value": "false",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": "2026-06-11T08:57:39.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ce.s",
+        "value": "lcw~1781167960014",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T08:52:40.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb",
+        "value": "DM-ThlDsH6CCDfwAcw",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2027-07-11T08:52:40.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_chartbeat2",
+        "value": ".1781167960115.1781167960115.1.Bjg1JfCdBEKpB7T-8sC6aAorDBstk3.1",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2027-07-11T08:52:40.000Z",
+        "size": 74,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "external",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "expires": "2026-06-11T09:22:40.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EAAAAGA",
+            "_p": 1781167958573,
+            "_s": 2,
+            "are": 1,
+            "cid": 1809539090.1781168,
+            "dl": "https://www.independent.co.uk/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "",
+            "dt": "News | The Independent | Today's headlines and latest breaking news",
+            "en": "cookiebanner_view",
+            "ep.channel_hierarchy": "news",
+            "ep.code_version": "main.a9ffa67f50c8d6bd7239.js",
+            "ep.components_list": "A2,8,A1,A10",
+            "ep.homepage_update_time": "Tuesday, 09 June 2026 14:47:14",
+            "ep.logged_in_status": "not logged in",
+            "ep.page_type": "frontpage",
+            "ep.pagename": "frontpage",
+            "ep.site_section": "news",
+            "ep.sub_section": "news",
+            "ep.sub_section_2": "news",
+            "epn.is_selling_page": 0,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3p3q2q5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9224384835za200zb830666029zd830666029",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 5,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167959,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tcfd": "1065r",
+            "tfd": 5242,
+            "tid": "G-PZJCN8L90Z",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-PZJCN8L90Z&gtm=45je6691v9224384835za200zb830666029zd830666029&_p=1781167958573&gcs=G100&gcd=13q3p3q2q5l1&npa=1&dma_cps=-&dma=1&tcfd=1065r&_eu=EAAAAGA&are=1&cid=1809539090.1781167960&frm=0&ir=1&pscdl=denied&rcb=5&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938465~115938468&dr=&dt=News%20%7C%20The%20Independent%20%7C%20Today%27s%20headlines%20and%20latest%20breaking%20news&sid=1781167959&sct=1&seg=0&dl=https%3A%2F%2Fwww.independent.co.uk%2F&en=cookiebanner_view&_ee=1&ep.pagename=frontpage&ep.code_version=main.a9ffa67f50c8d6bd7239.js&ep.logged_in_status=not%20logged%20in&epn.is_selling_page=0&ep.homepage_update_time=Tuesday%2C%2009%20June%202026%2014%3A47%3A14&ep.page_type=frontpage&ep.channel_hierarchy=news&ep.site_section=news&ep.components_list=A2%2C8%2CA1%2CA10&ep.sub_section=news&ep.sub_section_2=news&tfd=5242"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com^$domain=independent.co.uk|outlook.live.com|technobuffalo.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pm-widget.taboola.com/eslmedia-theindependent/pmk-20220605.18.js"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com^$domain=independent.co.uk|outlook.live.com|technobuffalo.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pm-widget.taboola.com/eslmedia-theindependent/load.js"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com/libtrc/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.taboola.com/libtrc/eslmedia-theindependent/loader.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-PZJCN8L90Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PZJCN8L90Z"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "independent.co.uk",
+            "host": "independent.co.uk",
+            "path": "/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=independent.co.uk&domain=independent.co.uk&path=%2F"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.independent.co.uk/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "_acct": "anon",
+            "_s": {
+              "hashed_email": null,
+              "l": null
+            },
+            "b": 2888,
+            "c": 0,
+            "d": "independent.co.uk",
+            "e": 0,
+            "f": "00001",
+            "g": 62356,
+            "g0": "No Section",
+            "g1": "No Author",
+            "h": "independent.co.uk",
+            "i": "News | The Independent | Today's headlines and latest breaking news",
+            "im": "067b0fff",
+            "j": 45,
+            "m": 0,
+            "n": 1,
+            "o": 375,
+            "p": "/",
+            "r": "",
+            "sd": 1,
+            "sn": 1,
+            "sr": "external",
+            "sv": "Bjg1JfCdBEKpB7T-8sC6aAorDBstk3",
+            "t": "BOVa65i7RzpDFqH1TC5s6X8Duru0z",
+            "tz": -120,
+            "u": "DM-ThlDsH6CCDfwAcw",
+            "w": 812,
+            "x": 0,
+            "y": 26065
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=independent.co.uk&p=%2F&u=DM-ThlDsH6CCDfwAcw&d=independent.co.uk&g=62356&g0=No%20Section&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=26065&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.independent.co.uk%2F&b=2888&_s=%7B%22l%22%3Anull%2C%22hashed_email%22%3Anull%7D&t=BOVa65i7RzpDFqH1TC5s6X8Duru0z&V=151&i=News%20%7C%20The%20Independent%20%7C%20Today%27s%20headlines%20and%20latest%20breaking%20news&tz=-120&_acct=anon&sn=1&sv=Bjg1JfCdBEKpB7T-8sC6aAorDBstk3&sr=external&sd=1&im=067b0fff&_"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EAAAAGA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781167958573,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1809539090.1781168,
+            "dl": "https://www.independent.co.uk/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "",
+            "dt": "News | The Independent | Today's headlines and latest breaking news",
+            "en": "page_view",
+            "ep.channel_hierarchy": "news",
+            "ep.code_version": "main.a9ffa67f50c8d6bd7239.js",
+            "ep.components_list": "A2,8,A1,A10",
+            "ep.homepage_update_time": "Tuesday, 09 June 2026 14:47:14",
+            "ep.logged_in_status": "not logged in",
+            "ep.page_type": "frontpage",
+            "ep.pagename": "frontpage",
+            "ep.site_section": "news",
+            "ep.sub_section": "news",
+            "ep.sub_section_2": "news",
+            "epn.is_selling_page": 0,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3p3q2q5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9224384835za200zb830666029zd830666029",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 5,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167959,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tcfd": "1065r",
+            "tfd": 2791,
+            "tid": "G-PZJCN8L90Z",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.user_status": "anonymous",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-PZJCN8L90Z&gtm=45je6691v9224384835za200zb830666029zd830666029&_p=1781167958573&gcs=G100&gcd=13q3p3q2q5l1&npa=1&dma_cps=-&dma=1&tcfd=1065r&_eu=EAAAAGA&are=1&cid=1809539090.1781167960&frm=0&ir=1&pscdl=denied&rcb=5&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468&dr=&dt=News%20%7C%20The%20Independent%20%7C%20Today%27s%20headlines%20and%20latest%20breaking%20news&sid=1781167959&sct=1&seg=0&dl=https%3A%2F%2Fwww.independent.co.uk%2F&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.pagename=frontpage&ep.code_version=main.a9ffa67f50c8d6bd7239.js&ep.logged_in_status=not%20logged%20in&epn.is_selling_page=0&ep.homepage_update_time=Tuesday%2C%2009%20June%202026%2014%3A47%3A14&ep.page_type=frontpage&ep.channel_hierarchy=news&ep.site_section=news&ep.components_list=A2%2C8%2CA1%2CA10&ep.sub_section=news&ep.sub_section_2=news&up.user_status=anonymous&tfd=2791"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0131/9866/sampling/www.independent.co.uk.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://uk-script.dotmetrics.net/Scripts/ncs-script.js?v=364"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": false,
+            "dom": "www.independent.co.uk",
+            "id": 6669,
+            "pvid": "36d52ce8-cf88-4d32-9189-13f6e450ca6a",
+            "pvs": 1,
+            "r": 1781167959797,
+            "tzOffset": -120,
+            "url": "https://www.independent.co.uk/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rm-script.dotmetrics.net/hit.gif?id=6669&url=https%3A%2F%2Fwww.independent.co.uk%2F&dom=www.independent.co.uk&r=1781167959797&pvs=1&pvid=36d52ce8-cf88-4d32-9189-13f6e450ca6a&c=false&tzOffset=-120"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": false,
+            "dfph": "",
+            "dom": "www.independent.co.uk",
+            "doorUrl": "http://uk-script.dotmetrics.net/door.js?id=6669",
+            "ecid": "36d52ce8-cf88-4d32-9189-13f6e450ca6a",
+            "id": 6669,
+            "pvs": 1,
+            "r": 1781167959797,
+            "tzOffset": -120,
+            "url": "https://www.independent.co.uk/",
+            "ver": 364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://uk-script.dotmetrics.net/hit.gif?id=6669&url=https%3A%2F%2Fwww.independent.co.uk%2F&dom=www.independent.co.uk&r=1781167959797&pvs=1&ecid=36d52ce8-cf88-4d32-9189-13f6e450ca6a&c=false&tzOffset=-120&doorUrl=http%3a%2f%2fuk-script.dotmetrics.net%2fdoor.js%3fid%3d6669&dfph=&ver=364"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0131/9866/site/www.independent.co.uk.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abs": 1,
+            "bsc": 1,
+            "cbs": 1,
+            "cmp": "DV1395182",
+            "ctx": 34448457,
+            "token": "blsLb7XRiCVUkg3KquMv1ZBaDyhxYTTpmHqba3hZ4fqP0O8+AbkVL4wDlSc+EfEpnqsCj9r8dLwViOl6TMXgukBTP/XFrM5QIugQFpkqvDGFCFv4zkmZpZaIiDN7CJX17ST3lvfEki5Bz1enlgBWxAD9ZfPsfgPF6ojDKvk=",
+            "url": "https://independent.co.uk"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=34448457&cmp=DV1395182&url=https%3A%2F%2Findependent.co.uk&bsc=1&abs=1&cbs=1&token=blsLb7XRiCVUkg3KquMv1ZBaDyhxYTTpmHqba3hZ4fqP0O8%2BAbkVL4wDlSc%2BEfEpnqsCj9r8dLwViOl6TMXgukBTP%2FXFrM5QIugQFpkqvDGFCFv4zkmZpZaIiDN7CJX17ST3lvfEki5Bz1enlgBWxAD9ZfPsfgPF6ojDKvk%3D"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cmp": "DV1395182",
+            "ctx": 34448457,
+            "ids": 1,
+            "token": "blsLb7XRiCVUkg3KquMv1ZBaDyhxYTTpmHqba3hZ4fqP0O8+AbkVL4wDlSc+EfEpnqsCj9r8dLwViOl6TMXgukBTP/XFrM5QIugQFpkqvDGFCFv4zkmZpZaIiDN7CJX17ST3lvfEki5Bz1enlgBWxAD9ZfPsfgPF6ojDKvk=",
+            "url": "https://independent.co.uk"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=34448457&cmp=DV1395182&url=https%3A%2F%2Findependent.co.uk&ids=1&token=blsLb7XRiCVUkg3KquMv1ZBaDyhxYTTpmHqba3hZ4fqP0O8%2BAbkVL4wDlSc%2BEfEpnqsCj9r8dLwViOl6TMXgukBTP%2FXFrM5QIugQFpkqvDGFCFv4zkmZpZaIiDN7CJX17ST3lvfEki5Bz1enlgBWxAD9ZfPsfgPF6ojDKvk%3D"
+      },
+      {
+        "data": {
+          "filter": "||permutive.app^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/8a36876c-0af1-446c-b4da-51399e9ee198-web.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_video.js"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 6669
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://uk-script.dotmetrics.net/door.js?id=6669"
+      },
+      {
+        "data": {
+          "filter": "||adrecover.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "ts": 1781167959448
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://delivery.adrecover.com/block.jpg?ts=1781167959448"
+      },
+      {
+        "data": {
+          "filter": "||experianmatch.info^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dnt": null,
+            "domain": "www.independent.co.uk",
+            "fpid": "",
+            "gdprApplies": true,
+            "publisherid": "MP001",
+            "pxl": 1,
+            "tcString": "CQlo8kAQlo8kAAGABCENCfFgAAAAAEPgAAiQAAARmgUAABgAUABYAFQALgAcABAACQAFQAMgAaAA9AB-AEwAJwAVQA_ACEAEcAOQAdwA8YCDgIQARYAkQBKQDOAG0APUAmQBVgC1gF5gMZAZIAywBtADgAHLAQTAjMAUEABAALAJEEgAgAXCgCQAFAAqAB6APEAhAB6gGMgOWAjMPAFAABAAUACoAHoAPwAnADxAPUAxkCMxAACASIhAHAAWAFUAPwA7gCUgG0AVYSAAgAkJgBQAAgGcAWsAxkBwBUAMAAEABQAKgFrAMZAjMWgBADuAVYAA.ILAMB5C5MQSFBKCJwIJoAQAQVwBgAIIAgAgAAAQABQBIQAIwEEAECAACAAAACAAIAAAAAIABIEABAAAAAAAABAAAAAEAAAAAAIAAAAAAAQABAAAAAAAAAUAAAAAAQAgAAgAAAQAIAQEgAAAAAAAAEIAAFAAAQAAAAAAAgQAAAAAAAgAgAkABAAAAAAAAAQBABEAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAABAA.YAAAAAAAAAAA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://experianmatch.info/log?pxl=1&fpid=&publisherid=MP001&dnt=null&domain=www.independent.co.uk&gdprApplies=true&tcString=CQlo8kAQlo8kAAGABCENCfFgAAAAAEPgAAiQAAARmgUAABgAUABYAFQALgAcABAACQAFQAMgAaAA9AB-AEwAJwAVQA_ACEAEcAOQAdwA8YCDgIQARYAkQBKQDOAG0APUAmQBVgC1gF5gMZAZIAywBtADgAHLAQTAjMAUEABAALAJEEgAgAXCgCQAFAAqAB6APEAhAB6gGMgOWAjMPAFAABAAUACoAHoAPwAnADxAPUAxkCMxAACASIhAHAAWAFUAPwA7gCUgG0AVYSAAgAkJgBQAAgGcAWsAxkBwBUAMAAEABQAKgFrAMZAjMWgBADuAVYAA.ILAMB5C5MQSFBKCJwIJoAQAQVwBgAIIAgAgAAAQABQBIQAIwEEAECAACAAAACAAIAAAAAIABIEABAAAAAAAABAAAAAEAAAAAAIAAAAAAAQABAAAAAAAAAUAAAAAAQAgAAgAAAQAIAQEgAAAAAAAAEIAAFAAAQAAAAAAAgQAAAAAAAgAgAkABAAAAAAAAAQBABEAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAABAA.YAAAAAAAAAAA"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-PZJCN8L90Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PZJCN8L90Z&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/34448457/DV1395182/pub.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0131/9866.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099014
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js?cb=31099014"
+      },
+      {
+        "data": {
+          "filter": "||experianmatch.info^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "publisherid": "MP001"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://experianmatch.info/log.js?publisherid=MP001"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||adrecover.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.independent.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://delivery.adrecover.com/49102/adRecover.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Firebase Crashlytics | Track, prioritize, and fix app crashes faster",
+  "uri_ins": "https://crashlytics.com",
+  "uri_dest": "https://firebase.google.com/products/crashlytics/",
+  "uri_redirects": [
+    "https://crashlytics.com/"
+  ],
+  "secure_connection": {},
+  "host": "crashlytics.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:18:30.976Z",
+  "end_time": "2026-06-11T07:18:36.724Z",
+  "browsing_history": [
+    "https://firebase.google.com/products/crashlytics/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "crashlytics.com",
+        "firebase.google.com",
+        "cloud.google.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "www.gstatic.com",
+        "fonts.gstatic.com",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NDV7K7V5&l=atDataLayer": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KFPLMHC": [
+          "click"
+        ],
+        "https://www.gstatic.com/devrel-devsite/prod/vab7d3990237361b4739a5005ec80b0af3ee973650a028ed684c6b12bd1dc988a/firebase/js/devsite_app_module.js": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.gstatic.com/devrel-devsite/prod/vab7d3990237361b4739a5005ec80b0af3ee973650a028ed684c6b12bd1dc988a/firebase/js/devsite_app_module.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "django_language",
+        "value": "en",
+        "domain": "firebase.google.com",
+        "path": "/",
+        "expires": "2026-12-08T07:18:34.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.442005630.1781162315",
+        "domain": "firebase.google.com",
+        "path": "/",
+        "expires": "2027-07-16T07:18:34.580Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_64EQFFKSHW",
+        "value": "GS2.1.s1781162314$o1$g0$t1781162315$j59$l0$h0",
+        "domain": "firebase.google.com",
+        "path": "/",
+        "expires": "2027-07-16T07:18:35.744Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781162314078,
+            "_s": 2,
+            "are": 1,
+            "cid": 442005630.1781162,
+            "dl": "https://firebase.google.com/products/crashlytics/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Firebase Crashlytics | Track, prioritize, and fix app crashes faster",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9185711061z89183356566za20gzb9183356566zd9183356566",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162314,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 5232,
+            "tid": "G-64EQFFKSHW",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://firebase.google.com/products/crashlytics/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-64EQFFKSHW&gtm=45je6691v9185711061z89183356566za20gzb9183356566zd9183356566&_p=1781162314078&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=442005630.1781162315&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938466~115938468&sid=1781162314&sct=1&seg=0&dl=https%3A%2F%2Ffirebase.google.com%2Fproducts%2Fcrashlytics%2F&dt=Firebase%20Crashlytics%20%7C%20Track%2C%20prioritize%2C%20and%20fix%20app%20crashes%20faster&_s=2&tfd=5232"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 2,
+            "_nsi": 1,
+            "_p": 1781162314078,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 442005630.1781162,
+            "dl": "https://firebase.google.com/products/crashlytics",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Firebase Crashlytics | Track, prioritize, and fix app crashes faster",
+            "en": "page_view",
+            "ep.allowLinker": true,
+            "ep.alwaysSendReferrer": true,
+            "ep.anonymizeIp": true,
+            "ep.contentType": "article",
+            "ep.experimentIds": "",
+            "ep.inPreferredLanguage": "True",
+            "ep.langMachineTranslated": "False",
+            "ep.langRequested": "en",
+            "ep.langServed": "en",
+            "ep.legacyHistoryImport": false,
+            "ep.location": "https://",
+            "ep.recommendationExperiment": "",
+            "ep.recommendationSourcePage": "",
+            "ep.storage": false,
+            "ep.tenant": "firebase",
+            "epn.recommendationSourceDescriptionWords": 0,
+            "epn.recommendationSourceIdentDescriptions": 0,
+            "epn.recommendationSourceRank": 0,
+            "epn.recommendationSourceTitleWords": 0,
+            "epn.recommendationSourceType": 0,
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9185711061z89183356566za20gzb9183356566zd9183356566",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162314,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 3196,
+            "tid": "G-64EQFFKSHW",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.internalUser": "False",
+            "up.signedIn": "False",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://firebase.google.com/products/crashlytics/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-64EQFFKSHW&gtm=45je6691v9185711061z89183356566za20gzb9183356566zd9183356566&_p=1781162314078&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=442005630.1781162315&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&dl=https%3A%2F%2Ffirebase.google.com%2Fproducts%2Fcrashlytics&dt=Firebase%20Crashlytics%20%7C%20Track%2C%20prioritize%2C%20and%20fix%20app%20crashes%20faster&sid=1781162314&sct=1&seg=0&en=page_view&_fv=2&_nsi=1&_ss=1&ep.allowLinker=true&ep.anonymizeIp=true&ep.location=https%3A%2F%2F&ep.alwaysSendReferrer=true&ep.legacyHistoryImport=false&ep.storage=false&ep.experimentIds=&ep.langMachineTranslated=False&ep.langRequested=en&ep.langServed=en&ep.tenant=firebase&ep.contentType=article&ep.inPreferredLanguage=True&ep.recommendationExperiment=&epn.recommendationSourceDescriptionWords=0&epn.recommendationSourceIdentDescriptions=0&ep.recommendationSourcePage=&epn.recommendationSourceRank=0&epn.recommendationSourceTitleWords=0&epn.recommendationSourceType=0&up.internalUser=False&up.signedIn=False&tfd=3196"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-64EQFFKSHW",
+            "l": "atDataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://firebase.google.com/products/crashlytics/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-64EQFFKSHW&l=atDataLayer&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NDV7K7V5",
+            "l": "atDataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://firebase.google.com/products/crashlytics/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NDV7K7V5&l=atDataLayer"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KFPLMHC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://firebase.google.com/_d/alternate-gtm?referrer=",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KFPLMHC"
+      }
+    ]
+  }
+}

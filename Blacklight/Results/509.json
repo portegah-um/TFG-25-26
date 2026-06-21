@@ -1,0 +1,300 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Substack",
+  "uri_ins": "https://substack.com",
+  "uri_dest": "https://substack.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "substack.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:13:46.896Z",
+  "end_time": "2026-06-11T08:13:53.427Z",
+  "browsing_history": [
+    "https://substack.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "substack.com"
+      ],
+      "third_party": [
+        "substackcdn.com",
+        "substack-video.s3.amazonaws.com",
+        "o350427.ingest.sentry.io",
+        "stream.mux.com",
+        "manifest-oci-us-ashburn-1-vop1.fastly.mux.com",
+        "chunk-oci-us-ashburn-1-vop1.fastly.mux.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://substackcdn.com/bundle/static/js/reader2.d76ad08a.js": [
+          "scroll"
+        ],
+        "https://substackcdn.com/bundle/static/js/async/50551.da4e27c9.js": [
+          "click"
+        ],
+        "https://substackcdn.com/bundle/static/js/17933.62e1988d.js": [
+          "scroll"
+        ],
+        "https://substackcdn.com/bundle/static/js/34579.85de09c9.js": [
+          "click"
+        ],
+        "https://substackcdn.com/bundle/static/js/95572.bd69c50e.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://substackcdn.com/bundle/static/js/30558.d0e6ddfd.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://substackcdn.com/bundle/static/js/async/50551.da4e27c9.js": [
+          "keypress"
+        ],
+        "https://substackcdn.com/bundle/static/js/38526.ccdbbbc7.js": [
+          "keydown"
+        ],
+        "https://substackcdn.com/bundle/static/js/37662.711d92dc.js": [
+          "keydown"
+        ],
+        "https://substackcdn.com/bundle/static/js/95572.bd69c50e.js": [
+          "keydown"
+        ],
+        "https://substackcdn.com/bundle/static/js/60799.d0adbfba.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "cookie_storage_key",
+        "value": "f725adaa-db23-4a41-8228-a22d07be879d",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": "2026-09-09T08:13:47.694Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "substack.lli",
+        "value": "0",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": "2026-09-09T08:13:47.694Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "disable_experiments",
+        "value": "1",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": -1,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "0r_fZtzwR3crBN0WQzdR4UlDXfoOmFW3NJGH63ed4tI-1781165629-1.2.1.1-d_7uqFJ20MJGnuRQQJyl48Ks9lKaIMWhVZjnp1SQERP6FJdSesQTdV8qPiWcjWu6TSvmv03tNmbQLh7QN5I3nniiIANES4uV9w2VZtrRkZkINJDqYVqRZLlAkNzJm2tExdpoFN0s.y2wsLLyDEbaHjBQb08RSmq0OxybQnYjY8EjjX1efB8I8rWwn8aV7X._ESJAZkO58iFCfUY.ulbgV8mtoEBzyrhsuvbn9BZAglXPL4a8Pcb7fEgLBbHCUtjs4PF5lyEQmA9vtK28FMVYpOaG5AIDYeS6rz_HcFyXw6GVcP6Awzd4rmfPkTjjUw97m7X5.QbMZs0q1ebrpnuoww",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": "2027-06-11T08:13:49.755Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://substack.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "OfbUzHqywe6RTmvYi2PLc2xKsQ22UNLxl700NLKfR1U-1781165629.7376354-1.0.1.1-7q7JPR73YtHnvqrHO5VrelAhhhvTWddJ5H3kWfZTRJuirtljTX_Sz9xZf4wegGhRHWBrZ_nPTnAErNdTpIb9wNu7VyA8JrjGtGjK65z15jFJnG2P52t5Cy3nCdXi_n6C",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": "2026-06-11T08:43:49.755Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "disable_html_pixels",
+        "value": "1",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": -1,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBTG",
+        "value": "xNRm/KfxVpfsqe/W/T5qCoIu0xX79mzJIqV3WzKNFADTjQ291jhmBMos5RE7u4SsApBavawR4r72Agpzu435M00nw4ckpT9QnL89vA2LH+m5Bb/885zxOiyU2h1YPqxoh4XHo8Cu+HxeVPGyN5PpiEDRHVv+i0M5ajcj30hr9ZNZmwjfeaCFFFvKtwCS3Q9TsBzhNlB6G18RgvlnC9v2AnWpBMMaQl2z1+z+nUAt07V2coA16my58o2As0Jpbv56S3ZldnisfmDAUTdSNtYPJK9yyd5esjY9W1wAtVYDBf+VoXlBNbnLunoSRaZWYUiZUQQdp1v/OHehzLSMFZ2I",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": "2026-06-18T08:13:53.107Z",
+        "size": 348,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBTGCORS",
+        "value": "xNRm/KfxVpfsqe/W/T5qCoIu0xX79mzJIqV3WzKNFADTjQ291jhmBMos5RE7u4SsApBavawR4r72Agpzu435M00nw4ckpT9QnL89vA2LH+m5Bb/885zxOiyU2h1YPqxoh4XHo8Cu+HxeVPGyN5PpiEDRHVv+i0M5ajcj30hr9ZNZmwjfeaCFFFvKtwCS3Q9TsBzhNlB6G18RgvlnC9v2AnWpBMMaQl2z1+z+nUAt07V2coA16my58o2As0Jpbv56S3ZldnisfmDAUTdSNtYPJK9yyd5esjY9W1wAtVYDBf+VoXlBNbnLunoSRaZWYUiZUQQdp1v/OHehzLSMFZ2I",
+        "domain": "substack.com",
+        "path": "/",
+        "expires": "2026-06-18T08:13:53.107Z",
+        "size": 352,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/7.120.3",
+            "sentry_key": "6c2ff3e3828e4017b7faf7b63e24cdf8",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://substack.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o350427.ingest.sentry.io/api/4504244653457408/envelope/?sentry_key=6c2ff3e3828e4017b7faf7b63e24cdf8&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3"
+      }
+    ]
+  }
+}

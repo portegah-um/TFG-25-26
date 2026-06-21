@@ -1,0 +1,1005 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos",
+  "uri_ins": "https://welt.de",
+  "uri_dest": "https://www.welt.de/",
+  "uri_redirects": [
+    "https://welt.de/"
+  ],
+  "secure_connection": {},
+  "host": "welt.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:40:47.610Z",
+  "end_time": "2026-06-11T09:40:53.087Z",
+  "browsing_history": [
+    "https://www.welt.de/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "welt.de",
+        "www.welt.de",
+        "jnt.welt.de",
+        "consent.up.welt.de",
+        "images.welt.de",
+        "rosetta.prod.ps.welt.de",
+        "wait-web.prod.ps.welt.de",
+        "whoami-web.prod.ps.welt.de",
+        "wall-e.prod.ps.welt.de",
+        "hua-production.la.welt.de",
+        "consumer-api.prod.auth.welt.de",
+        "ast.welt.de",
+        "as.welt.de",
+        "ras.welt.de"
+      ],
+      "third_party": [
+        "html-load.com",
+        "www.asadcdn.com",
+        "ad-delivery.net",
+        "pagead2.googlesyndication.com",
+        "rusty-heartbeat.services.ps.axelspringer.de",
+        "utiqcontent.com",
+        "simetra.tracking.ringieraxelspringer.tech"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://ast.welt.de/welt/prod/utag.js": [
+          "scroll",
+          "mousemove"
+        ],
+        "https://www.welt.de/assets/bff-section/scripts/chunks/components.module.yle1PZ1O.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.welt.de/assets/bff-section/scripts/section.module.77brvQdv.js": [
+          "scroll",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://www.welt.de/assets/bff-section/scripts/chunks/welt-video-player.BYqI74US.js": [
+          "click"
+        ],
+        "https://www.asadcdn.com/adlib/pages/welt.js?1": [
+          "scroll",
+          "mousemove",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://ast.welt.de/welt/prod/utag.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ast.welt.de/welt/prod/utag.js": [
+          "keydown"
+        ],
+        "https://www.welt.de/assets/bff-section/scripts/chunks/components.module.yle1PZ1O.js": [
+          "keydown"
+        ],
+        "https://consent.up.welt.de/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://www.welt.de/assets/bff-section/scripts/section.module.77brvQdv.js": [
+          "keydown"
+        ],
+        "https://www.asadcdn.com/adlib/pages/welt.js?1": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "csrf_token_813e7fa20460eee846d207d1160337747401ce935177bdb8571bc30ed275e535",
+        "value": "rtDLtI8bsXlTuPGveQZcFFQqtAIPTMJWT4mQUK4I2k4=",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2027-06-11T09:40:50.294Z",
+        "size": 119,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "DIceSkwAXsioA.34538wtU0GHXsEWuOvamvYxY1Y4Ls-1781170850.2042694-1.0.1.1-rTXMdDOsydNtSmCe9SmKXjrvOL2c8Ssadil.BTH8uxNwlL3vMeiIC.t8O7.7K5iVm5c.qBDX3CIAHRcwraqSnsR3fUPO0BXKSBGqHBj_JE9_Dy165J.crrsXJIMtehW0",
+        "domain": "consumer-api.prod.auth.welt.de",
+        "path": "/",
+        "expires": "2026-06-11T10:10:50.294Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cflb",
+        "value": "04dTofjtHwhfCny3TibYMM4LURzprwaRX2po61bUSw",
+        "domain": "consumer-api.prod.auth.welt.de",
+        "path": "/",
+        "expires": "2026-06-11T10:40:50.295Z",
+        "size": 48,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2027-06-11T09:40:50.344Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cmp_cv_list",
+        "value": "adobe_cmp,",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2026-07-11T09:40:50.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C10447037729544707609169685270590173052",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2027-06-11T09:40:51.458Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCVS_B21B678254F601E20A4C98A5%40AdobeOrg",
+        "value": "1",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg",
+        "value": "-1124106680%7CMCIDTS%7C20616%7CMCMID%7C10447037729544707609169685270590173052%7CMCAID%7CNONE%7CMCOPTOUT-1781178051s%7CNONE%7CvVersion%7C5.2.0",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2027-07-16T09:40:51.236Z",
+        "size": 181,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main",
+        "value": "v_id:019eb60e4bfd001ee65bb6e9ab5f00087001407f004bb$_sn:1$_se:5$_ss:0$_st:1781172651363$ses_id:1781170850819%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:mobile%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session$channelCat:%3Bexp-session$pa:7%3Bexp-session$otb:%3Bexp-session",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2027-06-11T09:40:51.000Z",
+        "size": 412,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ea_uuid",
+        "value": "202606111140520876208398",
+        "domain": "ras.welt.de",
+        "path": "/",
+        "expires": "2027-07-16T09:40:52.435Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ea_uuid",
+        "value": "202606111140520876208398",
+        "domain": "welt.de",
+        "path": "/",
+        "expires": "2027-07-16T09:40:52.487Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rusty-heartbeat.services.ps.axelspringer.de/"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rusty-heartbeat.services.ps.axelspringer.de/"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/setCSS.e9e4e776.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/delCSS.5ff0b211.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/moveSky.bd4910dd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/ovkvmf/propagateOnScroll.634ea025.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/isChildOf.8f6a7f93.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/backchanger.3413927d.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/sightLoader.a6d7f54d.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/stickToSlot.7df2e42a.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/isVisible.565bfdbd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/calcAdPos.adfad1c8.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getScrollTop.3431c031.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/scrollHandler.4d2dae3f.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/200/test.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/init.c73e2ca3.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/instream.156c32d4.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getLocalData.c2c0d88c.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/speedCheck.ea12efc0.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/setRestrictedArea.aa5286d8.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/sendEvent.5e638723.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/renderedCallback.c9c53849.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/renderAd.5b647f2f.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/posOutstream.90206730.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/listenMessage.2791aebd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/idleLoader.fc323c9a.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getWinHeight.a475b9e9.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getSChain.fedc5db5.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getContWidth.7054d382.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/fireRequest.3b532c14.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/extendSlot.82db946b.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/err.2606b9c6.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/enrichPTV.9cff2bfe.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/calcY.7baffa20.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/addCSS.52213e56.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/pec/currency.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/hashMap.json"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "1": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.welt.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/pages/welt.js?1"
+      }
+    ]
+  }
+}

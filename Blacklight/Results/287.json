@@ -1,0 +1,524 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Home | Wiley",
+  "uri_ins": "https://wiley.com",
+  "uri_dest": "https://www.wiley.com/en-es/",
+  "uri_redirects": [
+    "https://wiley.com/",
+    "https://www.wiley.com/"
+  ],
+  "secure_connection": {},
+  "host": "wiley.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:04:17.013Z",
+  "end_time": "2026-06-11T07:04:27.811Z",
+  "browsing_history": [
+    "https://www.wiley.com/en-es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "wiley.com",
+        "www.wiley.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "cmp.osano.com",
+        "challenges.cloudflare.com",
+        "assets.adobedtm.com",
+        "static.cloudflareinsights.com",
+        "s7d9.scene7.com",
+        "fonts.gstatic.com",
+        "players.brightcove.net",
+        "edge.api.brightcove.com",
+        "metrics.brightcove.com",
+        "cf-images.us-east-1.prod.boltdns.net",
+        "manifest.prod.boltdns.net",
+        "fastly-signed-us-east-1-prod.brightcovecdn.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.wiley.com/etc.clientlibs/web-strategy-build/clientlibs/clientlib-base/resources/2857.363f409.chunk.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.wiley.com/etc.clientlibs/web-strategy-build/clientlibs/clientlib-base/resources/5722.363f409.js": [
+          "click"
+        ],
+        "https://assets.adobedtm.com/59640f9fa510/30a2f2139949/launch-1e4f092906d0.min.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.wiley.com/etc.clientlibs/web-strategy-build/clientlibs/clientlib-base/resources/5722.363f409.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "affinity",
+        "value": "\"48a2a471cf6b90c4\"",
+        "domain": "www.wiley.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_gpv",
+        "value": "wil|na|na|na|home",
+        "domain": "www.wiley.com",
+        "path": "/",
+        "expires": "2026-06-11T07:34:24.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_ips",
+        "value": "812",
+        "domain": "wiley.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "U31pCTB_6lDilEWPkE7o961t9Tif4SafQUAOQpZSYrI-1781161464-1.2.1.1-dIkjIPI9shDusEx8aYD3w00.AgMto2vbnBhT8nOXLGepSLJspnshRWWyX0QX8ScG1ea0WguppB4oQH5wwdFV.P5CQgwyC6sTv2f2LJcdan_c2hYdu_1WQkL0LGkqFwMSl7LT6M_NtyYZfW2xCkyNq3dVIacZUUaDJcZm8dpmlWzncMKWs2B6Wsk41NCscXxxviaqGPhWJ0xaDmcMbSMS6Pdv9NrrA6ylz7vTFmFVkMudmS84KRPovWYZ8NslbmQy9.r3GNVWJFz4p93xO6zuCaPitqJTRc3wzNSDya_9QW_EE0j3tC.Ft1V8V0AG7vtoFBGU0qaqJ2RLTOGN.8snfw",
+        "domain": "www.wiley.com",
+        "path": "/",
+        "expires": "2027-06-11T07:04:24.628Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://wiley.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_tp",
+        "value": "13443",
+        "domain": "wiley.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ppv",
+        "value": "https%253A%252F%252Fwww.wiley.com%252Fen-es%252F%2C6%2C9%2C9%2C1148%2C16%2C1",
+        "domain": "wiley.com",
+        "path": "/",
+        "expires": -1,
+        "size": 81,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "custom_fields": "[object Object]",
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "video_impression",
+            "media_url": "blob:https://www.wiley.com/d9f56768-0e0f-4744-9b73-a36c575f44eb",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "preload": "metadata",
+            "seq": "6_0",
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "tags": "wiley",
+            "time": 1781161465781,
+            "video": 6397307871112,
+            "video_ads_supported": true,
+            "video_data": "[object Object]",
+            "video_duration": 50,
+            "video_name": "Wiley has acquired Emerald"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&autoplay=false&ads_enabled=false&time=1781161465781&event=video_impression&video=6397307871112&video_name=Wiley%20has%20acquired%20Emerald&custom_fields=%5Bobject%20Object%5D&video_data=%5Bobject%20Object%5D&video_ads_supported=true&tags=wiley&video_duration=50&media_url=blob%3Ahttps%3A%2F%2Fwww.wiley.com%2Fd9f56768-0e0f-4744-9b73-a36c575f44eb&seq=6_0&preload=metadata"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "catalog_response",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "response_time_ms": 168,
+            "seq": 5,
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "time": 1781161465713,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/1922092229001/videos/6397307871112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&autoplay=false&ads_enabled=false&event=catalog_response&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F1922092229001%2Fvideos%2F6397307871112&time=1781161465713&seq=5&response_time_ms=168"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "catalog_response",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "response_time_ms": 133,
+            "seq": 4,
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "time": 1781161465678,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/1922092229001/videos/6397307871112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&autoplay=false&ads_enabled=false&event=catalog_response&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F1922092229001%2Fvideos%2F6397307871112&time=1781161465678&seq=4&response_time_ms=133"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "catalog_request",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "seq": 3,
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "time": 1781161465545,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/1922092229001/videos/6397307871112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&autoplay=false&ads_enabled=false&event=catalog_request&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F1922092229001%2Fvideos%2F6397307871112&time=1781161465545&seq=3"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "ads_enabled": false,
+            "autoplay": false,
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "player_load",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "qos.performance.memory.jsHeapSizeLimit": 2298478592,
+            "qos.performance.memory.totalJSHeapSize": 27876983,
+            "qos.performance.memory.usedJSHeapSize": 16518747,
+            "qos.performance.navigation.directedMigration": false,
+            "qos.performance.navigation.redirectCount": 0,
+            "qos.performance.navigation.type": 0,
+            "qos.performance.timing.connectEnd": 1781161458882,
+            "qos.performance.timing.connectStart": 1781161458882,
+            "qos.performance.timing.domComplete": 1781161464523,
+            "qos.performance.timing.domContentLoadedEventEnd": 1781161464339,
+            "qos.performance.timing.domContentLoadedEventStart": 1781161460269,
+            "qos.performance.timing.domInteractive": 1781161460155,
+            "qos.performance.timing.domLoading": 1781161459054,
+            "qos.performance.timing.domainLookupEnd": 1781161458882,
+            "qos.performance.timing.domainLookupStart": 1781161458882,
+            "qos.performance.timing.fetchStart": 1781161458882,
+            "qos.performance.timing.loadEventEnd": 1781161464531,
+            "qos.performance.timing.loadEventStart": 1781161464526,
+            "qos.performance.timing.navigationStart": 1781161457572,
+            "qos.performance.timing.redirectEnd": 0,
+            "qos.performance.timing.redirectStart": 0,
+            "qos.performance.timing.requestStart": 1781161458885,
+            "qos.performance.timing.responseEnd": 1781161459052,
+            "qos.performance.timing.responseStart": 1781161459043,
+            "qos.performance.timing.secureConnectionStart": 0,
+            "qos.performance.timing.unloadEventEnd": 0,
+            "qos.performance.timing.unloadEventStart": 0,
+            "qos.player.dimensions": [
+              [
+                1781161465530,
+                "0x0",
+                "299.75x168.609"
+              ]
+            ],
+            "qos.player.pixelratio": [
+              [
+                1781161465530,
+                3
+              ]
+            ],
+            "qos.player.screendimensions": [
+              [
+                1781161465530,
+                "375x812"
+              ]
+            ],
+            "seq": 2,
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "time": 1781161465532,
+            "usage": "inpage-embed"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&autoplay=false&ads_enabled=false&usage=inpage-embed&event=player_load&time=1781161465532&qos.performance.memory.jsHeapSizeLimit=2298478592&qos.performance.memory.usedJSHeapSize=16518747&qos.performance.memory.totalJSHeapSize=27876983&qos.performance.navigation.redirectCount=0&qos.performance.navigation.type=0&qos.performance.navigation.directedMigration=false&qos.performance.timing.loadEventEnd=1781161464531&qos.performance.timing.loadEventStart=1781161464526&qos.performance.timing.domComplete=1781161464523&qos.performance.timing.domContentLoadedEventEnd=1781161464339&qos.performance.timing.domContentLoadedEventStart=1781161460269&qos.performance.timing.domInteractive=1781161460155&qos.performance.timing.domLoading=1781161459054&qos.performance.timing.responseEnd=1781161459052&qos.performance.timing.responseStart=1781161459043&qos.performance.timing.requestStart=1781161458885&qos.performance.timing.secureConnectionStart=0&qos.performance.timing.connectEnd=1781161458882&qos.performance.timing.connectStart=1781161458882&qos.performance.timing.domainLookupEnd=1781161458882&qos.performance.timing.domainLookupStart=1781161458882&qos.performance.timing.fetchStart=1781161458882&qos.performance.timing.redirectEnd=0&qos.performance.timing.redirectStart=0&qos.performance.timing.unloadEventEnd=0&qos.performance.timing.unloadEventStart=0&qos.performance.timing.navigationStart=1781161457572&qos.player.dimensions=%5B%5B1781161465530%2C%220x0%22%2C%22299.75x168.609%22%5D%5D&qos.player.pixelratio=%5B%5B1781161465530%2C3%5D%5D&qos.player.screendimensions=%5B%5B1781161465530%2C%22375x812%22%5D%5D&seq=2"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "autoplay": false,
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "catalog_request",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "seq": 1,
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "time": 1781161465457,
+            "url": "https://edge.api.brightcove.com/playback/v1/accounts/1922092229001/videos/6397307871112"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&event=catalog_request&url=https%3A%2F%2Fedge.api.brightcove.com%2Fplayback%2Fv1%2Faccounts%2F1922092229001%2Fvideos%2F6397307871112&time=1781161465457&autoplay=false&seq=1"
+      },
+      {
+        "data": {
+          "filter": "||metrics.brightcove.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account": 1922092229001,
+            "autoplay": false,
+            "destination": "https://www.wiley.com/en-es/",
+            "domain": "videocloud",
+            "event": "player_init",
+            "platform": "video-js",
+            "platform_version": "7.42.4",
+            "player": "players.brightcove.com/1922092229001/default_default",
+            "player_mode": "media",
+            "player_name": "Brightcove Default Player",
+            "seq": 0,
+            "session": "31c1b731ac9c2d1ff50eb87",
+            "source": "",
+            "time": 1781161465448
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.brightcove.com/v2/tracker?domain=videocloud&platform=video-js&session=31c1b731ac9c2d1ff50eb87&player_mode=media&account=1922092229001&destination=https%3A%2F%2Fwww.wiley.com%2Fen-es%2F&platform_version=7.42.4&player=players.brightcove.com%2F1922092229001%2Fdefault_default&player_name=Brightcove%20Default%20Player&source=&event=player_init&time=1781161465448&autoplay=false&seq=0"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wiley.com/en-es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

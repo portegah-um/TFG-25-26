@@ -1,0 +1,414 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Discogs - Music Database and Marketplace",
+  "uri_ins": "https://discogs.com",
+  "uri_dest": "https://www.discogs.com/",
+  "uri_redirects": [
+    "https://discogs.com/"
+  ],
+  "secure_connection": {},
+  "host": "discogs.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:50:11.983Z",
+  "end_time": "2026-06-11T09:50:18.355Z",
+  "browsing_history": [
+    "https://www.discogs.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "discogs.com",
+        "www.discogs.com",
+        "st.discogs.com",
+        "footer.discogs.com",
+        "content.discogs.com",
+        "i.discogs.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "cdn-4.convertexperiments.com",
+        "cdn.jsdelivr.net",
+        "static.cloudflareinsights.com",
+        "geolocation.onetrust.com",
+        "challenges.cloudflare.com",
+        "www.googletagmanager.com",
+        "connect.facebook.net",
+        "eu.customerioforms.com",
+        "cloudflareinsights.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KMW8HRV": [
+          "click"
+        ],
+        "https://www.discogs.com/service/header/public/assets/assets/main-CyDtNHJ9.js": [
+          "scroll",
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js": [
+          "click"
+        ],
+        "https://st.discogs.com/88e11856b3dbb9e3466675be94a828430dd369b8/dst/javascripts/vendor.js": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.discogs.com/service/search-component/public/assets/assets/main-DevXiXF-.js": [
+          "keydown"
+        ],
+        "https://www.discogs.com/service/header/public/assets/assets/main-CyDtNHJ9.js": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js": [
+          "keydown"
+        ],
+        "https://st.discogs.com/88e11856b3dbb9e3466675be94a828430dd369b8/dst/javascripts/vendor.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://st.discogs.com/88e11856b3dbb9e3466675be94a828430dd369b8/dst/javascripts/vendor.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "sid",
+        "value": "7275b5295bf373f9c6d37479fb0473d5",
+        "domain": "www.discogs.com",
+        "path": "/",
+        "expires": "2027-07-16T09:50:14.047Z",
+        "size": 35,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "language2",
+        "value": "en",
+        "domain": "www.discogs.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "zyIrybKDD22BMKvqCxHdpDX1_5AvPH8NBiPncTWRIow-1781171415-1.2.1.1-lVavM2EdmYxQsxii0EhqxbZXRqNn0teZKCDkhdPsy.S_iYlNSWgWgPPcB5o8Ad25h.uuNmnq6.yRJCNC7WUfyNOhyU.bH6GcnzDyVE2Hn1Po5ZkGPpdX25XIDgbFO5wpsPu3RTmm.JLVUq6OgDFIeKXYjREXjfuUpB8sQK.JnkKe2eB80qTlBRomP2.vBHlsIBtI_V0aF2vnBSPKOZh48I6dcN7ifGcM8n54.Jvi2U9QhBJQ_Kbrg8Bx8zbSKZ9QUD7vsX13q1myGeB.2aBKKY4H4.7T3HJvpFIjckOC9Vo22pdUZHhjbLvMn0I25WubDWQhMcEeAvXAkX3RRV4O9Q",
+        "domain": "discogs.com",
+        "path": "/",
+        "expires": "2027-06-11T09:50:15.235Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://discogs.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": ".ZUqi2GpG733vyb87ykOqHAF92rKrVDrOBgYtUuPfO4-1781171415.2209902-1.0.1.1-FP04zW3rFyqSPgGud10JvYl.I12YWLyadbqUyHyI_df5W22sFOfm4r1Jx.IujaFF7fsheXZrsHffmyae2LufISRcJb50xHEDmv0Towel82_3dkJRyp2oDJgXAbsKOanc",
+        "domain": "discogs.com",
+        "path": "/",
+        "expires": "2026-06-11T10:20:15.235Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1781171415950.477632543887843725.AQYCAQMA",
+        "domain": "discogs.com",
+        "path": "/",
+        "expires": "2026-09-09T09:50:15.000Z",
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A50%3A16+GMT%2B0200+(Central+European+Summer+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f8ffeb40-7d56-4f40-902a-4e61dee50627&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.discogs.com%2F&groups=C0001%3A1%2CC0004%3A0%2CC0003%3A0%2CC0005%3A0%2CC0002%3A0%2CV2STACK42%3A0",
+        "domain": "discogs.com",
+        "path": "/",
+        "expires": "2026-12-08T09:50:16.000Z",
+        "size": 375,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.discogs.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171,231,230,225,227,228,229,226,214,224,236,196,193,194,188,192,195,191,186,321,259,261,262,263,260,264,207,258,199,189,190,218,187,185,213,238,209,179,180,175,181,178,176,177,174,172,183,184,182,269,320,290,288,289,287,197,241,247,242,244,246,245,243,240,256,251,253,250,257,254,249,255,252,248,283,294",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1693660091805429?v=2.9.337&r=stable&domain=www.discogs.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171%2C231%2C230%2C225%2C227%2C228%2C229%2C226%2C214%2C224%2C236%2C196%2C193%2C194%2C188%2C192%2C195%2C191%2C186%2C321%2C259%2C261%2C262%2C263%2C260%2C264%2C207%2C258%2C199%2C189%2C190%2C218%2C187%2C185%2C213%2C238%2C209%2C179%2C180%2C175%2C181%2C178%2C176%2C177%2C174%2C172%2C183%2C184%2C182%2C269%2C320%2C290%2C288%2C289%2C287%2C197%2C241%2C247%2C242%2C244%2C246%2C245%2C243%2C240%2C256%2C251%2C253%2C250%2C257%2C254%2C249%2C255%2C252%2C248%2C283%2C294"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.discogs.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/293946251492793?v=2.9.337&r=stable&domain=www.discogs.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-HB747LM4DF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-HB747LM4DF&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KMW8HRV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KMW8HRV"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js"
+      },
+      {
+        "data": {
+          "filter": "||convertexperiments.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "environment": "production"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.discogs.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-4.convertexperiments.com/v1/js/10019206-10019552.js?environment=production"
+      }
+    ]
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Effective Security for WordPress Sites- WPGuardian",
+  "uri_ins": "https://wpguardian.io",
+  "uri_dest": "https://wpguardian.com/",
+  "uri_redirects": [
+    "https://wpguardian.io/"
+  ],
+  "secure_connection": {},
+  "host": "wpguardian.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:53:54.294Z",
+  "end_time": "2026-06-11T09:54:03.188Z",
+  "browsing_history": [
+    "https://wpguardian.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "wpguardian.io",
+        "wpguardian.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "static.cloudflareinsights.com",
+        "cdn.amplitude.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "web.cmp.usercentrics.eu",
+        "www.clarity.ms",
+        "cdnjs.cloudflare.com",
+        "unpkg.com",
+        "scripts.clarity.ms",
+        "v1.api.service.cmp.usercentrics.eu",
+        "h.clarity.ms",
+        "api2.amplitude.com",
+        "app.usercentrics.eu",
+        "uct.service.usercentrics.eu",
+        "consent-api.service.consent.usercentrics.eu",
+        "region1.google-analytics.com",
+        "js.hcaptcha.com",
+        "ee342e83d1c9.w.hcaptcha.com",
+        "newassets.hcaptcha.com",
+        "55382700aec6.w.hcaptcha.com",
+        "70fc326fb456.w.hcaptcha.com",
+        "api.hcaptcha.com",
+        "4acd937595e0.w.hcaptcha.com",
+        "57e9e84a9313.w.hcaptcha.com",
+        "8b096fc4c2c8.w.hcaptcha.com",
+        "96d1cdab9335.w.hcaptcha.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "keydown",
+          "input"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-VRVMM479G2&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://web.cmp.usercentrics.eu/ui/v/3.121.2/UcGdprCmpView.bbcc5a62.js": [
+          "keydown"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/bricks.min.js?ver=1741154135": [
+          "keyup"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/libs/splide.min.js?ver=4.1.4": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ],
+        "https://wpguardian.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keyup"
+        ],
+        "https://wpguardian.com/": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/libs/splide.min.js?ver=4.1.4": [
+          "touchstart"
+        ],
+        "https://wpguardian.com/": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://js.hcaptcha.com/1/api.js?onload=hCaptchaOnLoad&render=explicit": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-VRVMM479G2&cx=c&gtm=4e6691": [
+          "mousedown",
+          "click"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js": [
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/bricks.min.js?ver=1741154135": [
+          "click",
+          "scroll"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/libs/splide.min.js?ver=4.1.4": [
+          "mousedown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://wpguardian.com/": [
+          "scroll"
+        ],
+        "https://wpguardian.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "mouseup",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PQ758T4": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://newassets.hcaptcha.com/c/88ae4066d3c4c55f6885bb2c86c874ee8b3653926be621c3b7ceb9b1b860bba9/hsw.js": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAA1pJREFUOE+tlF1oHFUUx//33pndmdkPN9lsU5LsVrubJmhBilQEvwq2DxUxfZJiQRHFUpOCPigI4tdjHwKm+OJnTZsW7IPggxAqKI1UHxSkNU3SxnTbtPnafO3uZHYzM3uPzKy7MSYVhAzcl3vO/d3/uef8h2GLP7bFPGwKNAfa94PTKyyqdDKNtzFwnRw5TJY7ApN+NrToOfbcb/nNxGwAmqfTJ0RL8E0W5IAAGP/7GAEkAXIJlQVnWVjUpR+5fvHf0DqQftinrUzd+Va0BQ6wIANTGZjwVvUIEYAKgRyAbILMu6AF2ht6YezXf0LrwJX+dB/foR3nHsxbgSoUnkLGAEkgFyCHfCCVCZU5Z9oQ6GBdY8Ua1AeaX9+/netymscVcI2BaQzZaRc704F1Fc3MOgirDLrCfaAsSbgThY8jL032rAMWT6d7lJR2kuscXGcYHDJx/ryJPQ+rOH4s4ed6sLffyoEbLj7tTYJKErJEcCat2cjhie3rFfZnzij3aUeYwcANjsGLRfT25fDsM9E6MDfv4vkXbyKVUvFZXxLSqiqszJVhKNDY0+OrHrRa8rnMd0pKO+ipYwb3y74yXEYmHYCu1doM3LixinBEoCkmQCWCtCQqeRe4Ppcyuhcn68DiQOYbdYd2iBsM2ewuMF5CrLWAxoS5YdRujSZQWQkhEM6jOZaDm1sFZpdaQy/PT60p7M/0inuDbyxbDgZ/fxIHDh5CI2VhlwqwpAEbAiFehiEcFEUbfro8Ay13Fk897sDOLiIyNhVk78NeAw607xfN6gUe5ug9tYALQyY6HtiDluRONDRtg26E8OfYHxgfuYz5OV8IvjzRguaoivLV29diR5c71jXFf8ez7aNKMthhEeGDj2ZxZdR/Y9wT0JDQwxjPz9fLf/f1bXhktw53pghneunDhtcK720AWl/tegxxPsQbFH+ov//FhDrSiYci1csX7SIuiUt4dB+hrUmBLNooXbszHO9e2b2pU7zNwhctXTDEmUBrNIya9Xyn1KxXdYqTy8O+vTAR77HSd/VyLVA+lUyXbOtzkYg8qMT0GFfXzOwuFrA6s1wQLjsZ6y68s2EEanO4WcDby38S3ysrlSdA1MmYhBTKj42vLg3cLb/e5f9K+L+xLf9j/wUC11UkM0KCSwAAAABJRU5ErkJggg==",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAABYVJREFUOE9FlH1MVXUYx7+/c859AwQRLgghIYLmFRANidSolCmltt40tVatN9uq9U8vW1m5apW1cm66VqvG0nJWGpippSghZV2KIpWKq0CAF5C8HC73nnvO75zf72lAL9/t2Z6/Pvvu+3z3sJqVN37OhWtWVWVNYLCrU95idLsUxjAhAqBKKB4CeQRUHyHkmf77b0W1n5/eteUmIy3zVNnq2hP7Nm/ZOveakqdmlHo72JbXtj1hael+p+/Sk2d+bmb6uSCeXlQxCQSgqAS4JqHwSBwsLo20e7L0gqb3s/pXPVDf9fa7s0U8bi67s/Ylafbp7NrShSNR1RNO8kzLn+5LTen+/TjWz5mNOelpk0SVwFwE5hFgbmB7xSKENRfm79+GluIVfLSh0ZUxc2bbsuvLn5d8cISdvLeYcjwKHC4R0oHD53UEBwnPLa6a4DGXBGkE5paAS8GOoioM9PdZge5D9OWJQc+GV7c+oZrDw2picCRuhP9i4QeLCDYAmyYzkwTdkXg6GMOyohIUZvomoHABEc9UXMxdibC40N+458XszIobds1aUNamxoYjihXWRSI8xnrXX0GasABnEvafVODwkMRYyuUozEqC4paITwmgTV+DgdE3R9o7mtUZC6rqiktmtYnEX1EkRqJWvMtgf9xYSVNwEXAkQAwgAsavrEhAU/BSKI71tSWIJlT0RpZjyFuKfa2Phtcuy40ePTv0/VVL5hxxG2OjpjFoJqQeY2+Vz6NCLY5KrwOI8dD+GYUBGkF4FezwKajJuxynf1uH7+PN9vzSTZSRstOubxzoKbvO2syjIzHGE1bCGY2xdFcauRnQMDcZ+ePLuEGPZ9KpxiZ6WDdo4Jo1c1H/w5V24IqF0azk/AxTO4/hpE50d0YuudWD6053R9Ly81gPq8zIIZfPi3TJ8U6hF+p4n8dhE8UmEOfohsSvgQxyp9/R4ENBXr8uy4pydPe52ChNKx5lLbvbOzuGvvtq8VL2Abt5ZjGNSaDP4njMr2JtGvsPSJY1wRUgHCjLaUvOWHIKw9UbPG7fNMGGsbezDTfdxnD0s166LPdIlWUrnJVn55MjJbLTUsGEg1ezHMxwMUjT/P/iIHyQ4Q/mlZc3icjcYsvy+kVSy6LjF672rFqiYTDcgy+DMTk/Z898Vrf8ejIdgaNDEfi9PqTpyXjcH5rs5D+6qDHa7GQ2bri2LMj1knkjvsYTA73atpCsTFQEqpLSUxrx05myoC/x8H2s95676Lwexd3fBPHigoAZzvQHV0RCeZeNDhX+C9wfseFfe+vriuCGlMTrf26a2TfcXypVf0dJxSfrFs0+lPL1/rO7srOOv8L67r1Hhizbfr+9U65YWt1QkJvVJ82Yq6jpo/tVh6c4BNrkLyNvTe2P913o+IJ7h2NCZVZH+EjIMJk40bF094YVC6cdOxxsCeS0PsR2b3rmWKo3tScnfWpECptItZmApKSuHwuzO07evvMSje4rWJOasrRavJD47nl4xsYsU3KVuHEy/EVXssKsiyO31l0YGBIl01tvZp0v790KhcClCSkcsh2bOSoHJ5LNn+zYmLpwecPBX04FWp/5qLomFGq6yzxQT1zYqiITzeH9nWQr3DKYo8YVk7k1ix347PbIvJ5bPiTHbZHgZNkWxp2azCbBILgiHFVI/tC7b9wZeez13F3RlmfdTFgJYqZGMI6c/fgcmZAul2bommqzbyP5xKNpME5e+Wfgz9V7SNrSpgQzySILTNqwhUKMc5tbOw9/XPVIbfUxkG3bqrBU6Y5/2vreH6Qx6dK0BDcUwbZv3FjstXVvjW7+yqZMD7OCxV/TVH+YwByDoqrUmC0dwYUDyzajpCbH4jYXHCpM5pBpWIZz6ExdO48r458AfwNYmvf0aRwzYAAAAABJRU5ErkJggg=="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://newassets.hcaptcha.com/c/88ae4066d3c4c55f6885bb2c86c874ee8b3653926be621c3b7ceb9b1b860bba9/hsw.js": [
+          "rgba(135, 135, 135, 1)",
+          "#fff",
+          "#000",
+          "{}"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://newassets.hcaptcha.com/c/88ae4066d3c4c55f6885bb2c86c874ee8b3653926be621c3b7ceb9b1b860bba9/hsw.js": {
+          "": 1,
+          "mwmwmwmwlli": null,
+          "🅿": null,
+          "🅰": null,
+          "✴": null,
+          "☑": null,
+          "☮": null,
+          "☪": null,
+          "☯": null,
+          "↪": null,
+          "⚖": null,
+          "❄": null,
+          "✍": null,
+          "☝": null,
+          "✌": null,
+          "❤": null,
+          "❣": null,
+          "▪": null,
+          "◼": null,
+          "❇": null,
+          "✳": null,
+          "✔": null,
+          "⚜": null,
+          "⚕": null,
+          "〰": null,
+          "✖": null,
+          "♂": null,
+          "♀": null,
+          "⏏": null,
+          "⏯": null,
+          "⏭": null,
+          "▶": null,
+          "☦": null,
+          "✝": null,
+          "✡": null,
+          "⚛": null,
+          "⬅": null,
+          "➡": null,
+          "↗": null,
+          "⬆": null,
+          "☣": null,
+          "☢": null,
+          "⚠": null,
+          "⚱": null,
+          "⚰": null,
+          "⚗": null,
+          "⛓": null,
+          "⚙": null,
+          "⚔": null,
+          "⚒": null,
+          "⛏": null,
+          "✂": null,
+          "✒": null,
+          "👁️‍🗨️": null,
+          "™": null,
+          "®": null,
+          "©": null,
+          "😀": null,
+          "👨‍👩‍👦": null,
+          "👨‍👩‍👧‍👦": null,
+          "👩‍❤️‍💋‍👨": null,
+          "✏": null,
+          "✉": null,
+          "⌨": null,
+          "⛑": null,
+          "♟": null,
+          "⛸": null,
+          "☄": null,
+          "☃": null,
+          "⛱": null,
+          "☂": null,
+          "⛈": null,
+          "⏱": null,
+          "✈": null,
+          "⛴": null,
+          "⛩": null,
+          "⛰": null,
+          "☘": null,
+          "🧑‍🤝‍🧑": null,
+          "⛷": null,
+          "🧏‍♂️": null,
+          "🧑‍🦰": null,
+          "☠": null,
+          "☹": null,
+          "🥲": null,
+          "🏳️‍⚧️": null,
+          "ℹ": null,
+          "⁉": null,
+          "⚧": null,
+          "☸": null,
+          "♨": null,
+          "🤵‍♂️": null,
+          "☺": null,
+          "xyz😃": null
+        }
+      }
+    },
+    "cookies": [
+      {
+        "name": "AMP_MKTG_6b5da0e490",
+        "value": "JTdCJTdE",
+        "domain": "wpguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T09:53:56.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMP_6b5da0e490",
+        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjIzYjI0YmE1OC1iMGY4LTRmNjUtYmZiYy1hY2M1MTI5ZjNlMTYlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzgxMTcxNjM2NTQ3JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc4MTE3MTYzNjU3MCU3RA==",
+        "domain": "wpguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T09:53:56.000Z",
+        "size": 230,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "ULKS5kSjhFptBJjwiJEbXubugdx1fCHgkPF7SuUMuS0-1781171639.2105508-1.0.1.1-_X9czq9xd4ScPK8_GkDjCbJVM73M3yg9aK8qjDlN_lSDwwu84QKQix07kaJebJ61hGrufWE8HDkIjM1niE1xIrvTilIbjy6WIJqX73lLmnrm4Z8z35xKDMruSvEfF4C1",
+        "domain": "hcaptcha.com",
+        "path": "/",
+        "expires": "2026-06-11T10:23:59.233Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 3930,
+            "_eu": "AAAAAAAC",
+            "_p": 1781171636358,
+            "_s": 2,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 459149850.17811716,
+            "dl": "https://wpguardian.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Effective Security for WordPress Sites- WPGuardian",
+            "en": "user_engagement",
+            "frm": 0,
+            "gap.plf": 5,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v9119605864za20gzb9119602362zd9119602362",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781171636,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tcfd": "1000h",
+            "tfd": 8080,
+            "tid": "G-VRVMM479G2",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-VRVMM479G2&gtm=45je6691v9119605864za20gzb9119602362zd9119602362&_p=1781171636358&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&gdid=dOThhZD&_eu=AAAAAAAC&are=1&cid=459149850.1781171639&frm=0&pscdl=denied&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115616985~115938466~115938469&sid=1781171636&sct=1&seg=0&dl=https%3A%2F%2Fwpguardian.com%2F&dt=Effective%20Security%20for%20WordPress%20Sites-%20WPGuardian&_tu=CA&en=user_engagement&gap.plf=5&_et=3930&tfd=8080"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781171636358,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 459149850.17811716,
+            "dl": "https://wpguardian.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Effective Security for WordPress Sites- WPGuardian",
+            "en": "page_view",
+            "frm": 0,
+            "gap.plf": 5,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v9119605864z89119602362za20gzb9119602362zd9119602362",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781171636,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tcfd": "1000h",
+            "tfd": 4143,
+            "tid": "G-VRVMM479G2",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-VRVMM479G2&gtm=45je6691v9119605864z89119602362za20gzb9119602362zd9119602362&_p=1781171636358&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&gdid=dOThhZD&_eu=AAAAAAAC&are=1&cid=459149850.1781171639&frm=0&pscdl=denied&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938466~115938469&sid=1781171636&sct=1&seg=0&dl=https%3A%2F%2Fwpguardian.com%2F&dt=Effective%20Security%20for%20WordPress%20Sites-%20WPGuardian&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=4143"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||usercentrics.eu/session/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "settingsId": "Qdxox37yt09BBR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=Qdxox37yt09BBR"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api2.amplitude.com/2/httpapi"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "gtm"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/rtmnv01kgx?ref=gtm"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-VRVMM479G2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-VRVMM479G2&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PQ758T4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PQ758T4"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.amplitude.com/libs/analytics-browser-1.9.1-min.js.gz"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

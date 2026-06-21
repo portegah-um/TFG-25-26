@@ -1,0 +1,222 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "University of Michigan",
+  "uri_ins": "https://umich.edu",
+  "uri_dest": "https://umich.edu/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "umich.edu",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:32:10.304Z",
+  "end_time": "2026-06-11T10:32:13.288Z",
+  "browsing_history": [
+    "https://umich.edu/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "umich.edu"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-29C4RBNCNZ": [
+          "keyup"
+        ],
+        "https://umich.edu/skins/um2013/scripts/skin.js?1709130602": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-29C4RBNCNZ": [
+          "mousedown",
+          "click"
+        ],
+        "https://umich.edu/skins/um2013/scripts/skin.js?1709130602": [
+          "click",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://umich.edu/skins/um2013/scripts/skin.js?1709130602": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "XQ9LgNf0RwExquu4IGd555rMZmTNKdMAnx33lT.M0D4-1781173930.924568-1.0.1.1-EIJl7HUmKCN.qCubMyeqJlk44biUtiQf_Q0uDAPC_aUHGsd2GF9cENqLSn2v9e.Iu6opVcMzBTgLmakgn.dIqZ2b_8tmEY_t6g4GIxAgRDJ6RYYBJlET9NoJnUsy80bg",
+        "domain": "umich.edu",
+        "path": "/",
+        "expires": "2026-06-11T11:02:10.986Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "um_privacy_consent",
+        "value": "%7B%22data%22%3A%7B%22country%22%3A%7B%22code%22%3A%22ES%22%2C%22timestamp%22%3A%222026-06-11T10%3A32%3A12.090Z%22%7D%7D%2C%22expirationTime%22%3A1812709932091%7D",
+        "domain": "umich.edu",
+        "path": "/",
+        "expires": "2027-06-11T10:32:12.000Z",
+        "size": 180,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781173931422,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 74626077.1781174,
+            "dl": "https://umich.edu/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "University of Michigan",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9101688946za200zd9101688946",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173931,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~117776794",
+            "tfd": 1503,
+            "tid": "G-29C4RBNCNZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://umich.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-29C4RBNCNZ&gtm=45je6691v9101688946za200zd9101688946&_p=1781173931422&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAAAC&are=1&cid=74626077.1781173932&frm=0&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468~117776794&sid=1781173931&sct=1&seg=0&dl=https%3A%2F%2Fumich.edu%2F&dt=University%20of%20Michigan&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1503"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-29C4RBNCNZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://umich.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-29C4RBNCNZ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "SurveyMonkey: The World’s Most Popular Survey Platform",
+  "uri_ins": "https://surveymonkey.com",
+  "uri_dest": "https://www.surveymonkey.com/",
+  "uri_redirects": [
+    "https://surveymonkey.com/"
+  ],
+  "secure_connection": {},
+  "host": "surveymonkey.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:36:49.241Z",
+  "end_time": "2026-06-11T08:36:54.175Z",
+  "browsing_history": [
+    "https://www.surveymonkey.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "surveymonkey.com",
+        "www.surveymonkey.com"
+      ],
+      "third_party": [
+        "prod.smassets.net",
+        "js.zi-scripts.com",
+        "www.googletagmanager.com",
+        "rum-ingest.us1.signalfx.com",
+        "ws-assets.zoominfo.com",
+        "ws.zoominfo.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/6038-0584a733c38fdd30.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NGMP3BG": [
+          "click"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/8108-8cb64affd8db7aea.js": [
+          "click"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/9289-81ca21f5efdad238.js": [
+          "scroll",
+          "click"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/6d6a6b26-78c108a432383f01.js": [
+          "scroll"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/fd9d1056-e56e73d56fb992c4.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://www.surveymonkey.com/fides.js": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/70554f71-5e0efe5d8d8e788f.js": [
+          "keydown"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/8108-8cb64affd8db7aea.js": [
+          "keydown"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/9289-81ca21f5efdad238.js": [
+          "keydown"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/fd9d1056-e56e73d56fb992c4.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ],
+        "https://www.surveymonkey.com/fides.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/9289-81ca21f5efdad238.js": [
+          "touchstart"
+        ],
+        "https://prod.smassets.net/assets/website/2.363.2/_next/static/chunks/fd9d1056-e56e73d56fb992c4.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ep201",
+        "value": "\"zqbu50G9xHT7+rAwoExHOCWO/nI=\"",
+        "domain": "surveymonkey.com",
+        "path": "/",
+        "expires": "2026-06-11T09:06:52.477Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ep203",
+        "value": "\"rrc1+4JM/QmA46JDkXq13Rn/ZP8=\"",
+        "domain": "surveymonkey.com",
+        "path": "/",
+        "expires": "2026-09-09T08:36:52.477Z",
+        "size": 35,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "r2WcwXqA65JgW1wbn5CFAFb0PtLH0miQsaRf_AdcWrw-1781167012.77915-1.0.1.1-P6H4UPvjDxz__HOxb4uS6ro9iEq3BxuicD93DAMnfcA",
+        "domain": "zoominfo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 119,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_splunk_rum_sid",
+        "value": "%7B%22expiresAt%22%3A1781167913525%2C%22id%22%3A%22ee739cab185cb5507fe519ab3da59584%22%2C%22startTime%22%3A1781167011802%7D",
+        "domain": "www.surveymonkey.com",
+        "path": "/",
+        "expires": "2026-06-11T08:51:53.526Z",
+        "size": 138,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NGMP3BG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.surveymonkey.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NGMP3BG"
+      }
+    ]
+  }
+}

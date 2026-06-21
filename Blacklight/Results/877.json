@@ -1,0 +1,177 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Healthline: Medical information and health advice you can trust.",
+  "uri_ins": "https://healthline.com",
+  "uri_dest": "https://www.healthline.com/",
+  "uri_redirects": [
+    "https://healthline.com/"
+  ],
+  "secure_connection": {},
+  "host": "healthline.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:02:01.727Z",
+  "end_time": "2026-06-11T10:02:07.288Z",
+  "browsing_history": [
+    "https://www.healthline.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "healthline.com",
+        "www.healthline.com",
+        "assets.healthline.com",
+        "gtm-server.healthline.com",
+        "images-prod.healthline.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "media.post.rvohealth.io",
+        "geolocation.onetrust.com",
+        "www.googletagmanager.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.healthline.com/_next/88e8ee75-848c-4e0c-b058-1f7e5a36ed08/hl/lib.js": [
+          "scroll",
+          "click"
+        ],
+        "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://assets.healthline.com/_next/88e8ee75-848c-4e0c-b058-1f7e5a36ed08/hl/vendor.js": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets.healthline.com/_next/88e8ee75-848c-4e0c-b058-1f7e5a36ed08/hl/vendor.js": [
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://assets.healthline.com/_next/88e8ee75-848c-4e0c-b058-1f7e5a36ed08/hl/lib.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "domain": "healthline.com",
+        "path": "/",
+        "expires": "2027-06-11T10:02:03.523Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+12%3A02%3A05+GMT%2B0200+(Central+European+Summer+Time)&version=202605.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=bb243130-c590-4f88-b6fa-aefb8b585831&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.healthline.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0004%3A0%2CC0002%3A0&genVendors=V4%3A0%2CV2%3A0%2CV17%3A0%2CV13%3A0%2CV6%3A0%2CV8%3A0%2CV12%3A0%2CV14%3A0%2CV11%3A0%2C",
+        "domain": "healthline.com",
+        "path": "/",
+        "expires": "2027-06-11T10:02:05.000Z",
+        "size": 478,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-MB6365D"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MB6365D&gtg_health=1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Vimeo - All-in-One Video Platform",
+  "uri_ins": "https://vimeo.com",
+  "uri_dest": "https://vimeo.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "vimeo.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:50:37.226Z",
+  "end_time": "2026-06-11T05:50:49.391Z",
+  "browsing_history": [
+    "https://vimeo.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "vimeo.com",
+        "player.vimeo.com",
+        "arclight.vimeo.com",
+        "captions.vimeo.com"
+      ],
+      "third_party": [
+        "f.vimeocdn.com",
+        "i.vimeocdn.com",
+        "static.elfsight.com",
+        "transcend-cdn.com",
+        "fonts.googleapis.com",
+        "vimeo.bynder.com",
+        "download-video-ak.vimeocdn.com",
+        "www.gstatic.com",
+        "vod-adaptive-ak.vimeocdn.com",
+        "embedder-sdk.wirewax.video",
+        "invalid",
+        "edge-player5.wirewax.video",
+        "cognito-identity.us-east-1.amazonaws.com",
+        "echidna.wirewax.video",
+        "browser-intake-datadoghq.com",
+        "edge-assets.wirewax.com",
+        "orion.bendingspoons.com",
+        "sqs.us-east-1.amazonaws.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://f.vimeocdn.com/cms/_next/static/chunks/7185-35da3c56636dd074.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://f.vimeocdn.com/p/4.46.57/js/player.module.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://f.vimeocdn.com/cms/_next/static/chunks/7167-ec99a7e888361bdd.js": [
+          "scroll"
+        ],
+        "https://embedder-sdk.wirewax.video/latest/wirewax-embedder-sdk@beta.umd.js": [
+          "mousedown",
+          "mouseup"
+        ],
+        "https://f.vimeocdn.com/cms/_next/static/chunks/87c73c54-dd8d81ac9604067c.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://f.vimeocdn.com/p/4.46.57/js/player.module.js": [
+          "keydown",
+          "keyup",
+          "keypress"
+        ],
+        "https://f.vimeocdn.com/cms/_next/static/chunks/7185-35da3c56636dd074.js": [
+          "keydown"
+        ],
+        "https://embedder-sdk.wirewax.video/latest/wirewax-embedder-sdk@beta.umd.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://f.vimeocdn.com/cms/_next/static/chunks/87c73c54-dd8d81ac9604067c.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "SENSOR": {
+        "https://f.vimeocdn.com/p/4.46.57/js/player.module.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://f.vimeocdn.com/cms/_next/static/chunks/87c73c54-dd8d81ac9604067c.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://f.vimeocdn.com/p/4.46.57/js/vendor.module.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://f.vimeocdn.com/cms/_next/static/chunks/47bf8baf-e20b49444a715f32.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "x-rreg",
+        "value": "1",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T05:55:44.831Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "3EHwLj8ZwaBR1VoV9y.Dt__0tIgoGIbrsUZNCl0gFmk-1781157037.845736-1.0.1.1-AozLUYuypv1_I_nlbLWLisV_cRkzAHlLe8OsRvkoEE2ApDEdVu3QDLsZl7ieHq_Y0L3NPT3_hoTbrIVi8QwoisAKOBGhgKJ_upIjm0oxSOOyMpkiFXONSIJcJW8Ies.I",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T06:20:37.996Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "bnrPuEG0tOmQytUZSWDU6.q4nsHgeHdS9BbYj9uhyOc-1781157037.845736-1.0.1.1-hVbOcOaQ7XskuSJaoA2zh7v3PTBR9xD.nvWFiGUmu5o",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 120,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "vuid",
+        "value": "pl1975306443.2021034479",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2027-07-16T05:50:45.863Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "builderSessionId",
+        "value": "bccad4b7fc4d42d79f3e94509f504041",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T06:20:41.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "registration-flow-2025",
+        "value": "1",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "COOKIE_ID_PICOX_ID",
+        "value": "a70a2859-9efb-4954-a680-1df91a15f084",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2027-06-11T05:50:45.000Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=250f7cb9-c807-4ef9-915d-05d362ec6af1&rum=2&id=e8a7bdc1-52cc-413b-905c-1dccaa0d6051&created=1781157043072&expire=1781157948931",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2027-06-11T05:50:48.000Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://vimeo.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157047230,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "6ee8fec4-d02c-490e-9174-163edd04cc3b",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=6ee8fec4-d02c-490e-9174-163edd04cc3b&batch_time=1781157047230&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch",
+            "batch_time": 1781157046016,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "b4a0a34a-c547-4d04-a0a0-c734dd4ea391",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=b4a0a34a-c547-4d04-a0a0-c734dd4ea391&batch_time=1781157046016&_dd.api=fetch"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157046003,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "e2eb79e7-dcf6-45b9-b052-b0c580705ec8",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=e2eb79e7-dcf6-45b9-b052-b0c580705ec8&batch_time=1781157046003&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045988,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "004ba224-1cf7-43bf-a62a-8501e631f898",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=004ba224-1cf7-43bf-a62a-8501e631f898&batch_time=1781157045988&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch",
+            "batch_time": 1781157045973,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "9fe7e576-3e1a-40ce-822a-f470133b48b4",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=9fe7e576-3e1a-40ce-822a-f470133b48b4&batch_time=1781157045973&_dd.api=fetch"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045967,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "db3cb474-df11-40ed-888a-0d2c6dc87568",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=db3cb474-df11-40ed-888a-0d2c6dc87568&batch_time=1781157045967&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045947,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "598bd4ce-7163-48cc-8a54-093d4a68e4b1",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=598bd4ce-7163-48cc-8a54-093d4a68e4b1&batch_time=1781157045947&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045936,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "a273f80f-ab20-4852-b2ee-0dc3802fb6b3",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=a273f80f-ab20-4852-b2ee-0dc3802fb6b3&batch_time=1781157045936&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045149,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "0d29b354-7ba5-4309-908e-ce52a30a2d54",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=0d29b354-7ba5-4309-908e-ce52a30a2d54&batch_time=1781157045149&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045139,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "11cc9ce9-d647-4f14-a309-4657de62f8c0",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=11cc9ce9-d647-4f14-a309-4657de62f8c0&batch_time=1781157045139&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157045127,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "1a5df445-7cec-4abe-9be8-95e43fd1920b",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=1a5df445-7cec-4abe-9be8-95e43fd1920b&batch_time=1781157045127&_dd.api=fetch-keepalive"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch-keepalive",
+            "batch_time": 1781157044875,
+            "dd-api-key": "pub9ec293d710a09ee0baa984b363fb2191",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "6.17.0",
+            "dd-request-id": "4e27de51-1fed-4fb6-ada8-7d4ea525ecb0",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://vimeo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub9ec293d710a09ee0baa984b363fb2191&dd-evp-origin-version=6.17.0&dd-evp-origin=browser&dd-request-id=4e27de51-1fed-4fb6-ada8-7d4ea525ecb0&batch_time=1781157044875&_dd.api=fetch-keepalive"
+      }
+    ]
+  }
+}

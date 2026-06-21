@@ -1,0 +1,573 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Encyclopedia Britannica | Britannica",
+  "uri_ins": "https://britannica.com",
+  "uri_dest": "https://www.britannica.com/",
+  "uri_redirects": [
+    "https://britannica.com/"
+  ],
+  "secure_connection": {},
+  "host": "britannica.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:45:14.646Z",
+  "end_time": "2026-06-11T08:45:20.326Z",
+  "browsing_history": [
+    "https://www.britannica.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "britannica.com",
+        "www.britannica.com",
+        "cdn.britannica.com"
+      ],
+      "third_party": [
+        "www.googletagservices.com",
+        "cdn.consentmanager.net",
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "launchpad-wrapper.privacymanager.io",
+        "jryhoywlyxnlymahs.ay.delivery",
+        "e.infogram.com",
+        "iris-dev-mediaserver-oddhukirhho9.s3.us-east-1.amazonaws.com",
+        "static.cloudflareinsights.com",
+        "d.delivery.consentmanager.net",
+        "dev.visualwebsiteoptimizer.com",
+        "securepubads.g.doubleclick.net",
+        "config.aps.amazon-adsystem.com",
+        "client.aps.amazon-adsystem.com",
+        "fonts.gstatic.com",
+        "launchpad.privacymanager.io",
+        "geo.privacymanager.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.consentmanager.net/delivery/js/cmp_final.min.js?t=2026-6-11": [
+          "keydown",
+          "keyup"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.britannica.com/mendel-resources/3-187/dist/home-page.js?v=3.187.12": [
+          "scroll",
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "bcomID",
+        "value": "-5350334358493711181",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": "2027-07-16T08:45:15.937Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "___sess",
+        "value": "3N7y+llTqAuj7VzGInA3ywz262ww8Pj5BWe8E0cCG9Oe8iYcCTzQ4TucjVD9cIIHi/EtGBhycWe8CcKpNmU0s0k1qNlptehc",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": -1,
+        "size": 103,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "subreturn",
+        "value": "https%3A%2F%2Fwww.britannica.com%2F",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": -1,
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "webstats",
+        "value": "referer_page=https%3A%2F%2Fwww.britannica.com%2F",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": -1,
+        "size": 56,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__mendel",
+        "value": "%7B%27currentDate%27%3A20260611%2C%27lti%27%3A0%2C%27surveyShown%27%3Afalse%2C%27ts%27%3A0%7D",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": -1,
+        "size": 101,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "DU58dOY8kHKJUoyTmgEyR23e2x1S5fB26YXV5P6PT00-1781167515.668458-1.0.1.1-YUZBKJFE3e0OW0UTCJ7Pb8skNcszgMm2pz.Udc8QXUiHsPCuJIrBunjiG62jci9yFQXSPSvnZibdu9XxwXdLpFMVN5BK4X1NsGfSAi0v35H8kpKWdcSk7kTGCilhnNQt",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": "2026-06-11T09:15:15.938Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "vwoConsentState",
+        "value": "2",
+        "domain": "www.britannica.com",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_consent",
+        "value": "2%2C2%3A~",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": "2027-06-11T08:45:16.558Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "CAMLoginRedirectUrl",
+        "value": "https://www.britannica.com/",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": "2027-06-11T08:45:16.000Z",
+        "size": 46,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sat_track",
+        "value": "false",
+        "domain": "www.britannica.com",
+        "path": "/",
+        "expires": "2026-07-11T08:45:17.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cmpconsentx136571",
+        "value": "CQloq_AQloq_AAfI7BENCiFgAAAAAEPgAAigAAAW7gcgALAAcABUAC4AHAAPAAgABIACoAGQANAAcAA8ACKAEwAKoAaAA_ACEAEcAJwAVoAwABogDkAHOAO4AfsBBwEIAIsARoAkQBPwDXgHEAO2Ae0A_4CVgExAKHAVKAvMBkgDLAGygOWAfIBBMCFYEbwI7AStAnSBXwCwoFuwAA.ILdpB9C5cRSFH4CJ3IJoEYAQXwFBAYkAgBgQAAgABSBKAIIwEkQEAAACIIAAAABAAIABAAAAACAgAAEAAAIAAKQAIAEAAQAACIAAAABABAABAAAgAAAAgEAAAAgAAAgAAgAAEAAIAQEgAAAACAQAgIAAAAAAQAAAAAAAAQAAAQAAAAKgAgAAAgAAAAAAACBAIEAAAAAAAACAAAAAAAAACAAAAAAAAAACAACAAAAAAAAAAQiAABAAAAAC.YAAACHwAAAA",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": "2026-06-25T08:45:17.000Z",
+        "size": 490,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cmpcccx136571",
+        "value": "aCQlqJgkAAAAAAA",
+        "domain": "britannica.com",
+        "path": "/",
+        "expires": "2026-06-25T08:45:17.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq_safari-4aa4ca406997cf3340e55ec59a49c3b8.br.js"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker_safari-ad749a612fb30fbcbc38be7cc761caea.br.js"
+      },
+      {
+        "data": {
+          "filter": "||ay.delivery^",
+          "listName": "easylist.txt",
+          "query": {
+            "v": "8XH356DvP7BMT2rAR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jryhoywlyxnlymahs.ay.delivery/manager-script/JRyhoywLYXNLYMAhs.deploy?v=8XH356DvP7BMT2rAR"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3022"
+      },
+      {
+        "data": {
+          "filter": "||ay.delivery^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jryhoywlyxnlymahs.ay.delivery/forest/JRyhoywLYXNLYMAhs/js/bid/forest.min.js"
+      },
+      {
+        "data": {
+          "filter": "||ay.delivery^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jryhoywlyxnlymahs.ay.delivery/client-v2.js"
+      },
+      {
+        "data": {
+          "filter": "||ay.delivery^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jryhoywlyxnlymahs.ay.delivery/manager-script/yield-manager-script-v3.11.1-prod"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 698824,
+            "u": "https://www.britannica.com/",
+            "vn": 2.1,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=698824&u=https%3A%2F%2Fwww.britannica.com%2F&vn=2.1&x=true"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      },
+      {
+        "data": {
+          "filter": "||ay.delivery^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jryhoywlyxnlymahs.ay.delivery/manager/JRyhoywLYXNLYMAhs"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KRJ753NG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KRJ753NG"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5W6NC8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5W6NC8"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.britannica.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/tag/js/gpt.js"
+      }
+    ]
+  }
+}

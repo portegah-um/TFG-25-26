@@ -1,0 +1,179 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Access Denied",
+  "uri_ins": "https://homedepot.com",
+  "uri_dest": "https://www.homedepot.com/",
+  "uri_redirects": [
+    "https://homedepot.com/"
+  ],
+  "secure_connection": {},
+  "host": "homedepot.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:21:32.008Z",
+  "end_time": "2026-06-11T09:21:34.628Z",
+  "browsing_history": [
+    "https://www.homedepot.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "homedepot.com",
+        "www.homedepot.com"
+      ],
+      "third_party": [
+        "assets.thdstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "HD_DC",
+        "value": "origin",
+        "domain": "homedepot.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "homedepot.com",
+        "path": "/",
+        "expires": "2026-06-11T10:21:32.963Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "akavpau_prod",
+        "value": "1781169992~id=8117a921805b8dfebd8920c65c79624f",
+        "domain": "www.homedepot.com",
+        "path": "/",
+        "expires": -1,
+        "size": 58,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "akacd_usbeta",
+        "value": "3958622491~rv=46~id=db02e93f708540ee44d96fd63bdc0430",
+        "domain": "www.homedepot.com",
+        "path": "/",
+        "expires": -1,
+        "size": 64,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_bman",
+        "value": "7c2cdd05e88e40b8c36322703d1c951d",
+        "domain": "www.homedepot.com",
+        "path": "/",
+        "expires": -1,
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

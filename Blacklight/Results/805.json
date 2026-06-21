@@ -1,0 +1,1433 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Aktuelle Nachrichten | BILD.de",
+  "uri_ins": "https://bild.de",
+  "uri_dest": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "bild.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:41:02.234Z",
+  "end_time": "2026-06-11T09:41:08.401Z",
+  "browsing_history": [
+    "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bild.de",
+        "www.bild.de",
+        "cmp2.bild.de",
+        "rosetta.prod.ps.bild.de",
+        "ast.bild.de",
+        "jnt.bild.de",
+        "images.bild.de",
+        "m.bild.de",
+        "wait-web.prod.ps.bild.de",
+        "whoami-web.prod.ps.bild.de",
+        "wall-e.prod.ps.bild.de",
+        "as.bild.de",
+        "consumer-api.prod.auth.bild.de",
+        "public-epg.api.bild.de",
+        "publicbucket.api2.bild.de"
+      ],
+      "third_party": [
+        "a.bildstatic.de",
+        "html-load.com",
+        "www.asadcdn.com",
+        "cdn.greenvideo.io",
+        "acdn.adnxs.com",
+        "s.html-load.com",
+        "cdn.privacy-mgmt.com",
+        "embeds.greenvideo.io",
+        "fonts.googleapis.com",
+        "rusty-heartbeat.services.ps.axelspringer.de",
+        "media-api-prod.greenvideo.io",
+        "utiqcontent.com",
+        "ad-delivery.net",
+        "pagead2.googlesyndication.com",
+        "dck7nrao.media.greenvideo.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://ast.bild.de/bild-bild.de/prod/utag.js": [
+          "click"
+        ],
+        "https://a.bildstatic.de/assets/index-B-lye30q.js": [
+          "scroll"
+        ],
+        "https://www.asadcdn.com/adlib/pages/bild.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://a.bildstatic.de/assets/index-B-lye30q.js": [
+          "keyup"
+        ],
+        "https://cmp2.bild.de/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://www.asadcdn.com/adlib/pages/bild.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "cmp_cv_list",
+        "value": "adobe_cmp,",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": "2026-07-11T09:41:04.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": "2027-06-11T09:41:04.220Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C63069536985052829580674085252567220310",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": "2027-07-16T09:41:05.496Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCVS_B21B678254F601E20A4C98A5%40AdobeOrg",
+        "value": "1",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg",
+        "value": "-1124106680%7CMCIDTS%7C20616%7CMCMID%7C63069536985052829580674085252567220310%7CMCAID%7CNONE%7CMCOPTOUT-1781178064s%7CNONE%7CvVersion%7C5.2.0",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": "2027-07-16T09:41:04.629Z",
+        "size": 181,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "csrf_token_813e7fa20460eee846d207d1160337747401ce935177bdb8571bc30ed275e535",
+        "value": "KqPW89Yp0AK2jP/IBsZswsElDXEqBe33u4wdqM9TLnI=",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": "2027-06-11T09:41:04.947Z",
+        "size": 119,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "SY8Has7NZdgRVLqlF8AkKumXlRSMofLDKfPGyyNhpeo-1781170864.8630238-1.0.1.1-LIdNr0KcIhIvmZ_y6ByHlGZU0AcINYO3O0ECPYvQ7S4s5tTKaP4zJ7sJKFNfnPTeSfLlGdBQzDk2hWsLQ3yHEwKSHwAyS0qdoJ8.zEokAtWRjJQQiwxXzVRLkoEM5PJp",
+        "domain": "consumer-api.prod.auth.bild.de",
+        "path": "/",
+        "expires": "2026-06-11T10:11:04.947Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cflb",
+        "value": "04dTofjtHwhfCny3TibYMM4LURzprwaTrrEzPUVzCB",
+        "domain": "consumer-api.prod.auth.bild.de",
+        "path": "/",
+        "expires": "2026-06-11T10:41:04.947Z",
+        "size": 48,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utag_main",
+        "value": "v_id:019eb60e7f9e0013b1f4a451d96600087003507f004bb$_sn:1$_se:6$_ss:0$_st:1781172666360$ses_id:1781170864035%3Bexp-session$_pn:1%3Bexp-session$lsa:0$vapi_domain:bild.de$otb:%3Bexp-session",
+        "domain": "bild.de",
+        "path": "/",
+        "expires": "2027-06-11T09:41:06.000Z",
+        "size": 195,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/startBetabox.293f1a2b.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/startAdAlert.e38a9dcd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/isChildOfActiveOverlay.9391b5fe.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/stripSizes.53134fa8.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getPlacementName.b5d3d7e3.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/autoReloader.401484fb.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/setCSS.e9e4e776.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/delCSS.5ff0b211.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/moveSky.bd4910dd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/ovkvmf/propagateOnScroll.634ea025.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/backchanger.3413927d.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/sightLoader.a6d7f54d.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/stickToSlot.7df2e42a.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/isVisible.565bfdbd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/calcAdPos.adfad1c8.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/scrollHandler.4d2dae3f.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rusty-heartbeat.services.ps.axelspringer.de/"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rusty-heartbeat.services.ps.axelspringer.de/"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/200/test.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "b": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/bt/m.png?b=0"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://acdn.adnxs.com/ast/static/bar.jpg"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getScrollTop.3431c031.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/init.c73e2ca3.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/instream.156c32d4.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getLocalData.c2c0d88c.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/speedCheck.ea12efc0.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/setRestrictedArea.aa5286d8.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/sendEvent.5e638723.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/renderedCallback.c9c53849.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/renderAd.5b647f2f.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/posOutstream.90206730.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/listenMessage.2791aebd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/idleLoader.fc323c9a.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getWinHeight.a475b9e9.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getSChain.fedc5db5.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/getContWidth.7054d382.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/fireRequest.3b532c14.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/extendSlot.82db946b.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/err.2606b9c6.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/enrichPTV.9cff2bfe.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/calcY.7baffa20.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/mew/addCSS.52213e56.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/hashMap.json"
+      },
+      {
+        "data": {
+          "filter": "/advertorial-",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.bildstatic.de/assets/advertorial-CCSwLVCZ.css"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.bild.de/?t_ref=https%3A%2F%2Fwww.bild.de%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/pages/bild.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/200/test.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/instream.156c32d4.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getLocalData.c2c0d88c.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/speedCheck.ea12efc0.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/setRestrictedArea.aa5286d8.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/renderedCallback.c9c53849.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/renderAd.5b647f2f.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/posOutstream.90206730.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/listenMessage.2791aebd.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/idleLoader.fc323c9a.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getSChain.fedc5db5.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getContWidth.7054d382.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/fireRequest.3b532c14.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/extendSlot.82db946b.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/err.2606b9c6.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/enrichPTV.9cff2bfe.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/calcY.7baffa20.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/addCSS.52213e56.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getWinHeight.a475b9e9.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getScrollTop.3431c031.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/sendEvent.5e638723.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/init.c73e2ca3.js"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/hashMap.json"
+      },
+      {
+        "data": {
+          "filter": "/advertorial-",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.bildstatic.de/assets/advertorial-desktop-CZVMKZdG.css"
+      },
+      {
+        "data": {
+          "filter": "||asadcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bild.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.asadcdn.com/adlib/pages/bild.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "BugSnag - Monitor App Performance & Track Errors",
+  "uri_ins": "https://bugsnag.com",
+  "uri_dest": "https://www.bugsnag.com/",
+  "uri_redirects": [
+    "https://bugsnag.com/"
+  ],
+  "secure_connection": {},
+  "host": "bugsnag.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:19:18.429Z",
+  "end_time": "2026-06-11T09:19:21.865Z",
+  "browsing_history": [
+    "https://www.bugsnag.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bugsnag.com",
+        "www.bugsnag.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "cdn-4.convertexperiments.com",
+        "static.cloudflareinsights.com",
+        "fonts.gstatic.com",
+        "imagedelivery.net",
+        "code.jquery.com",
+        "www.googletagmanager.com",
+        "cdn.cookiehub.eu",
+        "assets.adoberesources.net",
+        "analytics.ahrefs.com",
+        "pagead2.googlesyndication.com",
+        "bat.bing.com",
+        "region1.google-analytics.com",
+        "cookiehub.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-95RL3QGVRX&cx=c&gtm=4e66a0h2": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MTQKQW6": [
+          "click"
+        ],
+        "https://www.bugsnag.com/": [
+          "scroll",
+          "click",
+          "mousemove"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.bugsnag.com/": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_conv_v",
+        "value": "vi%3A1*sc%3A1*cs%3A1781169560*fs%3A1781169560*pv%3A1*seg%3A%7B10048682.1%7D",
+        "domain": "bugsnag.com",
+        "path": "/",
+        "expires": "2026-12-10T21:19:19.000Z",
+        "size": 82,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_conv_s",
+        "value": "si%3A1*sh%3A1781169559612-0.4133404735356898*pv%3A1",
+        "domain": "bugsnag.com",
+        "path": "/",
+        "expires": "2026-06-11T09:39:19.000Z",
+        "size": 58,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781169561227,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1504283821.178117,
+            "dl": "https://www.bugsnag.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "BugSnag - Monitor App Performance & Track Errors",
+            "en": "page_view",
+            "ep.dataSource": "GTM-MTQKQW6",
+            "ep.userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzY0Yz",
+            "gtm": "45je66a0h2v872606747z8849107650za20gzb849107650zd849107650",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 6,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169561,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 2632,
+            "tid": "G-95RL3QGVRX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-95RL3QGVRX&gtm=45je66a0h2v872606747z8849107650za20gzb849107650zd849107650&_p=1781169561227&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dMzY0Yz&_eu=AAAAAGA&are=1&cid=1504283821.1781169562&frm=0&pscdl=denied&rcb=6&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468&dl=https%3A%2F%2Fwww.bugsnag.com%2F&sid=1781169561&sct=1&seg=0&dt=BugSnag%20-%20Monitor%20App%20Performance%20%26%20Track%20Errors&en=page_view&_fv=1&_nsi=1&_ss=1&ep.dataSource=GTM-MTQKQW6&ep.userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&tfd=2632"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "DC-10654905"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-10654905&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.bugsnag.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzY0Yz",
+            "gtm": "45He66a0h2v849107650za200zd849107650xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 8,
+            "rnd": 421848285.178117,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938466~115938469",
+            "tfd": 2382,
+            "tft": 1781169561287
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.bugsnag.com%2F&scrsrc=www.googletagmanager.com&rnd=421848285.1781169561&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dMzY0Yz&gtm=45He66a0h2v849107650za200zd849107650xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938469&apve=1&apvf=f&apvc=1&tft=1781169561287&tfd=2382"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "G-95RL3QGVRX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-95RL3QGVRX&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MTQKQW6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MTQKQW6"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      },
+      {
+        "data": {
+          "filter": "||convertexperiments.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bugsnag.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-4.convertexperiments.com/js/1004798-10047264.js"
+      }
+    ]
+  }
+}

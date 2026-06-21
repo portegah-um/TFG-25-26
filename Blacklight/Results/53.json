@@ -1,0 +1,164 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Google",
+  "uri_ins": "https://googlesyndication.com",
+  "uri_dest": "https://www.google.com/",
+  "uri_redirects": [
+    "https://googlesyndication.com/"
+  ],
+  "secure_connection": {},
+  "host": "googlesyndication.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:47:14.473Z",
+  "end_time": "2026-06-11T05:47:17.812Z",
+  "browsing_history": [
+    "https://www.google.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "googlesyndication.com",
+        "www.google.com",
+        "clients1.google.com"
+      ],
+      "third_party": [
+        "ssl.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "SOCS",
+        "value": "CAAaBgiA9afRBg",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2027-07-11T05:47:15.561Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AEC",
+        "value": "AaJma5v_8T_n55YaR38MBJSRL0H6pu9VYzCdWdHRZ2WuZB2x4PtMagqI9g",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2026-12-08T05:47:15.562Z",
+        "size": 61,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-ENID",
+        "value": "34.SE=ZLl7bhzHeZGDUvkOYu1hMc-WDJsqPHzAydK5vztjM9HTImGGFqeIIZxGzTOpR9hfLUCRdDf054-_ayjbpV72q7yFKC2S-6I8XYgJP1AfdZZQUWXXf45NAi3xGdSzRMuLFMpslrHfXi2BgaO22ApeQFSkeQVYi_ocll2qmpGS737QEQmg6GyUmC9RgMPeOf3ddGRKWxa0EDv7Nj8AK_eUgRzO3j_ZnJ41sSmN0X4AnhfMYv2khebPN5zTXF4mtg",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2027-07-11T22:05:33.562Z",
+        "size": 273,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-BUCKET",
+        "value": "CNYC",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2026-12-08T05:47:15.562Z",
+        "size": 19,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

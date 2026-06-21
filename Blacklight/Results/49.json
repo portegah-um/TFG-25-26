@@ -1,0 +1,206 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Gandi.net - Gandi.net: Domain Names, Web Hosting, SSL Certificates and Emails",
+  "uri_ins": "https://gandi.net",
+  "uri_dest": "https://www.gandi.net/en-US",
+  "uri_redirects": [
+    "https://gandi.net/",
+    "https://www.gandi.net/"
+  ],
+  "secure_connection": {},
+  "host": "gandi.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:46:16.514Z",
+  "end_time": "2026-06-11T05:46:19.963Z",
+  "browsing_history": [
+    "https://www.gandi.net/en-US"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "gandi.net",
+        "www.gandi.net",
+        "news.api.gandi.net"
+      ],
+      "third_party": [
+        "tarteaucitron.io",
+        "tag.aticdn.net",
+        "cdntag.tarteaucitron.io",
+        "logs1412.xiti.com",
+        "cdn.tarteaucitron.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e": [
+          "keydown"
+        ],
+        "https://www.gandi.net/static/js/modern.7a05aaf49ec8.js": [
+          "keydown",
+          "keypress"
+        ]
+      },
+      "MOUSE": {
+        "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e": [
+          "scroll"
+        ],
+        "https://www.gandi.net/static/js/modern.7a05aaf49ec8.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.gandi.net/static/js/modern.7a05aaf49ec8.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "atuserid",
+        "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%229c0a983e-90ed-46fe-9b32-0bd773c82264%22%2C%22options%22%3A%7B%22end%22%3A%222027-07-13T05%3A46%3A17.584Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+        "domain": "gandi.net",
+        "path": "/",
+        "expires": "2027-07-13T05:46:17.000Z",
+        "size": 194,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "atauthority",
+        "value": "%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222027-07-13T05%3A46%3A17.601Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+        "domain": "gandi.net",
+        "path": "/",
+        "expires": "2027-07-13T05:46:17.000Z",
+        "size": 233,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/hit.xiti?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "country": "US",
+            "currency": "USD",
+            "grid": "A",
+            "idclient": "9c0a983e-90ed-46fe-9b32-0bd773c82264",
+            "lang": "en",
+            "locale": "en-US",
+            "p": "WWW::Home",
+            "page_url": "https://www.gandi.net/en-US",
+            "ptag": "js",
+            "r": "375x812x24x24",
+            "re": "375x812",
+            "ref": "",
+            "release": "5.4.4",
+            "s": 616708,
+            "taxes": "N/A",
+            "ts": 1781156777610,
+            "vc": false,
+            "vm": "exempt",
+            "vtag": "5.29.4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.gandi.net/en-US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logs1412.xiti.com/hit.xiti?s=616708&idclient=9c0a983e-90ed-46fe-9b32-0bd773c82264&vc=false&vm=exempt&ts=1781156777610&page_url=https://www.gandi.net/en-US&vtag=5.29.4&ptag=js&r=375x812x24x24&re=375x812&locale=en-US&lang=en&country=US&currency=USD&taxes=N%2FA&grid=A&p=WWW::Home&release=5.4.4&ref="
+      },
+      {
+        "data": {
+          "filter": "||tag.aticdn.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.gandi.net/en-US",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.aticdn.net/616708/smarttag.js"
+      }
+    ]
+  }
+}

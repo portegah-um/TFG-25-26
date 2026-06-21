@@ -1,0 +1,435 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Centers for Disease Control and Prevention | CDC",
+  "uri_ins": "https://cdc.gov",
+  "uri_dest": "https://cdc.gov/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "cdc.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:21:25.306Z",
+  "end_time": "2026-06-11T07:21:30.578Z",
+  "browsing_history": [
+    "https://cdc.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cdc.gov",
+        "www.cdc.gov",
+        "mtrics.cdc.gov"
+      ],
+      "third_party": [
+        "dap.digitalgov.gov",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdc.gov/TemplatePackage/5.0/js/app.min.js?_=28275": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=CDC": [
+          "mousedown"
+        ],
+        "https://cdc.gov/TemplatePackage/5.0/js/libs/wow.min.js?_=28275": [
+          "scroll"
+        ],
+        "https://www.cdc.gov/JScript/dmat/cdc-dmat.min.js?account=cdcgov&_=31131": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://cdc.gov/TemplatePackage/5.0/js/homepage/cdc-hp-2024.min.js?_=28275": [
+          "click",
+          "scroll"
+        ],
+        "https://cdc.gov/TemplatePackage/contrib/libs/bootstrap/5x/bootstrap.bundle.min.js?_=28275": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=CDC": [
+          "keydown"
+        ],
+        "https://cdc.gov/TemplatePackage/5.0/js/homepage/cdc-hp-2024.min.js?_=28275": [
+          "keyup"
+        ],
+        "https://cdc.gov/TemplatePackage/contrib/libs/bootstrap/5x/bootstrap.bundle.min.js?_=28275": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.cdc.gov/JScript/dmat/cdc-dmat.min.js?account=cdcgov&_=31131": [
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://cdc.gov/TemplatePackage/contrib/libs/qrcodejs/latest/qrcode.min.js": [
+          "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCABCAEIDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYIBwn/xABOEAAAAQkGAwQDCQsNAAAAAAADAQIEBQYHCBMUABESFRYXIiMkCSUzNBghJhknMTI1OHOFtShCR1dZg4amp9PUN0FFSVZiZWmkqMXj8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCfkFBhOctCc5B5jy4WNymkeVqWtTdcLJTSsvWRQQ+WDjDOvDFMN4TTLpd5cRTilJQEN7HuJ32g7fW5Rzu3W4u4OZqzUKYt/IIYyMDzkk76U7hMM8S4uLCQthj4b37bEu+co+vs2dxdus2yxZ7xIao8+mHJI3JRhfojeI8/w7yYcRSW1Vz7n37b7Q+fcd7Ou2c7qz8IKG0Pyshif36jzH0njfemmWCf4CnWsJDlFiwztHlqLOX2rnM61Cqhkfb6UrUoYPmAniIi2zBDGMO4TiU11xbzylISgH6b7KaBNSN/GH7R6cqdyHf9Gh6rqFwEEqu81ffQ0t6MkdOaWdhliXXnFtlTn3Fv2jr9Hx9cS7U7qO2TtWZ2rKFDUen8ExGR+chCApCXUJCKAdwGElyrjuE44pdVgs32hH2XhofX126mo8sUnRhaKyyoTRuoRpuZVtQEfxCGSLsJMXrNIEqwuP09BR+zMuUewy21dDW7tLOuzzUGNDHSVJyQAxqSnqgzekPLMm3i/FKQlVRpsfozeh9bWOd97b2c1arNQ/yq+XRkLnBnFSFHlaQcadyjOr+A/h9dp/aKMWE54sJzIwkqBD2hZtra/UA0xZL/AERSrIiei8J4BoiyrRDCk5YpsidxXkNw2VXFxRuJc9neyjc7L70U2Z92JjR7Y5RNk+ZCPzrM5gvxZdLO9ePASwNTkXWsI+lhIDXZvLUWcs2ud0a1CqhkebKGEGD5gJ5ghtwgRh3CcS+64t5ClIVVhcWkCcSj9mZcp6CenNR1vee564TJFOhjpPg3B4sUjD8cl2K/13XFqpaMfHZ9zC+trHO7ivJd1rXVqs1Cp1R5+5GQucGdT+Xwncow/wAO4/CcdfZUda5Fu3LN2rHmO07JTJmkU06iTd+QUiVNBPBE5Ywh4Z14Yp5vEaW6+8lxSEKQOQNi1Ve5cR2fiM/WZT/xdiwVV2rfsE4l1zAPr99R5KdneWPA+Q8twJiCKN3YjYkcaYjnhI/EcTDKmE4jiks1M60TCQ5RYtcoF+7qW5KHCg0+0GbjF2+1ArSnpXSmEES1tmCYMQPmFFpvjGyzPg1V1rRN27CLFWL95bushaSLKdWs/m4KVo/S6tPMD6oEhwawqwxDBOEgEnFhLMKQtpVdbCdFirWEVjs4ioHt3mbZKdoxC3LVqgyGqGPGT+YiDTEqeIUE7nHHS5NxlxDiksDX6LkCb14E/SX0NsTmn9N5muGoyaUuKLy802onS8HhkwT8XrwYrKjrWBbuFmLFWL9C7PalaRu522TP7sgn5RRK08xb9UU4QNImhjlE6khuC/CFeX4Gt4nvCbRvYiX97qJF4uf529r5X05QYAEfuRCxoCZUK8UBD4DTJUycdiENOKRqaKGqE5lGEZGOKEl92ybNsxXzmo00smkrKkYisN6NPFKIHgEOSAvUCXFOxeohhp1gyp1rRN21fZsqx0Ly3daEcklTq18GbgrSjwr89ID7iBIRLExphpiHwncMycXgNKSw9JnW7j9ixWbh4ini7JtIzEnRjCZQC0mGpVpiUn94ohQAy3hogI/OPL40sy4phSFa36Ng4mGB+ykcoyb4tHaOqdJLPTyYsNoKtDCSU3kiGiagzeecbzTzqLHeZddcSf2iiCYR9LCMioG5f/pJpHvV+/TQaVGT5uVDEPZvpQgzAzbgwjA+gKHfjxD4ikLeGqxiw+t2su0nR1+v3AblM28rHp9n9VAqbPsvUCOYldUYJMRZAhCCcwhkyXhNxEOs19ou/RxLSP2S2TfWy2abEy8sZKuTANeZ0hogg3WowZMrocIQ3EUSouwEwXlsdqP+E3YL/BfSA/0WmfNfnvIfn/5rNUYrRMI5aLFHi2dC7rVrSOhx7wA5uMgSs1VqOgKLiSCHhnXhiiF6QIS7BzsJSkOIEV+jxAn+UV/ZEuP3li3VT0eI7Pyiv7IlP+8sWCKnpRBN2yjCLOPV2j/9sGkiAk0TutKgrusyIYxVid6jBlDDwBnHpPECFimyyYymkPs1u7fo4lcx2PcjD0tqN2zOZB75FcmIelKhTnq/5KlkSE6qSCU3hFk4ZnqNLisMe+COxcuJd9Eu1kYmnHbNHm2rV3t8p0zSlOmHISF04ZhEhOqkghpnKDJJxYj7zSYrZU2DxH7LncH3QKHTejZfKaj2uQ2c0pm+HD8lGkrqq5E+CZJk/eYz7BajRM72k6ybtkXQqB4uTM2pq/UD4MoUCRn00EiQi9xHlmIsgQhUPlnFmXzjriEutFcLkUb9t9mZb9gG53ieS+Kt3Ad/liGz3yShjhKzvMUKn8vjSOnND8GWJiOPIW2qxR+0mpu0uho9jtHUWSNr8oa8q5CmSO7027K6HCOBxo51Rjxm3XGn2O0XcW4lm37JbWPranK99peWNbQpg+g8lQ0QMbokYQuaV2IIHiIHT34yY7i2Bqda9KE54sJyseY7Re7CNI4SdRJtKsmp0RnayPBE5YxhoayrQzDzeI0WRPvJgKYQtiMWIJhFawiPAU/h/wDnLSLnHrt4ulRkfIZQyOtFd3Uihy0qeGUJG5AxJd0w+8pSmWGdQW7Hixa6IpQQsa7fai0GoGM1wCq9tsStKiIvXn9IuMxQ7xuWH0svAdxnX2OyWTm7athFChKCKeqZthKrUDstDgmUdaMnFRe9z7hBMYhpUrl4sN0o64lgyponpMIA3bIpr+F7qdyT7K/XbzaUZC3JycEhFd3QimVany5MlIvIl1WGafjMKW2qoLRMIO3bkISXaO62TfazGpaIbNxmk22qQSp4nCMSkXGYoeMnEKWlneq48whth6UNUJz6YTlnFI8t92ctIuZNa+jTSyR5spZGIIfcAIpgZtwYRiFwhkvunFvKUpxZVek9Ju4HG7WaFDqvdoWka2TrN2VKCv8AS9KCYVA73SzBg06qDShkrk4ZU6UfeU0lwdKvcuIE/wARn6zLj+LsWlX0v/8AOI/2+f8ATYsAx6j9JRxLvtJ9ljqN2zOZtpL38KORUJh1b4hQ0g7EkAHeLfdh4LjS+sY+G9xO+zvnKPr7NnbrcXNssWe8SYt/IIZySNyUYX6I3iPM8S8mLCUlsqWkLj9olIE4YdlGG1HpzWuZ95oaHIqFwST5kUPFikC/Fvuw+u68l+/uRda3blm7gNdm8tRZM0im3RrUKqBSJU0EQYPmAnnhnXhimHcJxbr7i3FIUhAHWp0J0Djdqx2cRUU+rWkdDO0YhaHWSBpfNQTxk/mIk4NOqg0oE7nHCSsFxmEpSkJgDHu7fs57b7VkRegPR6zbVvsihrXbHPsVF4Zx+dZnMN8KbSzOPBhtqru2PftApAm9xrNndq3koOQe1uoUNeagxrg8PyWIZHRKdHSpPwFmTcfxjfVKsc7HuJYLRLJsA53at5KDmW4DJahTF5luOmEVnWinHI40xHPPG6cpcM3AJxGksFVRRu73X1NEuwEReVw3P2otwF3pGfk2SyEJWdOKcanpE5YBnmdOGHgvxCYwyEOtv8YrrYsWUbtHeZAUoqVpG7x7iptUrT6yiBRwVVy1oeUMPAGclm9OabivvEvLgLZVcXFG/Zvc7jVfW3O1cNyDTZYzWWIa8zLHNVo3VowRqeDLWBgQvECXFNwk5ZpTrKjOoLdspFi1yaoIWPSAfa7Cg1A83XALKVmZK0pEXug+9EDwIZxUXl48VPNOwnn2BVgsgscS9dxLl2sayGTWOsdR6ta3WiYr8mpExIDQuiDHNqJ0s0HlENwYMZ999p/hqjFYRlITnkuHiKQ9ds2i5PoxhJgyrrMSyGSk/vFEAKIHgEOBH5x/FLlmeo4pLENUPrCOwbt5KgjicBVM2wmT6oaDVQxmj60EY9D6VWCHCLCrEERQ+UU6TdiOuJitf7RQ1MIykJzI9m8v33UrSN3X6fXGmhj6yiWRFwlcgwUoYeAM4hnMSDcV95t5eCwc1vR4gT/KK/siXH7yxbqp7lxAn+Iz9Zlx/F2LBwBtVXZcfPsdl9dfY6bYsWCqu3O/An+kn/G2qrsuPmJuy+uvthNsWLBKv9ev/wC/sdaVYePmJxc/oD9sC2LFgOy4+fY7L66+x023VTtR/mJvN+pfthCsWLBVVixYsH//2Q=="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "akamai_visit_id",
+        "value": "96d73b17624859d7af51",
+        "domain": "cdc.gov",
+        "path": "/",
+        "expires": "2027-07-16T07:21:25.942Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "Akamai-Request-ID",
+        "value": "96d73b17624859d7af51",
+        "domain": "cdc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1113977100.1781162488",
+        "domain": "cdc.gov",
+        "path": "/",
+        "expires": "2027-07-16T07:21:27.778Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781162487$o1$g0$t1781162489$j58$l0$h0",
+        "domain": "cdc.gov",
+        "path": "/",
+        "expires": "2027-07-16T07:21:29.361Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAAQ",
+            "_p": 1781162487309,
+            "_s": 3,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1113977100.1781163,
+            "dl": "https://cdc.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "Centers for Disease Control and Prevention | CDC",
+            "en": "INP",
+            "ep.agency": "HHS",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "complete",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "cdc.gov",
+            "ep.metric_id": "v4-1781162487799-5940273282683",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://cdc.gov/jscript/metrics/google/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:cdc.gov",
+            "ep.site_topic": "unspecified:cdc.gov",
+            "ep.subagency": "CDC.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250212 v8.6 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 48,
+            "epn.metric_value": 48,
+            "epn.value": 48,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je66a0h2v9131934939za200zd9131934939",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 8,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162487,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4716,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je66a0h2v9131934939za200zd9131934939&_p=1781162487309&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=1113977100.1781162488&frm=0&pscdl=&rcb=8&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938466~115938469&dl=https%3A%2F%2Fcdc.gov%2F&dt=Centers%20for%20Disease%20Control%20and%20Prevention%20%7C%20CDC&dr=&sid=1781162487&sct=1&seg=0&_tu=wA&en=INP&_ee=1&ep.agency=HHS&ep.subagency=CDC.GOV&ep.site_topic=unspecified%3Acdc.gov&ep.site_platform=unspecified%3Acdc.gov&ep.script_source=https%3A%2F%2Fcdc.gov%2Fjscript%2Fmetrics%2Fgoogle%2Funiversal-federated-analytics-min.js&ep.version=20250212%20v8.6%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=cdc.gov&epn.value=48&ep.metric_id=v4-1781162487799-5940273282683&epn.metric_value=48&epn.metric_delta=48&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=complete&epn.event_time=0&ep.event_name_dimension=INP&tfd=4716"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781162487309,
+            "_s": 2,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1113977100.1781163,
+            "dl": "https://cdc.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "Centers for Disease Control and Prevention | CDC",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je66a0h2v9131934939za200zd9131934939",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 8,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162487,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4692,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je66a0h2v9131934939za200zd9131934939&_p=1781162487309&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=1113977100.1781162488&frm=0&pscdl=&rcb=8&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938466~115938469&dl=https%3A%2F%2Fcdc.gov%2F&dt=Centers%20for%20Disease%20Control%20and%20Prevention%20%7C%20CDC&dr=&sid=1781162487&sct=1&seg=0&_tu=wA&_s=2&tfd=4692"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781162487309,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1113977100.1781163,
+            "dl": "https://cdc.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "Centers for Disease Control and Prevention | CDC",
+            "en": "page_view",
+            "ep.agency": "HHS",
+            "ep.hostname_dimension": "cdc.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://cdc.gov/jscript/metrics/google/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:cdc.gov",
+            "ep.site_topic": "unspecified:cdc.gov",
+            "ep.subagency": "CDC.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250212 v8.6 - ga4",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je66a0h2v9131934939za200zd9131934939",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 8,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162487,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 2043,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je66a0h2v9131934939za200zd9131934939&_p=1781162487309&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1113977100.1781162488&frm=0&pscdl=&rcb=8&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469&dl=https%3A%2F%2Fcdc.gov%2F&dt=Centers%20for%20Disease%20Control%20and%20Prevention%20%7C%20CDC&dr=&sid=1781162487&sct=1&seg=0&_tu=wA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.agency=HHS&ep.subagency=CDC.GOV&ep.site_topic=unspecified%3Acdc.gov&ep.site_platform=unspecified%3Acdc.gov&ep.script_source=https%3A%2F%2Fcdc.gov%2Fjscript%2Fmetrics%2Fgoogle%2Funiversal-federated-analytics-min.js&ep.version=20250212%20v8.6%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=cdc.gov&tfd=2043"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cdc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      }
+    ]
+  }
+}

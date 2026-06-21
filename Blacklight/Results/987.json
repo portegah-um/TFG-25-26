@@ -1,0 +1,709 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "NETGEAR: Advanced WiFi & Networking",
+  "uri_ins": "https://netgear.com",
+  "uri_dest": "https://www.netgear.com/",
+  "uri_redirects": [
+    "https://netgear.com/"
+  ],
+  "secure_connection": {},
+  "host": "netgear.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:38:24.619Z",
+  "end_time": "2026-06-11T10:38:33.632Z",
+  "browsing_history": [
+    "https://www.netgear.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "netgear.com",
+        "www.netgear.com",
+        "assets.netgear.com",
+        "www.downloads.netgear.com"
+      ],
+      "third_party": [
+        "www.datadoghq-browser-agent.com",
+        "www.googletagmanager.com",
+        "api.consentjs.datagrail.io",
+        "region1.google-analytics.com",
+        "ob.powerstarsbuilding.com",
+        "browser-intake-datadoghq.com",
+        "obs.powerstarsbuilding.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.netgear.com/mobify/bundle/3303/vendor.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://ob.powerstarsbuilding.com/i/a736a31e56d3fbb286053ec21c651c26.js": [
+          "touchstart"
+        ],
+        "https://www.netgear.com/mobify/bundle/3303/swiper.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.netgear.com/mobify/bundle/3303/algolia.js": [
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://www.netgear.com/mobify/bundle/3303/vendor.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://ob.powerstarsbuilding.com/i/a736a31e56d3fbb286053ec21c651c26.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MRPTJG6X&gtm_auth=&gtm_preview=&gtm_cookies_win=x": [
+          "click"
+        ],
+        "https://api.consentjs.datagrail.io/consent/9cc62578-c4bf-4706-a0dc-29a4683bd2ad/10a1db28-a8bf-4cd8-9130-f0a4a1f94cf2/consent.js": [
+          "mouseup"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-8DFZ7S2Z7W&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.netgear.com/mobify/bundle/3303/main.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.netgear.com/mobify/bundle/3303/algolia.js": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ob.powerstarsbuilding.com/i/a736a31e56d3fbb286053ec21c651c26.js": [
+          "keydown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-8DFZ7S2Z7W&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://www.netgear.com/mobify/bundle/3303/main.js": [
+          "keydown"
+        ],
+        "https://www.netgear.com/mobify/bundle/3303/vendor.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://ob.powerstarsbuilding.com/i/a736a31e56d3fbb286053ec21c651c26.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "viewer-country",
+        "value": "US",
+        "domain": "www.netgear.com",
+        "path": "/",
+        "expires": "2026-06-12T10:38:32.757Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dwsid",
+        "value": "KvabP0VJqVRH8_trBy7Hze3sDOYk0VhO5yP4OCuDyUFM92ycjMVwhuJMPtRsTnDLfgphDJUNgPweQoFph8acxQ==",
+        "domain": "www.netgear.com",
+        "path": "/",
+        "expires": -1,
+        "size": 93,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dwanonymous_6f248c284c35e3147d0c22d9f042bb03",
+        "value": "abkXwXlKs3xHsRlelJlaYYmbwV",
+        "domain": "www.netgear.com",
+        "path": "/",
+        "expires": "2026-12-08T10:38:27.954Z",
+        "size": 70,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cc-nx-g_netgear-us",
+        "value": "YZMVPwCSuTI-6h74iGR-6pstzxLcTB9rJmsQld3hrcc",
+        "domain": "www.netgear.com",
+        "path": "/",
+        "expires": "2026-07-11T10:38:28.000Z",
+        "size": 61,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "datagrail_consent_id",
+        "value": "9cc62578-c4bf-4706-a0dc-29a4683bd2ad.2004a4ef-5a69-4a61-afb8-6303f4277da5",
+        "domain": "www.netgear.com",
+        "path": "/",
+        "expires": "2027-06-11T10:38:30.000Z",
+        "size": 93,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "datagrail_consent_id_s",
+        "value": "9cc62578-c4bf-4706-a0dc-29a4683bd2ad.d2278ed9-7024-4f63-9ca2-9be8213f5868",
+        "domain": "netgear.com",
+        "path": "/",
+        "expires": "2027-06-11T10:38:30.000Z",
+        "size": 95,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "datagrail_consent_version_s",
+        "value": "6fa682c6-a952-42ff-90e5-0eff7ba4a0b0",
+        "domain": "netgear.com",
+        "path": "/",
+        "expires": "2027-06-11T10:38:30.000Z",
+        "size": 63,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cg_uuid",
+        "value": "a1504d251a65309b0c6ffb2639232b2b",
+        "domain": "obs.powerstarsbuilding.com",
+        "path": "/",
+        "expires": "2027-05-13T10:38:31.666Z",
+        "size": 39,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_dd_s_v2",
+        "value": "",
+        "domain": "www.netgear.com",
+        "path": "/",
+        "expires": "2027-06-11T10:38:33.305Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://obs.powerstarsbuilding.com/mon"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 979,
+            "_p": 1781174308028,
+            "_s": 4,
+            "are": 1,
+            "cid": 864687767.1781174,
+            "dl": "https://www.netgear.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "NETGEAR: Advanced WiFi & Networking",
+            "en": "scroll",
+            "ep.ad_blocker": false,
+            "ep.cg_peoduct_detail_filter": "splash",
+            "ep.cg_peoduct_detail_filter_item": "splash",
+            "ep.cg_product_category": "splash",
+            "ep.cg_product_category_item": "splash",
+            "ep.content_group": "home",
+            "ep.country": "US",
+            "ep.gtm_tag_name": "GA4 - Event - Scroll Depth",
+            "ep.login_status": "anonymous",
+            "ep.page_type": "home",
+            "ep.page_url": "/",
+            "ep.percent_scrolled": "100%",
+            "ep.user_agent_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dZml0Zj",
+            "gtm": "45je6691v889079359z89225073608za20gzb9225073608zd9225073608",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781174310,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~118012007",
+            "tfd": 8447,
+            "tid": "G-8DFZ7S2Z7W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-8DFZ7S2Z7W&gtm=45je6691v889079359z89225073608za20gzb9225073608zd9225073608&_p=1781174308028&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dZml0Zj&are=1&cid=864687767.1781174310&frm=0&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en&_s=4&tag_exp=0~115938465~115938468~118012007&uid=&dp=%2F&sid=1781174310&sct=1&seg=0&dl=https%3A%2F%2Fwww.netgear.com%2F&dt=NETGEAR%3A%20Advanced%20WiFi%20%26%20Networking&en=scroll&ep.page_type=home&ep.page_url=%2F&ep.country=US&ep.login_status=anonymous&ep.content_group=home&ep.ad_blocker=false&ep.cg_product_category=splash&ep.cg_peoduct_detail_filter=splash&ep.cg_product_category_item=splash&ep.cg_peoduct_detail_filter_item=splash&ep.user_agent_string=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&ep.percent_scrolled=100%25&ep.gtm_tag_name=GA4%20-%20Event%20-%20Scroll%20Depth&_et=979&tfd=8447"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 10,
+            "_eu": "AEA",
+            "_p": 1781174308028,
+            "_s": 3,
+            "ae": "a",
+            "are": 1,
+            "cid": 864687767.1781174,
+            "dl": "https://www.netgear.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "NETGEAR: Advanced WiFi & Networking",
+            "en": "scroll",
+            "ep.ad_blocker": false,
+            "ep.cg_peoduct_detail_filter": "splash",
+            "ep.cg_peoduct_detail_filter_item": "splash",
+            "ep.cg_product_category": "splash",
+            "ep.cg_product_category_item": "splash",
+            "ep.content_group": "home",
+            "ep.country": "US",
+            "ep.login_status": "anonymous",
+            "ep.page_type": "home",
+            "ep.page_url": "/",
+            "ep.user_agent_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dZml0Zj",
+            "gtm": "45je6691v889079359za20gzb9225073608zd9225073608",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781174310,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~118012007",
+            "tfd": 8220,
+            "tid": "G-8DFZ7S2Z7W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-8DFZ7S2Z7W&gtm=45je6691v889079359za20gzb9225073608zd9225073608&_p=1781174308028&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dZml0Zj&_eu=AEA&ae=a&are=1&cid=864687767.1781174310&frm=0&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en&_s=3&tag_exp=0~115938465~115938468~118012007&uid=&sid=1781174310&sct=1&seg=0&dl=https%3A%2F%2Fwww.netgear.com%2F&dt=NETGEAR%3A%20Advanced%20WiFi%20%26%20Networking&en=scroll&ep.page_type=home&ep.page_url=%2F&ep.country=US&ep.login_status=anonymous&ep.content_group=home&ep.ad_blocker=false&ep.cg_product_category=splash&ep.cg_peoduct_detail_filter=splash&ep.cg_product_category_item=splash&ep.cg_peoduct_detail_filter_item=splash&ep.user_agent_string=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&epn.percent_scrolled=90&_et=10&tfd=8220"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1781174308028,
+            "_s": 2,
+            "are": 1,
+            "cid": 864687767.1781174,
+            "dl": "https://www.netgear.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "NETGEAR: Advanced WiFi & Networking",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dZml0Zj",
+            "gtm": "45je6691v889079359z89225073608za20gzb9225073608zd9225073608",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781174310,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~118012007",
+            "tfd": 7234,
+            "tid": "G-8DFZ7S2Z7W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-8DFZ7S2Z7W&gtm=45je6691v889079359z89225073608za20gzb9225073608zd9225073608&_p=1781174308028&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dZml0Zj&are=1&cid=864687767.1781174310&frm=0&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en&tag_exp=0~115938465~115938468~118012007&uid=&dp=%2F&sid=1781174310&sct=1&seg=0&dl=https%3A%2F%2Fwww.netgear.com%2F&dt=NETGEAR%3A%20Advanced%20WiFi%20%26%20Networking&_s=2&tfd=7234"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_dd.api": "fetch",
+            "batch_time": 1781174310697,
+            "dd-api-key": "pub1152678b807e6c9c4e47969821118c28",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "7.2.0",
+            "dd-request-id": "223ea013-478a-4d06-8cc9-037f512c4144",
+            "ddsource": "browser"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub1152678b807e6c9c4e47969821118c28&dd-evp-origin-version=7.2.0&dd-evp-origin=browser&dd-request-id=223ea013-478a-4d06-8cc9-037f512c4144&batch_time=1781174310697&_dd.api=fetch"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781174308028,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 864687767.1781174,
+            "dl": "https://www.netgear.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "NETGEAR: Advanced WiFi & Networking",
+            "en": "page_view",
+            "ep.ad_blocker": false,
+            "ep.cg_peoduct_detail_filter": "splash",
+            "ep.cg_peoduct_detail_filter_item": "splash",
+            "ep.cg_product_category": "splash",
+            "ep.cg_product_category_item": "splash",
+            "ep.content_group": "home",
+            "ep.country": "US",
+            "ep.login_status": "anonymous",
+            "ep.page_type": "home",
+            "ep.page_url": "/",
+            "ep.user_agent_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dZml0Zj",
+            "gtm": "45je6691v889079359z89225073608za20gzb9225073608zd9225073608",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781174310,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468~118012007",
+            "tfd": 5031,
+            "tid": "G-8DFZ7S2Z7W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en",
+            "up.user_agent_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-8DFZ7S2Z7W&gtm=45je6691v889079359z89225073608za20gzb9225073608zd9225073608&_p=1781174308028&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dZml0Zj&are=1&cid=864687767.1781174310&frm=0&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en&_s=1&tag_exp=0~115938465~115938468~118012007&uid=&sid=1781174310&sct=1&seg=0&dl=https%3A%2F%2Fwww.netgear.com%2F&dt=NETGEAR%3A%20Advanced%20WiFi%20%26%20Networking&en=page_view&_fv=1&_nsi=1&_ss=1&ep.page_type=home&ep.page_url=%2F&ep.country=US&ep.login_status=anonymous&ep.content_group=home&ep.ad_blocker=false&ep.cg_product_category=splash&ep.cg_peoduct_detail_filter=splash&ep.cg_product_category_item=splash&ep.cg_peoduct_detail_filter_item=splash&ep.user_agent_string=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&up.user_agent_string=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&tfd=5031"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-T9RNV7G"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T9RNV7G&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-8DFZ7S2Z7W"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8DFZ7S2Z7W&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "",
+            "id": "GTM-WBDKB34V"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WBDKB34V&gtm_auth=&gtm_preview=&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "",
+            "id": "GTM-MRPTJG6X"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MRPTJG6X&gtm_auth=&gtm_preview=&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": "||datadoghq-browser-agent.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.netgear.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js"
+      }
+    ]
+  }
+}

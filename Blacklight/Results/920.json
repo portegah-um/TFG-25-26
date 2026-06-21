@@ -1,0 +1,793 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "U.S. Department of State – Home",
+  "uri_ins": "https://state.gov",
+  "uri_dest": "https://www.state.gov/",
+  "uri_redirects": [
+    "https://state.gov/"
+  ],
+  "secure_connection": {},
+  "host": "state.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:18:23.293Z",
+  "end_time": "2026-06-11T10:18:29.392Z",
+  "browsing_history": [
+    "https://www.state.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "state.gov",
+        "www.state.gov",
+        "findit.state.gov"
+      ],
+      "third_party": [
+        "fonts.gstatic.com",
+        "dap.digitalgov.gov",
+        "www.googletagmanager.com",
+        "code.jquery.com",
+        "fonts.googleapis.com",
+        "www.googleadservices.com",
+        "www.google.com",
+        "googleads.g.doubleclick.net",
+        "gateway.foresee.com",
+        "region1.google-analytics.com",
+        "www.google.es"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T9WK49Q": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOS": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-11238285267": [
+          "click"
+        ],
+        "https://www.state.gov/wp-content/themes/state/js/state.min.js?ver=1777655294": [
+          "scroll"
+        ],
+        "https://www.state.gov/wp-content/plugins/complianz/cookiebanner/js/complianz.min.js?ver=1777655415": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOS": [
+          "keydown"
+        ],
+        "https://www.state.gov/wp-content/plugins/complianz/cookiebanner/js/complianz.min.js?ver=1777655415": [
+          "keypress"
+        ],
+        "https://www.state.gov/": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://code.jquery.com/jquery-3.7.1.min.js?ver=3.7.1": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1678460801.1781173106",
+        "domain": "state.gov",
+        "path": "/",
+        "expires": "2026-09-09T10:18:26.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cmplz_consent_mode",
+        "value": "security_storage,functionality_storage",
+        "domain": "www.state.gov",
+        "path": "/",
+        "expires": "2027-06-11T10:18:26.000Z",
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_et": 953,
+            "_p": 1781173105185,
+            "_s": 3,
+            "_tu": "yA",
+            "are": 1,
+            "cid": 1010138320.1781173,
+            "dl": "https://state.gov/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "",
+            "dt": "U.S. Department of State – Home",
+            "en": "INP",
+            "ep.agency": "DOS",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "complete",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "state.gov",
+            "ep.metric_id": "v4-1781173106920-8870476237687",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:state.gov",
+            "ep.site_topic": "unspecified:state.gov",
+            "ep.subagency": "STATE.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 8,
+            "epn.metric_value": 8,
+            "epn.value": 8,
+            "frm": 0,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWVlZG",
+            "gtm": "45je6691v9131934939za200zb9108488912zd9108488912",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 16,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173107,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~117776794~119456240~119456248",
+            "tfd": 5456,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb9108488912zd9108488912&_p=1781173105185&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&gdid=dYWVlZG&are=1&cid=1010138320.1781173107&frm=0&pscdl=denied&rcb=16&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=115938466~115938469~117776794~119456240~119456248&dl=https%3A%2F%2Fstate.gov%2F&dt=U.S.%20Department%20of%20State%20%E2%80%93%20Home&dr=&sid=1781173107&sct=1&seg=0&_tu=yA&en=INP&_ee=1&ep.agency=DOS&ep.subagency=STATE.GOV&ep.site_topic=unspecified%3Astate.gov&ep.site_platform=unspecified%3Astate.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=state.gov&epn.value=8&ep.metric_id=v4-1781173106920-8870476237687&epn.metric_value=8&epn.metric_delta=8&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=complete&epn.event_time=0&ep.event_name_dimension=INP&_et=953&tfd=5456"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGA",
+            "_p": 1781173105185,
+            "_s": 2,
+            "_tu": "SA",
+            "are": 1,
+            "cid": 1010138320.1781173,
+            "dl": "https://www.state.gov/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "U.S. Department of State – Home",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWVlZG",
+            "gtm": "45je6691v899394445z8811761200za20gzb811761200zd811761200",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173107,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 5431,
+            "tid": "G-N47R32EN4M",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N47R32EN4M&gtm=45je6691v899394445z8811761200za20gzb811761200zd811761200&_p=1781173105185&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&gdid=dYWVlZG&_eu=EAAAAGA&are=1&cid=1010138320.1781173107&frm=0&ir=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938466~115938468&sid=1781173107&sct=1&seg=0&dl=https%3A%2F%2Fwww.state.gov%2F&dt=U.S.%20Department%20of%20State%20%E2%80%93%20Home&_tu=SA&_s=2&tfd=5431"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1781173105185,
+            "_s": 2,
+            "_tu": "yA",
+            "are": 1,
+            "cid": 1010138320.1781173,
+            "dl": "https://state.gov/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "",
+            "dt": "U.S. Department of State – Home",
+            "frm": 0,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWVlZG",
+            "gtm": "45je6691v9131934939za200zb9108488912zd9108488912",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 16,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173107,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~117776794~119456240~119456248",
+            "tfd": 5429,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb9108488912zd9108488912&_p=1781173105185&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&gdid=dYWVlZG&are=1&cid=1010138320.1781173107&frm=0&pscdl=denied&rcb=16&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=115938466~115938469~117776794~119456240~119456248&dl=https%3A%2F%2Fstate.gov%2F&dt=U.S.%20Department%20of%20State%20%E2%80%93%20Home&dr=&sid=1781173107&sct=1&seg=0&_tu=yA&_s=2&tfd=5429"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGA",
+            "_fv": 1,
+            "_p": 1781173105185,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 1010138320.1781173,
+            "dl": "https://www.state.gov/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "U.S. Department of State – Home",
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWVlZG",
+            "gtm": "45je6691v899394445z8811761200za20gzb811761200zd811761200",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173107,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 3484,
+            "tid": "G-N47R32EN4M",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N47R32EN4M&gtm=45je6691v899394445z8811761200za20gzb811761200zd811761200&_p=1781173105185&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&gdid=dYWVlZG&_eu=EAAAAGA&are=1&cid=1010138320.1781173107&frm=0&ir=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468&sid=1781173107&sct=1&seg=0&dl=https%3A%2F%2Fwww.state.gov%2F&dt=U.S.%20Department%20of%20State%20%E2%80%93%20Home&_tu=CA&en=page_view&_fv=1&_ss=1&tfd=3484"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1678460801.1781173,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cerd": "CgSi870t",
+            "cid": "CAQSUAARCiqBaC_6tzwrYcuz5f2kcFsLPweOfdr9djQEmb4b6TyOEML0TWmLJ5clUonewupRLOOKHfjjb_e807WQHWlpqDq51H1wJVYVItIWWbwq",
+            "crd": "CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSjB0cmlnZ2VyLCBub3QtbmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "page_view",
+            "ept": 5,
+            "fmt": 8,
+            "frm": 0,
+            "fsk": "ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wl6mEZEcu-4WwCNSFHzc2gC74ZSkvTg7kz86qo4B-waKYWrRBqgVd8aArI1",
+            "fst": 1781173106290,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v9108488912za200zd9108488912xec",
+            "gtm_ee": 1,
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "is_vtc": 1,
+            "label": "AF_hCLacuqoaEL62tqAq",
+            "npa": 1,
+            "pscrd": "IhMIkI6r8vr-lAMVik-kBB2jgxVGOhZodHRwczovL3d3dy5zdGF0ZS5nb3YvQldDaEVJOExtcDBRWVF5WWF0NmJxUzhLckZBUklzQUJLbkY1U2FMY2pCRGpKanV2QVdhLVJMWkJPaEFxTWVmaHV5Q0dDYXVLdXlwVnptT1dQX1RoMGFsczR6DAgJYggIABAAGAAgAA",
+            "random": 2701226074,
+            "rcb": 14,
+            "tag_exp": "0~115616986~115938466~115938468",
+            "tiba": "U.S. Department of State – Home",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.state.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-conversion/11342289726/?random=1821031873&cv=11&fst=1781173106290&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6691v9108488912za200zd9108488912xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616986~115938466~115938468&u_w=375&u_h=812&url=https%3A%2F%2Fwww.state.gov%2F&rcb=14&capi=2&gtm_ee=1&frm=0&tiba=U.S.%20Department%20of%20State%20%E2%80%93%20Home&npa=1&auid=1678460801.1781173106&label=AF_hCLacuqoaEL62tqAq&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSjB0cmlnZ2VyLCBub3QtbmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=CgSi870t&fsk=ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wl6mEZEcu-4WwCNSFHzc2gC74ZSkvTg7kz86qo4B-waKYWrRBqgVd8aArI1&pscrd=IhMIkI6r8vr-lAMVik-kBB2jgxVGOhZodHRwczovL3d3dy5zdGF0ZS5nb3YvQldDaEVJOExtcDBRWVF5WWF0NmJxUzhLckZBUklzQUJLbkY1U2FMY2pCRGpKanV2QVdhLVJMWkJPaEFxTWVmaHV5Q0dDYXVLdXlwVnptT1dQX1RoMGFsczR6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQSUAARCiqBaC_6tzwrYcuz5f2kcFsLPweOfdr9djQEmb4b6TyOEML0TWmLJ5clUonewupRLOOKHfjjb_e807WQHWlpqDq51H1wJVYVItIWWbwq&random=2701226074"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781173105185,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "yA",
+            "are": 1,
+            "cid": 1010138320.1781173,
+            "dl": "https://state.gov/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "",
+            "dt": "U.S. Department of State – Home",
+            "en": "page_view",
+            "ep.agency": "DOS",
+            "ep.hostname_dimension": "state.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:state.gov",
+            "ep.site_topic": "unspecified:state.gov",
+            "ep.subagency": "STATE.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "frm": 0,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gdid": "dYWVlZG",
+            "gtm": "45je6691v9131934939za200zb9108488912zd9108488912",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 16,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173107,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~117776794~119456240~119456248",
+            "tfd": 3265,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb9108488912zd9108488912&_p=1781173105185&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&gdid=dYWVlZG&are=1&cid=1010138320.1781173107&frm=0&pscdl=denied&rcb=16&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~117776794~119456240~119456248&dl=https%3A%2F%2Fstate.gov%2F&dt=U.S.%20Department%20of%20State%20%E2%80%93%20Home&dr=&sid=1781173107&sct=1&seg=0&_tu=yA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.agency=DOS&ep.subagency=STATE.GOV&ep.site_topic=unspecified%3Astate.gov&ep.site_platform=unspecified%3Astate.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=state.gov&tfd=3265"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-N47R32EN4M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-N47R32EN4M&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||gateway.foresee.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gateway.foresee.com/sites/state-gov/production/config.json"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1678460801.1781173,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cerd": "CgSi870t",
+            "crd": "CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSjB0cmlnZ2VyLCBub3QtbmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED",
+            "ct_cookie_present": false,
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "page_view",
+            "ept": 5,
+            "fmt": 8,
+            "frm": 0,
+            "fsk": "ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wl6mEZEcu-4WwCNSFHzc2gC74ZSkvTg7kz86qo4B-waKYWrRBqgVd8aArI1",
+            "fst": 1781173106290,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v9108488912za200zd9108488912xec",
+            "gtm_ee": 1,
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "AF_hCLacuqoaEL62tqAq",
+            "npa": 1,
+            "pscrd": "IhMIkI6r8vr-lAMVik-kBB2jgxVGOhZodHRwczovL3d3dy5zdGF0ZS5nb3YvQldDaEVJOExtcDBRWVF5WWF0NmJxUzhLckZBUklzQUJLbkY1U2FMY2pCRGpKanV2QVdhLVJMWkJPaEFxTWVmaHV5Q0dDYXVLdXlwVnptT1dQX1RoMGFsczR6DAgJYggIABAAGAAgAA",
+            "random": 1821031873,
+            "rcb": 14,
+            "tag_exp": "0~115616986~115938466~115938468",
+            "tiba": "U.S. Department of State – Home",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.state.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11342289726/?random=1821031873&cv=11&fst=1781173106290&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6691v9108488912za200zd9108488912xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616986~115938466~115938468&u_w=375&u_h=812&url=https%3A%2F%2Fwww.state.gov%2F&rcb=14&capi=2&gtm_ee=1&frm=0&tiba=U.S.%20Department%20of%20State%20%E2%80%93%20Home&npa=1&auid=1678460801.1781173106&label=AF_hCLacuqoaEL62tqAq&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQIIl9SxAgjJ27ECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAiIBAjABSjB0cmlnZ2VyLCBub3QtbmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=CgSi870t&fsk=ChEI8Lmp0QYQ5ZOc2_rK966lARIsAE0m5wl6mEZEcu-4WwCNSFHzc2gC74ZSkvTg7kz86qo4B-waKYWrRBqgVd8aArI1&pscrd=IhMIkI6r8vr-lAMVik-kBB2jgxVGOhZodHRwczovL3d3dy5zdGF0ZS5nb3YvQldDaEVJOExtcDBRWVF5WWF0NmJxUzhLckZBUklzQUJLbkY1U2FMY2pCRGpKanV2QVdhLVJMWkJPaEFxTWVmaHV5Q0dDYXVLdXlwVnptT1dQX1RoMGFsczR6DAgJYggIABAAGAAgAA"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "async": 1,
+            "auid": 1678460801.1781173,
+            "bg": "ffffff",
+            "capi": 2,
+            "category": "acrcp_v1_512",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 1,
+            "dma_cps": "a",
+            "ec_mode": "a",
+            "em": "tv.1",
+            "emd": "tvd.1",
+            "en": "page_view",
+            "ept": 5,
+            "fmt": 7,
+            "frm": 0,
+            "fst": 1781173106290,
+            "gcd": "13l3l3l2l1l1",
+            "gcl_ctr": "1~0~0~0",
+            "gtm": "45be6691v9108488912za200zd9108488912xec",
+            "gtm_ee": 1,
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "AF_hCLacuqoaEL62tqAq",
+            "npa": 1,
+            "random": 1781173106290,
+            "rcb": 14,
+            "tag_exp": "0~115616986~115938466~115938468",
+            "tiba": "U.S. Department of State – Home",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.state.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/11342289726/?random=1781173106290&cv=11&fst=1781173106290&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6691v9108488912za200zd9108488912xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616986~115938466~115938468&u_w=375&u_h=812&url=https%3A%2F%2Fwww.state.gov%2F&rcb=14&capi=2&gtm_ee=1&frm=0&tiba=U.S.%20Department%20of%20State%20%E2%80%93%20Home&npa=1&auid=1678460801.1781173106&label=AF_hCLacuqoaEL62tqAq&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-T9WK49Q"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T9WK49Q"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-11238285267"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11238285267"
+      },
+      {
+        "data": {
+          "filter": "||digitalgov.gov/Universal-Federated-Analytics-Min.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "agency": "DOS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.state.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOS"
+      }
+    ]
+  }
+}

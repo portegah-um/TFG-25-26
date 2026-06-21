@@ -1,0 +1,594 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "ScienceDirect.com | Science, health and medical journals, full text articles and books.",
+  "uri_ins": "https://sciencedirect.com",
+  "uri_dest": "https://www.sciencedirect.com/",
+  "uri_redirects": [
+    "https://sciencedirect.com/",
+    "https://www.sciencedirect.com/",
+    "https://id.elsevier.com/as/authorization.oauth2?platSite=SD%2Fscience&additionalPlatSites=GH%2Fgeneralhospital%2CLS%2FLS%2CMDY%2Fmendeley%2CSC%2Fscopus%2CRX%2Freaxys&scope=openid%20email%20profile%20els_auth_info%20els_idp_info%20els_idp_analytics_attrs%20urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Ainst_assoc&response_type=code&redirect_uri=https%3A%2F%2Fwww.sciencedirect.com%2Fuser%2Fidentity%2Flanding&authType=SINGLE_SIGN_IN&prompt=none&client_id=SDFE-v4&state=retryCounter%3D0%26csrfToken%3Df7077cda-036e-4417-bc8b-61842bc90c57%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%253Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3Dhttps%253A%252F%252Fwww.sciencedirect.com%252F%26migrated%3DMIGRATED%26prompt%3Dnone%26cid%3Dhpx-52b83718-207e-40c7-92b1-0a288464063c",
+    "https://www.sciencedirect.com/user/identity/landing?code=hiYEsJGYWnRcei2Yu82VdqsHfiy52ch_9FpcZ1dz&state=retryCounter%3D0%26csrfToken%3Df7077cda-036e-4417-bc8b-61842bc90c57%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%253Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3Dhttps%253A%252F%252Fwww.sciencedirect.com%252F%26migrated%3DMIGRATED%26prompt%3Dnone%26cid%3Dhpx-52b83718-207e-40c7-92b1-0a288464063c"
+  ],
+  "secure_connection": {},
+  "host": "sciencedirect.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:40:46.350Z",
+  "end_time": "2026-06-11T06:40:52.587Z",
+  "browsing_history": [
+    "https://www.sciencedirect.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "sciencedirect.com",
+        "www.sciencedirect.com"
+      ],
+      "third_party": [
+        "id.elsevier.com",
+        "sdfestaticassets-eu-west-1.sciencedirectassets.com",
+        "cdn.cookielaw.org",
+        "cdn.pendo.io",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net",
+        "geolocation.onetrust.com",
+        "data.pendo.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.pendo.io/agent/static/d6c1d995-bc7e-4e53-77f1-2ea4ecbb9565/pendo.js": [
+          "keyup",
+          "input"
+        ],
+        "https://js-agent.newrelic.com/nr-spa-1.310.1.min.js": [
+          "keydown"
+        ],
+        "https://www.sciencedirect.com/prod/c001692333a362ecb69c826275f42586d668c341/index-D98DeJYU.js": [
+          "keydown"
+        ],
+        "    at <anonymous>:627:191": [
+          "keydown"
+        ],
+        "    at A.run (<anonymous>:620:80)": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.pendo.io/agent/static/d6c1d995-bc7e-4e53-77f1-2ea4ecbb9565/pendo.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.sciencedirect.com/prod/c001692333a362ecb69c826275f42586d668c341/index-D98DeJYU.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://js-agent.newrelic.com/nr-spa-1.310.1.min.js": [
+          "click"
+        ],
+        "    at <anonymous>:627:191": [
+          "click"
+        ],
+        "    at A.run (<anonymous>:620:80)": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "id_ab",
+        "value": "MIGRATED",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": "2027-07-11T06:40:48.117Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MIAMISESSION",
+        "value": "10a45886-9534-4626-ab87-110d339b4611:3958612847",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": -1,
+        "size": 59,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "EUID",
+        "value": "95435702-1ddf-4092-96f6-37f80368e4c1",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": "2026-12-11T06:40:47.503Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PF",
+        "value": "BUMrKPTW5Nz6jAhN5rbJ0vpuRdc5iAGsGCxh5z8mJ8g7",
+        "domain": "id.elsevier.com",
+        "path": "/",
+        "expires": -1,
+        "size": 46,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "xj5hq0Btt447CPW5bp8G0LIu6M6MUcD9hPBTB3v8hL8-1781160047.613612-1.0.1.1-IDBpyxXZ_vdMQ778Bk9n.qimY2aoYOm6Q_rtlD_UexyEuzM6ySr5J4qZXV71ZqCRD35B5d0wljpnKKJC9Uk7NfA9eww6GQC3Bq252Q2xB5HkWS4EMSVcq.UMeEI_DYWe",
+        "domain": "id.elsevier.com",
+        "path": "/",
+        "expires": "2026-06-11T07:10:47.710Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cflb",
+        "value": "0pg1Pqk2RgVqTDGGyG1126rRNSS7mvdd6wSMsP6U",
+        "domain": "id.elsevier.com",
+        "path": "/",
+        "expires": "2026-06-12T05:40:47.710Z",
+        "size": 46,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sd_access",
+        "value": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..b0oNz6FpA3zkdQH6COGfiQ.-chfGLiyxf_fmksadehjSR_a6ZqQJLQDuIeOa3YvS29fVfxM7aZS3sc-t-IbmL7r_BIttulz0gmCMcAIuK3fvT86UrvMHYmre_37sQTHiZxzHjlejN_3OXqScX3BipNaiZxar_1--3psIUA-XJBDNg.-Xj-2sDTYliWEcluGVNzPg",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": -1,
+        "size": 254,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sd_session_id",
+        "value": "6c9dc961601e354671589a7-e8f3eb4d6f67gxrqb",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": -1,
+        "size": 54,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "r43z9YAdaTf3Zn0H0YQ7b5g6H5BEHjpUuBqP.9JzOmU-1781160048.3287823-1.0.1.1-JbALwT1HcrNp0TIYUxt1gHTR8bG3mVdnPmaoR4Le2AA.ZzXao6G6eiTlm0XDUTLBh4szYSXfV_Rc4kQoUYfro.KxrW2gkeJQpqtn4oYzY1tKjzOkJmaMNtlMUe6HY8Re",
+        "domain": "sciencedirectassets.com",
+        "path": "/",
+        "expires": "2026-06-11T07:10:48.341Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "FYraPIbd4w2H5g86yJBqTKA.rTOsTN40A.JNtW12VyQ-1781160048-1.2.1.1-DsjOpfbi6An5K06EiRnt.P_NHQbenBZok11rbKJ5ywdfUXq1tl_gf8Vja3xsGtNGVMCDr0Lm9YsMQ4CDcfg12LW8p_bNczUtf1Zzou6GBekjT4QxBaz6XXVFlefVBqk5QL8iivjTYRs_zRWVhTAOn4762mYtwLKx7S6FDbzqnr7V7NaAonN15o8YZALUpHbGjbQmP5WpZuT8wtjPgq_CLnSwePd5QLaAnmxGUdzaNo7gMRDe2A1GsknfBcnCxXi2q_OrEOMi9J7ftKuJ4pxMEHoRNxOJUFYExoucA0NdNjXdOInpYBSvIrwkhFEFXa8HkOlYITivaBNA11G9ERd4WQ",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": "2027-06-11T06:40:48.844Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://sciencedirect.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "uKQikAv0MpaqaL9Bxq66S6trVm3U4tgvPG7KG_oFiq8-1781160048.8294475-1.0.1.1-w5SlErLEtQlS1WhBswZUBZPpcU9Ixsv9wsqWEC3xU7G.sapJ8f9ku4CibdHNI_J8MwPh7LG4BtyzSMFtL0swNblpd0wW5EXLLAg8sv4oQ0gw2CgeGdyOAw4v0kQ3h1UD",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": "2026-06-11T07:10:48.845Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "f0018c7475d6697c",
+        "domain": "nr-data.net",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A40%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202505.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=acd3d021-1c22-4eca-bf86-378b6dad1d54&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.sciencedirect.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C8%3A0",
+        "domain": "sciencedirect.com",
+        "path": "/",
+        "expires": "2027-06-11T06:40:50.000Z",
+        "size": 337,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pendo.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 1781160052398,
+            "jzb": "eJwFwIEIAAAAwDDQd3-N1QABFQC5",
+            "v": "2.327.0_prod-io"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://data.pendo.io/data/guide.gif/d6c1d995-bc7e-4e53-77f1-2ea4ecbb9565?jzb=eJwFwIEIAAAAwDDQd3-N1QABFQC5&ct=1781160052398&v=2.327.0_prod-io"
+      },
+      {
+        "data": {
+          "filter": "||pendo.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 1781160052394,
+            "id": 24,
+            "jzb": "eJx9kEFv6jAQhP9K5TMkIe2j4BsqEUWqAlKgh14iy14RV4lt2Q4peuK_sw5RyqmnRN_OjnfmPzlLJ722W0EoKfdZvt6Vh3Lz8vW-SLrl9rsjE8I4163yvYQBTdPFv-UCeWtrJJX3xtE47rouclyC4iCkBe4jrpsYZboWn7-PqLauJ6QBzwTzjNDxgvBr2Aly1gDaOkEr3QCtzA96hMHhYsJAmWllBrS3WrTc9_IBfTB1avGLDNTAMnWWVqsGVJAaXLqnAucGU4y1ynd5uTlmxQGHfWB7edMiTLMCkfyjofrx0fJYkOvYWojVrz42p-4ZERX3xtZ9Y0-bFpx3Ydswi9euRg9E2FdYms3iZB6nSTpHozNYJ7VCnEbP6WuUlCHdVGpyvd4AITiZQg",
+            "v": "2.327.0_prod-io"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://data.pendo.io/data/guide.js/d6c1d995-bc7e-4e53-77f1-2ea4ecbb9565?id=24&jzb=eJx9kEFv6jAQhP9K5TMkIe2j4BsqEUWqAlKgh14iy14RV4lt2Q4peuK_sw5RyqmnRN_OjnfmPzlLJ722W0EoKfdZvt6Vh3Lz8vW-SLrl9rsjE8I4163yvYQBTdPFv-UCeWtrJJX3xtE47rouclyC4iCkBe4jrpsYZboWn7-PqLauJ6QBzwTzjNDxgvBr2Aly1gDaOkEr3QCtzA96hMHhYsJAmWllBrS3WrTc9_IBfTB1avGLDNTAMnWWVqsGVJAaXLqnAucGU4y1ynd5uTlmxQGHfWB7edMiTLMCkfyjofrx0fJYkOvYWojVrz42p-4ZERX3xtZ9Y0-bFpx3Ydswi9euRg9E2FdYms3iZB6nSTpHozNYJ7VCnEbP6WuUlCHdVGpyvd4AITiZQg&v=2.327.0_prod-io&ct=1781160052394"
+      },
+      {
+        "data": {
+          "filter": "||pendo.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 1781160052365,
+            "jzb": "eJzNVFFr20wQ_Cvlnh1Zd7ZsWW-mEa5LcQy2Qvt9FHGRNtE10p16d7Iigv979izhGkpDoRDyZHt2tTs7M9b_z8R2NZCIiBykFfcdGZE7rVoDOrWiwgqdh5TOfD9gbEFH5CCMsEqnIseH0m28ub5J9-lq-t-n0G8X6x8tDuBZphpp-x4OEWNhsAix0OgSkcLa2kTjcdu2nskEyAxyoSGzXqaqMbbVWtWGRM9ElXn6Nwtd3-VS2ZTlP1E9IgmuUZE9v1ufB9r-Bwmz22nyNZyr5FtSPk4ynHOveQWn4jYOlnYX3CqYBMutcYIaMEYoeSpTXj59TuBRrONtZwvmVLGVOzYruJTgBLo-qeFIGPjZOH1I5KMvnQWUZcrmx9HZtwosf8WzCWVv7NmwzH2t-QNsUBd83uRRoSqIivrJNWNh3_OX9VVRD9BWq7zBw137AH3h8qHBT8RADlgsD0IrWaE9CONi14z8UeVhKPJfbm426SqJd3ssnk7T3UeVu2q8Q-g1LcrLpWmyc04M-rizfpNI9jcitOul6Q38sGrAWPMrTMvzDIRybt1DlI792Zj5bIaDDqBdUBBm3oTNPT91110J9Q4Die-CIZCz6fQikKXizo8_BpJhkt80kI7QQCOYUy94f1LiX3SQckLD4_cXqurIPg",
+            "v": "2.327.0_prod-io"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://data.pendo.io/data/ptm.gif/d6c1d995-bc7e-4e53-77f1-2ea4ecbb9565?v=2.327.0_prod-io&ct=1781160052365&jzb=eJzNVFFr20wQ_Cvlnh1Zd7ZsWW-mEa5LcQy2Qvt9FHGRNtE10p16d7Iigv979izhGkpDoRDyZHt2tTs7M9b_z8R2NZCIiBykFfcdGZE7rVoDOrWiwgqdh5TOfD9gbEFH5CCMsEqnIseH0m28ub5J9-lq-t-n0G8X6x8tDuBZphpp-x4OEWNhsAix0OgSkcLa2kTjcdu2nskEyAxyoSGzXqaqMbbVWtWGRM9ElXn6Nwtd3-VS2ZTlP1E9IgmuUZE9v1ufB9r-Bwmz22nyNZyr5FtSPk4ynHOveQWn4jYOlnYX3CqYBMutcYIaMEYoeSpTXj59TuBRrONtZwvmVLGVOzYruJTgBLo-qeFIGPjZOH1I5KMvnQWUZcrmx9HZtwosf8WzCWVv7NmwzH2t-QNsUBd83uRRoSqIivrJNWNh3_OX9VVRD9BWq7zBw137AH3h8qHBT8RADlgsD0IrWaE9CONi14z8UeVhKPJfbm426SqJd3ssnk7T3UeVu2q8Q-g1LcrLpWmyc04M-rizfpNI9jcitOul6Q38sGrAWPMrTMvzDIRybt1DlI792Zj5bIaDDqBdUBBm3oTNPT91110J9Q4Die-CIZCz6fQikKXizo8_BpJhkt80kI7QQCOYUy94f1LiX3SQckLD4_cXqurIPg"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 913221436,
+            "ck": 0,
+            "ptid": "226ab62aff711c12",
+            "ref": "https://www.sciencedirect.com/",
+            "rst": 2475,
+            "s": 0,
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.310.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/7ac4127487?a=913221436&sa=1&v=1.310.1&t=Unnamed%20Transaction&rst=2475&ck=0&s=0&ref=https://www.sciencedirect.com/&ptid=226ab62aff711c12"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 913221436,
+            "ck": 0,
+            "ptid": "226ab62aff711c12",
+            "ref": "https://www.sciencedirect.com/",
+            "rst": 2471,
+            "s": 0,
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.310.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/7ac4127487?a=913221436&sa=1&v=1.310.1&t=Unnamed%20Transaction&rst=2471&ck=0&s=0&ref=https://www.sciencedirect.com/&ptid=226ab62aff711c12"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 913221436,
+            "ck": 0,
+            "ptid": "226ab62aff711c12",
+            "ref": "https://www.sciencedirect.com/",
+            "rst": 2467,
+            "s": 0,
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.310.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/7ac4127487?a=913221436&sa=1&v=1.310.1&t=Unnamed%20Transaction&rst=2467&ck=0&s=0&ref=https://www.sciencedirect.com/&ptid=226ab62aff711c12"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 913221436,
+            "af": "err,spa,xhr,stn,ins",
+            "be": 1286,
+            "ck": 0,
+            "dc": 234,
+            "fcp": 1547,
+            "fe": 323,
+            "fp": 1547,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 977,
+                "ce": 977,
+                "dc": 1548,
+                "de": 1520,
+                "di": 1393,
+                "dn": 977,
+                "dne": 977,
+                "ds": 1519,
+                "f": 977,
+                "l": 1549,
+                "le": 1609,
+                "n": 0,
+                "of": 1781160046831,
+                "rp": 1286,
+                "rpe": 1295,
+                "rq": 979,
+                "s": 977
+              }
+            },
+            "ptid": "226ab62aff711c12",
+            "ref": "https://www.sciencedirect.com/",
+            "rst": 2276,
+            "s": 0,
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.310.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/7ac4127487?a=913221436&sa=1&v=1.310.1&t=Unnamed%20Transaction&rst=2276&ck=0&s=0&ref=https://www.sciencedirect.com/&ptid=226ab62aff711c12&af=err,spa,xhr,stn,ins&be=1286&fe=323&dc=234&perf=%7B%22timing%22:%7B%22of%22:1781160046831,%22n%22:0,%22f%22:977,%22dn%22:977,%22dne%22:977,%22c%22:977,%22s%22:977,%22ce%22:977,%22rq%22:979,%22rp%22:1286,%22rpe%22:1295,%22di%22:1393,%22ds%22:1519,%22de%22:1520,%22dc%22:1548,%22l%22:1549,%22le%22:1609%7D,%22navigation%22:%7B%7D%7D&fp=1547&fcp=1547"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.310.1.min.js"
+      },
+      {
+        "data": {
+          "filter": "||pendo.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sciencedirect.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.pendo.io/agent/static/d6c1d995-bc7e-4e53-77f1-2ea4ecbb9565/pendo.js"
+      }
+    ]
+  }
+}

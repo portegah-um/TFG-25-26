@@ -1,0 +1,1428 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Direct Connections to Streaming Video Inventory | FreeWheel",
+  "uri_ins": "https://fwmrm.net",
+  "uri_dest": "https://www.freewheel.com/",
+  "uri_redirects": [
+    "https://fwmrm.net/",
+    "https://freewheel.com/",
+    "http://www.freewheel.com/"
+  ],
+  "secure_connection": {},
+  "host": "fwmrm.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:41:46.047Z",
+  "end_time": "2026-06-11T09:41:52.724Z",
+  "browsing_history": [
+    "https://www.freewheel.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "fwmrm.net",
+        "freewheel.com",
+        "www.freewheel.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "player.vimeo.com",
+        "cdnjs.cloudflare.com",
+        "js.hs-scripts.com",
+        "cdn.jsdelivr.net",
+        "geolocation.onetrust.com",
+        "connect.facebook.net",
+        "www.googletagmanager.com",
+        "js.hs-banner.com",
+        "js.hubspot.com",
+        "www.google-analytics.com",
+        "snap.licdn.com",
+        "static.hotjar.com",
+        "js.ipredictive.com",
+        "www.google.com",
+        "cnv.event.prod.bidr.io",
+        "extend.vimeocdn.com",
+        "ad.ipredictive.com",
+        "region1.google-analytics.com",
+        "www.facebook.com",
+        "cta-service-cms2.hubspot.com",
+        "px.ads.linkedin.com",
+        "perf-na1.hsforms.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://connect.facebook.net/signals/config/1073571279349076?v=2.9.337&r=stable&domain=www.freewheel.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171%2C231%2C230%2C225%2C227%2C228%2C229%2C226%2C214%2C224%2C196%2C193%2C194%2C188%2C192%2C195%2C191%2C186%2C321%2C199%2C189%2C190%2C218%2C187%2C185%2C238%2C209%2C179%2C180%2C175%2C181%2C178%2C176%2C177%2C174%2C172%2C183%2C184%2C182%2C269%2C320%2C197%2C241%2C247%2C242%2C244%2C246%2C245%2C243%2C240%2C256%2C251%2C253%2C250%2C257%2C254%2C249%2C255%2C252%2C248%2C294": [
+          "click"
+        ],
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js": [
+          "mousedown"
+        ],
+        "https://connect.facebook.net/signals/config/1210166443123557?v=2.9.337&r=stable&domain=www.freewheel.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PBKWD2R": [
+          "click"
+        ],
+        "https://www.freewheel.com/wp-content/themes/freewheel/dist/js/libs.min.js": [
+          "scroll",
+          "mousedown",
+          "mouseup",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://js.hubspot.com/web-interactives-embed.js": [
+          "keydown"
+        ],
+        "https://www.freewheel.com/wp-content/themes/freewheel/dist/js/libs.min.js": [
+          "keydown",
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "jvSb9qtPu9y1fEfneaa4Ly2Hke0pGZTkxt9vCCdXU24-1781170906.9854329-1.0.1.1-gNqpuEqxq6sor5z9kX1UkhqPtMmsxSYAW1EOMUORegpdXHQuRuZp1FjVdJIeBDwWcQlRsYj3mWbXcl4obSDKEi6OkAEI6avW9tIDjGhNdbuKTtN4f39VUiAshCfqnAul",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:47.138Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "yurIAtFbYgho2zwLP9kzoe9LACZjYkC4DcNd5uLoIvQ-1781170907.3576047-1.0.1.1-OCqudQuNvCJBBUIpKIKCXZUZs16IDLSyE2bK6kDih1G5NXU.Kx.8rjHrG5bePnGZKEIDftCdz5izwPLk0ab8KmXPWjBsQzVq_y8urne2durKTPe.Q.k9fF87V7v.UVAm",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:47.373Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "7LeFRzBuUf2TQz83PkHPN8iebCeFMpeKADS4_yd9nFw-1781170907.3576047-1.0.1.1-jLj5zv_zHDChDNv.G0Q0du2zFcsm3zm6dZQu05Iv1qc",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "3YpipGzwbDHS.yFNzp14.riVFCx6G5iUXdFyU1rDlNA-1781170908-1.2.1.1-8HjQzy4bwDB98xeIyPXWckzGNzbf3oLCePUC2JEGSsac2Yt3gWdE5CwFfF5MyuJhjDUBJe9txIH6vKecIm9EKY_YRNWJB.HrQZgWJk7KnLNoMPv0HSHtYpMQFckYqnZMVSQ9FDj59mIV5EmQ7N1D47ngd36v5MR5wuOPf39l9hAB4_wYT_SUGGStb3JWzoH622PL0SEc_QEgfHCAiInjWcPLA6FWTAzTVWlKIM1E3QtemoFNVVt1IGBkTiY4R3ZNX4SnXCdWzjOibLvUToPLXq3xvdOeD9dng9AN9_HnUXmKDhYkzajD4LqFvrkmt4ykmS1Eub3OZTDE7qoqfuxzGA",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2027-06-11T09:41:48.060Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://freewheel.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "mziltOLgNTXdC..OcTnlQQSKnyIzBSQ8vF7cXUE_yIY-1781170908.04368-1.0.1.1-nj_5phsbe5LVfoMstW17rnL7v4DK2HXcjBWfjfLUr6AGLHM2nfX1.Jt2yT0eP..6m_xZOzzjStyqFbRQA6ks7Ucd0WeJY3Cmm9UsCFtDVhvvI2HM85RDx8RjWc37mrhM",
+        "domain": "www.freewheel.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:48.060Z",
+        "size": 204,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": ".8UDUAPih6M6J1DWJLF9yMAsaNrzsFtGpSh55WIy.vk-1781170907.7522805-1.0.1.1-cMEp.XtPWAfJOazwkMjJ4qmSOeCpgZSjO6.RVbQqSb2.cDDSl82ecCB8rbTX6DvR1P1qcIHGTifmTZ.5URLKBx01MIjaTWngIAQ7RDHFsietaX8coKOQXibWnwz84L1C",
+        "domain": "hs-scripts.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:48.179Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A41%3A48+GMT%2B0200+(Central+European+Summer+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=a8138417-74be-43df-aa8d-60275ee14154&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.freewheel.com%2F&groups=C0032%3A1%2CC0033%3A1%2CC0034%3A1%2CC0035%3A1",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2027-06-11T09:41:48.000Z",
+        "size": 379,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1141579886.1781170909",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2026-09-09T09:41:49.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gtm_pageview_count",
+        "value": "1",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2026-07-11T09:41:48.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.288664819.1781170909",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2026-06-12T09:41:49.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-142773176-1",
+        "value": "1",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2026-06-11T09:42:49.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bitoIsSecure",
+        "value": "ok",
+        "domain": "bidr.io",
+        "path": "/",
+        "expires": "2027-07-11T05:41:49.286Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bito",
+        "value": "AACRX07UVQYAAAA8ubw2IQ",
+        "domain": "bidr.io",
+        "path": "/",
+        "expires": "2027-07-11T05:41:49.285Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "WBniXLLABCf0Gb7EcZooSKqCTfM83EjMg6vd.Siowhg-1781170909.125481-1.0.1.1-IOGpD25HbHSLd34HlFA7J.ERYHs06o8YoNmcoGXQGaeJWWFtW7m3VjWLughY6ch26kTARvJcr6NLWeZjqjy1wcuxQ2ziLzdJvM_W6Lfq8u0p_L7x2S39fliFtiulVdhX",
+        "domain": "hs-banner.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:49.490Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_W3MWE5LPS8",
+        "value": "GS2.1.s1781170909$o1$g0$t1781170909$j60$l0$h0",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2027-07-16T09:41:49.524Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1133962084.1781170909",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2027-07-16T09:41:49.610Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_9TQJH7E2L9",
+        "value": "GS2.1.s1781170909$o1$g0$t1781170909$j60$l0$h0",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2027-07-16T09:41:49.606Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cu",
+        "value": "77762863-bb83-48b3-9e4c-8f8000766a97|1781170909606",
+        "domain": "ipredictive.com",
+        "path": "/",
+        "expires": "2027-06-11T09:41:49.662Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1781170909795.374839999708864230",
+        "domain": "freewheel.com",
+        "path": "/",
+        "expires": "2026-09-09T09:41:50.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=VGST02:s=V:r=V:a=V:p=V:g=3776:u=1:x=1:i=1781170910:t=1781257310:v=2:sig=AQFlDsChj5mr0wolCOsqFyAU2C_REpsR\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-12T09:41:50.553Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&e12fe145-4735-46bd-86a1-0aa8161a38b2\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2027-06-11T09:41:50.553Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_gc",
+        "value": "MTswOzE3ODExNzA5MTA7MjswMjGXdOHNPT3t/gxvZ2qdsgryFA5Vu3Nrkqdex+eZTiY4Lw==",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-12-08T09:41:50.553Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "z7ojfZXkU.zZER6YrGw.eqsjvkHQatbAAKXcsHANlic-1781170910.4217465-1.0.1.1-d5xb.1PG0qQh_i4LjDYLQmlFhqXt4NkLaVZFQvnCCTmyXuWYe4.VhNBaO5nPbaIWD1v1ZHon1qnIAaH8ys_h1OI9l6S_2HoNfjnCMa.6NKjo1XnP46nKyrmaHY9OA4QY",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:50.553Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "kWlpykzD5LYXJhkjD575EB7GXWzCGVZV4CEapXHT2YU-1781170910.489598-1.0.1.1-eCwzxoTAb5SPkNfmt5pH06_ZlBzfY4iFiACL1ct8oU.eVzm_rIFDu1pMZZouXyAqXJxCvcqputPi38w52RQozWi.utI9T.DbwcGWYOGS2hGjgMAKi3xQS1CXISk1cpwr",
+        "domain": "hsforms.com",
+        "path": "/",
+        "expires": "2026-06-11T10:11:50.628Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.freewheel.com/",
+        "raw": "https://www.facebook.com/tr/?id=1073571279349076&ev=PageView&dl=https%3A%2F%2Fwww.freewheel.com%2F&rl=&if=false&ts=1781170910114&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781170909795.374839999708864230&ler=empty&pmd[title]=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&pmd[locale]=en_US&pmd[description]=Directly%20access%20streaming%20video%20inventory%20from%20the%20world%E2%80%99s%20leading%20publishers%2C%20boosting%20your%20working%20media%20by%20reducing%20middlemen.&plt=1394.2999999821186&imft=1&tz=120&cs_est=true&it=1781170908818&coo=false&cdl=&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.freewheel.com/",
+        "raw": "https://www.facebook.com/tr/?id=1210166443123557&ev=PageView&dl=https%3A%2F%2Fwww.freewheel.com%2F&rl=&if=false&ts=1781170909830&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781170909795.374839999708864230&ler=empty&pmd[title]=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&pmd[locale]=en_US&pmd[description]=Directly%20access%20streaming%20video%20inventory%20from%20the%20world%E2%80%99s%20leading%20publishers%2C%20boosting%20your%20working%20media%20by%20reducing%20middlemen.&plt=1394.2999999821186&imft=1&tz=120&it=1781170908818&coo=false&cdl=&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=GET"
+      }
+    ],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-6576165.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1285,
+            "_eu": "AAAAAAQC",
+            "_p": 1781170907383,
+            "_s": 2,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 1133962084.178117,
+            "dl": "https://www.freewheel.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Direct Connections to Streaming Video Inventory | FreeWheel",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v894506570za20gzb812264768zd812264768",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170909,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 6087,
+            "tid": "G-W3MWE5LPS8",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-W3MWE5LPS8&gtm=45je6691v894506570za20gzb812264768zd812264768&_p=1781170907383&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQC&are=1&cid=1133962084.1781170909&frm=0&pscdl=&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115938466~115938468&sid=1781170909&sct=1&seg=0&dl=https%3A%2F%2Fwww.freewheel.com%2F&dt=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&_tu=CA&en=user_engagement&_et=1285&tfd=6087"
+      },
+      {
+        "data": {
+          "filter": "||hsforms.com^*/counters.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "config-loaded-success",
+            "value": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://perf-na1.hsforms.com/embed/v3/counters.gif?key=config-loaded-success&value=1"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aems": "0;0",
+            "cdl": "",
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.freewheel.com/",
+            "ec": 0,
+            "ev": "PageView",
+            "expv2[0]": "pl0",
+            "expv2[1]": "el3",
+            "expv2[2]": "bc1",
+            "expv2[3]": "ra2",
+            "expv2[4]": "rp2",
+            "expv2[5]": "im1",
+            "expv2[6]": "hf1",
+            "fbp": "fb.1.1781170909795.374839999708864230",
+            "id": 1073571279349076,
+            "if": false,
+            "imft": 1,
+            "it": 1781170908818,
+            "iw": false,
+            "ler": "empty",
+            "o": 4126,
+            "plt": 1394.2999999821186,
+            "pmd[description]": "Directly access streaming video inventory from the world’s leading publishers, boosting your working media by reducing middlemen.",
+            "pmd[locale]": "en_US",
+            "pmd[title]": "Direct Connections to Streaming Video Inventory | FreeWheel",
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781170910114,
+            "tz": 120,
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=1073571279349076&ev=PageView&dl=https%3A%2F%2Fwww.freewheel.com%2F&rl=&if=false&ts=1781170910114&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781170909795.374839999708864230&ler=empty&pmd[title]=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&pmd[locale]=en_US&pmd[description]=Directly%20access%20streaming%20video%20inventory%20from%20the%20world%E2%80%99s%20leading%20publishers%2C%20boosting%20your%20working%20media%20by%20reducing%20middlemen.&plt=1394.2999999821186&imft=1&tz=120&cs_est=true&it=1781170908818&coo=false&cdl=&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "g",
+            "medium": "fetch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "conversionId": 27075162,
+            "fmt": "js",
+            "pid": "15426,9011258,4393777,6867370",
+            "time": 1781170910054,
+            "tm": "gtmv2",
+            "url": "https://www.freewheel.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=15426%2C9011258%2C4393777%2C6867370&time=1781170910054&conversionId=27075162&url=https%3A%2F%2Fwww.freewheel.com%2F&tm=gtmv2"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": "15426,9011258,4393777,6867370",
+            "time": 1781170910051,
+            "tm": "gtmv2",
+            "url": "https://www.freewheel.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=15426%2C9011258%2C4393777%2C6867370&time=1781170910051&url=https%3A%2F%2Fwww.freewheel.com%2F&tm=gtmv2"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "conversionId": 27075162,
+            "pid": "15426,9011258,4393777,6867370",
+            "time": 1781170910054,
+            "tm": "gtmv2",
+            "url": "https://www.freewheel.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=15426%2C9011258%2C4393777%2C6867370&time=1781170910054&url=https%3A%2F%2Fwww.freewheel.com%2F&conversionId=27075162&tm=gtmv2"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": "15426,9011258,4393777,6867370",
+            "time": 1781170910051,
+            "tm": "gtmv2",
+            "url": "https://www.freewheel.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=15426%2C9011258%2C4393777%2C6867370&time=1781170910051&url=https%3A%2F%2Fwww.freewheel.com%2F&tm=gtmv2"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aems": "0;0",
+            "cdl": "",
+            "coo": false,
+            "dl": "https://www.freewheel.com/",
+            "ec": 0,
+            "ev": "PageView",
+            "expv2[0]": "pl0",
+            "expv2[1]": "el2",
+            "expv2[2]": "bc1",
+            "expv2[3]": "ra2",
+            "expv2[4]": "rp2",
+            "expv2[5]": "im1",
+            "expv2[6]": "hf1",
+            "fbp": "fb.1.1781170909795.374839999708864230",
+            "id": 1210166443123557,
+            "if": false,
+            "imft": 1,
+            "it": 1781170908818,
+            "iw": false,
+            "ler": "empty",
+            "o": 4126,
+            "plt": 1394.2999999821186,
+            "pmd[description]": "Directly access streaming video inventory from the world’s leading publishers, boosting your working media by reducing middlemen.",
+            "pmd[locale]": "en_US",
+            "pmd[title]": "Direct Connections to Streaming Video Inventory | FreeWheel",
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781170909830,
+            "tz": 120,
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=1210166443123557&ev=PageView&dl=https%3A%2F%2Fwww.freewheel.com%2F&rl=&if=false&ts=1781170909830&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781170909795.374839999708864230&ler=empty&pmd[title]=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&pmd[locale]=en_US&pmd[description]=Directly%20access%20streaming%20video%20inventory%20from%20the%20world%E2%80%99s%20leading%20publishers%2C%20boosting%20your%20working%20media%20by%20reducing%20middlemen.&plt=1394.2999999821186&imft=1&tz=120&it=1781170908818&coo=false&cdl=&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.freewheel.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171,231,230,225,227,228,229,226,214,224,196,193,194,188,192,195,191,186,321,199,189,190,218,187,185,238,209,179,180,175,181,178,176,177,174,172,183,184,182,269,320,197,241,247,242,244,246,245,243,240,256,251,253,250,257,254,249,255,252,248,294",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1073571279349076?v=2.9.337&r=stable&domain=www.freewheel.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171%2C231%2C230%2C225%2C227%2C228%2C229%2C226%2C214%2C224%2C196%2C193%2C194%2C188%2C192%2C195%2C191%2C186%2C321%2C199%2C189%2C190%2C218%2C187%2C185%2C238%2C209%2C179%2C180%2C175%2C181%2C178%2C176%2C177%2C174%2C172%2C183%2C184%2C182%2C269%2C320%2C197%2C241%2C247%2C242%2C244%2C246%2C245%2C243%2C240%2C256%2C251%2C253%2C250%2C257%2C254%2C249%2C255%2C252%2C248%2C294"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1781170907383,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1133962084.178117,
+            "dl": "https://www.freewheel.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Direct Connections to Streaming Video Inventory | FreeWheel",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v894506570z8812264768za20gzb812264768zd812264768",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170909,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 3110,
+            "tid": "G-9TQJH7E2L9",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-9TQJH7E2L9&gtm=45je6691v894506570z8812264768za20gzb812264768zd812264768&_p=1781170907383&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1133962084.1781170909&frm=0&pscdl=&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&sid=1781170909&sct=1&seg=0&dl=https%3A%2F%2Fwww.freewheel.com%2F&dt=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&en=page_view&_fv=1&_ss=1&tfd=3110"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_p": 1781170907383,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1133962084.178117,
+            "dl": "https://www.freewheel.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Direct Connections to Streaming Video Inventory | FreeWheel",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v894506570z8812264768za20gzb812264768zd812264768",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170909,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 3032,
+            "tid": "G-W3MWE5LPS8",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-W3MWE5LPS8&gtm=45je6691v894506570z8812264768za20gzb812264768zd812264768&_p=1781170907383&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAAC&are=1&cid=1133962084.1781170909&frm=0&pscdl=&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&sid=1781170909&sct=1&seg=0&dl=https%3A%2F%2Fwww.freewheel.com%2F&dt=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&en=page_view&_fv=1&_ss=1&tfd=3032"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-770806714"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-770806714&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_bee_ppp": 1,
+            "account_id": 2,
+            "buzz_key": "dsp",
+            "ord": "[CACHEBUSTER]",
+            "order": "[ORDER]",
+            "segment_key": "dsp-11491",
+            "tag_id": 266,
+            "value": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnv.event.prod.bidr.io/log/cnv?tag_id=266&buzz_key=dsp&value=&segment_key=dsp-11491&account_id=2&order=%5BORDER%5D&ord=%5BCACHEBUSTER%5D&_bee_ppp=1"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_bee_ppp": 1,
+            "account_id": 153,
+            "buzz_key": "dsp",
+            "ord": "[CACHEBUSTER]",
+            "order": "[ORDER]",
+            "segment_key": "dsp-54720",
+            "tag_id": 15803,
+            "value": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnv.event.prod.bidr.io/log/cnv?tag_id=15803&buzz_key=dsp&value=&segment_key=dsp-54720&account_id=153&order=%5BORDER%5D&ord=%5BCACHEBUSTER%5D&_bee_ppp=1"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_bee_ppp": 1,
+            "account_id": 2,
+            "buzz_key": "dsp",
+            "ord": "[CACHEBUSTER]",
+            "order": "[ORDER]",
+            "segment_key": "dsp-11490",
+            "tag_id": 265,
+            "value": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnv.event.prod.bidr.io/log/cnv?tag_id=265&buzz_key=dsp&value=&segment_key=dsp-11490&account_id=2&order=%5BORDER%5D&ord=%5BCACHEBUSTER%5D&_bee_ppp=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 288664819.1781171,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YEBAAEABAAAAACAAI~",
+            "_v": "j102",
+            "a": 1320176184,
+            "cid": 1133962084.178117,
+            "dl": "https://www.freewheel.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Direct Connections to Streaming Video Inventory | FreeWheel",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 1763097201,
+            "gtm": "45He6691n81PBKWD2Rv812264768za200zd812264768",
+            "jid": 525266049,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115616986~115938466~115938469~117776794",
+            "tid": "UA-142773176-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2070896233
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1320176184&t=pageview&_s=1&dl=https%3A%2F%2Fwww.freewheel.com%2F&ul=en-us&dt=Direct%20Connections%20to%20Streaming%20Video%20Inventory%20%7C%20FreeWheel&sr=375x812&vp=375x812&_u=YEBAAEABAAAAACAAI~&jid=525266049&gjid=1763097201&cid=1133962084.1781170909&tid=UA-142773176-1&_gid=288664819.1781170909&_r=1&_slc=1&gtm=45He6691n81PBKWD2Rv812264768za200zd812264768&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616986~115938466~115938469~117776794&npa=1&z=2070896233"
+      },
+      {
+        "data": {
+          "filter": "||ipredictive.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cache_buster": 1781170909,
+            "ps": 0,
+            "upid": 115514,
+            "url": "https://www.freewheel.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.ipredictive.com/d/track/event?upid=115514&cache_buster=1781170909&url=https%3A%2F%2Fwww.freewheel.com%2F&ps=0"
+      },
+      {
+        "data": {
+          "filter": "||vimeocdn.com/ga/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://extend.vimeocdn.com/ga/24477474.js"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account_id": 153,
+            "buzz_key": "dsp",
+            "ord": "[CACHEBUSTER]",
+            "order": "[ORDER]",
+            "segment_key": "dsp-54720",
+            "tag_id": 15803,
+            "value": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnv.event.prod.bidr.io/log/cnv?tag_id=15803&buzz_key=dsp&value=&segment_key=dsp-54720&account_id=153&order=[ORDER]&ord=[CACHEBUSTER]"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account_id": 2,
+            "buzz_key": "dsp",
+            "ord": "[CACHEBUSTER]",
+            "order": "[ORDER]",
+            "segment_key": "dsp-11491",
+            "tag_id": 266,
+            "value": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnv.event.prod.bidr.io/log/cnv?tag_id=266&buzz_key=dsp&value=&segment_key=dsp-11491&account_id=2&order=[ORDER]&ord=[CACHEBUSTER]"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "account_id": 2,
+            "buzz_key": "dsp",
+            "ord": "[CACHEBUSTER]",
+            "order": "[ORDER]",
+            "segment_key": "dsp-11490",
+            "tag_id": 265,
+            "value": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnv.event.prod.bidr.io/log/cnv?tag_id=265&buzz_key=dsp&value=&segment_key=dsp-11490&account_id=2&order=[ORDER]&ord=[CACHEBUSTER]"
+      },
+      {
+        "data": {
+          "filter": "||ipredictive.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.ipredictive.com/viant_universal_pixel.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-6576165.js?sv=7"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-9TQJH7E2L9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-9TQJH7E2L9&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-W3MWE5LPS8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-W3MWE5LPS8&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.freewheel.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1210166443123557?v=2.9.337&r=stable&domain=www.freewheel.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PBKWD2R"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PBKWD2R"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "/OtAutoBlock.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.freewheel.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cookielaw.org/consent/018e8aaf-e04c-782b-a1c5-893b9db4427f/OtAutoBlock.js"
+      },
+      {
+        "data": {
+          "filter": "||fwmrm.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fwmrm.net/"
+      }
+    ]
+  }
+}

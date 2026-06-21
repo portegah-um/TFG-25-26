@@ -1,0 +1,168 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "GitHub Pages documentation - GitHub Docs",
+  "uri_ins": "https://github.io",
+  "uri_dest": "https://docs.github.com/en/pages",
+  "uri_redirects": [
+    "https://docs.github.com/pages"
+  ],
+  "secure_connection": {},
+  "host": "github.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:08:55.878Z",
+  "end_time": "2026-06-11T06:09:00.628Z",
+  "browsing_history": [
+    "https://docs.github.com/en/pages"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "github.io",
+        "pages.github.com",
+        "docs.github.com"
+      ],
+      "third_party": [
+        "collector.githubapp.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://docs.github.com/_next/static/chunks/8176-7b91accac3bd06de.js": [
+          "mousedown"
+        ],
+        "https://docs.github.com/_next/static/chunks/pages/_app-7acb0580c4756904.js": [
+          "scroll"
+        ],
+        "https://docs.github.com/_next/static/chunks/7227-961358389d33be88.js": [
+          "scroll"
+        ],
+        "https://pages.github.com/js/jquery.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://docs.github.com/_next/static/chunks/7227-961358389d33be88.js": [
+          "keydown"
+        ],
+        "https://docs.github.com/_next/static/chunks/8176-7b91accac3bd06de.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_octo",
+        "value": "GH1.1.915131230.1781158138",
+        "domain": "github.com",
+        "path": "/",
+        "expires": "2027-06-11T06:08:57.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "docs_events",
+        "value": "0a262597-3b1d-4cb5-9d54-4af4ea9cd84a",
+        "domain": "docs.github.com",
+        "path": "/",
+        "expires": "2027-06-11T06:08:58.000Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://docs.github.com/en/pages",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://collector.githubapp.com/docs/collect"
+      }
+    ]
+  }
+}

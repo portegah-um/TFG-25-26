@@ -1,0 +1,662 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Samsung España | Móviles | Televisores | Electrodomésticos",
+  "uri_ins": "https://samsung.com",
+  "uri_dest": "https://www.samsung.com/es/",
+  "uri_redirects": [
+    "https://samsung.com/",
+    "https://www.samsung.com/"
+  ],
+  "secure_connection": {},
+  "host": "samsung.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:57:45.730Z",
+  "end_time": "2026-06-11T05:57:53.456Z",
+  "browsing_history": [
+    "https://www.samsung.com/es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "samsung.com",
+        "www.samsung.com",
+        "images.samsung.com",
+        "account.samsung.com",
+        "api-recommender.bigdata.samsung.com"
+      ],
+      "third_party": [
+        "assets.adobedtm.com",
+        "s.go-mpulse.net",
+        "c.go-mpulse.net",
+        "consent.trustarc.com",
+        "02179911.akstat.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://s.go-mpulse.net/boomerang/VRZKC-5BSTD-4EWS3-R2J59-B8GYB": [
+          "mousedown"
+        ],
+        "    at Object.apply (<anonymous>:13:42)": [
+          "mousemove",
+          "click",
+          "scroll",
+          "mouseup"
+        ],
+        "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-base-ux25.min.7ed038a1add1a617e67d6534c4c3cafb.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-dependencies.min.407b108c60433f00a6b1a0e8f272a2c1.js": [
+          "mouseup",
+          "mousemove"
+        ],
+        ":778": [
+          "mouseup",
+          "scroll"
+        ],
+        "https://assets.adobedtm.com/72afb75f5516/854881e195d7/launch-4131e4fc338d.min.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://s.go-mpulse.net/boomerang/VRZKC-5BSTD-4EWS3-R2J59-B8GYB": [
+          "touchstart"
+        ],
+        ":778": [
+          "touchend"
+        ]
+      },
+      "SENSOR": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "orientationchange"
+        ],
+        "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-base-ux25.min.7ed038a1add1a617e67d6534c4c3cafb.js": [
+          "deviceorientation",
+          "orientationchange"
+        ],
+        "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-dependencies.min.407b108c60433f00a6b1a0e8f272a2c1.js": [
+          "orientationchange"
+        ],
+        ":778": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "keydown"
+        ],
+        ":778": [
+          "keyup"
+        ],
+        "https://assets.adobedtm.com/72afb75f5516/854881e195d7/launch-4131e4fc338d.min.js": [
+          "keydown"
+        ],
+        "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-base-ux25.min.7ed038a1add1a617e67d6534c4c3cafb.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "country_region",
+        "value": "CA-ON",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_fpid",
+        "value": "dcdd0b68-8db2-4648-a35f-3865296428fe",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": "2027-07-16T05:57:48.319Z",
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": "2026-06-11T06:57:48.319Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "country_codes",
+        "value": "es",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "device_type",
+        "value": "mobile",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__COM_SPEED",
+        "value": "H",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": "2026-06-12T05:57:48.616Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cookie_country",
+        "value": "es",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": "2026-06-12T05:57:48.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_pv",
+        "value": "es%3Ahome",
+        "domain": "www.samsung.com",
+        "path": "/",
+        "expires": "2026-06-11T06:27:49.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_ppvl",
+        "value": "es%253Ahome%2C16%2C16%2C812%2C375%2C812%2C375%2C812%2C3%2CL",
+        "domain": "www.samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 65,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBTG",
+        "value": "81CO2eNDmbsoWf+grVUhvXvlL2wfqF3YNlkAh0RYI7PQRgaTqDmcOVMlzNuFvKwDYYweV0PEXCTUf8+lMWvQ4SBssVCFQ8dJEeac2/Ell47zro/YdRS9Aky7Q9E7vuTghrNg4K3ywrPbuz2WBJ+TEGd/GlFPYyrDt9L/uXlP6g0t",
+        "domain": "api-recommender.bigdata.samsung.com",
+        "path": "/",
+        "expires": "2026-06-18T05:57:50.011Z",
+        "size": 180,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBTGCORS",
+        "value": "81CO2eNDmbsoWf+grVUhvXvlL2wfqF3YNlkAh0RYI7PQRgaTqDmcOVMlzNuFvKwDYYweV0PEXCTUf8+lMWvQ4SBssVCFQ8dJEeac2/Ell47zro/YdRS9Aky7Q9E7vuTghrNg4K3ywrPbuz2WBJ+TEGd/GlFPYyrDt9L/uXlP6g0t",
+        "domain": "api-recommender.bigdata.samsung.com",
+        "path": "/",
+        "expires": "2026-06-18T05:57:50.011Z",
+        "size": 184,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "amzn_consent",
+        "value": "%7B%22geo%22%3A%7B%22countryCode%22%3A%22ES%22%7D%2C%22amazonConsentFormat%22%3A%7B%22amznAdStorage%22%3A%22DENIED%22%2C%22amznUserData%22%3A%22DENIED%22%7D%2C%22timestamp%22%3A%222026-06-11T05%3A57%3A50.183Z%22%2C%22version%22%3A%221%22%7D",
+        "domain": "www.samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 252,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TAsessionID",
+        "value": "2003c37c-fa26-4622-9ee6-aabdbe4872c6|NEW",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": "2026-06-11T06:27:50.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "notice_behavior",
+        "value": "implied,eu",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "RT",
+        "value": "\"z=1&dm=samsung.com&si=b33c463d-9cd5-45ec-a890-a7f8f0dd8c3c&ss=mq9360r9&sl=1&tt=2uy&bcn=%2F%2F02179911.akstat.io%2F&ld=3d3\"",
+        "domain": "samsung.com",
+        "path": "/",
+        "expires": "2026-06-18T05:57:50.000Z",
+        "size": 125,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ppv",
+        "value": "es%253Ahome%2C31%2C15%2C1712%2C375%2C812%2C375%2C812%2C3%2CL",
+        "domain": "www.samsung.com",
+        "path": "/",
+        "expires": -1,
+        "size": 65,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://02179911.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://02179911.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "samsung.com.es",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.samsung.com",
+            "session": "2003c37cfa2646229ee6aabdbe4872c6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=samsung.com.es&implied=1&session=2003c37cfa2646229ee6aabdbe4872c6&new=1&referer=https://www.samsung.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "samsung.com.es",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.samsung.com",
+            "session": "2003c37cfa2646229ee6aabdbe4872c6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=samsung.com.es&implied=1&session=2003c37cfa2646229ee6aabdbe4872c6&new=1&referer=https://www.samsung.com"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RC970098088660410f89e5211b337e2a97-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RCf9e5d9fffcd24107aa6f40d88bec0b47-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RCb6b900c8d47a4bc281451885a822bda4-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RC02b15ddec9414dc18d5bbdcec88b8445-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RC7f11700299224d1781036672ceb0a5a4-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 293013,
+            "d": "www.samsung.com",
+            "if": "",
+            "key": "VRZKC-5BSTD-4EWS3-R2J59-B8GYB",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN",
+            "si": "f21bdf6b-8121-4830-9812-5294800b1fb6-tggdwa",
+            "sl": 0,
+            "t": 5937192,
+            "v": "1.766.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5937192&v=1.766.0&if=&sl=0&si=f21bdf6b-8121-4830-9812-5294800b1fb6-tggdwa&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=293013"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RC0594080b06a546eabd0cf14429d26fe3-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.samsung.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/72afb75f5516/854881e195d7/3555148d93eb/RCe4cf95ff592c4c6eb6566a7e95f86ac0-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/VRZKC-5BSTD-4EWS3-R2J59-B8GYB"
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Springer | Partner, knowledge, expertise",
+  "uri_ins": "https://springer.com",
+  "uri_dest": "https://link.springer.com/brands/springer",
+  "uri_redirects": [
+    "https://springer.com/",
+    "https://www.springer.com/",
+    "https://link.springer.com/brands/springer",
+    "https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer",
+    "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer&code=86f2c9c9-34b0-426f-81a7-b24930844d9f"
+  ],
+  "secure_connection": {},
+  "host": "springer.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:58:27.512Z",
+  "end_time": "2026-06-11T06:58:31.954Z",
+  "browsing_history": [
+    "https://link.springer.com/brands/springer"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "springer.com",
+        "www.springer.com",
+        "link.springer.com",
+        "idp.springer.com",
+        "cmp.springer.com",
+        "cart.springer.com",
+        "sgtm.springer.com"
+      ],
+      "third_party": [
+        "media.springernature.com",
+        "cdn.jsdelivr.net",
+        "www.googletagmanager.com",
+        "sgtm.springernature.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ": [
+          "click"
+        ],
+        "https://cmp.springer.com/production_live/en/consent-bundle-17-72.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cmp.springer.com/production_live/en/consent-bundle-17-72.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "idp_session",
+        "value": "sVERSION_1d1c301bc-e4a7-4439-98bc-3b878808c187",
+        "domain": "springer.com",
+        "path": "/",
+        "expires": -1,
+        "size": 57,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "idp_session_http",
+        "value": "hVERSION_1b05fd183-52eb-41d5-8197-72d66f034ce9",
+        "domain": "springer.com",
+        "path": "/",
+        "expires": -1,
+        "size": 62,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "idp_marker",
+        "value": "0ce2ee07-fa2e-4d47-9f32-c0203ae495c6",
+        "domain": "springer.com",
+        "path": "/",
+        "expires": "2027-07-16T06:58:28.641Z",
+        "size": 46,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "user.uuid.v2",
+        "value": "\"1017cc8d-9b9e-47dd-8f6c-f23776a88d65\"",
+        "domain": "springer.com",
+        "path": "/",
+        "expires": "2026-09-11T06:58:28.090Z",
+        "size": 50,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sncc",
+        "value": "P%3D17%3AV%3D72.0.0%26C%3DC01%26D%3Dfalse",
+        "domain": "springer.com",
+        "path": "/",
+        "expires": "2027-06-11T06:58:29.316Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sncc_tc_17",
+        "value": "CQlo8kAQlo8kAGgABAENCiFgAAAAAAAAAAYgAAAAAADBIAMAAQUrHQAYAAgpWQgAwABBSslABgACClZSADAAEFKy0AGAAIKVgAAA.IKVoBpC5EASFFIDJ3YJsEIAATwBhAAMAgAAAAAAAASBIAIAwAFCAAAAAAACAAAAIAAAAAIAAACAAAAAAAAAAABACAAAAAAAAAIAAAAAAAAEAAAAAAAAgAAAAAAAAEAgAAgQAAABIIQEAAAAAAIQABAIAAAIAAAQAAAAAAQAAAAAAAQAAAQAAIgAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIC.YAAAAAAAAAAA",
+        "domain": "springer.com",
+        "path": "/",
+        "expires": "2027-06-11T06:58:29.456Z",
+        "size": 348,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://link.springer.com/brands/springer",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099063
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://link.springer.com/brands/springer",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202606090101/pubads_impl.js?cb=31099063"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://link.springer.com/brands/springer",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-MRVXSHQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://link.springer.com/brands/springer",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MRVXSHQ&gtg_health=1"
+      }
+    ]
+  }
+}

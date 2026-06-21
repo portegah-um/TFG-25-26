@@ -1,0 +1,1035 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Braze Customer Engagement Platform",
+  "uri_ins": "https://braze.com",
+  "uri_dest": "https://www.braze.com/",
+  "uri_redirects": [
+    "https://braze.com/"
+  ],
+  "secure_connection": {},
+  "host": "braze.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:44:57.128Z",
+  "end_time": "2026-06-11T08:45:05.821Z",
+  "browsing_history": [
+    "https://www.braze.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "braze.com",
+        "www.braze.com"
+      ],
+      "third_party": [
+        "cdn.sanity.io",
+        "cdn.cookielaw.org",
+        "www.googletagmanager.com",
+        "dev.visualwebsiteoptimizer.com",
+        "geolocation.onetrust.com",
+        "js.qualified.com",
+        "app.qualified.com",
+        "pagead2.googlesyndication.com",
+        "assets.qualified.com",
+        "static.cloudflareinsights.com",
+        "o209747.ingest.us.sentry.io",
+        "region1.google-analytics.com",
+        "ade.googlesyndication.com",
+        "messenger-assets.qualified.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://assets.qualified.com/packs/js/widget/sandboxed/messenger-ee8fad45.js": [
+          "keydown",
+          "keypress",
+          "keyup",
+          "input"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-KZ5Y9ZLHBH&cx=c&gtm=4e66a0h2": [
+          "keyup"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ],
+        "https://js.qualified.com/qualified.js?token=JDB423wPwpJxCWhB": [
+          "keypress"
+        ],
+        "https://www.braze.com/_next/static/chunks/0itfs3mw~h9ig.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "MOUSE": {
+        "https://assets.qualified.com/packs/js/widget/sandboxed/messenger-ee8fad45.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://js.qualified.com/qualified.js?token=JDB423wPwpJxCWhB": [
+          "scroll",
+          "click",
+          "mousemove"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-KZ5Y9ZLHBH&cx=c&gtm=4e66a0h2": [
+          "mousedown",
+          "click"
+        ],
+        "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-W3ZW3HBZ": [
+          "click"
+        ],
+        "https://www.braze.com/_next/static/chunks/0itfs3mw~h9ig.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://js.qualified.com/qualified.js?token=JDB423wPwpJxCWhB": [
+          "touchstart"
+        ],
+        "https://www.braze.com/_next/static/chunks/0itfs3mw~h9ig.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "6sS0hu64Rna8DybeXSRPX2GVJtN7zkYNjlo07WGmUQA-1781167497.7051501-1.0.1.1-CQXLIWo9PBAL2wKsbHG34XBQ57PcG3V8K93JIrpzqY.33vK5ojO8ReK1N0kztIpJna9FpzM55MnKkPec1fc.hEae0tE6Lw4L46NIE7HE._Zfk26LMqagFJTum3gq62Vc",
+        "domain": "braze.com",
+        "path": "/",
+        "expires": "2026-06-11T09:14:57.779Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_consent",
+        "value": "2%2C2%3A~",
+        "domain": "braze.com",
+        "path": "/",
+        "expires": "2027-06-11T08:44:58.671Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A45%3A02+GMT%2B0200+(Central+European+Summer+Time)&version=202603.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=&consentId=66e34933-686f-4aaa-81eb-1ba2f9ef2b92&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.braze.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "braze.com",
+        "path": "/",
+        "expires": "2027-06-11T08:45:02.000Z",
+        "size": 372,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__q_state_JDB423wPwpJxCWhB",
+        "value": "eyJ1dWlkIjoiMDBmZDdiMDctYmFiZi00ZWFiLThhZjEtOWE0Y2E1MWM0M2FjIiwiY29va2llRG9tYWluIjoiYnJhemUuY29tIiwibWVzc2VuZ2VyRXhwYW5kZWQiOmZhbHNlLCJwcm9tcHREaXNtaXNzZWQiOmZhbHNlLCJjb252ZXJzYXRpb25JZCI6IjE5MzI1MjE0ODg1MDg4NjI4ODgifQ==",
+        "domain": "braze.com",
+        "path": "/",
+        "expires": "2027-07-16T08:45:03.425Z",
+        "size": 246,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v877685865z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 12,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 6154,
+            "tft": 1781167503720,
+            "tid": "AW-834039424",
+            "tids": "AW-834039424"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v877685865z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938465~115938469&apve=1&apvf=f&apvc=0&tids=AW-834039424&tid=AW-834039424&tft=1781167503720&tfd=6154"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v887091507z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 6,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 6153,
+            "tft": 1781167503719,
+            "tid": "AW-377020443",
+            "tids": "AW-377020443"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v887091507z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&apve=1&apvf=f&apvc=0&tids=AW-377020443&tid=AW-377020443&tft=1781167503719&tfd=6153"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v868878435z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 8,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115616986~115938465~115938468~118012009~119456240~119456248",
+            "tfd": 6152,
+            "tft": 1781167503718,
+            "tid": "AW-377070085",
+            "tids": "AW-377070085"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v868878435z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115616986~115938465~115938468~118012009~119456240~119456248&apve=1&apvf=f&apvc=0&tids=AW-377070085&tid=AW-377070085&tft=1781167503718&tfd=6152"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v9188014598z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 5,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469~118012008",
+            "tfd": 6151,
+            "tft": 1781167503716,
+            "tid": "AW-10792001175",
+            "tids": "AW-10792001175"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v9188014598z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469~118012008&apve=1&apvf=f&apvc=0&tids=AW-10792001175&tid=AW-10792001175&tft=1781167503716&tfd=6151"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v875130172z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 17,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468~117776794",
+            "tfd": 6149,
+            "tft": 1781167503714,
+            "tid": "AW-442792952",
+            "tids": "AW-442792952"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v875130172z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468~117776794&apve=1&apvf=f&apvc=0&tids=AW-442792952&tid=AW-442792952&tft=1781167503714&tfd=6149"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v868879647z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 11,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938465~115938468",
+            "tfd": 5013,
+            "tft": 1781167502578,
+            "tid": "AW-10807555083",
+            "tids": "AW-10807555083"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v868879647z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938465~115938468&apve=1&apvf=f&apvc=0&tids=AW-10807555083&tid=AW-10807555083&tft=1781167502578&tfd=5013"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v9194496544z89191272367za20gzb9191272367zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 6,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115616986~115938465~115938469~119392697~119392705",
+            "tfd": 5012,
+            "tft": 1781167502577,
+            "tid": "AW-16651568214",
+            "tids": "AW-16651568214"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&ae=g&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v9194496544z89191272367za20gzb9191272367zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115616986~115938465~115938469~119392697~119392705&apve=1&apvf=f&apvc=0&tids=AW-16651568214&tid=AW-16651568214&tft=1781167502577&tfd=5012"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be66a0h2v9194496544z89191272367za20gzb9191272367zd9191272367xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 6,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115616986~115938465~115938469~119392697~119392705",
+            "tfd": 5011,
+            "tft": 1781167502576,
+            "tid": "AW-16651568214",
+            "tids": "AW-16651568214"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&en=page_view&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45be66a0h2v9194496544z89191272367za20gzb9191272367zd9191272367xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115616986~115938465~115938469~119392697~119392705&apve=1&apvf=f&apvc=0&tids=AW-16651568214&tid=AW-16651568214&tft=1781167502576&tfd=5011"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45fe66a0h2v9191680722z89191272367za20gzb9191272367zd9191272367xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 12,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tfd": 5009,
+            "tft": 1781167502574,
+            "tid": "DC-14785063",
+            "tids": "DC-14785063"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&en=page_view&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&gdid=dYWJhMj&_tu=KA&gtm=45fe66a0h2v9191680722z89191272367za20gzb9191272367zd9191272367xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938465~115938468&apve=1&apvf=f&apvc=0&tids=DC-14785063&tid=DC-14785063&tft=1781167502574&tfd=5009"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781167498946,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "KA",
+            "are": 1,
+            "cid": 1426867508.1781168,
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Braze Customer Engagement Platform",
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45je66a0h2v9108487757z89191272367za20gzb9191272367zd9191272367",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167500,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938468~117776794~119456239~119456247",
+            "tfd": 4937,
+            "tid": "G-KZ5Y9ZLHBH",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-KZ5Y9ZLHBH&gtm=45je66a0h2v9108487757z89191272367za20gzb9191272367zd9191272367&_p=1781167498946&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&_eu=EAAAAGAC&are=1&cid=1426867508.1781167502&frm=0&ir=1&pscdl=denied&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~117776794~119456239~119456247&sid=1781167500&sct=1&seg=0&dl=https%3A%2F%2Fwww.braze.com%2F&dt=Braze%20Customer%20Engagement%20Platform&_tu=KA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=4937"
+      },
+      {
+        "data": {
+          "filter": "/cdn-cgi/rum?",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://app.qualified.com/w/1/JDB423wPwpJxCWhB/messenger?uuid=00fd7b07-babf-4eab-8af1-9a4ca51c43ac",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.qualified.com/cdn-cgi/rum?"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/7.119.1",
+            "sentry_key": "c36ec735e564530732f0d75311d173b6",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://app.qualified.com/w/1/JDB423wPwpJxCWhB/messenger?uuid=00fd7b07-babf-4eab-8af1-9a4ca51c43ac",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o209747.ingest.us.sentry.io/api/4508915056574464/envelope/?sentry_key=c36ec735e564530732f0d75311d173b6&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.119.1"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://app.qualified.com/w/1/JDB423wPwpJxCWhB/messenger?uuid=00fd7b07-babf-4eab-8af1-9a4ca51c43ac",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-10792001175"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-10792001175&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-377070085"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-377070085&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "DC-14616612"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-14616612&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-834039424"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-834039424&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-377020443"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-377020443&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "DC-10732055"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-10732055&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "DC-11477521"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-11477521&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-442792952"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-442792952&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-10807555083"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-10807555083&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.braze.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45He66a0h2v9191272367za200zd9191272367xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 1,
+            "rnd": 561004183.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115616986~115938465~115938468~119392696~119392704",
+            "tfd": 2349,
+            "tft": 1781167499914
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.braze.com%2F&scrsrc=www.googletagmanager.com&rnd=561004183.1781167500&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He66a0h2v9191272367za200zd9191272367xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115616986~115938465~115938468~119392696~119392704&apve=1&apvf=f&apvc=1&tft=1781167499914&tfd=2349"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "AW-16651568214"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-16651568214&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "DC-14785063"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-14785063&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e66a0h2",
+            "id": "G-KZ5Y9ZLHBH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KZ5Y9ZLHBH&cx=c&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_safari-7b8bdb0a9bbbd224d93f9b4c36cbfce2.br.js"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker_safari-ad749a612fb30fbcbc38be7cc761caea.br.js"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1198045,
+            "ph": 1,
+            "st": 992.6999999880791,
+            "u": "https://www.braze.com/",
+            "vn": 2.2,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=1198045&u=https%3A%2F%2Fwww.braze.com%2F&vn=2.2&ph=1&st=992.6999999880791&x=true"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-W3ZW3HBZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.braze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W3ZW3HBZ"
+      }
+    ]
+  }
+}

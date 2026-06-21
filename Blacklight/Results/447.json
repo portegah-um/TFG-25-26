@@ -1,0 +1,744 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Speedtest by Ookla - The Global Broadband Speed Test",
+  "uri_ins": "https://speedtest.net",
+  "uri_dest": "https://www.speedtest.net/",
+  "uri_redirects": [
+    "https://speedtest.net/"
+  ],
+  "secure_connection": {},
+  "host": "speedtest.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:52:42.732Z",
+  "end_time": "2026-06-11T07:52:49.942Z",
+  "browsing_history": [
+    "https://www.speedtest.net/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "speedtest.net",
+        "www.speedtest.net",
+        "gurgle.speedtest.net"
+      ],
+      "third_party": [
+        "cdn.ziffstatic.com",
+        "securepubads.g.doubleclick.net",
+        "accounts.google.com",
+        "appleid.cdn-apple.com",
+        "b.cdnst.net",
+        "www.googleoptimize.com",
+        "config.aps.amazon-adsystem.com",
+        "client.aps.amazon-adsystem.com",
+        "openads-cdn.adsrvr.org",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "firebaseinstallations.googleapis.com",
+        "www.googletagmanager.com",
+        "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+        "cdn.hadronid.net",
+        "cdn.id5-sync.com",
+        "tags.crwdcntrl.net",
+        "c.amazon-adsystem.com",
+        "cdn.static.zdbb.net",
+        "zdbb.net",
+        "firebaseremoteconfig.googleapis.com",
+        "sb.scorecardresearch.com",
+        "region1.google-analytics.com",
+        "gurgle.zdbb.net",
+        "pagead2.googlesyndication.com",
+        "jogger.zdbb.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-KKLSRK6J1Z&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://b.cdnst.net/javascript/speedtest-main.js?v=64f1c595de78a6ed51fd8ab660611f6c": [
+          "keydown",
+          "input"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-KKLSRK6J1Z&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-K7SNBZ": [
+          "click"
+        ],
+        "https://cdn.ziffstatic.com/jst/otBannerSdk.202604.2.0.js": [
+          "click"
+        ],
+        "https://b.cdnst.net/javascript/speedtest-main.js?v=64f1c595de78a6ed51fd8ab660611f6c": [
+          "click"
+        ],
+        "https://cdn.ziffstatic.com/jst/zdconsent.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://b.cdnst.net/javascript/speedtest-main.js?v=64f1c595de78a6ed51fd8ab660611f6c": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "jCOm1f4cxOrdvjByBFYv6DNPcxBgIxCwwLTOBUNodQc-1781164363.5888307-1.0.1.1-UQgkHJ2l2NmW1GoFBVJmEEwO10xj8nHRY3b3Buvuu5kg0inyrRiQoTveG2RgM.uJJ7BKcXUJtc9OtVrKbu5EOF5yVWQcJseD7Ir4N2V4uiAnTAOLzm44XQpCseKIz.gs",
+        "domain": "www.speedtest.net",
+        "path": "/",
+        "expires": "2026-06-11T08:22:44.028Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "st4-sid",
+        "value": "s%3AjX5C7S9tPTtmrnGoTDJDk7_0lzXqk038.XQGBnYG5xBhb9La%2FX8zNY06VZv63yAeE6nrdpUNZ6E8",
+        "domain": "speedtest.net",
+        "path": "/",
+        "expires": "2026-06-11T08:22:46.243Z",
+        "size": 89,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A52%3A46+GMT%2B0200+(Central+European+Summer+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&genVendors=&consentId=cea489c1-e6fd-446f-bed1-3fc7f4ecb26f&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.speedtest.net%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CV2STACK42%3A0",
+        "domain": "speedtest.net",
+        "path": "/",
+        "expires": "2027-06-11T07:52:46.000Z",
+        "size": 400,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "opt_out",
+        "value": "1",
+        "domain": "speedtest.net",
+        "path": "/",
+        "expires": "2027-07-09T07:52:46.730Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zd_core_lialready",
+        "value": "true",
+        "domain": "speedtest.net",
+        "path": "/",
+        "expires": "2026-06-26T07:52:46.731Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "fu",
+        "value": "1",
+        "domain": "www.speedtest.net",
+        "path": "/",
+        "expires": "2026-07-11T07:52:47.000Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "href": "https://www.speedtest.net/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jogger.zdbb.net/check?href=https%3A%2F%2Fwww.speedtest.net%2F"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zdbb.net/clear_c"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "eu_consent": "",
+            "fpx": 1,
+            "lcl_id": "",
+            "url": "https://www.speedtest.net/",
+            "zd_opt_out": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gurgle.zdbb.net/info?url=https%3A%2F%2Fwww.speedtest.net%2F&fpx=1&lcl_id=&eu_consent=&zd_opt_out=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAEAC",
+            "_fv": 2,
+            "_nsi": 1,
+            "_p": 1781164366556,
+            "_prs": "gs",
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 120141006.17811644,
+            "dl": "https://www.speedtest.net/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Speedtest by Ookla - The Global Broadband Speed Test",
+            "en": "beginServerSelection",
+            "ep.firebaseId": "",
+            "ep.gtm_container": "GTM-K7SNBZ",
+            "ep.gtm_version": 333,
+            "ep.reportType": "mobile",
+            "ep.vpnUseDetected": false,
+            "ep.zdConsent_consentGiven": false,
+            "ep.zdConsent_gdprApplies": true,
+            "ep.zdConsent_geoCC": "ES",
+            "epn.browserHeight": 812,
+            "epn.browserWidth": 375,
+            "epn.client_timestamp": 1781164366879,
+            "frm": 0,
+            "gcd": "13q3pPq2q7l1",
+            "gcs": "G100",
+            "gtm": "45je6691v879908529z86359835za20gzb6359835zd6359835",
+            "gtm_up": 1,
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781164367,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469",
+            "tcfd": "10s5v",
+            "tfd": 4611,
+            "tid": "G-KKLSRK6J1Z",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.firebaseId": "",
+            "up.gaOptInStatus": false,
+            "up.googAdsOptInStatus": false,
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-KKLSRK6J1Z&gtm=45je6691v879908529z86359835za20gzb6359835zd6359835&_p=1781164366556&gcs=G100&gcd=13q3pPq2q7l1&npa=1&dma_cps=-&dma=1&tcfd=10s5v&_eu=AAAAAEAC&_prs=gs&are=1&cid=120141006.1781164368&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938469&sid=1781164367&sct=1&seg=0&dl=https%3A%2F%2Fwww.speedtest.net%2F&dt=Speedtest%20by%20Ookla%20-%20The%20Global%20Broadband%20Speed%20Test&_tu=AAg&en=beginServerSelection&_fv=2&_nsi=1&_ss=1&ep.gtm_container=GTM-K7SNBZ&ep.gtm_version=333&ep.zdConsent_geoCC=ES&ep.zdConsent_gdprApplies=true&ep.zdConsent_consentGiven=false&ep.vpnUseDetected=false&epn.client_timestamp=1781164366879&ep.firebaseId=&epn.browserWidth=375&epn.browserHeight=812&ep.reportType=mobile&up.gaOptInStatus=false&up.googAdsOptInStatus=false&up.firebaseId=&tfd=4611"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zdbb.net/clear_c"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "eu_consent": "",
+            "zd_opt_out": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zdbb.net/check_c?eu_consent=&zd_opt_out=1"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.static.zdbb.net/eu/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.static.zdbb.net/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-KKLSRK6J1Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KKLSRK6J1Z&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-KKLSRK6J1Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=G-KKLSRK6J1Z&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/c/16576/sync.min.js"
+      },
+      {
+        "data": {
+          "filter": "||id5-sync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.id5-sync.com/api/1.0/id5-api.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-K7SNBZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K7SNBZ"
+      },
+      {
+        "data": {
+          "filter": "/ajs?zoneid=",
+          "listName": "easylist.txt",
+          "query": {
+            "zoneid": "a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/ajs?zoneid=a"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://openads-cdn.adsrvr.org/openadsjs/build/v1.0/ziffdavis/openads.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3336"
+      },
+      {
+        "data": {
+          "filter": "||googleoptimize.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MPW4L3J"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleoptimize.com/optimize.js?id=GTM-MPW4L3J"
+      },
+      {
+        "data": {
+          "filter": "/javascript/ads/*",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://b.cdnst.net/javascript/ads/ad.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||ziffstatic.com/pg/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/pg/speedtest.prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||ziffstatic.com/pg/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/pg/speedtest.css"
+      },
+      {
+        "data": {
+          "filter": "||ziffstatic.com/pg/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.speedtest.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/pg/speedtest.js"
+      }
+    ]
+  }
+}

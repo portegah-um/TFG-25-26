@@ -1,0 +1,329 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Telekom | Mobilfunk, Festnetz & Internet und TV",
+  "uri_ins": "https://telekom.de",
+  "uri_dest": "https://www.telekom.de/start",
+  "uri_redirects": [
+    "https://telekom.de/",
+    "https://www.telekom.de/"
+  ],
+  "secure_connection": {},
+  "host": "telekom.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:52:29.468Z",
+  "end_time": "2026-06-11T05:52:34.745Z",
+  "browsing_history": [
+    "https://www.telekom.de/start"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "telekom.de",
+        "www.telekom.de",
+        "www2.telekom.de",
+        "pix.telekom.de"
+      ],
+      "third_party": [
+        "tags-eu.tiqcdn.com",
+        "omega-webfrontend.dsa.telekom-dienste.de",
+        "visitor-service-eu-central-1.tealiumiq.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.telekom.de/resources/javascript/1316960/CMSHomepageMainSection.8030.js": [
+          "scroll"
+        ],
+        "https://tags-eu.tiqcdn.com/utag/telekom/unterhaltung/prod/utag.js": [
+          "scroll"
+        ]
+      },
+      "SENSOR": {
+        "https://www.telekom.de/resources/javascript/1317036/vendors.9583.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.telekom.de/resources/ag2/legalnote-replacer/build/p-befae207.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "tel_usr_ids",
+        "value": "%7B%7D",
+        "domain": "telekom.de",
+        "path": "/",
+        "expires": "2026-09-09T05:52:32.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "first_encounter",
+        "value": "1",
+        "domain": "telekom.de",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tvo",
+        "value": "undefined",
+        "domain": "telekom.de",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "8ae3443ad3534fb8e2637575114a6f6f",
+        "value": "5cc3fb7a3fc66063ba29db5b8ebbf2a6",
+        "domain": "omega-webfrontend.dsa.telekom-dienste.de",
+        "path": "/",
+        "expires": -1,
+        "size": 64,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "wt_rla",
+        "value": "196380495960676%2C6%2C1781157152124%3B316202539684123%2C6%2C1781157152160",
+        "domain": "telekom.de",
+        "path": "/",
+        "expires": "2026-08-10T05:52:32.000Z",
+        "size": 79,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utag_main",
+        "value": "_sn:1$_se:6%3Bexp-session$_ss:0%3Bexp-session$_st:1781158952761%3Bexp-session$ses_id:1781157151124%3Bexp-session$_pn:1%3Bexp-session$v_id:019eb53d45b1000467885ed6a94900087001c07f004bb$dc_visit:1$dc_event:6%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+        "domain": "telekom.de",
+        "path": "/",
+        "expires": "2027-06-11T05:52:32.000Z",
+        "size": 265,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||tealiumiq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "utag.ut[\"writevatdg-eventstream-main\"]",
+            "rnd": 1781157152827
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.telekom.de/start",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://visitor-service-eu-central-1.tealiumiq.com/telekom/tdg-eventstream-main/019eb53d45b1000467885ed6a94900087001c07f004bb?callback=utag.ut%5B%22writevatdg-eventstream-main%22%5D&rnd=1781157152827"
+      },
+      {
+        "data": {
+          "filter": "||tealiumiq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "utag.ut[\"writevatdg-eventstream-main\"]",
+            "rnd": 1781157152539
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.telekom.de/start",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://visitor-service-eu-central-1.tealiumiq.com/telekom/tdg-eventstream-main/019eb53d45b1000467885ed6a94900087001c07f004bb?callback=utag.ut%5B%22writevatdg-eventstream-main%22%5D&rnd=1781157152539"
+      },
+      {
+        "data": {
+          "filter": "||tealiumiq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "utag.ut[\"writevatdg-eventstream-main\"]",
+            "rnd": 1781157152536
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.telekom.de/start",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://visitor-service-eu-central-1.tealiumiq.com/telekom/tdg-eventstream-main/019eb53d45b1000467885ed6a94900087001c07f004bb?callback=utag.ut%5B%22writevatdg-eventstream-main%22%5D&rnd=1781157152536"
+      },
+      {
+        "data": {
+          "filter": "||tealiumiq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "utag.ut[\"writevatdg-eventstream-main\"]",
+            "rnd": 1781157152533
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.telekom.de/start",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://visitor-service-eu-central-1.tealiumiq.com/telekom/tdg-eventstream-main/019eb53d45b1000467885ed6a94900087001c07f004bb?callback=utag.ut%5B%22writevatdg-eventstream-main%22%5D&rnd=1781157152533"
+      },
+      {
+        "data": {
+          "filter": "||tealiumiq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "utag.ut[\"writevatdg-eventstream-main\"]",
+            "rnd": 1781157152531
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.telekom.de/start",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://visitor-service-eu-central-1.tealiumiq.com/telekom/tdg-eventstream-main/019eb53d45b1000467885ed6a94900087001c07f004bb?callback=utag.ut%5B%22writevatdg-eventstream-main%22%5D&rnd=1781157152531"
+      },
+      {
+        "data": {
+          "filter": "||tealiumiq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "utag.ut[\"writevatdg-eventstream-main\"]",
+            "rnd": 1781157152512
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.telekom.de/start",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://visitor-service-eu-central-1.tealiumiq.com/telekom/tdg-eventstream-main/019eb53d45b1000467885ed6a94900087001c07f004bb?callback=utag.ut%5B%22writevatdg-eventstream-main%22%5D&rnd=1781157152512"
+      }
+    ]
+  }
+}

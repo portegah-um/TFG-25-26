@@ -1,0 +1,250 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "NAVER",
+  "uri_ins": "https://naver.com",
+  "uri_dest": "https://m.naver.com/",
+  "uri_redirects": [
+    "https://naver.com/",
+    "https://www.naver.com/"
+  ],
+  "secure_connection": {},
+  "host": "naver.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:24:05.583Z",
+  "end_time": "2026-06-11T07:24:13.649Z",
+  "browsing_history": [
+    "https://m.naver.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "naver.com",
+        "www.naver.com",
+        "m.naver.com",
+        "nam.veta.naver.com",
+        "tivan.naver.com",
+        "siape.veta.naver.com",
+        "ngage-nudge-sdk.io.naver.com",
+        "mac.search.naver.com",
+        "nlog.naver.com",
+        "ngage-msg-sender.io.naver.com",
+        "s.search.naver.com"
+      ],
+      "third_party": [
+        "ssl.pstatic.net",
+        "mm.pstatic.net",
+        "mml.pstatic.net",
+        "ntm.pstatic.net",
+        "s.pstatic.net",
+        "livecloud-thumb.akamaized.net",
+        "myspace.pstatic.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://mm.pstatic.net/js/build/vendors.bbab43d4.js": [
+          "touchstart"
+        ],
+        "https://mm.pstatic.net/js/build/main.996c16a7.js": [
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://mm.pstatic.net/js/build/vendors.bbab43d4.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://mm.pstatic.net/js/build/main.996c16a7.js": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "click"
+        ],
+        "https://ntm.pstatic.net/ex/nlog.js": [
+          "scroll"
+        ],
+        "https://ntm.pstatic.net/scripts/ntm_17c5bf488690.js": [
+          "scroll"
+        ],
+        "https://ssl.pstatic.net/tveta/libs/glad/prod/3.10.5/gfp-display-nda.js": [
+          "scroll"
+        ]
+      },
+      "SENSOR": {
+        "https://ssl.pstatic.net/tveta/libs/glad/prod/3.10.5/gfp-display-nda.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "MM_PF",
+        "value": "SEARCH",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2026-06-11T07:39:10.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "NAC",
+        "value": "MCHTBEx8fxGvA",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2027-07-16T07:24:10.228Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NACT",
+        "value": "1",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2026-06-12T07:24:10.442Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "SRT30",
+        "value": "1781162650",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2026-06-11T07:54:13.252Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SRT5",
+        "value": "1781162650",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2026-06-11T07:29:13.253Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NNB",
+        "value": "ZDWNGMU2MIVGU",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2027-07-16T07:24:13.252Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

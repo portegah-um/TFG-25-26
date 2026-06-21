@@ -1,0 +1,576 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Microsoft: IA, nube, productividad, informática, juegos y aplicaciones",
+  "uri_ins": "https://microsoft.com",
+  "uri_dest": "https://www.microsoft.com/es-es",
+  "uri_redirects": [
+    "https://microsoft.com/",
+    "https://www.microsoft.com/"
+  ],
+  "secure_connection": {},
+  "host": "microsoft.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:34:00.833Z",
+  "end_time": "2026-06-11T05:34:07.004Z",
+  "browsing_history": [
+    "https://www.microsoft.com/es-es"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "microsoft.com",
+        "www.microsoft.com",
+        "uhf.microsoft.com",
+        "cdn-dynmedia-1.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "browser.events.data.microsoft.com"
+      ],
+      "third_party": [
+        "rum.hlx.page",
+        "c.s-microsoft.com",
+        "www.clarity.ms",
+        "scripts.clarity.ms",
+        "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "h.clarity.ms",
+        "login.microsoftonline.com",
+        "login.live.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ],
+        "    at Object.apply (<anonymous>:13:42)": [
+          "keydown",
+          "input"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "keydown"
+        ],
+        "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js": [
+          "keyup"
+        ]
+      },
+      "TOUCH": {
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "    at Object.apply (<anonymous>:13:42)": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "    at Object.apply (<anonymous>:13:42)": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "click"
+        ],
+        "https://www.microsoft.com/echo/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js": [
+          "scroll",
+          "mousedown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": ".AspNetCore.OpenIdConnect.Nonce.CfDJ8DWlakf9i-pGinh129Xmw19h5iLXEH5kP0yWaXkkdpDqFKyIDbz-BC9UxRWMG4sGGnXi_yg5kpcaN3k0RT67a6Vl-j3w5O9ij5MEHBwS2tJkTXdi0oNfc7WH5kM0_mJxh_gC5FAqkRkreuU2YE3BAVmrsLfu1XrDxyy0B6mMPkpRVZHbC-PfyxVzabz6uBtfjwjaMNXw7D_iffh5ei0CigwvqothXciLCJY_8425C7h96X3Y9vxQ6lFU4Fwi5EJ71Y2z-tFLTaNDbk6BHq43V78",
+        "value": "N",
+        "domain": "www.microsoft.com",
+        "path": "/cascadeauth/account/signin-oidc",
+        "expires": "2026-06-11T05:49:03.933Z",
+        "size": 316,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bStore",
+        "value": "Y",
+        "domain": "www.microsoft.com",
+        "path": "/msstoreapiprod/api",
+        "expires": "2026-06-11T05:34:14.187Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CAS_PROGRAM",
+        "value": "echo",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T05:34:09.741Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "03968DA5A7BDA82920EA2A8F69ABEBC3~000000000000000000000000000000~YAAQjEAQAgSUE4meAQAA9FMstQAa7G7jMt9/7t58CyVx+8XZtCoYQX/PGqvXwVCiRrshuCnypZShNZ0s6seR79vgIbAmNM2BeKL8ttMkvCpXGjFLkdxcbTXNuyzk22RWfnBfMcb5YSpJlhLz3uV6txReNMlq3SN+mGWRW2CtLt4KsAZ/SE5K+MItla7himYhzYw0X8RO1t6keGizmd9QT3yLLvHG6rONo5nSeJkT6tleIXyu4WlqCWTsNTBQCacjfHNdU+eL8BilGrT5A7KC1dZTsv7B14Z1WaHSLqCcMHWGh0EcJFYQBLdRKgPlMHlDuS5J1o2WXWzqcwWRmOWxbiFmuvu2GwxUkKUjIXe6EQvxW60BGEF5zERJvbAv6Kr3sdHcYz0MgKgd1XogA5I=",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T07:34:01.741Z",
+        "size": 475,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "affinity",
+        "value": "\"c3138fb3aca0588a\"",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "xZ7GWd9fOBa7vdIi5flulX|1781156042738|1781156042738",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:04:02.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Cascade.AuthSSO",
+        "value": "1",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:04:03.832Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ASLBSA",
+        "value": "00037653397301570a66987ed89d55e065a3cbf574dbeac0bddda341beb73e35437b",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": -1,
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ASLBSACORS",
+        "value": "00037653397301570a66987ed89d55e065a3cbf574dbeac0bddda341beb73e35437b",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": -1,
+        "size": 78,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esctx-o1L6OZLYv4",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAr_QfBT-EOPjF3akuLiU6u7RiJRTsczOHNmeWRUT0DReXQPkdMTapOrg06wNdGVGN-GEUNC4BkvO3UPjv2xebJgwIKM6s-DJiLBEYZ-hWQGxvE-h1RfsGNY6hhYgxf03YsaLI-_mU8j5d7lBZGhyNSiAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T05:59:05.510Z",
+        "size": 228,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fpc",
+        "value": "ArgIFL6GNmNMtmir5LLg19Q",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T05:34:05.510Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "stsservicecookie",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781156044&co=1",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uaid",
+        "value": "9f2c1053d4b74b99b3b09db27c8e826f",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OParams",
+        "value": "11O.Dk7Hdrc5qi8OAq9VK*p7Rb0pDiYVdQQWoaNLo4!wVrL5gQG476FR7vBB87NkWdwNYq5IFqa8anV1fiu1xeWjKRz30GZ4TxsFfz6ugDTOu6xqh8EFMWdAvDx9N6!BpXy5mEML0FhjQJzG8Fs9dlw2jFclSWaGb*YrLJNidd7rFa*C*Yj70QB6442a7ST1oZsp2DAf0hUtLPrzdLUE7OBeKpojGpF1IMLTZs6SfdDgnF4FX7ZLqIvMgYKumn0tOVJqYarB*NyZHpTfER22h9YPh1!TemyvWZLc*G0cuDNH!h8J2jh!bhlZ46WQ*!33uah8F7fcYbosFkDuTWRd70OlUYEuz85EBJ8hlmJ4993q9iWaVa72KW2!LetH2s6WdS0SWO6xAY9ddH4halU!6C0xAs2dyoa2DTcipJ9oY92Cr6u9mu9b0hA5Anu50nJN!5BPdu3r11RCb4x9020SRjpc6ZYQLbWiiUtATP9xf*qO*Jv3163p9BWYPozES2FTkARfg5B!ukVpPh0z3tEGCAEjSEKNP28gOFlq7tb5tjrmHIOyYmtmQv86eVWcRi0icOkJYI9NxzWe1eEvcG5BKSNtnEUnyEe5rppiQ89nCJzcvbhmTVI3AMeku7baLBp17kg2qE8FX0SKewQXVyxSLnlljBpzUpEt9UhkwR9gGs!W0Zsbq4!1ZxoaRvFTNxiHYn1xBRGRIoxBd2d4AYQT5GXVjx*HrmQ94LW5Guzz30!*4!eWcydN7R0649WN*V0qphpNrLCYfDCIbENDkSEmkrj0bTXsgLA*MwjGoPkJvNMs!xYsaYZzQayandakSSiafldY3yZvWx91*ct7IG!Ku1Ycz47c52in4qKZz9*El28HxpFWqjMiR1hHrkmFKwWRkwMy*lNV5pOVz1dAMT9zp!YL0mhUe0Syh4L6miOJouR0oA6j7!Q3OCnxPUrG78dIgtO9OPzfi5BP!WlD6r*MKj8E7UaB94dqF3okJIXiBZX2dEUB87Pc!kyAUvE0bxA54kGmbTiG4AJbBJmaE7R1KIuhsmbbTSqMN!nAU*H31OujtQCraIPnPXu0y5M5uAq6jnl2iOZbGv3J!*bTWDJNBgTChu1xfSrBMpLW8r0udCrDocS0frCcA88JBI7skDp5vqcXA96RMntuG7ZH81ayrv83aMw3MViSV5yVsSiX0AeKoAqYUHFNHAIlp8qqq7TBX0OApS8jFH2bmIHGdyfApoDt*cizGHx6nglG5gUKvoQjpM7xfEIJDz9iQC28pUr5jiOWEDTYSPb3oLQKAlkYusEzcJF0JO1*PxkT66V7F3gUEoeq!2bwThJ28spUVIyHjQc5tMcQ0Ykldf4YMAmjlmJQf0W5gB4*ruTbhPF*bpVJYepyedG40Ex9ZyGAdI1escfHHTs2H0zrEdOR9hGyDX8mKwSRgw37ctk0FlJLr0LrzrWvM3lHfWN1!Mug6J8FRO*dle8sZ8KtAwZLICbLBeMHmMTuUt54s1da6b*cnpG77z*kBxElQqF!LN!ilZDKnGY27dUE9juPDHFjecbASpOwuDOadHgj4FOmLlNiiQ2z6osO8frZGvCmYA2JrProPhTSHVDGqzARJYEoDNDHf!vIfLMhh!KSzTKEErT!Xk9DNGwvXT76C1pnZr9ikKUjRzaovOiWrp5lfIGvIyIH!2ZLSuz8fly9HVD08Llnr!G5v!RqFJgBH28lGOueWmMcRhRsR0jfUqr6VJBhfvzOiIADG2JWyizPTKGNpiQ72LTd6qEftsLEJqb5dfuRCLozu9yOQWfkduiFS6KXEhbAy1kChIJWdfq1VX2EXgj0mQvooIgoY8xsgcYpUdmQgpgLZPy4QyUj0Sn9LN7yGSgvI!YUzEqI3Wp0brgiF9Uu*EtsoCkwEpGDVyApiTPYr7YiU*g!uw$$",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 1935,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPBack",
+        "value": "0",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MC1",
+        "value": "GUID=f1f92c91291f431896aa5f1507a2d8cf&HASH=f1f9&LV=202606&V=4&LU=1781156045059",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:34:06.272Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MS0",
+        "value": "bafeca8de61143e2b76de06bc98d384d",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:04:06.272Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MSFPC",
+        "value": "GUID=f1f92c91291f431896aa5f1507a2d8cf&HASH=f1f9&LV=202606&V=4&LU=1781156045059",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:34:05.562Z",
+        "size": 83,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/rcwvv0hsnp"
+      }
+    ]
+  }
+}

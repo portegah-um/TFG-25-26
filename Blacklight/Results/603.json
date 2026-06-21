@@ -1,0 +1,144 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Free : offres internet Fibre, Wi-Fi 7, TV et ligne fixe sans engagement",
+  "uri_ins": "https://free.fr",
+  "uri_dest": "https://www.free.fr/freebox",
+  "uri_redirects": [
+    "https://free.fr/",
+    "https://www.free.fr/"
+  ],
+  "secure_connection": {},
+  "host": "free.fr",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:42:42.961Z",
+  "end_time": "2026-06-11T08:42:47.958Z",
+  "browsing_history": [
+    "https://www.free.fr/freebox"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "free.fr",
+        "www.free.fr",
+        "mobile.free.fr"
+      ],
+      "third_party": [
+        "freebox.cdn.scw.iliad.fr",
+        "pm.web.proxad.net",
+        "sdk.privacy-center.org"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.free.fr/_next/static/chunks/pages/_app-fc406116eeaee9f8.js": [
+          "scroll",
+          "click"
+        ],
+        "https://pm.web.proxad.net/js/plausible.local.tagged-events.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.free.fr/_next/static/chunks/main-961c6997f1de1abb.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.free.fr/_next/static/chunks/main-961c6997f1de1abb.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.free.fr/_next/static/chunks/7448-6da05692335b8e92.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://www.free.fr/_next/static/chunks/pages/_app-fc406116eeaee9f8.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "didomi_token",
+        "value": "eyJ1c2VyX2lkIjoiMTllYjVkOTEtZTZmMy02MzAwLWI4ZGEtN2JiNzdjODlmYWNkIiwiY3JlYXRlZCI6IjIwMjYtMDYtMTFUMDg6NDI6NDUuNzQzWiIsInVwZGF0ZWQiOiIyMDI2LTA2LTExVDA4OjQyOjQ1Ljc0NVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+        "domain": "free.fr",
+        "path": "/",
+        "expires": "2027-06-12T08:42:45.000Z",
+        "size": 200,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

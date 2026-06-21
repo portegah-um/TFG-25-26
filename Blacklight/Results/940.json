@@ -1,0 +1,1067 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",
+  "uri_ins": "https://repubblica.it",
+  "uri_dest": "https://www.repubblica.it/",
+  "uri_redirects": [
+    "https://repubblica.it/"
+  ],
+  "secure_connection": {},
+  "host": "repubblica.it",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:24:26.811Z",
+  "end_time": "2026-06-11T10:24:33.247Z",
+  "browsing_history": [
+    "https://www.repubblica.it/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "repubblica.it",
+        "www.repubblica.it",
+        "eulogin.repubblica.it"
+      ],
+      "third_party": [
+        "tlh.gedidigital.it",
+        "www.repstatic.it",
+        "scripts.kataweb.it",
+        "cdns.eu1.gigya.com",
+        "securepubads.g.doubleclick.net",
+        "sdk.mrf.io",
+        "cdn.iubenda.com",
+        "static.chartbeat.com",
+        "eulogin.gedi.it",
+        "cs.iubenda.com",
+        "ping.chartbeat.net",
+        "mab.chartbeat.com",
+        "marfeelexperimentsexperienceengine.mrf.io",
+        "mabping.chartbeat.net",
+        "idb.iubenda.com",
+        "www.gedistatic.it",
+        "www.googletagmanager.com",
+        "connect.facebook.net",
+        "apis.google.com",
+        "cdn-gl.imrworldwide.com",
+        "www.facebook.com",
+        "region1.google-analytics.com",
+        "secure-it.imrworldwide.com",
+        "vnmblpapat1helsh1a6zfjcziklnf1781173470.nuid.imrworldwide.com",
+        "events.newsroom.bi"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.repstatic.it/cless/common/stable/js/vendor/lazysizes/lazysizes.min-5.2.0.js": [
+          "scroll",
+          "click"
+        ],
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=6517": [
+          "click",
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-it.js": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://static.chartbeat.com/js/chartbeat.js": [
+          "scroll"
+        ],
+        "https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=header_js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js": [
+          "touchstart"
+        ],
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=6517": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=6517": [
+          "keydown",
+          "keyup"
+        ],
+        "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-it.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.99.0/core-it.js": [
+          "white",
+          "#000"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "gig_canary",
+        "value": "latest",
+        "domain": "cdns.eu1.gigya.com",
+        "path": "/",
+        "expires": "2026-06-11T10:34:28.312Z",
+        "size": 16,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://repubblica.it",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "kw_wtu",
+        "value": "https://www.repubblica.it/",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2026-06-12T10:24:28.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kw_1pc_enableds",
+        "value": "true",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-07-16T10:24:28.387Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kw_sntseg",
+        "value": "",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2026-06-12T10:24:28.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kw_inc",
+        "value": "on",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-06-11T10:24:28.000Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb",
+        "value": "C2n5fsDYDjroBVWGou",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-07-11T10:24:29.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_chartbeat2",
+        "value": ".1781173469177.1781173469177.1.Dfn5EcfhLnIC_k88548pKPCyxF1V.1",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-07-11T10:24:29.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "external",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2026-06-11T10:54:29.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gmid",
+        "value": "gmid.ver4.AtLtRJwuuw.ih8ih5wN4yDjgIwc_FGulMpmjLpQbRBzypyleau9lXbnsT7Y0HAAreuhdZMxe55X.mKePQcPNEQCxFcIUNqcrPbJg12pny7foPS7IQcaXfebz_CBR0HlWNPIhu2IyjS4QmOG7XIOn9uUFf0WFdxUp-w.sc3",
+        "domain": "eulogin.repubblica.it",
+        "path": "/",
+        "expires": "2027-06-11T10:24:30.456Z",
+        "size": 180,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ucid",
+        "value": "nWgHkZyg77DDIIBadbS-7w",
+        "domain": "eulogin.repubblica.it",
+        "path": "/",
+        "expires": "2027-06-11T10:24:30.456Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "hasGmid",
+        "value": "ver4",
+        "domain": "eulogin.repubblica.it",
+        "path": "/",
+        "expires": "2026-12-11T10:24:30.456Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_t_tests",
+        "value": "eyJ3OEtlcEF0UlBsOWE5Ijp7ImNob3NlblZhcmlhbnQiOiJBIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJMbWZGbCJdfSwibGlmdF9leHAiOiJtIn0=",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2026-06-11T11:24:29.000Z",
+        "size": 120,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gig_bootstrap_3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ",
+        "value": "eulogin_ver4",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-06-11T10:24:29.000Z",
+        "size": 92,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CJNJE8FY4S",
+        "value": "GS2.1.s1781173470$o1$g0$t1781173470$j60$l0$h0",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-07-16T10:24:30.586Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1646865774.1781173471",
+        "domain": "repubblica.it",
+        "path": "/",
+        "expires": "2027-07-16T10:24:30.589Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "IMRID",
+        "value": "bbedc5f0-657f-11f1-bf2c-fdae00239dc4",
+        "domain": "imrworldwide.com",
+        "path": "/",
+        "expires": "2027-07-06T10:24:31.359Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": 0,
+            "adid": "repubblica_home_e9e295b8627aaa553688e66af0a98c6a",
+            "ai": "repubblica_home_e9e295b8627aaa553688e66af0a98c6a",
+            "asn": "LaRepubblicaHomepage_BRW",
+            "at": "timer",
+            "c1": "nuid,1oam9zier8ftsbjtlgiffrtejzu611781173471",
+            "c10": "plt,",
+            "c11": "agg,1",
+            "c12": "apv,",
+            "c13": "asid,P67593295-06EE-437F-9AD1-6E7B1F267613",
+            "c14": "osver,NA",
+            "c15": "apn,",
+            "c16": "sdkv,bj.6.0.0",
+            "c26": "dmap,1",
+            "c27": "cln,1",
+            "c29": "plid,17811734707299761",
+            "c3": "st,c",
+            "c30": "bldv,6.0.0.748",
+            "c32": "segA,NA",
+            "c33": "segB,NA",
+            "c34": "segC,NA",
+            "c35": "adrsid,",
+            "c36": "cref1,",
+            "c37": "cref2,",
+            "c40": "adbid,",
+            "c44": "progen,",
+            "c51": "adl,0",
+            "c52": "noad,0",
+            "c53": "fef,n",
+            "c54": "oad,",
+            "c55": "cref3,",
+            "c57": "adldf,2",
+            "c58": "isLive,false",
+            "c59": "sesid,",
+            "c6": "vc,c06",
+            "c61": "createtm,1781173473",
+            "c62": "sendTime,1781173473",
+            "c63": "pipMode,",
+            "c64": "starttm,1781173472",
+            "c66": "mediaurl,",
+            "c68": "bndlid,",
+            "c7": "osgrp,",
+            "c73": "phtype,",
+            "c74": "dvcnm,",
+            "c76": "adbsnid,",
+            "c8": "devgrp,",
+            "c9": "devid,",
+            "ca": "NA",
+            "ch": "it-402816_c06_LaRepubblicaHomepage_BRW_S",
+            "ci": "it-402816",
+            "cr": "D",
+            "crs": "",
+            "davty": 2,
+            "dd": "",
+            "enc": true,
+            "forward": 0,
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hrd": "",
+            "lat": "",
+            "logTM": "",
+            "lon": "",
+            "nodeTM": "",
+            "pc": "NA",
+            "playerv": "",
+            "plugv": "",
+            "prd": "dcr",
+            "prv": 1,
+            "rnd": 846731,
+            "rt": "text",
+            "sdd": "",
+            "segment1": "",
+            "segment2": "",
+            "sessionId": "vnmblpapat1helsh1a6zfjcziklnf1781173470",
+            "si": "https://www.repubblica.it/",
+            "st": "dcr",
+            "sup": 1,
+            "uoo": "",
+            "ve_id": "",
+            "wkd": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=dcr&ci=it-402816&ch=it-402816_c06_LaRepubblicaHomepage_BRW_S&asn=LaRepubblicaHomepage_BRW&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&sessionId=vnmblpapat1helsh1a6zfjcziklnf1781173470&prv=1&c6=vc,c06&ca=NA&c13=asid,P67593295-06EE-437F-9AD1-6E7B1F267613&c32=segA,NA&c33=segB,NA&c34=segC,NA&c15=apn,&sup=1&segment2=&segment1=&forward=0&plugv=&playerv=&ad=0&cr=D&c9=devid,&enc=true&c1=nuid,1oam9zier8ftsbjtlgiffrtejzu611781173471&at=timer&rt=text&c16=sdkv,bj.6.0.0&c27=cln,1&crs=&lat=&lon=&c29=plid,17811734707299761&c30=bldv,6.0.0.748&st=dcr&c7=osgrp,&c8=devgrp,&c10=plt,&c40=adbid,&c14=osver,NA&c26=dmap,1&dd=&hrd=&wkd=&c35=adrsid,&c36=cref1,&c37=cref2,&c11=agg,1&c12=apv,&c51=adl,0&c52=noad,0&pc=NA&c53=fef,n&c54=oad,&c55=cref3,&c57=adldf,2&ai=repubblica_home_e9e295b8627aaa553688e66af0a98c6a&c3=st,c&c64=starttm,1781173472&adid=repubblica_home_e9e295b8627aaa553688e66af0a98c6a&c58=isLive,false&c59=sesid,&c61=createtm,1781173473&c63=pipMode,&uoo=&c68=bndlid,&nodeTM=&logTM=&c73=phtype,&c74=dvcnm,&c76=adbsnid,&c44=progen,&davty=2&si=https%3A%2F%2Fwww.repubblica.it%2F&c66=mediaurl,&sdd=&c62=sendTime,1781173473&rnd=846731"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQC",
+            "_p": 1781173469990,
+            "_s": 2,
+            "are": 1,
+            "cid": 1646865774.1781173,
+            "cu": "EUR",
+            "dl": "https://www.repubblica.it/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",
+            "frm": 0,
+            "gcd": "13p3tPp2p5l1",
+            "gcs": "G101",
+            "gtm": "45je6691h1v898106140za20gzb853765578zd853765578",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 13,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173470,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~117776794~119456240~119456248",
+            "tcfd": 10001,
+            "tfd": 5809,
+            "tid": "G-CJNJE8FY4S",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CJNJE8FY4S&gtm=45je6691h1v898106140za20gzb853765578zd853765578&_p=1781173469990&gcs=G101&gcd=13p3tPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&_eu=AAAAAAQC&are=1&cid=1646865774.1781173471&frm=0&pscdl=denied&rcb=13&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938469~117776794~119456240~119456248&dl=https%3A%2F%2Fwww.repubblica.it%2F&cu=EUR&sid=1781173470&sct=1&seg=0&dt=la%20Repubblica%20-%20News%20in%20tempo%20reale%20-%20Le%20notizie%20e%20i%20video%20di%20politica%2C%20cronaca%2C%20economia%2C%20sport&tfd=5809"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": 0,
+            "adid": "repubblica_home_e9e295b8627aaa553688e66af0a98c6a",
+            "ai": "repubblica_home_e9e295b8627aaa553688e66af0a98c6a",
+            "asn": "LaRepubblicaHomepage_BRW",
+            "at": "view",
+            "c1": "nuid,1oam9zier8ftsbjtlgiffrtejzu611781173471",
+            "c10": "plt,",
+            "c11": "agg,1",
+            "c12": "apv,",
+            "c13": "asid,P67593295-06EE-437F-9AD1-6E7B1F267613",
+            "c14": "osver,NA",
+            "c15": "apn,",
+            "c16": "sdkv,bj.6.0.0",
+            "c26": "dmap,1",
+            "c27": "cln,0",
+            "c29": "plid,17811734707299761",
+            "c3": "st,c",
+            "c30": "bldv,6.0.0.748",
+            "c32": "segA,NA",
+            "c33": "segB,NA",
+            "c34": "segC,NA",
+            "c35": "adrsid,",
+            "c36": "cref1,",
+            "c37": "cref2,",
+            "c40": "adbid,",
+            "c44": "progen,",
+            "c51": "adl,0",
+            "c52": "noad,0",
+            "c53": "fef,n",
+            "c54": "oad,",
+            "c55": "cref3,",
+            "c57": "adldf,2",
+            "c58": "isLive,false",
+            "c59": "sesid,",
+            "c6": "vc,c06",
+            "c61": "createtm,1781173472",
+            "c62": "sendTime,1781173472",
+            "c63": "pipMode,",
+            "c64": "starttm,1781173472",
+            "c66": "mediaurl,",
+            "c68": "bndlid,",
+            "c7": "osgrp,",
+            "c73": "phtype,",
+            "c74": "dvcnm,",
+            "c76": "adbsnid,",
+            "c8": "devgrp,",
+            "c9": "devid,",
+            "ca": "NA",
+            "ch": "it-402816_c06_LaRepubblicaHomepage_BRW_S",
+            "ci": "it-402816",
+            "cr": "V",
+            "crs": "",
+            "davty": 0,
+            "dd": "",
+            "enc": true,
+            "forward": 0,
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hrd": "",
+            "lat": "",
+            "logTM": "",
+            "lon": "",
+            "nodeTM": "",
+            "pc": "NA",
+            "playerv": "",
+            "plugv": "",
+            "prd": "dcr",
+            "prv": 1,
+            "rnd": 976383,
+            "rt": "text",
+            "sdd": "",
+            "segment1": "",
+            "segment2": "",
+            "sessionId": "vnmblpapat1helsh1a6zfjcziklnf1781173470",
+            "si": "https://www.repubblica.it/",
+            "st": "dcr",
+            "sup": 1,
+            "uoo": "",
+            "ve_id": "",
+            "wkd": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=dcr&ci=it-402816&ch=it-402816_c06_LaRepubblicaHomepage_BRW_S&asn=LaRepubblicaHomepage_BRW&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&sessionId=vnmblpapat1helsh1a6zfjcziklnf1781173470&prv=1&c6=vc,c06&ca=NA&c13=asid,P67593295-06EE-437F-9AD1-6E7B1F267613&c32=segA,NA&c33=segB,NA&c34=segC,NA&c15=apn,&sup=1&segment2=&segment1=&forward=0&plugv=&playerv=&ad=0&cr=V&c9=devid,&enc=true&c1=nuid,1oam9zier8ftsbjtlgiffrtejzu611781173471&at=view&rt=text&c16=sdkv,bj.6.0.0&c27=cln,0&crs=&lat=&lon=&c29=plid,17811734707299761&c30=bldv,6.0.0.748&st=dcr&c7=osgrp,&c8=devgrp,&c10=plt,&c40=adbid,&c14=osver,NA&c26=dmap,1&dd=&hrd=&wkd=&c35=adrsid,&c36=cref1,&c37=cref2,&c11=agg,1&c12=apv,&c51=adl,0&c52=noad,0&pc=NA&c53=fef,n&c54=oad,&c55=cref3,&c57=adldf,2&ai=repubblica_home_e9e295b8627aaa553688e66af0a98c6a&c3=st,c&c64=starttm,1781173472&adid=repubblica_home_e9e295b8627aaa553688e66af0a98c6a&c58=isLive,false&c59=sesid,&c61=createtm,1781173472&c63=pipMode,&uoo=&c68=bndlid,&nodeTM=&logTM=&c73=phtype,&c74=dvcnm,&c76=adbsnid,&c44=progen,&davty=0&si=https%3A%2F%2Fwww.repubblica.it%2F&c66=mediaurl,&sdd=&c62=sendTime,1781173472&rnd=976383"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vnmblpapat1helsh1a6zfjcziklnf1781173470.nuid.imrworldwide.com/"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c13": "asid,P67593295-06EE-437F-9AD1-6E7B1F267613",
+            "c16": "sdkv,bj.6.0.0",
+            "c30": "bldv,6.0.0.748",
+            "c9": "devid,",
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hem_md5": "",
+            "hem_sha1": "",
+            "hem_sha256": "",
+            "hem_unknown": "",
+            "prd": "session",
+            "retry": 0,
+            "sdd": "",
+            "sessionId": "vnmblpapat1helsh1a6zfjcziklnf1781173470",
+            "uid2": "",
+            "uid2_token": "",
+            "uoo": "",
+            "ve_id": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=session&c9=devid,&c13=asid,P67593295-06EE-437F-9AD1-6E7B1F267613&sessionId=vnmblpapat1helsh1a6zfjcziklnf1781173470&c16=sdkv,bj.6.0.0&uoo=&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&c30=bldv,6.0.0.748&uid2=&uid2_token=&hem_sha256=&hem_sha1=&hem_md5=&hem_unknown=&sdd=&retry=0"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/novms/html/ls.html"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_p": 1781173469990,
+            "_s": 1,
+            "are": 1,
+            "cid": 1646865774.1781173,
+            "cu": "EUR",
+            "dl": "https://www.repubblica.it/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",
+            "frm": 0,
+            "gcd": "13p3tPp2p5l1",
+            "gcs": "G101",
+            "gtm": "45je6691h1v898106140z8853765578za20gzb853765578zd853765578",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 13,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173470,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~117776794~119456240~119456248",
+            "tcfd": 10001,
+            "tfd": 3275,
+            "tid": "G-CJNJE8FY4S",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CJNJE8FY4S&gtm=45je6691h1v898106140z8853765578za20gzb853765578zd853765578&_p=1781173469990&gcs=G101&gcd=13p3tPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&_eu=AAAAAAAC&are=1&cid=1646865774.1781173471&frm=0&pscdl=denied&rcb=13&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~117776794~119456240~119456248&dl=https%3A%2F%2Fwww.repubblica.it%2F&cu=EUR&sid=1781173470&sct=1&seg=0&dt=la%20Repubblica%20-%20News%20in%20tempo%20reale%20-%20Le%20notizie%20e%20i%20video%20di%20politica%2C%20cronaca%2C%20economia%2C%20sport&tfd=3275"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-CJNJE8FY4S"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CJNJE8FY4S&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/conf/P67593295-06EE-437F-9AD1-6E7B1F267613.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WT5GJ7M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WT5GJ7M"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "V": 151,
+            "c": 0.01,
+            "d": "repubblica.it",
+            "e": -1,
+            "h": "repubblica.it",
+            "ml": "m",
+            "p": "/",
+            "sl": "LmfFl",
+            "u": "C2n5fsDYDjroBVWGou",
+            "v": "A",
+            "x": "w8KepAtRPl9a9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mabping.chartbeat.net/ping/mab?h=repubblica.it&p=%2F&d=repubblica.it&u=C2n5fsDYDjroBVWGou&c=0.01&V=151&x=w8KepAtRPl9a9&v=A&ml=m&sl=LmfFl&e=-1"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "repubblica.it",
+            "host": "repubblica.it",
+            "path": "/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=repubblica.it&domain=repubblica.it&path=%2F"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/subscriptions.js"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.repubblica.it/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "_acct": "anon",
+            "b": 1906,
+            "c": 0,
+            "d": "repubblica.it",
+            "e": 0,
+            "f": "00001",
+            "g": 62281,
+            "g0": "repubblica,homepage",
+            "g1": "No Author",
+            "g4": "homepage",
+            "h": "repubblica.it",
+            "i": "la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",
+            "im": "067b2fff",
+            "j": 45,
+            "m": 0,
+            "n": 1,
+            "o": 375,
+            "p": "/",
+            "r": "",
+            "sd": 1,
+            "sn": 1,
+            "sr": "external",
+            "sv": "Dfn5EcfhLnIC_k88548pKPCyxF1V",
+            "t": "BIGce8BomZerCpjgVyDUvN7ZBjXFbQ",
+            "tz": -120,
+            "u": "C2n5fsDYDjroBVWGou",
+            "w": 812,
+            "x": 0,
+            "y": 54993
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=repubblica.it&p=%2F&u=C2n5fsDYDjroBVWGou&d=repubblica.it&g=62281&g0=repubblica%2Chomepage&g1=No%20Author&g4=homepage&n=1&f=00001&c=0&x=0&m=0&y=54993&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.repubblica.it%2F&b=1906&t=BIGce8BomZerCpjgVyDUvN7ZBjXFbQ&V=151&i=la%20Repubblica%20-%20News%20in%20tempo%20reale%20-%20Le%20notizie%20e%20i%20video%20di%20politica%2C%20cronaca%2C%20economia%2C%20sport&tz=-120&_acct=anon&sn=1&sv=Dfn5EcfhLnIC_k88548pKPCyxF1V&sr=external&sd=1&im=067b2fff&_"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.repubblica.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      }
+    ]
+  }
+}

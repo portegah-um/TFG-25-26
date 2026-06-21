@@ -1,0 +1,832 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Access to this page has been denied",
+  "uri_ins": "https://zillow.com",
+  "uri_dest": "https://www.zillow.com/",
+  "uri_redirects": [
+    "https://zillow.com/"
+  ],
+  "secure_connection": {},
+  "host": "zillow.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:26:24.829Z",
+  "end_time": "2026-06-11T09:26:40.026Z",
+  "browsing_history": [
+    "https://www.zillow.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "zillow.com",
+        "www.zillow.com"
+      ],
+      "third_party": [
+        "www.zillowstatic.com",
+        "cdn.pubnub.com",
+        "fonts.googleapis.com",
+        "www.google-analytics.com",
+        "cdn.zg-api.com",
+        "www.datadoghq-browser-agent.com",
+        "o168728.ingest.sentry.io",
+        "sb.scorecardresearch.com",
+        "ift.px-cloud.net",
+        "collector-pxhyx10rg3.px-cloud.net",
+        "pagead2.googlesyndication.com",
+        "accounts.google.com",
+        "e.zg-api.com",
+        "rum.zg-api.com",
+        "cs.zg-api.com",
+        "sdk.split.io",
+        "auth.split.io",
+        "client.px-cloud.net",
+        "fonts.gstatic.com",
+        "www.googletagmanager.com",
+        "crcldu.com",
+        "js.px-cloud.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://client.px-cloud.net/PXHYx10rg3/main.min.js": [
+          "touchstart"
+        ],
+        "/_/gsi/_/js/k=gsi.gsi.es.1VCmNegQPO0.O/am=AAAAAAkC2AIC/d=1/rs=AF0KOtXH0u1vxE1vDJ6LMlNSi1yANtn23A/m=credential_server_library": [
+          "touchmove"
+        ],
+        "https://www.zillow.com/HYx10rg3/init.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://client.px-cloud.net/PXHYx10rg3/main.min.js": [
+          "keydown"
+        ],
+        "https://www.zillowstatic.com/s3/shopper-platform/_next/static/chunks/main-c7963fcccd067b19.js": [
+          "keydown"
+        ],
+        "https://www.zillowstatic.com/s3/pfs/vendors~productnavApp~regApp~topnavApp-a42586f352c56eccb496.js": [
+          "keydown"
+        ],
+        "https://cdn.zg-api.com/a/z/js/v1/analytics.js?v=bcf290c": [
+          "keydown"
+        ],
+        "https://www.zillow.com/HYx10rg3/init.js": [
+          "keydown"
+        ],
+        "https://www.zillowstatic.com/s3/shopper-platform/_next/static/chunks/pages/_app-76111f56a8614660.js": [
+          "keypress"
+        ]
+      },
+      "MOUSE": {
+        "https://client.px-cloud.net/PXHYx10rg3/main.min.js": [
+          "mousedown"
+        ],
+        "https://accounts.google.com/gsi/client": [
+          "click"
+        ],
+        "https://www.zillow.com/s3/web-platform/sub-apps/zillow/search-box-sub-app/search-box-sub-app.prod.main.15054116.2f5ab411/web/731.6d21c1b5.bundle.js": [
+          "click"
+        ],
+        "https://www.zillowstatic.com/s3/shopper-platform/_next/static/chunks/main-c7963fcccd067b19.js": [
+          "click"
+        ],
+        "https://www.zillowstatic.com/s3/pfs/vendors~productnavApp~regApp~topnavApp-a42586f352c56eccb496.js": [
+          "click"
+        ],
+        "https://www.zillow.com/HYx10rg3/init.js": [
+          "click",
+          "scroll",
+          "mousedown"
+        ],
+        "https://cdn.zg-api.com/a/z/js/v1/analytics.js?v=bcf290c": [
+          "click"
+        ],
+        "https://www.zillowstatic.com/s3/shopper-platform/_next/static/chunks/pages/_app-76111f56a8614660.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.zillowstatic.com/s3/pfs/vendors~topnavApp-66e7294b6a29ad9c1223.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "zguid",
+        "value": "24|%24924261f7-2cc7-4185-87bc-e4cc0dc7e4fb",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-07-16T09:26:26.165Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "zgsession",
+        "value": "1|daf26806-bd37-4800-855b-fed3734ecc2c",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": -1,
+        "size": 47,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1716375335.1781169987",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-07-16T09:26:26.836Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.874845676.1781169987",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2026-06-12T09:26:26.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zjs_anonymous_id",
+        "value": "%22924261f7-2cc7-4185-87bc-e4cc0dc7e4fb%22",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-06-11T15:15:38.000Z",
+        "size": 58,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zjs_user_id",
+        "value": "null",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-06-11T15:15:38.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zjs_user_id_type",
+        "value": "null",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-06-11T15:15:38.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zg_anonymous_id",
+        "value": "%22710d4131-53dc-4f17-b179-40af2bf1f820%22",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-06-11T15:15:38.000Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pxvid",
+        "value": "9f12f9bd-6577-11f1-9e85-9a15ef6c8723",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2027-06-11T09:26:27.143Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AWSALB",
+        "value": "0Sh+FIhIEhdFznsvyiNdR15pesT6IlPKXG6DXC12LolhVIOGZAzTv1+bfh83kbtf8RZgtVbW3TiMnzJhA49lWsNzNqhZT7oXhiNLEPB+LSmenAtAFxx8zqm3OSm4",
+        "domain": "www.zillow.com",
+        "path": "/",
+        "expires": "2026-06-18T09:26:27.780Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "0Sh+FIhIEhdFznsvyiNdR15pesT6IlPKXG6DXC12LolhVIOGZAzTv1+bfh83kbtf8RZgtVbW3TiMnzJhA49lWsNzNqhZT7oXhiNLEPB+LSmenAtAFxx8zqm3OSm4",
+        "domain": "www.zillow.com",
+        "path": "/",
+        "expires": "2026-06-18T09:26:27.780Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "6FF85E2D7664E42E0B4913CF8B52D62F",
+        "domain": "www.zillow.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1781169990004,\"i_b\":\"E9vxHI8TyYZAjxnHiWuLHPwApgtHM807Lh5k64IZ56E\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1781169989974}",
+        "domain": "www.zillow.com",
+        "path": "/",
+        "expires": "2026-12-08T09:26:30.000Z",
+        "size": 146,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_px3",
+        "value": "31bf05a930427d3e6713d42192be5355005688e6be468b2a9287dce30935b029:ogOk2Vt6z/kg2G0vdYeZvoGmRyExQ4nZtroOnLr5fDPWgkHtToe8aJur4mxdvKJ/Q1Uxx3p6Gvy/lhRk+agBbw==:1000:/69BvYtPWU17pHOINxDhdzWHTEFRE+PGb48/43r6er/k0Yzv/9/DEaZ5XhFetdCkgeaPtNU9vsN+gO0rl9lPnAgoh7ilpYNmtUQH7g5soPl+JAw/ZLQLjHL5bKXlcXffnCDGG9/Rliy5AlIpHlY9eqiG6QVSDO4NUuKr8608r6T9tpHEyYpfHW19HvTDRI6rnUwKgUlt1eeClJXqihU7Y3XATWTFheGSiks9l69ByqsZRaQ7ogWE3NVsPoZ99hY73+CdC8Cp/yvZHWIecqJzawHluuDYwA/lgn8Ay0wwUcMN93BhPY85o+WiGHCBb+srpgqBUOew9xLyn0xt5kaaxZqCqUE9fvcQfkSoTecJfmC/2YYdTZPxs91Bf3aIN+KjpVpEnZRGIg0v0gn1EJK/AX5ARfOpo9a988B1YZ5um96i0PGB/8LY0ZAswGgtQySAxKpTndScdagrdedjCwDxwfp9F05Ip6VZDwKtvW0xvgc=",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": "2026-06-11T09:56:34.978Z",
+        "size": 655,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "pxcts",
+        "value": "rhRs-y7XHIru6G5Tldy/vG2XDfutBFW3MU5kASCW15M=:he-272V4Um4dKKwbf4hlieZPXXXKGjReMKdO-l1SVNW56SUQHg-nEnakgnbpsjbZtAU6sLyCcrWSbwTVTZgA9njVuYu4P94mQvUyMiG4MOOnWd-NoKfwjHEEk4vJDfWVll/yCFXGHSpxdmtACH2u5XL7TrVmuHMlJ57VngAwCt8aSqoGdZWQqYnhzgpTnOMo",
+        "domain": "zillow.com",
+        "path": "/",
+        "expires": -1,
+        "size": 242,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=0&expire=1781170887107",
+        "domain": "www.zillow.com",
+        "path": "/",
+        "expires": "2026-06-11T09:41:36.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "XZGID",
+        "value": "2|osa8wlczQvG3H5MXI5uR5w|wzc|1781169996285",
+        "domain": "zg-api.com",
+        "path": "/",
+        "expires": "2027-07-16T09:26:36.369Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rum.zg-api.com/metrics/rum"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-P6HT97"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P6HT97"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.zg-api.com/click/z_prod_web/924261f7-2cc7-4185-87bc-e4cc0dc7e4fb"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.zg-api.com/click/z_prod_web/924261f7-2cc7-4185-87bc-e4cc0dc7e4fb"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.zg-api.com/click/z_prod_web/924261f7-2cc7-4185-87bc-e4cc0dc7e4fb"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.zg-api.com/click/z_prod_web/924261f7-2cc7-4185-87bc-e4cc0dc7e4fb"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.zg-api.com/click/z_prod_web/924261f7-2cc7-4185-87bc-e4cc0dc7e4fb"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cs.zg-api.com/click/z_prod_web/924261f7-2cc7-4185-87bc-e4cc0dc7e4fb"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rum.zg-api.com/metrics/rum"
+      },
+      {
+        "data": {
+          "filter": "/metrics/rum",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p": {
+              "eventsStart": [
+                "clientProfilerLoaded"
+              ],
+              "staticDimensions": {
+                "GUID": "924261f7-2cc7-4185-87bc-e4cc0dc7e4fb",
+                "environment": "production",
+                "hostId": "FDcwuOfroKyopBm6IPQSAg",
+                "packageName": "shopper-platform",
+                "pageName": "shopper-platform-hops-homepage",
+                "platform": "mobile",
+                "serviceVersion": "master.16436.ffe7d25e"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://e.zg-api.com/metrics/rum/?p=%7B%22eventsStart%22%3A%5B%22clientProfilerLoaded%22%5D%2C%22staticDimensions%22%3A%7B%22environment%22%3A%22production%22%2C%22hostId%22%3A%22FDcwuOfroKyopBm6IPQSAg%22%2C%22pageName%22%3A%22shopper-platform-hops-homepage%22%2C%22platform%22%3A%22mobile%22%2C%22packageName%22%3A%22shopper-platform%22%2C%22serviceVersion%22%3A%22master.16436.ffe7d25e%22%2C%22GUID%22%3A%22924261f7-2cc7-4185-87bc-e4cc0dc7e4fb%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "/api/v2/collector",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://collector-pxhyx10rg3.px-cloud.net/api/v2/collector"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c15": "*null",
+            "c2": 6036206,
+            "c3": "*null",
+            "c4": "www.zillow.com/",
+            "c5": "*null",
+            "c6": "*null",
+            "c7": "https://www.zillow.com/",
+            "c8": "Zillow: Real Estate, Apartments, Mortgages & Home Values",
+            "c9": "",
+            "cs_cfg": 1001110,
+            "cs_fpdm": "*null",
+            "cs_fpdt": "*null",
+            "cs_fpid": "924261f7-2cc7-4185-87bc-e4cc0dc7e4fb",
+            "cs_fpit": "lo",
+            "cs_it": "m1",
+            "cv": "4.13.1+2508250908",
+            "ns__t": 1781169987011,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=6036206&cs_it=m1&cv=4.13.1%2B2508250908&ns__t=1781169987011&ns_c=UTF-8&cs_cfg=1001110&c3=*null&c4=www.zillow.com%2F&c5=*null&c6=*null&c15=*null&cs_fpdm=*null&cs_fpdt=*null&cs_fpid=924261f7-2cc7-4185-87bc-e4cc0dc7e4fb&cs_fpit=lo&c7=https%3A%2F%2Fwww.zillow.com%2F&c8=Zillow%3A%20Real%20Estate%2C%20Apartments%2C%20Mortgages%20%26%20Home%20Values&c9="
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon-ios.js"
+      },
+      {
+        "data": {
+          "filter": "/api/v2/collector",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://collector-pxhyx10rg3.px-cloud.net/api/v2/collector"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/cs/6036206/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.54.0",
+            "sentry_key": "a0dfc4d25bb843acb944ff1d115fd1b2",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o168728.ingest.sentry.io/api/4505313524383744/envelope/?sentry_key=a0dfc4d25bb843acb944ff1d115fd1b2&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.54.0"
+      },
+      {
+        "data": {
+          "filter": "||datadoghq-browser-agent.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js"
+      },
+      {
+        "data": {
+          "filter": "/analytics.js?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "bcf290c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.zg-api.com/a/z/js/v1/analytics.js?v=bcf290c"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zillow.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      }
+    ]
+  }
+}

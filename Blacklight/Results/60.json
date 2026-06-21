@@ -1,0 +1,267 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Spotify - Web Player: Music for everyone",
+  "uri_ins": "https://spotify.com",
+  "uri_dest": "https://open.spotify.com/",
+  "uri_redirects": [
+    "https://spotify.com/",
+    "https://www.spotify.com/"
+  ],
+  "secure_connection": {},
+  "host": "spotify.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:49:23.015Z",
+  "end_time": "2026-06-11T05:49:29.166Z",
+  "browsing_history": [
+    "https://open.spotify.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "spotify.com",
+        "www.spotify.com",
+        "open.spotify.com",
+        "apresolve.spotify.com",
+        "gew1-spclient.spotify.com",
+        "clienttoken.spotify.com",
+        "api-partner.spotify.com",
+        "exp.wg.spotify.com",
+        "spclient.wg.spotify.com"
+      ],
+      "third_party": [
+        "encore.scdn.co",
+        "open.spotifycdn.com",
+        "i.scdn.co",
+        "pickasso.spotifycdn.com",
+        "charts-images.scdn.co",
+        "sentry.io",
+        "cdn.cookielaw.org",
+        "www.googletagmanager.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://open.spotifycdn.com/cdn/build/mobile-web-player/vendor~mobile-web-player.4b90b68f.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://open.spotifycdn.com/cdn/build/mobile-web-player/mobile-web-player.b6837367.js": [
+          "keyup"
+        ],
+        "https://open.spotifycdn.com/cdn/build/mobile-web-player/vendor~mobile-web-player.4b90b68f.js": [
+          "keydown",
+          "keypress",
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "sp_t",
+        "value": "b52ad47f-9def-47cd-9463-f4c5e1bf492d",
+        "domain": "spotify.com",
+        "path": "/",
+        "expires": "2027-06-11T05:49:23.947Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sp_new",
+        "value": "1",
+        "domain": "spotify.com",
+        "path": "/",
+        "expires": "2026-06-12T05:49:23.947Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sp_landing",
+        "value": "https%3A%2F%2Fopen.spotify.com%2F",
+        "domain": "spotify.com",
+        "path": "/",
+        "expires": "2026-06-12T05:49:23.947Z",
+        "size": 43,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+07%3A49%3A26+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a17502f-b655-4cd8-ad73-99bad0d697a4&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fopen.spotify.com%2F&groups=s00%3A1%2Cf00%3A0%2Cm00%3A0%2Ct00%3A0%2Cf11%3A0%2CID01%3A0%2Ci00%3A0%2CV2STACK3%3A0%2CV2STACK11%3A0%2CV2STACK20%3A0%2Cm03%3A1%2Cm02%3A0%2Ct02%3A0",
+        "domain": "spotify.com",
+        "path": "/",
+        "expires": "2027-06-11T05:49:26.000Z",
+        "size": 463,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.react/10.38.0",
+            "sentry_key": "61f69548e77b4b52a0a8caa6885931c7",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://open.spotify.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sentry.io/api/1242283/envelope/?sentry_version=7&sentry_key=61f69548e77b4b52a0a8caa6885931c7&sentry_client=sentry.javascript.react%2F10.38.0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PZHN3VD"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://open.spotify.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PZHN3VD"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.react/10.38.0",
+            "sentry_key": "61f69548e77b4b52a0a8caa6885931c7",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://open.spotify.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sentry.io/api/1242283/envelope/?sentry_version=7&sentry_key=61f69548e77b4b52a0a8caa6885931c7&sentry_client=sentry.javascript.react%2F10.38.0"
+      },
+      {
+        "data": {
+          "filter": "/retargeting-pixels.",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://open.spotify.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://open.spotifycdn.com/cdn/js/retargeting-pixels.02346b5d.js"
+      }
+    ]
+  }
+}

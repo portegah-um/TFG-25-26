@@ -1,0 +1,1033 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS",
+  "uri_ins": "https://selectel.ru",
+  "uri_dest": "https://selectel.ru/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "selectel.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:29:36.919Z",
+  "end_time": "2026-06-11T07:29:46.809Z",
+  "browsing_history": [
+    "https://selectel.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "selectel.ru",
+        "cdn.selectel.ru",
+        "metrics.selectel.ru",
+        "hog.selectel.ru",
+        "api.selectel.ru",
+        "chatwoot.selectel.ru",
+        "relay.selectel.ru"
+      ],
+      "third_party": [
+        "api.mindbox.ru",
+        "6ef4e6a1-9d49-47ac-bfed-170f67a815cf.selcdn.net",
+        "web-static.mindbox.ru",
+        "top-fwz1.mail.ru",
+        "vk.com",
+        "telegram.org",
+        "widgets.mango-office.ru",
+        "mc.yandex.ru",
+        "statuspal.io",
+        "fonts.googleapis.com",
+        "privacy-cs.mail.ru",
+        "mc.yandex.com",
+        "tcd.mng.tl"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://chatwoot.selectel.ru/packs/js/sdk.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://widgets.mango-office.ru/widgets/mango.js": [
+          "keydown"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "keydown"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "keypress"
+        ],
+        "https://web-static.mindbox.ru/js/byendpoint/selectelwebsite.js?_=5937209": [
+          "keydown"
+        ],
+        "https://hog.selectel.ru/static/recorder.js?v=1.68.1": [
+          "input"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/DTkQ8jmr.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://chatwoot.selectel.ru/packs/js/sdk.js": [
+          "touchstart"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "touchmove"
+        ],
+        "https://web-static.mindbox.ru/js/byendpoint/selectelwebsite.js?_=5937209": [
+          "touchstart",
+          "touchmove"
+        ],
+        "https://hog.selectel.ru/static/recorder.js?v=1.68.1": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/DTkQ8jmr.js": [
+          "touchstart"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/CZERIZkF.js": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      },
+      "MOUSE": {
+        "https://chatwoot.selectel.ru/packs/js/sdk.js": [
+          "click"
+        ],
+        "https://widgets.mango-office.ru/widgets/mango.js": [
+          "scroll",
+          "mousemove"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://web-static.mindbox.ru/js/byendpoint/selectelwebsite.js?_=5937209": [
+          "scroll",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/DTkQ8jmr.js": [
+          "click",
+          "mousedown",
+          "scroll"
+        ],
+        "https://hog.selectel.ru/static/recorder.js?v=1.68.1": [
+          "scroll",
+          "dblclick",
+          "click",
+          "mousedown",
+          "mouseup",
+          "mousemove"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/CZERIZkF.js": [
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/C4eLu_Un.js": [
+          "click"
+        ],
+        "https://cdn.selectel.ru/site_v3/_nuxt_v3/CjOy55Wh.js": [
+          "scroll",
+          "mousemove"
+        ]
+      },
+      "SENSOR": {
+        "https://web-static.mindbox.ru/js/byendpoint/selectelwebsite.js?_=5937209": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "hsid",
+        "value": "94995bdc-34f0-4aa3-aab0-9c1abb2e32d1",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-06-18T07:29:37.917Z",
+        "size": 40,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "deviceUUID",
+        "value": "59386489-3a1b-4e60-baf9-e57b72b81d70",
+        "domain": "api.mindbox.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:29:40.744Z",
+        "size": 46,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mindboxDeviceUUID",
+        "value": "59386489-3a1b-4e60-baf9-e57b72b81d70",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:29:38.991Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "directCrm-session",
+        "value": "%7B%22deviceGuid%22%3A%2259386489-3a1b-4e60-baf9-e57b72b81d70%22%7D",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:29:38.997Z",
+        "size": 84,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ref",
+        "value": "selfselectel",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:29:39.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "locale",
+        "value": "RU",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:29:40.192Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cid",
+        "value": "Ch4TdWoqY+RDR2NWL6JXAg==",
+        "domain": "api.selectel.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:29:40.282Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "stel_ssid",
+        "value": "4c9ba4bd26178ebf2a_9797564078459407072",
+        "domain": "telegram.org",
+        "path": "/",
+        "expires": "2026-06-11T18:36:20.945Z",
+        "size": 47,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "popmechanic_sbjs_migrations",
+        "value": "popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-12-08T07:29:40.000Z",
+        "size": 108,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvid",
+        "value": "9d50f87686334a8c628e426bef52b1ea",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-05-10T07:29:41.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvidTS",
+        "value": "1781162981316",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-05-10T07:29:41.000Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_uid",
+        "value": "1781162981434704763",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:29:41.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1781162981",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:29:41.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_sb_migrations",
+        "value": "1418474375998%253D1",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-12-08T07:29:41.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_sb_current",
+        "value": "typ%253Dtypein%257C%252A%257Csrc%253D%2528direct%2529%257C%252A%257Cmdm%253D%2528none%2529%257C%252A%257Ccmp%253D%2528none%2529%257C%252A%257Ccnt%253D%2528none%2529%257C%252A%257Ctrm%253D%2528none%2529%257C%252A%257Cmango%253D%2528none%2529",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-12-08T07:29:41.000Z",
+        "size": 254,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_sb_first",
+        "value": "typ%253Dtypein%257C%252A%257Csrc%253D%2528direct%2529%257C%252A%257Cmdm%253D%2528none%2529%257C%252A%257Ccmp%253D%2528none%2529%257C%252A%257Ccnt%253D%2528none%2529%257C%252A%257Ctrm%253D%2528none%2529%257C%252A%257Cmango%253D%2528none%2529",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-12-08T07:29:41.000Z",
+        "size": 252,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_sb_session",
+        "value": "pgs%253D1%257C%252A%257Ccpg%253Dhttps%253A%252F%252Fselectel.ru%252F",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-06-11T07:59:41.000Z",
+        "size": 82,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_uid",
+        "value": "YUdyA7dkFH3nxJxxkw50",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:29:41.646Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_cnt",
+        "value": "1",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:29:41.658Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mgo_sid",
+        "value": "ovsbtggi5i11001q4lm5",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-06-11T07:59:41.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-06-12T03:29:41.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pk_id.1.d22d",
+        "value": "bddebf7f3f1e8113.1781162982.",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-07-09T07:29:42.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pk_ses.1.d22d",
+        "value": "1",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-06-11T07:59:41.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utm_source",
+        "value": "direct",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-09-09T07:29:42.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utm_medium",
+        "value": "none",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-09-09T07:29:42.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "utm_campaign",
+        "value": "",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-09-09T07:29:42.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cw_conversation",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiJjZTMwOTQ0Mi03ZjhjLTQ5M2MtYmNlOC1mMDUzMmM2ZDJlZTQiLCJpbmJveF9pZCI6MSwiZXhwIjoxNzk2NzE0OTgwLCJpYXQiOjE3ODExNjI5ODB9.LyxhQlD9fbzBB_G7jJAWdKEsdVgCVHixJNZm4EeBSk4",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:29:42.000Z",
+        "size": 212,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "PVID",
+        "value": "0QJNz027KdYe00003Z37nSIe:::0-0-0-f44bca5-0-f44bca6:CAASEFYQn4ZGXfi4Eej2F500-3EaYHncupi8rQLKyb4SmDRvQBCsENi41NnAlklgbKW1kp7WDmNsITBIcQNf63cWtD-3faYqEhQLdXvrzyasxRLv-IjUBG-oDfad7YDps5p92h_27-RyCrW1z4Exk0OX5Omc6Q",
+        "domain": "top-fwz1.mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T07:29:42.156Z",
+        "size": 213,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://selectel.ru",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VID",
+        "value": "0QJNz027KdYe00003Z37nSIe:::0-0-0-f44bca5-0-f44bca6:CAASEFYQn4ZGXfi4Eej2F500-3EaYHncupi8rQLKyb4SmDRvQBCsENi41NnAlklgbKW1kp7WDmNsITBIcQNf63cWtD-3faYqEhQLdXvrzyasxRLv-IjUBG-oDfad7YDps5p92h_27-RyCrW1z4Exk0OX5Omc6Q",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T07:29:42.156Z",
+        "size": 212,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_chatwoot_session",
+        "value": "6OOOc8JN2EBimeQvdSJKSviPwmoOByrtk8AHtL8fzWBS5osL5eZd5iuKGiBR8xNqGXEV0H4KQYrp4VjR%2BZf3cXWi6p8G5LjnvUJKIlpcOrqYwYa1Lny4bdaFr6tMVJgnPP9Uibr%2BxcALKBAag%2Bda08nCexeoso87RbKvvYFKXNek7Aluhaup3MJev3JY1vsSYdAS05cR8L3q%2B%2BLCkWmVIAWqFllXOj75SvwxwPRPoRMXfgUhreEWqPP8l6owqGXkBI%2BOQEk5Y%2FmicyznSrEGtqoWG2irGpboVQ%3D%3D--wfygx4bFzgKBCina--rjRydI2YdHpu6kQWmQ8Gig%3D%3D",
+        "domain": "chatwoot.selectel.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 375,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tmr_detect",
+        "value": "0%7C1781162984068",
+        "domain": "selectel.ru",
+        "path": "/",
+        "expires": "2026-06-12T07:29:44.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "mc.yandex.ru/metrika/tag.js": [
+        "mc.yandex.ru/metrika/tag.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.18928619461012808;id=3283284;u=https://selectel.ru/;title=IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120/Europe/Madrid;st=1781162979087;nt=0/0/1781162977514/////1/83/83/83/275/179/276/402/852/417/1573/1613/1613/4532/4533/4548;ct=3783/3805/3805/3817/2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316:1781162982068:4:9d50f87686334a8c628e426bef52b1ea;opts=sec,dl,jst-ym-vk,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13;e=RT/load;et=1781162982062"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.18928619461012808;id=3283284;u=https%3A%2F%2Fselectel.ru%2F;title=IT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%20Selectel%2C%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20IaaS%20%D0%B8%20PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781162979087;nt=0/0/1781162977514/////1/83/83/83/275/179/276/402/852/417/1573/1613/1613/4532/4533/4548;ct=3783/3805/3805/3817/2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316%3A1781162982068%3A4%3A9d50f87686334a8c628e426bef52b1ea;opts=sec%2Cdl%2Cjst-ym-vk%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13;e=RT%2Fload;et=1781162982062"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.04285551939487453;id=3132958;u=https://selectel.ru/;title=IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120/Europe/Madrid;st=1781162979087;nt=0/0/1781162977514/////1/83/83/83/275/179/276/402/852/417/1573/1613/1613/4532/4533/4548;ct=3783/3805/3805/3817/2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316:1781162982065:3:9d50f87686334a8c628e426bef52b1ea;opts=dl,jst-ym-vk,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13;e=RT/load;et=1781162982062"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.04285551939487453;id=3132958;u=https%3A%2F%2Fselectel.ru%2F;title=IT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%20Selectel%2C%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20IaaS%20%D0%B8%20PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781162979087;nt=0/0/1781162977514/////1/83/83/83/275/179/276/402/852/417/1573/1613/1613/4532/4533/4548;ct=3783/3805/3805/3817/2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316%3A1781162982065%3A3%3A9d50f87686334a8c628e426bef52b1ea;opts=dl%2Cjst-ym-vk%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13;e=RT%2Fload;et=1781162982062"
+      },
+      {
+        "data": {
+          "filter": "||vk.com/rtrg?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "metatag_title": "Selectel — IT-инфраструктура для бизнеса",
+            "metatag_url": "https://selectel.ru/",
+            "p": "VK-RTRG-386699-bmIMq"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vk.com/rtrg?p=VK-RTRG-386699-bmIMq&metatag_url=https%3A%2F%2Fselectel.ru%2F&metatag_title=Selectel%20%E2%80%94%20IT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1336565608626:hid:998126738:z:120:i:20260611092941:et:1781162981:c:1:rn:616677471:rqn:1:u:1781162981434704763:w:375x812:s:375x812x24:sk:3:fp:1310:wv:2:ds:0,192,127,450,2,0,,720,0,,,,1613:co:0:hdl:1:ns:1781162977514:rqnl:1:st:1781162982:t:IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS",
+            "callback": "_ymjsp76712878",
+            "charset": "utf-8",
+            "page-url": "https://selectel.ru/",
+            "t": "clt(1439)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010112)ti(3)",
+            "uah": "chm\n?0",
+            "wmode": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/40029655?callback=_ymjsp76712878&page-url=https%3A%2F%2Fselectel.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1336565608626%3Ahid%3A998126738%3Az%3A120%3Ai%3A20260611092941%3Aet%3A1781162981%3Ac%3A1%3Arn%3A616677471%3Arqn%3A1%3Au%3A1781162981434704763%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1310%3Awv%3A2%3Ads%3A0%2C192%2C127%2C450%2C2%2C0%2C%2C720%2C0%2C%2C%2C%2C1613%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781162977514%3Arqnl%3A1%3Ast%3A1781162982%3At%3AIT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%20Selectel%2C%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20IaaS%20%D0%B8%20PaaS&t=clt(1439)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010112)ti(3)&wmode=5"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1336565608626:hid:998126738:z:120:i:20260611092941:et:1781162981:c:1:rn:616677471:rqn:1:u:1781162981434704763:w:375x812:s:375x812x24:sk:3:fp:1310:wv:2:ds:0,192,127,450,2,0,,720,0,,,,1613:co:0:hdl:1:ns:1781162977514:rqnl:1:st:1781162981:t:IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS",
+            "charset": "utf-8",
+            "page-url": "https://selectel.ru/",
+            "t": "clt(1439)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010112)ti(2)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/40029655?wmode=7&page-url=https%3A%2F%2Fselectel.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1336565608626%3Ahid%3A998126738%3Az%3A120%3Ai%3A20260611092941%3Aet%3A1781162981%3Ac%3A1%3Arn%3A616677471%3Arqn%3A1%3Au%3A1781162981434704763%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1310%3Awv%3A2%3Ads%3A0%2C192%2C127%2C450%2C2%2C0%2C%2C720%2C0%2C%2C%2C%2C1613%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781162977514%3Arqnl%3A1%3Ast%3A1781162981%3At%3AIT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%20Selectel%2C%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20IaaS%20%D0%B8%20PaaS&t=clt(1439)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42010112)ti(2)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.11608351724591426;id=3283284;u=https://selectel.ru/;title=IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120/Europe/Madrid;st=1781162979087;ct=3783/3805/3805//2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316:1781162981327:2:9d50f87686334a8c628e426bef52b1ea;opts=sec,dl,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/counter?_=0.11608351724591426;id=3283284;u=https%3A%2F%2Fselectel.ru%2F;title=IT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%20Selectel%2C%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20IaaS%20%D0%B8%20PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781162979087;ct=3783/3805/3805//2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316%3A1781162981327%3A2%3A9d50f87686334a8c628e426bef52b1ea;opts=sec%2Cdl%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.6748201590536091;id=3132958;u=https://selectel.ru/;title=IT-инфраструктура для бизнеса от облачного провайдера Selectel, аренда IaaS и PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120/Europe/Madrid;st=1781162979087;ct=3783/3805/3805//2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316:1781162981324:1:9d50f87686334a8c628e426bef52b1ea;opts=dl,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/counter?_=0.6748201590536091;id=3132958;u=https%3A%2F%2Fselectel.ru%2F;title=IT-%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%20Selectel%2C%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0%20IaaS%20%D0%B8%20PaaS;s=375*812;vp=375*812;touch=0;hds=3;sid=847aa6c76ba0fe14;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781162979087;ct=3783/3805/3805//2432;rt=2434/449/0/0/0/2434/2521/2521/2521/2705/2609/2705/2876/2882;gl=u;ni=10//4g/150/0/;lvid=1781162981316%3A1781162981324%3A1%3A9d50f87686334a8c628e426bef52b1ea;opts=dl%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ids": "3132958,3283284"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/dyn-goal-config.js?ids=3132958,3283284"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://telegram.org/pxl"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "endpointId": "SelectelWebsite",
+            "operation": "Tracker.TrackPage",
+            "originDomain": "selectel.ru",
+            "trackerName": "mindbox",
+            "transport": "beacon",
+            "version": "1.0.798"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.mindbox.ru/v3/js/operations/async?version=1.0.798&transport=beacon&operation=Tracker.TrackPage&endpointId=SelectelWebsite&originDomain=selectel.ru&trackerName=mindbox"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/code.js"
+      },
+      {
+        "data": {
+          "filter": "/track-visit?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "transport": "XmlHttpRequest",
+            "version": "1.0.798"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.mindbox.ru/v1.1/customer/track-visit?version=1.0.798&transport=XmlHttpRequest"
+      },
+      {
+        "data": {
+          "filter": "/v1/tracker.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://selectel.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.mindbox.ru/scripts/v1/tracker.js"
+      }
+    ]
+  }
+}

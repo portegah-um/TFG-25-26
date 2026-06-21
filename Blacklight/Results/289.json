@@ -1,0 +1,512 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Дром - цены на машины",
+  "uri_ins": "https://drom.ru",
+  "uri_dest": "https://www.drom.ru/",
+  "uri_redirects": [
+    "https://drom.ru/"
+  ],
+  "secure_connection": {},
+  "host": "drom.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:04:50.864Z",
+  "end_time": "2026-06-11T07:05:06.358Z",
+  "browsing_history": [
+    "https://www.drom.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "drom.ru",
+        "www.drom.ru",
+        "r.drom.ru",
+        "r-kn.drom.ru",
+        "s12.auto.drom.ru",
+        "s.auto.drom.ru",
+        "counter.drom.ru",
+        "s11.auto.drom.ru",
+        "static.baza.drom.ru"
+      ],
+      "third_party": [
+        "i.rdrom.ru",
+        "www.googletagmanager.com",
+        "counter.yadro.ru",
+        "www.google.es",
+        "www.farpost.ru",
+        "sw.flavii.ru",
+        "dante.flavii.ru",
+        "cdn.flavii.ru"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.flavii.ru/banners/0b0ec6cad67953b011ceb4e83e6b18e7/s.js": [
+          "mousemove",
+          "mouseup"
+        ],
+        "https://r-kn.drom.ru/js/bundles/home-layout-mobile.6b67a1149a75690d.chunk.js": [
+          "scroll"
+        ],
+        "https://r.drom.ru/js/bundles/home.b77489bfea77d5cd.js": [
+          "click"
+        ],
+        "https://r.drom.ru/js/bundles/page-info-analytics.241089572b88b40c.js": [
+          "scroll",
+          "mousemove",
+          "dblclick",
+          "click"
+        ],
+        "https://r-kn.drom.ru/js/bundles/231.ae3dc71eddc0f8e4.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://r-kn.drom.ru/js/bundles/home-layout-mobile.6b67a1149a75690d.chunk.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://r.drom.ru/js/bundles/home.b77489bfea77d5cd.js": [
+          "keydown"
+        ],
+        "https://r.drom.ru/js/bundles/page-info-analytics.241089572b88b40c.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://r-kn.drom.ru/js/bundles/231.ae3dc71eddc0f8e4.js": [
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://r.drom.ru/js/bundles/page-info-analytics.241089572b88b40c.js": [
+          "touchstart",
+          "touchmove"
+        ],
+        "https://r.drom.ru/js/bundles/home.b77489bfea77d5cd.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://cdn.flavii.ru/banners/0b0ec6cad67953b011ceb4e83e6b18e7/s.js": [
+          "#666666",
+          "#000000",
+          "rgba(255,255,255,0)",
+          "#333333",
+          "#0B4AF8",
+          "#0F3CFF",
+          "#FFFFFF",
+          "{\"props\":{\"colors\":[\"#0D3EFF\",\"rgba(13,62,255,0)\"],\"ratios\":[0.357,0.655],\"x0\":-257.6,\"y0\":-0.1,\"x1\":257.5,\"y1\":-0.1,\"type\":\"linear\"}}",
+          "#2B2B2A"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.1.774788187.1781161494",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:05:02.013Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mobile",
+        "value": "1",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2026-07-11T07:04:54.119Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ring",
+        "value": "acb5414MyPBo8wDwjz1zs%2FMBwtBnw0a7",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2027-06-11T07:04:54.119Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "segSession",
+        "value": "ImMwNjg0MmM5NzFlMDNmMDAyOWZkMjQ1MzMwODc4ZWYwbm90QXV0aGFjYjU0MTRNeVBCbzh3RHdqejF6c1wvTUJ3dEJudzBhNyJfN2ZjNDU3NDU1NDBiNTVkZWJlYzliODliNmQ4N2RjZmI",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2026-06-11T15:05:02.372Z",
+        "size": 153,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cookie_cityid",
+        "value": "0",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:04:54.119Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cookie_regionid",
+        "value": "0",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:04:54.119Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "my_geo",
+        "value": "77",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2026-06-14T07:04:54.119Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "selected_theme",
+        "value": "system",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:04:54.480Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "uid",
+        "value": "0e6c9176fd1c2d0164ef0b6c3ee0fcbc",
+        "domain": "flavii.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:05:02.503Z",
+        "size": 35,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "showsByHour",
+        "value": "690-0.2_",
+        "domain": "flavii.ru",
+        "path": "/",
+        "expires": "2026-06-11T07:59:59.655Z",
+        "size": 19,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "showsByDay",
+        "value": "0.2_",
+        "domain": "flavii.ru",
+        "path": "/",
+        "expires": "2026-06-11T13:59:59.656Z",
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "showsByThreeDays",
+        "value": "0.2_",
+        "domain": "flavii.ru",
+        "path": "/",
+        "expires": "2026-06-12T13:59:59.656Z",
+        "size": 20,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "showsByWeek",
+        "value": "0.2_",
+        "domain": "flavii.ru",
+        "path": "/",
+        "expires": "2026-06-14T13:59:59.656Z",
+        "size": 15,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "showsByMonth",
+        "value": "0.2_",
+        "domain": "flavii.ru",
+        "path": "/",
+        "expires": "2026-06-30T13:59:59.656Z",
+        "size": 16,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_1G91VLKB2K",
+        "value": "GS2.1.s1781161493$o1$g1$t1781161505$j48$l0$h0$dB-0J1cxAgUcXBSj_KEIuekLxeMM36FjRRg",
+        "domain": "drom.ru",
+        "path": "/",
+        "expires": "2027-07-16T07:05:05.519Z",
+        "size": 95,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||counter.yadro.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r;s375*812*24;uhttps://www.drom.ru/;h%u0414%u0440%u043E%u043C - %u0446%u0435%u043D%u044B %u043D%u0430 %u043C%u0430%u0448%u0438%u043D%u044B;0.5634627581005978": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.drom.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://counter.yadro.ru/hit;drom?r;s375*812*24;uhttps%3A//www.drom.ru/;h%u0414%u0440%u043E%u043C%20-%20%u0446%u0435%u043D%u044B%20%u043D%u0430%20%u043C%u0430%u0448%u0438%u043D%u044B;0.5634627581005978"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 774788187.1781162,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45g92e6691v9105099306z878255679za20kzb78255679zd78255679",
+            "npa": 1,
+            "rcb": 9,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "115938465~115938468~119456240~119456248",
+            "tid": "G-1G91VLKB2K",
+            "v": 1,
+            "z": 1368894339
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.drom.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-1G91VLKB2K&cid=774788187.1781161494&gtm=45g92e6691v9105099306z878255679za20kzb78255679zd78255679&rcb=9&aip=1&dma=1&dma_cps=a&gcd=13l3lPl2l1l1&npa=1&frm=0&tag_exp=115938465~115938468~119456240~119456248&z=1368894339"
+      },
+      {
+        "data": {
+          "filter": "||counter.yadro.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r;s375*812*24;uhttps://www.drom.ru/;h%u0414%u0440%u043E%u043C - %u0446%u0435%u043D%u044B %u043D%u0430 %u043C%u0430%u0448%u0438%u043D%u044B;0.43673781916488075": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.drom.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://counter.yadro.ru/hit;drom?r;s375*812*24;uhttps%3A//www.drom.ru/;h%u0414%u0440%u043E%u043C%20-%20%u0446%u0435%u043D%u044B%20%u043D%u0430%20%u043C%u0430%u0448%u0438%u043D%u044B;0.43673781916488075"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-P93LSVV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.drom.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P93LSVV&gtg_health=1"
+      }
+    ]
+  }
+}

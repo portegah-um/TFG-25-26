@@ -1,0 +1,209 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cloudflare: Build for the agent era",
+  "uri_ins": "https://cloudflare.com",
+  "uri_dest": "https://www.cloudflare.com/",
+  "uri_redirects": [
+    "https://cloudflare.com/"
+  ],
+  "secure_connection": {},
+  "host": "cloudflare.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:33:16.621Z",
+  "end_time": "2026-06-11T05:33:23.012Z",
+  "browsing_history": [
+    "https://www.cloudflare.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cloudflare.com",
+        "www.cloudflare.com",
+        "ot.www.cloudflare.com"
+      ],
+      "third_party": [
+        "static.cloudflareinsights.com",
+        "www.googletagmanager.com",
+        "cdn.cookielaw.org"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.cloudflare.com/_astro/index.8greTXTV.js": [
+          "scroll"
+        ],
+        "https://www.cloudflare.com/_astro/_container.CD7SwDWo.js": [
+          "scroll"
+        ],
+        "https://www.cloudflare.com/_astro/index.Cjhdjq7G.js": [
+          "scroll"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://www.cloudflare.com/": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.cloudflare.com/_astro/index.CFRWmlUI.js": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "rcDxHMNEfbB_HZC44217ZBqoEEqB0KDQAaeCHHwc1G8-1781155997-1.0.1.1-2lqQu8jiucm2o8za_TdBR70zIXz.v_DwKEPjYG.xWKn3vFd5EC8zhvCuCEeFQDUqPB.v1oNqU39_ox0IwTsmG1rB6F7EoUU8jas9kmF2PxE",
+        "domain": "cloudflare.com",
+        "path": "/",
+        "expires": "2026-06-11T06:03:17.388Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+07%3A33%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202503.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4c0898a6-ea7d-4ac7-8b89-f40655dc9167&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.cloudflare.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "cloudflare.com",
+        "path": "/",
+        "expires": "2027-06-11T05:33:19.000Z",
+        "size": 350,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "uSz53hzYy__XHpHlcfqxHOQH_7oPCgtbrji1IihtyH0-1781156002.6755939-1.0.1.1-pbDF670kq_26JVRox.ngDNb8yXO.jwfNByoxm5AWzxflulezWGjXwUEF7bOWuEz6UCM2KVgk4RoAVAhf7dS_MO7b1DSm70CjmUgGedPFRgcSZSu6tOujsF95.kWjxu2BYuOfoylMZ24BjvLZu3egPw",
+        "domain": "www.cloudflare.com",
+        "path": "/",
+        "expires": "2026-06-11T06:03:22.704Z",
+        "size": 228,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-NDGPDFZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cloudflare.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NDGPDFZ&gtg_health=1"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cloudflare.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

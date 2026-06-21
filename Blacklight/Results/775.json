@@ -1,0 +1,461 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "日本経済新聞 - ニュース・速報 最新情報",
+  "uri_ins": "https://nikkei.com",
+  "uri_dest": "https://www.nikkei.com/",
+  "uri_redirects": [
+    "https://nikkei.com/"
+  ],
+  "secure_connection": {},
+  "host": "nikkei.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:32:32.473Z",
+  "end_time": "2026-06-11T09:32:39.573Z",
+  "browsing_history": [
+    "https://www.nikkei.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nikkei.com",
+        "www.nikkei.com",
+        "article-image-ix.nikkei.com",
+        "partsa.nikkei.com",
+        "nkispa.nikkei.com",
+        "nkis.nikkei.com"
+      ],
+      "third_party": [
+        "cmp.datasign.co",
+        "cdn.speedcurve.com",
+        "cf-images.ap-northeast-1.prod.boltdns.net",
+        "connect.facebook.net",
+        "js.rtoaster.jp",
+        "www.googletagmanager.com",
+        "f4f2249aa9.cmp-origin.datasign.co",
+        "rt.rtoaster.jp",
+        "static.cmp.datasign.co"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.cmp.datasign.co/v2/assets/cmp_ui.js?h=f4f2249aa9": [
+          "click",
+          "scroll"
+        ],
+        "https://cdn.speedcurve.com/js/lux.js?id=18491751": [
+          "mousedown",
+          "scroll",
+          "click"
+        ],
+        "https://www.nikkei.com/.resources/tracking/static/atlas/atlas-webvitals-plugin.min.rev-a2b49d.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.speedcurve.com/js/lux.js?id=18491751": [
+          "keydown"
+        ],
+        "https://www.nikkei.com/.resources/tracking/static/atlas/atlas-webvitals-plugin.min.rev-a2b49d.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.speedcurve.com/js/lux.js?id=18491751": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "atlasId",
+        "value": "6a2a80b2.pacjr1kg2qctvcxjojur7x8mni8zdjlq",
+        "domain": "nikkei.com",
+        "path": "/",
+        "expires": "2027-07-16T09:32:36.038Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lux_uid",
+        "value": "178117035708583296",
+        "domain": "www.nikkei.com",
+        "path": "/",
+        "expires": "2026-06-11T10:02:37.087Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/locales/en/translation.json"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/locales/en-US/translation.json"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/tracking/static/sender-webtru.rev-e7bcd6.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/locales/en/translation.json"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/tracking/static/sender-webtru.rev-e7bcd6.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/locales/en-US/translation.json"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/f4f2249aa9/external_services.json"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/tracking/static/sender-webtru.rev-e7bcd6.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/f4f2249aa9/external_services.json"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "h": "f4f2249aa9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/tracking/static/sender-webtru.rev-e7bcd6.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/assets/cmp_ui.js?h=f4f2249aa9"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "h": "f4f2249aa9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cmp.datasign.co/v2/assets/cmp_ui.js?h=f4f2249aa9"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.nikkei.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/517132292271830?v=2.9.337&r=stable&domain=www.nikkei.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://f4f2249aa9.cmp-origin.datasign.co/index.html"
+      },
+      {
+        "data": {
+          "filter": "||rtoaster.jp^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": "RTA-b778-e49be1298b8a",
+            "c": "UTF-8",
+            "i": 0.2915237150209371,
+            "l": "https://www.nikkei.com/.resources/k-components/rtoaster/view.rev-e54ba78.html?data=eyJlbGVtZW50SWQiOiJyY21kX2tpdGVfbm90aWZpY2F0aW9uIn0%3D&pageUrl=https%3A%2F%2Fwww.nikkei.com%2F",
+            "m": "",
+            "p": "user_rank=1",
+            "r": "https://www.nikkei.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/k-components/rtoaster/view.rev-e54ba78.html?data=eyJlbGVtZW50SWQiOiJyY21kX2tpdGVfbm90aWZpY2F0aW9uIn0%3D&pageUrl=https%3A%2F%2Fwww.nikkei.com%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rt.rtoaster.jp/t/?a=RTA-b778-e49be1298b8a&m=&l=https%3A%2F%2Fwww.nikkei.com%2F.resources%2Fk-components%2Frtoaster%2Fview.rev-e54ba78.html%3Fdata%3DeyJlbGVtZW50SWQiOiJyY21kX2tpdGVfbm90aWZpY2F0aW9uIn0%253D%26pageUrl%3Dhttps%253A%252F%252Fwww.nikkei.com%252F&r=https%3A%2F%2Fwww.nikkei.com%2F&p=user_rank%3D1&i=0.2915237150209371&c=UTF-8"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://f4f2249aa9.cmp-origin.datasign.co/index.html"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-PXS8451SBG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/tracking/static/sender-webtru.rev-e7bcd6.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PXS8451SBG"
+      },
+      {
+        "data": {
+          "filter": "||rtoaster.jp^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/k-components/rtoaster/view.rev-e54ba78.html?data=eyJlbGVtZW50SWQiOiJyY21kX2tpdGVfbm90aWZpY2F0aW9uIn0%3D&pageUrl=https%3A%2F%2Fwww.nikkei.com%2F",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.rtoaster.jp/Rtoaster.js"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/.resources/tracking/static/sender-webtru.rev-e7bcd6.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cmp.datasign.co/v2/f4f2249aa9/cmp.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||speedcurve.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 18491751
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.speedcurve.com/js/lux.js?id=18491751"
+      },
+      {
+        "data": {
+          "filter": "||datasign.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nikkei.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cmp.datasign.co/v2/f4f2249aa9/cmp.js"
+      }
+    ]
+  }
+}

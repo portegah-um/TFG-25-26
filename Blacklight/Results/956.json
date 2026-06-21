@@ -1,0 +1,429 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Wyze | Smart Home Security Cameras & Devices",
+  "uri_ins": "https://wyzecam.com",
+  "uri_dest": "https://www.wyze.com/",
+  "uri_redirects": [
+    "https://wyzecam.com/"
+  ],
+  "secure_connection": {},
+  "host": "wyzecam.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:29:17.498Z",
+  "end_time": "2026-06-11T10:29:34.309Z",
+  "browsing_history": [
+    "https://www.wyze.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "wyzecam.com",
+        "www.wyze.com"
+      ],
+      "third_party": [
+        "shop.app",
+        "cdn.shopify.com",
+        "cmp.osano.com",
+        "static.klaviyo.com",
+        "cdn.weglot.com",
+        "monorail-edge.shopifysvc.com",
+        "otlp-http-production.shopifysvc.com",
+        "wyze.dataplane.rudderstack.com",
+        "backend.alia-prod.com",
+        "chatbox.copilot.livex.ai",
+        "fonts.googleapis.com",
+        "api.copilot.livex.ai",
+        "static.rechargecdn.com",
+        "ssl.kaptcha.com",
+        "js.hcaptcha.com",
+        "a332082a3e51.w.hcaptcha.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://js.hcaptcha.com/1/api.js?render=explicit&recaptchacompat=off&onload=__shopify_hcap_load_dczhhi0p": [
+          "scroll"
+        ],
+        "https://backend.alia-prod.com/public/launcher.js?shop=wyzecom.myshopify.com": [
+          "click"
+        ],
+        "https://chatbox.copilot.livex.ai/livex.min.js": [
+          "mouseup",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://www.wyze.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js": [
+          "scroll",
+          "click",
+          "mousemove"
+        ],
+        "https://www.wyze.com/cdn/shop/t/766/assets/wyze-header-meganav-min.js?v=47297627697881342481774915060": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://chatbox.copilot.livex.ai/livex.min.js": [
+          "keydown"
+        ],
+        "https://www.wyze.com/cdn/shop/t/766/assets/splide.min-min.js?v=160630041376142111701747707580": [
+          "keydown"
+        ],
+        "https://www.wyze.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js": [
+          "keydown"
+        ],
+        "https://www.wyze.com/cdn/shop/t/766/assets/wyze-header-meganav-min.js?v=47297627697881342481774915060": [
+          "keydown"
+        ],
+        "https://www.wyze.com/cdn/shop/t/766/assets/cart-page-modal-min.js?v=105132625077186535331763019739": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://chatbox.copilot.livex.ai/livex.min.js": [
+          "touchstart"
+        ],
+        "https://www.wyze.com/cdn/shop/t/766/assets/tiny-img-link-preloader.js?v=26403198945174473401750110842": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://chatbox.copilot.livex.ai/livex.min.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://www.wyze.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [
+        "https://www.wyze.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js"
+      ],
+      "styles": {
+        "https://www.wyze.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js": [
+          "#fff",
+          "{}"
+        ]
+      },
+      "texts": {
+        "https://www.wyze.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.5.0.min.js": [
+          "Shopify Storefront"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "localization",
+        "value": "US",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2027-06-11T10:29:29.557Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cart_currency",
+        "value": "USD",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2026-07-12T10:29:30.265Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cart",
+        "value": "hWNDDF73zrI6cD4CLIivTD2h%3Fkey%3D4e345c40f5a9921f45d877c77eff9839",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2026-07-12T10:29:30.265Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rs_shopify_client_id",
+        "value": "a630eebf-991d-469d-bb1b-c577af5b85fb",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2027-06-11T10:29:22.000Z",
+        "size": 56,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rs_dataplane_config",
+        "value": "{\"dataplaneUrl\":\"https://wyze.dataplane.rudderstack.com\",\"writeKey\":\"2GPDlEp01kl1eJCA8RRWorOY1jv\"}",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2026-06-12T10:29:29.000Z",
+        "size": 117,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rs_identifier_last_set",
+        "value": "{\"timestamp\":1781173769183}",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": -1,
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_shopify_essential",
+        "value": ":AZ62Oqk_AAEA__r7h2h4xiRSs15xmtS5ZltV3gzEPEt7aRtyMyGHvbehArLkEtsS69fUpeL8rACzqrNIL6BZcNSGywAVH3-3FoRGQJ0KfgVduDLgjO3kdKSBYZeOJORwq2wdHYFPngHrmm79VeNWTc2-LinottziviXO0HSsy_Io7VPH7EDWV1y_Dlydge6psBlxFvqxwvnQJqm1QMkK4eCV0PByPOSJsLFiU1Yc30GHy-NeIuax1qINIBtsA6OWcMMOewLaHb46J1Jbj_mrFgSD0TovEQR65EMWo5k1eca2SXA-Gjfa6wHrVUKVvnwhMtEpuuPrHPPQ45JFELMDql1X37b3voSXMIUpdrIFyyZYJFm9b4qXyMaMJXIna2BZMDHwhpHHkcrpMBquAhGKcBF_hzgAJjyFxfjZdqVhGQZS85WjuTp4ExCXs8Byq67VnsGgWcT2b61oU8U62B5NjC020wY0rdO31zVqk2NFilcpPQHMGWrwXJ38SFY537iOBYBAEfi7u0TCwdaafO5bFkLZzgSlwNdnre2dDs6QIBoAreCLqshJr2dCn-BS-iAugCpUAefwoMi9I8jqakjqsuNDccCudKPlUBTNTforyH9lSlEWppROSPgCG7LkIp87jecHEx8Q5X_xDCYrxM8AXk0xyiO_6IN8Y0GqQh2hxo5esTXyaYIJaBf2WA:",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2027-06-11T10:29:30.265Z",
+        "size": 718,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "KountCart",
+        "value": "hWNDDF73zrI6cD4CLIivTD2h",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2026-06-12T10:29:30.000Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "clientside-cookie",
+        "value": "e444f89c5761a5e4308396986845ab72d0de31dfa34bc6b3ef7a36bcd7da2e48e20e8f8cf4a9972e4b7f4e57151f5409ab2f52d6d7c034b4ba4e231dd576d374ed66dcb88d4dc78721414292aac401be8208d823dd0d6875f1a0e7415a577acc2f74944f2d09bc4f203e8f1bb4841467d07d3cbd6105564acf7250ac92317ff4495130cf088943372359dbe891b85b8a52f858f6fd54abbd03fc88",
+        "domain": "www.wyze.com",
+        "path": "/",
+        "expires": "2027-06-11T10:29:32.000Z",
+        "size": 327,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "qmWi3stMhBNXn7TDeOJBYaK1MZFWrFjo9hbY7i.K6nY-1781173773.0428965-1.0.1.1-fUwkg8Vjd0Ar7zJldkNVsaJlcQDHttXMTh5RHsIaLaDOlwq1_41LTI9gl0aaV7.pNp5eHzhjIrbTtOV0GpTDQc6L7cHJN3ZZARbQZ.AWae8w9Ct4dvx2Q9vIpPOG11oV",
+        "domain": "hcaptcha.com",
+        "path": "/",
+        "expires": "2026-06-11T10:59:33.082Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wyze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.copilot.livex.ai/api/v1/chatbot-event"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wyze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://otlp-http-production.shopifysvc.com/v1/metrics"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wyze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wyze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://otlp-http-production.shopifysvc.com/v1/metrics"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.wyze.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch"
+      }
+    ]
+  }
+}

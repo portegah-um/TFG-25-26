@@ -1,0 +1,622 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Welcome to Prime Video",
+  "uri_ins": "https://primevideo.com",
+  "uri_dest": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+  "uri_redirects": [
+    "https://primevideo.com/",
+    "https://www.primevideo.com/"
+  ],
+  "secure_connection": {},
+  "host": "primevideo.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:30:02.189Z",
+  "end_time": "2026-06-11T09:30:08.496Z",
+  "browsing_history": [
+    "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "primevideo.com",
+        "www.primevideo.com"
+      ],
+      "third_party": [
+        "m.media-amazon.com",
+        "fls-eu.amazon.com",
+        "images-na.ssl-images-amazon.com",
+        "unagi-eu.amazon.com",
+        "images-eu.ssl-images-amazon.com",
+        "unagi-na.amazon.com",
+        "www.amazon.es",
+        "6e5351d7ad9e61e3eb9b7bb3b36ab3a0a41f44960fd9fe3157824a833d65bf7.us-east-1.prod.service.minerva.devices.a2z.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://m.media-amazon.com/images/I/91hSyZT5mdL.js?DVWebNode_navigation-bar": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "touchend",
+          "touchcancel",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://m.media-amazon.com/images/I/91hSyZT5mdL.js?DVWebNode_navigation-bar": [
+          "click",
+          "scroll",
+          "mousedown",
+          "mouseup",
+          "mousemove"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root": [
+          "click",
+          "scroll",
+          "mousedown",
+          "mousemove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://m.media-amazon.com/images/I/91hSyZT5mdL.js?DVWebNode_navigation-bar": [
+          "keyup",
+          "keydown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root": [
+          "keydown",
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "session-id",
+        "value": "257-2199621-8777555",
+        "domain": "primevideo.com",
+        "path": "/",
+        "expires": "2027-07-16T09:30:04.900Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": "primevideo.com",
+        "path": "/",
+        "expires": "2027-06-11T09:30:03.049Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "i18n-prefs",
+        "value": "USD",
+        "domain": "primevideo.com",
+        "path": "/",
+        "expires": "2027-06-11T09:30:03.050Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lc-main-av",
+        "value": "en_US",
+        "domain": "primevideo.com",
+        "path": "/",
+        "expires": "2027-07-16T09:30:03.050Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ubid-main-av",
+        "value": "257-0568271-6695564",
+        "domain": "primevideo.com",
+        "path": "/",
+        "expires": "2027-06-11T09:30:03.358Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-token",
+        "value": "\"MUxppfsmc/pSiXyTjDcadsLq7Rv5/uXEmNjFEFVUjycwiBd9tefe3SDeJs6rcUYMt3S7fpGyYCBjo0BTAwaM7MYjrzomBA91/8tccfDnPvKnWjUeyx+DOAGqQtqSsbFSQy5OrERgolf4h01Ys4WqPU0JxTMT3ZKSjnJgOBeWwKZ4m9MKRXWe/qN4Acu0ZU/k+19D6Soli/S1kCbiKAk9NKv50aMscgchSBPFZkx1tj4=\"",
+        "domain": "primevideo.com",
+        "path": "/",
+        "expires": "2027-06-11T09:30:04.899Z",
+        "size": 251,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "csm-hit",
+        "value": "NW57T86K5H4Z5YJBJ8ZS+s-NW57T86K5H4Z5YJBJ8ZS|1781170207151",
+        "domain": "www.primevideo.com",
+        "path": "/",
+        "expires": "2026-06-18T09:30:04.000Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||amazon.com/1/remote-weblab-triggers/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/remote-weblab-triggers/1/OE/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$s:wl-client-id%3DCSMTriger%2Cwl%3DUEDATA_AA_SERVERSIDE_ASSIGNMENT_CLIENTSIDE_TRIGGER_190249%2FC:1234"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.csa.prod"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26m%3D1%26sc%3Dcsa%3Avl100%26vl100%3D1631%26pc%3D4143%26at%3D4143%26t%3D1781170207544%26pty%3DDVSignupOffer%26spty%3Doffers%26pti%3Dundefined%26tid%3DNW57T86K5H4Z5YJBJ8ZS%26aftb%3D1%26lob%3D2:3666"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26m%3D1%26sc%3Dcsa%3Avl90%26vl90%3D788%26pc%3D4141%26at%3D4141%26t%3D1781170207542%26pty%3DDVSignupOffer%26spty%3Doffers%26pti%3Dundefined%26tid%3DNW57T86K5H4Z5YJBJ8ZS%26aftb%3D1%26lob%3D2:3664"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26m%3D1%26sc%3Dcsa%3Avl50%26vl50%3D788%26pc%3D4138%26at%3D4138%26t%3D1781170207539%26pty%3DDVSignupOffer%26spty%3Doffers%26pti%3Dundefined%26tid%3DNW57T86K5H4Z5YJBJ8ZS%26aftb%3D1%26lob%3D2:3661"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26ctb%3D1%26m%3D1%26sc%3DNW57T86K5H4Z5YJBJ8ZS%26pc%3D3646%26at%3D3646%26t%3D1781170207047%26pty%3DDVSignupOffer%26spty%3Doffers%26pti%3Dundefined%26tid%3DNW57T86K5H4Z5YJBJ8ZS%26aftb%3D1%26ui%3D4%26lob%3D2:3168"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26m%3D1%26sc%3Dcsa%3Alcp%26lcp%3D786%26pc%3D1571%26at%3D1571%26t%3D1781170204972%26pty%3DDVSignupOffer%26spty%3Doffers%26pti%3Dundefined%26tid%3DNW57T86K5H4Z5YJBJ8ZS%26aftb%3D1%26lob%3D2:1093"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.customsg.prod"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.csa.prod"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26sc0%3Dportal-bb%26pc0%3D19%26ld0%3D19%26t0%3D1781170204047%26sc1%3DcsmCELLSframework%26bb1%3D888%26pc1%3D888%26ld1%3D888%26t1%3D1781170204289%26sc2%3DcsmCELLSpdm%26bb2%3D888%26pc2%3D892%26ld2%3D892%26t2%3D1781170204293%26sc3%3DcsmCELLSvpm%26bb3%3D892%26pc3%3D893%26ld3%3D893%26t3%3D1781170204294%26sc4%3DcsmCELLSfem%26bb4%3D893%26pc4%3D898%26ld4%3D898%26t4%3D1781170204299%26sc5%3Due_sushi_v1%26bb5%3D899%26pc5%3D902%26ld5%3D902%26t5%3D1781170204303%26sc6%3Daui%3Asw%3Appft%3Acallback_ricb%26pc6%3D964%26ld6%3D964%26t6%3D1781170204365%26ctb%3D1:1032"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.346639.0%26id%3DNW57T86K5H4Z5YJBJ8ZS%26sw%3D375%26sh%3D812%26vw%3D375%26vh%3D812%26m%3D1%26sc%3DNW57T86K5H4Z5YJBJ8ZS%26ue%3D482%26bb%3D627%26af%3D791%26cf%3D791%26be%3D872%26fp%3D641%26fcp%3D719%26pc%3D1501%26tc%3D-728%26na_%3D-728%26ul_%3D-1781170203401%26_ul%3D-1781170203401%26rd_%3D-1781170203401%26_rd%3D-1781170203401%26fe_%3D-350%26lk_%3D-350%26_lk%3D-350%26co_%3D-350%26_co%3D-350%26sc_%3D-1781170203401%26rq_%3D-348%26rs_%3D-43%26_rs%3D263%26dl_%3D-30%26di_%3D953%26de_%3D955%26_de%3D955%26_dc%3D1498%26ld_%3D1500%26_ld%3D-1781170203401%26ntd%3D0%26ty%3D0%26rc%3D0%26hob%3D479%26hoe%3D482%26ld%3D1503%26t%3D1781170204904%26ctb%3D1%26rt%3Dcf%3A39-11-11-14-2-0-1_af%3A39-11-11-14-2-0-1_ld%3A51-15-11-15-4-0-0%26csmtags%3Dfls-eu-amazon-com%7Ccf_cdn_fr%7Ccf_cdn_mp%7Cadblk_no%7Caui%3Acss%3Anetwork%7Caui%3Ajs%3Anetwork%26viz%3Dvisible%3A481%26pty%3DDVSignupOffer%26spty%3Doffers%26pti%3Dundefined%26tid%3DNW57T86K5H4Z5YJBJ8ZS%26aftb%3D1%26lob%3D2:1032"
+      },
+      {
+        "data": {
+          "filter": "?adspot_",
+          "listName": "easylist.txt",
+          "query": {
+            "adspot_": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adspot_=1"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A3K6Y4MI8GDYMT:257-2199621-8777555:NW57T86K5H4Z5YJBJ8ZS$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3DNW57T86K5H4Z5YJBJ8ZS:0"
+      }
+    ]
+  }
+}

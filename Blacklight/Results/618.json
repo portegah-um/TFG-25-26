@@ -1,0 +1,537 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "My Dyn Account",
+  "uri_ins": "https://dyndns.org",
+  "uri_dest": "https://account.dyn.com/",
+  "uri_redirects": [
+    "https://dyndns.org/"
+  ],
+  "secure_connection": {},
+  "host": "dyndns.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:47:05.382Z",
+  "end_time": "2026-06-11T08:47:11.106Z",
+  "browsing_history": [
+    "https://account.dyn.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "dyndns.org",
+        "account.dyn.com"
+      ],
+      "third_party": [
+        "consent.trustarc.com",
+        "www.oracle.com",
+        "mpsnare.iesnare.com",
+        "dpm.demdex.net",
+        "oracle.sc.omtrdc.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.oracle.com/us/assets/metrics/ora_code.js": [
+          "scroll",
+          "click"
+        ],
+        "https://account.dyn.com/js/base.js?v=bb65d994ff905175e98f25b371207345": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://account.dyn.com/js/base.js?v=bb65d994ff905175e98f25b371207345": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "id",
+        "value": "7ae14jSpxdDyY03LM4U0YPCsGNY",
+        "domain": "account.dyn.com",
+        "path": "/",
+        "expires": "2026-09-09T08:47:07.459Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s",
+        "value": "2095E9B8657211F196252BF53CF62950",
+        "domain": "account.dyn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 33,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "akaas_aud-seg-ocom-prod",
+        "value": "2147483647~rv=3~id=ba6bff046d52734afef89bc393a3ff49",
+        "domain": "www.oracle.com",
+        "path": "/",
+        "expires": -1,
+        "size": 74,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "io_token_7c6a6574-f011-4c9a-abdd-9894a102ccef",
+        "value": "aLeG4rIlST4XfPwCJnpzZhIqTqHlDUCJaIx15YnnoEo=",
+        "domain": "mpsnare.iesnare.com",
+        "path": "/",
+        "expires": "2027-06-11T08:47:07.669Z",
+        "size": 89,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://dyn.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TAsessionID",
+        "value": "10f8c584-138f-4246-97d6-80d8c9b79d44|NEW",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": "2026-06-11T09:17:07.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "69293080831692828113319774162030268382",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T08:47:08.514Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_93263704532955710A490D44%40AdobeOrg",
+        "value": "1",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_93263704532955710A490D44%40AdobeOrg",
+        "value": "1585540135%7CMCIDTS%7C20616%7CMCMID%7C79153665512845657712585886486721888814%7CMCAAMLH-1781772428%7C6%7CMCAAMB-1781772428%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1781174828s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": "2027-07-16T08:47:08.678Z",
+        "size": 280,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_tp",
+        "value": "1420",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_nr",
+        "value": "1781167628793-New",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": "2026-07-11T08:47:08.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gpw_e24",
+        "value": "no%20value",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": "2026-06-11T09:17:08.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ips",
+        "value": "1360",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ppv",
+        "value": "dyn-acct%253Aen-us%253A%252F%2C96%2C100%2C100%2C1420%2C1%2C1",
+        "domain": "dyn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 65,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||omtrdc.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            ".c": "",
+            "AQB": 1,
+            "AQE": 1,
+            "bh": 812,
+            "bw": 375,
+            "c": 24,
+            "c.": "",
+            "c1": "VisitorAPI Present",
+            "c16": 7.915366551284566e+37,
+            "c20": "D=v20",
+            "c24": "D=v24",
+            "c26": "D=v26",
+            "c38": "D=pageName",
+            "c39": "D=pageName",
+            "c51": "ora_code:2.94:JS 2.25.0:dyn-acct:1.01",
+            "c54": "D=v54",
+            "c55": "A",
+            "c67": "0~implied~NoCookie",
+            "cc": "USD",
+            "ce": "UTF-8",
+            "ch": "dyn-acct:en-us:/",
+            "g": "https://account.dyn.com/",
+            "getPercentPageViewed": 5.1,
+            "h3": "D=pageName",
+            "j": 1.6,
+            "k": "Y",
+            "mcorgid": "93263704532955710A490D44@AdobeOrg",
+            "mid": 7.915366551284566e+37,
+            "ndh": 1,
+            "ns": "oracle",
+            "pageName": "dyn-acct:en-us:/",
+            "pf": 1,
+            "s": "375x812",
+            "t": "11/5/2026 10:47:8 4 -120",
+            "v": "N",
+            "v118": "en-US",
+            "v126": 7.915366551284566e+37,
+            "v128": "https://account.dyn.com/",
+            "v151": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "v20": "New",
+            "v24": "no value",
+            "v26": "dyn-acct:en-us",
+            "v51": "D=pageName",
+            "v52": "https://account.dyn.com/",
+            "v54": "not logged in"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://oracle.sc.omtrdc.net/b/ss/oracledyn/1/JS-2.25.0/s27983207011334?AQB=1&ndh=1&pf=1&t=11%2F5%2F2026%2010%3A47%3A8%204%20-120&mid=79153665512845657712585886486721888814&ce=UTF-8&ns=oracle&pageName=dyn-acct%3Aen-us%3A%2F&g=https%3A%2F%2Faccount.dyn.com%2F&c.&getPercentPageViewed=5.1&.c&cc=USD&ch=dyn-acct%3Aen-us%3A%2F&c1=VisitorAPI%20Present&h3=D%3DpageName&c16=79153665512845657712585886486721888814&c20=D%3Dv20&v20=New&c24=D%3Dv24&v24=no%20value&c26=D%3Dv26&v26=dyn-acct%3Aen-us&c38=D%3DpageName&c39=D%3DpageName&c51=ora_code%3A2.94%3AJS%202.25.0%3Adyn-acct%3A1.01&v51=D%3DpageName&v52=https%3A%2F%2Faccount.dyn.com%2F&c54=D%3Dv54&v54=not%20logged%20in&c55=A&c67=0%7Eimplied%7ENoCookie&v118=en-US&v126=79153665512845657712585886486721888814&v128=https%3A%2F%2Faccount.dyn.com%2F&v151=Mozilla%2F5.0%20%28iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X%29%20AppleWebKit%2F605.1.15%20%28KHTML%2C%20like%20Gecko%29%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&s=375x812&c=24&j=1.6&v=N&k=Y&bw=375&bh=812&mcorgid=93263704532955710A490D44%40AdobeOrg&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "A",
+            "d_visid_ver": "4.4.0",
+            "mcorgid": "93263704532955710A490D44@AdobeOrg",
+            "mid": 7.915366551284566e+37,
+            "ts": 1781167628538
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://oracle.sc.omtrdc.net/id?d_visid_ver=4.4.0&d_fieldgroup=A&mcorgid=93263704532955710A490D44%40AdobeOrg&mid=79153665512845657712585886486721888814&ts=1781167628538"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "93263704532955710A490D44@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "4.4.0",
+            "ts": 1781167628277
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=93263704532955710A490D44%40AdobeOrg&d_nsid=0&ts=1781167628277"
+      },
+      {
+        "data": {
+          "filter": "||iesnare.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mpsnare.iesnare.com/script/logo.js"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 7,
+            "domain": "dyn.com",
+            "implied": 0,
+            "new": 1,
+            "referer": "https://account.dyn.com",
+            "session": "10f8c584138f424697d680d8c9b79d44"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=7&domain=dyn.com&implied=0&session=10f8c584138f424697d680d8c9b79d44&new=1&referer=https://account.dyn.com"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "dyn.com",
+            "implied": 0,
+            "new": 1,
+            "referer": "https://account.dyn.com",
+            "session": "10f8c584138f424697d680d8c9b79d44"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=dyn.com&implied=0&session=10f8c584138f424697d680d8c9b79d44&new=1&referer=https://account.dyn.com"
+      },
+      {
+        "data": {
+          "filter": "||iesnare.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://account.dyn.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mpsnare.iesnare.com/snare.js"
+      }
+    ]
+  }
+}

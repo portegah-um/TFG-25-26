@@ -1,0 +1,302 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Adobe Developer Website",
+  "uri_ins": "https://adobe.io",
+  "uri_dest": "https://developer.adobe.com/",
+  "uri_redirects": [
+    "https://adobe.io/",
+    "https://www.adobe.io/"
+  ],
+  "secure_connection": {},
+  "host": "adobe.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:24:32.615Z",
+  "end_time": "2026-06-11T06:24:39.496Z",
+  "browsing_history": [
+    "https://developer.adobe.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "adobe.io",
+        "www.adobe.io",
+        "developer.adobe.com",
+        "www.adobe.com",
+        "geo2.adobe.com",
+        "sstats.adobe.com",
+        "auth.services.adobe.com",
+        "adobeid-na1.services.adobe.com"
+      ],
+      "third_party": [
+        "use.typekit.net",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "raw.githubusercontent.com",
+        "assets.adobedtm.com",
+        "dcs.adobedc.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://assets.adobedtm.com/d4d114c60e50/a0e989131fd5/f424689249c9/RC04a927fa157f40a4a07fd03fc446f6f4-file.min.js": [
+          "keypress"
+        ],
+        "https://www.adobe.com/etc.clientlibs/globalnav/clientlibs/base/privacy-standalone.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://developer.adobe.com/dev-site-assets/579e4e6714746dfa0bf9.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://assets.adobedtm.com/d4d114c60e50/a0e989131fd5/f424689249c9/RC04a927fa157f40a4a07fd03fc446f6f4-file.min.js": [
+          "click"
+        ],
+        "https://assets.adobedtm.com/d4d114c60e50/a0e989131fd5/launch-5dd5dd2177e6.min.js": [
+          "click"
+        ],
+        "https://www.adobe.com/etc.clientlibs/globalnav/clientlibs/base/privacy-standalone.js": [
+          "click"
+        ],
+        "https://developer.adobe.com/dev-site-assets/0903646506e84ae1d9e3.js": [
+          "click"
+        ],
+        "https://developer.adobe.com/dev-site-assets/eb7b7eee257069255f1c.js": [
+          "click"
+        ],
+        "https://developer.adobe.com/dev-site-assets/579e4e6714746dfa0bf9.js": [
+          "scroll",
+          "mousedown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://developer.adobe.com/dev-site-assets/a3902d0e94a17a9b8e94.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A24%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202501.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ff7f32e9-735c-4502-a747-2c503151b5fb&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fdeveloper.adobe.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+        "domain": "adobe.com",
+        "path": "/",
+        "expires": "2027-06-11T06:24:37.000Z",
+        "size": 351,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "relay",
+        "value": "30e8c868-a955-4483-8133-131bab5365c6",
+        "domain": "adobeid-na1.services.adobe.com",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ftrset",
+        "value": "427",
+        "domain": "adobeid-na1.services.adobe.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fg",
+        "value": "2Q34BRYYFLM5ADEKFAQVIHAACI======",
+        "domain": "adobeid-na1.services.adobe.com",
+        "path": "/",
+        "expires": "2026-06-12T06:24:37.180Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_nr",
+        "value": "1781159077851-New",
+        "domain": "adobe.com",
+        "path": "/",
+        "expires": "2027-06-11T06:24:37.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_9E1005A551ED61CA0A490D45_AdobeOrg_cluster",
+        "value": "irl1",
+        "domain": "adobe.com",
+        "path": "/",
+        "expires": "2026-06-11T06:54:38.063Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_9E1005A551ED61CA0A490D45_AdobeOrg_identity",
+        "value": "CiYwMzI2MjA5MzM3MDAxMTk4MzE4Mjg2ODk1MDQ5NDEyODk5MTM3NFITCP%5FQ6qrrMxABGAIqBElSTDEwAPAB%5F9Dqqusz",
+        "domain": "adobe.com",
+        "path": "/",
+        "expires": "2027-07-11T06:24:38.063Z",
+        "size": 145,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_9E1005A551ED61CA0A490D45%40AdobeOrg",
+        "value": "MCMID|03262093370011983182868950494128991374",
+        "domain": "adobe.com",
+        "path": "/",
+        "expires": "2027-07-06T06:24:38.000Z",
+        "size": 84,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gpv",
+        "value": "developer.adobe.com",
+        "domain": "adobe.com",
+        "path": "/",
+        "expires": "2026-06-11T06:54:38.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

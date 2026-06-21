@@ -1,0 +1,789 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Nike. Just Do It. Nike ES",
+  "uri_ins": "https://nike.com",
+  "uri_dest": "https://www.nike.com/es/",
+  "uri_redirects": [
+    "https://nike.com/",
+    "https://www.nike.com/"
+  ],
+  "secure_connection": {},
+  "host": "nike.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:55:29.742Z",
+  "end_time": "2026-06-11T08:55:41.774Z",
+  "browsing_history": [
+    "https://www.nike.com/es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nike.com",
+        "www.nike.com",
+        "static-assets.nike.com",
+        "api.nike.com",
+        "static.nike.com",
+        "assets.nmp.nike.com"
+      ],
+      "third_party": [
+        "s.go-mpulse.net",
+        "c.go-mpulse.net",
+        "reporting.cdndex.io",
+        "js-agent.newrelic.com",
+        "nikeconsumerservices.my.site.com",
+        "bam.nr-data.net",
+        "nikeconsumerservices.my.salesforce-scrt.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://www.nike.com/es/": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.nike.com/es/": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://www.nike.com/es/": [
+          "click",
+          "mousedown",
+          "scroll",
+          "mouseup"
+        ]
+      },
+      "TOUCH": {
+        "https://www.nike.com/es/": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0Rl1PKmTK3oMksdc78q48i2vpB1nZO6I4HejsvSI7E6FHkWBDafVBTa5HngZQ1WnbUrzE75wtUTtm837hwWlw5KqllOeoEL10EldI2na55cRfiOOM9g4DtOomU283awNCAGxljn2eVZ8aSNtNB1pevg1HhUJ0dHT4rPbVoEH5rkI&x-kpsdk-v=j-1.2.470&x-kpsdk-im=AAJMb-B3lqUjjQvG8E3tGc9HKCh4jrQKxBIX64MD7qgXLN8wUuyBdiCKhfsA3VX1Elava5_0U7TC4M4ebWxVzmF9UP4": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAtJREFUGFdjYAACAAAFAAGq1chRAAAAAElFTkSuQmCC",
+          "data:image/webp;base64,UklGRhACAABXRUJQVlA4WAoAAAAwAAAAAAAAAAAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIAgAAAAAAVlA4IBgAAAAwAQCdASoBAAEAAUAmJaQAA3AA/v02aAA=",
+          "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAn/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJVAA//Z"
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0Rl1PKmTK3oMksdc78q48i2vpB1nZO6I4HejsvSI7E6FHkWBDafVBTa5HngZQ1WnbUrzE75wtUTtm837hwWlw5KqllOeoEL10EldI2na55cRfiOOM9g4DtOomU283awNCAGxljn2eVZ8aSNtNB1pevg1HhUJ0dHT4rPbVoEH5rkI&x-kpsdk-v=j-1.2.470&x-kpsdk-im=AAJMb-B3lqUjjQvG8E3tGc9HKCh4jrQKxBIX64MD7qgXLN8wUuyBdiCKhfsA3VX1Elava5_0U7TC4M4ebWxVzmF9UP4": [
+          "#ffffff",
+          "#000000",
+          "rgba(127,127,127,0.5)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0Rl1PKmTK3oMksdc78q48i2vpB1nZO6I4HejsvSI7E6FHkWBDafVBTa5HngZQ1WnbUrzE75wtUTtm837hwWlw5KqllOeoEL10EldI2na55cRfiOOM9g4DtOomU283awNCAGxljn2eVZ8aSNtNB1pevg1HhUJ0dHT4rPbVoEH5rkI&x-kpsdk-v=j-1.2.470&x-kpsdk-im=AAJMb-B3lqUjjQvG8E3tGc9HKCh4jrQKxBIX64MD7qgXLN8wUuyBdiCKhfsA3VX1Elava5_0U7TC4M4ebWxVzmF9UP4": {
+          "mm": 1,
+          "m": null,
+          " ": null,
+          "": null
+        }
+      }
+    },
+    "cookies": [
+      {
+        "name": "geoloc",
+        "value": "cc=ES,rc=MC,tp=vhigh,tz=GMT+1,la=37.99,lo=-1.13",
+        "domain": "nike.com",
+        "path": "/",
+        "expires": -1,
+        "size": 53,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ni_d",
+        "value": "C9C8FD1A-D7F0-485D-a415-DD9C58119698",
+        "domain": "nike.com",
+        "path": "/",
+        "expires": "2027-07-11T08:55:30.487Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "nike.com",
+        "path": "/",
+        "expires": "2026-06-11T09:55:30.487Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "at_lp_exp",
+        "value": "active=0&page=/es/",
+        "domain": "www.nike.com",
+        "path": "/",
+        "expires": "2026-06-11T09:55:31.266Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "83547891ECA7C0003849DC314A321AB1~000000000000000000000000000000~YAAQxm1lXxIeR5aeAQAA1crktQBScgf7ptubf/PNcaon+ya+G3MQnR1dNp7kjwZ39PbjiLg+BPhBk9TDuJ7nBon05oBkUhapSk30WF4CWl25z2GcEa30CBAp9Sxd+rIb/GVtORaRK0scZA/+UzYQEPpj6S3Vxn/QF0d431nk2mtQbnzP6yXexAKpN+LCKERVms3nu3wBFsNsB2uXJmM3t/uo7BolVToV1vVY+9IFcPoNA77eqB5XTO1w151UClXKhgZNybOcuXiEJsDR+8Pbcnz7sxiLgIEVN9HYSfBd1HnadOmwOFBAeB9H5cuqX5/DFkpAU+1wgEYZuYuidAee3NlTFdibl5GKdZonwrt1F1A9kQYr3bwf/IDkpOvLZ/mOIeOsjbGxpEAj",
+        "domain": "nike.com",
+        "path": "/",
+        "expires": "2026-06-11T10:55:31.266Z",
+        "size": 467,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "RT",
+        "value": "\"z=1&dm=www.nike.com&si=6c09788f-49af-467b-96d2-29a5834c03fe&ss=mq99il4z&sl=1&tt=3qm&rl=1&ld=3qr\"",
+        "domain": "www.nike.com",
+        "path": "/",
+        "expires": "2026-06-18T08:55:35.000Z",
+        "size": 99,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ni_c",
+        "value": "1PA=0|BEAD=0|PERF=0|PERS=0",
+        "domain": "nike.com",
+        "path": "/",
+        "expires": "2027-07-11T08:55:36.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "KP_UIDz-ssn",
+        "value": "02vQRwCZJJCsgY3C7ooSGQUic1AIuseFspHbRDhbhDC8IsIoCmtp1Z3FHyp5Rfx69mk53BMVzhntPy1VE3myjZAjrP7FsFbIicagBcJIYveIwLzLjirUgZNUyUr6imqnEBFHunDOEzynVpZ26zdVQpdjGFkaXQ1B4mgw1ivDFF",
+        "domain": "www.nike.com",
+        "path": "/",
+        "expires": "2026-06-12T08:55:36.513Z",
+        "size": 181,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "KP_UIDz",
+        "value": "02vQRwCZJJCsgY3C7ooSGQUic1AIuseFspHbRDhbhDC8IsIoCmtp1Z3FHyp5Rfx69mk53BMVzhntPy1VE3myjZAjrP7FsFbIicagBcJIYveIwLzLjirUgZNUyUr6imqnEBFHunDOEzynVpZ26zdVQpdjGFkaXQ1B4mgw1ivDFF",
+        "domain": "www.nike.com",
+        "path": "/",
+        "expires": "2026-06-12T08:55:36.514Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "KP_UIDz-ssn",
+        "value": "0OPu1qkyIxMPW1tlJwbUJnCGgb1cImTHVh5gzcEqOWVoq6ex68spn9MgVlsD7mYlxjcnrMsWzyvp6qkpYBnEfZFapZVh3ObcVwKWcbpyDOJv6Bp2wI87tp5bZX72xvKPCOnspDTKaCZQWXYADqbPicTaV14v1IyJzvkbAqKiDSp1",
+        "domain": "api.nike.com",
+        "path": "/",
+        "expires": "2026-06-12T08:55:37.978Z",
+        "size": 183,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "KP_UIDz",
+        "value": "0OPu1qkyIxMPW1tlJwbUJnCGgb1cImTHVh5gzcEqOWVoq6ex68spn9MgVlsD7mYlxjcnrMsWzyvp6qkpYBnEfZFapZVh3ObcVwKWcbpyDOJv6Bp2wI87tp5bZX72xvKPCOnspDTKaCZQWXYADqbPicTaV14v1IyJzvkbAqKiDSp1",
+        "domain": "api.nike.com",
+        "path": "/",
+        "expires": "2026-06-12T08:55:37.978Z",
+        "size": 179,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sv",
+        "value": "FAFD79A3D68903AF088A55E96FDF7531~YAAQDVUQYLUOnaueAQAA5ubktQAqFf4q001fm0WAu6pLmKFWdDwP8924MFR8Ki+mx30iXRdqN7QdRY6yX2L9uNnQ/6ssu3f+QXMNOASv22ufFyRWX5HyrDVpmJgNSRZrXS/uC60kC+9XHf9/ESii8kOv0pMyzZSlXG06NZO+D+HS5IgGtmRM9eUD63p5cwaXsdO9i5xIAyEIUhO/xdMzZcL/elcloaAuaF7KhqjKTTHdGEeAhyZ96ssBS6XB/g==~1",
+        "domain": "nike.com",
+        "path": "/",
+        "expires": "2026-06-11T10:55:31.978Z",
+        "size": 296,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 10748,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=10748&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 9805,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=9805&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6750,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6750&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6747,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6747&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6745,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6745&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "ri": {
+              "shopClient": "1.247.8",
+              "web-shell-client": "3.2.0"
+            },
+            "rst": 6742,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6742&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65&ri=%7B%22web-shell-client%22:%223.2.0%22,%22shopClient%22:%221.247.8%22%7D"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6734,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6734&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6198,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6198&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6194,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6194&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6191,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6191&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6188,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6188&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "ck": 0,
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 6184,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=6184&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 175756206,
+            "af": "err,spa,xhr,stn,ins",
+            "ap": 304.969479,
+            "be": 1087,
+            "ck": 0,
+            "dc": 1417,
+            "fcp": 1960,
+            "fe": 3759,
+            "fp": 1960,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 310,
+                "ce": 310,
+                "dc": 4839,
+                "de": 2505,
+                "di": 2424,
+                "dn": 310,
+                "dne": 310,
+                "ds": 2500,
+                "f": 310,
+                "l": 4844,
+                "le": 4847,
+                "n": 0,
+                "of": 1781168130179,
+                "rp": 1087,
+                "rpe": 1182,
+                "rq": 311,
+                "s": 310
+              }
+            },
+            "ptid": "d63ed1a6982e5b65",
+            "ref": "https://www.nike.com/es/",
+            "rst": 5835,
+            "s": "e18fe1d5bd4ed26d",
+            "to": "ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT",
+            "tt": "829ec23f7ea6f6a0",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRBR-a9222fd7973d8c876e1?a=175756206&v=1.316.0&to=ZVdXbUtXXBIHVUNfXlwde1ZLW1MND0xSUmRAWxoT&rst=5835&ck=0&s=e18fe1d5bd4ed26d&ref=https://www.nike.com/es/&ptid=d63ed1a6982e5b65&tt=829ec23f7ea6f6a0&af=err,spa,xhr,stn,ins&ap=304.969479&be=1087&fe=3759&dc=1417&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781168130179,%22n%22:0,%22f%22:310,%22dn%22:310,%22dne%22:310,%22c%22:310,%22s%22:310,%22ce%22:310,%22rq%22:311,%22rp%22:1087,%22rpe%22:1182,%22di%22:2424,%22ds%22:2500,%22de%22:2505,%22dc%22:4839,%22l%22:4844,%22le%22:4847%7D,%22navigation%22:%7B%7D%7D&fp=1960&fcp=1960"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": "||reporting.cdndex.io^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.470",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://reporting.cdndex.io/error"
+      },
+      {
+        "data": {
+          "filter": "||reporting.cdndex.io^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://reporting.cdndex.io/error"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 2776,
+            "d": "www.nike.com",
+            "key": "AERUL-JUD3H-8RUDQ-SABVF-2UCEG",
+            "plugins": "AK,ConfigOverride,PageParams,RT,PaintTiming,NavigationTiming,ResourceTiming,Memory,Akamai,EventTiming,BFCache,LOGN",
+            "si": "6c09788f-49af-467b-96d2-29a5834c03fe-tggm4i",
+            "sl": 0,
+            "t": 5937227,
+            "v": "1.792.20"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=AERUL-JUD3H-8RUDQ-SABVF-2UCEG&d=www.nike.com&t=5937227&v=1.792.20&sl=0&si=6c09788f-49af-467b-96d2-29a5834c03fe-tggm4i&plugins=AK,ConfigOverride,PageParams,RT,PaintTiming,NavigationTiming,ResourceTiming,Memory,Akamai,EventTiming,BFCache,LOGN&acao=&ak.ai=2776"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "20200601": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nike.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/AERUL-JUD3H-8RUDQ-SABVF-2UCEG?20200601"
+      }
+    ]
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cuenta con Xbox | Xbox",
+  "uri_ins": "https://xboxlive.com",
+  "uri_dest": "https://www.xbox.com/es-ES/live",
+  "uri_redirects": [
+    "https://xboxlive.com/",
+    "http://www.xbox.com/live",
+    "https://www.xbox.com/live"
+  ],
+  "secure_connection": {},
+  "host": "xboxlive.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:33:07.550Z",
+  "end_time": "2026-06-11T08:33:21.814Z",
+  "browsing_history": [
+    "https://www.xbox.com/es-ES/live"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "xboxlive.com",
+        "www.xbox.com",
+        "assets-xbxweb.xbox.com"
+      ],
+      "third_party": [
+        "cdnjs.cloudflare.com",
+        "uhf.microsoft.com",
+        "assets.adobedtm.com",
+        "wcpstatic.microsoft.com",
+        "assets.xboxservices.com",
+        "cms-assets.xboxservices.com",
+        "c.s-microsoft.com",
+        "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "www.microsoft.com",
+        "login.microsoftonline.com",
+        "emerald.xboxservices.com",
+        "browser.events.data.microsoft.com",
+        "login.live.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/client.583bc170.js": [
+          "keydown"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js": [
+          "keypress"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "keydown"
+        ],
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/8724.a7d356d9.js": [
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "click"
+        ],
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/8724.a7d356d9.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://assets.adobedtm.com/launch-ENbcb8955aa2f84046af210e3226cdda04.min.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "aka_locale",
+        "value": "es-es",
+        "domain": "www.xbox.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "94A4E17D3502403391D5C8617E0E38DF",
+        "domain": "xbox.com",
+        "path": "/",
+        "expires": "2027-06-11T08:33:19.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "nMCXt5nWzfGsNgfELE/7fT|1781166799727|1781166799742",
+        "domain": "www.xbox.com",
+        "path": "/",
+        "expires": "2026-06-11T09:03:19.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esctx-UlIzMWmKp3M",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAG_lOYjeVeZkQNEwRyd24W3EDJIj-iV3fMIdo_xmo3dRgjqOpuzecwWpiQb4iMqkHFOIOmRkhGss94dN-SPUKc6U32-7rukL-OM0wKERhZjm3ATnZI4nzS6t8IscApbM2aE-mjU6F4ztt1BPB8fysACAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T08:58:21.785Z",
+        "size": 229,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fpc",
+        "value": "Akee6OGsaVtKkrYDdbEGR9E",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T08:33:21.785Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "stsservicecookie",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781166801&co=1",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uaid",
+        "value": "2a3e0b9dc6b14823b888e8ac2520d00e",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OParams",
+        "value": "11O.Dnidovsa5Z3YG6sRr8QXLMD20yI!hSMZT0YKTSBh0w1nqIi4zke9H7gGhXomVCu!Umq8MRt6875!IL*OXKjdUugW3G3qmjjypunGw8Ee73zeqnRDCWgWqjsJE3c1fh68rAWDcKeBX!0bfDFLHVpsvTozp*UlxL9hOEELrZNNLSLQJy7xqgEZrOC8QbY8glKgB2y3EoUpHZB0oCCxorMwTEQm4MFWDTH3vkx32UFZ0LTku1C34MRiwnuNlghJ41gclQq*eNGO6*ziKEevypqOWlizkfUGTkGf9kuc95dPG3cEHNYK2k3hrFWU31sVj9ShNJlmhIvjeJHAHzaM2Lj5isCV1hlhbCHmpuHVtDFkuYjosK9s*z7qpdCbm9WGtGZuLaJBS9btl0gIgvLv3Ozm3Qhg*pyEqj*8n8!T4qGGT2zSaNU!O9cNlTSU5RCTmJgWBxBzettfpCWXdMN6!FkoC7ZhTcoWnXchfV4cIW5dW3vrZhcs2Jb!QG9zk9r9fpcOO7f1DfFMDhf15DZlgs2eGAPQjJaWF7tYKEdmHsdKlxdYWRmoIsMc*pH4JR3oKEK5xz8fANdNL8S*Qvqy1Cho6l7BwhRW*rdWlW5QMCpyMpCO0he6LP3ct9tEyHwsnN2b101zK!KpqlK3j4qCMu8ViADBNirauTm5YpJoUmMBf1WAC1zFnnpuZI5pNcFTIIYfi88Ipe04g4HikvHHm3lfNlrQWToZIrHw4QqsCYuNaSlRCL8iBKS3s59KRigwRyNKnkUa4YKqsgdnvcyID43jhK*FDjySV6KiovlZls94Ds9c6lc!e!cj!50rJbm1*eyht8WOSaEb6Pf0DyvHOcL0JZpe9JBHrkvCEXpTXreqa5IPL6mTpOF4PyY4WrSeTGgg3t*FiTsYtqzuO2b20jpYi1ifH2hZmZ2iCo6g6FGxqMArlfya0ksUAKTA!pC4rBy6ic3kZD1fH1ysZcnBbE2Pz7XqrF8mCZQYDO*TJ0fk2tlt!r!cGjzCMyPkFJac*AAa8LGPeCZZmLe0Zc!aNgHnhWXpKP!uLY*DfTZSVEWpcGnlnHLdfe!A20V!cHZtEDSbA6K5J7NcPMN6DyGP*xFHvlA1pcseC9!UYxPechXMbWDJJf7Vn7fUm7t7*awzk0u4ULBzjkpcwy*nGwoDV0N7Pao2OIjxxRNWD5vxegdphTKL2aooH4qY08tmXSPInGYZWyxpJyzyVWe9UN0TmaITiY7XaLMVZl0F7*Z7AVIDyIh*pzUQpn8OPLA*4RA3YqevlIg8T1VupIRsddxRotGOTY5phmgU9HxZykvOQKUW65NjuMtqtd1thpyWRNjpK7KuccwcYhVQaHBBfQDv9Ir*GODGmBljAT0ZJ3SGRnrHo22t",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 1399,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC9e3f09cc24de42d2a9ecafa588684a88-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCa078a9788f724d7295065d6cb57987f9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC10b2dc0f34104f5e8ae6f3604f52042e-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCc4200f88174b49baab46be22ca3e033a-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC2ec13eefb5374f9a8694afeee7579455-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC502420f5374846f99c0fa7f6d80f96e5-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC9507f132144f4e94b436033e254a6caa-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCee98c22dd0374a67adf300bd8fa1351c-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC662c504c411844e8bb07bbe178c8ae99-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC11b1a6579e0b41669255f7a755bb8e17-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC6056f85d9d584e868600f0c3a82613d1-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC08a24704e11d47d2b3d2564162240cc9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC74720e5e2717403ba9d0045219842ba2-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCb370e73fbed843638926e0a1f4532577-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC6fb2d032080f4eab9f22aacc55f2a0bc-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCf1d45698d753412f8e70b351ce863b68-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC1d1d599428374648971b4cfb0a53d29e-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCac7c180170914dd785f4619ebc18e93f-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/live",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC7f2d57421b664dc3adfc05a259d79434-source.min.js"
+      }
+    ]
+  }
+}

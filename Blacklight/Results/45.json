@@ -1,0 +1,229 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "YouTube",
+  "uri_ins": "https://youtu.be",
+  "uri_dest": "https://m.youtube.com/?ra=m",
+  "uri_redirects": [
+    "https://youtu.be/",
+    "https://www.youtube.com/?feature=youtu.be"
+  ],
+  "secure_connection": {},
+  "host": "youtu.be",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:44:43.061Z",
+  "end_time": "2026-06-11T05:44:47.574Z",
+  "browsing_history": [
+    "https://m.youtube.com/?ra=m"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "youtu.be",
+        "www.youtube.com",
+        "m.youtube.com"
+      ],
+      "third_party": [
+        "fonts.gstatic.com",
+        "accounts.google.com",
+        "www.google.com",
+        "gstatic.com",
+        "www.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://m.youtube.com/s/player/ce74690f/player-plasma-es6-en_US.vflset/base.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://m.youtube.com/s/player/ce74690f/player-plasma-es6-en_US.vflset/base.js": [
+          "touchstart"
+        ],
+        "https://www.google.com/js/th/j4Ntrty0v2XuOTPuDZnwm4R49aNsF-k4GV3wovrYX9k.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://m.youtube.com/s/_/ytmweb/_/js/k=ytmweb.c3_base.en_US.VKumEe-vv80.2021.O/am=AAAAAIABQABA/d=1/br=1/rs=ABnK5FLaCUAYIrO0u3_G4C9RqIgkZeeFSA/m=root,c3_base,DlvF1d,Tu3MB,SFvGjc,HDmU1e,cDTHu,JoU6vf,OM7xob,UAM5m,Di4hBc,dpUCFd,oPp5Le,A4oAVe,Nr0kfe,Nuilue": [
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://www.google.com/js/th/j4Ntrty0v2XuOTPuDZnwm4R49aNsF-k4GV3wovrYX9k.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://m.youtube.com/s/_/ytmweb/_/js/k=ytmweb.c3_base.en_US.VKumEe-vv80.2021.O/am=AAAAAIABQABA/d=1/exm=A4oAVe,Di4hBc,DlvF1d,HDmU1e,JoU6vf,Nr0kfe,Nuilue,OM7xob,Rv3e3d,SFvGjc,Tu3MB,UAM5m,c3_base,cDTHu,dpUCFd,hBod9c,oPp5Le,root/ed=1/br=1/rs=ABnK5FLaCUAYIrO0u3_G4C9RqIgkZeeFSA/m=ERsVff": [
+          "scroll"
+        ],
+        "https://m.youtube.com/s/_/ytmweb/_/js/k=ytmweb.c3_base.en_US.VKumEe-vv80.2021.O/am=AAAAAIABQABA/d=1/br=1/rs=ABnK5FLaCUAYIrO0u3_G4C9RqIgkZeeFSA/m=root,c3_base,DlvF1d,Tu3MB,SFvGjc,HDmU1e,cDTHu,JoU6vf,OM7xob,UAM5m,Di4hBc,dpUCFd,oPp5Le,A4oAVe,Nr0kfe,Nuilue": [
+          "scroll",
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://m.youtube.com/s/_/ytmweb/_/js/k=ytmweb.c3_base.en_US.VKumEe-vv80.2021.O/am=AAAAAIABQABA/d=1/br=1/rs=ABnK5FLaCUAYIrO0u3_G4C9RqIgkZeeFSA/m=root,c3_base,DlvF1d,Tu3MB,SFvGjc,HDmU1e,cDTHu,JoU6vf,OM7xob,UAM5m,Di4hBc,dpUCFd,oPp5Le,A4oAVe,Nr0kfe,Nuilue": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__Secure-YENID",
+        "value": "16.YTE=IuYef5BrBNiQ4br1ozzJETjzeouSFmRNUgjjX_ru7HmJAcsAJy-9PJc8czglelYekN6TfJOxe8BpLt2GiH5zrPo-qzBY-sGBUEvgIABdhhq8mOH1hOIIFpcoAO8hQBTxXhBYSMJiiHtGo-E98YPIG32ojLtExzWgFHHFh_x_7PGmknBZawStFual-CA1FpsSFxFHG-C9r9pAcH13CJFy-uK34HTtpHw-UINua_mX4uT2J6V78R8XbN6WzAmVv1pbsXgOWNVBgYzggkRLSYH7S-f9_BDfeEaYZAcWAuri-_YF4QIkw4XRu6xZr1J3i7Z5E08skZTb4BOo8kZRPFASxw",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2027-07-11T05:44:43.227Z",
+        "size": 363,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "YSC",
+        "value": "npRUlaeUvSQ",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-YEC",
+        "value": "Cgt5MDlmSWRDeFA3ayjMlqnRBjIoCgJFUxIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgUWLgAgrdAjE2LllURT1JdVllZjVCckJOaVE0YnIxb3p6SkVUanplb3VTRm1STlVnampYX3J1N0htSkFjc0FKeS05UEpjOGN6Z2xlbFlla042VGZKT3hlOEJwTHQyR2lINXpyUG8tcXpCWS1zR0JVRXZnSUFCZGhocThtT0gxaE9JSUZwY29BTzhoUUJUeFhoQllTTUppaUh0R28tRTk4WVBJRzMyb2pMdEV4eldnRkhIRmhfeF83UEdta25CWmF3U3RGdWFsLUNBMUZwc1NGeEZIRy1DOXI5cEFjSDEzQ0pGeS11SzM0SFR0cEh3LVVJTnVhX21YNHVUMko2Vjc4UjhYYk42V3pBbVZ2MXBic1hnT1dOVkJnWXpnZ2tSTFNZSDdTLWY5X0JEZmVFYVlaQWNXQXVyaS1fWUY0UUlrdzRYUnU2eFpyMUozaTdaNUUwOHNrWlRiNEJPbzhrWlJQRkFTeHc%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2027-07-11T05:44:43.227Z",
+        "size": 570,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJFUxIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgUQ%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2027-07-11T05:44:44.228Z",
+        "size": 84,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PREF",
+        "value": "tz=Europe.Madrid",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2027-07-16T05:44:44.678Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

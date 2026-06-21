@@ -1,0 +1,374 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "TeamViewer: La plataforma del lugar de trabajo digital",
+  "uri_ins": "https://teamviewer.com",
+  "uri_dest": "https://www.teamviewer.com/es/",
+  "uri_redirects": [
+    "https://teamviewer.com/",
+    "https://www.teamviewer.com/"
+  ],
+  "secure_connection": {},
+  "host": "teamviewer.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:27:39.329Z",
+  "end_time": "2026-06-11T08:27:45.896Z",
+  "browsing_history": [
+    "https://www.teamviewer.com/es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "teamviewer.com",
+        "www.teamviewer.com",
+        "metrics.teamviewer.com"
+      ],
+      "third_party": [
+        "assets.adobedtm.com",
+        "www.google.com",
+        "cdn.cookielaw.org",
+        "teamviewer.scene7.com",
+        "s7g10.scene7.com",
+        "www.gstatic.com",
+        "geolocation.onetrust.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.adobedtm.com/439d99b3b8f0/eec744300fc5/launch-7638b87287c1.min.js": [
+          "click"
+        ],
+        "https://www.teamviewer.com/etc.clientlibs/teamviewer/clientlibs/tenants/website-v2/clientlib-site.20260603142924.min.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.teamviewer.com/etc.clientlibs/teamviewer/clientlibs/foundation/clientlib-base.20260603142924.min.js": [
+          "scroll",
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "aep_fpid",
+        "value": "cb25f91c-4336-4ec3-94a0-2c73bac85182",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2027-06-11T08:27:40.067Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "Mr2Ued3fdqcTzWy6QXaospPBui6uKSwXUg2PdTAPIpc-1781166460.0470464-1.0.1.1-n3ZUi6jbosaH96rf4_QMHjaAVPl4mhiBL38j7Grhi25Yqly0ktndAGEFHDSnF23ReRChgJx4NiNfM4aLtPlRvlKDGmHzLROs6XJUIZAsDt0qIgvQEsIt3YmVBYahAIQL",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2026-06-11T08:57:40.068Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "b9PjJhVVhzyO1LH2tNAE63y79UeAI0BAqYKCsUccYRk-1781166460.0470464-1.0.1.1-zHDzdcKDgraewlBzBIHmXinkKF71eEg.URVeF6cgbcI",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_4DBF233B617961000A495FE3_AdobeOrg_identity",
+        "value": "CiYwNzQyODA5NzY1MDc2MzUzNzc3MjcyMTIwMzM1MzE5NTE5ODkyMlITCMyhra7rMxABGAIqBElSTDEwAPABzKGtrusz",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2027-07-11T08:27:41.176Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_4DBF233B617961000A495FE3_AdobeOrg_cluster",
+        "value": "irl1",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2026-06-11T08:57:42.052Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "geo-preference",
+        "value": "es-ES",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2026-07-11T10:27:41.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_4DBF233B617961000A495FE3%40AdobeOrg",
+        "value": "MCMID|07428097650763537772721203353195198922",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2027-07-06T08:27:41.000Z",
+        "size": 84,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "previous_page_name",
+        "value": "{%22current%22:%22home2%22%2C%22previous%22:%22entry%22}",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": -1,
+        "size": 74,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AWSALB",
+        "value": "IIUCEdZscPm+Z8iD8X3URma/x4xGZORTarNHFRfSNXDcL0NS0sDNlrjLjwiLpxDfN33V4wBxo7QmkUcV5ACSgtsZs5dlnj3hORT5NS+LBZewyDPWlG0AbacKCi3T",
+        "domain": "www.teamviewer.com",
+        "path": "/",
+        "expires": "2026-06-18T08:27:41.728Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "IIUCEdZscPm+Z8iD8X3URma/x4xGZORTarNHFRfSNXDcL0NS0sDNlrjLjwiLpxDfN33V4wBxo7QmkUcV5ACSgtsZs5dlnj3hORT5NS+LBZewyDPWlG0AbacKCi3T",
+        "domain": "www.teamviewer.com",
+        "path": "/",
+        "expires": "2026-06-18T08:27:41.728Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__bs",
+        "value": "99",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2027-06-11T08:27:41.728Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A27%3A42+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8aa21a42-4869-4562-94ca-5cb200fb5fb5&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.teamviewer.com%2Fes%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0",
+        "domain": "teamviewer.com",
+        "path": "/",
+        "expires": "2027-06-11T08:27:42.000Z",
+        "size": 354,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.teamviewer.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/439d99b3b8f0/eec744300fc5/0aa23d468c10/RC778a8cff007f41c79b09d8a915146e5c-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.teamviewer.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/439d99b3b8f0/eec744300fc5/0aa23d468c10/RC3a76c8b87ef040d88b98d5caf0f18dc7-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.teamviewer.com/es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/439d99b3b8f0/eec744300fc5/0aa23d468c10/RCac64c34110bb4c49b2c490d75257bdc8-source.min.js"
+      }
+    ]
+  }
+}

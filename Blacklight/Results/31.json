@@ -1,0 +1,424 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Search - Microsoft Bing",
+  "uri_ins": "https://bing.com",
+  "uri_dest": "https://www.bing.com/?toWww=1&redig=056BB83825494AB8B25F118F17BCB0CA",
+  "uri_redirects": [
+    "https://bing.com/"
+  ],
+  "secure_connection": {},
+  "host": "bing.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:40:57.554Z",
+  "end_time": "2026-06-11T05:41:00.962Z",
+  "browsing_history": [
+    "https://www.bing.com/?toWww=1&redig=056BB83825494AB8B25F118F17BCB0CA"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bing.com",
+        "www.bing.com",
+        "r.bing.com"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.bing.com/rp/KLrSbzDKMog0mCiPcB9iwoEvlE4.br.js": [
+          "click"
+        ],
+        "https://www.bing.com/rp/NQM5E5_qAU78yCnd7XGCGGBaNEc.br.js": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click"
+        ],
+        "https://www.bing.com/rp/ZDuP1RxmIvW4zmuvz53att_oXdo.br.js": [
+          "mousedown"
+        ],
+        "https://www.bing.com/?toWww=1&redig=056BB83825494AB8B25F118F17BCB0CA": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.bing.com/rp/KLrSbzDKMog0mCiPcB9iwoEvlE4.br.js": [
+          "keydown"
+        ],
+        "https://www.bing.com/rp/NQM5E5_qAU78yCnd7XGCGGBaNEc.br.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://www.bing.com/rp/cGwru6_1NVfSHCkNKOlPPh5UMyg.br.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://www.bing.com/rp/ZDuP1RxmIvW4zmuvz53att_oXdo.br.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.bing.com/rp/NQM5E5_qAU78yCnd7XGCGGBaNEc.br.js": [
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_C_Auth",
+        "value": "",
+        "domain": "www.bing.com",
+        "path": "/rewardsapp",
+        "expires": -1,
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "359A3985C2506F8215352EF0C3496E84",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:59.239Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUIDB",
+        "value": "359A3985C2506F8215352EF0C3496E84",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:59.239Z",
+        "size": 37,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_EDGE_S",
+        "value": "F=1&SID=306AB9454F8660692E02AE304E9F610A",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": -1,
+        "size": 47,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_EDGE_V",
+        "value": "1",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:59.239Z",
+        "size": 8,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUIDB",
+        "value": "359A3985C2506F8215352EF0C3496E84",
+        "domain": "www.bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:58.586Z",
+        "size": 37,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Host-XY",
+        "value": "CfDJ8IykvUS-IVVNrph3fqYz1xIp-wvT_v1oakOh2jG2az4uzX1zO8Vtk7rQm-mgBvu3uMzrhDeWkXwBNruMwll-9LBy1g-ZrU-uuiffa8jy7t010oNWKP4xPoXm6FHUkAZ45K8ZJaS6ijus2un-zV9vTR7KXg-KMU1reCShOk1gSE_FtQL668hn77gAkMd4bcu6T0iGTicLrYAi_VI_Q60o_YKZwVvBeIaGGSd9cGO70c1GVthEAHMYCxWVtLYatCjnVA",
+        "domain": "www.bing.com",
+        "path": "/",
+        "expires": "2026-06-12T12:40:58.395Z",
+        "size": 271,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SRCHD",
+        "value": "AF=NOFORM",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:58.395Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SRCHUID",
+        "value": "V=2&GUID=6A74A010AE31438B8E1533EFDC9DB4D9&dmnchg=1",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:58.395Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "181FAD7B701B3D574090116E9CD3F504~000000000000000000000000000000~YAAQFfMUAiZvLYeeAQAAka8ytQDBxk/K5CWszHN5mQvRYhWFgMotbp7uR4nzVLAZZ7UpphOrdygLWt8hUGiVB0tAiv3j5Eu8ipHNKHYwx6X7bENA5xO2EBjH7mtpvYQ15A6VQdEnaw0ld1RkRDAibbfF674jJAcwfoEgbR05QpwLQCsi+dcpLKRmJyYPPy2TLEBBv1cUASsrwiXch3buKHybCFKqvKHqTNx+JCTl2ZzyIZi9qRusmDhcxEwAMX+bOQfMliYe6p3/tfWl7Ith8bA87nHud0tHZImteomLnLxjD6g/iViyLDnT8os7lB27/xdxqTjZ1Jvv9UxThFWFpqHsawscfge/DdE6g9K1PIVAM6YMA58F5ApuvYUBXwNfYP6E6816np/Z",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2026-06-11T07:40:58.396Z",
+        "size": 467,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SRCHHPGUSR",
+        "value": "SRCHLANG=en&PREFCOL=0&CW=375&CH=812&SCW=375&SCH=812&BRW=MW&BRH=MT&DPR=3.0&UTC=120",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:58.979Z",
+        "size": 91,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "SRCHUSR",
+        "value": "DOB=20260611&DS=1",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:58.586Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_HPVN",
+        "value": "CS=eyJQbiI6eyJDbiI6MSwiU3QiOjAsIlFzIjowLCJQcm9kIjoiUCJ9LCJTYyI6eyJDbiI6MSwiU3QiOjAsIlFzIjowLCJQcm9kIjoiSCJ9LCJReiI6eyJDbiI6MSwiU3QiOjAsIlFzIjowLCJQcm9kIjoiVCJ9LCJBcCI6dHJ1ZSwiTXV0ZSI6dHJ1ZSwiTGFkIjoiMjAyNi0wNi0xMVQwMDowMDowMFoiLCJJb3RkIjowLCJHd2IiOjAsIlRucyI6MCwiRGZ0IjpudWxsLCJNdnMiOjAsIkZsdCI6MCwiSW1wIjoyLCJUb2JuIjowfQ==",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:40:58.983Z",
+        "size": 328,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_C_ETH",
+        "value": "1",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": -1,
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_RwBf",
+        "value": "r=0&ilt=1&ihpd=1&ispd=0&rc=0&rb=0&rg=0&pc=0&mtu=0&rbb=0&clo=0&v=1&l=2026-06-10T07:00:00.0000000Z&lft=0001-01-01T00:00:00.0000000&aof=0&ard=0001-01-01T00:00:00.0000000&rwdbt=0&rwflt=0&rwaul2=0&g=&o=2&p=&c=&t=0&s=0001-01-01T00:00:00.0000000+00:00&ts=2026-06-11T05:40:59.3246424+00:00&rwred=0&wls=&wlb=&wle=&ccp=&cpt=&lka=0&lkt=0&aad=0&TH=&cid=0&gb=",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-06-11T05:40:59.360Z",
+        "size": 351,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_Rwho",
+        "value": "u=m&ts=2026-06-11",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_SS",
+        "value": "SID=306AB9454F8660692E02AE304E9F610A&R=0&RB=0&GB=0&RG=0&RP=0",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": -1,
+        "size": 63,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cloud Computing Services | Microsoft Azure",
+  "uri_ins": "https://azure.com",
+  "uri_dest": "https://azure.microsoft.com/en-us",
+  "uri_redirects": [
+    "https://azure.com/",
+    "https://azure.microsoft.com/en-us/"
+  ],
+  "secure_connection": {},
+  "host": "azure.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:39:20.545Z",
+  "end_time": "2026-06-11T05:39:31.057Z",
+  "browsing_history": [
+    "https://azure.microsoft.com/en-us"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "azure.com",
+        "js.monitor.azure.com",
+        "westus3-1.in.applicationinsights.azure.com",
+        "azure.microsoft.com",
+        "www.microsoft.com",
+        "uhf.microsoft.com",
+        "cdn-dynmedia-1.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "browser.events.data.microsoft.com"
+      ],
+      "third_party": [
+        "rum.hlx.page",
+        "play.vidyard.com",
+        "s.go-mpulse.net",
+        "c.s-microsoft.com",
+        "c.go-mpulse.net",
+        "publisher.liveperson.net",
+        "lpcdn.lpsnmedia.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://azure.microsoft.com/acom/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery.ACSHASH75d0cb3e9ff9fee40f5ce5fd93c17fb2.min.js": [
+          "click"
+        ],
+        "https://www.microsoft.com/webassistant/v1/uca.mjs": [
+          "mousedown"
+        ],
+        "https://azure.microsoft.com/acom/etc.clientlibs/onecloud/clientlibs/clientlib-reimagine/main-light.ACSHASH0610cd00db4c594b8c8fb91de864fba2.min.js": [
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://azure.microsoft.com/acom/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://s.go-mpulse.net/boomerang/E7B88-8P87Z-VT9SJ-BNQSU-2GTUH": [
+          "mouseup"
+        ]
+      },
+      "TOUCH": {
+        "https://www.microsoft.com/webassistant/v1/uca.mjs": [
+          "touchcancel",
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.microsoft.com/webassistant/v1/uca.mjs": [
+          "keydown"
+        ],
+        "https://azure.microsoft.com/acom/etc.clientlibs/onecloud/clientlibs/clientlib-reimagine/main-light.ACSHASH0610cd00db4c594b8c8fb91de864fba2.min.js": [
+          "keyup"
+        ],
+        "https://azure.microsoft.com/acom/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.ACSHASH2b7224aac4ea4007cb4436ebcdc8cec8.min.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ak_bmsc",
+        "value": "6A0F1F4882E5BFF3CC1BF57E758F4681~000000000000000000000000000000~YAAQvEAQAuLrcYmeAQAADjsxtQA0RBWJf+zPkjj2KrG3F7mCi0+ODkuLFfUAzhaDbV8DrmYhI+CKQK5iJ3tA2mH9iMpT02OZhLh8It7wAijr8fkRF0OEjt+j1KrAeoqRKuxcKCpSe303S1wJG5yoePMRL0NeIxzEeEmAa9NUbUh31d+WG1DTkBtgRrtBq11SlVZiY5Pam9mzjBjxenXjmiPEKaqsGK0/bmYlmmoWT1ssv0X3vX8KIhs5//gqHl8R9OcnBZFnMvbNSO/o5YC4uBHm6h7KF4tEQnkYWqqnyp65zg51cNlbVNq9NLYzIWWLTDSvJw1DBucho8bGb0+oiH9jQ4mSrwP95mEFIVF1Kwx4PVSWfjvEBQy7NmyR7QfiTiQa7A==",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T07:39:23.032Z",
+        "size": 463,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CAS_PROGRAM",
+        "value": "golf2",
+        "domain": "azure.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T05:39:36.958Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MicrosoftApplicationsTelemetryDeviceId",
+        "value": "c0e6ad8d-b1d9-4822-831a-b5e38ed1afcb",
+        "domain": "azure.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:39:25.931Z",
+        "size": 74,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MC1",
+        "value": "GUID=699f3a7cffcc4460aaafa3d122cabb6a&HASH=699f&LV=202606&V=4&LU=1781156368202",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:39:29.368Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MS0",
+        "value": "221263527095493dbbdbbaf402516527",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:09:29.368Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "RT",
+        "value": "\"z=1&dm=azure.microsoft.com&si=28e14bfb-868e-4bc1-a6b8-70fe2014d4cf&ss=mq92ic1f&sl=1&tt=5tn&rl=1&ld=5tq\"",
+        "domain": "azure.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-18T05:39:28.000Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ai_user",
+        "value": "ngWPUopYFz50hy+hWA0O0x|2026-06-11T05:39:28.703Z",
+        "domain": "azure.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:39:28.705Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MSFPC",
+        "value": "GUID=699f3a7cffcc4460aaafa3d122cabb6a&HASH=699f&LV=202606&V=4&LU=1781156368202",
+        "domain": "azure.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:39:29.074Z",
+        "size": 83,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "CzVGhXaeVXhS23E2Meq1AF|1781156365978|1781156368917",
+        "domain": "azure.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:09:28.918Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||applicationinsights.azure.com^$third-party,domain=~azure.net",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://azure.microsoft.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://westus3-1.in.applicationinsights.azure.com/v2/track"
+      },
+      {
+        "data": {
+          "filter": "||monitor.azure.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://azure.microsoft.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json"
+      },
+      {
+        "data": {
+          "filter": "||monitor.azure.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://publisher.liveperson.net/iframe-le-tag/iframe-cs.html?lpsite=60270350&lpsection=azure-leadgen-en-us&buttons=lpChatAzure",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 798188,
+            "d": "azure.microsoft.com",
+            "key": "E7B88-8P87Z-VT9SJ-BNQSU-2GTUH",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN",
+            "si": "28e14bfb-868e-4bc1-a6b8-70fe2014d4cf-tggd1l",
+            "sl": 0,
+            "t": 5937188,
+            "v": "1.720.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://azure.microsoft.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=E7B88-8P87Z-VT9SJ-BNQSU-2GTUH&d=azure.microsoft.com&t=5937188&v=1.720.0&sl=0&si=28e14bfb-868e-4bc1-a6b8-70fe2014d4cf-tggd1l&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=798188"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://azure.microsoft.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/E7B88-8P87Z-VT9SJ-BNQSU-2GTUH"
+      }
+    ]
+  }
+}

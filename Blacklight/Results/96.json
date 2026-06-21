@@ -1,0 +1,279 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Experience the Windows difference with Windows 11 OS, Laptops, PCs & Apps | Microsoft Windows",
+  "uri_ins": "https://windows.com",
+  "uri_dest": "https://www.microsoft.com/en-us/windows/",
+  "uri_redirects": [
+    "https://windows.com/",
+    "https://windows.microsoft.com/",
+    "https://go.microsoft.com/fwlink/p/?linkid=532428",
+    "https://www.microsoft.com/windows"
+  ],
+  "secure_connection": {},
+  "host": "windows.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:01:31.945Z",
+  "end_time": "2026-06-11T06:02:03.033Z",
+  "browsing_history": [
+    "https://www.microsoft.com/en-us/windows/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "windows.com",
+        "windows.microsoft.com",
+        "go.microsoft.com",
+        "www.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "uhf.microsoft.com",
+        "browser.events.data.microsoft.com"
+      ],
+      "third_party": [
+        "mem.gfx.ms",
+        "c.s-microsoft.com",
+        "images.ctfassets.net",
+        "js.monitor.azure.com",
+        "login.live.com",
+        "logincdn.msauth.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js": [
+          "click"
+        ],
+        "https://www.microsoft.com/en-us/windows/static/jquery-3.3.1.min.js": [
+          "click"
+        ],
+        "https://www.microsoft.com/en-us/windows/static/_next/static/chunks/1_b0sv2d8noc1.js": [
+          "click",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.microsoft.com/en-us/windows/static/_next/static/chunks/3yujbaxze3kyg.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js": [
+          "keydown"
+        ],
+        "https://www.microsoft.com/en-us/windows/static/_next/static/chunks/3yujbaxze3kyg.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://www.microsoft.com/en-us/windows/static/_next/static/chunks/1_b0sv2d8noc1.js": [
+          "touchend",
+          "touchmove",
+          "touchstart",
+          "touchcancel"
+        ],
+        "https://www.microsoft.com/en-us/windows/static/_next/static/chunks/3yujbaxze3kyg.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "MC1",
+        "value": "GUID=7d2d973443544085b2ae0dce7975c624&HASH=7d2d&LV=202606&V=4&LU=1781157705973",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T06:01:46.076Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MS0",
+        "value": "bf92ea564fc84826aa9650eb48e07486",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:31:46.076Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "YXWckcHy+YCNgzF5Cks/U2|1781157703442|1781157711528",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:31:51.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uaid",
+        "value": "72540e6c21704d35c8e8bedcefbfdbbe",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781157712&co=1",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OParams",
+        "value": "11O.Dp7GV9Jo7reAq8oHAxyFxebONiDyZ68RsKnqOmLSp0BUpTuOcdViM4eIc!RaKgN3zMw7NnzgK50XlXXWJwsNgyDGGf4CSCM3PxwFZ0OY1Js61Rc2zAK6qBaO8UUkKYhx0m!2smEHAYZku5r4iHQ1I3U3G!E1mkPfhXnI*z2C6ALgcOUW9oSo5yVuj6eD4SnNqiGjZ77cHGFdt*4484!GpgknqHcTr3nf9DV8y2S1n4nCWrCyZ1pbrPaZHhJRBTxp*GppAYhu8aZMsu0HvqVlEJLEeS6dE77Az77pT64nbgx3",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 311,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSFPC",
+        "value": "GUID=7d2d973443544085b2ae0dce7975c624&HASH=7d2d&LV=202606&V=4&LU=1781157705973",
+        "domain": "www.microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T06:02:01.476Z",
+        "size": 83,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

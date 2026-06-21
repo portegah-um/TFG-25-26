@@ -1,0 +1,563 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Image and Video Upload, Storage, Optimization and CDN",
+  "uri_ins": "https://cloudinary.com",
+  "uri_dest": "https://cloudinary.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "cloudinary.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:58:38.899Z",
+  "end_time": "2026-06-11T09:58:45.383Z",
+  "browsing_history": [
+    "https://cloudinary.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cloudinary.com",
+        "cloudinary-marketing-res.cloudinary.com",
+        "res.cloudinary.com",
+        "cloudinary-res.cloudinary.com",
+        "gtm.cloudinary.com"
+      ],
+      "third_party": [
+        "cdn.jsdelivr.net",
+        "cdn.debugbear.com",
+        "cdn-4.convertexperiments.com",
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "10042940.metrics.convertexperiments.com",
+        "fonts.gstatic.com",
+        "cdn.cookielaw.org",
+        "logs.convertexperiments.com",
+        "geolocation.onetrust.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.debugbear.com/EHCenyitCAgM.js": [
+          "click",
+          "scroll"
+        ],
+        "https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-952601552&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5BS5ZV": [
+          "click"
+        ],
+        "https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js@1.17.9/dist/umd/index.production.js?ver=1.0.0": [
+          "mousedown"
+        ],
+        "https://cdn-4.convertexperiments.com/v1/js/10042338-10042940.js?environment=production": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.debugbear.com/EHCenyitCAgM.js": [
+          "keydown"
+        ],
+        "https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://cloudinary.com/wp-content/themes/cld-2021/assets/js/jquery-3.4.1.min.js?ver=3.4.1": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js@1.17.9/dist/umd/index.production.js?ver=1.0.0": [
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_cfuvid",
+        "value": "m7RfI7jztQaXcxzuo4_jybGmVdf9g2KTiSRZIIcrdhc-1781171919.4777834-1.0.1.1-csxDCEYL7s7NPNcxUYWrXVsn9ohAXCPF9TpuQk6k3.I",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_conv_s",
+        "value": "sh%3A1781171919791-0.610271405028326*si%3A1*pv%3A1",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": "2026-06-11T10:18:40.000Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_conv_v",
+        "value": "vi%3A1*sc%3A1*cs%3A1781171920*fs%3A1781171920*pv%3A1*exp%3A%7B1004201069.%7Bv.1004472428-g.%7B%7D%7D%7D*seg%3A%7B%7D",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": "2026-12-10T21:58:40.000Z",
+        "size": 123,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "SlSogwcqCbNyxJ.Ihq2MYGxxdXReZa6dUSAW2KEUcyE-1781171921-1.2.1.1-.PrILFgYVGIp17E6cO8TFK.6xmgrsitRWn1czdL_re9AaSIannibykQ.5Njn43fUeIhrH0yh2x4XD8nMKfDdEbyb697r7AqbWtbUUNr8Bv6SjVoXKdtwiiudJ6SzeoIZ52lEbPHAr2nobcO3DHkxe2hKDvvd1rmIIttAPoZi8d_6AWqvNLpdeT6ylBriqTNfw8cI6zWppaY86pPdULfo9.SuAZtxJvyfi9c5Yo5VkeTx13bRZPelpOFFRq6WkCxXDffr_gDeZh9pJvpJLUBBKy1OcsWkiBCK.N_mvg55jaxmdygaeTGwBpXA0aD8s0dPj0KyGQ2RBIrcu9AmscqOGA",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": "2027-06-11T09:58:41.123Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://cloudinary.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "LyyvA5Rmw5b.I73UlKVus5BvNFRVZ_T1xgFctWKgjII-1781171921.0957549-1.0.1.1-QVM04BTsNcTiHRHfofrKOKzBdgxwajCSJbYTc4sEFVKMZHxg7VREG_r1o.ZQ1dWrs9ROz_plVI7Dh4T9o2Rq5PDphAhjEkAnL4OLj2WcE6r1H_s8Bdt2Zqii8NH2O31j",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": "2026-06-11T10:28:41.123Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "UTM_tracker",
+        "value": "eyJyZWZlcnJlciI6Imh0dHBzOi8vY2xvdWRpbmFyeS5jb20vIiwidXRtX21lZGl1bSI6ImRpcmVjdCIsInV0bV9zb3VyY2UiOiJjbG91ZGluYXJ5IiwiTGFzdF9MYW5kaW5nX1BhZ2UiOiJodHRwczovL2Nsb3VkaW5hcnkuY29tLyJ9",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": -1,
+        "size": 187,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A58%3A42+GMT%2B0200+(Central+European+Summer+Time)&version=202603.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=88d44527-2b39-4ff3-b635-c6abefa2342a&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fcloudinary.com%2F&groups=C0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0001%3A1",
+        "domain": "cloudinary.com",
+        "path": "/",
+        "expires": "2027-06-11T09:58:42.000Z",
+        "size": 361,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dYWJhMj",
+            "dl": "https://cloudinary.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "cloudinary.com",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be6691v890188765z871049127za20gzb71049127zd71049127xea",
+            "navt": "r",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 284925959.1781172,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 2048,
+            "tft": 1781171921892,
+            "tid": "AW-952601552",
+            "tids": "AW-952601552"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&ae=g&dr=cloudinary.com&dl=https%3A%2F%2Fcloudinary.com%2F&scrsrc=www.googletagmanager.com&rnd=284925959.1781171922&navt=r&npa=1&did=dYWJhMj&gdid=dYWJhMj&_tu=CA&gtm=45be6691v890188765z871049127za20gzb71049127zd71049127xea&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&apve=1&apvf=f&apvc=0&tids=AW-952601552&tid=AW-952601552&tft=1781171921892&tfd=2048"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dYWJhMj",
+            "dl": "https://cloudinary.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "cloudinary.com",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45be6691v890188765z871049127za20gzb71049127zd71049127xec",
+            "navt": "r",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 284925959.1781172,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 2047,
+            "tft": 1781171921891,
+            "tid": "AW-952601552",
+            "tids": "AW-952601552~AW-11076444286"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&en=page_view&dr=cloudinary.com&dl=https%3A%2F%2Fcloudinary.com%2F&scrsrc=www.googletagmanager.com&rnd=284925959.1781171922&navt=r&npa=1&did=dYWJhMj&gdid=dYWJhMj&_tu=CA&gtm=45be6691v890188765z871049127za20gzb71049127zd71049127xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469&apve=1&apvf=f&apvc=0&tids=AW-952601552~AW-11076444286&tid=AW-952601552&tft=1781171921891&tfd=2047"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://cloudinary.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dr": "cloudinary.com",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gap.plf": 5,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj",
+            "gtm": "45He6691v71049127za200zd71049127xea",
+            "navt": "r",
+            "npa": 1,
+            "rcb": 13,
+            "rnd": 284925959.1781172,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tfd": 2045,
+            "tft": 1781171921889
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&ae=g&en=page_view&dr=cloudinary.com&dl=https%3A%2F%2Fcloudinary.com%2F&scrsrc=www.googletagmanager.com&rnd=284925959.1781171922&navt=r&npa=1&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6691v71049127za200zd71049127xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938465~115938468&apve=1&apvf=f&gap.plf=5&apvc=1&tft=1781171921889&tfd=2045"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logs.convertexperiments.com/v1/log"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-952601552"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-952601552&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-NKMQJY2D2H"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-NKMQJY2D2H&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://10042940.metrics.convertexperiments.com/v1/track/10042338/10042940"
+      },
+      {
+        "data": {
+          "filter": "||convertexperiments.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-4.convertexperiments.com/api/v1/project-optional-settings/10042338/10042940"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5BS5ZV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5BS5ZV"
+      },
+      {
+        "data": {
+          "filter": "||convertexperiments.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "environment": "production"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-4.convertexperiments.com/v1/js/10042338-10042940.js?environment=production"
+      },
+      {
+        "data": {
+          "filter": "||convertexperiments.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-4.convertexperiments.com/api/v1/project-optional-settings/10042338/10042940"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5BS5ZV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5BS5ZV"
+      },
+      {
+        "data": {
+          "filter": "||convertexperiments.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "environment": "production"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cloudinary.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-4.convertexperiments.com/v1/js/10042338-10042940.js?environment=production"
+      }
+    ]
+  }
+}

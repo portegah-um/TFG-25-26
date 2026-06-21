@@ -1,0 +1,754 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Forms & Automated Workflows, Powered by AI | Typeform",
+  "uri_ins": "https://typeform.com",
+  "uri_dest": "https://www.typeform.com/",
+  "uri_redirects": [
+    "https://typeform.com/"
+  ],
+  "secure_connection": {},
+  "host": "typeform.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:14:30.825Z",
+  "end_time": "2026-06-11T10:14:37.427Z",
+  "browsing_history": [
+    "https://www.typeform.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "typeform.com",
+        "www.typeform.com",
+        "public-assets.typeform.com"
+      ],
+      "third_party": [
+        "cdn.prod.website-files.com",
+        "ajax.googleapis.com",
+        "cdn.cookielaw.org",
+        "cdn.jsdelivr.net",
+        "d3e54v103j8qbb.cloudfront.net",
+        "fast.wistia.com",
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "edge.marker.io",
+        "fonts.gstatic.com",
+        "geolocation.onetrust.com",
+        "js.partnerstack.com",
+        "browser.sentry-cdn.com",
+        "cdn.optimizely.com",
+        "client.prod.mplat-ppcprotect.com",
+        "pagead2.googlesyndication.com",
+        "grsm.io",
+        "region1.google-analytics.com",
+        "ade.googlesyndication.com",
+        "partnerlinks.io",
+        "api.marker.io",
+        "click.prod.mplat-ppcprotect.com",
+        "embed-cloudfront.wistia.com",
+        "distillery.wistia.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://fast.wistia.com/assets/external/E-v1.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://fast.wistia.com/assets/external/allIntegrations.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.com/assets/external/engines/hls_video.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.com/assets/external/skipControls.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.com/assets/external/playPauseLoadingControl.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.com/assets/external/airplay.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://edge.marker.io/latest/2.v2.36.0.65d2450509d8545979a1.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.typeform.com/": [
+          "touchstart"
+        ],
+        "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ],
+        "https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/js/webflow.schunk.7850d9ca294d1726.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      },
+      "KEYBOARD": {
+        "https://fast.wistia.com/assets/external/E-v1.js": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.com/assets/external/allIntegrations.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.com/assets/external/engines/hls_video.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.com/assets/external/skipControls.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.com/assets/external/playPauseLoadingControl.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.com/assets/external/airplay.js": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://edge.marker.io/latest/3.v2.36.0.564b61bd03a048487396.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-N6F0VDRT9W&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js": [
+          "keydown"
+        ],
+        "https://www.typeform.com/": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://fast.wistia.com/assets/external/allIntegrations.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.com/assets/external/engines/hls_video.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.com/assets/external/skipControls.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.com/assets/external/playPauseLoadingControl.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.com/assets/external/airplay.js": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://edge.marker.io/latest/3.v2.36.0.564b61bd03a048487396.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-N6F0VDRT9W&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WH2ZQ3X": [
+          "click"
+        ],
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66ffe2174aa8e8d5661c2708": [
+          "click",
+          "scroll"
+        ],
+        "https://www.typeform.com/": [
+          "scroll"
+        ],
+        "https://fast.wistia.com/assets/external/E-v1.js": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js": [
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ],
+        "https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/js/webflow.schunk.7850d9ca294d1726.js": [
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js": [
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/js/webflow.schunk.7850d9ca294d1726.js": [
+          "orientationchange"
+        ],
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66ffe2174aa8e8d5661c2708": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/js/webflow.schunk.d9b4a6b3163aaa5e.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ajs_anonymous_id",
+        "value": "5933ed24-6be4-493d-8e31-9afdba3222c1",
+        "domain": "typeform.com",
+        "path": "/",
+        "expires": "2027-06-11T10:14:33.541Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+12%3A14%3A33+GMT%2B0200+(Central+European+Summer+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=11d4f359-4133-430f-bb36-8f78b7a39f9b&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.typeform.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0",
+        "domain": "typeform.com",
+        "path": "/",
+        "expires": "2027-06-11T10:14:33.000Z",
+        "size": 332,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/grc/pk_RyQ0LNZ6oqvMhDPi94wJKTNChCL4oYcm"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.typeform.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v881501365z877526378za20gzb77526378zd77526378xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 308273637.1781173,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938466~115938469",
+            "tfd": 2776,
+            "tft": 1781172873997,
+            "tid": "AW-853397325",
+            "tids": "AW-853397325"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&en=page_view&dl=https%3A%2F%2Fwww.typeform.com%2F&scrsrc=www.googletagmanager.com&rnd=308273637.1781172873&navt=n&npa=1&_tu=CA&gtm=45be6691v881501365z877526378za20gzb77526378zd77526378xec&gcs=G100&gcd=13q3qPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938469&apve=1&apvf=f&apvc=0&tids=AW-853397325&tid=AW-853397325&tft=1781172873997&tfd=2776"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "async": 1,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "category": "acrcp_v1_512",
+            "cv": 11,
+            "data": "ads_data_redaction=false",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "conversion",
+            "ept": 6,
+            "fmt": 8,
+            "frm": 0,
+            "fst": 1781172873985,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v881501365z877526378za20gzb77526378zd77526378xea",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "yUezCKS-sZ0ZEM2e95YD",
+            "npa": 1,
+            "pscdl": "denied",
+            "random": 1781172873985,
+            "rcb": 2,
+            "tag_exp": "0~115616986~115938466~115938469",
+            "tiba": "Forms & Automated Workflows, Powered by AI | Typeform",
+            "u_h": 812,
+            "u_w": 375,
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "url": "https://www.typeform.com/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/853397325/?random=1781172873985&cv=11&fst=1781172873985&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6691v881501365z877526378za20gzb77526378zd77526378xea&gcs=G100&gcd=13q3qPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938469&u_w=375&u_h=812&url=https%3A%2F%2Fwww.typeform.com%2F&rcb=2&label=yUezCKS-sZ0ZEM2e95YD&frm=0&tiba=Forms%20%26%20Automated%20Workflows%2C%20Powered%20by%20AI%20%7C%20Typeform&bttype=purchase&value=0&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=KA&data=ads_data_redaction%3Dfalse&category=acrcp_v1_512&ept=6"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.typeform.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gtm": "45fe6691v9136020176z877526378za20gzb77526378zd77526378xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 3,
+            "rnd": 308273637.1781173,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tfd": 2654,
+            "tft": 1781172873874,
+            "tid": "DC-10579985",
+            "tids": "DC-10579985"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fwww.typeform.com%2F&scrsrc=www.googletagmanager.com&rnd=308273637.1781172873&navt=n&npa=1&_tu=CA&gtm=45fe6691v9136020176z877526378za20gzb77526378zd77526378xec&gcs=G100&gcd=13q3qPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938466~115938469&apve=1&apvf=f&apvc=0&tids=DC-10579985&tid=DC-10579985&tft=1781172873874&tfd=2654"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781172872033,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 1284454947.1781173,
+            "dl": "https://www.typeform.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Forms & Automated Workflows, Powered by AI | Typeform",
+            "ecid": 123321364,
+            "en": "page_view",
+            "ep.cb_company_country_code": "(Non-Company)",
+            "ep.cb_company_description": "(Non-Company)",
+            "ep.cb_company_employee_range": "(Non-Company)",
+            "ep.cb_company_industry": "(Non-Company)",
+            "ep.cb_company_name": "(Non-Company)",
+            "ep.cb_company_tags": "(Non-Company)",
+            "ep.cb_traffic_type": "(Non-Company)",
+            "ep.consent_cookie_functional": false,
+            "ep.consent_cookie_performance": false,
+            "ep.consent_cookie_targeting": false,
+            "ep.content_group": "public_site",
+            "ep.content_group2": "main",
+            "ep.page": "/",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13q3qPq2q5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v877404044z877526378za20gzb77526378zd77526378",
+            "gtm_up": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172873,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~118012008~118395334",
+            "tfd": 2526,
+            "tid": "G-N6F0VDRT9W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N6F0VDRT9W&gtm=45je6691v877404044z877526378za20gzb77526378zd77526378&_p=1781172872033&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&ecid=123321364&_eu=AAAAAGAC&are=1&cid=1284454947.1781172874&frm=0&gtm_up=1&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~118012008~118395334&dl=https%3A%2F%2Fwww.typeform.com%2F&sid=1781172873&sct=1&seg=0&dt=Forms%20%26%20Automated%20Workflows%2C%20Powered%20by%20AI%20%7C%20Typeform&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.cb_company_industry=(Non-Company)&ep.cb_company_employee_range=(Non-Company)&ep.cb_company_tags=(Non-Company)&ep.cb_company_country_code=(Non-Company)&ep.cb_traffic_type=(Non-Company)&ep.cb_company_description=(Non-Company)&ep.cb_company_name=(Non-Company)&ep.consent_cookie_performance=false&ep.consent_cookie_functional=false&ep.consent_cookie_targeting=false&ep.content_group=public_site&ep.page=%2F&ep.content_group2=main&tfd=2526"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {
+            "get_pscd": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/grc/pk_RyQ0LNZ6oqvMhDPi94wJKTNChCL4oYcm?get_pscd=true"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.typeform.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13q3q3q2q5l1",
+            "gcs": "G100",
+            "gtm": "45He6691v77526378za200zd77526378xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 0,
+            "rnd": 308273637.1781173,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 2039,
+            "tft": 1781172873259
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=0&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.typeform.com%2F&scrsrc=www.googletagmanager.com&rnd=308273637.1781172873&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45He6691v77526378za200zd77526378xea&gcs=G100&gcd=13q3q3q2q5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=1&tft=1781172873259&tfd=2039"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-853397325"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-853397325&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-10579985"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-10579985&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-N6F0VDRT9W"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-N6F0VDRT9W&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/js/6084697625722880.js"
+      },
+      {
+        "data": {
+          "filter": "||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.sentry-cdn.com/9.6.1/bundle.min.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WH2ZQ3X"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.typeform.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WH2ZQ3X"
+      }
+    ]
+  }
+}

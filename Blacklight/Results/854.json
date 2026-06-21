@@ -1,0 +1,519 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "WebMD - Better information. Better health.",
+  "uri_ins": "https://webmd.com",
+  "uri_dest": "https://www.webmd.com/",
+  "uri_redirects": [
+    "https://webmd.com/"
+  ],
+  "secure_connection": {},
+  "host": "webmd.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:55:06.926Z",
+  "end_time": "2026-06-11T09:55:14.285Z",
+  "browsing_history": [
+    "https://www.webmd.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "webmd.com",
+        "www.webmd.com",
+        "img.webmd.com",
+        "ssl.o.webmd.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "img.lb.wbmdstatic.com",
+        "www.google.com",
+        "assets.adobedtm.com",
+        "img.wbmdstatic.com",
+        "geolocation.onetrust.com",
+        "www.gstatic.com",
+        "www.googleadservices.com",
+        "preferences.trustarc.com",
+        "privacy-policy.truste.com",
+        "img.lb.staging.wbmdstatic.com",
+        "fonts.gstatic.com",
+        "img-embody.lb.wbmdstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/js/mmtrack.js?v=20251210": [
+          "click"
+        ],
+        "https://img.lb.wbmdstatic.com/webmd_v1_static_vue/091e9c5e823d0cb2/client/js/webmd-elements.4e84c920.js": [
+          "scroll"
+        ],
+        "https://img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/global-metrics/global-metrics.min.js": [
+          "click"
+        ],
+        "https://img.lb.wbmdstatic.com/webmd_v1_static_vue/091e9c5e823d0cb2/client/js/app-core.4e84c920.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://img.lb.wbmdstatic.com/webmd_v1_static_vue/091e9c5e823d0cb2/client/js/webmd-elements.4e84c920.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "BIGipServerredirects.ma1.webmd.com-443",
+        "value": "1897078026.20992.0000",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": -1,
+        "size": 59,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lrt_wrk",
+        "value": "lrt_cached_consumer_worker_rancher_cluster_6_9R_4W_2026-05-14_14:17:39_gdbp_false_gtedgefrom_CLOUDFLARE_E_true_UC_false_UD_false_active_true_from_MA1_config_envName_active_active_envNameFound_undefined_actv_true_blk_N/A_1781171708294_hvid_false",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": -1,
+        "size": 251,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gtinfo",
+        "value": "{\"ct\":\"Murcia\",\"c\":null,\"cc\":null,\"st\":\"MU\",\"sc\":null,\"z\":\"30001\",\"lat\":\"37.98704\",\"lon\":\"-1.13004\",\"dma\":null,\"cntr\":\"ESP\",\"cntrc\":\"724\",\"tz\":\"Europe/Madrid\",\"ci\":\"88.20.13.109\",\"debug\":\"Cloudflare\"}",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": -1,
+        "size": 206,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "Bagh0y_Zzfjf_fkTLEhuHO8Ef52_RNmsicC0sddY7og-1781171708.275781-1.0.1.1-mzd6ZUgpe_oGQ_P2wMcH_dlyBEaECMuVRODbUGjHbrlQxvTzvu7sh46_KgpewvHhIa_GIsRPyYHVXCatGuXadR0Tdk_faY1Tppc_Ek8oIQYeanlpCLGbIFXPoJegPxxL",
+        "domain": "www.webmd.com",
+        "path": "/",
+        "expires": "2026-06-11T10:25:08.327Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "initial_url_path",
+        "value": "{%22url%22:%22%2F%22}",
+        "domain": "www.webmd.com",
+        "path": "/",
+        "expires": -1,
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visited",
+        "value": "1",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ui",
+        "value": "{%22vtime%22:29686195}",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_16AD4362526701720A490D45_AdobeOrg_cluster",
+        "value": "irl1",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": "2026-06-11T10:25:09.329Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "kndctr_16AD4362526701720A490D45_AdobeOrg_identity",
+        "value": "CiYxMTcxMjYzOTYxMjA1OTgzMTE1MzkwNDEyNzkwOTUyNTM4NjcyOVITCOfK7bDrMxABGAIqBElSTDEwAPAB58rtsOsz",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": "2027-07-11T09:55:09.330Z",
+        "size": 141,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "aam",
+        "value": "aam%3D999991%2C32927%2C529440%2C33206%2C2813%2C2795%2C32922%2C2789%2C32961%2C504927%2C32920%2C32989",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": "2026-12-08T09:55:09.000Z",
+        "size": 102,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_16AD4362526701720A490D45%40AdobeOrg",
+        "value": "MCMID|11712639612059831153904127909525386729",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": "2027-07-06T09:55:09.000Z",
+        "size": 84,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A55%3A10+GMT%2B0200+(Central+European+Summer+Time)&version=202510.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1381d741-786c-401e-b7eb-6246b4cff332&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.webmd.com%2F&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0%2CC0003%3A0%2CV2STACK42%3A0",
+        "domain": "webmd.com",
+        "path": "/",
+        "expires": "2027-07-06T09:55:10.000Z",
+        "size": 361,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RCca5f57af6f004eb09cdb230cf06a3c25-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RC7346ee66203b410097f4db4dc3076c04-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RC9fccd36720d74bbdaeed015817fb0bc0-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RCce6bcf4c11104dd4a7756514e2c67571-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RC1b7f83a8919b42da8f3779aaef0f4e8d-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RC80739046669846b498a66af70651ded8-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RCedf519991b6c4bc0ab3a0ccb3f4b8542-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RC34564fd372354706b56ce021f908ff09-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/2c8c1e17b98c/27339f98909a/fd775eb76dd7/RC841b65a8a8f74ec782de8c900d9414f6-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "-images/ad-",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://img.lb.wbmdstatic.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png"
+      },
+      {
+        "data": {
+          "filter": "||privacy-policy.truste.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "rid": "07326333-3522-463d-81bf-f00fd7171fff"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.webmd.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      }
+    ]
+  }
+}

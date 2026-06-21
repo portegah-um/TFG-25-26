@@ -1,0 +1,352 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Pushy - Lightning-Fast & Highly-Reliable Push Notifications",
+  "uri_ins": "https://pushy.io",
+  "uri_dest": "https://pushy.me/",
+  "uri_redirects": [
+    "https://pushy.io/"
+  ],
+  "secure_connection": {},
+  "host": "pushy.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:47:53.936Z",
+  "end_time": "2026-06-11T07:47:59.689Z",
+  "browsing_history": [
+    "https://pushy.me/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "pushy.io",
+        "pushy.me",
+        "cdn.pushy.me"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "static.zdassets.com",
+        "fonts.gstatic.com",
+        "platform.twitter.com",
+        "www.google-analytics.com",
+        "ekr.zdassets.com",
+        "www.googletagmanager.com",
+        "syndication.twitter.com",
+        "region1.google-analytics.com",
+        "pushy.zendesk.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://static.zdassets.com/web_widget/messenger/latest/web-widget-main-05c2b5d.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "https://static.zdassets.com/web_widget/messenger/latest/web-widget-main-05c2b5d.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://static.zdassets.com/web_widget/messenger/latest/web-widget-5433-05c2b5d.js": [
+          "click"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "click"
+        ],
+        "https://pushy.me/js/jquery.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://pushy.me/js/scripts.js?v=1.0.35": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.zdassets.com/web_widget/messenger/latest/web-widget-main-05c2b5d.js": [
+          "keydown"
+        ],
+        "https://static.zdassets.com/web_widget/messenger/latest/web-widget-5433-05c2b5d.js": [
+          "keypress"
+        ],
+        "https://pushy.me/js/jquery.min.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.2051886753.1781164077",
+        "domain": "pushy.me",
+        "path": "/",
+        "expires": "2027-07-16T07:47:57.097Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.628625082.1781164077",
+        "domain": "pushy.me",
+        "path": "/",
+        "expires": "2026-06-12T07:47:57.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat",
+        "value": "1",
+        "domain": "pushy.me",
+        "path": "/",
+        "expires": "2026-06-11T07:48:57.000Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "d0bt2lFORIQtHCZZkDnq2v808lC01mMqWTB87bd2cZc-1781164077.268118-1.0.1.1-PC7UYhuyWdscyLAqpueGjbNvQgOEay2dWFGg9M4a5bwnf2bzhZ_98CXiF.3LPJiscxhMR1xQACUqKdPDVhJdjlh.VadBh8tl4qjT6lq7aJY7Lhe7KayLxO9jiKzyZePX",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2026-06-11T08:17:57.377Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_REKKP0Z23P",
+        "value": "GS2.2.s1781164077$o1$g0$t1781164077$j60$l0$h0",
+        "domain": "pushy.me",
+        "path": "/",
+        "expires": "2027-07-16T07:47:57.666Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_p": 1781164077170,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 2051886753.1781163,
+            "dl": "https://pushy.me/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Pushy - Lightning-Fast & Highly-Reliable Push Notifications",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l2l1",
+            "gtm": "45je6691v9107673122za20g",
+            "ir": 1,
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 6,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781164077,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 3285,
+            "tid": "G-REKKP0Z23P",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pushy.me/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-REKKP0Z23P&gtm=45je6691v9107673122za20g&_p=1781164077170&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&are=1&cid=2051886753.1781164077&frm=0&ir=1&pscdl=&rcb=6&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&dl=https%3A%2F%2Fpushy.me%2F&dt=Pushy%20-%20Lightning-Fast%20%26%20Highly-Reliable%20Push%20Notifications&sid=1781164077&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=3285"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-REKKP0Z23P"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pushy.me/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-REKKP0Z23P&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 628625082.1781164,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "IEBAAEABAAAAACAAI~",
+            "_v": "j102",
+            "a": 153484972,
+            "cid": 2051886753.1781163,
+            "dl": "https://pushy.me/",
+            "dt": "Pushy - Lightning-Fast & Highly-Reliable Push Notifications",
+            "gjid": 1750711120,
+            "jid": 1230423235,
+            "sr": "375x812",
+            "t": "pageview",
+            "tid": "UA-2336511-14",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "416x902",
+            "z": 1109351899
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pushy.me/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=153484972&t=pageview&_s=1&dl=https%3A%2F%2Fpushy.me%2F&ul=en-us&dt=Pushy%20-%20Lightning-Fast%20%26%20Highly-Reliable%20Push%20Notifications&sr=375x812&vp=416x902&_u=IEBAAEABAAAAACAAI~&jid=1230423235&gjid=1750711120&cid=2051886753.1781164077&tid=UA-2336511-14&_gid=628625082.1781164077&_r=1&_slc=1&z=1109351899"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://pushy.me/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Daum",
+  "uri_ins": "https://daum.net",
+  "uri_dest": "https://m.daum.net/?nil_top=mobile",
+  "uri_redirects": [
+    "https://daum.net/"
+  ],
+  "secure_connection": {},
+  "host": "daum.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:23:33.254Z",
+  "end_time": "2026-06-11T10:23:44.142Z",
+  "browsing_history": [
+    "https://m.daum.net/?nil_top=mobile"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "daum.net",
+        "m.daum.net",
+        "static.nestads.daum.net",
+        "deapi.nestads.daum.net",
+        "webid.ad.daum.net",
+        "delog.nestads.daum.net",
+        "stat.tiara.daum.net"
+      ],
+      "third_party": [
+        "tv.kakao.com",
+        "t1.daumcdn.net",
+        "search1.daumcdn.net",
+        "ssl.pstatic.net",
+        "securepubads.g.doubleclick.net",
+        "action.kakao.com",
+        "t1.kakaocdn.net",
+        "aem-kakao-collector.onkakao.net",
+        "nam.veta.naver.com",
+        "img1.daumcdn.net",
+        "edge.axzcdn.net",
+        "suggest-api-ext.onkakao.net",
+        "t.naverads.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://t1.daumcdn.net/top/tiller-pc/modoo-web/production/20260611155045/_app/immutable/chunks/logger.W1jCdPFI.js": [
+          "scroll",
+          "click"
+        ],
+        "https://t1.daumcdn.net/top/tiller-pc/modoo-web/production/20260611155045/_app/immutable/chunks/matrix.RIZrxOxq.js": [
+          "scroll"
+        ],
+        "https://t1.daumcdn.net/top/tiller-pc/modoo-web/production/20260611155045/_app/immutable/entry/app.c2VyoLP2.js": [
+          "click"
+        ],
+        "https://t1.daumcdn.net/top/daum/daum-m/production/20260611_143921/index.js": [
+          "scroll",
+          "click"
+        ],
+        "https://search1.daumcdn.net/search/statics/common/js/fe/amado-workspace/mo/2.0.0/main.js": [
+          "click"
+        ],
+        "https://m.daum.net/?nil_top=mobile": [
+          "mousedown"
+        ],
+        "https://t1.daumcdn.net/tiara/js/v1/tiara-1.2.0.min.js": [
+          "mousedown"
+        ],
+        "https://t1.daumcdn.net/kas/static/ba.min.js": [
+          "mousedown"
+        ],
+        "https://t1.daumcdn.net/daumtop_deco/scripts/prada/clay/clay-1781156766385.min.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://search1.daumcdn.net/search/statics/common/js/fe/amado-workspace/mo/2.0.0/main.js": [
+          "touchstart"
+        ],
+        "https://t1.daumcdn.net/kas/static/ba.min.js": [
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://search1.daumcdn.net/search/statics/common/js/fe/amado-workspace/mo/2.0.0/main.js": [
+          "keydown"
+        ],
+        "https://t1.daumcdn.net/kas/static/ba.min.js": [
+          "keydown"
+        ],
+        "https://t1.daumcdn.net/top/daum/daum-m/production/20260611_143921/index.js": [
+          "keypress"
+        ]
+      },
+      "SENSOR": {
+        "https://t1.daumcdn.net/daumtop_deco/scripts/prada/clay/clay-1781156766385.min.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://t1.daumcdn.net/top/daum/daum-m/production/20260611_143921/index.js": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAH7xJREFUeF7tnQeYVNXZx39n2lIEERGQsrOADTXYCxoV9ItoVITPng9r7NFYsSQmwUSNidiiiaLEaMAIdiPGEgsq9l4QFAUWVulIkbJT7vl478z22d07d+70c55nni1zzvu+53/O/973PVVRyEnrbYAdgcHJTxXQDegKdAF6JM1fDqwF1gCrgPnALOAL+6dSX+eimnoevWOKgZZioE8T1tAdlbBVa7oqRRc0XTXJ32HLpF0rtGaNkjoo1mjNWqXsuqxBfoeVlqLap5kb6Mg3qhdLclGfctChCqaSWvcG9m302Qvo5JF964D3gbeAt4E3UWqZG9l6JZvH1jFUawZiMVDDQAUDkY908FwkbZN9roa5+PhGwVz5BBTvqf6szIUJpaLDMQE0/BS4BuipQJ7MaaWU5bXebNMT+gTgzGTHT0tmhpmFCPcAU1BqQ2uypMPHf2C4pRmGZpj/Lwzx3YuyToX42AwtaFbc9yDIBx/EprmSbaH5FMV0n2K6X/G6IUTbODomgIjRcB1wohsCNCmv9bHABcnOLyTIZ1oNTAYmotTHzTs8iiFAE5yCB4J1lPcEEBD8vwH1kWsCNMfREKKdnpVTAnwyZMgDPZYvP7bvt9965dp4Spz9at9Ydv2qq3rsXzujTVxsAoyE+OWeqreFeUyA5gbGNDyPYnIoxNOqN+IalnXKDQG0PgK46rprrvnxiVOmsM3XOYlJXTfs/rUzuGrNDYzY8GxKGTYBRkP8EtcqWi2YZQI01iud/wmlmBToz4tKYXlfm8KXmBEBNPxyk2f0O+B2Bb9PujkSaC4Fous7dRp85LRpsVeGDxc3guuuuYbGBPjlX/7C7669ltsvuojf//a3NlpvDR3K0p49iQaDDJg3j3Pvvpv39pJ4GLZatoxbL7mE/gsXsqpbN7b4/ntuGjuWp486qlWkj330UW659FJ8lsXNl11ml5e07Zw51PTrx4aOHdnz/fe59JZbbLkX3Hknn+yyC2MmT+bSe29hYKc5dF36A/HzQf8koUYIoPtviohioOYlxqPiZ4F1YusNrj6BwKWJsSprb/DJ+NSypCslCFYkyqYiQGA0ifGiALAQ4jeA3iURL/jHbYpk+kD8vIR+9Sn47wS+g/iNoHcG3xPgmwJsntBZVxf1HASuA2tnNui+zPA/SH828LBKtGlZJNcE0BAC/gXcqBIjLHaSOEFp/WcJmCePGXN578WL1f+8+KL9XWMChCIR/vWzn3HjVVfx/p571oMtea65TkINmHTyyWy9aBF15Z877DCW9+jByZMmoZVi/zfe4PUDDrB/CnFaS7+64QZ+ff319Fy6lHWdO9vZvtx+e2741a944NRT7b/HX345zxxxBK8MH86R06bxyHHHsd1XX7Go/9ZMmHomZ5z6ANHpic5mvwEOhbgMCUjM+ij4L4PYP0Af3Hq/8d0B/skQnSEsAvU5BE4A6+cQF3K0QgD/TQ3xhv9iUEshJshL/l+A712ISkjvT/5vHFjDQA8D9RIEzqPedvUiBM5v+DtwLqivICZ16QK+51lu/YZbA34mqb5Ct9JOrgggD1A7aIT7FLzRBCKtd980dv/wpv47SDr30U89xeBZMiTfQAB5+k4880zuO+MM3th//1YRblxeOqN0WiHDS4ccUl/mw913t/9/0kMP0Wn9evtJX5cioRDyqVywgPlVVfzfgw/y0Eknse/bb9t6pbPXkUv+PuD117F8Prvzb7liBQe//LItSuQKcb6+s4rwUfMTBGgWBAdGAGGIybiSjCk1diiC2I8LmwBTINoIMf/V4PsvRJOPkPZcIP+NyfwvJWqpXoPAyRB7INHhiUNgJMT+nSCEdH6ZGYk9lERlAwR3gPjtYI0CIQC1CfLaSWzvaD/IahSMD1YwsZRjBbcEeDo5irOXgo9t4LRWA+bN+/U5EyZcO2DePJ+4KHu/+y4dN2xgh9mzmxBAXBZxNfZ67z0+3nXX+g7bbdUqrvzTnxg4d67t4jQuL09lKSdkmr3DDvVlnhg9mn41NbYs6eTh6ur678TluXz8ePvv6cOGsaZrV0b++9/87fzzWbbVVvabRvL3+e47Tpg6lctuvtnO+8Eee9ju1pv77Vcva6eZM7n1sksYPGoml+96S0sCnAMsgNizEBRO1zTw2jor8bZIRQDfPeC/HqICUccULtBq8N+dkC1TauJKqY0QTXDTJlrwALD2gPhfQL0KvrchfmXi68ARoFYmvq9L8sS3zgbr2BQEaMhW99sKBXcEfNxRikOqbghw9SYf//xNs62nJb3SfZTWMiM76ZHjjju065o1HPHMM8QCAdu9GfXkk00IcPUf/8j5f/sbp91/P4FYjH3eecd+6kqSJ29r5UXmtCOPbEGAJ0eNsjuwkGW3jz6iora2vgm/69OHBZWV9t9n3Hcfd513nt3h/3H66Yx+4gkW9+7NH6++mh7LlzPlxBPtjl9HACkneVKlbwf1ZbMjVtHx8vX1XwfOAFZD7LGEa0OkoaTuBfRthQATQJ7q0S8Tb4nmbwD7Cf5D8gkdSOT1vdCIAOKC3Qb+uxJvEf9vIS4DzIMaCCC67TdTitTiDZA6m/x3HZp7ggFuUf0a07v1AsXwjRsCnKRgkMYeH/9g5k47jd/5889PliauDodtt+ba3yViqFQEEFdl0DffMOTTT+0ON/amm7jt4ovt/G2VF7fpq+22S+kCzRo82HZv2kpCLOnw8iYQX/+vv/gF95x9Nvu9+aYdDB/23HP1xR899lh2/OIL+5Mqfb3NNjxz/E856MKX2DGayBM8GKw9IS7RTysppQv0a/C9BtHXE4WaEyC4H8SPBysBUUoC8C0Ef7zJ+xkHvhchNqnBANvHnwPRpMvU3LQ0CJAoqqnVij+FKrlBKXGeiju5IUD9RNgnQ4Y8MnDu3GPFPZAnpgSiK7t356inn6bzunU2GX702WctXKC6YVAJPM+ZMAGn5Z89/HDbdTnln/+0UR/61lu2Ly+d+O19ZRVF20me8vJUlzfGii23tIPnGT/+MePGjasnrUj438cf57FjjuHCO+6wiSIBt7xZ4n6//WYTAoisP/9+LI8vG8lB014jcA5En09GR04JsBSCIxLDqdYpqQlgjwBtDrH7gPUQGAvqy6ZvACkpcYB6H+K/BeukBgPUswk3J/77pA5pcem2EjAHHLlAKWuj4Rufn7OC/XilPdwL+XvHBNAgDrE4ybIw7eebRno6nTlx4v33nnWW75199uGSW2+1g0VxL5TWdoeUJ7YMdcoQp3RU8cnFh//53/9udzD5KcGwk/Iy3Cl+uQyZSgeW0SBxXf58xRX856eySqP9JG7UmRMnNnFtxEb5/5xtJa5vSOKiydCo6Pi2b1877hBCSGwiccqPZ8ywA+xeS5ew3fov2eLC5W2OAIlk+w0wAawRoMR7qgbrMLAuTMw1+yYnhjZllCd+OlinJXz+gEy4adC7gR4Ivn9A/CKwJO5IJt+0xEiUHUw3W5HkewR8ExOxgKy40oMgfi2oDyDwBxmwhvgpYIkbJ0Ot6aWpwQBji3XEyDEBmmCitUAvoZlJSQTuXz6Gn61v2w2zCfAIRF/LAmzzwX8bxG/Lguz2Ra6XeaBAJTcrJbMjxZPSJ0BiVlcG2RKRq0k2An4d4+Hl/8tRG2SALHVKFQN4BZ//FrBkgq5hSsUr0Y7laPjC5+eCYnKL0iOA1gdtWrUp0WIHx6iUUcYKvZGXlxzIXpH3UtbaawL4xJ06G9RsEALE7i0YsKcGLS5WA1hcMBa1YohzAmgtG1NkvjE3a94LHblW7OseX8FLSw9ip+jMJjnUe5veEr8DNRes4yAuE1B9M6uk/zoQ319XQux2YOvM5HlceuamN8LxFWF7U1LBJmcE0FpWkciEl+zIMqkdBAbE5vL2oj3YQsvmtLJOMq98UShM4bybmjWHUwLIUirZuGKSQwSOWz+VB5e3sTrOoZxSyKY1T4Y6MKYQl1S0TwCtZca3bqVIKbRHzuowccXpnLLu/pzpK2RFMm+gNMeHqviwkOxsmwBad0+MVpPvXVuFhJljWzaz1vLVdwPoYa1wXKakM2qi+LgyVMmthVLP9gggj6/EemGTXCFw8roH+PsKeYmaVI+A5r5gmLMKYRNO6wRIDHnKCniTMkTguSWHcHBt3fLNDIWVSHGteTbUhRPVlvbxL3lLqQmgtWx2+RTYPm+WlZDi7aOz+XjRTvjLc9dhWy05M+hjhOovy/nyk1ojgAl8PW4PExCnBlQ23mzaCTsiX/MFrRFAVqdv53EfKGtx20W/5LNFOzQ9X6WsEWlUec1q5WNksJJsrJJqE+WWBNB6lJwWYNrGewSeXno4IzY27DvwXkMRS9TU+hRjAmEezWUtUhFAljvsk0sjykXXgbWv8uIS2bhrUisIWFpzSkUVbS+r9RC+pgTQ9rbqot7g4CE2WRH1+uKh7BORZ4xJrSAQU34OzdWK0uYEMOP+We6XZl7AAcBy+K+PQ0KVpF5W60CE0ywNBNBajiuUA60SB+eYlBUEZHZ4SU13gsW1byQrWLQjdEUQ9lZh5mZTeWMCyMqtutNjsqmz7GU/smw0R294suxxaA8AWT8U0hygqljUXl633zcmgLTI0W4FmXLOERi54SkeXSaDbSY5QODzYEeGqp5yOIz3KUGAxMyvTEknT6j0XpGR2ICA7BxbtrAbHYr/VJHcNKvm5WCYn2bjGJY6ApjRn9w0Zb2W/y4ZzkG1ZqlVGrBPCIWRfXSepjoCyBnDZXMisKcIuhT2m9XX8pvVArtJThHwaY4JVPG40/xO8tURQB5FsvrTpBwhYCbFXAH9fbADg728JFAZ/99VQ2RcyMQBriF8MVjJoUrJUWGZJyGAnCkol1qYlGMEzKywO8AVXB0Mc6O70k1LCQHM0mcvkHQhwyyRdgGaFNFE8HNAqD/vupRQX0wIYALgTFF0Wd4Ewi6Bs0fumRcKsbPqI0cGu09CAHPkiXv8Mipp1gVlBJ8UfiAUtu+pcJ2EALJAXS74MSnHCBy68XmmLT0sx1pLS53ycXiwv31cp6skBDDr/11Bl3mhvSPvMGNx+/caZK6pdCVozexQmF2Uanwnj/P6CgHkdiqz+d05Zp7l3D72JZ9913DfmWeCy0xQJqNCQgA5wVdusTIpxwj0spawsKZ3jrWWoDrN2mCAHd3cXSYE2GgWweWnU1RQy9oF5qR5j9CfGgqT9mGshgAeoe9GjCGAG9RaL6M0hwSrSOsEMiGAnOEtx5+blGMEjAvkLeDJgHindI5cNDGAt22QlrRwvJo535orF9ICrf3Ml4TCOL4pzYwCtQ9o1nKYUaCsQPt90GKgGoCj20nMPEBW2sCZUDMP4AyndHOlMywqBDB7gdNF2KP8Zm+wR0A2E6Phu5DFIDUAGeFsMwkBZFnple1lNN97j8DYNX/i+lVXeS/YSBQEHMUCZjl0HjuLWQ6dPfDtt0AllUoRb0uL2RCTvTZoV7LZENMuRJllUJweqqTNS9qEAHIUikTMZkoyM7jTKm22RKYFl6vMWvNVRVXb69zqNsWbFaGuIHZfyGyKd49dOiV9itGBSlo9hq+OADJxcFE6gk3ezBAwu8Eywy+N0u+HwuzVWv46AphLMdJA1Ius5rIML1B0JEMHFduqSr5JlbuOAHIf8DLA50ikyZQRAkpbLPq2B92t7zOSYwo7Q0DDtRVhUp5C1vhwXHM4ljM8M85l/P+MIUxLgIavK8Js2/obQL4xx6OkBWommc34fybouSzrZ2ioHy2u5mn8BpCLMWR32GYuVZhiDhDoZK3j22970llndJqHA00mSzMEbg+Fubg5KuaKpBz3E3MUSo4Br1OnWRIM00+pplfzmEvyctwe5lj0HAPeSF2qI1RaXJP6o8gnSz8LDtkqf2aWrmYT/Oa9bVscpNWCAE8uOXLtqJ5PmzggC21lxv6zAGp6IlcGK+nR+GTpJgSI1LCrjvPR0F7v8WHFnumJNrnbRGDXyIe8s3gPWt5MboDLKQJ+dgv14+M6nU0JUG1Hybc+3OlExvQwF0Z62TDmZkgv0cxIVpN9Ak0IUFvNkwqOjuNj/17vmLdARjg3FN4t8gFvLt4bP5ZHEo0YtwhoeKoiTP0VnU3fAPP5HkU3Ef5BaA+bBJbyu9VlysnaEh23O//u0Q8NHoWBQJM4oJ4AkRr2Jd70ppjLtriNO7qYRaKZtNuFa2/n5u9bzL9kItKUzRSBRnFAPQFqqxmnmt0UuVZtxnZ95rHC3yNTlWVZvm+shs8W7cBmel1Z1r+AK10fBzS8AeYzHdXypsjpFcMY0fMltDILRdNpUFnx+cLSgzmo9tV0ipm8OUCgcRxgE0BrQtFq1qBS3xT/h83H8YfNzTXC6bSN2fCSDlo5z1sfB9gEiC5kmLZ4pTUzLJT9Fni1w/CcW1qMCg/cON1++vu8ucmzGCEofJuTcYBNgNoFnKg0bQ78L/dtyYG93uLrYMpl1YVf4RxZuE10Dq8tGUoPa0WONBo1bhDQipMqKpmSIECKADiV0DmBbWwSmKA4NeRbxpfbnX/b2Ndu2sSUySECdbvEbAJEqu2zU051ov/t0L4c3Os1YiroJHvZ5AnoKC8vOZB9Iy32XJQNBkVWUXthXIIA83kbxT5OK/BA59M4a8t/OM1eFvnuXXE6p65r8wymssChaCqpeSdUxb51BFiFSu+SjL93PpMLut9FXAWKps7ZMFRmeu9eeRanrTMPhGzgmzWZmtWhKropPY/eUR+L3Ch6psMRnLDVY0SUHC5Xfimka3l02SgO2+j6mtryA62Aahy02EK1NwTanr0yUXbcVk+w2mcvISqb1NVazePLRnJg7WtlU+eSq6ifoSqygNPQZPT+ltGh43s8zszQj0oOo1QVGhyZyePLRzIoNrcs6luylVScrmqruVF5cD/ABtWBC7a4i0mbnVayeEnFzl37V/686nI62LfLmlTMCMhQqEpnCNRJZf/Z+VQu3uIOfvB1cZK9aPJ0tn7g/hVjOHrDU0VjszG0XQQeEAJMAU5oN2saGWoC/bmi23ge7XR8GqUKN+sx6x9h/PeX0jdeU7hGGsvcIDBVXKDnFIxwU7q9Mq9UDOe87vcyNziovawF+f320dn8deU5JtAtyNbJ3CgNz6t0J8HSVRtVQWSP8c1dx/J5sDiC5J2in3PJ2ps5ad2DBHU03Sqb/MWCgOZVIcDHKHbJhc3/7TiCm7pcwfQOB+dCXdo6Dtr4CpetHc9hG/6TdllToAgR0LyjauczW6m2r5Hxumofh3ZjfJcreKzzccTJ755jecKfsP4hfrn2NnaNfOR1VY28AkZAa76UN8BiFL3yZec7FfvycMcTmNZpJPMCA3NixoDYXEavf4zj1j/MHpH3c6LTKCk8BLSmWgiQ9jqgbFWlOlDFcx0P54WKEbabtNajodQu1lqGbXyZn9S+wOEb/kM4Nj9bVTByiwkBzRIhwMbWtkLmuy7fBLZhdnAws4I7MiswGCHIKl831vi62vMMy32Jzfo9rOVsZq2lq7WGbtYqu4MPjs1ih+gsBke/YJBZn5/vpixM/ZragiZAYaJmrCoZBJIEyGsMUDJgmooUHwLiAtXOZ75ShIvPemOxQSAzBOwgOB/DoJmZbUobBLxBoG4YNK3tkN6oNlIMAgWAgD0RlsW1QAVQRWOCQaBVBOy1QHVHohucDAJliMDUrCyHLkMgTZWLEwF7P8DdwDnFab+x2iCQEQITxAVqcSx6RiJNYYNAkSBgb4l0ci5okdTHmGkQSAsBOR9Uyc2QxDHrgNOCzmQuCQT87CYHY3WL+vi+JCpkKmEQSAMB+2AsyV9IS6LTsN9kNQi4R0CzJFRFb1eH47rXakoaBAoEAc2roSqGpX08eoGYb8wwCGSKQMPx6GYoNFMsTfliQ0DB1cGwfSqisyuSiq2Cxl6DQFsI+BSjA5U8mXCBzFCo6S3lhkDjS/K0piJabW+O71BuOJj6liECmlWhKraQmrd7UXYZwmOqXOIItLgo244DzJqgEm92U71GCFwSCnNbkzdApjfFGHgNAkWDQNL/b0IAEwcUTfMZQzNBoJH/34QA9mjQfKajOCgT+aasQaCQEWjs/7cggIkDCrnpjG0eIVDv/7cggIkDPILYiClcBBr5/y0IYOKAwm03Y5kHCDTz/1sQwI4DsnBnmAemGxEGAS8QmBoKc2JjQfUTYXX/jC1glKV5wgttRoZBoJAQqFv/0yYBtCYQraYmn5dmFBJoxpYSQUCzLBimj1LE2iRA0g2SWbKLSqTqphoGAUHg9lCYi5tD0cIFsglQw77EecvgZhAoGQT8DA31421HBJBMtdXMUbBNyQBgKlK2CGjNvIoqUl5Al/INkCSAOTCrbLtMaVVcDsCqCDMuVa1aJYD+jh2iUWaVFhSmNmWIgA6GGKi2JuXNiK0SwI4FcniJdhk2jKlyLhBInv7Qmqo2CWCOTcxFCxkd2URAjj+sqGSKKwJojT9SzRdKsV02jTSyDQLZQEDDnFAlg5Ui7ooAthu0gHPR3JUNA41Mg0BWEVCcHqrk/rZ0tOkCSUE9jw4RH98o6JNVY41wg4CHCGhYFKqkf1tPf1HXLgEkU7SaqzT80UP7jCiDQLYRaLLu37ULlHwLyAnSczdNJ9tHSZhkEChoBDSrgpqt1QA2tmenozeACDG7xdqD0nxfKAi0NfHV3EbHBEjeI/Ad0LFQKmrsMAikQGBDsAtbq+6sdoKOYwKYt4ATOE2efCOQztPfcRBcVymtCUWq+UQpdsh3RY1+g0BzBLTmy1CYIUoRcYpOWm8AERpdyGHa4lmnCkw+g0CuEFA+Dg/257l09KVNgKQrJMdKH52OIpPXIJBNBJqf9+NUlysC6Br6RWN8jaLCqSKTzyCQNQQ0a4MBdlT9qElXhysCmIA4XZhN/mwiUHfbixsdrglgAmI3cJsyXiPgJvBtbINrApiA2OumNPLcIKB8DA/2Z7qbslImIwKYgNgt7KacRwi0OOgqXbkZE0AvpGPU4j1gp3SVm/wGAbcIaPgi5GNP1Z8NbmV48gZIvgV2VJqPUIQyMcaUNQg4RGB9ULOnqsp8z3rGb4A6gyPV9qFDtzqsgMlmEHCPgOK8UCV3uxfQUNIzAthvgvk8rhSjvTDMyDAIpELA7YRXa2h6SgC9ks0ja/hYKapM8xkEvEZAa+aHurKr05WeTvR7SgBRGFnAXljMMPGAE/hNHscIaKL42C9UyfuOyzjI6DkBbBKYeMAB9CZLmgg42uKYpszM5wFaUxiptnfjn5quQSa/QSAFApNDYU7OBjJZeQOIofY9AwvsZdP/kw3DjcwyQUDzcjDMoe2d7uAWjawRwCbBMrpE1/MG8CO3BppyZY3A58GODFU9+SFbKGSVADYJFtAnonlXQd9sVcLILT0ENHwT0hygqliUzdplnQBifO0CdlYWb6Doms3KGNklg8CKIOytwvZRPFlNOSGA1CBazSEanjanSmS1PYtfuGYjPg4MVdrry7KeckYAqUnyBsrHAF/Wa2YUFCMClg9GBcL2gzInKacESLpDJyjNZCCQkxoaJcWBgKbWpxgTCPNoLg3OOQHsN8F8jrAUU4HOuays0VWwCKxXisODlbyWawvzQgCpZHLJxDQUPXNdaaOvgBDQLENxeCjMB/mwKm8EkMrqBQyKaF5R0D8flTc684uAPdQJh+ZitKe1muaVADYJ5IiVOP8xk2X57Yx50D4zGGSY6sPyPOiuV5l3AtgkWMnm0TU8gWJ4PsEwunOEgObVYBdGqi1ZkyONraopCALYJNAEIwu5QWku82Kzfr6BNfpTIqDR3BIMc7VSRAsBo4IhQB0Y0Wp+ojWTUPQqBICMDR4hoFmiFCcHw/zXI4meiCk4Athvg8X0jNQyScGhntTSCMkrAhpeCFVwsurN0rwakkJ5QRIg6RKpWDWXabgBRbDQgDP2OEBAE1Xw60CY8UqhHZTIeZaCJUAdEpH57K4VDysYlHN0jELXCMgQp9IcH6riQ9dCclCw4AmQdIk6R2vtYzDG5AAToyJzBCYHKzhX9WZd5qKyK6EoCFAfINcw3Ipzp4IdswuLke4GAa2Z7fNxTj6WNLixV8oUFQGSsYFstbwAzbVmf4HbZve4nGbNpvW944L9uUMpYh5Lz6q4oiNAHRp6Hr2jPm4ETilGIme1VXMnXALbScEKxhbiCI8TGIqWAPVu0XyGWoqJxi1y0twe5tF8gp+zQ/1510OpORdV9AQwblGO+0yDu3O7Ulg51u65upIgQL1btJDukTiXKrgAxeaeo1XOAjWrNfw15Odm1Z+VpQJFSRGgnggr2Ty2hrMtuFQpepdKY+WlHoklDLcEujDByzM581KXFEpLkgCNAuUOUR9naRhr9hyk1+U01Ci4KWhxjxrAxvRKF0/ukiZAPRE0wegCTtdwpYKBxdM8ubdUxvKV4sZgJf8qlBWb2UShLAjQGMBIDbsSY4xW/EzB1tkEt1hka1ikNFNQPJivrYn5wqrsCNDoreCLVTNMJ5ZXHFN2k2oymqN4XMGDgUpeLoURHTckKlsCNAZLz6NDxM9oLMYoZS/BLs0jWzQRrewDix8MWTxdyr69UzIYAjRDSrZnxtexX9xiuMLeorkb4HcKaIHliwMfacV0v8V0fydezeZBswVWd0fmGAK0A5NNiLUcaGmbDMM3uQ1DCvhku6YdviszSnHo0lHPdpjJEMAhUPWxw0K6x2EfrRksH6j/dE9TVKbZZTJqlnyUYhaKLwKdect0+PRgNQRID69Wc8vivFiQwdpiMBY7asW2StMleVdahYYKNBVKfibuU64AOiUFrkcTkYO0NdSiqFXyEyJo+3+rleIrVKKzB4LMKtbFZx7B7ZmY/we0UaTnkpnxbgAAAABJRU5ErkJggg==",
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [
+        "https://t1.daumcdn.net/top/daum/daum-m/production/20260611_143921/index.js"
+      ],
+      "styles": {
+        "https://t1.daumcdn.net/top/daum/daum-m/production/20260611_143921/index.js": [
+          "red",
+          "rgb(0,255,255)",
+          "rgba(250,225,0,1)"
+        ],
+        "https://t1.daumcdn.net/daumtop_deco/scripts/lib/lottie-player-2.0.2.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {
+        "https://t1.daumcdn.net/top/daum/daum-m/production/20260611_143921/index.js": [
+          "kakao-web-player"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__T_",
+        "value": "1",
+        "domain": "m.daum.net",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__T_SECURE",
+        "value": "1",
+        "domain": "m.daum.net",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TSTORAGE_SID",
+        "value": "1781173419707.1592",
+        "domain": "m.daum.net",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NAC",
+        "value": "0CXQBEx8jH5fB",
+        "domain": "naver.com",
+        "path": "/",
+        "expires": "2027-07-16T10:23:41.588Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DMT_RS",
+        "value": "channel_news",
+        "domain": "m.daum.net",
+        "path": "/",
+        "expires": "2026-06-11T10:53:43.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CURRENT_TAB",
+        "value": "news",
+        "domain": "m.daum.net",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cas": 0,
+            "cbt": 670,
+            "cls": 0.044,
+            "eid": "31098572,31098908,31099073,31099015,95340253,95340255",
+            "fid": 0,
+            "gpt": 1,
+            "id": "plmetrics",
+            "ifi": 0,
+            "inp": 64,
+            "lcp": 5676,
+            "lcps": 1092,
+            "mbt": 370,
+            "mls": 0.044,
+            "nas": 0,
+            "nif": 0,
+            "nls": 1,
+            "nlt": 9,
+            "pvsid": 6317251338141948,
+            "tls": 6656.3,
+            "top": 1,
+            "was": 0,
+            "wls": 0.044
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=plmetrics&cls=0.044&mls=0.044&nls=1&cas=0.000&nas=0&was=0.000&wls=0.044&tls=6656.300&lcp=5676&lcps=1092&fid=0&cbt=670&mbt=370&nlt=9&nif=0&ifi=0&eid=31098572%2C31098908%2C31099073%2C31099015%2C95340253%2C95340255&top=1&pvsid=6317251338141948&gpt=1&inp=64"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_key": "a7a5943a9c854d119ba8d32cf1c23cda",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aem-kakao-collector.onkakao.net/api/4527/envelope/?sentry_key=a7a5943a9c854d119ba8d32cf1c23cda&sentry_version=7"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.naverads.com/sc2/11/"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.naverads.com/sc2/1/"
+      },
+      {
+        "data": {
+          "filter": "||veta.naver.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "an": "m.daum.net",
+            "br": 0,
+            "c": "https://m.daum.net/?nil_top=mobile",
+            "iv": "08e1e819-65ed-4dc7-a9f1-218af9c035f6",
+            "ivt": 0,
+            "nc": "0CXQBEx8jH5fB",
+            "nt": 0,
+            "p": "da_dom_id:branding_station_news_4",
+            "rui": 2012439000,
+            "sa": 0,
+            "sn": "web",
+            "sua": {
+              "architecture": "",
+              "bitness": "",
+              "browsers": [],
+              "mobile": 0,
+              "model": "",
+              "platform": {
+                "brand": "",
+                "version": [
+                  ""
+                ]
+              }
+            },
+            "sv": "3.10.5",
+            "u": "MW_Daum_Top_News_1st_BA-N239657548",
+            "xdid": "branding_station_news_4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://nam.veta.naver.com/gfp/v1?u=MW_Daum_Top_News_1st_BA-N239657548&xdid=branding_station_news_4&p=da_dom_id%3Abranding_station_news_4&an=m.daum.net&c=https%3A%2F%2Fm.daum.net%2F%3Fnil_top%3Dmobile&sn=web&sv=3.10.5&nt=0&iv=08e1e819-65ed-4dc7-a9f1-218af9c035f6&ivt=0&sa=0&rui=2012439000&br=0&sua=%7B%22browsers%22%3A%5B%5D%2C%22platform%22%3A%7B%22brand%22%3A%22%22%2C%22version%22%3A%5B%22%22%5D%7D%2C%22mobile%22%3A0%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22model%22%3A%22%22%7D&nc=0CXQBEx8jH5fB"
+      },
+      {
+        "data": {
+          "filter": "||veta.naver.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://nam.veta.naver.com/nac/2"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099015
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606080101/pubads_impl.js?cb=31099015"
+      },
+      {
+        "data": {
+          "filter": "/?sentry_key=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_key": "a7a5943a9c854d119ba8d32cf1c23cda",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aem-kakao-collector.onkakao.net/api/4527/envelope/?sentry_key=a7a5943a9c854d119ba8d32cf1c23cda&sentry_version=7"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://m.daum.net/?nil_top=mobile",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "The Conversation: Noticias, investigaciones, ideas y análisis en profundidad firmados por académicos e investigadores de primera línea.",
+  "uri_ins": "https://theconversation.com",
+  "uri_dest": "https://theconversation.com/es",
+  "uri_redirects": [
+    "https://theconversation.com/"
+  ],
+  "secure_connection": {},
+  "host": "theconversation.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:35:54.655Z",
+  "end_time": "2026-06-11T10:35:59.335Z",
+  "browsing_history": [
+    "https://theconversation.com/es"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "theconversation.com",
+        "cdn.theconversation.com",
+        "images.theconversation.com",
+        "collector.theconversation.com"
+      ],
+      "third_party": [
+        "sessions.bugsnag.com",
+        "sdk.privacy-center.org"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.theconversation.com/_next/static/chunks/718-3ee8a805fd7cea7a.js": [
+          "scroll"
+        ],
+        "https://cdn.theconversation.com/_next/static/chunks/359-5b0495211adb9c58.js": [
+          "click"
+        ],
+        "https://cdn.theconversation.com/_next/static/chunks/pages/_app-b80116dc899d935d.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "tc_region",
+        "value": "es",
+        "domain": "theconversation.com",
+        "path": "/",
+        "expires": "2026-07-11T10:35:56.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tc_session",
+        "value": "CgyZrsMXD0gqedIKeAMlsdR%2Bc%2FGzAyY4B3Sk1TJSWH84c9DNPD36a75BP6F6c11CYHlIbGiLexe8%2BS1E3geCp%2FS1sN%2Fp%2BJ%2FdAHfBEReyc76z%2FbzIkCH5NRNdZQlDgGo%2F6HyX%2BbAZGQ09iGB7A3JQUZ%2B1tjlpCBEIKJ%2B2pFEizzQsARfgz1hH44LSyoWrBhxJqYo1cFnaECkdBUYvB15zYc1vSpKQJ7Q2vv2RNW36IZmp0Wt1fTXq3T%2BISmWsmgExx37zkDHJ%2Fk2JD1nE9v2zkepT0pNiELvXiKPailutU5T6%2Fdx92Y%2FvRA%3D%3D--56sT5AMdzDyrLLTz--UqgvjW%2FjoZV1QJ7H9O8Icw%3D%3D",
+        "domain": "theconversation.com",
+        "path": "/",
+        "expires": "2026-06-25T10:35:56.927Z",
+        "size": 408,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "didomi_token",
+        "value": "eyJ1c2VyX2lkIjoiMTllYjY0MGItZjgzMi02YzEwLThmZDktYWJhM2Q4ZTQ3NjU0IiwiY3JlYXRlZCI6IjIwMjYtMDYtMTFUMTA6MzU6NTcuMTg3WiIsInVwZGF0ZWQiOiIyMDI2LTA2LTExVDEwOjM1OjU3LjE4OVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+        "domain": "theconversation.com",
+        "path": "/",
+        "expires": "2026-12-11T11:35:57.000Z",
+        "size": 200,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||bugsnag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://theconversation.com/es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sessions.bugsnag.com/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Página Oficial de Ryanair | Vuelos baratos",
+  "uri_ins": "https://ryanair.com",
+  "uri_dest": "https://www.ryanair.com/es/es",
+  "uri_redirects": [
+    "https://ryanair.com/",
+    "https://www.ryanair.com/"
+  ],
+  "secure_connection": {},
+  "host": "ryanair.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:21:00.481Z",
+  "end_time": "2026-06-11T10:21:06.493Z",
+  "browsing_history": [
+    "https://www.ryanair.com/es/es"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ryanair.com",
+        "www.ryanair.com",
+        "polyfill.ryanair.com",
+        "assets.ryanair.com",
+        "sonar.ryanair.com"
+      ],
+      "third_party": [
+        "app.launchdarkly.com",
+        "ad.doubleclick.net",
+        "www.facebook.com",
+        "www.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.ryanair.com/homepage_dist/mobile/main.86e940aa9c325cd7.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "fr-correlation-id",
+        "value": "9a22e695-616f-4ee0-9415-e75a76e8d6a9",
+        "domain": "www.ryanair.com",
+        "path": "/",
+        "expires": -1,
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rid",
+        "value": "1a1032b2-c7c8-41c1-bd1d-f9a041616f14",
+        "domain": "www.ryanair.com",
+        "path": "/",
+        "expires": "2027-06-11T09:54:45.866Z",
+        "size": 39,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rid.sig",
+        "value": "jyna6R42wntYgoTpqvxHMK7H+KyM6xLed+9I3KsvYZaVt7P36AL6zp9dGFPu5uVxaIiFpNXrszr+LfNCdY3IT3oCSYLeNv/ujtjsDqOzkY5JmUFsCdAEz3kpPbhCUwiArp5oaa75tpJtO3kFwYQ8l0DbH67AtcN/PMbniLsiM5qn+2AjrrtoNJicE3ZQwFHVipe4lWPSRfq2OIyUrlFhwEDt20+wCX7l1mCubNXtG6nZrUA07sFUFhn4RUxnjwjJ6d9qjjBasXLvYSqyYN7UaVQX5xE9Yo6kYvEFwpawHCyJhI8F1KIekoqJqOsUTEHh1lbRmtAKhJN4YoHYylKwACz99VadUBpBpuxIIV0dcmf2Wq/Hewxc+AM+ATQgCDWqKxhuQPyU0w+vfGSaoG9e3c+qeVI7Xz6JYiwYSxOaiGfoMDRjllxMm8WGQDPymQ9qbkKA0srdHHxWlYdoEMcCDxXqfaRSKpDcDmx+ca3P3G+e7uGH0wX9PftFIGhZknHfkyyLsYLqe9gpUx9T5RezzJVqzY1OKe2hXdYja+0CAqZDjw+0y3u2RFg3gEw/xjyJ/XBRsH2o31G36BQ03K7Kpn2Ug3gzyuuHjB8BXySxdrNa1ULzUnEL3db1hIAl4TSviuGH7gqCr4RtUBSiFbZXH1dAkriGvMGEn9aso/SgtO+QhEmO6190G2dh58IW9ICJp6EO6MAUfB2hrY/I4SOHP7mjWAwiucffJmfNNOkzBV9Jd2UKgImXeX6P7c+9R/A1MwATsff0TZY7ED/vtjStx+gdTVKKtyspVmXA1d5q1EIfakuwbiWAOsGgYDa7/l/gQWz7PQU0Bpr+Q+J/ujoK3Q==",
+        "domain": "www.ryanair.com",
+        "path": "/",
+        "expires": "2027-06-11T09:54:45.866Z",
+        "size": 863,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "xid",
+        "value": "bb1bcce2-e7c6-495f-940c-e3a0ef943a23",
+        "domain": "www.ryanair.com",
+        "path": "/",
+        "expires": "2026-06-18T09:54:45.866Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mkt",
+        "value": "/es/es/",
+        "domain": "ryanair.com",
+        "path": "/",
+        "expires": "2027-06-11T10:21:03.000Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "STORAGE_PREFERENCES",
+        "value": "{\"STRICTLY_NECESSARY\":true,\"PERFORMANCE\":false,\"FUNCTIONAL\":false,\"TARGETING\":false,\"SOCIAL_MEDIA\":false,\"PIXEL\":false,\"__VERSION\":5}",
+        "domain": "www.ryanair.com",
+        "path": "/",
+        "expires": "2026-07-11T10:21:03.000Z",
+        "size": 152,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2026-06-11T10:36:04.439Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [
+          {
+            "key": "cd[market]",
+            "value": "es-es",
+            "cleanKey": "market"
+          }
+        ],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "",
+        "raw": "https://www.facebook.com/tr?id=776134079199579&ev=PageView&cd[market]=es-es"
+      }
+    ],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": ".facebook.com/tr?$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cd[market]": "es-es",
+            "ev": "PageView",
+            "id": 776134079199579
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ryanair.com/es/es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr?id=776134079199579&ev=PageView&cd[market]=es-es"
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ryanair.com/es/es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/ddm/activity/src=12180671;type=esjuw0;cat=2022r0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ord=8207910097302.125"
+      }
+    ]
+  }
+}

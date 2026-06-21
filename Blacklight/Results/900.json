@@ -1,0 +1,205 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Playrix",
+  "uri_ins": "https://playrix.com",
+  "uri_dest": "https://playrix.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "playrix.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:10:02.159Z",
+  "end_time": "2026-06-11T10:10:06.186Z",
+  "browsing_history": [
+    "https://playrix.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "playrix.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "o448786.ingest.sentry.io",
+        "cookie-cdn.cookiepro.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://playrix.com/build/bundle.161315d9ef16c4b70d83.js?eab982939a4c8557ae64": [
+          "click",
+          "scroll"
+        ],
+        "https://playrix.com/build/vendors.e5b2d132c49d2b1ea574.js?eab982939a4c8557ae64": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KKNZLH7": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://playrix.com/build/vendors.e5b2d132c49d2b1ea574.js?eab982939a4c8557ae64": [
+          "keypress"
+        ]
+      },
+      "SENSOR": {
+        "https://playrix.com/build/vendors.e5b2d132c49d2b1ea574.js?eab982939a4c8557ae64": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "PHPSESSID",
+        "value": "V89LuWnTYgFHn6922eOYRfG1YGTwp1h9",
+        "domain": "playrix.com",
+        "path": "/",
+        "expires": "2026-06-11T12:10:02.989Z",
+        "size": 41,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "c5UySNX.xtKpSr7Q_xjptkI7otXdrXKHD8RV_ISg5nQ-1781172603.4697042-1.0.1.1-X2y_IdZzOe04.e5lZe51V_eJGSOPmZQpd8dl31PeYpfLeHVvQG3DSXRznV7a9fSCn6rEQudr9wQsPnwoFUdKNjbMKRWH851MQPIwpYsRKnX.1oVeE6TjL.H5WrarVQRU",
+        "domain": "cookiepro.com",
+        "path": "/",
+        "expires": "2026-06-11T10:40:03.485Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+12%3A10%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fplayrix.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+        "domain": "playrix.com",
+        "path": "/",
+        "expires": "2027-06-11T10:10:04.000Z",
+        "size": 264,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.react/7.93.0",
+            "sentry_key": "01aa14a16b3b42f2bdd2b25bb8513a0c",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://playrix.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o448786.ingest.sentry.io/api/5702864/envelope/?sentry_key=01aa14a16b3b42f2bdd2b25bb8513a0c&sentry_version=7&sentry_client=sentry.javascript.react%2F7.93.0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KKNZLH7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://playrix.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KKNZLH7"
+      }
+    ]
+  }
+}

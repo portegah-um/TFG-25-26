@@ -1,0 +1,199 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Página web oficial de Nintendo Ibérica",
+  "uri_ins": "https://nintendo.com",
+  "uri_dest": "https://www.nintendo.com/es-es/",
+  "uri_redirects": [
+    "https://nintendo.com/",
+    "https://www.nintendo.com/"
+  ],
+  "secure_connection": {},
+  "host": "nintendo.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:48:36.755Z",
+  "end_time": "2026-06-11T08:48:43.414Z",
+  "browsing_history": [
+    "https://www.nintendo.com/es-es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nintendo.com",
+        "www.nintendo.com",
+        "cdn.accounts.nintendo.com",
+        "accounts.nintendo.com",
+        "api.accounts.nintendo.com",
+        "api.ec.nintendo.com",
+        "apps.accounts.nintendo.com"
+      ],
+      "third_party": [
+        "alps.cdn.nintendo.net",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "api.cba.nintendo-europe.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.nintendo.com/eu/app_static/assets/Bn88CgFJ.js": [
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "https://alps.cdn.nintendo.net/v1/js/account_es_EUR.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A48%3A39+GMT%2B0200+(Central+European+Summer+Time)&version=202503.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V17%3A0%2CV9%3A0%2CV1%3A0%2CV10%3A0%2CV6%3A0%2CV5%3A0%2C&consentId=d815f6fa-1f5f-4735-b72d-49ab36778108&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.nintendo.com%2Fes-es%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "www.nintendo.com",
+        "path": "/es-es/",
+        "expires": "2027-06-11T08:48:39.000Z",
+        "size": 424,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "BIGipServerWEBFARM_REDIRECT_8053",
+        "value": "1768096010.29983.0000",
+        "domain": "nintendo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 53,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_abck",
+        "value": "B8C18FD372D15C3FAA061B8849A98176~-1~YAAQn10EF19jR6aeAQAAWYXetRAp8ghib77AcibiyExX2KhlFoggLH6RbW5GQFpt/ZfYhLMDGp4VoDJTyhmNIHLUPPwS2OCXvzYs85KcnGpc+Du1RJ53zw7ShH4a/b2pKV6+MHBA6sw7XqYxI0e75DP5nNbNW3/rF+9deMwMixy8pAGm5gyyfcczAlrS4Ff4ipga+5AfuYr8YQ9UIi4Vw+8ya72uaTfr2ozfpznfomGuhX3ENRMbPogswgGcpACoaR9eZUyIoXYBDcnYh/z0ToW+hFdxD+5SCH4PMfVUCS5LOjCiIjCw9TkIxOldy+oAX2Jz4t7La6vtb4xNEfPIgaGjymOs3UGR1gsbBwSxVV+Wvlr1K6iV1/co4d3AGokfAYET1knP6CPxQU5iSKA94LmPMM+P3AlCVyVjparDV6d94lUtu5reAD+6S+pJrXhWsuxbEn9C2P8A1DU=~-1~-1~-1~-1~-1",
+        "domain": "nintendo.com",
+        "path": "/",
+        "expires": "2027-06-11T08:48:39.804Z",
+        "size": 520,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "528F191DA13671DC9538574ED9710B36~YAAQn10EF2BjR6aeAQAAWYXetQCWNqx7qbRzRgh98EcZSamVFBB05eyMrlDPqQrjZvhAl1bNjEN9fyELdZDCW6JDaZEvNJbjwJKEFFt/zvgbMxTjF88MBeqxArucoJDPk2B9HpVd6e76ivmxjRf3rBVZv8Jn+74HvCAEuwlH7I1BNC+8Xw37M71Qw03dSzjxqYkZyKpua/pIYT29U3SycZnnOlsfIOt84zH1s0HaSy5yoqf9YN8pPGcDearc85byAFPfSE/R9tyKQmWwNz0FXfGkPXEWkgusyu4Tco0E3T8G62Roem8ujKgTsItKeSQaMYP96jeqgRiQMUc1PQ517rPV++Wg86AqFJaQ+5Qp~3420211~3159105",
+        "domain": "nintendo.com",
+        "path": "/",
+        "expires": "2026-06-11T12:48:39.804Z",
+        "size": 414,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NATID",
+        "value": "9eb2d91f9a9e72c594cf0eb9d6ba6cf1bc4084c7",
+        "domain": "accounts.nintendo.com",
+        "path": "/",
+        "expires": "2027-07-16T08:48:40.364Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

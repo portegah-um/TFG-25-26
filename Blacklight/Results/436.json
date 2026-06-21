@@ -1,0 +1,198 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Amazon Trust Services",
+  "uri_ins": "https://amazontrust.com",
+  "uri_dest": "https://www.amazontrust.com/",
+  "uri_redirects": [
+    "https://amazontrust.com/",
+    "https://www.amazontrust.com/index.html"
+  ],
+  "secure_connection": {},
+  "host": "amazontrust.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:49:05.544Z",
+  "end_time": "2026-06-11T07:49:09.857Z",
+  "browsing_history": [
+    "https://www.amazontrust.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "amazontrust.com",
+        "www.amazontrust.com"
+      ],
+      "third_party": [
+        "cognito-identity.us-east-1.amazonaws.com",
+        "dataplane.rum.us-east-1.amazonaws.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.amazontrust.com/assets/cloudwatchRum-Bq1J_-eN.js": [
+          "click"
+        ],
+        "https://www.amazontrust.com/assets/analytics-funnel-DCfBgSeu.js": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.amazontrust.com/assets/use-sticky-header-DGh26qUK.js": [
+          "mousedown"
+        ],
+        "https://www.amazontrust.com/assets/entry.client-BD37dfce.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.amazontrust.com/assets/cloudwatchRum-Bq1J_-eN.js": [
+          "keydown"
+        ],
+        "https://www.amazontrust.com/assets/use-sticky-header-DGh26qUK.js": [
+          "keydown"
+        ],
+        "https://www.amazontrust.com/assets/entry.client-BD37dfce.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://www.amazontrust.com/assets/entry.client-BD37dfce.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "cwr_u",
+        "value": "f3f57b18-f601-4161-a786-f7d625ec0d2b",
+        "domain": "www.amazontrust.com",
+        "path": "/",
+        "expires": "2026-07-11T07:49:08.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cwr_s",
+        "value": "eyJzZXNzaW9uSWQiOiI2NDhjOTU2ZS0wMTQzLTQzZmQtOWZjMS1iOGI1ZmEyM2YzNmUiLCJyZWNvcmQiOnRydWUsImV2ZW50Q291bnQiOjYxLCJwYWdlIjp7InBhZ2VJZCI6Ii8iLCJpbnRlcmFjdGlvbiI6MCwicmVmZXJyZXIiOiIiLCJyZWZlcnJlckRvbWFpbiI6IiIsInN0YXJ0IjoxNzgxMTY0MTQ4MTAwfX0=",
+        "domain": "www.amazontrust.com",
+        "path": "/",
+        "expires": "2026-06-11T08:19:08.000Z",
+        "size": 241,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+            "X-Amz-Content-Sha256": "64e97d174342e6714f467e987266861297f1d6f47464186e3c498fd2649216b2",
+            "X-Amz-Credential": "ASIAU2VKZZWF6WJUIGOX/20260611/us-east-1/rum/aws4_request",
+            "X-Amz-Date": "20260611T074909Z",
+            "X-Amz-Expires": 60,
+            "X-Amz-Security-Token": "IQoJb3JpZ2luX2VjEDAaCXVzLWVhc3QtMSJIMEYCIQD4fgnOyodGKB3bCrsViZMrAV6ynrgJi/08qNJ5fmaDvQIhAPzUdyq51syItfMLro6Ob8ONQAqWPD45D+UjAjWFIp9PKrYFCPn//////////wEQABoMMzMyMTQ0NDMwNDc1Igyaoa4dQRlioIu3PGcqigWjHQyvl2Tajb00C6stwB0CB9mPRj84k6wyqs/snJ/h4wJ4HjxPPuxUFhxJ+fAapLADjoeoNpHSrljaA9Fqv9LAxt+0VXbwaHR/T5dE+9ljpAzVkkAObSd+cL9QFWMZxFCVSWGOzbUbsg/cSnlFwtx/hYEPoK56IdvrOF5ux6RihAQBHSLKo3wTZ40nAp5c+O9eoDo8al6Wm6WTl3vHYRsivN8A61ktOCQxuJ2dlX0BK+l/vpSQXWzxvLCREv5d+UhMItt3BOKi8Fq+vXaIr+IQ5MMa4G2h8aQg4Xqwv4LA/5v82N4qDKxPDKKp0Wg7aaclmqR2oRq/3n2WbKpyXgKiNgLw341EB08iUJpCTkrQIm3pjfFh+tQVOVLIic79FV2WDItbE+r00JojdZZzW394GSEuAEMC97il0jHJTtr9BUrQy6RiGKz4+aSAmk/pOC7otzv2jqjz1RP001F0ekVv8zAI5xFr3Q1+G0dnbcgvH+b5+FCCtX3OYrFINP+teN/3dNy51qgCGEyXsac2Jpq4j4uG8ndahvVFNfxcFfO3RMy4HjsQNqrnNdjqrGdR/Dhu1+psb6yXgUVYIp/4t0/9UqlsUcM1+niEMDXXyp3Ov9D7FYARcy6wozu2jnDTdJNxCO3qtUPuG5HyfG9WmgZ7LYz0dmrvIWbjkY6mQpdlkiDIdOSH88llb8FyR+yQ/btzGCvZAaK7yeM77jcYifCsGNdQvqnrl69KuMTcII57yV1LOLC2dpajajY7UTyv9gz7QXxsNWI+WHn5dbw0Ywq+ITLGxEnIEZ4Qnn7kLIff1fzovhN1uogYT33eTbUDkkjvpLbAPR70LHZqvyqxNR95+HpeAHqF1dlVqzD10KnRBjreAnXXioAT4v7zjLbu5MCDpwiPRQLhZPAxaLA/3RfAEkQLc/DUoIwPOoDeN8u9nC8Zh0wmFOMlQTGFI+EuVLo1qNjeiJ0bQbJNNQNFyJduXlG95YJY6TDnB6zOs5TfPFl9Y7o+xEoaj06McAxeq5v8+U6qH3jiuKdjFuQ26stnbJwZzavvFmqC+TqG+qUltFYSMcqV5Q2Ii6HAeGvMb92gyKHLwyeBRIMNW5zdwclJ9BUOWR3UqWqM0xBM1voLx9iGJlb7W7GggUwjNwEqnNJDPfE4n/m6jCzLCV2yED+Xwjmw8BZlR3f3S+YgrtgEmtpUdC87+qcWAT9b0OIxvD8cd4eKdwSog926vRQn4CMdkJc9V672YkmiF7DiyQIK+79uEu+Tl2dt6vjew9lH3QZN+3O/d1j/yKDHtVBndSMTThZqTcCja3GUag09Au7m+nhkzOxU6XMd/Lsydo4c5sx2",
+            "X-Amz-Signature": "e8397d5b34b068b61553ffa8f89a8d4d7ffb7200525ea2dc09bc23463e44cc9e",
+            "X-Amz-SignedHeaders": "content-type;host"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.amazontrust.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dataplane.rum.us-east-1.amazonaws.com/appmonitors/e92d452b-d5b3-4f10-be62-057f9e9925a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=64e97d174342e6714f467e987266861297f1d6f47464186e3c498fd2649216b2&X-Amz-Credential=ASIAU2VKZZWF6WJUIGOX%2F20260611%2Fus-east-1%2Frum%2Faws4_request&X-Amz-Date=20260611T074909Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLWVhc3QtMSJIMEYCIQD4fgnOyodGKB3bCrsViZMrAV6ynrgJi%2F08qNJ5fmaDvQIhAPzUdyq51syItfMLro6Ob8ONQAqWPD45D%2BUjAjWFIp9PKrYFCPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMzMyMTQ0NDMwNDc1Igyaoa4dQRlioIu3PGcqigWjHQyvl2Tajb00C6stwB0CB9mPRj84k6wyqs%2FsnJ%2Fh4wJ4HjxPPuxUFhxJ%2BfAapLADjoeoNpHSrljaA9Fqv9LAxt%2B0VXbwaHR%2FT5dE%2B9ljpAzVkkAObSd%2BcL9QFWMZxFCVSWGOzbUbsg%2FcSnlFwtx%2FhYEPoK56IdvrOF5ux6RihAQBHSLKo3wTZ40nAp5c%2BO9eoDo8al6Wm6WTl3vHYRsivN8A61ktOCQxuJ2dlX0BK%2Bl%2FvpSQXWzxvLCREv5d%2BUhMItt3BOKi8Fq%2BvXaIr%2BIQ5MMa4G2h8aQg4Xqwv4LA%2F5v82N4qDKxPDKKp0Wg7aaclmqR2oRq%2F3n2WbKpyXgKiNgLw341EB08iUJpCTkrQIm3pjfFh%2BtQVOVLIic79FV2WDItbE%2Br00JojdZZzW394GSEuAEMC97il0jHJTtr9BUrQy6RiGKz4%2BaSAmk%2FpOC7otzv2jqjz1RP001F0ekVv8zAI5xFr3Q1%2BG0dnbcgvH%2Bb5%2BFCCtX3OYrFINP%2BteN%2F3dNy51qgCGEyXsac2Jpq4j4uG8ndahvVFNfxcFfO3RMy4HjsQNqrnNdjqrGdR%2FDhu1%2Bpsb6yXgUVYIp%2F4t0%2F9UqlsUcM1%2BniEMDXXyp3Ov9D7FYARcy6wozu2jnDTdJNxCO3qtUPuG5HyfG9WmgZ7LYz0dmrvIWbjkY6mQpdlkiDIdOSH88llb8FyR%2ByQ%2FbtzGCvZAaK7yeM77jcYifCsGNdQvqnrl69KuMTcII57yV1LOLC2dpajajY7UTyv9gz7QXxsNWI%2BWHn5dbw0Ywq%2BITLGxEnIEZ4Qnn7kLIff1fzovhN1uogYT33eTbUDkkjvpLbAPR70LHZqvyqxNR95%2BHpeAHqF1dlVqzD10KnRBjreAnXXioAT4v7zjLbu5MCDpwiPRQLhZPAxaLA%2F3RfAEkQLc%2FDUoIwPOoDeN8u9nC8Zh0wmFOMlQTGFI%2BEuVLo1qNjeiJ0bQbJNNQNFyJduXlG95YJY6TDnB6zOs5TfPFl9Y7o%2BxEoaj06McAxeq5v8%2BU6qH3jiuKdjFuQ26stnbJwZzavvFmqC%2BTqG%2BqUltFYSMcqV5Q2Ii6HAeGvMb92gyKHLwyeBRIMNW5zdwclJ9BUOWR3UqWqM0xBM1voLx9iGJlb7W7GggUwjNwEqnNJDPfE4n%2Fm6jCzLCV2yED%2BXwjmw8BZlR3f3S%2BYgrtgEmtpUdC87%2BqcWAT9b0OIxvD8cd4eKdwSog926vRQn4CMdkJc9V672YkmiF7DiyQIK%2B79uEu%2BTl2dt6vjew9lH3QZN%2B3O%2Fd1j%2FyKDHtVBndSMTThZqTcCja3GUag09Au7m%2BnhkzOxU6XMd%2FLsydo4c5sx2&X-Amz-Signature=e8397d5b34b068b61553ffa8f89a8d4d7ffb7200525ea2dc09bc23463e44cc9e&X-Amz-SignedHeaders=content-type%3Bhost"
+      }
+    ]
+  }
+}

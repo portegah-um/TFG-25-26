@@ -1,0 +1,715 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Free Online Appointment Scheduling Software | Calendly",
+  "uri_ins": "https://calendly.com",
+  "uri_dest": "https://calendly.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "calendly.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:37:05.505Z",
+  "end_time": "2026-06-11T07:37:15.858Z",
+  "browsing_history": [
+    "https://calendly.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "calendly.com",
+        "marketing-assets.calendly.com",
+        "ss.calendly.com"
+      ],
+      "third_party": [
+        "images.ctfassets.net",
+        "www.googletagmanager.com",
+        "js.navattic.com",
+        "snippet.maze.co",
+        "events.navattic.com",
+        "prompts.maze.co",
+        "global.ketchcdn.com",
+        "cdn.cookielaw.org",
+        "ws.zoominfo.com",
+        "cdn.ketchjs.com",
+        "pagead2.googlesyndication.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=AW-725106552&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-W3RGHP8": [
+          "click"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/0b.6-xt5rvdmh.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/0z~.p0qfiwjbz.js": [
+          "scroll",
+          "click"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/0swvv3agycww..js": [
+          "mousedown"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/06mybcg_rlo-_.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://marketing-assets.calendly.com/_next/static/chunks/0swvv3agycww..js": [
+          "touchstart"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/06mybcg_rlo-_.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      },
+      "KEYBOARD": {
+        "https://marketing-assets.calendly.com/_next/static/chunks/01m1zhowvvzu4.js": [
+          "keydown"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/0z~.p0qfiwjbz.js": [
+          "keydown"
+        ],
+        "https://marketing-assets.calendly.com/_next/static/chunks/06mybcg_rlo-_.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "country",
+        "value": "ES",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CALENDLY_AUTHENTICATED_USER_STATUS",
+        "value": "false",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": -1,
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "4oidv4f6WgRs9pi9Rti.gTpmFgoki52Q9VMl3ZhS8yM-1781163426.0781636-1.0.1.1-zn8CyPlOWtsjfbr1Ggs5..TntTHdQBFQFInf0Jb79XjgaNmHulFIgFSL5JnBOt32qZc7mu4QjX8KKX7kn0i1nFCrAXOeqA8qnXSDROaMuJrLymPWD_3gRI3bYK7ToaEd",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": "2026-06-11T08:07:06.131Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "shYZD9LiJl7Dihayy8LvmsbOrufp3yx2hP4FOOxrmyY-1781163426.0781636-1.0.1.1-X3cxKI6OyZ6MDpHmAA5SA30KkfELixQePg.KCeW6h_U",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visitorId",
+        "value": "02fa87f84be0b4af6fc70a180f449f43c530b34e00d9d52273a059b3b07b2dac",
+        "domain": "ws.zoominfo.com",
+        "path": "/",
+        "expires": "2027-06-11T07:37:11.279Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "xSQc4ijM2Uw6bdiLs7BWyVXR8.Bkhuq4pxxglXr08Lw-1781163431.1250648-1.0.1.1-_igmF0HY5_IcVmMxaFJ9B3hBGWBTFXg0z_0EB0yUfdw",
+        "domain": "zoominfo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_swb",
+        "value": "3ce39ce8-b46a-41e6-9c2d-7b3ec909538b",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": "2027-07-16T07:37:11.704Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A37%3A12+GMT%2B0200+(Central+European+Summer+Time)&version=202508.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=fbaf8fb8-a507-40b3-8ca6-f71d71bc7ed0&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fcalendly.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": "2027-06-11T07:37:12.000Z",
+        "size": 344,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ketch_consent_v1_",
+        "value": "eyJlc3NlbnRpYWxfc2VydmljZXMiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImVzc2VudGlhbF9zZXJ2aWNlcyJdfX0%3D",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": "2027-07-16T07:37:12.000Z",
+        "size": 136,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_swb_consent_",
+        "value": "eyJjb2xsZWN0ZWRBdCI6MTc4MTE2MzQzMiwiY29udGV4dCI6eyJjb25maWd1cmF0aW9uSWQiOiJZMkZzWlc1a2JIa3ZkMlZpYzJsMFpWOXpiV0Z5ZEY5MFlXY3ZjSEp2WkhWamRHbHZiaTluWkhCeUwyVnVMekUzT0RBd01ETTJOVEE9IiwiaXNzdWVkQXQiOjAsInNvdXJjZSI6ImxlZ2FsQmFzaXNEZWZhdWx0In0sImNvbnRyb2xsZXJDb2RlIjoiIiwiZW52aXJvbm1lbnRDb2RlIjoicHJvZHVjdGlvbiIsImlkZW50aXRpZXMiOnsic3diX3dlYnNpdGVfc21hcnRfdGFnIjoiM2NlMzljZTgtYjQ2YS00MWU2LTljMmQtN2IzZWM5MDk1MzhiIn0sImp1cmlzZGljdGlvbkNvZGUiOiJnZHByIiwicHJvcGVydHlDb2RlIjoid2Vic2l0ZV9zbWFydF90YWciLCJwdXJwb3NlcyI6eyJlc3NlbnRpYWxfc2VydmljZXMiOnsiYWxsb3dlZCI6InRydWUiLCJjb2xsZWN0ZWRBdCI6MCwiaXNzdWVkQXQiOjAsImxlZ2FsQmFzaXNDb2RlIjoibGVnaXRpbWF0ZWludGVyZXN0Iiwic291cmNlIjoiIn19LCJpbnRlcmFjdGl2ZSI6ZmFsc2UsImNhY2hlZEF0IjoxNzgxMTYzNDMzfQ%3D%3D",
+        "domain": "calendly.com",
+        "path": "/",
+        "expires": "2026-06-18T07:37:13.000Z",
+        "size": 741,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/62d762a3bfe14c008f0eec2d"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1757353781,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": false,
+            "ids": "eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIzY2UzOWNlOC1iNDZhLTQxZTYtOWMyZC03YjNlYzkwOTUzOGIifQ==",
+            "jurisdiction": "gdpr",
+            "property": "website_smart_tag",
+            "region": "ES",
+            "tenant": "calendly",
+            "url": "https://calendly.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=false&url=https%3A%2F%2Fcalendly.com%2F&property=website_smart_tag&environment=production&jurisdiction=gdpr&tenant=calendly&dver=1757353781&event_type=once_identities&ids=eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIzY2UzOWNlOC1iNDZhLTQxZTYtOWMyZC03YjNlYzkwOTUzOGIifQ%3D%3D&region=ES"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/62d762a3bfe14c008f0eec2d"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/collect"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://calendly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13m3mPm2m5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v9165795463z8830451427za20gzb830451427zd830451427xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 18,
+            "rnd": 1477137675.1781163,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 5213,
+            "tft": 1781163431162,
+            "tid": "AW-725106552",
+            "tids": "AW-725106552"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&ae=g&dl=https%3A%2F%2Fcalendly.com%2F&scrsrc=www.googletagmanager.com&rnd=1477137675.1781163431&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45be6691v9165795463z8830451427za20gzb830451427zd830451427xea&gcs=G100&gcd=13m3mPm2m5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=0&tids=AW-725106552&tid=AW-725106552&tft=1781163431162&tfd=5213"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://calendly.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13m3mPm2m5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v9165795463z8830451427za20gzb830451427zd830451427xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 18,
+            "rnd": 1477137675.1781163,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 5212,
+            "tft": 1781163431160,
+            "tid": "AW-725106552",
+            "tids": "AW-725106552"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&en=page_view&dl=https%3A%2F%2Fcalendly.com%2F&scrsrc=www.googletagmanager.com&rnd=1477137675.1781163431&navt=n&npa=1&_tu=CA&gtm=45be6691v9165795463z8830451427za20gzb830451427zd830451427xec&gcs=G100&gcd=13m3mPm2m5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=1&tids=AW-725106552&tid=AW-725106552&tft=1781163431160&tfd=5212"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-725106552"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-725106552&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/62d762a3bfe14c008f0eec2d"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-W3RGHP8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://calendly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W3RGHP8"
+      }
+    ]
+  }
+}

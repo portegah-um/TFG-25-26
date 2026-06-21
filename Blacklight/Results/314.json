@@ -1,0 +1,416 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more",
+  "uri_ins": "https://amazon.co.uk",
+  "uri_dest": "https://www.amazon.co.uk/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "amazon.co.uk",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:11:42.216Z",
+  "end_time": "2026-06-11T07:11:47.349Z",
+  "browsing_history": [
+    "https://www.amazon.co.uk/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "amazon.co.uk",
+        "www.amazon.co.uk",
+        "fls-eu.amazon.co.uk",
+        "unagi.amazon.co.uk"
+      ],
+      "third_party": [
+        "m.media-amazon.com",
+        "images-na.ssl-images-amazon.com",
+        "aax-eu.amazon-adsystem.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://m.media-amazon.com/images/I/01V50JopleL._RC%7C01kC46b9vjL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "keydown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://www.amazon.co.uk/": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://m.media-amazon.com/images/I/01V50JopleL._RC%7C01kC46b9vjL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "touchmove",
+          "touchend"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "touchend",
+          "touchcancel",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.amazon.co.uk/": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://m.media-amazon.com/images/I/01V50JopleL._RC%7C01kC46b9vjL.js,81bRqNCkRqL.js_.js?AUIClients/RetailSearchAutocompleteAssets": [
+          "click"
+        ],
+        "https://www.amazon.co.uk/": [
+          "scroll",
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "session-id",
+        "value": "520-4761799-0606555",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:43.689Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:43.690Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "i18n-prefs",
+        "value": "EUR",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:43.690Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lc-acbuk",
+        "value": "en_GB",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:43.690Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sp-cdn",
+        "value": "\"L5Z9:ES\"",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:43.690Z",
+        "size": 15,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "019073FE66CCE36FA38647D52747ADFF~000000000000000000000000000000~YAAQzW1lX5eu1p2eAQAAQ8aFtQCyuuMUda5bM8gpFCWERxOiYUih/9fDj++hyim+TI5omSwv5jJ5wUUWiuw8jacr6uSS0j4cabNCWT2z7HFgZU2QYfoYVYHPBf+AI2HNZvw7lVqKZXBRyMpgI9mgLamJYQqWr2c/P//gxNv0TOlG44RVbXnsZ1kIAryPSaohT5jUgrdiKAL0fL7ov1xWZXzCysI8Me2DFdX8DZob1w7pa12yWbF96NSrKDcQZfViV9ITmQ3WpFKxt3Iq95xDSZdPpL48kDB6Af5F9jhx/kDpbrggqA9PkN3bUySDM+X5wKQaGat9XJ14W/L7OKQxflFx9KTEqjTE/n0eT6HLY+YWx2bUReJpkFFDJ+qW1zHztgf0WcaaMXufCQEbZwunDYTx8Oh1Yv63aH4vZthyULE+fUju6PslrTYkpt1dIr0Y4rjDdXZ0TmKObvFrQydastSmg0jE5+ZBpZ5ykNIrIKlJYIWVqA==",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2026-06-11T09:11:43.690Z",
+        "size": 571,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ubid-acbuk",
+        "value": "521-3409640-8834211",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:44.987Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session-token",
+        "value": "\"zj6wxJ8McpCjf7Zt5AlvkIUFg5X8ok6JVvGe818Z4Ty2U+reVscHWj6lx4/oeiyr/wmtL4t+JtZY/ZFx0bdTbLpC8Lmva+K2bSZq3t5dW/b0ylm6ZXDfp8iMUfxx6AgaD3c6NmGb84/hEM1KA3tqAEQUTRvd/eT3DKwSzen2LD7e+71PeOVBOSkKfh/CYg8QruoOnraQKSZslYs6zO/fIs1f8xiilgijXSbEBc4Y/7I=\"",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2027-06-11T07:11:45.033Z",
+        "size": 251,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2027-07-16T07:11:45.240Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "csm-hit",
+        "value": "YMNCYQQM1WRXNJBRQFNM+s-YMNCYQQM1WRXNJBRQFNM|1781161906398",
+        "domain": "www.amazon.co.uk",
+        "path": "/",
+        "expires": "2026-06-18T07:11:44.000Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rxc",
+        "value": "APr0SKA0X8uP+j4e3As",
+        "domain": "www.amazon.co.uk",
+        "path": "/",
+        "expires": "2026-06-12T07:11:46.990Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sv",
+        "value": "9DEB89FA507426E8161A0BB7EC8BE7EA~YAAQzW1lX/2y1p2eAQAAONOFtQCUtP0alaPPGmB1AqWyXlIjzhXBbFiANfMBkFvH57emxoOvTNBxwR/XYrbVtoYtn9u+2D6lAl0ZlUaQZgPqjFN5IkbBiPTifIhtIBNe45kwp/a8n3LP6df13MmCaQz9XC6Wyze3N2Ia6S83cbGKkZ6NHKo0ysIGsmkDmF8zOH4N5PNC9LwX7k8sTwzpBTa1betkyaj21ff+2mahaBn4QmjC1N6+QADnqZJWQBuf1tk=~1",
+        "domain": "amazon.co.uk",
+        "path": "/",
+        "expires": "2026-06-11T09:11:43.006Z",
+        "size": 300,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781161903705,
+            "d": "amazon.co.uk",
+            "dcc": "t",
+            "gdpr_consent": "",
+            "gdpr_consent_avl": "",
+            "old_oo": 0,
+            "s": "AW9AWHeLRHlKRPc06T8WRRROiSacUhu4JYzXedv5tIWH",
+            "slot": "navFooter",
+            "ts": 1781161903705
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.co.uk&slot=navFooter&old_oo=0&ts=1781161903705&s=AW9AWHeLRHlKRPc06T8WRRROiSacUhu4JYzXedv5tIWH&gdpr_consent=&gdpr_consent_avl=&cb=1781161903705&dcc=t"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781161903705,
+            "d": "amazon.co.uk",
+            "gdpr_consent": "",
+            "gdpr_consent_avl": "",
+            "old_oo": 0,
+            "s": "AW9AWHeLRHlKRPc06T8WRRROiSacUhu4JYzXedv5tIWH",
+            "slot": "navFooter",
+            "ts": 1781161903705
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.co.uk&slot=navFooter&old_oo=0&ts=1781161903705&s=AW9AWHeLRHlKRPc06T8WRRROiSacUhu4JYzXedv5tIWH&gdpr_consent=&gdpr_consent_avl=&cb=1781161903705"
+      },
+      {
+        "data": {
+          "filter": "?adspot_",
+          "listName": "easylist.txt",
+          "query": {
+            "adspot_": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.amazon.co.uk/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adspot_=1"
+      }
+    ]
+  }
+}

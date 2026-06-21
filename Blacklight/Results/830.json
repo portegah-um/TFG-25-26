@@ -1,0 +1,164 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "vivo Smartphones, Earphones, Wearables & Accessories | vivo EU",
+  "uri_ins": "https://vivo.com.cn",
+  "uri_dest": "https://www.vivo.com/eu",
+  "uri_redirects": [
+    "https://vivo.com.cn/"
+  ],
+  "secure_connection": {},
+  "host": "vivo.com.cn",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:47:56.799Z",
+  "end_time": "2026-06-11T09:48:01.734Z",
+  "browsing_history": [
+    "https://www.vivo.com/eu"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "vivo.com.cn",
+        "www.vivo.com",
+        "portalstatic-ex.vivo.com",
+        "eu-exstatic-vivofs.vivo.com",
+        "vcm-static.vivo.com",
+        "de-st-expc.vivo.com"
+      ],
+      "third_party": [
+        "asia-exstatic.vivoglobal.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://asia-exstatic.vivoglobal.com/static/bus/include/vep-new-global/dist/js/index.pack_74814a6.js": [
+          "scroll"
+        ],
+        "https://portalstatic-ex.vivo.com/_nuxt/BGKKM8SC.js": [
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://portalstatic-ex.vivo.com/_nuxt/Dt_g4o1K.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "VCMConsent",
+        "value": "%7B%22activeGroups%22%3A%221%22%2C%22groups%22%3A%221%3A1%22%7D",
+        "domain": "vivo.com",
+        "path": "/eu",
+        "expires": "2027-06-11T09:47:59.000Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "vivo_portal_cookie_id",
+        "value": "9db1f477-6973-45aa-90c8-ab1376c7d7d4",
+        "domain": "vivo.com",
+        "path": "/",
+        "expires": "2027-07-16T09:47:59.126Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "vivo_portal_sessionid",
+        "value": "66e90efb-2f42-4eac-88d3-f1e770f5399c",
+        "domain": "www.vivo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 57,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

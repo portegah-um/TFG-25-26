@@ -1,0 +1,397 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Coming soon: Happy Streaming™",
+  "uri_ins": "https://roku.com",
+  "uri_dest": "https://www.roku.com/intl?next=/&source=www.roku.com",
+  "uri_redirects": [
+    "https://roku.com/",
+    "https://www.roku.com/"
+  ],
+  "secure_connection": {},
+  "host": "roku.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:37:45.572Z",
+  "end_time": "2026-06-11T06:37:50.115Z",
+  "browsing_history": [
+    "https://www.roku.com/intl?next=/&source=www.roku.com"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "roku.com",
+        "www.roku.com",
+        "image.roku.com"
+      ],
+      "third_party": [
+        "static.cloudflareinsights.com",
+        "www.googletagmanager.com",
+        "www.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.roku.com/intl/s/1741383521562/runtime/page.js": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.roku.com/intl/s/1741383521562/runtime/page.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TKFC7L4": [
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "X0B2tjzlQtKgnx6l9JFqBbuNfKBAf0XmaQk2lV7X.iE-1781159866.1604323-1.0.1.1-rLuFCS3l6q_o5VOdHGLdMTOeBzlKQShUzG4Qw6gAN0xGxkBjE8F9GpVjnDz37VSNWUmOJCTo_N0.pmnqDHsms7VjmtO7dPGMn8bx6qlVq6f3aDZP1O1AtNONHhREw5Zl",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": "2026-06-11T07:07:46.171Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_csrf",
+        "value": "Q9sN4B56TPegsZLYHaoHMO7A",
+        "domain": "www.roku.com",
+        "path": "/",
+        "expires": -1,
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ks_v_www-ks",
+        "value": "v1780472140338s",
+        "domain": "www.roku.com",
+        "path": "/",
+        "expires": "2026-06-11T07:07:47.183Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ks.locale",
+        "value": "j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": -1,
+        "size": 71,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_uc",
+        "value": "c4271a01-7f32-4502-982a-9760c4905146:2c23762e377afd4fdbb1567ae99ffda3",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:46.183Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cflb",
+        "value": "02DiuJLUNGcuw38hNWqYqFC7xF18iw4YU14rYgzpPMQAY",
+        "domain": "www.roku.com",
+        "path": "/",
+        "expires": "2026-06-12T05:37:47.184Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1032439378.1781159868",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": "2027-07-16T06:37:47.966Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.2121563030.1781159868",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": "2026-06-12T06:37:47.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_%5Bobject%20Object%5D",
+        "value": "1",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": "2026-06-11T06:38:47.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_usn",
+        "value": "b15e7d5d-850c-4073-8974-2eba28cd7a58",
+        "domain": "roku.com",
+        "path": "/",
+        "expires": "2026-06-11T07:07:48.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "x-amz-continuous-deployment-state",
+        "value": "AYABeHBsxYChNXN2RXN%2F+Wt76SQAPQACAAFEABxkMW9odng2bmxuNmh0LmNsb3VkZnJvbnQubmV0AAFHABVHMDEwNjk1NjJFNFozWE5GUVZLVFcAAQACQ0QAGkNvb2tpZQAAAIAAAAAMB0TmEEIfTInkQY+kADAymxt1J6T2WBpCp+nC48RTqMuX8T+x9wwdRszBUq3sln9strs93+eyUW00IA3utpICAAAAAAwABAAAAAAAAAAAAAAAAAAAHHkRiBNyRtHBlDjNLIR5xf%2F%2F%2F%2F8AAAABAAAAAAAAAAAAAAABAAAADKWD2lME5+OZnltC+XIRbwUcIKAulwYDAcS39C4=",
+        "domain": "image.roku.com",
+        "path": "/",
+        "expires": "2027-05-17T13:11:00.515Z",
+        "size": 387,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 2121563030.178116,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YEBAAAABAAAAAC~",
+            "_v": "j102",
+            "a": 1754792534,
+            "cid": 1032439378.178116,
+            "dl": "https://www.roku.com/intl?next=/&source=www.roku.com",
+            "dma": 1,
+            "dma_cps": "a",
+            "dp": "/intl",
+            "dt": "Roku",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 938664563,
+            "gtm": "45He6691n81TKFC7L4v77543861za200zd77543861",
+            "jid": 1723500272,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115938466~115938469",
+            "tid": "[object Object]",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1621017948
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.roku.com/intl?next=/&source=www.roku.com",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1754792534&t=pageview&_s=1&dl=https%3A%2F%2Fwww.roku.com%2Fintl%3Fnext%3D%2F%26source%3Dwww.roku.com&dp=%2Fintl&ul=en-us&dt=Roku&sr=375x812&vp=375x812&_u=YEBAAAABAAAAAC~&jid=1723500272&gjid=938664563&cid=1032439378.1781159868&tid=%5Bobject%20Object%5D&_gid=2121563030.1781159868&_r=1&_slc=1&gtm=45He6691n81TKFC7L4v77543861za200zd77543861&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938466~115938469&npa=1&z=1621017948"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.roku.com/intl?next=/&source=www.roku.com",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TKFC7L4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.roku.com/intl?next=/&source=www.roku.com",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TKFC7L4"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.roku.com/intl?next=/&source=www.roku.com",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

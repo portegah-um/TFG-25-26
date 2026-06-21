@@ -1,0 +1,632 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Forbes",
+  "uri_ins": "https://forbes.com",
+  "uri_dest": "https://www.forbes.com/",
+  "uri_redirects": [
+    "https://forbes.com/"
+  ],
+  "secure_connection": {},
+  "host": "forbes.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:34:29.372Z",
+  "end_time": "2026-06-11T06:34:40.023Z",
+  "browsing_history": [
+    "https://www.forbes.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "forbes.com",
+        "www.forbes.com",
+        "imageio.forbes.com",
+        "images.forbes.com",
+        "bacon.forbes.com",
+        "geolocation.forbes.com"
+      ],
+      "third_party": [
+        "i.forbesimg.com",
+        "cdn.ketchjs.com",
+        "specials-images.forbesimg.com",
+        "secure.gravatar.com",
+        "global.ketchcdn.com",
+        "dev.visualwebsiteoptimizer.com",
+        "storage.googleapis.com",
+        "i.ytimg.com",
+        "cdn.jwplayer.com",
+        "ssl.p.jwpcdn.com",
+        "placement-prd.jwpltx.com",
+        "pl.connatix.com",
+        "entitlements.jwplayer.com",
+        "prd.jwpltx.com",
+        "assets-jpcust.jwpsrv.com",
+        "videos-cloudfront-usp.jwpsrv.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/7254-00ba48eeeaf11861.js": [
+          "click"
+        ],
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/pages/homepage-7808a76beba3e592.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://cdn.jwplayer.com/v2/sites/mIaVFY36/player.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://i.forbesimg.com/simple-site/dist/js/nextJS-72138766716c003a9156.js": [
+          "scroll"
+        ],
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/4196-09ec858165cf2ba6.js": [
+          "click",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/5268-6def9c160b80ba22.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/pages/homepage-7808a76beba3e592.js": [
+          "keydown"
+        ],
+        "https://cdn.jwplayer.com/v2/sites/mIaVFY36/player.js": [
+          "keydown"
+        ],
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/4196-09ec858165cf2ba6.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/7254-00ba48eeeaf11861.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://i.forbesimg.com/simple-site/_next/static/chunks/4196-09ec858165cf2ba6.js": [
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "datadome",
+        "value": "hxgBdA1~4cxd_7BpKiTfl0VcMWhUIaV8xKhk66Nif47DstdCPu4SaBWn0lt1fmZuGH~QDdgWqvgh~iynwPJNkq7n0hjcjTpNjZWBchWZ3e3Ki12hnb7LTRvWO_ALs2nT",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:34:31.582Z",
+        "size": 136,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_swb",
+        "value": "15007e92-4889-4bd3-a73a-250c1b101abb",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2027-07-16T06:34:32.640Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ketch_consent_v1_",
+        "value": "eyJyZXF1aXJlZCI6eyJzdGF0dXMiOiJncmFudGVkIiwiY2Fub25pY2FsUHVycG9zZXMiOlsiZXNzZW50aWFsX3NlcnZpY2VzIl19fQ%3D%3D",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2027-07-16T06:34:34.000Z",
+        "size": 126,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_swb_consent_",
+        "value": "eyJjb2xsZWN0ZWRBdCI6MTc4MTE1OTY3MywiY29udGV4dCI6eyJjb25maWd1cmF0aW9uSWQiOiJabTl5WW1WekwzZGxZbk5wZEdWZmMyMWhjblJmZEdGbkwzQnliMlIxWTNScGIyNHZaMlJ3Y2k5bGJpOHhOemd3TURjMk1UQXciLCJpc3N1ZWRBdCI6MCwic291cmNlIjoibGVnYWxCYXNpc0RlZmF1bHQifSwiY29udHJvbGxlckNvZGUiOiIiLCJlbnZpcm9ubWVudENvZGUiOiJwcm9kdWN0aW9uIiwiaWRlbnRpdGllcyI6eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIxNTAwN2U5Mi00ODg5LTRiZDMtYTczYS0yNTBjMWIxMDFhYmIifSwianVyaXNkaWN0aW9uQ29kZSI6ImdkcHIiLCJwcm9wZXJ0eUNvZGUiOiJ3ZWJzaXRlX3NtYXJ0X3RhZyIsInB1cnBvc2VzIjp7InJlcXVpcmVkIjp7ImFsbG93ZWQiOiJ0cnVlIiwiY29sbGVjdGVkQXQiOjAsImlzc3VlZEF0IjowLCJsZWdhbEJhc2lzQ29kZSI6ImxlZ2l0aW1hdGVpbnRlcmVzdCIsInNvdXJjZSI6IiJ9fSwiaW50ZXJhY3RpdmUiOmZhbHNlLCJjYWNoZWRBdCI6MTc4MTE1OTY3NH0%3D",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2026-06-18T06:34:34.000Z",
+        "size": 719,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "notice_gdpr_prefs",
+        "value": "0,1,2",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:34:34.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2026-07-11T06:34:34.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "us_privacy",
+        "value": "1---",
+        "domain": "forbes.com",
+        "path": "/",
+        "expires": "2026-07-11T06:34:34.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "e": "pv",
+            "eid": "y3asumn9",
+            "h": -47366860,
+            "idp": "AYJlY1In",
+            "lid": "zv171g152j73",
+            "n": 6189931031606584,
+            "pei": "bmh26i1v",
+            "pgi": "1grvv0h1fq01",
+            "plv": "0.51.6",
+            "pt": "Forbes",
+            "pu": "https://www.forbes.com/",
+            "sa": 1781159679422,
+            "so": "w7RixW5H",
+            "tv": "4.0.13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://placement-prd.jwpltx.com/v1/placement/ping.gif?h=-47366860&e=pv&n=6189931031606584&aid=WcUZLBfcEfGC%2BoJFl5eBrg&lid=zv171g152j73&pgi=1grvv0h1fq01&plv=0.51.6&pt=Forbes&pu=https%3A%2F%2Fwww.forbes.com%2F&tv=4.0.13&eid=y3asumn9&idp=AYJlY1In&pei=bmh26i1v&so=w7RixW5H&sa=1781159679422"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ab": 0,
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "amp": 0,
+            "at": 1,
+            "c": -1,
+            "cae": 0,
+            "cb": 0,
+            "ccp": 0,
+            "cdid": "player-2",
+            "cme": 0,
+            "cp": 1,
+            "d": 0,
+            "dd": 1,
+            "e": "e",
+            "eb": 1,
+            "ed": 6,
+            "eid": "y3asumn9",
+            "emi": "1wli467179c8",
+            "et": "audio",
+            "flc": 0,
+            "fv": "",
+            "ga": 0,
+            "h": 1956873218,
+            "i": 0,
+            "id": "EZ4816YL",
+            "idp": "AYJlY1In",
+            "lid": "zv171g152j73",
+            "lng": "en",
+            "lsa": "read",
+            "mk": "hls",
+            "mt": 0,
+            "mu": "https://cdn.jwplayer.com/manifests/EZ4816YL.m3u8",
+            "n": 8283391099372486,
+            "pbc": 0,
+            "pbd": 1,
+            "pbr": 1,
+            "pd": 2,
+            "pdr": "",
+            "pei": "bmh26i1v",
+            "pgi": "sm14ma1qs3gc",
+            "ph": 1,
+            "pid": "DEFAULT0",
+            "pii": 0,
+            "pl": 0,
+            "plc": 1,
+            "pli": "e0yncwkqlk9j",
+            "plng": "en",
+            "plt": 2550,
+            "pni": 0,
+            "po": 0,
+            "pogt": "Forbes",
+            "pp": "hlsjs",
+            "ppm": "VOD",
+            "prc": 1,
+            "ps": 0,
+            "pss": 1,
+            "pt": "Forbes",
+            "pu": "https://www.forbes.com/",
+            "pv": "8.49.1",
+            "pyc": 0,
+            "s": 0,
+            "sa": 1781159674351,
+            "sdk": 0,
+            "so": "w7RixW5H",
+            "sp": 0,
+            "st": 190,
+            "stc": 1,
+            "stpe": 0,
+            "t": "BRIEF-2026-06-10-AFTERNOON",
+            "tv": "4.0.15",
+            "vb": 0,
+            "vi": 0,
+            "vl": 90,
+            "wd": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1956873218&e=e&n=8283391099372486&aid=WcUZLBfcEfGC%2BoJFl5eBrg&amp=0&at=1&c=-1&ccp=0&cp=1&d=0&eb=1&ed=6&eid=y3asumn9&emi=1wli467179c8&et=audio&i=0&id=EZ4816YL&idp=AYJlY1In&lid=zv171g152j73&lsa=read&mt=0&pbd=1&pbr=1&pei=bmh26i1v&pgi=sm14ma1qs3gc&ph=1&pid=DEFAULT0&pii=0&pl=0&plc=1&pli=e0yncwkqlk9j&pp=hlsjs&ppm=VOD&prc=1&ps=0&pss=1&pt=Forbes&pu=https%3A%2F%2Fwww.forbes.com%2F&pv=8.49.1&pyc=0&s=0&sdk=0&so=w7RixW5H&stc=1&stpe=0&t=BRIEF-2026-06-10-AFTERNOON&tv=4.0.15&vb=0&vi=0&vl=90&wd=0&ab=0&cae=0&cb=0&cdid=player-2&cme=0&dd=1&flc=0&fv=&ga=0&lng=en&mk=hls&mu=https%3A%2F%2Fcdn.jwplayer.com%2Fmanifests%2FEZ4816YL.m3u8&pbc=0&pd=2&pdr=&plng=en&plt=2550&pni=0&po=0&pogt=Forbes&sp=0&st=190&sa=1781159674351"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "e": "xapi",
+            "ed": 6,
+            "emi": "1wli467179c8",
+            "h": -1268471726,
+            "id": "EZ4816YL",
+            "n": 5673519075903801,
+            "ph": 1,
+            "pid": "DEFAULT0",
+            "pli": "e0yncwkqlk9j",
+            "prs": "idle",
+            "pv": "8.49.1",
+            "sa": 1781159674347,
+            "sdk": 0,
+            "tv": "4.0.15",
+            "xam": "getPosition"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-1268471726&e=xapi&n=5673519075903801&aid=WcUZLBfcEfGC%2BoJFl5eBrg&emi=1wli467179c8&id=EZ4816YL&pli=e0yncwkqlk9j&pv=8.49.1&tv=4.0.15&ed=6&prs=idle&pid=DEFAULT0&ph=1&sdk=0&xam=getPosition&sa=1781159674347"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "e": "pe",
+            "h": -1264094116,
+            "i": 0,
+            "idp": "AYJlY1In",
+            "lid": "zv171g152j73",
+            "n": 9620109083837276,
+            "pei": "bmh26i1v",
+            "pgi": "1grvv0h1fq01",
+            "plv": "0.51.6",
+            "pt": "Forbes",
+            "pu": "https://www.forbes.com/",
+            "sa": 1781159674179,
+            "tv": "4.0.13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://placement-prd.jwpltx.com/v1/placement/ping.gif?h=-1264094116&e=pe&n=9620109083837276&aid=WcUZLBfcEfGC%2BoJFl5eBrg&lid=zv171g152j73&pgi=1grvv0h1fq01&plv=0.51.6&pt=Forbes&pu=https%3A%2F%2Fwww.forbes.com%2F&tv=4.0.13&i=0&idp=AYJlY1In&pei=bmh26i1v&sa=1781159674179"
+      },
+      {
+        "data": {
+          "filter": "||pl.connatix.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pl.connatix.com/"
+      },
+      {
+        "data": {
+          "filter": "||pl.connatix.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pl.connatix.com/"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "e": "pes",
+            "eid": "y3asumn9",
+            "h": -1964104884,
+            "idp": "AYJlY1In",
+            "lid": "zv171g152j73",
+            "n": 4191624086910599,
+            "pei": "bmh26i1v",
+            "pgi": "1grvv0h1fq01",
+            "plv": "0.51.6",
+            "pt": "Forbes",
+            "pu": "https://www.forbes.com/",
+            "sa": 1781159673718,
+            "so": "w7RixW5H",
+            "tv": "4.0.13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://placement-prd.jwpltx.com/v1/placement/ping.gif?h=-1964104884&e=pes&n=4191624086910599&aid=WcUZLBfcEfGC%2BoJFl5eBrg&lid=zv171g152j73&pgi=1grvv0h1fq01&plv=0.51.6&pt=Forbes&pu=https%3A%2F%2Fwww.forbes.com%2F&tv=4.0.13&eid=y3asumn9&idp=AYJlY1In&pei=bmh26i1v&so=w7RixW5H&sa=1781159673718"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "e": "pea",
+            "h": -1833669334,
+            "i": 0,
+            "idp": "AYJlY1In",
+            "lid": "zv171g152j73",
+            "n": 8053771615339103,
+            "pei": "bmh26i1v",
+            "pgi": "1grvv0h1fq01",
+            "plv": "0.51.6",
+            "pt": "Forbes",
+            "pu": "https://www.forbes.com/",
+            "sa": 1781159673716,
+            "tv": "4.0.13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://placement-prd.jwpltx.com/v1/placement/ping.gif?h=-1833669334&e=pea&n=8053771615339103&aid=WcUZLBfcEfGC%2BoJFl5eBrg&lid=zv171g152j73&pgi=1grvv0h1fq01&plv=0.51.6&pt=Forbes&pu=https%3A%2F%2Fwww.forbes.com%2F&tv=4.0.13&i=0&idp=AYJlY1In&pei=bmh26i1v&sa=1781159673716"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "WcUZLBfcEfGC+oJFl5eBrg",
+            "e": "pll",
+            "h": -1204749767,
+            "lid": "zv171g152j73",
+            "n": 5308547766675320,
+            "pgi": "1grvv0h1fq01",
+            "plv": "0.51.6",
+            "pt": "Forbes",
+            "pu": "https://www.forbes.com/",
+            "sa": 1781159673655,
+            "tv": "4.0.13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://placement-prd.jwpltx.com/v1/placement/ping.gif?h=-1204749767&e=pll&n=5308547766675320&aid=WcUZLBfcEfGC%2BoJFl5eBrg&lid=zv171g152j73&pgi=1grvv0h1fq01&plv=0.51.6&pt=Forbes&pu=https%3A%2F%2Fwww.forbes.com%2F&tv=4.0.13&sa=1781159673655"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1778787766,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": false,
+            "ids": "eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIxNTAwN2U5Mi00ODg5LTRiZDMtYTczYS0yNTBjMWIxMDFhYmIifQ==",
+            "jurisdiction": "gdpr",
+            "property": "website_smart_tag",
+            "region": "ES",
+            "tenant": "forbes",
+            "url": "https://www.forbes.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=false&url=https%3A%2F%2Fwww.forbes.com%2F&property=website_smart_tag&environment=production&jurisdiction=gdpr&tenant=forbes&dver=1778787766&event_type=once_identities&ids=eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIxNTAwN2U5Mi00ODg5LTRiZDMtYTczYS0yNTBjMWIxMDFhYmIifQ%3D%3D&region=ES"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 707023,
+            "u": "https://www.forbes.com/",
+            "vn": 2.1,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.forbes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=707023&u=https%3A%2F%2Fwww.forbes.com%2F&vn=2.1&x=true"
+      }
+    ]
+  }
+}

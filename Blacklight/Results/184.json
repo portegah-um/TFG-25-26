@@ -1,0 +1,944 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Boost your Digital Performance with Taboola Advertising Platform",
+  "uri_ins": "https://taboola.com",
+  "uri_dest": "https://www.taboola.com/",
+  "uri_redirects": [
+    "https://taboola.com/"
+  ],
+  "secure_connection": {},
+  "host": "taboola.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:31:41.815Z",
+  "end_time": "2026-06-11T06:31:48.564Z",
+  "browsing_history": [
+    "https://www.taboola.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "taboola.com",
+        "www.taboola.com",
+        "swissknife.taboola.com"
+      ],
+      "third_party": [
+        "dev.visualwebsiteoptimizer.com",
+        "www.googletagmanager.com",
+        "static.claydar.com",
+        "cdn.consentmanager.net",
+        "js.nagich.co.il",
+        "cdn.claydar.com",
+        "delivery.consentmanager.net",
+        "api.claydar.com",
+        "c.delivery.consentmanager.net",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-ERHENNM7DM&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://cdn.claydar.com/releases/latest/radar.min.js": [
+          "keypress"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/bootstrap-ChCUMv8x.min.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq_safari-4aa4ca406997cf3340e55ec59a49c3b8.br.js": [
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-ERHENNM7DM&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/simpleAos-CbKoEICL.min.js": [
+          "scroll"
+        ],
+        "https://cdn.claydar.com/releases/latest/radar.min.js": [
+          "click",
+          "scroll",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-952043317&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/js/main.min.js?ver=1780498537": [
+          "scroll"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/js/front-page.min.js?ver=1780498537": [
+          "scroll"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/parallax-D47lMc2m.min.js": [
+          "scroll"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/bootstrap-ChCUMv8x.min.js": [
+          "click"
+        ],
+        "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq_safari-4aa4ca406997cf3340e55ec59a49c3b8.br.js": [
+          "scroll",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PC4JX7": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.claydar.com/releases/latest/radar.min.js": [
+          "touchstart"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/swiper-D2tVYthb.min.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/simpleAos-CbKoEICL.min.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://cdn.claydar.com/releases/latest/radar.min.js": [
+          "data:image/png;base64,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"
+        ],
+        "https://swissknife.taboola.com/TaboolaForm/tbf-dist.js?version=1.5": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [
+        "https://cdn.claydar.com/releases/latest/radar.min.js"
+      ],
+      "styles": {
+        "https://cdn.claydar.com/releases/latest/radar.min.js": [
+          "#ff0",
+          "#0f0",
+          "#f0f"
+        ],
+        "https://www.taboola.com/wp-content/themes/taboola-neo/dist/assets/lottieWeb-DRFmc3CC.min.js": [
+          "rgba(0,0,0,0)"
+        ],
+        "https://swissknife.taboola.com/TaboolaForm/tbf-dist.js?version=1.5": [
+          "#f9c",
+          "#ff2",
+          "#2ff",
+          "#f2f",
+          "rgba(102, 204, 0, 0.2)",
+          "#069",
+          "#f60"
+        ]
+      },
+      "texts": {
+        "https://cdn.claydar.com/releases/latest/radar.min.js": [
+          "Cañvas FP 😎 12345"
+        ],
+        "https://swissknife.taboola.com/TaboolaForm/tbf-dist.js?version=1.5": [
+          "Cwm fjordbank gly 😃"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_vwo_uuid_v2",
+        "value": "D3407A3E361A6BCF5D9677DF1FD7077EE|66a21020a708fcb689dbe2ed09e7685b",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2027-06-12T06:31:42.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_uuid",
+        "value": "D3407A3E361A6BCF5D9677DF1FD7077EE",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2027-06-11T12:20:55.000Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_sn",
+        "value": "0%3A1",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-06-11T07:01:47.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo_ds",
+        "value": "3%241781159501%3A93.13124143%3A%3A%3A%3A%3A1781159501%3A1781159501%3A1",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:43.000Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vis_opt_s",
+        "value": "1%7C",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-09-19T06:31:43.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vis_opt_test_cookie",
+        "value": "1",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": -1,
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "siteCountry",
+        "value": "SPAIN",
+        "domain": "www.taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:44.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "siteCountry",
+        "value": "SPAIN",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:44.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "siteCountryCode",
+        "value": "ES",
+        "domain": "www.taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:44.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "siteCountryCode",
+        "value": "ES",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:44.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "siteState",
+        "value": "MU",
+        "domain": "www.taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:44.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "siteState",
+        "value": "MU",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:44.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_vwo",
+        "value": "ts~pWRoiuV(MR0)w~D3407A3E361A6BCF5D9677DF1FD7077EE%7C66a21020a708fcb689dbe2ed09e7685b(2sg)u~D3407A3E361A6BCF5D9677DF1FD7077EE(8WI)m~3%241781159501%3A93.13124143%3A%3A%3A%3A%3A1781159501%3A1781159501%3A1(KU)n~0%3A1(2)l~1%7C(2sg)k~*(MR0",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2027-06-11T06:31:48.000Z",
+        "size": 238,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cmpcccx108458",
+        "value": "aCQlp18yAAqWASTAwYBpSmjGJC0QBgAA",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-06-25T06:31:45.000Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tbp-consent",
+        "value": "FunctionalCookies",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2027-06-11T06:31:46.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "initialTrafficSource",
+        "value": "utmcsr=(direct)|utmcmd=(none)|utmccn=(not-set)",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:46.000Z",
+        "size": 66,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lastTrafficSource",
+        "value": "utmcsr=(direct)|utmcmd=(none)|utmccn=(not-set)",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-07-11T06:31:46.000Z",
+        "size": 63,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__utmzzses",
+        "value": "1",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2026-06-11T07:01:46.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "GA_Last_Browser__c",
+        "value": "Safari_15.4",
+        "domain": "www.taboola.com",
+        "path": "/",
+        "expires": "2027-07-16T06:31:46.262Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "GA_Last_Operating_System__c",
+        "value": "iOS_15.0.0",
+        "domain": "www.taboola.com",
+        "path": "/",
+        "expires": "2027-07-16T06:31:46.263Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "GA_Last_Device_Category__c",
+        "value": "Mobile",
+        "domain": "www.taboola.com",
+        "path": "/",
+        "expires": "2027-07-16T06:31:46.264Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "GA_Count_Countries__c",
+        "value": "1",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2027-07-16T06:31:46.272Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "previewsSiteCountryCode",
+        "value": "ES",
+        "domain": "taboola.com",
+        "path": "/",
+        "expires": "2027-07-16T06:31:46.274Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dMzk4MW",
+            "dl": "https://www.taboola.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gap.plf": 5,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzk4MW",
+            "gtm": "45be6691v9237512566z871065447za20gzb71065447zd71065447xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 3,
+            "rnd": 1512601857.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115616985~115938466~115938468~117776794~119456240~119456248",
+            "tfd": 4103,
+            "tft": 1781159506426,
+            "tid": "AW-996399592",
+            "tids": "AW-996399592"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fwww.taboola.com%2F&scrsrc=www.googletagmanager.com&rnd=1512601857.1781159506&navt=n&npa=1&did=dMzk4MW&gdid=dMzk4MW&_tu=CA&gtm=45be6691v9237512566z871065447za20gzb71065447zd71065447xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115616985~115938466~115938468~117776794~119456240~119456248&apve=1&apvf=f&gap.plf=5&apvc=0&tids=AW-996399592&tid=AW-996399592&tft=1781159506426&tfd=4103"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dMzk4MW",
+            "dl": "https://www.taboola.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzk4MW",
+            "gtm": "45be6691v877679394z871065447za20gzb71065447zd71065447xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 4,
+            "rnd": 1512601857.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468~119349417",
+            "tfd": 4101,
+            "tft": 1781159506424,
+            "tid": "AW-952043317",
+            "tids": "AW-952043317"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=4&frm=0&en=page_view&dl=https%3A%2F%2Fwww.taboola.com%2F&scrsrc=www.googletagmanager.com&rnd=1512601857.1781159506&navt=n&npa=1&did=dMzk4MW&gdid=dMzk4MW&_tu=CA&gtm=45be6691v877679394z871065447za20gzb71065447zd71065447xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468~119349417&apve=1&apvf=f&apvc=0&tids=AW-952043317&tid=AW-952043317&tft=1781159506424&tfd=4101"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.taboola.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzk4MW",
+            "gtm": "45fe6691v9228902523z871065447za20gzb71065447zd71065447xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 5,
+            "rnd": 1512601857.1781158,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 4099,
+            "tft": 1781159506422,
+            "tid": "DC-15690390",
+            "tids": "DC-15690390"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&en=page_view&dl=https%3A%2F%2Fwww.taboola.com%2F&scrsrc=www.googletagmanager.com&rnd=1512601857.1781159506&navt=n&npa=1&gdid=dMzk4MW&_tu=CA&gtm=45fe6691v9228902523z871065447za20gzb71065447zd71065447xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=1&tids=DC-15690390&tid=DC-15690390&tft=1781159506422&tfd=4099"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 750209,
+            "cc": "ES",
+            "dt": "mobile",
+            "settings_type": 4,
+            "ts": 1781159091
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/dcdn/settings.js?a=750209&settings_type=4&ts=1781159091&dt=mobile&cc=ES"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/nc_safari-b1f77bf928ce18d938b46a60f2592f5d.br.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-5P5XH73"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5P5XH73&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-W4S5D8J"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W4S5D8J&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-996399592"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-996399592&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-15690390"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-15690390&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-952043317"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-952043317&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-ERHENNM7DM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-ERHENNM7DM&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 750209,
+            "cd": 0,
+            "d": "taboola.com",
+            "h": "66a21020a708fcb689dbe2ed09e7685b",
+            "t": false,
+            "u": "D3407A3E361A6BCF5D9677DF1FD7077EE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/collect/v.gif?cd=0&a=750209&d=taboola.com&u=D3407A3E361A6BCF5D9677DF1FD7077EE&h=66a21020a708fcb689dbe2ed09e7685b&t=false"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq_safari-4aa4ca406997cf3340e55ec59a49c3b8.br.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PC4JX7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PC4JX7"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 750209,
+            "u": "https://www.taboola.com/",
+            "vn": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.taboola.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=750209&u=https%3A%2F%2Fwww.taboola.com%2F&vn=2"
+      }
+    ]
+  }
+}

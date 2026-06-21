@@ -1,0 +1,824 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Seznam – najdu tam, co neznám",
+  "uri_ins": "https://seznam.cz",
+  "uri_dest": "https://www.seznam.cz/",
+  "uri_redirects": [
+    "https://seznam.cz/",
+    "https://www.seznam.cz/",
+    "https://login.szn.cz/api/v1/autologin?service=homepage&return_url=https%3A%2F%2Fwww.seznam.cz%2F%3Fnoredirect%3D1",
+    "https://www.seznam.cz/?noredirect=1",
+    "https://www.seznam.cz/",
+    "https://bcr.iva.seznam.cz/?cwtkn=di9vZS83L25EUkY6YWBSR0FmLyEveX4vNzw6NTw8OzQ0PDgjODk0IS9_ZGkvNy9pPjQ7bmtpayBrNDg1IDlrPzogbGw4aSBpOzg5Pj45OTg5PTwvIS94f2EvNy9leXl9fjciInp6eiN-aHdjbGAjbnciL3A",
+    "https://www.seznam.cz/?cwtkn=di9_ZGkvNy9pPjQ7bmtpayBrNDg1IDlrPzogbGw4aSBpOzg5Pj45OTg5PTwvIS95fi83PDo1PDw7NDQ8OCM4OTQhL29lLzcvbkRSRjphYFJHQWYvcA"
+  ],
+  "secure_connection": {},
+  "host": "seznam.cz",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:25:14.422Z",
+  "end_time": "2026-06-11T09:25:26.245Z",
+  "browsing_history": [
+    "https://www.seznam.cz/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "seznam.cz",
+        "www.seznam.cz",
+        "bcr.iva.seznam.cz",
+        "fimg-resp.seznam.cz",
+        "h.seznam.cz",
+        "geo.seznam.cz",
+        "pocitadlolibise.seznam.cz",
+        "login.seznam.cz",
+        "ssp.seznam.cz",
+        "cmp.seznam.cz",
+        "suggest.seznam.cz"
+      ],
+      "third_party": [
+        "login.szn.cz",
+        "d32-a.sdn.cz",
+        "d55-a.sdn.cz",
+        "d15-a.sdn.cz",
+        "d39-a.sdn.cz",
+        "d17-a.sdn.cz",
+        "d16-a.sdn.cz",
+        "d252-a.sdn.cz",
+        "d50-a.sdn.cz",
+        "d62-a.sdn.cz",
+        "d8-a.sdn.cz",
+        "d48-a.sdn.cz",
+        "d21-a.sdn.cz",
+        "d53-a.sdn.cz",
+        "d867-a.sdn.cz",
+        "gacz.hit.gemius.pl",
+        "www.googletagmanager.com",
+        "spir.hit.gemius.pl",
+        "region1.google-analytics.com",
+        "api.sznplayer.cz",
+        "fapi.seznamdiskuze.cz",
+        "i.imedia.cz"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://d32-a.sdn.cz/d_32/c_static_qC_A/kQMlcCt5zmBDp4mF33G3mMQi/b2d6/js/client-bundle.es2017.min.js": [
+          "scroll",
+          "mousedown",
+          "click"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.layout.default.es2022.bundle.min.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.splash.es2022.bundle.min.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.layout.podcast.es2022.bundle.min.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://h.seznam.cz/js/dot-small.js": [
+          "scroll",
+          "click",
+          "mousedown"
+        ],
+        "https://d21-a.sdn.cz/d_21/c_static_qB_A/kQMlcCt5zmBDkXaXpGuUI1S/6345/szn.discussion.embed.es.js": [
+          "mouseup"
+        ],
+        "https://ssp.seznam.cz/static/js/ssp.js?nocache=1": [
+          "scroll"
+        ],
+        "https://h.seznam.cz/js/spenttime.js": [
+          "scroll",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://gacz.hit.gemius.pl/xgemius.js": [
+          "mousedown"
+        ],
+        "https://login.szn.cz/js/api/3/login.js": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://d32-a.sdn.cz/d_32/c_static_qC_A/kQMlcCt5zmBDp4mF33G3mMQi/b2d6/js/client-bundle.es2017.min.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.layout.default.es2022.bundle.min.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.common.es2022.bundle.min.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.splash.es2022.bundle.min.js": [
+          "keydown"
+        ],
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.layout.podcast.es2022.bundle.min.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://h.seznam.cz/js/spenttime.js": [
+          "keyup"
+        ],
+        "https://login.szn.cz/js/api/3/login.js": [
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://d53-a.sdn.cz/d_53/c_static_qC_A/nO2CysqjGrC2szhIWKGzinDZ/ab80/sznplayer.splash.es2022.bundle.min.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://h.seznam.cz/js/spenttime.js": [
+          "touchmove",
+          "touchend"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "last-redirect",
+        "value": "1",
+        "domain": "www.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-11T09:40:15.241Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCPv9qdEGENOfwu74n56CNA._ZZF83XYdVbPvTDAWvSz32MFx6erAhS0pscw3xBwolI",
+        "domain": "www.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:15.241Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "user-flags",
+        "value": "",
+        "domain": "szn.cz",
+        "path": "/",
+        "expires": "2027-07-16T09:25:15.450Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lps",
+        "value": "eyJfZnJlc2giOmZhbHNlLCJfcGVybWFuZW50Ijp0cnVlfQ.aip--w.XM-Wzpbl7PB6swhEwgbmhOYNo5k",
+        "domain": "szn.cz",
+        "path": "/",
+        "expires": "2026-07-12T09:25:15.450Z",
+        "size": 84,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cw_util",
+        "value": "eyJyaSI6ImQzOTZjZmRmZjk1ODhmMjc2YTVkZDY1NDMzNDQ1NDAxIn0",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": "2026-07-11T09:25:15.983Z",
+        "size": 62,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cw_snc",
+        "value": "1",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": "2026-06-11T10:25:15.580Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCPv9qdEGENOfwu6YmJXYfQ.93DwU9EdElJ5OEw1xhFM7XZprSkuvuJgG4rIco5EPLE",
+        "domain": "bcr.iva.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:15.828Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "requestId",
+        "value": "n0iDrNBwvlq8RuN3dbX+VIGGLKbrgH7dQJklYj7ozECpMM8KaBxkibMWD7r2Vbn9H2YuaphHRFeBz9qhHAwPg3m3njE7ahWmThDVZkXT5zclbEvCmbzk736wKYwmBmAjzd/+TU6bLXawWfnlk6bgK4XL7k9ObUm2Lwf+GgnXIgo=",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": -1,
+        "size": 181,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCP39qdEGENOfwu6I2dH_GA.WI7O2_OcPEe4JqIOMjFv2vjlaVrnxuvMlM6axkgiOCU",
+        "domain": "fimg-resp.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:17.705Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCP39qdEGEK3gvZHnssvgGA.XlfwDdJzzSMT0NcOOoRWwprSEbWi0cAP_VdujiPJm08",
+        "domain": "h.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:18.079Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznIsFullyCompatible",
+        "value": "1",
+        "domain": "www.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-18T09:25:18.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCP79qdEGEK3gvZGHianbaQ.hCtcI4CMDNT7Hv5QVFCKrpWAKikd-mz5WjlLetE9Z6U",
+        "domain": "geo.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:18.437Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCP79qdEGENOfwu6Y2IT_Xg.N5yqZMorNWZxFE6cOvSPJzXKguMon8RVYTrNJ_gPx44",
+        "domain": "pocitadlolibise.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:18.447Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCP_9qdEGENOfwu749o_DLQ.VO2llWr6yZnVo7wnBHCSCB10sKfZfTBgrbAr99i223U",
+        "domain": "ssp.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:19.468Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_csrf",
+        "value": "nrM36KpmT0iktuV8SpjhbupA",
+        "domain": "pocitadlolibise.seznam.cz",
+        "path": "/",
+        "expires": -1,
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCID-qdEGEK3gvZHn4d6LIQ.WgEgBYjW5TJDq9jUBSsbTT3edtQvgFt6Upes46JINzE",
+        "domain": "cmp.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:20.853Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cmpsessid",
+        "value": "kf0h7e48c1",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": "2027-06-11T09:25:21.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cmphitorder",
+        "value": "2",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": "2027-06-11T09:25:21.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ftxt",
+        "value": "qb1IOCRmsiV4sYD5qxTD",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ftxt_pref",
+        "value": "OICSzAQf0ikERXW7zNM1hXMu",
+        "domain": "seznam.cz",
+        "path": "/",
+        "expires": "2026-09-11T09:25:25.539Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sznlbr",
+        "value": "1YCIX-qdEGENOfwu64oKL9UQ.ZYTPoStBuUGwOA-ylL9j1PvCbsTcokemFQoLkDu_6MU",
+        "domain": "suggest.seznam.cz",
+        "path": "/",
+        "expires": "2026-06-12T09:25:25.539Z",
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1642,
+            "_p": 1781169919500,
+            "_s": 2,
+            "are": 1,
+            "cid": 228434394.17811698,
+            "dl": "https://www.seznam.cz/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "INDEX",
+            "en": "user_engagement",
+            "ep.gadgets": "novinky,sport,super,prozeny,zpravy,autoweb,blogy,videoportal",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9217875969za200zd9217875969",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 6,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169919,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 11178,
+            "tid": "G-8JB7525Y85",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-8JB7525Y85&gtm=45je6691v9217875969za200zd9217875969&_p=1781169919500&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&are=1&cid=228434394.1781169920&frm=0&pscdl=denied&rcb=6&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115616985~115938465~115938468&dt=INDEX&uid=&sid=1781169919&sct=1&seg=0&dl=https%3A%2F%2Fwww.seznam.cz%2F&en=user_engagement&ep.gadgets=novinky%2Csport%2Csuper%2Cprozeny%2Czpravy%2Cautoweb%2Cblogy%2Cvideoportal&_et=1642&tfd=11178"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "brts": 1781169926,
+            "cmpf": 1,
+            "col": 24,
+            "et": "view",
+            "eventid": 0,
+            "exid": "-UNLOAD",
+            "extra": "gA=seznam.cz/homepage_Seznam.cz/Neprihlasena_HP",
+            "fpdata": "-UNLOAD",
+            "fr": 1,
+            "fv": "-",
+            "href": "https://www.seznam.cz/",
+            "hsrc": 1,
+            "id": "16BKhuMRa_xyb6CC9zBaO5bfDfygxubkcP9sQZMtpYL.U7",
+            "initsonar": 1,
+            "inner": "_ver=403|_min=1|_ch_mobile=0|_ch_wow64=0|_ch_brands=",
+            "l": 100,
+            "lsdata": "-UNLOAD",
+            "mtp": 0,
+            "nc": 1,
+            "ref": "",
+            "rudata": "-UNLOAD",
+            "screen": "375x812r3000",
+            "sendf": 23,
+            "tz": -120,
+            "vis": 1,
+            "window": "375x812"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gacz.hit.gemius.pl/_1781169926054/redot.gif?l=100&id=16BKhuMRa_xyb6CC9zBaO5bfDfygxubkcP9sQZMtpYL.U7&et=view&hsrc=1&initsonar=1&extra=gA%3Dseznam.cz%2Fhomepage_Seznam.cz%2FNeprihlasena_HP&eventid=0&tz=-120&fv=-&href=https%3A%2F%2Fwww.seznam.cz%2F&mtp=0&screen=375x812r3000&col=24&window=375x812&cmpf=1&vis=1&fpdata=-UNLOAD&lsdata=-UNLOAD&fr=1&ref=&inner=_ver%3D403%7C_min%3D1%7C_ch_mobile%3D0%7C_ch_wow64%3D0%7C_ch_brands%3D&rudata=-UNLOAD&nc=1&exid=-UNLOAD&brts=1781169926&sendf=23"
+      },
+      {
+        "data": {
+          "filter": "||i.imedia.cz^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d": "WSW2IR8MFBX4EI62G764383GQF2A4YRH36SMA288JIAVBA6XWR8XTH7FB8T7SUVBTGGU3C4JC8SX7IE5HDTXMT8T49SPVFDQSPV74TR38HHS6VQN7IXDDFQ4RPWIGRRPM8T8TN3NUDKMMUV4I3V4YKRCWEFZZVUVPRR8A6WX8VFJYKCXC3HKJQBR5NQZ7MCYJGIW5F7HRF5EUUE8G6VGRZIQ3YXIIUN2DUC96T2QBMSS2DHDS9RIXIIEJSEZID5DM9JDX44Z2VJ8VF6TM9I2G8KVJU774AR3WDBFA",
+            "spotId": 4167022
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.imedia.cz/v2/impress?spotId=4167022&d=WSW2IR8MFBX4EI62G764383GQF2A4YRH36SMA288JIAVBA6XWR8XTH7FB8T7SUVBTGGU3C4JC8SX7IE5HDTXMT8T49SPVFDQSPV74TR38HHS6VQN7IXDDFQ4RPWIGRRPM8T8TN3NUDKMMUV4I3V4YKRCWEFZZVUVPRR8A6WX8VFJYKCXC3HKJQBR5NQZ7MCYJGIW5F7HRF5EUUE8G6VGRZIQ3YXIIUN2DUC96T2QBMSS2DHDS9RIXIIEJSEZID5DM9JDX44Z2VJ8VF6TM9I2G8KVJU774AR3WDBFA"
+      },
+      {
+        "data": {
+          "filter": "||i.imedia.cz^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d": "ZBIQDKK82DHNJV7R5C8CX2IEDSZYNEWIY97DQG3AKXJ8F8XJFV6CGSK7VDIXY9U2IJ49W22T4WD3DUJRCX7JYRSZEGYCHAPBMN99MUBJC9DIXTMI56I4F526UJXYGVQMHYP675DJWXSMPCIGTQ38ZQQPB8WIRBA7BA4NIK8W7ME8PGVFPCP5N5B488XUAD9TCRDSUFTFQ4UDSCN87WX96GYWG5CCU5Y64PZYFADKK622MAUMIXIBN4PE8R3N8EUUD6",
+            "zoneId": "seznam.hp.marketing.top"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.imedia.cz/v2/miss?zoneId=seznam.hp.marketing.top&d=ZBIQDKK82DHNJV7R5C8CX2IEDSZYNEWIY97DQG3AKXJ8F8XJFV6CGSK7VDIXY9U2IJ49W22T4WD3DUJRCX7JYRSZEGYCHAPBMN99MUBJC9DIXTMI56I4F526UJXYGVQMHYP675DJWXSMPCIGTQ38ZQQPB8WIRBA7BA4NIK8W7ME8PGVFPCP5N5B488XUAD9TCRDSUFTFQ4UDSCN87WX96GYWG5CCU5Y64PZYFADKK622MAUMIXIBN4PE8R3N8EUUD6"
+      },
+      {
+        "data": {
+          "filter": "||i.imedia.cz^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d": "CPDDJFBS47NMJ9JP6WTQQDMXFM72Y6DMPR5FV6UIQ6RZXYD99FJUVK5PFYMQ9KZCUF7GXPUMH6WKSDKJZZH586Q6V35JENVNZWYP9N5RFJDBJTPGG3XQ9QYFJYTDCSQKSUUPH7B7CTZPYTWFTE7DGKTZDTHG6UMHJBJPCSCJ498DZSJADS2IR7QYCEWJY6PEAFGQ2Z9A77W8NCPHMCBNJ2D2B9FVJ7DWDFQB82CK29PS33FGW39EBGZHTB6T73SCV3F74Y2SESRHNHAFWW",
+            "zoneId": "seznam.hp.sponzorovano.novinky"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.imedia.cz/v2/miss?zoneId=seznam.hp.sponzorovano.novinky&d=CPDDJFBS47NMJ9JP6WTQQDMXFM72Y6DMPR5FV6UIQ6RZXYD99FJUVK5PFYMQ9KZCUF7GXPUMH6WKSDKJZZH586Q6V35JENVNZWYP9N5RFJDBJTPGG3XQ9QYFJYTDCSQKSUUPH7B7CTZPYTWFTE7DGKTZDTHG6UMHJBJPCSCJ498DZSJADS2IR7QYCEWJY6PEAFGQ2Z9A77W8NCPHMCBNJ2D2B9FVJ7DWDFQB82CK29PS33FGW39EBGZHTB6T73SCV3F74Y2SESRHNHAFWW"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://spir.hit.gemius.pl/gemiuslib.js&v=302"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781169919500,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 228434394.17811698,
+            "dl": "https://www.seznam.cz/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "INDEX",
+            "en": "page_view",
+            "ep.gadgets": "novinky,sport,super,prozeny,zpravy,autoweb,blogy,videoportal",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9217875969za200zd9217875969",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 6,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169919,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 4839,
+            "tid": "G-8JB7525Y85",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "uid": "",
+            "ul": "en-us",
+            "up.ab_test": "",
+            "up.ab_test_variation": "",
+            "up.seznam_asistent": false,
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-8JB7525Y85&gtm=45je6691v9217875969za200zd9217875969&_p=1781169919500&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&are=1&cid=228434394.1781169920&frm=0&pscdl=denied&rcb=6&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938465~115938468&dt=INDEX&uid=&sid=1781169919&sct=1&seg=0&dl=https%3A%2F%2Fwww.seznam.cz%2F&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.gadgets=novinky%2Csport%2Csuper%2Cprozeny%2Czpravy%2Cautoweb%2Cblogy%2Cvideoportal&up.ab_test=&up.ab_test_variation=&up.seznam_asistent=false&tfd=4839"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-8JB7525Y85"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8JB7525Y85"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.seznam.cz/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gacz.hit.gemius.pl/xgemius.js"
+      }
+    ]
+  }
+}

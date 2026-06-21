@@ -1,0 +1,451 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "JetBrains: Essential tools for software developers and teams",
+  "uri_ins": "https://jetbrains.com",
+  "uri_dest": "https://www.jetbrains.com/",
+  "uri_redirects": [
+    "https://jetbrains.com/"
+  ],
+  "secure_connection": {},
+  "host": "jetbrains.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:23:16.064Z",
+  "end_time": "2026-06-11T09:23:22.775Z",
+  "browsing_history": [
+    "https://www.jetbrains.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "jetbrains.com",
+        "www.jetbrains.com",
+        "resources.jetbrains.com",
+        "data.services.jetbrains.com",
+        "sgtm.jetbrains.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "o245151.ingest.us.sentry.io",
+        "a26669750187.cdn.optimizely.com",
+        "cdn.cookiehub.eu",
+        "pagead2.googlesyndication.com",
+        "region1.google-analytics.com",
+        "region-eu.cookiehub.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.cookiehub.eu/c2/0acea1b9.js": [
+          "keydown"
+        ],
+        "https://www.jetbrains.com/_assets/default-page.b284187c6312dc65b0ec.js": [
+          "input",
+          "keyup",
+          "keydown",
+          "keypress"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-9J976DJZ68&cx=c&gtm=4e6691": [
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://www.jetbrains.com/_assets/default-page.b284187c6312dc65b0ec.js": [
+          "scroll",
+          "dblclick",
+          "click",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-9J976DJZ68&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5P98": [
+          "click"
+        ],
+        "https://www.jetbrains.com/_assets/common.65c5935c181cc2db222b.js": [
+          "scroll"
+        ],
+        "https://www.jetbrains.com/_assets/index.entry.f3a5a424e0ae48bc508e.js": [
+          "scroll",
+          "mousemove"
+        ],
+        "https://resources.jetbrains.com/storage/optly/26613100737.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.jetbrains.com/_assets/default-page.b284187c6312dc65b0ec.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://www.jetbrains.com/_assets/common.65c5935c181cc2db222b.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "cf_country-region",
+        "value": "ES-MC",
+        "domain": "jetbrains.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "optimizelyEndUserId",
+        "value": "oeu1781169797414r0.7870274718139556",
+        "domain": "jetbrains.com",
+        "path": "/",
+        "expires": "2026-12-08T09:23:17.000Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "https://www.jetbrains.com_oeu1781169797414r0.7870274718139556$$26613100737$$session_state",
+        "value": "{\"lastSessionTimestamp\":1781169797423,\"sessionId\":\"802531ec-9a3b-40e4-9b0e-808f9e75f845\"}",
+        "domain": "a26669750187.cdn.optimizely.com",
+        "path": "/",
+        "expires": "2026-12-08T09:23:18.562Z",
+        "size": 178,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "optimizelySession",
+        "value": "1781169798638",
+        "domain": "jetbrains.com",
+        "path": "/",
+        "expires": "2026-12-08T09:23:18.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ncountryCodeCookie",
+        "value": "ES",
+        "domain": "www.jetbrains.com",
+        "path": "/",
+        "expires": -1,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAGAC",
+            "_fv": 1,
+            "_p": 1781169797477,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 7929116.17811698,
+            "dl": "https://www.jetbrains.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "JetBrains: Essential tools for software developers and teams",
+            "en": "page_view",
+            "ep.container_id_version": "GTM-5P98_3138",
+            "ep.page": "www.jetbrains.com/",
+            "ep.page_locale": "en-us",
+            "ep.triggered_event": "gtm.dom",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzY0Yz",
+            "gtm": "45je6691v873984397z8558776za20gzb558776zd558776",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169799,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 3059,
+            "tid": "G-9J976DJZ68",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.prefers_reduced_motion": "no-preference",
+            "up.user_GPC": 0,
+            "up.user_country": "ES",
+            "up.user_country-region": "ES-MC",
+            "up.user_os_color_theme": "light",
+            "up.user_screen_density": 3,
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-9J976DJZ68&gtm=45je6691v873984397z8558776za20gzb558776zd558776&_p=1781169797477&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dMzY0Yz&_eu=EAAAAGAC&are=1&cid=7929116.1781169799&frm=0&ir=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469&dl=https%3A%2F%2Fwww.jetbrains.com%2F&sid=1781169799&sct=1&seg=0&dt=JetBrains%3A%20Essential%20tools%20for%20software%20developers%20and%20teams&_tu=QA&en=page_view&_fv=1&_ss=1&ep.triggered_event=gtm.dom&ep.container_id_version=GTM-5P98_3138&ep.page=www.jetbrains.com%2F&ep.page_locale=en-us&up.user_country=ES&up.user_country-region=ES-MC&up.user_os_color_theme=light&up.user_screen_density=3.0&up.user_GPC=0&up.prefers_reduced_motion=no-preference&tfd=3059"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.jetbrains.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dMzY0Yz",
+            "gtm": "45He6691v558776za200zd558776xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 18,
+            "rnd": 178129584.17811698,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 2542,
+            "tft": 1781169799133
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.jetbrains.com%2F&scrsrc=www.googletagmanager.com&rnd=178129584.1781169799&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dMzY0Yz&gtm=45He6691v558776za200zd558776xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=1&tft=1781169799133&tfd=2542"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-NL29B334"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NL29B334&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-M8TDRLXFQH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-M8TDRLXFQH&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-9J976DJZ68"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-9J976DJZ68&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a26669750187.cdn.optimizely.com/client_storage/a26669750187.html"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/10.52.0",
+            "sentry_key": "1adb2a61713144eda0786e5af50ddc51",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o245151.ingest.us.sentry.io/api/1423069/envelope/?sentry_version=7&sentry_key=1adb2a61713144eda0786e5af50ddc51&sentry_client=sentry.javascript.browser%2F10.52.0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5P98"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetbrains.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5P98"
+      }
+    ]
+  }
+}

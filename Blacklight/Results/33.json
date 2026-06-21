@@ -1,0 +1,458 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Powering the best of the internet | Fastly",
+  "uri_ins": "https://fastly.net",
+  "uri_dest": "https://www.fastly.com/",
+  "uri_redirects": [
+    "https://fastly.net/"
+  ],
+  "secure_connection": {},
+  "host": "fastly.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:41:26.472Z",
+  "end_time": "2026-06-11T05:41:34.045Z",
+  "browsing_history": [
+    "https://www.fastly.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "fastly.net",
+        "www.fastly.com",
+        "learn.fastly.com"
+      ],
+      "third_party": [
+        "cdn.intellimize.co",
+        "munchkin.marketo.net",
+        "025-xko-469.mktoutil.com",
+        "025-xko-469.mktoresp.com",
+        "cdn.speedcurve.com",
+        "cdn.cookielaw.org",
+        "117419923.intellimizeio.com",
+        "api.intellimize.co",
+        "www.googletagmanager.com",
+        "geolocation.onetrust.com",
+        "log.intellimize.co"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.speedcurve.com/js/lux.js?id=4272646268": [
+          "mousedown",
+          "scroll",
+          "click"
+        ],
+        "https://cdn.intellimize.co/snippet/117419923.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.fastly.com/metrics/gtm/?id=GTM-W9FKFHD": [
+          "click"
+        ],
+        "https://www.fastly.com/96a5c58d-d248f5d9979bfe0fb744.js": [
+          "scroll",
+          "click",
+          "mousedown"
+        ],
+        "https://www.fastly.com/app-34a8f2fca89970c0ea00.js": [
+          "scroll"
+        ],
+        "https://munchkin.marketo.net/165/munchkin.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.speedcurve.com/js/lux.js?id=4272646268": [
+          "keydown"
+        ],
+        "https://www.fastly.com/96a5c58d-d248f5d9979bfe0fb744.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.speedcurve.com/js/lux.js?id=4272646268": [
+          "touchstart"
+        ],
+        "https://www.fastly.com/96a5c58d-d248f5d9979bfe0fb744.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_mkto_trk",
+        "value": "id:025-XKO-469&token:_mch-fastly.com-61abf5df2a6dfa0e79ed3d0f3d1d54eb",
+        "domain": "fastly.com",
+        "path": "/",
+        "expires": "2027-07-16T05:41:28.920Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lux_uid",
+        "value": "178115649063438850",
+        "domain": "www.fastly.com",
+        "path": "/",
+        "expires": "2026-06-11T06:11:30.641Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+07%3A41%3A30+GMT%2B0200+(Central+European+Summer+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b22b94d8-a6fb-414d-9270-0be873927dd8&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.fastly.com%2F&groups=req%3A1%2Cfuncs%3A0%2Cadv%3A0",
+        "domain": "fastly.com",
+        "path": "/",
+        "expires": "2027-06-11T05:41:30.000Z",
+        "size": 330,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.intellimize.co/logger"
+      },
+      {
+        "data": {
+          "filter": "||intellimize.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.intellimize.co/prediction/117419923"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-W9FKFHD"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W9FKFHD&gtg_health=1"
+      },
+      {
+        "data": {
+          "filter": "||intellimize.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.intellimize.co/context-v2/117419923"
+      },
+      {
+        "data": {
+          "filter": "||intellimizeio.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://117419923.intellimizeio.com/storage.html"
+      },
+      {
+        "data": {
+          "filter": "||speedcurve.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 4272646268
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.speedcurve.com/js/lux.js?id=4272646268"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_mchCn": "",
+            "_mchEcid": "",
+            "_mchHa": "",
+            "_mchHo": "www.fastly.com",
+            "_mchId": "025-XKO-469",
+            "_mchNc": 1781156488922,
+            "_mchPc": "https:",
+            "_mchPo": "",
+            "_mchQp": "",
+            "_mchRe": "",
+            "_mchRu": "/",
+            "_mchTk": "_mch-fastly.com-61abf5df2a6dfa0e79ed3d0f3d1d54eb",
+            "_mchVr": 165
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://025-xko-469.mktoresp.com/webevents/visitWebPage?_mchNc=1781156488922&_mchCn=&_mchId=025-XKO-469&_mchTk=_mch-fastly.com-61abf5df2a6dfa0e79ed3d0f3d1d54eb&_mchHo=www.fastly.com&_mchPo=&_mchRu=%2F&_mchPc=https%3A&_mchVr=165&_mchEcid=&_mchHa=&_mchRe=&_mchQp="
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/165/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||intellimize.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fastly.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.intellimize.co/snippet/117419923.js"
+      }
+    ]
+  }
+}

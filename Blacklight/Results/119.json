@@ -1,0 +1,419 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Unity: Develop, Deploy, and Grow | The World's Leading Game Engine",
+  "uri_ins": "https://unity3d.com",
+  "uri_dest": "https://unity.com/",
+  "uri_redirects": [
+    "https://unity3d.com/"
+  ],
+  "secure_connection": {},
+  "host": "unity3d.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:07:48.580Z",
+  "end_time": "2026-06-11T06:07:54.340Z",
+  "browsing_history": [
+    "https://unity.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "unity3d.com",
+        "plausible.it.unity3d.com",
+        "unity.com",
+        "api.unity.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "o488710.ingest.sentry.io",
+        "api.ipify.org",
+        "geolocation.onetrust.com",
+        "www.googletagmanager.com",
+        "stream.mux.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5V25JL6": [
+          "click"
+        ],
+        "https://unity.com/_next/static/chunks/0423z.r~9upa-.js": [
+          "click"
+        ],
+        "https://unity.com/_next/static/chunks/0rv8wlv0wrkfj.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://unity.com/_next/static/chunks/0423z.r~9upa-.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://unity.com/_next/static/chunks/0rv8wlv0wrkfj.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://unity.com/_next/static/chunks/0rv8wlv0wrkfj.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "x-hex-backend",
+        "value": "gcp",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": "2026-06-11T06:37:49.413Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "x-hex-backend-reset",
+        "value": "true",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": "2026-06-12T06:07:49.413Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "language_redirected",
+        "value": "true",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "location",
+        "value": "ES",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": "2026-06-11T06:17:49.413Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "HEX_WEB_GEOLB_AFF",
+        "value": "\"AbHwSXuIu60nDA/xnp12EqBJM5BRH+DpqX8+502Fu/xP176KhKyWLxjj8zdvgjBNuwcIM32pLGAKM4UIvbakiokvgeYL1yycQaAc7I0dijHF4WRQo3HsFCSUzw16cdQETzbkbJm+Vw==\"",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": "2026-06-11T06:12:50.333Z",
+        "size": 159,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "REDIRECT_PATH",
+        "value": "%2Fdownload",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+08%3A07%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202511.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4a0ed600-490b-4095-a005-dbe73bdccaab&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Funity.com%2F&groups=C0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0001%3A1",
+        "domain": "unity.com",
+        "path": "/",
+        "expires": "2027-06-11T06:07:52.000Z",
+        "size": 341,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": "4e66a0h2",
+            "id": "GTM-NJ65JVC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NJ65JVC&gtm=4e66a0h2"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.34.0",
+            "sentry_key": "ce7d682306884c779d3c5d683a430b07",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o488710.ingest.sentry.io/api/4503931302641664/envelope/?sentry_version=7&sentry_key=ce7d682306884c779d3c5d683a430b07&sentry_client=sentry.javascript.nextjs%2F10.34.0"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.34.0",
+            "sentry_key": "ce7d682306884c779d3c5d683a430b07",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o488710.ingest.sentry.io/api/4503931302641664/envelope/?sentry_version=7&sentry_key=ce7d682306884c779d3c5d683a430b07&sentry_client=sentry.javascript.nextjs%2F10.34.0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5V25JL6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5V25JL6"
+      },
+      {
+        "data": {
+          "filter": "||ipify.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "format": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.ipify.org/?format=json"
+      },
+      {
+        "data": {
+          "filter": "||ipify.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "format": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.ipify.org/?format=json"
+      },
+      {
+        "data": {
+          "filter": "||ipify.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "format": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.ipify.org/?format=json"
+      },
+      {
+        "data": {
+          "filter": "||ipify.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "format": "json"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.ipify.org/?format=json"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/10.34.0",
+            "sentry_key": "ce7d682306884c779d3c5d683a430b07",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://unity.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o488710.ingest.sentry.io/api/4503931302641664/envelope/?sentry_version=7&sentry_key=ce7d682306884c779d3c5d683a430b07&sentry_client=sentry.javascript.nextjs%2F10.34.0"
+      }
+    ]
+  }
+}

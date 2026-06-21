@@ -1,0 +1,596 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "The White House",
+  "uri_ins": "https://whitehouse.gov",
+  "uri_dest": "https://www.whitehouse.gov/",
+  "uri_redirects": [
+    "https://whitehouse.gov/"
+  ],
+  "secure_connection": {},
+  "host": "whitehouse.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:32:43.363Z",
+  "end_time": "2026-06-11T10:32:58.181Z",
+  "browsing_history": [
+    "https://www.whitehouse.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "whitehouse.gov",
+        "www.whitehouse.gov"
+      ],
+      "third_party": [
+        "chimpstatic.com",
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "cdn.parsely.com",
+        "form-assets.mailchimp.com",
+        "api.parsely.com",
+        "p1.parsely.com",
+        "region1.google-analytics.com",
+        "eventcollector.mcf-prod.a.intuit.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://form-assets.mailchimp.com/snippet/account/227922038?site=eaf82965b0829651ba8ee6ff0": [
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "https://form-assets.mailchimp.com/snippet/account/227922038?site=eaf82965b0829651ba8ee6ff0": [
+          "click",
+          "scroll"
+        ],
+        "https://www.whitehouse.gov/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=66c613f68580994bb00a": [
+          "scroll"
+        ],
+        "https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/js/main.js?m=1772145110g": [
+          "mousedown"
+        ],
+        "https://cdn.parsely.com/keys/whitehouse.gov/p.js?ver=3.23.3": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NRKGZJZM": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://form-assets.mailchimp.com/snippet/account/227922038?site=eaf82965b0829651ba8ee6ff0": [
+          "keydown",
+          "keyup"
+        ],
+        "https://www.whitehouse.gov/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=66c613f68580994bb00a": [
+          "keydown"
+        ],
+        "https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/js/main.js?m=1772145110g": [
+          "keydown"
+        ],
+        "https://cdn.parsely.com/keys/whitehouse.gov/p.js?ver=3.23.3": [
+          "keydown",
+          "keyup"
+        ],
+        "raw-html-custom-scripts-js-after": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "",
+        "value": "test",
+        "domain": "www.whitehouse.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_parsely_session",
+        "value": "{%22sid%22:1%2C%22surl%22:%22https://www.whitehouse.gov/%22%2C%22sref%22:%22%22%2C%22sts%22:1781173966883%2C%22slts%22:0}",
+        "domain": "whitehouse.gov",
+        "path": "/",
+        "expires": "2026-06-11T11:02:54.000Z",
+        "size": 137,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_parsely_visitor",
+        "value": "{%22id%22:%22pid=3561894b-d7d6-4747-baba-6ed9a8ce4d19%22%2C%22session_count%22:1%2C%22last_session_ts%22:1781173966883}",
+        "domain": "whitehouse.gov",
+        "path": "/",
+        "expires": "2027-07-11T20:32:54.000Z",
+        "size": 135,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mcforms-227922038-sessionId",
+        "value": "\"72648f04-d443-4f89-b2a0-ecafc061103b\"",
+        "domain": "www.whitehouse.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 65,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1166803018.1781173969",
+        "domain": "whitehouse.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:32:55.233Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_5S5VLE733W",
+        "value": "GS2.1.s1781173968$o1$g1$t1781173976$j52$l0$h0",
+        "domain": "whitehouse.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:32:56.860Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 445,
+            "_eu": "EEEAAAQ",
+            "_p": 1781173974041,
+            "_s": 3,
+            "_tu": "QA",
+            "ae": "a",
+            "are": 1,
+            "cid": 1166803018.1781175,
+            "dl": "https://www.whitehouse.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "The White House",
+            "en": "form_start",
+            "ep.clean_page_path": "Homepage",
+            "ep.first_field_id": "",
+            "ep.first_field_name": "EMAIL",
+            "ep.first_field_type": "email",
+            "ep.form_destination": "https://wdg.us10.list-manage.com/subscribe/post?u=255057cc391ca0facb169b81c&id=004f59aa22&f_id=00b5c6e5f0",
+            "ep.form_id": "",
+            "ep.full_page_url": "https://www.whitehouse.gov/",
+            "ep.page_language": "en-US",
+            "ep.site_section_primary": "",
+            "ep.site_section_secondary": "",
+            "ep.site_section_tertiary": "",
+            "epn.first_field_position": 1,
+            "epn.form_length": 4,
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9203960744za20gzb9203961997zd9203961997",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781173968,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456240~119456248",
+            "tfd": 2945,
+            "tid": "G-5S5VLE733W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5S5VLE733W&gtm=45je6691v9203960744za20gzb9203961997zd9203961997&_p=1781173974041&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=EEEAAAQ&ae=a&are=1&cid=1166803018.1781173969&frm=0&ir=1&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938469~119456240~119456248&sid=1781173968&sct=1&seg=1&dl=https%3A%2F%2Fwww.whitehouse.gov%2F&dt=The%20White%20House&_tu=QA&en=form_start&ep.clean_page_path=Homepage&ep.page_language=en-US&ep.site_section_primary=&ep.site_section_secondary=&ep.site_section_tertiary=&ep.full_page_url=https%3A%2F%2Fwww.whitehouse.gov%2F&ep.form_id=&ep.form_destination=https%3A%2F%2Fwdg.us10.list-manage.com%2Fsubscribe%2Fpost%3Fu%3D255057cc391ca0facb169b81c%26id%3D004f59aa22%26f_id%3D00b5c6e5f0&epn.form_length=4&ep.first_field_id=&ep.first_field_name=EMAIL&ep.first_field_type=email&epn.first_field_position=1&_et=445&tfd=2945"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 2,
+            "_eu": "EEAAAAQ",
+            "_p": 1781173974041,
+            "_s": 2,
+            "_tu": "QA",
+            "ae": "a",
+            "are": 1,
+            "cid": 1166803018.1781175,
+            "dl": "https://www.whitehouse.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "The White House",
+            "en": "scroll",
+            "ep.clean_page_path": "Homepage",
+            "ep.full_page_url": "https://www.whitehouse.gov/",
+            "ep.page_language": "en-US",
+            "ep.site_section_primary": "",
+            "ep.site_section_secondary": "",
+            "ep.site_section_tertiary": "",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9203960744za20gzb9203961997zd9203961997",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781173968,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456240~119456248",
+            "tfd": 2892,
+            "tid": "G-5S5VLE733W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5S5VLE733W&gtm=45je6691v9203960744za20gzb9203961997zd9203961997&_p=1781173974041&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=EEAAAAQ&ae=a&are=1&cid=1166803018.1781173969&frm=0&ir=1&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938469~119456240~119456248&sid=1781173968&sct=1&seg=1&dl=https%3A%2F%2Fwww.whitehouse.gov%2F&dt=The%20White%20House&_tu=QA&en=scroll&ep.clean_page_path=Homepage&ep.page_language=en-US&ep.site_section_primary=&ep.site_section_secondary=&ep.site_section_tertiary=&ep.full_page_url=https%3A%2F%2Fwww.whitehouse.gov%2F&epn.percent_scrolled=90&_et=2&tfd=2892"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EAAAAAQ",
+            "_p": 1781173974041,
+            "_s": 1,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 1166803018.1781175,
+            "dl": "https://www.whitehouse.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "The White House",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9203960744z89203961997za20gzb9203961997zd9203961997",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781173968,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938469~119456240~119456248",
+            "tfd": 2435,
+            "tid": "G-5S5VLE733W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5S5VLE733W&gtm=45je6691v9203960744z89203961997za20gzb9203961997zd9203961997&_p=1781173974041&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=EAAAAAQ&are=1&cid=1166803018.1781173969&frm=0&ir=1&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=115938465~115938469~119456240~119456248&sid=1781173968&sct=1&seg=1&dl=https%3A%2F%2Fwww.whitehouse.gov%2F&dt=The%20White%20House&_tu=QA&_s=1&tfd=2435"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-5S5VLE733W"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-5S5VLE733W&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NRKGZJZM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NRKGZJZM"
+      },
+      {
+        "data": {
+          "filter": "||parsely.com/keys/$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ver": "3.23.3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.parsely.com/keys/whitehouse.gov/p.js?ver=3.23.3"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "EA",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781173964343,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 1166803018.1781175,
+            "dl": "https://www.whitehouse.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "The White House",
+            "en": "page_view",
+            "ep.clean_page_path": "Homepage",
+            "ep.full_page_url": "https://www.whitehouse.gov/",
+            "ep.page_date": "2026-01-22",
+            "ep.page_language": "en-US",
+            "ep.page_post_type": "page",
+            "ep.site_section_primary": "",
+            "ep.site_section_secondary": "",
+            "ep.site_section_tertiary": "",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9203960744z89203961997za20gzb9203961997zd9203961997",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173968,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938469~119456240~119456248",
+            "tfd": 4856,
+            "tid": "G-5S5VLE733W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-5S5VLE733W&gtm=45je6691v9203960744z89203961997za20gzb9203961997zd9203961997&_p=1781173964343&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=EA&are=1&cid=1166803018.1781173969&frm=0&ir=1&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~119456240~119456248&sid=1781173968&sct=1&seg=0&dl=https%3A%2F%2Fwww.whitehouse.gov%2F&dt=The%20White%20House&_tu=QA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.clean_page_path=Homepage&ep.page_language=en-US&ep.site_section_primary=&ep.site_section_secondary=&ep.site_section_tertiary=&ep.full_page_url=https%3A%2F%2Fwww.whitehouse.gov%2F&ep.page_date=2026-01-22&ep.page_post_type=page&tfd=4856"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-5S5VLE733W"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-5S5VLE733W&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||parsely.com/keys/$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ver": "3.23.3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.parsely.com/keys/whitehouse.gov/p.js?ver=3.23.3"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NRKGZJZM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.whitehouse.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NRKGZJZM"
+      }
+    ]
+  }
+}

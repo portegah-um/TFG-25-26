@@ -1,0 +1,221 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "iCloud - Apple Developer",
+  "uri_ins": "https://icloud-content.com",
+  "uri_dest": "https://developer.apple.com/icloud/",
+  "uri_redirects": [
+    "https://icloud-content.com/"
+  ],
+  "secure_connection": {},
+  "host": "icloud-content.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:07:40.339Z",
+  "end_time": "2026-06-11T08:07:45.373Z",
+  "browsing_history": [
+    "https://developer.apple.com/icloud/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "icloud-content.com",
+        "developer.apple.com",
+        "www.apple.com",
+        "securemetrics.apple.com"
+      ],
+      "third_party": [
+        "sfss.cdn-apple.com",
+        "sf-saas.cdn-apple.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://developer.apple.com/assets/scripts/ac-globalnav.built.js?35212621148": [
+          "click",
+          "mousemove"
+        ],
+        "https://developer.apple.com/assets/includes/global-session-nav/session.js": [
+          "scroll"
+        ],
+        "https://developer.apple.com/assets/scripts/ac-localnav.built.js": [
+          "click",
+          "scroll"
+        ],
+        "https://developer.apple.com/assets/metrics/scripts/analytics.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://developer.apple.com/assets/scripts/ac-globalnav.built.js?35212621148": [
+          "keydown"
+        ],
+        "https://developer.apple.com/assets/scripts/color-scheme-toggle.js": [
+          "keyup"
+        ],
+        "https://developer.apple.com/assets/scripts/ac-localnav.built.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://developer.apple.com/assets/scripts/ac-localnav.built.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://developer.apple.com/assets/scripts/ac-localnav.built.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "geo",
+        "value": "ES",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_fid",
+        "value": "509599E3F26DFA0A-37E70672E94B69F4",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2027-07-16T08:07:42.947Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_pathLength",
+        "value": "developer%3D1%2C",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2026-06-11T08:37:42.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_vi",
+        "value": "[CS]v1|35153667F4213240-40001960C06477B8[CE]",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2027-07-16T08:07:43.222Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

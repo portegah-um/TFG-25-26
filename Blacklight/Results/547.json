@@ -1,0 +1,1292 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "ESET Cybersecurity | Enterprise, Business and Home Solutions | ESET",
+  "uri_ins": "https://eset.com",
+  "uri_dest": "https://www.eset.com/",
+  "uri_redirects": [
+    "https://eset.com/"
+  ],
+  "secure_connection": {},
+  "host": "eset.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:24:26.477Z",
+  "end_time": "2026-06-11T08:24:45.850Z",
+  "browsing_history": [
+    "https://www.eset.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "eset.com",
+        "www.eset.com",
+        "web-assets.eset.com",
+        "api.eset.com",
+        "api.buy.eset.com",
+        "sgtm.eset.com",
+        "refer.eset.com",
+        "sgtmg.eset.com",
+        "api.cms.eset.com"
+      ],
+      "third_party": [
+        "cdn1.esetstatic.com",
+        "cdn.esetstatic.com",
+        "cdn.jsdelivr.net",
+        "bd89567e8d1d4727932403fd80578a58.js.ubembed.com",
+        "www.googletagmanager.com",
+        "www.google.com",
+        "bat.bing.com",
+        "pagead2.googlesyndication.com",
+        "bat.bing.net",
+        "ade.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://bat.bing.com/p/insights/s/0.8.65": [
+          "click",
+          "scroll"
+        ],
+        "https://www.eset.com/typo3conf/ext/eset_base/Resources/Public/Assets/59.b9fb319c1393419897ff.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-388685883&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611": [
+          "click"
+        ],
+        "https://sgtm.eset.com/gtag/js?id=G-QQY56YDFHV&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611": [
+          "mousedown"
+        ],
+        "https://web-assets.eset.com/typo3conf/ext/eset_base/Resources/Public/header-scripts/header-scripts.ff1098c0.js": [
+          "click",
+          "scroll"
+        ],
+        "https://sgtm.eset.com/gtm.js?id=GTM-M6QG34": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-999986833&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611": [
+          "click"
+        ],
+        "https://sgtm.eset.com/gtm.js?id=GTM-TJ2Z4SC": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.jsdelivr.net/npm/swiper@11/shared/swiper-core.min.mjs": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://web-assets.eset.com/typo3conf/ext/eset_base/Resources/Public/Assets/bundle.988114617090f9664acd.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.eset.com/typo3conf/ext/eset_base/Resources/Public/Assets/59.b9fb319c1393419897ff.js": [
+          "keyup"
+        ],
+        "https://sgtm.eset.com/gtag/js?id=G-QQY56YDFHV&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611": [
+          "keyup"
+        ],
+        "https://web-assets.eset.com/typo3conf/ext/eset_base/Resources/Public/header-scripts/header-scripts.ff1098c0.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://web-assets.eset.com/typo3conf/ext/eset_base/Resources/Public/Assets/bundle.988114617090f9664acd.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "BasketId_us",
+        "value": "c0f6576a-fd0c-469c-8517-1e88ec0620bc",
+        "domain": "eset.com",
+        "path": "/",
+        "expires": "2026-06-11T09:24:23.000Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.26373083.1781166271",
+        "domain": "eset.com",
+        "path": "/",
+        "expires": "2026-09-09T08:24:31.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.9709808.1781166274",
+        "domain": "eset.com",
+        "path": "/",
+        "expires": "2027-07-16T08:24:44.835Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_QQY56YDFHV",
+        "value": "GS2.1.s1781166274$o1$g1$t1781166282$j52$l0$h508167206",
+        "domain": "eset.com",
+        "path": "/",
+        "expires": "2027-07-16T08:24:42.616Z",
+        "size": 67,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_5MM0QHQXHR",
+        "value": "GS2.1.s1781166274$o1$g1$t1781166282$j52$l0$h1703373786",
+        "domain": "eset.com",
+        "path": "/",
+        "expires": "2027-07-16T08:24:42.899Z",
+        "size": 68,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_YTY7EYQL14",
+        "value": "GS2.1.s1781166276$o1$g0$t1781166284$j52$l0$h1815786207",
+        "domain": "eset.com",
+        "path": "/",
+        "expires": "2027-07-16T08:24:44.834Z",
+        "size": 68,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/c/h"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/s/0.8.65"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 3,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "a48dd665-73e3-4d5f-ad50-0d7ddfee63eb",
+            "src": "update",
+            "ti": 4064931,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=4064931&tm=gtm002&Ver=2&mid=a48dd665-73e3-4d5f-ad50-0d7ddfee63eb&bo=3&evt=consent&src=update&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 2,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "a48dd665-73e3-4d5f-ad50-0d7ddfee63eb",
+            "src": "default",
+            "ti": 4064931,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=4064931&tm=gtm002&Ver=2&mid=a48dd665-73e3-4d5f-ad50-0d7ddfee63eb&bo=2&evt=consent&src=default&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "a48dd665-73e3-4d5f-ad50-0d7ddfee63eb",
+            "src": "update",
+            "ti": 4064931,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=4064931&tm=gtm002&Ver=2&mid=a48dd665-73e3-4d5f-ad50-0d7ddfee63eb&bo=1&evt=consent&src=update&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/insights/t/4064931"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/4064931.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "49345a4a-d21f-40c0-a3c7-72b173f5aa34",
+            "src": "update",
+            "ti": 23000158,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=23000158&tm=gtm002&Ver=2&mid=49345a4a-d21f-40c0-a3c7-72b173f5aa34&bo=1&evt=consent&src=update&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/23000158.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-1&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.user_data_mode": "a",
+            "frm": 0,
+            "gcd": "13q3v3q2q5l1",
+            "gcs": "G101",
+            "gtm": "45fe6691v9219106656z8890114629za20gzb890114629zd890114629xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 8,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4726,
+            "tft": 1781166281675,
+            "tid": "DC-15458512",
+            "tids": "DC-15458512"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&ep.user_data_mode=a&_tu=CA&gtm=45fe6691v9219106656z8890114629za20gzb890114629zd890114629xec&gcs=G101&gcd=13q3v3q2q5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=0&tids=DC-15458512&tid=DC-15458512&tft=1781166281675&tfd=4726"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45fe6691v9179210685z8890114629za20gzb890114629zd890114629xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tfd": 4541,
+            "tft": 1781166281490,
+            "tid": "DC-8117415",
+            "tids": "DC-8117415"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&_tu=CA&gtm=45fe6691v9179210685z8890114629za20gzb890114629zd890114629xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938466~115938468&apve=1&apvf=f&apvc=0&tids=DC-8117415&tid=DC-8117415&tft=1781166281490&tfd=4541"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3v3q2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v9213047662z8890114629za20gzb890114629zd890114629xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 13,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 4485,
+            "tft": 1781166281434,
+            "tid": "AW-16511630952",
+            "tids": "AW-16511630952"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&_tu=CA&gtm=45be6691v9213047662z8890114629za20gzb890114629zd890114629xec&gcs=G101&gcd=13q3v3q2q5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=0&tids=AW-16511630952&tid=AW-16511630952&tft=1781166281434&tfd=4485"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v9178863950z8890114629za20gzb890114629zd890114629xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 3,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4388,
+            "tft": 1781166281337,
+            "tid": "AW-999986833",
+            "tids": "AW-999986833"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&_tu=CA&gtm=45be6691v9178863950z8890114629za20gzb890114629zd890114629xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=0&tids=AW-999986833&tid=AW-999986833&tft=1781166281337&tfd=4388"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v9106044776z8890114629za20gzb72116384zd72116384xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 1,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tfd": 3078,
+            "tft": 1781166280027,
+            "tid": "AW-388685883",
+            "tids": "AW-388685883"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&_tu=CA&gtm=45be6691v9106044776z8890114629za20gzb72116384zd72116384xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938466~115938469&apve=1&apvf=f&apvc=0&tids=AW-388685883&tid=AW-388685883&tft=1781166280027&tfd=3078"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v9106044776z872116384za20gzb72116384zd72116384xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 1,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616985~115938466~115938469",
+            "tfd": 3078,
+            "tft": 1781166280027,
+            "tid": "AW-388685883",
+            "tids": "AW-388685883"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&_tu=CA&gtm=45be6691v9106044776z872116384za20gzb72116384zd72116384xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938466~115938469&apve=1&apvf=f&apvc=0&tids=AW-388685883&tid=AW-388685883&tft=1781166280027&tfd=3078"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v877565685z872116384za20gzb72116384zd72116384xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 9,
+            "rnd": 467869791.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 2980,
+            "tft": 1781166279929,
+            "tid": "AW-1010001743",
+            "tids": "AW-1010001743"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=467869791.1781166280&navt=n&npa=1&_tu=CA&gtm=45be6691v877565685z872116384za20gzb72116384zd72116384xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938468&apve=1&apvf=f&apvc=1&tids=AW-1010001743&tid=AW-1010001743&tft=1781166279929&tfd=2980"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-15458512",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-15458512&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-8117415",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-8117415&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-16511630952",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-16511630952&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-999986833",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-999986833&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-M6QG34"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M6QG34&gtg_health=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-388685883",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-388685883&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1010001743",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1010001743&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-K2RBPS2V4Z",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-K2RBPS2V4Z&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 3,
+            "evt": "pageHide",
+            "mid": "14f358d1-3fb9-4145-a2f1-9dd8b63a531d",
+            "ti": 23000158,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=23000158&tm=gtm002&Ver=2&mid=14f358d1-3fb9-4145-a2f1-9dd8b63a531d&bo=3&evt=pageHide&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/4064931.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-1&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "14f358d1-3fb9-4145-a2f1-9dd8b63a531d",
+            "src": "update",
+            "ti": 23000158,
+            "tm": "gtm002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=23000158&tm=gtm002&Ver=2&mid=14f358d1-3fb9-4145-a2f1-9dd8b63a531d&bo=1&evt=consent&src=update&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/23000158.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v877565685z872116384za20gzb72116384zd72116384xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 3,
+            "rnd": 376435122.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938466~115938468",
+            "tfd": 7732,
+            "tft": 1781166274671,
+            "tid": "AW-1010001743",
+            "tids": "AW-1010001743"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=376435122.1781166271&navt=n&npa=1&_tu=CA&gtm=45be6691v877565685z872116384za20gzb72116384zd72116384xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938468&apve=1&apvf=f&apvc=0&tids=AW-1010001743&tid=AW-1010001743&tft=1781166274671&tfd=7732"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "DAg",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.eset.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3vPq2q5l1",
+            "gcs": "G101",
+            "gtm": "45be6691v9106044776z872116384za20gzb890114629zd890114629xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 376435122.1781166,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 7472,
+            "tft": 1781166274411,
+            "tid": "AW-388685883",
+            "tids": "AW-388685883"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&en=page_view&dl=https%3A%2F%2Fwww.eset.com%2F&scrsrc=www.googletagmanager.com&rnd=376435122.1781166271&navt=n&npa=1&_tu=DAg&gtm=45be6691v9106044776z872116384za20gzb890114629zd890114629xec&gcs=G101&gcd=13q3vPq2q5l1&dma_cps=-&dma=1&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=0&tids=AW-388685883&tid=AW-388685883&tft=1781166274411&tfd=7472"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1010001743",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1010001743&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-K2RBPS2V4Z",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-K2RBPS2V4Z&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-TJ2Z4SC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TJ2Z4SC&gtg_health=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-15458512",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-15458512&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-8117415",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-8117415&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-16511630952",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-16511630952&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-388685883",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-388685883&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-999986833",
+            "sign": "2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eset.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-999986833&cx=c&gtm=4e6691&sign=2191fe7250e937877708e1025f88ec401e3f3f0f66fed87b1009c9d9bf9bc71c_20260611"
+      }
+    ]
+  }
+}

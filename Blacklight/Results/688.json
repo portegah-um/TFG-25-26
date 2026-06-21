@@ -1,0 +1,183 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Tencent 腾讯",
+  "uri_ins": "https://tencent.com",
+  "uri_dest": "https://www.tencent.com/en-us/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "tencent.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:06:38.796Z",
+  "end_time": "2026-06-11T09:07:00.696Z",
+  "browsing_history": [
+    "https://www.tencent.com/en-us/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "tencent.com",
+        "www.tencent.com",
+        "static.www.tencent.com"
+      ],
+      "third_party": [
+        "js.aq.qq.com",
+        "cdn-go.cn",
+        "www.googletagmanager.com",
+        "rumt-zh.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://www.tencent.com/js/swiper.min.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://www.tencent.com/js/jquery.min.js": [
+          "scroll"
+        ],
+        "https://cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js": [
+          "click",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/collect/pv?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "57f82215-963f-4862-96df-eeb22fc7475c",
+            "env": "production",
+            "from": "https://www.tencent.com/en-us/",
+            "id": "okypvhbvZrwvRnEg8o",
+            "netType": 4,
+            "originFrom": "https://www.tencent.com/en-us/",
+            "platform": 2,
+            "referer": "https://www.tencent.com/",
+            "sampled": 1,
+            "sessionId": "94801d8356244c58b7f7641bce40f59c",
+            "sr": "375 * 812",
+            "uin": "xxx",
+            "version": "1.43.57",
+            "vp": "375 * 812"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tencent.com/en-us/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rumt-zh.com/collect/pv?originFrom=https%3A%2F%2Fwww.tencent.com%2Fen-us%2F&sampled=1&id=okypvhbvZrwvRnEg8o&uin=xxx&version=1.43.57&aid=57f82215-963f-4862-96df-eeb22fc7475c&env=production&platform=2&netType=4&vp=375%20*%20812&sr=375%20*%20812&sessionId=94801d8356244c58b7f7641bce40f59c&from=https%3A%2F%2Fwww.tencent.com%2Fen-us%2F&referer=https%3A%2F%2Fwww.tencent.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TQP47XHV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tencent.com/en-us/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TQP47XHV"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TQP47XHV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tencent.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TQP47XHV"
+      }
+    ]
+  }
+}

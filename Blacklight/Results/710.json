@@ -1,0 +1,1483 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+  "uri_ins": "https://rt.ru",
+  "uri_dest": "https://tula.rt.ru/",
+  "uri_redirects": [
+    "https://rt.ru/",
+    "https://www.rt.ru/"
+  ],
+  "secure_connection": {},
+  "host": "rt.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:13:50.371Z",
+  "end_time": "2026-06-11T09:14:00.925Z",
+  "browsing_history": [
+    "https://tula.rt.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "rt.ru",
+        "www.rt.ru",
+        "tula.rt.ru",
+        "rt-static.rt.ru",
+        "blogcdn.rt.ru",
+        "b2c.passport.rt.ru",
+        "omnichat.rt.ru",
+        "rt-static-cdn.rt.ru",
+        "rt-api.rt.ru"
+      ],
+      "third_party": [
+        "mc.yandex.ru",
+        "vk.com",
+        "top-fwz1.mail.ru",
+        "abt.s3.yandex.net",
+        "privacy-cs.mail.ru",
+        "uaas.yandex.ru",
+        "mc.yandex.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://omnichat.rt.ru/widget/ocWidget/ocwidget.js?rnd=0.11249367537614163": [
+          "mouseup",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "scroll",
+          "select",
+          "mousedown",
+          "mousemove",
+          "click",
+          "mouseup",
+          "dblclick"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://rt-static.rt.ru/rt-ru/944560/js/CarouselV4-C_UfqT_J.js": [
+          "keydown"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "keyup",
+          "keydown",
+          "input",
+          "keypress"
+        ],
+        "https://rt-static.rt.ru/rt-ru/944560/js/AppDialog-EtnBwvc8.js": [
+          "keyup"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://privacy-cs.mail.ru/static/sync-loader.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "TS0119aafb",
+        "value": "0194c94451f90f10f46a32ef149200669a9386da54d7ded00ac02e39ddb705520fb48e767c2d7bf9ef188c9947f7650303aa9d1d85",
+        "domain": "www.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS3615e3eb027",
+        "value": "081c0a6604ab200053c655b3a056ea4a1d235aa57fa051acb96508945841b4a12df6bb11385ce50708d91f5b6b113000e563bb610e429f5a588ff7ce661665ab59e67fdda4fd659f6ffdf9974f9063a30f2494a68881bb9b008a4fe1204271e9",
+        "domain": "www.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 205,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "utm_data",
+        "value": "%7B%22utm_source%22%3A%22direct%22%2C%22utm_medium%22%3A%22none%22%7D",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2027-06-11T09:13:54.199Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userRegionName",
+        "value": "%D0%A2%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 107,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userRegionEng",
+        "value": "tulskaja",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userLocalityName",
+        "value": "%D0%A2%D1%83%D0%BB%D0%B0",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "regionKladrId",
+        "value": "71",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userMrf",
+        "value": "CENTER",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userIp",
+        "value": "88.20.13.109",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userRegionORPON",
+        "value": "5200005",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userLocalityORPON",
+        "value": "5201997",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "subdomain",
+        "value": "tula",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "userLocalityType",
+        "value": "%D0%B3.",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cityPrepositionalCase",
+        "value": "%D0%A2%D1%83%D0%BB%D0%B5",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:54.200Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS01852aca",
+        "value": "0194c94451d7efd7227cdaaa1eb69fdbc4f8aa149c0dc88bb61344d67c7d774f8c215687a60db7ecfea3baf59b53523d3d33551b506b768df3bf356d866374c9be1b9013224e3d3434ac9c564d9afab4877dd34f252608a3dd63b65e5b4a37a82e2285dd353aeb7dab096512907671c5c974dc3fd48847423f1003dc012ea0a950081ace9c0787167e88f2e62935d6118e8e400ce10d3199d9c4aea50fb2bae8a236511f1591ac1ded498c35cc9a20f4259e59e8b0bc6e590e805366920f46a52ff4d2bd9da9a55c590fe27133d23bd98de9918ce7bcd86fad7b4fb02427335298609deab7d5fcff6fa12188ce9171f5eecfd8e0b0e4109bfd78cf7e1eff6947e18343c4a0",
+        "domain": "tula.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 532,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS01ddf0c1",
+        "value": "0194c944510f317394723690dbe93da8c09a98e5a4e5d59b96b46d72210f842da8832ff6c15e356d59bf08e0fca9b5eb7ebd1469f9",
+        "domain": "blogcdn.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS010e7aab",
+        "value": "0194c94451831cc8f25e42350c286541669663ab981aab15b1c492285db69b04d453b712e88ede26d21c91a9a856f6b63e4526ef3f",
+        "domain": "rt-static.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvid",
+        "value": "f322a6a9d6aa4504e5ac7049f4ba916c",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2027-05-10T09:13:55.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvidTS",
+        "value": "1781169235494",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2027-05-10T09:13:55.000Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_uid",
+        "value": "1781169236217152362",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2027-06-11T09:13:55.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1781169236",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2027-06-11T09:13:55.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:13:55.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ymab_param",
+        "value": "ScGL185LICp0bZwOUvTzNZdYeRD1FHydTeQbQIIWE_3P69niScSRFPb2at6JlU6YFYOKLvm5SSmz5bA2__8aiHXPiO8",
+        "domain": "tula.rt.ru",
+        "path": "/",
+        "expires": "2027-06-11T09:13:56.258Z",
+        "size": 102,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS0123d4c1",
+        "value": "0194c9445189291e4d0f5887b577336d9db5dac1d3c611f0b9912a59fec1e07cafe9546c5db6f08da7494d1f310ac87987d099dd11f3a9763f1da5d4942eaef10ad5225fd4",
+        "domain": "b2c.passport.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 148,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "domain_sid",
+        "value": "0PwvcdBVC8Iw9kDZxqMPf%3A1781169236571",
+        "domain": "tula.rt.ru",
+        "path": "/",
+        "expires": "2026-06-18T09:13:56.571Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ym_visorc",
+        "value": "w",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": "2026-06-11T09:43:56.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TS0aa74240029",
+        "value": "081c0a6604ab2800bfb64db76304e95a5af80883b3a6af47d411724955ebaddbc26b283ca9148b484f70f6a24e967c37",
+        "domain": "b2c.passport.rt.ru",
+        "path": "/",
+        "expires": "2026-06-11T09:14:26.886Z",
+        "size": 109,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS0aa74240078",
+        "value": "081c0a6604ab200068171668fd4bec5d1b1c69d204e5f401bcd1c606a1bd7e34a9eccc3d853e8d68088d1f4670187001b9636837659cd51a04048d56c2f66e223eb7946c2aeac14098be9ad68fada72a7474128a55f81596ff365eb2022b2068932c348260c27980ebd25478036c8e39b112805f1cbd849f5577d3bf9ff58bcce808df67677472b4d381afed428a51cbde941f30beab6ea6d5e37c77f0bdc7d162e071fe8d535980297483ad5f935ac00241ecef9fc7bb8b155daf8f5cfd92467057ceed162eddc4d3471dd44ab6f52b02b8b2a7dcec3e258ed02ae98f906ffc63adddd8c2dc263eb5eb71b66fb1417819018704a4c70306342ddff234a915e1e77fd7cc9c5fc17463c68de67c7bad80ce27730009085826454f6317e5f0322c978d8fb350247d1655cba0f4b60482b567d7215c0f7a149918c54c062880e83c4af9c079cd97fc6ea33f2584bfa43171b835d238781329f1c329b2bf22a3aab4052f72c5de97d06d0aa2b3d87a4bf94e82629c724ae9d78dfb9101e4190843855918fcfa3c2d4724861d536e10a5121234adba9104bb4245f5bb95cf58bb3c34",
+        "domain": "b2c.passport.rt.ru",
+        "path": "/",
+        "expires": "2026-06-11T09:14:26.886Z",
+        "size": 845,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS9b1eb1f8027",
+        "value": "081c0a6604ab200007fb9026847efe2b59524f1d6921fba133c2833f6c27fb7dedf5474fe9e79fed084d307fb5113000331777d8357629a86018b72df4d91ce09d4b96ae7a301dcdfdaf77325d01084dcbc546424617dce745b42e0993abb177",
+        "domain": "b2c.passport.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 205,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dtCookie",
+        "value": "v_4_srv_115_sn_77F0A99A465421A16B22385754773920_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3Ab0de653a9f1215cf_1_rcs-3Acss_0",
+        "domain": "rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 140,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS01db9d1c",
+        "value": "0194c94451ac8bf04ce292ff51073fb899c66a4b8e74313a1a66f367819019f75dbb56c927cf9082962e34c1571917114ca036370c",
+        "domain": "omnichat.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS011ede03",
+        "value": "0194c9445177782f015dba6c4b61eff1328ce1eeeca76da8493325f3ceafb01d37d0ae9b3691beb6dd30a3a928d84f09424ab5c7e1",
+        "domain": "rt-static-cdn.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PVID",
+        "value": "0bimHE2SZS2e00003Z37nSIe:::0-0-0-f44d513-0-f44d515:CAASECdq77WBzPIUFU4j0yGZinUaYG1O_xjCZyAa1sgKDnYVgdIKrMY2sQdUVlTkIc1l8o5U5x6SgaJrX0gHEYg2YmU6OBW4ewbIUEPTigszsFVRXNTPViqBNqDMvULhkl0e3eI84DCySA8vcpH01Con6xToZg",
+        "domain": "top-fwz1.mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T09:13:57.575Z",
+        "size": 213,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://rt.ru",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VID",
+        "value": "0bimHE2SZS2e00003Z37nSIe:::0-0-0-f44d513-0-f44d515:CAASECdq77WBzPIUFU4j0yGZinUaYG1O_xjCZyAa1sgKDnYVgdIKrMY2sQdUVlTkIc1l8o5U5x6SgaJrX0gHEYg2YmU6OBW4ewbIUEPTigszsFVRXNTPViqBNqDMvULhkl0e3eI84DCySA8vcpH01Con6xToZg",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T09:13:57.575Z",
+        "size": 212,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tmr_detect",
+        "value": "0%7C1781169238060",
+        "domain": "tula.rt.ru",
+        "path": "/",
+        "expires": "2026-06-12T09:13:58.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS6e05cd89027",
+        "value": "081c0a6604ab2000a37a6a53c38d4f4b16d64e3ab06aa47a075b559b5c67a67fa6b5314876026c3a08e7c22a2a11300094166a1dc88c8ee3d7ae25bd9bd3b068d5840034d5f482a28c57d46c0692803456fdba45b2c7ae4c11566135116b7a31",
+        "domain": "tula.rt.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 205,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "mc.yandex.ru/metrika/tag.js": [
+        "mc.yandex.ru/metrika/tag.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "we:1:et:1781169241:w:375x812:v:2540:z:120:i:20260611111400:u:1781169236217152362:vf:pupr1nz2sms3kwcribikwbeshnsgr:st:1781169241",
+            "hidv2": 3224904918170861600,
+            "page-url": "https://tula.rt.ru/",
+            "rn": 864537619,
+            "t": "gdpr(14)ti(1)",
+            "wmode": 0,
+            "wv-check": 19115,
+            "wv-hit": 40560566,
+            "wv-part": 1,
+            "wv-type": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/webvisor/87747669?wv-part=1&wv-check=19115&wv-type=0&wmode=0&wv-hit=40560566&page-url=https%3A%2F%2Ftula.rt.ru%2F&rn=864537619&hidv2=3224904918170861738&browser-info=we%3A1%3Aet%3A1781169241%3Aw%3A375x812%3Av%3A2540%3Az%3A120%3Ai%3A20260611111400%3Au%3A1781169236217152362%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Ast%3A1781169241&t=gdpr(14)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.6397637225288078;id=3241205;u=https://tula.rt.ru/;pid=USER_ID;title=Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле;s=375*812;vp=375*812;touch=0;hds=3;sid=6e3253ff4922444c;ver=60.6.0;tz=-120/Europe/Madrid;st=1781169235247;nt=0/0/1781169230836/////1811/2678/2678/2678/2991/2786/2991/3363/3421/3376/4411/4411/4411/6652/6652/6652;ct=4633/4663/4663/4695/4248;rt=4249/382/0/0/0/4249/4268/4268/4268/4449/4353/4449/4617/4631;gl=u;ni=7.55//4g/100/0/;detect=0;lvid=1781169235494:1781169240817:3:f322a6a9d6aa4504e5ac7049f4ba916c;opts=dl,jst-ym-vk,wda,cnhp=h2,cs=19684-48997-19984;fpid=0PwvcdBVC8Iw9kDZxqMPf;visible=true;js=13;e=RT/unload;et=1781169240815;pvt=5568;vtauto=5332"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.6397637225288078;id=3241205;u=https%3A%2F%2Ftula.rt.ru%2F;pid=USER_ID;title=%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5;s=375*812;vp=375*812;touch=0;hds=3;sid=6e3253ff4922444c;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781169235247;nt=0/0/1781169230836/////1811/2678/2678/2678/2991/2786/2991/3363/3421/3376/4411/4411/4411/6652/6652/6652;ct=4633/4663/4663/4695/4248;rt=4249/382/0/0/0/4249/4268/4268/4268/4449/4353/4449/4617/4631;gl=u;ni=7.55//4g/100/0/;detect=0;lvid=1781169235494%3A1781169240817%3A3%3Af322a6a9d6aa4504e5ac7049f4ba916c;opts=dl%2Cjst-ym-vk%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=0PwvcdBVC8Iw9kDZxqMPf;visible=true;js=13;e=RT%2Funload;et=1781169240815;pvt=5568;vtauto=5332"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:3:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111357:et:1781169238:c:1:rn:712025919:rqn:5:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,,6652,6652,0,:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169238:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-ref": "https://tula.rt.ru/",
+            "page-url": "goal://tula.rt.ru/b2c_view_geo_popup_Y",
+            "redirnss": 1,
+            "t": "gdpr(14)mc(p-2-ex-4)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)csu(0)eco(42271232)prs(2)wss(2)w2s(0)evt(366)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389/1?page-url=goal%3A%2F%2Ftula.rt.ru%2Fb2c_view_geo_popup_Y&page-ref=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=ar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111357%3Aet%3A1781169238%3Ac%3A1%3Arn%3A712025919%3Arqn%3A5%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C6652%2C6652%2C0%2C%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169238%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr%2814%29mc%28p-2-ex-4%29clc%280-0-0%29rqnt%285%29aw%281%29rcm%281%29ecs%280%29csu%280%29eco%2842271232%29prs%282%29wss%282%29w2s%280%29evt%28366%29ti%280%29&force-urlencoded=1&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:3:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111357:et:1781169238:c:1:rn:593366782:rqn:5:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,,6652,6652,0,:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169238:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-ref": "https://tula.rt.ru/",
+            "page-url": "goal://tula.rt.ru/b2c_view_geo_popup_Y",
+            "redirnss": 1,
+            "t": "gdpr(14)mc(p-2-ex-4-g-1)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)csu(0)eco(42271236)prs(2)wss(2)w2s(0)evt(360)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669/1?page-url=goal%3A%2F%2Ftula.rt.ru%2Fb2c_view_geo_popup_Y&page-ref=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=ar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111357%3Aet%3A1781169238%3Ac%3A1%3Arn%3A593366782%3Arqn%3A5%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C6652%2C6652%2C0%2C%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169238%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr%2814%29mc%28p-2-ex-4-g-1%29clc%280-0-0%29rqnt%285%29aw%281%29rcm%281%29ecs%280%29csu%280%29eco%2842271236%29prs%282%29wss%282%29w2s%280%29evt%28360%29ti%280%29&force-urlencoded=1&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:3:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111357:et:1781169238:c:1:rn:593366782:rqn:5:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,,6652,6652,0,:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169238:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-ref": "https://tula.rt.ru/",
+            "page-url": "goal://tula.rt.ru/b2c_view_geo_popup_Y",
+            "t": "gdpr(14)mc(p-2-ex-4-g-1)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)csu(0)eco(42271236)prs(2)wss(2)w2s(0)evt(360)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669?page-url=goal%3A%2F%2Ftula.rt.ru%2Fb2c_view_geo_popup_Y&page-ref=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=ar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111357%3Aet%3A1781169238%3Ac%3A1%3Arn%3A593366782%3Arqn%3A5%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C6652%2C6652%2C0%2C%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169238%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr(14)mc(p-2-ex-4-g-1)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)csu(0)eco(42271236)prs(2)wss(2)w2s(0)evt(360)ti(0)&force-urlencoded=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:3:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111357:et:1781169238:c:1:rn:712025919:rqn:5:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,,6652,6652,0,:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169238:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-ref": "https://tula.rt.ru/",
+            "page-url": "goal://tula.rt.ru/b2c_view_geo_popup_Y",
+            "t": "gdpr(14)mc(p-2-ex-4)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)csu(0)eco(42271232)prs(2)wss(2)w2s(0)evt(366)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389?page-url=goal%3A%2F%2Ftula.rt.ru%2Fb2c_view_geo_popup_Y&page-ref=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=ar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111357%3Aet%3A1781169238%3Ac%3A1%3Arn%3A712025919%3Arqn%3A5%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C6652%2C6652%2C0%2C%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169238%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr(14)mc(p-2-ex-4)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)csu(0)eco(42271232)prs(2)wss(2)w2s(0)evt(366)ti(0)&force-urlencoded=1"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.39605089540526395;id=3241205;u=https://tula.rt.ru/;pid=USER_ID;title=Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле;s=375*812;vp=375*812;touch=0;hds=3;sid=6e3253ff4922444c;ver=60.6.0;tz=-120/Europe/Madrid;st=1781169235247;nt=0/0/1781169230836/////1811/2678/2678/2678/2991/2786/2991/3363/3421/3376/4411/4411/4411/6652/6652/6652;ct=4633/4663/4663/4695/4248;rt=4249/382/0/0/0/4249/4268/4268/4268/4449/4353/4449/4617/4631;gl=u;ni=3.2//4g/100/0/;lvid=1781169235494:1781169237491:2:f322a6a9d6aa4504e5ac7049f4ba916c;opts=dl,jst-ym-vk,wda,cnhp=h2,cs=19684-48997-19984;fpid=0PwvcdBVC8Iw9kDZxqMPf;visible=true;js=13;e=RT/load;et=1781169237488"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.39605089540526395;id=3241205;u=https%3A%2F%2Ftula.rt.ru%2F;pid=USER_ID;title=%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5;s=375*812;vp=375*812;touch=0;hds=3;sid=6e3253ff4922444c;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781169235247;nt=0/0/1781169230836/////1811/2678/2678/2678/2991/2786/2991/3363/3421/3376/4411/4411/4411/6652/6652/6652;ct=4633/4663/4663/4695/4248;rt=4249/382/0/0/0/4249/4268/4268/4268/4449/4353/4449/4617/4631;gl=u;ni=3.2//4g/100/0/;lvid=1781169235494%3A1781169237491%3A2%3Af322a6a9d6aa4504e5ac7049f4ba916c;opts=dl%2Cjst-ym-vk%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=0PwvcdBVC8Iw9kDZxqMPf;visible=true;js=13;e=RT%2Fload;et=1781169237488"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:452320741:rqn:4:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "gdpr(14)mc(p-2-ex-3)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(42271236)prs(2)wss(1)w2s(0)evt(360)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669/1?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A452320741%3Arqn%3A4%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr%2814%29mc%28p-2-ex-3%29clc%280-0-0%29rqnt%284%29aw%281%29rcm%281%29ecs%280%29eco%2842271236%29prs%282%29wss%281%29w2s%280%29evt%28360%29ti%280%29&force-urlencoded=1&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:271955241:rqn:3:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "gdpr(14)mc(p-2-ex-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(42271236)prs(2)wss(1)w2s(0)evt(360)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669/1?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A271955241%3Arqn%3A3%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr%2814%29mc%28p-2-ex-2%29clc%280-0-0%29rqnt%283%29aw%281%29rcm%281%29ecs%280%29eco%2842271236%29prs%282%29wss%281%29w2s%280%29evt%28360%29ti%280%29&force-urlencoded=1&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:221042506:rqn:4:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "gdpr(14)mc(p-2-ex-1)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(42271232)prs(2)wss(1)w2s(0)evt(366)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389/1?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A221042506%3Arqn%3A4%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr%2814%29mc%28p-2-ex-1%29clc%280-0-0%29rqnt%284%29aw%281%29rcm%281%29ecs%280%29eco%2842271232%29prs%282%29wss%281%29w2s%280%29evt%28366%29ti%280%29&force-urlencoded=1&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:431820948:rqn:3:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "gdpr(14)mc(p-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(42271232)prs(2)wss(1)w2s(0)evt(366)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389/1?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A431820948%3Arqn%3A3%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr%2814%29mc%28p-2%29clc%280-0-0%29rqnt%283%29aw%281%29rcm%281%29ecs%280%29eco%2842271232%29prs%282%29wss%281%29w2s%280%29evt%28366%29ti%280%29&force-urlencoded=1&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:452320741:rqn:4:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-url": "https://tula.rt.ru/",
+            "t": "gdpr(14)mc(p-2-ex-3)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(42271236)prs(2)wss(1)w2s(0)evt(360)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A452320741%3Arqn%3A4%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr(14)mc(p-2-ex-3)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(42271236)prs(2)wss(1)w2s(0)evt(360)ti(0)&force-urlencoded=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:271955241:rqn:3:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-url": "https://tula.rt.ru/",
+            "t": "gdpr(14)mc(p-2-ex-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(42271236)prs(2)wss(1)w2s(0)evt(360)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A271955241%3Arqn%3A3%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr(14)mc(p-2-ex-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(42271236)prs(2)wss(1)w2s(0)evt(360)ti(0)&force-urlencoded=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:221042506:rqn:4:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-url": "https://tula.rt.ru/",
+            "t": "gdpr(14)mc(p-2-ex-1)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(42271232)prs(2)wss(1)w2s(0)evt(366)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A221042506%3Arqn%3A4%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr(14)mc(p-2-ex-1)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(42271232)prs(2)wss(1)w2s(0)evt(366)ti(0)&force-urlencoded=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ex:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:431820948:rqn:3:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "exp": "P54lnS9LcLo,",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-url": "https://tula.rt.ru/",
+            "t": "gdpr(14)mc(p-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(42271232)prs(2)wss(1)w2s(0)evt(366)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389?page-url=https%3A%2F%2Ftula.rt.ru%2F&exp=P54lnS9LcLo%2C&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=ex%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A431820948%3Arqn%3A3%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=gdpr(14)mc(p-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(42271232)prs(2)wss(1)w2s(0)evt(366)ti(0)&force-urlencoded=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:1004965808507:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:288381598:rqn:2:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224904918170861600,
+            "hittoken": "1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411",
+            "page-url": "https://tula.rt.ru/",
+            "site-info": {
+              "b2c_view_geo": {
+                "userMrf": "CENTER",
+                "userRegionEng_Y": "tulskaja"
+              }
+            },
+            "t": "gdpr(14)mc(p-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)ecs(0)eco(42271236)wss(1)w2s(0)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669/1?page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904918170861738&hittoken=1781169235_4c5c27cebe00392e4c96ebe50f8ec1a06176ef5a7faa4540761433ce8d771411&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A288381598%3Arqn%3A2%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236&t=gdpr(14)mc(p-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)ecs(0)eco(42271236)wss(1)w2s(0)ti(0)&force-urlencoded=1&site-info=%7B%22b2c_view_geo%22%3A%7B%22userRegionEng_Y%22%3A%22tulskaja%22%2C%22userMrf%22%3A%22CENTER%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1623145108621:hid:40560566:z:120:i:20260611111356:et:1781169236:c:1:rn:132626392:rqn:2:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:ns:1781169230836:adb:2:rqnl:1:st:1781169236",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224904917289533400,
+            "hittoken": "1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed",
+            "page-url": "https://tula.rt.ru/",
+            "site-info": {
+              "b2c_view_geo": {
+                "userMrf": "CENTER",
+                "userRegionEng_Y": "tulskaja"
+              }
+            },
+            "t": "gdpr(14)mc(p-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)ecs(0)eco(42271232)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389/1?page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224904917289533597&hittoken=1781169235_d37c65fc13b05ac044af81437e5c21ada46ebf0da875e80c4572ebb212d387ed&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111356%3Aet%3A1781169236%3Ac%3A1%3Arn%3A132626392%3Arqn%3A2%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781169236&t=gdpr(14)mc(p-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)ecs(0)eco(42271232)ti(0)&force-urlencoded=1&site-info=%7B%22b2c_view_geo%22%3A%7B%22userRegionEng_Y%22%3A%22tulskaja%22%2C%22userMrf%22%3A%22CENTER%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:0:ls:1004965808507:hid:40560566:z:120:i:20260611111355:et:1781169236:c:1:rn:526447314:rqn:1:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:fp:4621:wv:2:ds:0,313,372,58,1811,0,,990,0,,,,4411:co:0:hdl:1:ns:1781169230836:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "clt(1485)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(42271236)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669/1?wmode=7&page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A0%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111355%3Aet%3A1781169236%3Ac%3A1%3Arn%3A526447314%3Arqn%3A1%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A4621%3Awv%3A2%3Ads%3A0%2C313%2C372%2C58%2C1811%2C0%2C%2C990%2C0%2C%2C%2C%2C4411%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=clt%281485%29gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29ecs%280%29eco%2842271236%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:0:ls:1455050657571:hid:40560566:z:120:i:20260611111355:et:1781169236:c:1:rn:572764196:rqn:1:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:fp:4621:wv:2:ds:0,313,372,58,1811,0,,990,0,,,,4411:co:0:hdl:1:ns:1781169230836:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "clt(1504)gdpr(14)mc(p-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(8454660)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/102023030/1?wmode=7&page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A0%3Als%3A1455050657571%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111355%3Aet%3A1781169236%3Ac%3A1%3Arn%3A572764196%3Arqn%3A1%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A4621%3Awv%3A2%3Ads%3A0%2C313%2C372%2C58%2C1811%2C0%2C%2C990%2C0%2C%2C%2C%2C4411%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=clt%281504%29gdpr%2814%29mc%28p-2%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29ecs%280%29eco%288454660%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1623145108621:hid:40560566:z:120:i:20260611111355:et:1781169236:c:1:rn:306949589:rqn:1:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:fp:4621:wv:2:ds:0,313,372,58,1811,0,,990,0,,,,4411:co:0:hdl:1:ns:1781169230836:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "page-url": "https://tula.rt.ru/",
+            "redirnss": 1,
+            "t": "clt(1427)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42271232)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389/1?wmode=7&page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111355%3Aet%3A1781169236%3Ac%3A1%3Arn%3A306949589%3Arqn%3A1%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A4621%3Awv%3A2%3Ads%3A0%2C313%2C372%2C58%2C1811%2C0%2C%2C990%2C0%2C%2C%2C%2C4411%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=clt%281427%29gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29eco%2842271232%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:0:ls:1455050657571:hid:40560566:z:120:i:20260611111355:et:1781169236:c:1:rn:572764196:rqn:1:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:fp:4621:wv:2:ds:0,313,372,58,1811,0,,990,0,,,,4411:co:0:hdl:1:ns:1781169230836:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "page-url": "https://tula.rt.ru/",
+            "t": "clt(1504)gdpr(14)mc(p-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(8454660)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/102023030?wmode=7&page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A0%3Als%3A1455050657571%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111355%3Aet%3A1781169236%3Ac%3A1%3Arn%3A572764196%3Arqn%3A1%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A4621%3Awv%3A2%3Ads%3A0%2C313%2C372%2C58%2C1811%2C0%2C%2C990%2C0%2C%2C%2C%2C4411%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=clt(1504)gdpr(14)mc(p-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(8454660)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:0:ls:1004965808507:hid:40560566:z:120:i:20260611111355:et:1781169236:c:1:rn:526447314:rqn:1:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:fp:4621:wv:2:ds:0,313,372,58,1811,0,,990,0,,,,4411:co:0:hdl:1:ns:1781169230836:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "page-url": "https://tula.rt.ru/",
+            "t": "clt(1485)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(42271236)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/87747669?wmode=7&page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A0%3Als%3A1004965808507%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111355%3Aet%3A1781169236%3Ac%3A1%3Arn%3A526447314%3Arqn%3A1%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A4621%3Awv%3A2%3Ads%3A0%2C313%2C372%2C58%2C1811%2C0%2C%2C990%2C0%2C%2C%2C%2C4411%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=clt(1485)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(42271236)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1623145108621:hid:40560566:z:120:i:20260611111355:et:1781169236:c:1:rn:306949589:rqn:1:u:1781169236217152362:w:375x812:s:375x812x24:sk:3:fp:4621:wv:2:ds:0,313,372,58,1811,0,,990,0,,,,4411:co:0:hdl:1:ns:1781169230836:rqnl:1:st:1781169236:t:Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "charset": "utf-8",
+            "page-url": "https://tula.rt.ru/",
+            "t": "clt(1427)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42271232)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/46297389?wmode=7&page-url=https%3A%2F%2Ftula.rt.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1623145108621%3Ahid%3A40560566%3Az%3A120%3Ai%3A20260611111355%3Aet%3A1781169236%3Ac%3A1%3Arn%3A306949589%3Arqn%3A1%3Au%3A1781169236217152362%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A4621%3Awv%3A2%3Ads%3A0%2C313%2C372%2C58%2C1811%2C0%2C%2C990%2C0%2C%2C%2C%2C4411%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781169230836%3Arqnl%3A1%3Ast%3A1781169236%3At%3A%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5&t=clt(1427)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42271232)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "||vk.com/rtrg?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "metatag_title": "Скидка 100% на 30 дней |  Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "metatag_url": "https://tula.rt.ru/",
+            "p": "VK-RTRG-371173-fX6O0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vk.com/rtrg?p=VK-RTRG-371173-fX6O0&metatag_url=https%3A%2F%2Ftula.rt.ru%2F&metatag_title=%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5"
+      },
+      {
+        "data": {
+          "filter": "||vk.com/rtrg?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "metatag_title": "Скидка 100% на 30 дней |  Ростелеком - официальный сайт для физ. лиц. в Туле",
+            "metatag_url": "https://tula.rt.ru/",
+            "p": "VK-RTRG-1808603-1td58"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vk.com/rtrg?p=VK-RTRG-1808603-1td58&metatag_url=https%3A%2F%2Ftula.rt.ru%2F&metatag_title=%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.3213495560400743;id=3241205;u=https://tula.rt.ru/;pid=USER_ID;title=Скидка 100% на 30 дней | Ростелеком - официальный сайт для физ. лиц. в Туле;s=375*812;vp=375*812;touch=0;hds=3;sid=6e3253ff4922444c;ver=60.6.0;tz=-120/Europe/Madrid;st=1781169235247;ct=4633/4663/4663//4248;rt=4249/382/0/0/0/4249/4268/4268/4268/4449/4353/4449/4617/4631;gl=u;ni=4.3//4g/150/0/;lvid=1781169235494:1781169235525:1:f322a6a9d6aa4504e5ac7049f4ba916c;opts=dl,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/counter?_=0.3213495560400743;id=3241205;u=https%3A%2F%2Ftula.rt.ru%2F;pid=USER_ID;title=%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%25%20%D0%BD%D0%B0%2030%20%D0%B4%D0%BD%D0%B5%D0%B9%20%7C%20%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%20-%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%B7.%20%D0%BB%D0%B8%D1%86.%20%D0%B2%20%D0%A2%D1%83%D0%BB%D0%B5;s=375*812;vp=375*812;touch=0;hds=3;sid=6e3253ff4922444c;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781169235247;ct=4633/4663/4663//4248;rt=4249/382/0/0/0/4249/4268/4268/4268/4449/4353/4449/4617/4631;gl=u;ni=4.3//4g/150/0/;lvid=1781169235494%3A1781169235525%3A1%3Af322a6a9d6aa4504e5ac7049f4ba916c;opts=dl%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ids": 3241205
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/dyn-goal-config.js?ids=3241205"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/code.js"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://tula.rt.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      }
+    ]
+  }
+}

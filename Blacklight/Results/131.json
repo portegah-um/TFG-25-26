@@ -1,0 +1,672 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Kaspersky: Soluciones de ciberseguridad para el Hogar y la Empresa | Kaspersky España",
+  "uri_ins": "https://kaspersky.com",
+  "uri_dest": "https://www.kaspersky.es/",
+  "uri_redirects": [
+    "https://kaspersky.com/",
+    "https://www.kaspersky.com/"
+  ],
+  "secure_connection": {},
+  "host": "kaspersky.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:10:54.060Z",
+  "end_time": "2026-06-11T06:11:00.866Z",
+  "browsing_history": [
+    "https://www.kaspersky.es/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "kaspersky.com",
+        "www.kaspersky.com",
+        "www.kaspersky.es"
+      ],
+      "third_party": [
+        "content.kaspersky-labs.com",
+        "z27srlxamo.kameleoon.io",
+        "sgtm.kaspersky.de",
+        "eu-data.kameleoon.io",
+        "api-router.kaspersky-labs.com",
+        "www.googletagmanager.com",
+        "mc.yandex.com",
+        "consent.cookiebot.com",
+        "consentcdn.cookiebot.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/9801.015376a7c0572930.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://mc.yandex.com/metrika/tag.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/5097.c4c7aa740011fd25.js": [
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/9801.015376a7c0572930.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove",
+          "click"
+        ],
+        "https://mc.yandex.com/metrika/tag.js": [
+          "scroll",
+          "select",
+          "mousedown",
+          "mousemove",
+          "click",
+          "mouseup",
+          "dblclick"
+        ],
+        "https://consent.cookiebot.com/uc.js?cbid=b8a6d98c-4a95-4775-8ccd-36d12edf7028&implementation=gtm&consentmode-dataredaction=dynamic": [
+          "click"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/commons.a2511451967d4b99.js": [
+          "click"
+        ],
+        "https://sgtm.kaspersky.de/gtm.js?id=GTM-WZ7LJ3": [
+          "click"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/main-070ab2752ba18f02.js": [
+          "click"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/pages/_app-22929a424fe666b8.js": [
+          "click"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/5097.c4c7aa740011fd25.js": [
+          "scroll"
+        ],
+        "https://z27srlxamo.kameleoon.io/engine.js": [
+          "mousedown",
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://www.kaspersky.es/content-public/analytics-scripts/analytical_functions.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://mc.yandex.com/metrika/tag.js": [
+          "keyup",
+          "keydown",
+          "input",
+          "keypress"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/main-070ab2752ba18f02.js": [
+          "keydown"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/pages/_app-22929a424fe666b8.js": [
+          "keydown"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/9801.015376a7c0572930.js": [
+          "keydown"
+        ],
+        "https://z27srlxamo.kameleoon.io/engine.js": [
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "https://mc.yandex.com/metrika/tag.js": [
+          "orientationchange"
+        ],
+        "https://www.kaspersky.es/siterenderer/_next/static/chunks/9801.015376a7c0572930.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "kameleoonVisitorCode",
+        "value": "gxsgyjhnn6c63ybd",
+        "domain": "www.kaspersky.com",
+        "path": "/",
+        "expires": "2027-06-11T06:10:54.879Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "kameleoonVisitorCode",
+        "value": "bmmilfldc4brhk4n",
+        "domain": "www.kaspersky.es",
+        "path": "/",
+        "expires": "2027-06-11T06:10:57.902Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "country",
+        "value": "ES",
+        "domain": "www.kaspersky.es",
+        "path": "/",
+        "expires": "2026-06-11T07:10:55.894Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "country",
+        "value": "ES",
+        "domain": "content.kaspersky-labs.com",
+        "path": "/",
+        "expires": "2026-06-11T07:10:56.227Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "webserver_id",
+        "value": "3f9300b225e1a4a7f3517064817b11e6",
+        "domain": "content.kaspersky-labs.com",
+        "path": "/",
+        "expires": -1,
+        "size": 44,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "kameleoonVisitorCode",
+        "value": "bmmilfldc4brhk4n",
+        "domain": "kaspersky.es",
+        "path": "/",
+        "expires": "2027-06-11T06:10:56.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "country",
+        "value": "ES",
+        "domain": "api-router.kaspersky-labs.com",
+        "path": "/",
+        "expires": "2026-06-11T07:10:57.312Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "webserver_id",
+        "value": "d6b17966da31ba74b1837e4fb70eeb12",
+        "domain": "api-router.kaspersky-labs.com",
+        "path": "/",
+        "expires": -1,
+        "size": 44,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ym_uid",
+        "value": "1781158258748057941",
+        "domain": "kaspersky.es",
+        "path": "/",
+        "expires": "2027-06-11T06:10:58.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1781158258",
+        "domain": "kaspersky.es",
+        "path": "/",
+        "expires": "2027-06-11T06:10:58.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "kaspersky.es",
+        "path": "/",
+        "expires": "2026-06-12T02:10:58.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_visorc",
+        "value": "w",
+        "domain": "kaspersky.es",
+        "path": "/",
+        "expires": "2026-06-11T06:40:58.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1733865182705:hid:863735471:z:120:i:20260611081058:et:1781158259:c:1:rn:587937442:rqn:5:u:1781158258748057941:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:ns:1781158254491:rqnl:1:st:1781158259",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3222027285717582000,
+            "hittoken": "1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f",
+            "page-url": "https://www.kaspersky.es/",
+            "site-info": {
+              "__ymu": {}
+            },
+            "t": "gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/98380706/1?page-url=https%3A%2F%2Fwww.kaspersky.es%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3222027285717581840&hittoken=1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1733865182705%3Ahid%3A863735471%3Az%3A120%3Ai%3A20260611081058%3Aet%3A1781158259%3Ac%3A1%3Arn%3A587937442%3Arqn%3A5%3Au%3A1781158258748057941%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781158254491%3Arqnl%3A1%3Ast%3A1781158259&t=gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(5)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)&force-urlencoded=1&site-info=%7B%22__ymu%22%3A%7B%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1733865182705:hid:863735471:z:120:i:20260611081058:et:1781158259:c:1:rn:519390854:rqn:3:u:1781158258748057941:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:ns:1781158254491:rqnl:1:st:1781158259",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3222027285717582000,
+            "hittoken": "1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f",
+            "page-url": "https://www.kaspersky.es/",
+            "site-info": {
+              "__ymu": {
+                "ab_test_user": {
+                  "CO-4505 - ES_HP_CP_Tiers_MonthlyPricing": {
+                    "Reference": {}
+                  }
+                }
+              }
+            },
+            "t": "gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/98380706/1?page-url=https%3A%2F%2Fwww.kaspersky.es%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3222027285717581840&hittoken=1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1733865182705%3Ahid%3A863735471%3Az%3A120%3Ai%3A20260611081058%3Aet%3A1781158259%3Ac%3A1%3Arn%3A519390854%3Arqn%3A3%3Au%3A1781158258748057941%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781158254491%3Arqnl%3A1%3Ast%3A1781158259&t=gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(3)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)&force-urlencoded=1&site-info=%7B%22__ymu%22%3A%7B%22ab_test_user%22%3A%7B%22CO-4505%20-%20ES_HP_CP_Tiers_MonthlyPricing%22%3A%7B%22Reference%22%3A%7B%7D%7D%7D%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1733865182705:hid:863735471:z:120:i:20260611081058:et:1781158259:c:1:rn:112210465:rqn:2:u:1781158258748057941:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:ns:1781158254491:rqnl:1:st:1781158259",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3222027285717582000,
+            "hittoken": "1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f",
+            "page-url": "https://www.kaspersky.es/",
+            "site-info": {
+              "ab_test": {
+                "CO-4505 - ES_HP_CP_Tiers_MonthlyPricing": {
+                  "Reference": {}
+                }
+              }
+            },
+            "t": "gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(2)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/98380706/1?page-url=https%3A%2F%2Fwww.kaspersky.es%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3222027285717581840&hittoken=1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1733865182705%3Ahid%3A863735471%3Az%3A120%3Ai%3A20260611081058%3Aet%3A1781158259%3Ac%3A1%3Arn%3A112210465%3Arqn%3A2%3Au%3A1781158258748057941%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781158254491%3Arqnl%3A1%3Ast%3A1781158259&t=gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(2)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)&force-urlencoded=1&site-info=%7B%22ab_test%22%3A%7B%22CO-4505%20-%20ES_HP_CP_Tiers_MonthlyPricing%22%3A%7B%22Reference%22%3A%7B%7D%7D%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1733865182705:hid:863735471:z:120:i:20260611081058:et:1781158259:c:1:rn:607633105:rqn:1:u:1781158258748057941:w:375x812:s:375x812x24:sk:3:fp:2156:wv:2:ds:0,96,478,214,389,0,,231,0,3190,3192,0,2294:co:0:hdl:1:ns:1781158254491:rqnl:1:st:1781158259",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3222027285717582000,
+            "hittoken": "1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f",
+            "page-url": "https://www.kaspersky.es/",
+            "site-info": {},
+            "t": "gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/98380706/1?page-url=https%3A%2F%2Fwww.kaspersky.es%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3222027285717581840&hittoken=1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1733865182705%3Ahid%3A863735471%3Az%3A120%3Ai%3A20260611081058%3Aet%3A1781158259%3Ac%3A1%3Arn%3A607633105%3Arqn%3A1%3Au%3A1781158258748057941%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A2156%3Awv%3A2%3Ads%3A0%2C96%2C478%2C214%2C389%2C0%2C%2C231%2C0%2C3190%2C3192%2C0%2C2294%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781158254491%3Arqnl%3A1%3Ast%3A1781158259&t=gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(1)aw(1)rcm(1)ecs(0)eco(46474004)ti(0)&force-urlencoded=1&site-info=%7B%7D"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1733865182705:hid:863735471:z:120:i:20260611081058:et:1781158259:c:1:rn:327943039:rqn:4:u:1781158258748057941:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:ns:1781158254491:rqnl:1:st:1781158259:t:Kaspersky: Soluciones de ciberseguridad para el Hogar y la Empresa | Kaspersky España",
+            "charset": "utf-8",
+            "hittoken": "1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f",
+            "page-url": "https://www.kaspersky.es/",
+            "site-info": {
+              "businessType": "other",
+              "pageType": "home",
+              "siteClass": "Websites",
+              "siteGeography": "es-es",
+              "siteType": "Default"
+            },
+            "t": "gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(46474004)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/98380706?wmode=7&page-url=https%3A%2F%2Fwww.kaspersky.es%2F&charset=utf-8&site-info=%7B%22siteGeography%22%3A%22es-es%22%2C%22siteType%22%3A%22Default%22%2C%22pageType%22%3A%22home%22%2C%22businessType%22%3A%22other%22%2C%22siteClass%22%3A%22Websites%22%7D&uah=chm%0A%3F0&hittoken=1781158258_3be39ca8e5bfe0a67f6c7bb1aeeac15cc152bdcb54b83e0b148ac8a6f3a7f71f&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1733865182705%3Ahid%3A863735471%3Az%3A120%3Ai%3A20260611081058%3Aet%3A1781158259%3Ac%3A1%3Arn%3A327943039%3Arqn%3A4%3Au%3A1781158258748057941%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781158254491%3Arqnl%3A1%3Ast%3A1781158259%3At%3AKaspersky%3A%20Soluciones%20de%20ciberseguridad%20para%20el%20Hogar%20y%20la%20Empresa%20%7C%20Kaspersky%20Espa%C3%B1a&t=gdpr(14)mc(p-4-up-2-h-1)clc(0-0-0)rqnt(4)aw(1)rcm(1)ecs(0)eco(46474004)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1733865182705:hid:863735471:z:120:i:20260611081058:et:1781158258:c:1:rn:225199745:u:1781158258748057941:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:ns:1781158254491:rqnl:1:st:1781158258:t:Kaspersky: Soluciones de ciberseguridad para el Hogar y la Empresa | Kaspersky España",
+            "charset": "utf-8",
+            "nohit": 1,
+            "page-url": "https://www.kaspersky.es/",
+            "t": "clt(624)gdpr(14)clc(0-0-0)aw(1)rcm(1)eco(46474004)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/98380706?wmode=7&page-url=https%3A%2F%2Fwww.kaspersky.es%2F&nohit=1&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1733865182705%3Ahid%3A863735471%3Az%3A120%3Ai%3A20260611081058%3Aet%3A1781158258%3Ac%3A1%3Arn%3A225199745%3Au%3A1781158258748057941%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781158254491%3Arqnl%3A1%3Ast%3A1781158258%3At%3AKaspersky%3A%20Soluciones%20de%20ciberseguridad%20para%20el%20Hogar%20y%20la%20Empresa%20%7C%20Kaspersky%20Espa%C3%B1a&t=clt(624)gdpr(14)clc(0-0-0)aw(1)rcm(1)eco(46474004)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-T45JW6B",
+            "sign": "d366507c0c4c220d54b511950d1b300d343f4b22795b2648081e6144c5677d33_20260611"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sgtm.kaspersky.de/gtm.js?id=GTM-T45JW6B&gtm=4e6691&sign=d366507c0c4c220d54b511950d1b300d343f4b22795b2648081e6144c5677d33_20260611"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-WZ7LJ3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WZ7LJ3&gtg_health=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-router.kaspersky-labs.com/logger2/metrics/"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WZ7LJ3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.kaspersky.es/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sgtm.kaspersky.de/gtm.js?id=GTM-WZ7LJ3"
+      }
+    ]
+  }
+}

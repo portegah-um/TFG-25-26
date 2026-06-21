@@ -1,0 +1,683 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Workplace and Digital Printing Solutions | Xerox",
+  "uri_ins": "https://xerox.com",
+  "uri_dest": "https://www.xerox.com/en-us",
+  "uri_redirects": [
+    "https://xerox.com/",
+    "https://www.xerox.com/"
+  ],
+  "secure_connection": {},
+  "host": "xerox.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:03:04.288Z",
+  "end_time": "2026-06-11T10:03:13.871Z",
+  "browsing_history": [
+    "https://www.xerox.com/en-us"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "xerox.com",
+        "www.xerox.com",
+        "framework-assets.external.xerox.com"
+      ],
+      "third_party": [
+        "consent.truste.com",
+        "images.ctfassets.net",
+        "siteimproveanalytics.com",
+        "www.googletagmanager.com",
+        "get.geojs.io",
+        "www.youtube.com",
+        "consent.trustarc.com",
+        "apps.usw2.pure.cloud",
+        "logs-01.loggly.com",
+        "xerox.tfaforms.net",
+        "api-cdn.usw2.pure.cloud",
+        "js-agent.newrelic.com",
+        "cdnjs.cloudflare.com",
+        "bam.nr-data.net",
+        "cdn.jsdelivr.net",
+        "52214.global.siteimproveanalytics.io",
+        "img.youtube.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://apps.usw2.pure.cloud/messenger/messengerrenderer.min.js": [
+          "orientationchange"
+        ],
+        "https://apps.usw2.pure.cloud/messenger/main.min.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://xerox.tfaforms.net/wForms/3.11/js/wforms.js?v=1781172190": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://siteimproveanalytics.com/js/siteanalyze_52214.js": [
+          "scroll",
+          "mousedown",
+          "click"
+        ],
+        "https://framework-assets.external.xerox.com/xds/release/BaseLink.min-3121ffef.js": [
+          "click"
+        ],
+        "https://xerox.tfaforms.net/wForms/3.11/js/wforms.js?v=1781172189": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://apps.usw2.pure.cloud/messenger/thirdpartyplugins.min.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TGDWMCG&gtm_auth=Z14Nv-A6J9WG4tQ5vKdQlQ&gtm_preview=env-1&gtm_cookies_win=x": [
+          "click"
+        ],
+        "https://framework-assets.external.xerox.com/xds/release/CountryConfirmation.min-49b17ec9.js": [
+          "click"
+        ],
+        "https://framework-assets.external.xerox.com/xds/release/Tooltip.min-34bf36e9.js": [
+          "scroll",
+          "click"
+        ],
+        "https://framework-assets.external.xerox.com/xds/release/Header.min-c1cd0e75.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://apps.usw2.pure.cloud/messenger/thirdpartyplugins.min.js": [
+          "keydown"
+        ],
+        "https://framework-assets.external.xerox.com/xds/release/Header.min-c1cd0e75.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "TEKSESSION",
+        "value": "",
+        "domain": "xerox.com",
+        "path": "/",
+        "expires": -1,
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TEKPROFILE",
+        "value": "",
+        "domain": "xerox.com",
+        "path": "/",
+        "expires": "2027-07-16T10:03:06.971Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TAsessionID",
+        "value": "5503d032-c033-4f45-a907-3841fde689de|NEW",
+        "domain": "xerox.com",
+        "path": "/",
+        "expires": "2026-06-11T10:33:08.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-YNID",
+        "value": "19.YT=ZIdwaKbmR9hl9gSdEuxQ1mybymsevbQ2e7wtXseuSlnBbF6efOavM_dPD575FNJ8jygjZHPXtH2dxR9wHkU7QoNTv5s9XLVDHf1pY16CJrIFpaZgT2A2zkO_11cu1gnDa-LF8SuzeKBd7uONnR4hsiT68g5VpEIoiJH5sPSO-tYnvrW3GWwdrJHCXIGYWo0BGUisvIsudn1CFccvdVotraUh8SWoLnu1IP3aqGjDsDSvz2tHubVBWtzNSSEGHDLiQ-HIJVcLgtjSI_vabOaQsNFYB_BeEX6T9AaogttBw35WsOqk5hIOsy0TsDUAd35lZWSbjkkBX4e2-87RpQwaXQ",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:08.975Z",
+        "size": 361,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "YSC",
+        "value": "D7ZrPnj8Cx4",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CMf_nfHnsMaFGxDsj-u89_6UAxjsj-u89_6UAw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:08.975Z",
+        "size": 66,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://xerox.com",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "Z0Ttid41X50",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:08.976Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJFUxIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgEg%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T10:03:08.976Z",
+        "size": 84,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "48c18014c06413",
+        "domain": "nr-data.net",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "GQoi8v57QszG+l6DYrNnoNHkqh4+dD+JvU/B3y6FMFWx9vzUd9YozNg22kFw0uBEFL+buXx+QG4Bj5G/pg7QB10R9V3H35arqrUtbuTcieUhPuHedDK2QxS0wXsC",
+        "domain": "xerox.tfaforms.net",
+        "path": "/",
+        "expires": "2026-06-18T10:03:12.355Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/analytics/data-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us/forms/render/8?locale=en-us&iframeId=106f026-26cc-cd59-b8e3-2b0fee89&tfa_812=Production&tfa_633=https%3A%2F%2Fwww.xerox.com%2Fen-us&tfa_171=United%20States",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://xerox.tfaforms.net/dist/analytics/data-collector.f9f54c12ade21135b7c2.js"
+      },
+      {
+        "data": {
+          "filter": "/analytics/data-",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1781172190
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us/forms/render/8?locale=en-us&iframeId=106f026-26cc-cd59-b8e3-2b0fee89&tfa_812=Production&tfa_633=https%3A%2F%2Fwww.xerox.com%2Fen-us&tfa_171=United%20States",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://xerox.tfaforms.net/dist/analytics/data-collector.f9f54c12ade21135b7c2.js?v=1781172190"
+      },
+      {
+        "data": {
+          "filter": "/analytics/data-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us/forms/render/8?locale=en-us&iframeId=4978686-511e-2308-1fdf-4cbe174&tfa_812=Services&tfa_633=https%3A%2F%2Fwww.xerox.com%2Fen-us&tfa_171=United%20States",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://xerox.tfaforms.net/dist/analytics/data-collector.f9f54c12ade21135b7c2.js"
+      },
+      {
+        "data": {
+          "filter": "/analytics/data-",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1781172189
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us/forms/render/8?locale=en-us&iframeId=4978686-511e-2308-1fdf-4cbe174&tfa_812=Services&tfa_633=https%3A%2F%2Fwww.xerox.com%2Fen-us&tfa_171=United%20States",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://xerox.tfaforms.net/dist/analytics/data-collector.f9f54c12ade21135b7c2.js?v=1781172189"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1431854719,
+            "ck": 0,
+            "ptid": "de3d61c899162f9a",
+            "ref": "https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html",
+            "rst": 1056,
+            "s": 0,
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.301.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.301.0&t=Unnamed%20Transaction&rst=1056&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=de3d61c899162f9a"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 52214,
+            "ckl": 1,
+            "luid": "49c2a6f1-ad16-c8e1-9638-764996b52731",
+            "res": "375x812",
+            "rnd": 48363,
+            "rt": 5799,
+            "title": "Workplace and Digital Printing Solutions | Xerox",
+            "url": "https://www.xerox.com/en-us"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://52214.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.xerox.com%2Fen-us&title=Workplace%20and%20Digital%20Printing%20Solutions%20%7C%20Xerox&res=375x812&accountid=52214&rt=5799&luid=49c2a6f1-ad16-c8e1-9638-764996b52731&ckl=1&rnd=48363"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1431854719,
+            "af": "err,spa,xhr,stn,ins",
+            "be": 55,
+            "ck": 0,
+            "dc": 39,
+            "fe": 222,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 11,
+                "ce": 34,
+                "dc": 266,
+                "de": 95,
+                "di": 95,
+                "dn": 11,
+                "dne": 11,
+                "ds": 95,
+                "f": 7,
+                "l": 266,
+                "le": 278,
+                "n": 0,
+                "of": 1781172189703,
+                "rp": 56,
+                "rpe": 57,
+                "rq": 35,
+                "s": 18
+              }
+            },
+            "ptid": "de3d61c899162f9a",
+            "ref": "https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html",
+            "rst": 389,
+            "s": 0,
+            "sa": 1,
+            "t": "Unnamed Transaction",
+            "v": "1.301.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRJS-09ace4b72d173c8eb24?a=1431854719&sa=1&v=1.301.0&t=Unnamed%20Transaction&rst=389&ck=0&s=0&ref=https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html&ptid=de3d61c899162f9a&af=err,spa,xhr,stn,ins&be=55&fe=222&dc=39&perf=%7B%22timing%22:%7B%22of%22:1781172189703,%22n%22:0,%22f%22:7,%22dn%22:11,%22dne%22:11,%22c%22:11,%22s%22:18,%22ce%22:34,%22rq%22:35,%22rp%22:56,%22rpe%22:57,%22di%22:95,%22ds%22:95,%22de%22:95,%22dc%22:266,%22l%22:266,%22le%22:278%7D,%22navigation%22:%7B%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://apps.usw2.pure.cloud/messenger/thirdparty-plugins.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.301.0.min.js"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 1,
+            "domain": "xerox.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.xerox.com",
+            "session": "5503d032c0334f45a9073841fde689de"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=xerox.com&implied=1&session=5503d032c0334f45a9073841fde689de&new=1&referer=https://www.xerox.com"
+      },
+      {
+        "data": {
+          "filter": "||loggly.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "PLAINTEXT": {
+              "application": "formPresentation",
+              "formType": "xds-marketo",
+              "fullHref": "https://www.xerox.com/en-us",
+              "href": "https://www.xerox.com/en-us",
+              "locale": "en_US",
+              "referrer": ""
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logs-01.loggly.com/inputs/7cabc394-8e60-4bf9-8d74-f98ec1a89df9/tag/widgetLog/1*1.gif?PLAINTEXT=%7B%22application%22%3A%22formPresentation%22%2C%22locale%22%3A%22en_US%22%2C%22href%22%3A%22https%3A//www.xerox.com/en-us%22%2C%22fullHref%22%3A%22https%3A//www.xerox.com/en-us%22%2C%22referrer%22%3A%22%22%2C%22formType%22%3A%22xds-marketo%22%7D"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "Z14Nv-A6J9WG4tQ5vKdQlQ",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "env-1",
+            "id": "GTM-TGDWMCG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us/forms/render/8?locale=en-us&iframeId=106f026-26cc-cd59-b8e3-2b0fee89&tfa_812=Production&tfa_633=https%3A%2F%2Fwww.xerox.com%2Fen-us&tfa_171=United%20States",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TGDWMCG&gtm_auth=Z14Nv-A6J9WG4tQ5vKdQlQ&gtm_preview=env-1&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "Z14Nv-A6J9WG4tQ5vKdQlQ",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "env-1",
+            "id": "GTM-TGDWMCG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us/forms/render/8?locale=en-us&iframeId=4978686-511e-2308-1fdf-4cbe174&tfa_812=Services&tfa_633=https%3A%2F%2Fwww.xerox.com%2Fen-us&tfa_171=United%20States",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TGDWMCG&gtm_auth=Z14Nv-A6J9WG4tQ5vKdQlQ&gtm_preview=env-1&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": ".com/analytics?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": 0,
+            "domain": "xerox.com",
+            "implied": 1,
+            "new": 1,
+            "referer": "https://www.xerox.com",
+            "session": "5503d032c0334f45a9073841fde689de"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=xerox.com&implied=1&session=5503d032c0334f45a9073841fde689de&new=1&referer=https://www.xerox.com"
+      },
+      {
+        "data": {
+          "filter": "||geojs.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://get.geojs.io/v1/ip/country.json"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "Z14Nv-A6J9WG4tQ5vKdQlQ",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "env-1",
+            "id": "GTM-TGDWMCG"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TGDWMCG&gtm_auth=Z14Nv-A6J9WG4tQ5vKdQlQ&gtm_preview=env-1&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xerox.com/en-us",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_52214.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Apple",
+  "uri_ins": "https://mzstatic.com",
+  "uri_dest": "https://www.apple.com/",
+  "uri_redirects": [
+    "https://mzstatic.com/"
+  ],
+  "secure_connection": {},
+  "host": "mzstatic.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:59:31.197Z",
+  "end_time": "2026-06-11T06:59:35.962Z",
+  "browsing_history": [
+    "https://www.apple.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mzstatic.com",
+        "www.apple.com",
+        "securemetrics.apple.com",
+        "securemvt.apple.com"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js": [
+          "scroll"
+        ],
+        "https://www.apple.com/v/home/a/built/scripts/endless-entertainment-gallery.built.js": [
+          "scroll"
+        ],
+        "https://www.apple.com/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "geo",
+        "value": "ES",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "at_check",
+        "value": "true",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ac_bnd",
+        "value": "10",
+        "domain": "www.apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_fid",
+        "value": "42F8AB3A247D24B4-38C0FCA9C173A6F4",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2026-06-11T07:29:35.000Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "mk_epub",
+        "value": "%7B%22btuid%22%3A%22xp3e38%22%2C%22prop57%22%3A%22www.us.homepage%22%7D",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 78,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_vi",
+        "value": "[CS]v1|35152E6A572E4544-40001D57403BAC72[CE]",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2026-06-11T07:29:35.681Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dssid2",
+        "value": "03c80e50-3451-4190-8e24-5061a957da03",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2027-06-11T06:59:32.907Z",
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dssf",
+        "value": "1",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2027-06-11T06:59:32.907Z",
+        "size": 5,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "as_pcts",
+        "value": "rsB19Srt6:BDrw7asdvAZlgo+MpYao-IgX5GkWrADJ-K93icntXYAwwUXxpiDRK_NVyli5c-HH4cm+7UHRQL0AmIVOf9PnL5fW11:d6GW:SqwM_HEfE08qGU:8+dpckakLfKWhaD+BpRFvU5udnb03",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": -1,
+        "size": 157,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "as_dc",
+        "value": "ucp4",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2026-06-11T08:59:32.908Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "shld_bt_m",
+        "value": "1AeiUsNVgv49Hh_W4BOZYg|1781168372|50LXRo_pp8trrkJWsDFYkQ|aj25YVh9rEc9F-Wvnk8_JLWpD3U",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2026-06-11T08:59:32.908Z",
+        "size": 93,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mbox",
+        "value": "session#867ae07531c04debbcc109d0ff52a250#1781163033|PC#867ae07531c04debbcc109d0ff52a250.37_0#1781162974",
+        "domain": "apple.com",
+        "path": "/",
+        "expires": "2026-06-11T07:30:33.000Z",
+        "size": 107,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

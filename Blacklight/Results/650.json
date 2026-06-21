@@ -1,0 +1,484 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Sage - a global academic publisher of educational resources | Home",
+  "uri_ins": "https://sagepub.com",
+  "uri_dest": "https://www.sagepub.com/",
+  "uri_redirects": [
+    "https://sagepub.com/"
+  ],
+  "secure_connection": {},
+  "host": "sagepub.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:56:27.384Z",
+  "end_time": "2026-06-11T08:56:34.333Z",
+  "browsing_history": [
+    "https://www.sagepub.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "sagepub.com",
+        "www.sagepub.com",
+        "analytics.sagepub.com"
+      ],
+      "third_party": [
+        "cdn-ukwest.onetrust.com",
+        "eu-assets.i.posthog.com",
+        "cdnjs.cloudflare.com",
+        "cdn.insight.sitefinity.com",
+        "geolocation.onetrust.com",
+        "eu.i.posthog.com",
+        "api.insight.sitefinity.com",
+        "www.googletagmanager.com",
+        "assistant.woorank.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://analytics.sagepub.com/gtag/js?id=G-60R758KFDG&cx=c&gtm=4e6691&sign=b27202269ea53aecfb737e75f94d02acb1ef2e5e1f3a2bb6b844448c8869a5f2_20260611": [
+          "keyup"
+        ],
+        "https://www.sagepub.com/sfrenderer/scripts/HawkSearch/main.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&package_name=Global&version=834577759": [
+          "keydown"
+        ],
+        "https://assistant.woorank.com/hydra/assistantLoader.latest.js": [
+          "keydown"
+        ],
+        "https://cdn.insight.sitefinity.com/sdk/sitefinity-insight-client.min.3.1.44.js": [
+          "input"
+        ],
+        "https://www.sagepub.com/global/js/coreweb-design.js?v=tLnJfjbEPn0U1vYyp8FMA20W9Lm1sOjUpBykElkrwiA": [
+          "keydown"
+        ],
+        "https://www.sagepub.com/sfrenderer/scripts/bootstrap.bundle.min.js?package_name=Global&version=-721255157": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://analytics.sagepub.com/gtag/js?id=G-60R758KFDG&cx=c&gtm=4e6691&sign=b27202269ea53aecfb737e75f94d02acb1ef2e5e1f3a2bb6b844448c8869a5f2_20260611": [
+          "mousedown"
+        ],
+        "https://assistant.woorank.com/hydra/assistantLoader.latest.js": [
+          "click"
+        ],
+        "https://analytics.sagepub.com/gtm.js?id=GTM-5R9QN8": [
+          "click"
+        ],
+        "https://cdn.insight.sitefinity.com/sdk/sitefinity-insight-client.min.3.1.44.js": [
+          "mousemove",
+          "click",
+          "scroll"
+        ],
+        "https://www.sagepub.com/sfrenderer/scripts/LinkToAnchor/link-to-anchor.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&package_name=Global&version=834577759": [
+          "scroll"
+        ],
+        "https://www.sagepub.com/sfrenderer/scripts/bootstrap.bundle.min.js?package_name=Global&version=-721255157": [
+          "click"
+        ],
+        "https://eu-assets.i.posthog.com/static/array.js": [
+          "click",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.insight.sitefinity.com/sdk/sitefinity-insight-client.min.3.1.44.js": [
+          "touchmove",
+          "touchend"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ph_phc_lRjLLAqY28nfIBUvd29OG31zhVGnTB70hKWzE6uAtDS_posthog",
+        "value": "%7B%22%24device_id%22%3A%22019eb5e5-b0c7-7dfd-9634-0e2d168ac473%22%2C%22distinct_id%22%3A%22019eb5e5-b0c7-7dfd-9634-0e2d168ac473%22%2C%22%24user_state%22%3A%22anonymous%22%7D",
+        "domain": "sagepub.com",
+        "path": "/",
+        "expires": "2027-06-11T08:56:30.000Z",
+        "size": 232,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sf-prs-ss",
+        "value": "639167649900130000",
+        "domain": "www.sagepub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sf-prs-lu",
+        "value": "https%3A%2F%2Fwww.sagepub.com%2F",
+        "domain": "www.sagepub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sf-data-intell-subject",
+        "value": "1781168190017-fb0a2e99-14d2-4e7c-916c-36be745da823",
+        "domain": "sagepub.com",
+        "path": "/",
+        "expires": "2027-06-11T08:56:30.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sf-ins-ssid",
+        "value": "1781168190020-2001cc77-99fa-4830-b9b0-07e287a3bbe0",
+        "domain": "sagepub.com",
+        "path": "/",
+        "expires": "2026-06-11T09:26:30.000Z",
+        "size": 61,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sf-ins-pv-id",
+        "value": "2a77724e-f0a5-483d-b266-31fe5ff8fcf2",
+        "domain": "www.sagepub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A56%3A30+GMT%2B0200+(Central+European+Summer+Time)&version=202511.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=01061d26-3d2e-4e4d-b5e3-34447aa52a1e&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.sagepub.com%2F&groups=C0002%3A0%2CC0003%3A0%2CC0001%3A1%2CC0004%3A0",
+        "domain": "sagepub.com",
+        "path": "/",
+        "expires": "2027-06-11T08:56:30.000Z",
+        "size": 347,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "STYXKEY-country",
+        "value": "CN",
+        "domain": "sagepub.com",
+        "path": "/",
+        "expires": "2027-06-11T08:56:31.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "STYXKEY-region",
+        "value": "chi",
+        "domain": "sagepub.com",
+        "path": "/",
+        "expires": "2027-06-11T08:56:31.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "current-auth-ticket",
+        "value": "{\"AccessToken\":\"uWox0yorFicRnJTygZxDEusTQmKuuLi/2rsmg0gqLB1c/bjslZjv1JDwyggRmDXTsPbVI2LFeW4m0RXrdrXgdnRIqso\\u002BKOpeY8S8G6Zcxu7dBiMJIi\\u002Bzinhdp\\u002Bv32jO2wWmU9Z6EUbqPXeRn/4LhqujBOlcoD0jYwBkEZzHmAjMW/UYgLq3jCAPHoV/xPNCphW6oHAVMQlEBgNbhNBNwbxfEg8k1NTthXQMZzfIe8BMZhWgn/F0sUXwYQcvOKzt8nLqk/UGiS6rf\\u002BvZY55ppLbmYa73DbftX1CEKSjUTiJZyDdFCK62\\u002BGE3hPGYnIADwHkuRU8hefxA7SXwY2t6JUg==\",\"AccessTokenExpiration\":\"2027-06-11T08:56:31.569Z\",\"CustomerAccount\":null,\"JwtAccessToken\":\"eyJhbGciOiJIUzI1NiIsImtpZCI6IjN3TlR3TkdPS2hldyt1OWFaR3BPOGc9PSIsInR5cCI6IkpXVCJ9.eyJodHRwczovL3d3dy5raWJvY29tbWVyY2UuY29tL2FwcF9jbGFpbXMiOnsic3NsIjoiMCIsImVudCI6IjAiLCJtdHIiOiIwIiwidWMiOiIwIiwicm5kIjoxNDMzMjkzODA1LCJhaWQiOiI5NTJiMzI3NmFkYTI0YzRkOGE1YzdjZjdlMzI3ZGNjNiIsImFrZXkiOiJzYWdlX2FwaV9hY2Nlc3MiLCJidiI6WzAsMjEzMTcwNDYwNiw1LDI2ODQxODMwMywxLDIwNzg5NDg5MjYsMiwxMDQwMjUyODYyLDMsNTI4MjM2MDMyLDYsLTY4Nzg1MzUzOCw3LC04MDUzMDYzNjksOCwtNjI5MTQ1NjEsOSw4MTkxXSwiZXhwIjoiMjAyNi0wNi0xMVQwOToxNjoyMyIsImVudiI6InByb2QiLCJiLkFwcE5hbWUiOiJzYWdlX2FwaV9hY2Nlc3MifSwiaHR0cHM6Ly93d3cua2lib2NvbW1lcmNlLmNvbS91c2VyX2NsYWltcyI6eyJybmQiOi0xNDU4NjQ0NDc3LCJhbm9uIjoiMSIsInVpZCI6ImRkMTE4M2Q4MmRhMDQyZWI4NDI1ZDc0MGZjODkwNzExIiwiYnYiOlszMSw0MTk0MzA0XSwiZW52IjoicHJvZCIsImV4cCI6IjIwMjctMDYtMTFUMDg6NTY6MzEiLCJzdCI6IlNob3BwZXIiLCJiLlRlbmFudElkIjoiNDM1OTIiLCJiLlNpdGVJZCI6Ijc2Mzg5In0sInVuaXF1ZV9uYW1lIjoiZGQxMTgzZDgyZGEwNDJlYjg0MjVkNzQwZmM4OTA3MTEiLCJzdWIiOiJkZDExODNkODJkYTA0MmViODQyNWQ3NDBmYzg5MDcxMSIsInNpZCI6IjA1YzI3NWVjMWM5ODRlNDdhM2NkYmNkZTE3Y2MzNzdjIiwibmJmIjoxNzgxMTY4MTkxLCJleHAiOjE3ODExNjkzODMsImlhdCI6MTc4MTE2ODE5MSwiaXNzIjoiaHR0cHM6Ly93d3cua2lib2NvbW1lcmNlLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmtpYm9jb21tZXJjZS5jb20ifQ.PlGFV53nlvNJDMn2Nanl7qJW2QBDxFEbUF7UPKjy6FU\",\"RefreshToken\":\"eyJhbGciOiJIUzI1NiIsImtpZCI6IjN3TlR3TkdPS2hldyt1OWFaR3BPOGc9PSIsInR5cCI6IkpXVCJ9.eyJodHRwczovL3d3dy5raWJvY29tbWVyY2UuY29tL2FwcF9jbGFpbXMiOnsic3NsIjoiMCIsImVudCI6IjAiLCJtdHIiOiIwIiwidWMiOiIxIiwicm5kIjotNjEwMzEzODc3LCJidiI6W10sImV4cCI6IjIwMjctMDYtMTFUMDg6NTY6MzEiLCJlbnYiOiJwcm9kIn0sImh0dHBzOi8vd3d3LmtpYm9jb21tZXJjZS5jb20vdXNlcl9jbGFpbXMiOnsicm5kIjotMTA5NzUyMTEyMiwiYW5vbiI6IjEiLCJ1aWQiOiJkZDExODNkODJkYTA0MmViODQyNWQ3NDBmYzg5MDcxMSIsImJ2IjpbMzEsNDE5NDMwNF0sImVudiI6InByb2QiLCJleHAiOiIyMDI3LTA2LTExVDA4OjU2OjMxIiwic3QiOiJTaG9wcGVyIiwiYi5fc2Vzc18iOiJ7XCJpXCI6XCIwNWMyNzVlYzFjOTg0ZTQ3YTNjZGJjZGUxN2NjMzc3Y1wiLFwicFwiOmZhbHNlLFwicDJcIjpudWxsLFwiYnRcIjpmYWxzZSxcImNcIjpcIjIwMjYtMDYtMTFUMDg6NTY6MzEuNTY5NjM1OVpcIixcImVcIjpcIjIwMjYtMDYtMTFUMDg6NTY6MzEuNTY5NjM1OVpcIn0iLCJiLkNyZWF0ZWRPbiI6IjIwMjYtMDYtMTFUMDg6NTY6MzEuNTY5OTgxNFoiLCJiLlRlbmFudElkIjoiNDM1OTIiLCJiLlNpdGVJZCI6Ijc2Mzg5IiwiYi5TZXNzaW9uSWQiOiIwNWMyNzVlYzFjOTg0ZTQ3YTNjZGJjZGUxN2NjMzc3YyIsImIuVG9rZW5UeXBlIjoiYW5vbl9yZWZyZXNoIn0sInVuaXF1ZV9uYW1lIjoiZGQxMTgzZDgyZGEwNDJlYjg0MjVkNzQwZmM4OTA3MTEiLCJzdWIiOiJkZDExODNkODJkYTA0MmViODQyNWQ3NDBmYzg5MDcxMSIsInNpZCI6IjE1NTg2OGRlODFjZTRjMmY4MzQ4NjNlMjkzN2FkMjY4IiwibmJmIjoxNzgxMTY4MTkxLCJleHAiOjE4MTI3MDQxOTEsImlhdCI6MTc4MTE2ODE5MSwiaXNzIjoiaHR0cHM6Ly93d3cua2lib2NvbW1lcmNlLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmtpYm9jb21tZXJjZS5jb20ifQ.ghLzzazzABmSGmJUsltmFBV7XwXGgy6zkgsjn1zqqmo\",\"RefreshTokenExpiration\":\"2026-06-12T08:56:31.569Z\",\"UserId\":null}",
+        "domain": "www.sagepub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 3194,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ccid": 1253996,
+            "cid": "GTM-5R9QN8",
+            "cl": "3.8.2",
+            "gtm": "45Fe6691v71253996za204zd71253996",
+            "h": "Ag",
+            "l": "L1281.S22.Y11.B102.E148.I2121.TC106.HTC3.F2108.C7~gtm.init_consent.S18.V17.E121~gtm.init.S10.V10.E126.TS5googtag.TI2199.TE7~gtm.js.S17.V17.E105.TS5cl.TI2699.TE1.TS5evl.TI2702.TE0.TS5tg.TI2711.TE0.TS5cl.TI2715.TE0.TS5tg.TI2716.TE0.TS5tg.TI2721.TE0.TS5tg.TI2725.TE0.TS5tg.TI2731.TE0.TS5tg.TI2743.TE0.TS5tg.TI2747.TE0.TS5evl.TI2757.TE0.TS5cl.TI2770.TE0.TS5tl.TI2776.TE0.TS5tl.TI2779.TE0.TS5cl.TI2790.TE0.TS5tg.TI2793.TE0.TS5cl.TI2798.TE0.TS5cl.TI2799.TE0.TS5cl.TI2803.TE0.TS5evl.TI2804.TE0.TS5lcl.TI2805.TE0.TS5evl.TI2807.TE0.TS5evl.TI2811.TE0.TS5cl.TI2819.TE0.TS5cl.TI2820.TE0.TS5cl.TI2824.TE0.TS5lcl.TI2825.TE0.TS5lcl.TI2826.TE0.TS5lcl.TI2827.TE0.TS5tg.TI2830.TE0.TS5evl.TI2834.TE0.TS5tg.TI2836.TE0.TS5lcl.TI2847.TE0.TS5evl.TI2848.TE0.TS5lcl.TI2854.TE0.TS5tl.TI2862.TE0.TS5cl.TI2864.TE0.TS5evl.TI2865.TE0.TS5evl.TI2866.TE0.TS5evl.TI2868.TE0.TS5cl.TI2869.TE0.TS5cl.TI2870.TE0.TS5lcl.TI2872.TE0.TS5cl.TI2873.TE0.TS5cl.TI2875.TE0.TS5evl.TI2877.TE0.TS5evl.TI2878.TE0.TS5cl.TI2880.TE0.TS5lcl.TI2881.TE0.TS5cl.TI2883.TE0.TS5cl.TI2884.TE0.TS5lcl.TI2885.TE0.TS5tg.TI2887.TE0.TS5tg.TI2891.TE0.TS5cl.TI2897.TE0.TS5cl.TI2901.TE0.TS5cl.TI2902.TE0.TS5tg.TI2903.TE0.TS5lcl.TI2910.TE0.TS5lcl.TI2912.TE0.TS5lcl.TI2913.TE0.TS5cl.TI2915.TE0.TS5lcl.TI2917.TE0.TS5tg.TI2918.TE0.TS5tg.TI2922.TE0.TS5tg.TI2926.TE0.TS5lcl.TI2930.TE0.TS5html.TI2413.TE1.TS5html.TI2417.TE1.TS5html.TI2551.TE1.TS5cl.TI2774.TE61.TS5tl.TI2777.TE61.TS5cl.TI2800.TE60.TS5cl.TI2823.TE58.TS5lcl.TI2828.TE58.TS5cl.TI2857.TE57.TS5cl.TI2859.TE57.TS5cl.TI2871.TE56.TS5cl.TI2874.TE56.TS5cl.TI2876.TE56.TS5cl.TI2879.TE55.TS5lcl.TI2882.TE55.TS5lcl.TI2886.TE55.TS5lcl.TI2895.TE55.TS5cl.TI2896.TE55.TS5cl.TI2898.TE55.TS5lcl.TI2899.TE54.TS5lcl.TI2900.TE54.TS5cl.TI2907.TE54.TS5lcl.TI2908.TE54.TS5cl.TI2909.TE54.TS5lcl.TI2911.TE54.TS5cl.TI2914.TE54.TS5lcl.TI2916.TE54",
+            "pid": 1402539087,
+            "rv": 6691,
+            "t": "l",
+            "tag_exp": "0~115938466~115938469",
+            "u": "AAAAAIACAAAAAACAAAAAAAAY",
+            "ut": "AAAIIAAI",
+            "v": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=1402539087&rv=6691&tag_exp=0~115938466~115938469&u=AAAAAIACAAAAAACAAAAAAAAY&ut=AAAIIAAI&h=Ag&gtm=45Fe6691v71253996za204zd71253996&cl=3.8.2&ccid=1253996&cid=GTM-5R9QN8&l=L1281.S22.Y11.B102.E148.I2121.TC106.HTC3.F2108.C7~gtm.init_consent.S18.V17.E121~gtm.init.S10.V10.E126.TS5googtag.TI2199.TE7~gtm.js.S17.V17.E105.TS5cl.TI2699.TE1.TS5evl.TI2702.TE0.TS5tg.TI2711.TE0.TS5cl.TI2715.TE0.TS5tg.TI2716.TE0.TS5tg.TI2721.TE0.TS5tg.TI2725.TE0.TS5tg.TI2731.TE0.TS5tg.TI2743.TE0.TS5tg.TI2747.TE0.TS5evl.TI2757.TE0.TS5cl.TI2770.TE0.TS5tl.TI2776.TE0.TS5tl.TI2779.TE0.TS5cl.TI2790.TE0.TS5tg.TI2793.TE0.TS5cl.TI2798.TE0.TS5cl.TI2799.TE0.TS5cl.TI2803.TE0.TS5evl.TI2804.TE0.TS5lcl.TI2805.TE0.TS5evl.TI2807.TE0.TS5evl.TI2811.TE0.TS5cl.TI2819.TE0.TS5cl.TI2820.TE0.TS5cl.TI2824.TE0.TS5lcl.TI2825.TE0.TS5lcl.TI2826.TE0.TS5lcl.TI2827.TE0.TS5tg.TI2830.TE0.TS5evl.TI2834.TE0.TS5tg.TI2836.TE0.TS5lcl.TI2847.TE0.TS5evl.TI2848.TE0.TS5lcl.TI2854.TE0.TS5tl.TI2862.TE0.TS5cl.TI2864.TE0.TS5evl.TI2865.TE0.TS5evl.TI2866.TE0.TS5evl.TI2868.TE0.TS5cl.TI2869.TE0.TS5cl.TI2870.TE0.TS5lcl.TI2872.TE0.TS5cl.TI2873.TE0.TS5cl.TI2875.TE0.TS5evl.TI2877.TE0.TS5evl.TI2878.TE0.TS5cl.TI2880.TE0.TS5lcl.TI2881.TE0.TS5cl.TI2883.TE0.TS5cl.TI2884.TE0.TS5lcl.TI2885.TE0.TS5tg.TI2887.TE0.TS5tg.TI2891.TE0.TS5cl.TI2897.TE0.TS5cl.TI2901.TE0.TS5cl.TI2902.TE0.TS5tg.TI2903.TE0.TS5lcl.TI2910.TE0.TS5lcl.TI2912.TE0.TS5lcl.TI2913.TE0.TS5cl.TI2915.TE0.TS5lcl.TI2917.TE0.TS5tg.TI2918.TE0.TS5tg.TI2922.TE0.TS5tg.TI2926.TE0.TS5lcl.TI2930.TE0.TS5html.TI2413.TE1.TS5html.TI2417.TE1.TS5html.TI2551.TE1.TS5cl.TI2774.TE61.TS5tl.TI2777.TE61.TS5cl.TI2800.TE60.TS5cl.TI2823.TE58.TS5lcl.TI2828.TE58.TS5cl.TI2857.TE57.TS5cl.TI2859.TE57.TS5cl.TI2871.TE56.TS5cl.TI2874.TE56.TS5cl.TI2876.TE56.TS5cl.TI2879.TE55.TS5lcl.TI2882.TE55.TS5lcl.TI2886.TE55.TS5lcl.TI2895.TE55.TS5cl.TI2896.TE55.TS5cl.TI2898.TE55.TS5lcl.TI2899.TE54.TS5lcl.TI2900.TE54.TS5cl.TI2907.TE54.TS5lcl.TI2908.TE54.TS5cl.TI2909.TE54.TS5lcl.TI2911.TE54.TS5cl.TI2914.TE54.TS5lcl.TI2916.TE54"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-5R9QN8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5R9QN8&gtg_health=1"
+      },
+      {
+        "data": {
+          "filter": "||sitefinity.com/collect/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.insight.sitefinity.com/collect/v2/data-centers/5110a03a-a919-9c5f-581d-22586f83b5fd/datasources/Website/interactions"
+      },
+      {
+        "data": {
+          "filter": "||sitefinity.com/collect/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.insight.sitefinity.com/collect/v2/data-centers/5110a03a-a919-9c5f-581d-22586f83b5fd/datasources/Website/interactions"
+      },
+      {
+        "data": {
+          "filter": "||posthog.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1781168190108,
+            "ip": 0,
+            "token": "phc_lRjLLAqY28nfIBUvd29OG31zhVGnTB70hKWzE6uAtDS",
+            "ver": "1.386.3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eu.i.posthog.com/api/surveys/?token=phc_lRjLLAqY28nfIBUvd29OG31zhVGnTB70hKWzE6uAtDS&ip=0&_=1781168190108&ver=1.386.3"
+      },
+      {
+        "data": {
+          "filter": "||posthog.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "1.386.3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eu-assets.i.posthog.com/static/surveys.js?v=1.386.3"
+      },
+      {
+        "data": {
+          "filter": "||posthog.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eu-assets.i.posthog.com/array/phc_lRjLLAqY28nfIBUvd29OG31zhVGnTB70hKWzE6uAtDS/config.js"
+      },
+      {
+        "data": {
+          "filter": "||posthog.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sagepub.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eu-assets.i.posthog.com/static/array.js"
+      }
+    ]
+  }
+}

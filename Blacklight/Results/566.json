@@ -1,0 +1,603 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Homepage - Oxford University Press",
+  "uri_ins": "https://oup.com",
+  "uri_dest": "https://corp.oup.com/",
+  "uri_redirects": [
+    "https://oup.com/"
+  ],
+  "secure_connection": {},
+  "host": "oup.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:30:38.026Z",
+  "end_time": "2026-06-11T08:30:42.891Z",
+  "browsing_history": [
+    "https://corp.oup.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "oup.com",
+        "corp.oup.com"
+      ],
+      "third_party": [
+        "cdn-ukwest.onetrust.com",
+        "maps.googleapis.com",
+        "cdnjs.cloudflare.com",
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "geolocation.onetrust.com",
+        "res.cdn.office.net",
+        "fonts.gstatic.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P9DWG6K9": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-LQ502PJ7GJ": [
+          "mousedown",
+          "click"
+        ],
+        "https://corp.oup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "click",
+          "scroll"
+        ],
+        "https://corp.oup.com/wp-content/themes/oup-theme/js/lib/aos.min.js?ver=1694426600": [
+          "scroll"
+        ],
+        "https://maps.googleapis.com/maps/api/js?key&ver=6.9.4": [
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-LQ502PJ7GJ": [
+          "keyup"
+        ],
+        "https://maps.googleapis.com/maps/api/js?key&ver=6.9.4": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://corp.oup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://maps.googleapis.com/maps/api/js?key&ver=6.9.4": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://corp.oup.com/wp-content/themes/oup-theme/js/lib/aos.min.js?ver=1694426600": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://corp.oup.com/wp-content/themes/oup-theme/js/lib/lottie.min.js?ver=1694426600": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "PETKV768lZZO_fD1_lpyydePitw1_Eh..e21CE3ldmI-1781166638.778073-1.0.1.1-YfzH2N7D2q1ve7d4WBsGFps39N73AapP7wHWm5CSq723Ni67W9McAROXpGnBZd7Z0h.ctbQRgsqox6UGqtcBlQLN8cZmy751Rf24EaIIv78Jx5sKBhIzzJjsd1170Okt",
+        "domain": "corp.oup.com",
+        "path": "/",
+        "expires": "2026-06-11T09:00:38.851Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A30%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=202410.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=df6a5b39-c5fa-4074-9284-dbca9e13fe61&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fcorp.oup.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0004%3A0",
+        "domain": "corp.oup.com",
+        "path": "/",
+        "expires": "2027-06-11T08:30:40.000Z",
+        "size": 332,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1121,
+            "_p": 1781166639533,
+            "_s": 2,
+            "are": 1,
+            "cid": 268235312.17811665,
+            "dl": "https://corp.oup.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Homepage - Oxford University Press",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45Pe6691h1v9167572867za200zb9166788724zd9166788724",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166640,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938468~117776794~119456239~119456247",
+            "tfd": 4304,
+            "tid": "G-ZF5BBXPQ2B",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZF5BBXPQ2B&gtm=45Pe6691h1v9167572867za200zb9166788724zd9166788724&_p=1781166639533&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&are=1&cid=268235312.1781166640&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938468~117776794~119456239~119456247&sid=1781166640&sct=1&seg=0&dl=https%3A%2F%2Fcorp.oup.com%2F&dt=Homepage%20-%20Oxford%20University%20Press&en=user_engagement&_et=1121&tfd=4304"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1104,
+            "_p": 1781166639533,
+            "_s": 3,
+            "are": 1,
+            "cid": 268235312.17811665,
+            "dl": "https://corp.oup.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Homepage - Oxford University Press",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v9166788724za200zd9166788724",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166639,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4294,
+            "tid": "G-LQ502PJ7GJ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-LQ502PJ7GJ&gtm=45je6691v9166788724za200zd9166788724&_p=1781166639533&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&are=1&cid=268235312.1781166640&frm=0&pscdl=denied&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938466~115938469&sid=1781166639&sct=1&seg=0&dl=https%3A%2F%2Fcorp.oup.com%2F&dt=Homepage%20-%20Oxford%20University%20Press&en=user_engagement&_et=1104&tfd=4294"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AEA",
+            "_p": 1781166639533,
+            "_s": 2,
+            "ae": "a",
+            "are": 1,
+            "cid": 268235312.17811665,
+            "dl": "https://corp.oup.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Homepage - Oxford University Press",
+            "en": "scroll",
+            "epn.percent_scrolled": 90,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v9166788724za200zd9166788724",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166639,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 4293,
+            "tid": "G-LQ502PJ7GJ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-LQ502PJ7GJ&gtm=45je6691v9166788724za200zd9166788724&_p=1781166639533&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&_eu=AEA&ae=a&are=1&cid=268235312.1781166640&frm=0&pscdl=denied&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115938466~115938469&sid=1781166639&sct=1&seg=0&dl=https%3A%2F%2Fcorp.oup.com%2F&dt=Homepage%20-%20Oxford%20University%20Press&en=scroll&epn.percent_scrolled=90&tfd=4293"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781166639533,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 268235312.17811665,
+            "dl": "https://corp.oup.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Homepage - Oxford University Press",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45Pe6691h1v9167572867za200zb9166788724zd9166788724",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166640,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938468~117776794~119456239~119456247",
+            "tfd": 2750,
+            "tid": "G-91PRQFD8WG",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-91PRQFD8WG&gtm=45Pe6691h1v9167572867za200zb9166788724zd9166788724&_p=1781166639533&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&are=1&cid=268235312.1781166640&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~117776794~119456239~119456247&sid=1781166640&sct=1&seg=0&dl=https%3A%2F%2Fcorp.oup.com%2F&dt=Homepage%20-%20Oxford%20University%20Press&en=page_view&_fv=1&_ss=1&_ee=1&tfd=2750"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781166639533,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 268235312.17811665,
+            "dl": "https://corp.oup.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Homepage - Oxford University Press",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45Pe6691h1v9167572867za200zb9166788724zd9166788724",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 3,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166640,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938468~117776794~119456239~119456247",
+            "tfd": 2733,
+            "tid": "G-ZF5BBXPQ2B",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZF5BBXPQ2B&gtm=45Pe6691h1v9167572867za200zb9166788724zd9166788724&_p=1781166639533&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&are=1&cid=268235312.1781166640&frm=0&pscdl=denied&rcb=3&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~117776794~119456239~119456247&sid=1781166640&sct=1&seg=0&dl=https%3A%2F%2Fcorp.oup.com%2F&dt=Homepage%20-%20Oxford%20University%20Press&en=page_view&_fv=1&_ss=1&_ee=1&tfd=2733"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781166639533,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 268235312.17811665,
+            "dl": "https://corp.oup.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Homepage - Oxford University Press",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v9166788724za200zd9166788724",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166639,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469",
+            "tfd": 1865,
+            "tid": "G-LQ502PJ7GJ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-LQ502PJ7GJ&gtm=45je6691v9166788724za200zd9166788724&_p=1781166639533&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&are=1&cid=268235312.1781166640&frm=0&pscdl=denied&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469&sid=1781166639&sct=1&seg=0&dl=https%3A%2F%2Fcorp.oup.com%2F&dt=Homepage%20-%20Oxford%20University%20Press&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1865"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5XL7MSTS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5XL7MSTS"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "GT-MK57K4S"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GT-MK57K4S&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-P9DWG6K9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P9DWG6K9"
+      },
+      {
+        "data": {
+          "filter": "||googleapis.com^*/gen_204?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "csp_test": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-LQ502PJ7GJ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-LQ502PJ7GJ"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GT-MK57K4S"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://corp.oup.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GT-MK57K4S"
+      }
+    ]
+  }
+}

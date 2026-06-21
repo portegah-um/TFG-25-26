@@ -1,0 +1,659 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+  "uri_ins": "https://bbc.com",
+  "uri_dest": "https://www.bbc.com/",
+  "uri_redirects": [
+    "https://bbc.com/"
+  ],
+  "secure_connection": {},
+  "host": "bbc.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:37:01.587Z",
+  "end_time": "2026-06-11T06:37:08.034Z",
+  "browsing_history": [
+    "https://www.bbc.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "bbc.com",
+        "www.bbc.com",
+        "gn-web-assets.api.bbc.com",
+        "a1.api.bbc.com"
+      ],
+      "third_party": [
+        "static.files.bbci.co.uk",
+        "static.bbci.co.uk",
+        "cdn.optimizely.com",
+        "cdn.tinypass.com",
+        "emp.bbci.co.uk",
+        "ichef.bbci.co.uk",
+        "www.bbc.co.uk",
+        "cdn.privacy-mgmt.com",
+        "static.chartbeat.com",
+        "a4621041136.cdn.optimizely.com",
+        "uk-script.dotmetrics.net",
+        "mybbc-analytics.files.bbci.co.uk",
+        "ping.chartbeat.net",
+        "rm-script.dotmetrics.net",
+        "pagead2.googlesyndication.com",
+        "logx.optimizely.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.files.bbci.co.uk/bbcdotcom/web/20260602-053447-e5aadd404d-web-3.8.0-2/_next/static/chunks/pages/_app-7fec0a99d99f4279.js": [
+          "scroll",
+          "click"
+        ],
+        "https://static.chartbeat.com/js/chartbeat.js": [
+          "scroll"
+        ],
+        "https://cdn.tinypass.com/api/tinypass.min.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.privacy-mgmt.com/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://static.files.bbci.co.uk/bbcdotcom/web/20260602-053447-e5aadd404d-web-3.8.0-2/_next/static/chunks/pages/_app-7fec0a99d99f4279.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn.tinypass.com/api/tinypass.min.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ckns_echo_device_id",
+        "value": "2babec97-effd-48e5-9411-564b8d8a90e9",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2026-06-18T06:37:02.655Z",
+        "size": 55,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ckns_explicit",
+        "value": "0",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:02.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ckns_policy",
+        "value": "000",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:02.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ckns_policy_exp",
+        "value": "1781159822974",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:02.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ckns_privacy",
+        "value": "july2019",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:02.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ckns_mvt",
+        "value": "b24e1bb0-1dc3-4087-890f-7ef8fc6e0d4c",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:03.759Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "optimizelyEndUserId",
+        "value": "oeu1781159824493r0.41892725487497384",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2026-12-08T06:37:04.000Z",
+        "size": 55,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "optimizelySession",
+        "value": "1781159824516",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2026-12-08T06:37:04.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "https://www.bbc.com_oeu1781159824493r0.41892725487497384$$27302320011$$session_state",
+        "value": "{\"lastSessionTimestamp\":1781159824503,\"sessionId\":\"62d63997-5899-4654-a06d-1fef7076c0e2\"}",
+        "domain": "a4621041136.cdn.optimizely.com",
+        "path": "/",
+        "expires": "2026-12-08T06:37:05.070Z",
+        "size": 173,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cb",
+        "value": "CLKLH7C_XPoyByIuKG",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-07-11T06:37:05.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_chartbeat2",
+        "value": ".1781159825083.1781159825083.1.D153SwCsh3Tsm1t32BYVt1UKkvhz.1",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-07-11T06:37:05.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "external",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2026-06-11T07:07:05.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-06-11T06:37:05.305Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pprv",
+        "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6Im9wdC1pbiJ9LCIxIjp7Im1vZGUiOiJvcHQtaW4ifSwiMiI6eyJtb2RlIjoib3B0LWluIn0sIjMiOnsibW9kZSI6Im9wdC1pbiJ9LCI0Ijp7Im1vZGUiOiJvcHQtaW4ifSwiNSI6eyJtb2RlIjoib3B0LWluIn0sIjYiOnsibW9kZSI6Im9wdC1pbiJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjEiOiJBRCIsIjIiOiJDUCIsIjMiOiJQUiIsIjQiOiJQUiIsIjUiOiJQUiIsIjYiOiJBRCIsIjciOiJETCJ9LCJfdCI6Im41eGppMm01fG1xOTRrbGE1In0%3D",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-07-11T06:37:05.000Z",
+        "size": 407,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "pa_vid",
+        "value": "%222babec97-effd-48e5-9411-564b8d8a90e9%22",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-07-11T06:37:05.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pcid",
+        "value": "%7B%22browserId%22%3A%22mq94kl9x5ugl8116%22%2C%22_t%22%3A%22n5xji2mt%7Cmq94klau%22%7D",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-07-11T06:37:05.000Z",
+        "size": 90,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pctx",
+        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykArAA8AVvQBMAWyEAfSQEcAnABYA1qkJCQAXyA",
+        "domain": "bbc.com",
+        "path": "/",
+        "expires": "2027-07-11T06:37:05.000Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||logx.optimizely.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://logx.optimizely.com/v1/events"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://uk-script.dotmetrics.net/Scripts/ncs-script.js?v=364"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": false,
+            "dom": "www.bbc.com",
+            "id": 13934,
+            "pvid": "5e247d8e-ab0e-4a34-995c-d1e59f413177",
+            "pvs": 1,
+            "r": 1781159825308,
+            "tzOffset": -120,
+            "url": "https://www.bbc.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rm-script.dotmetrics.net/hit.gif?id=13934&url=https%3A%2F%2Fwww.bbc.com%2F&dom=www.bbc.com&r=1781159825308&pvs=1&pvid=5e247d8e-ab0e-4a34-995c-d1e59f413177&c=false&tzOffset=-120"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": false,
+            "dfph": "",
+            "dom": "www.bbc.com",
+            "doorUrl": "http://uk-script.dotmetrics.net/door.js?d=www.bbc.com&t=homestudio",
+            "ecid": "5e247d8e-ab0e-4a34-995c-d1e59f413177",
+            "id": 13934,
+            "pvs": 1,
+            "r": 1781159825308,
+            "tzOffset": -120,
+            "url": "https://www.bbc.com/",
+            "ver": 364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://uk-script.dotmetrics.net/hit.gif?id=13934&url=https%3A%2F%2Fwww.bbc.com%2F&dom=www.bbc.com&r=1781159825308&pvs=1&ecid=5e247d8e-ab0e-4a34-995c-d1e59f413177&c=false&tzOffset=-120&doorUrl=http%3a%2f%2fuk-script.dotmetrics.net%2fdoor.js%3fd%3dwww.bbc.com%26t%3dhomestudio&dfph=&ver=364"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.bbc.com/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "_s": {},
+            "b": 2999,
+            "c": 0,
+            "d": "bbc.com",
+            "e": 0,
+            "f": "00001",
+            "g": 50924,
+            "g0": "No Section",
+            "g1": "NewsMediaOrganization",
+            "g4": "indexPage",
+            "h": "bbc.com",
+            "i": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+            "im": "062b2f3f",
+            "j": 45,
+            "m": 0,
+            "n": 1,
+            "o": 375,
+            "p": "/",
+            "r": "",
+            "sd": 1,
+            "sn": 1,
+            "sr": "external",
+            "sv": "D153SwCsh3Tsm1t32BYVt1UKkvhz",
+            "t": "DSpXvPB7kEcWDIR5ApBNFBnRutoA1",
+            "tz": -120,
+            "u": "CLKLH7C_XPoyByIuKG",
+            "w": 812,
+            "x": 0,
+            "y": 16107
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=bbc.com&p=%2F&u=CLKLH7C_XPoyByIuKG&d=bbc.com&g=50924&g0=No%20Section&g1=NewsMediaOrganization&g4=indexPage&n=1&f=00001&c=0&x=0&m=0&y=16107&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.bbc.com%2F&b=2999&_s=%7B%7D&t=DSpXvPB7kEcWDIR5ApBNFBnRutoA1&V=151&i=BBC%20Home%20-%20Breaking%20News%2C%20World%20News%2C%20US%20News%2C%20Sports%2C%20Business%2C%20Innovation%2C%20Climate%2C%20Culture%2C%20Travel%2C%20Video%20%26%20Audio&tz=-120&_=a&sn=1&sv=D153SwCsh3Tsm1t32BYVt1UKkvhz&sr=external&sd=1&im=062b2f3f&_"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d": "www.bbc.com",
+            "t": "homestudio"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://uk-script.dotmetrics.net/door.js?d=www.bbc.com&t=homestudio"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/Y67aV8AjKqtntTQvKqk1A.json"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/public/4621041136/s/bbcx_prod.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "National Institute of Standards and Technology",
+  "uri_ins": "https://nist.gov",
+  "uri_dest": "https://www.nist.gov/",
+  "uri_redirects": [
+    "https://nist.gov/"
+  ],
+  "secure_connection": {},
+  "host": "nist.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:46:41.927Z",
+  "end_time": "2026-06-11T06:46:47.842Z",
+  "browsing_history": [
+    "https://www.nist.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nist.gov",
+        "www.nist.gov"
+      ],
+      "third_party": [
+        "static.cloudflareinsights.com",
+        "www.googletagmanager.com",
+        "time.gov",
+        "customer-ltx6ylk10sje63q6.cloudflarestream.com",
+        "region1.google-analytics.com",
+        "platform.dash.cloudflare.com",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://js-agent.newrelic.com/nr-rum-1.316.0.min.js": [
+          "click"
+        ],
+        "https://customer-ltx6ylk10sje63q6.cloudflarestream.com/embed/sdk-iframe-integration.fla9.latest.js?video=84921ef26d48015ab5328c0fcb8c49b7": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-HEQ0YF2VYL&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.nist.gov/sites/default/files/js/js_Vx1bvSyLBBlq7p0_mEFwXeTV0YGnhSB02YhS7rsDpbo.js?scope=footer&delta=0&language=en&theme=nist_www&include=eJxljmEOgzAIhS_UyZEItVg7aTFtTT3-OnWJ2_4AHzzg0VYVKY2z5gJ0A2NpXLBz1RVuNT6L4b1KSAu4vK0kw4XGq3phrOTB9_DLAz1p_25Gk0Kp4EUtyaNfPnBmcpw_iFPoeqctiZLDmruXkPo2neOVPOPE7N4m4b91qurMsX9VFUsZozpwoZDtlw_rh6a1drPS2E6aI1x5cIFE_QuuxnZ3": [
+          "scroll",
+          "mouseup"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-54VSXXDF": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://js-agent.newrelic.com/nr-rum-1.316.0.min.js": [
+          "keydown"
+        ],
+        "https://customer-ltx6ylk10sje63q6.cloudflarestream.com/embed/sdk-iframe-integration.fla9.latest.js?video=84921ef26d48015ab5328c0fcb8c49b7": [
+          "keypress"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781160404$o1$g0$t1781160404$j60$l0$h0",
+        "domain": "nist.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:46:44.743Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.604042401.1781160405",
+        "domain": "nist.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:46:44.745Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_HEQ0YF2VYL",
+        "value": "GS2.3.s1781160405$o1$g0$t1781160405$j60$l0$h0",
+        "domain": "www.nist.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:46:45.029Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.3.604042401.1781160405",
+        "domain": "www.nist.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:46:45.037Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "gEOeGWD2AX5vgnPR.r_rbxBmtp.esgqeGy2fOHNtbsY-1781160405-1.2.1.1-2TuySJ_WDEjE4t1UvH02.BfovRcBwu.PgrhgrL3S1QH9s4jGbyGOIKUgVIY4UEyBPCxlSOkFGtb7pXNaL1nkMwpRNTxl0zytJ.fkrrS5OAMkUBP13Hjl8RSmo2NT1bpVjCPIbPa1P2xJ8AREISDLoMn9ZbMnB7ihM3HXwELEzWTZNn0nh2zH8Q2mXkG7ZLvRT65BTm5gzPrQNcv67AUS.aKMWIR9tlDlpZ61mirtScGjwZLqjbaQ28eN.c9tN_bbRppQRKtH30wTm8I.0yTlNYKj4lq9XhhpqGVvZmptQlLbc6l4nFv8magFDaHCL3UwuMYgik4gYgykdikVCzJRWA",
+        "domain": "nist.gov",
+        "path": "/",
+        "expires": "2027-06-11T06:46:45.905Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://nist.gov",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "5yYfdfhnU8oHRKwZdqsxerpkMgb_K__Y3mmsU.yThgU-1781160405.8199751-1.0.1.1-5dTMfMK.UeLR0jhgZ_Wqur03HkwFHz2NonEe4nWGzgNl.kE.M1TMAJtsLofwtvX1jbrM7ZBCJ0JIiLyAwNgtk1y9flRbQw3jlReGVxil.dCIrszq4z9DFa1m3zD5TgSr",
+        "domain": "nist.gov",
+        "path": "/",
+        "expires": "2026-06-11T07:16:45.905Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1144,
+            "_eu": "AAAAAAQ",
+            "_p": 1781160404226,
+            "_s": 2,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 604042401.1781161,
+            "dl": "https://www.nist.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institute of Standards and Technology",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v895826815za20gzb9245188589zd9245188589",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160405,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~117776794~119456239~119456247",
+            "tfd": 5286,
+            "tid": "G-HEQ0YF2VYL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-HEQ0YF2VYL&gtm=45je6691v895826815za20gzb9245188589zd9245188589&_p=1781160404226&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=604042401.1781160405&frm=0&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938469~117776794~119456239~119456247&sid=1781160405&sct=1&seg=0&dl=https%3A%2F%2Fwww.nist.gov%2F&dt=National%20Institute%20of%20Standards%20and%20Technology&_tu=QA&en=user_engagement&_et=1144&tfd=5286"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1119,
+            "_eu": "AAAAAAQ",
+            "_p": 1781160404226,
+            "_s": 2,
+            "are": 1,
+            "cid": 604042401.1781161,
+            "dl": "https://www.nist.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institute of Standards and Technology",
+            "en": "user_engagement",
+            "ep.agency": "DOC",
+            "ep.subagency": "NIST",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za20gzb9245188589zd9245188589",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160404,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938469~119456240~119456248",
+            "tfd": 5265,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za20gzb9245188589zd9245188589&_p=1781160404226&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=604042401.1781160405&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115616986~115938466~115938469~119456240~119456248&sid=1781160404&sct=1&seg=0&dl=https%3A%2F%2Fwww.nist.gov%2F&dt=National%20Institute%20of%20Standards%20and%20Technology&en=user_engagement&ep.agency=DOC&ep.subagency=NIST&_et=1119&tfd=5265"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1089704227,
+            "ck": 0,
+            "ptid": "fa0947b92186775a",
+            "ref": "https://www.nist.gov/",
+            "rst": 4206,
+            "s": "c56b65db014a81e9",
+            "to": "YFxUN0sADEdYVkBaClkWdwBNCA1aFkVVVABoWlcAUQQ=",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/37b7ccb661?a=1089704227&v=1.316.0&to=YFxUN0sADEdYVkBaClkWdwBNCA1aFkVVVABoWlcAUQQ%3D&rst=4206&ck=0&s=c56b65db014a81e9&ref=https://www.nist.gov/&ptid=fa0947b92186775a"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1089704227,
+            "ap": 35,
+            "at": "TBtDQQMaHxgbVBYJHkpE",
+            "be": 1425,
+            "ck": 0,
+            "dc": 1030,
+            "fcp": 1925,
+            "fe": 1981,
+            "fp": 1925,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 966,
+                "ce": 966,
+                "dc": 3401,
+                "de": 2456,
+                "di": 2427,
+                "dn": 966,
+                "dne": 966,
+                "ds": 2439,
+                "f": 966,
+                "l": 3401,
+                "le": 3406,
+                "n": 0,
+                "of": 1781160402434,
+                "rp": 1425,
+                "rpe": 1435,
+                "rq": 993,
+                "s": 966
+              }
+            },
+            "ptid": "fa0947b92186775a",
+            "qt": 9,
+            "ref": "https://www.nist.gov/",
+            "rst": 3517,
+            "s": "c56b65db014a81e9",
+            "to": "YFxUN0sADEdYVkBaClkWdwBNCA1aFkVVVABoWlcAUQQ=",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/37b7ccb661?a=1089704227&v=1.316.0&to=YFxUN0sADEdYVkBaClkWdwBNCA1aFkVVVABoWlcAUQQ%3D&rst=3517&ck=0&s=c56b65db014a81e9&ref=https://www.nist.gov/&ptid=fa0947b92186775a&qt=9&ap=35&be=1425&fe=1981&dc=1030&at=TBtDQQMaHxgbVBYJHkpE&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781160402434,%22n%22:0,%22f%22:966,%22dn%22:966,%22dne%22:966,%22c%22:966,%22s%22:966,%22ce%22:966,%22rq%22:993,%22rp%22:1425,%22rpe%22:1435,%22di%22:2427,%22ds%22:2439,%22de%22:2456,%22dc%22:3401,%22l%22:3401,%22le%22:3406%7D,%22navigation%22:%7B%7D%7D&fp=1925&fcp=1925"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-rum-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1781160404226,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 604042401.1781161,
+            "dl": "https://www.nist.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institute of Standards and Technology",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v895826815z89245188589za20gzb9245188589zd9245188589",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160405,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~117776794~119456239~119456247",
+            "tfd": 2608,
+            "tid": "G-HEQ0YF2VYL",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-HEQ0YF2VYL&gtm=45je6691v895826815z89245188589za20gzb9245188589zd9245188589&_p=1781160404226&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=604042401.1781160405&frm=0&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~117776794~119456239~119456247&sid=1781160405&sct=1&seg=0&dl=https%3A%2F%2Fwww.nist.gov%2F&dt=National%20Institute%20of%20Standards%20and%20Technology&_tu=QA&en=page_view&_fv=1&_ss=1&tfd=2608"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781160404226,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 604042401.1781161,
+            "dl": "https://www.nist.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institute of Standards and Technology",
+            "en": "page_view",
+            "ep.agency": "DOC",
+            "ep.subagency": "NIST",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v9131934939z89245188589za20gzb9245188589zd9245188589",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781160404,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938469~119456240~119456248",
+            "tfd": 2315,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939z89245188589za20gzb9245188589zd9245188589&_p=1781160404226&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=604042401.1781160405&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~119456240~119456248&sid=1781160404&sct=1&seg=0&dl=https%3A%2F%2Fwww.nist.gov%2F&dt=National%20Institute%20of%20Standards%20and%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&ep.agency=DOC&ep.subagency=NIST&tfd=2315"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-HEQ0YF2VYL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-HEQ0YF2VYL&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-54VSXXDF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-54VSXXDF"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nist.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

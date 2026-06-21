@@ -1,0 +1,181 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Mail-in-a-Box",
+  "uri_ins": "https://mailinabox.email",
+  "uri_dest": "https://mailinabox.email/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "mailinabox.email",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:07:34.153Z",
+  "end_time": "2026-06-11T06:07:37.690Z",
+  "browsing_history": [
+    "https://mailinabox.email/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mailinabox.email"
+      ],
+      "third_party": [
+        "github.com",
+        "www.youtube-nocookie.com",
+        "raw.githubusercontent.com",
+        "fonts.gstatic.com",
+        "i.ytimg.com",
+        "yt3.ggpht.com",
+        "www.gstatic.com",
+        "www.google.com",
+        "jnn-pa.googleapis.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.google.com/js/th/j4Ntrty0v2XuOTPuDZnwm4R49aNsF-k4GV3wovrYX9k.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.youtube-nocookie.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "touchstart",
+          "touchend"
+        ]
+      },
+      "MOUSE": {
+        "https://www.google.com/js/th/j4Ntrty0v2XuOTPuDZnwm4R49aNsF-k4GV3wovrYX9k.js": [
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.youtube-nocookie.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://mailinabox.email/static/vendor/jquery.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.Ngtfv6_zjjw.2021.O/am=AAAAgA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywHRfZqHIdBV9nGHAyiDygiaD_6fAQ/m=r78Drb": [
+          "keydown"
+        ],
+        "https://www.youtube-nocookie.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://mailinabox.email/static/vendor/jquery.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.Ngtfv6_zjjw.2021.O/am=AAAAgA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywHRfZqHIdBV9nGHAyiDygiaD_6fAQ/m=r78Drb": [
+          "orientationchange"
+        ],
+        "https://www.youtube-nocookie.com/s/player/ce74690f/player_embed_es6.vflset/en_US/base.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "domain": "mailinabox.email",
+        "name": "LAST_RESULT_ENTRY_KEY",
+        "path": "/",
+        "script": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.Ngtfv6_zjjw.2021.O/am=AAAAgA/d=1/br=1/rs=AGKMywHRfZqHIdBV9nGHAyiDygiaD_6fAQ/m=root,base",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "mailinabox.email",
+        "name": "TESTCOOKIESENABLED",
+        "path": "",
+        "script": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.Ngtfv6_zjjw.2021.O/am=AAAAgA/d=1/br=1/rs=AGKMywHRfZqHIdBV9nGHAyiDygiaD_6fAQ/m=root,base",
+        "type": "js",
+        "value": "1",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ISUA2Q": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.youtube-nocookie.com/embed/9WOmkoEYMIg",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.youtube-nocookie.com/generate_204?ISUA2Q"
+      }
+    ]
+  }
+}

@@ -1,0 +1,860 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Fox News - Breaking News Updates | Latest News Headlines | Photos & News Videos",
+  "uri_ins": "https://foxnews.com",
+  "uri_dest": "https://www.foxnews.com/",
+  "uri_redirects": [
+    "https://foxnews.com/"
+  ],
+  "secure_connection": {},
+  "host": "foxnews.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:03:35.938Z",
+  "end_time": "2026-06-11T08:03:50.724Z",
+  "browsing_history": [
+    "https://www.foxnews.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "foxnews.com",
+        "www.foxnews.com",
+        "static.foxnews.com",
+        "a57.foxnews.com",
+        "smetrics.foxnews.com",
+        "my.foxnews.com",
+        "prod-hp.foxnews.com",
+        "pub-admin-elections.foxnews.com"
+      ],
+      "third_party": [
+        "c.amazon-adsystem.com",
+        "config.aps.amazon-adsystem.com",
+        "client.aps.amazon-adsystem.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.knotch-cdn.com",
+        "api.strike.fox",
+        "dpm.demdex.net",
+        "js.appboycdn.com",
+        "prod.idgraph.dt.fox",
+        "prod.pyxis.atp.fox",
+        "static.trueanthem.com",
+        "wealthygeezwell.com",
+        "pix.pub",
+        "configs.knotch.com",
+        "frontdoor.knotch.it",
+        "use.fontawesome.com",
+        "sdk.iad-05.braze.com",
+        "prod.fennec.atp.fox",
+        "www.google.com",
+        "idms.foxbusiness.com",
+        "www.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://prod.fennec.atp.fox/js/fennec.js": [
+          "click"
+        ],
+        "https://static.foxnews.com/static/orion/scripts/core/base/app/modules/header.js": [
+          "scroll"
+        ],
+        "https://www.knotch-cdn.com/ktag/latest/ktag.min.js?accountId=0c1098d4-e85c-41fd-be56-6189d39234c9": [
+          "click",
+          "scroll"
+        ],
+        "https://static.foxnews.com/static/isa/app/lib/omtr_code.js": [
+          "mouseup",
+          "scroll"
+        ],
+        "https://static.foxnews.com/static/strike/scripts/libs/jquery.js?v=v248": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://my.foxnews.com/v2/scripts/libs.js?v=v3.11.0": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://static.foxnews.com/static/orion/scripts/core/ag.core.js?v=202661164": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://static.foxnews.com/static/strike/scripts/libs/jquery.js?v=v248": [
+          "touchmove"
+        ],
+        "https://static.foxnews.com/static/isa/app/lib/omtr_code.js": [
+          "touchend"
+        ],
+        "https://static.foxnews.com/static/orion/scripts/core/ag.core.js?v=202661164": [
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://static.foxnews.com/static/orion/scripts/core/ag.core.js?v=202661164": [
+          "orientationchange"
+        ],
+        "https://static.foxnews.com/static/isa/app/lib/omtr_code.js": [
+          "orientationchange"
+        ],
+        "https://static.foxnews.com/static/strike/scripts/libs/jquery.js?v=v248": [
+          "orientationchange"
+        ],
+        "https://my.foxnews.com/v2/scripts/libs.js?v=v3.11.0": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.foxnews.com/static/isa/app/lib/omtr_code.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "FXN_flk",
+        "value": "1",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2026-06-12T08:03:41.000Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "EID",
+        "value": "null",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-06-11T08:03:47.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "xid",
+        "value": "79f29061-76dd-4270-b99b-6ade9700fd2a",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:03:42.750Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "fn_wps_meta",
+        "value": "%7B%22enabled%22%3Afalse%2C%22permission%22%3A%22default%22%7D",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-06-11T08:03:48.000Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "kn_cs_visitor_id",
+        "value": "7f22acfb-8137-4a91-bc50-11aae20e3a6a",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-06-11T08:03:43.000Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C89385565772360101501055329150625139593",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:03:48.724Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AMCVS_17FC406C5357BA6E0A490D4D%40AdobeOrg",
+        "value": "1",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ab.storage.deviceId.275a5f1b-9bdf-455f-ba87-81c7b20ce830",
+        "value": "g%3Ae1bc814c-a3f3-787d-09ad-fe973a0c4720%7Ce%3Aundefined%7Cc%3A1781165023324%7Cl%3A1781165023324",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:03:48.000Z",
+        "size": 152,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2026-06-11T09:03:43.459Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visitor_id",
+        "value": "",
+        "domain": "knotch.it",
+        "path": "/",
+        "expires": "2027-06-11T08:03:48.962Z",
+        "size": 10,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "optout",
+        "value": "1",
+        "domain": "knotch.it",
+        "path": "/",
+        "expires": "2027-06-11T08:03:48.962Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_foxid_busso",
+        "value": "1",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-06-11T08:03:44.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_foxid__foxid_anon",
+        "value": "79f29061-76dd-4270-b99b-6ade9700fd2a",
+        "domain": "my.foxnews.com",
+        "path": "/",
+        "expires": "2027-06-11T08:03:44.000Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "UID_STATE",
+        "value": "false",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-06-11T08:03:47.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_17FC406C5357BA6E0A490D4D%40AdobeOrg",
+        "value": "1585540135%7CMCIDTS%7C20616%7CMCMID%7C89385565772360101501055329150625139593%7CMCAID%7CNONE%7CMCOPTOUT-1781172228s%7CNONE%7CvVersion%7C4.4.0",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:03:48.685Z",
+        "size": 180,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ab.storage.sessionId.275a5f1b-9bdf-455f-ba87-81c7b20ce830",
+        "value": "g%3A1dc24e30-a945-c303-3b1e-531f7cc90bdd%7Ce%3A1781166828488%7Cc%3A1781165023295%7Cl%3A1781165028488",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:03:48.000Z",
+        "size": 157,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_pers",
+        "value": "%20omtr_lv%3D1781165028648%7C1875773028648%3B%20omtr_lv_s%3DFirst%2520Visit%7C1781166828648%3B%20s_nr%3D1781165028656-New%7C1783757028656%3B%20s_ppn%3Dfnc%253Aroot%253Aroot%253Achannel%7C1781166828673%3B",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": "2027-07-16T08:03:48.676Z",
+        "size": 209,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_sess",
+        "value": "%20s_ppvl%3Dfnc%25253Aroot%25253Aroot%25253Achannel%252C2%252C2%252C812%252C375%252C812%252C375%252C812%252C3%252CP%3B%20SC_LINKS%3D%3B%20s_ppv%3Dfnc%25253Aroot%25253Aroot%25253Achannel%252C2%252C3%252C1712%252C375%252C812%252C375%252C812%252C3%252CP%3B",
+        "domain": "foxnews.com",
+        "path": "/",
+        "expires": -1,
+        "size": 259,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://frontdoor.knotch.it/ingress"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://frontdoor.knotch.it/ingress"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://frontdoor.knotch.it/ingress"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "AAM",
+            "d_mid": 8.93855657723601e+37,
+            "d_nsid": 0,
+            "d_orgid": "17FC406C5357BA6E0A490D4D@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "4.4.0",
+            "ts": 1781165028220
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=17FC406C5357BA6E0A490D4D%40AdobeOrg&d_nsid=0&d_mid=89385565772360101501055329150625139593&ts=1781165028220"
+      },
+      {
+        "data": {
+          "filter": "||pix.pub^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "foxnews-pix-fox-news-reach-and-frequency-062d298b-c587-4c31-a1b7-81d0d182403b",
+            "t": 804857.6202341564
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pix.pub/t.png?l=foxnews-pix-fox-news-reach-and-frequency-062d298b-c587-4c31-a1b7-81d0d182403b&t=804857.6202341564"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "AAM",
+            "d_mid": 8.93855657723601e+37,
+            "d_nsid": 0,
+            "d_orgid": "17FC406C5357BA6E0A490D4D@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "4.4.0",
+            "ts": 1781165027681
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=17FC406C5357BA6E0A490D4D%40AdobeOrg&d_nsid=0&d_mid=89385565772360101501055329150625139593&ts=1781165027681"
+      },
+      {
+        "data": {
+          "filter": "||appboycdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.appboycdn.com/web-sdk/6.2/braze.min.js"
+      },
+      {
+        "data": {
+          "filter": "/ktag/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountId": "0c1098d4-e85c-41fd-be56-6189d39234c9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.knotch-cdn.com/ktag/latest/ktag.min.js?accountId=0c1098d4-e85c-41fd-be56-6189d39234c9"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3023"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||pix.pub^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "foxnews-pix-fox-news-reach-and-frequency-062d298b-c587-4c31-a1b7-81d0d182403b",
+            "t": 301888.21484044014
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://my.foxnews.com/xd-channel.html?_x_auth=foxid&",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pix.pub/t.png?l=foxnews-pix-fox-news-reach-and-frequency-062d298b-c587-4c31-a1b7-81d0d182403b&t=301888.21484044014"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "AAM",
+            "d_mid": 8.93855657723601e+37,
+            "d_nsid": 0,
+            "d_orgid": "17FC406C5357BA6E0A490D4D@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "4.4.0",
+            "ts": 1781165023086
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=17FC406C5357BA6E0A490D4D%40AdobeOrg&d_nsid=0&d_mid=89385565772360101501055329150625139593&ts=1781165023086"
+      },
+      {
+        "data": {
+          "filter": "||pix.pub^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "foxnews-pix-fox-news-reach-and-frequency-062d298b-c587-4c31-a1b7-81d0d182403b",
+            "t": 901525.6815029996
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pix.pub/t.png?l=foxnews-pix-fox-news-reach-and-frequency-062d298b-c587-4c31-a1b7-81d0d182403b&t=901525.6815029996"
+      },
+      {
+        "data": {
+          "filter": "||appboycdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.appboycdn.com/web-sdk/6.2/braze.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "17FC406C5357BA6E0A490D4D@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_verify": 1,
+            "d_visid_ver": "4.4.0",
+            "ts": 1781165022638
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=17FC406C5357BA6E0A490D4D%40AdobeOrg&d_nsid=0&ts=1781165022638"
+      },
+      {
+        "data": {
+          "filter": "/ktag/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountId": "0c1098d4-e85c-41fd-be56-6189d39234c9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.knotch-cdn.com/ktag/latest/ktag.min.js?accountId=0c1098d4-e85c-41fd-be56-6189d39234c9"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3023"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.foxnews.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      }
+    ]
+  }
+}

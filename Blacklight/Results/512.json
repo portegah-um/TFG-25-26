@@ -1,0 +1,388 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Fandom",
+  "uri_ins": "https://fandom.com",
+  "uri_dest": "https://www.fandom.com/",
+  "uri_redirects": [
+    "https://fandom.com/"
+  ],
+  "secure_connection": {},
+  "host": "fandom.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:14:40.975Z",
+  "end_time": "2026-06-11T08:14:47.269Z",
+  "browsing_history": [
+    "https://www.fandom.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "fandom.com",
+        "www.fandom.com",
+        "community.fandom.com",
+        "services.fandom.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "www.google-analytics.com",
+        "static.wikia.nocookie.net",
+        "www.fastly-insights.com",
+        "fonts.gstatic.com",
+        "script.wikia.nocookie.net",
+        "g2.gumgum.com",
+        "beacon.wikia-services.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.fandom.com/f2/api/global-components/scripts//__cb2642209168791585/resources-ucp/mw143/dist/scripts/MobileGlobalNavigationUtilityItems-HAHBOFXp.js": [
+          "scroll"
+        ]
+      },
+      "SENSOR": {
+        "https://script.wikia.nocookie.net/fandom-ae-assets/platforms/v151.23.0/f2/main.bundle.js": [
+          "orientationchange"
+        ],
+        "https://www.fandom.com/f2/assets/jquery-BEwU3XJH.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.fandom.com/f2/assets/dialogs-4SmqQ0B6.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "Geo",
+        "value": "{%22region%22:%22MU%22%2C%22city%22:%22murcia%22%2C%22country_name%22:%22spain%22%2C%22country%22:%22ES%22%2C%22continent%22:%22EU%22}",
+        "domain": "fandom.com",
+        "path": "/",
+        "expires": -1,
+        "size": 137,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "xMNMbowuxkUncZasEh70tUwSKGct_iee7dOuQmfpbb4-1781165681.7470543-1.0.1.1-1aS2Df3DudV2Uow74FriFh5qaG3jndbtebaYt98bhd6QpiLmLNrYI_PtAvdXFqT5hb5.pAOiGB2zEtRU_ytuEEPFlAqDT6VwosMFpzbiwzgOb3zPLeef8TinbO8q_Ft4",
+        "domain": "fandom.com",
+        "path": "/",
+        "expires": "2026-06-11T08:44:41.849Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "mZKmtGFHAHN6CHORuKlLry9HrNFPx2tadPjECqWHRxk-1781165681.86873-1.0.1.1-TGTj0Q2cxY12lZaIVZytnVXb9IA17IscYjXThGeDJqC.9TSGtZZDD3_qNmhHEhklhKUcaNvIRqC_F7Cz0aiR3buhlED4f15P8ip0Q5skzTd3qO7M0zMMU7hunbTO..Ho",
+        "domain": "nocookie.net",
+        "path": "/",
+        "expires": "2026-06-11T08:44:41.885Z",
+        "size": 204,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "TWYmODTeok5KVfT7uETTAeTg3z1NbhZoSlgnQPP4f_o-1781165682-1.2.1.1-d18ftgAe1hGRrpJbt5ym7T41qyFOIeaCiUNTiCF3nEcVy_mc83eFfL_ls2i8hkt2Zw6vdyjMwjB.ZCelZTNZJy8Ylwan2BHnUronovArwbnz2RHX43i3dfOGlj8HlZ7UZzRzrYrRhhiwXYu6kVKnE5iRh9bSyntlQQJ_1QB0_KUDv_17tjEAoJwSY45mk9zrDLyl5.yNr56if7QK3uynm.MMWcV6Eaxg8OoxMlTprtIJ87BCby3noa_JrJzdg6uGzOIy2FSEL9Y64M3jJ6z8sPMgoU.plTXdU6Gj0XJFJA9k.0TFFFGvvsbrwf__gnVfC8Osp0yGWeF_DgF56UIlhw",
+        "domain": "www.fandom.com",
+        "path": "/",
+        "expires": "2027-06-11T08:14:42.745Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://fandom.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "w2tDI554.j253O9MCrN3gkEPHrq6kqDEjD9wXh42qHo-1781165682.7177145-1.0.1.1-SahtuiMjOYDjOAUYw1XDsTQYPBh_rZPQ3TKitC0HfIciftpcCC4c_Z11IQwOaq_7V1b.uL_.JPYeprFVw5dMzyZwkK4mf4HvCz65EPtczS965rCJlX47UhQquMXU7ywX",
+        "domain": "www.fandom.com",
+        "path": "/",
+        "expires": "2026-06-11T08:44:42.746Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "GZGD4aB8bs5UtqG2y8f2vFHUF7M2pY94HDVfzEDoAk0-1781165682.919639-1.0.1.1-u8Vyt6qIh25jNujv2lgv9yjMqj62HCNcAkIxeozrGMAG7Nz9uclVtnprOPEmqlwxlvPWli14je8K154gtDuTNzs_bke4i0WiXVUQmJO4UsBcBiswsm3.qMPsx00g22cF",
+        "domain": "services.fandom.com",
+        "path": "/",
+        "expires": "2026-06-11T08:44:42.957Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A14%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202510.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=5bda056f-8bfa-436a-83e4-bad68a0ae101&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.fandom.com%2F&groups=C0005%3A0%2CC0004%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CV2STACK42%3A0",
+        "domain": "fandom.com",
+        "path": "/",
+        "expires": "2027-06-11T08:14:44.000Z",
+        "size": 374,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||beacon.wikia-services.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": -1,
+            "beacon": "opted-out",
+            "browser": "iOS Safari 15",
+            "browser_ts": 1781165684350,
+            "c": "unknown",
+            "cb": 94500,
+            "ck": "unknown",
+            "country": "es",
+            "event_name": "onetrust-ui-shown",
+            "exp_bucket": "opted-out",
+            "lc": "unknown",
+            "load_time": 2930.800048828125,
+            "n": -1,
+            "pv_number": "undefined",
+            "pv_number_global": "undefined",
+            "pv_unique_id": "1144f6ff-a2ba-4b90-a7e9-33472d10e845",
+            "s": "fandom_mobile",
+            "session_id": "opted-out",
+            "tz_offset": -120,
+            "u": -1,
+            "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "url": "https://www.fandom.com/",
+            "x": "unknown"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fandom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.wikia-services.com/__track/special/adengloadtimes?a=-1&beacon=opted-out&browser=iOS+Safari+15&browser_ts=1781165684350&c=unknown&cb=94500&ck=unknown&country=es&event_name=onetrust-ui-shown&exp_bucket=opted-out&lc=unknown&load_time=2930.800048828125&n=-1&pv_number=undefined&pv_number_global=undefined&pv_unique_id=1144f6ff-a2ba-4b90-a7e9-33472d10e845&s=fandom_mobile&session_id=opted-out&tz_offset=-120&u=-1&ua=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+15_0+like+Mac+OS+X%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Version%2F15.4+Mobile%2F15E148+Safari%2F604.1&url=https%3A%2F%2Fwww.fandom.com%2F&x=unknown"
+      },
+      {
+        "data": {
+          "filter": "||beacon.wikia-services.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": -1,
+            "action": "pageload",
+            "c": 1452001,
+            "category": "engagement",
+            "component": "general",
+            "env": "prod",
+            "lc": "en",
+            "n": -1,
+            "pv_unique_id": "1144f6ff-a2ba-4b90-a7e9-33472d10e845",
+            "rayid": "unknown",
+            "rc": "MU",
+            "src": "fandom-fandom_mobile",
+            "tlv": "1.4.6",
+            "tsto": 1167,
+            "url": "https://www.fandom.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fandom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.wikia-services.com/__track/special/pageload?category=engagement&component=general&action=pageload&pv_unique_id=1144f6ff-a2ba-4b90-a7e9-33472d10e845&rayid=unknown&n=-1&c=1452001&a=-1&lc=en&env=prod&tsto=1167&tlv=1.4.6&src=fandom-fandom_mobile&url=https%3A%2F%2Fwww.fandom.com%2F&rc=MU"
+      },
+      {
+        "data": {
+          "filter": "||gumgum.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "displaymanager": "Prebid.js"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fandom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://g2.gumgum.com/hbid/imp?displaymanager=Prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||fastly-insights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "k": "17272cd8-82ee-4eb5-b5a3-b3cd5403f7c5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fandom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.fastly-insights.com/static/scout.js?k=17272cd8-82ee-4eb5-b5a3-b3cd5403f7c5"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fandom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fandom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      }
+    ]
+  }
+}

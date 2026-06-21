@@ -1,0 +1,305 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Netflix España - Watch TV Shows Online, Watch Movies Online",
+  "uri_ins": "https://netflix.net",
+  "uri_dest": "https://www.netflix.com/es-en/",
+  "uri_redirects": [
+    "https://netflix.net/",
+    "https://www.netflix.com/"
+  ],
+  "secure_connection": {},
+  "host": "netflix.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:22:35.195Z",
+  "end_time": "2026-06-11T08:22:45.505Z",
+  "browsing_history": [
+    "https://www.netflix.com/es-en/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "netflix.net",
+        "www.netflix.com",
+        "logs.netflix.com",
+        "web.prod.cloud.netflix.com",
+        "ichnaea-web.netflix.com"
+      ],
+      "third_party": [
+        "assets.nflxext.com",
+        "help.nflxext.com",
+        "occ.a.nflxso.net",
+        "occ-0-4638-358.1.nflxso.net",
+        "geolocation.onetrust.com",
+        "www.google.com",
+        "www.gstatic.com",
+        "cookies-data.onetrust.io",
+        "ae.nflximg.net",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.2dd7736126617d952d49.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.2dd7736126617d952d49.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.2dd7736126617d952d49.js": [
+          "click",
+          "mousedown",
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "flwssn",
+        "value": "88a1aa55-a870-4339-a3f9-40d6819633e7",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2026-06-11T11:22:38.062Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nfvdid",
+        "value": "BQFmAAEBEJRw4dea44V2S7pBnSF9njtAgMJl0GiumNOUk2p7WdD9G1MPmJOkYyU31eGw90jvbPm2SdBXAqB96BzXtyw001Q54_Aye5xgfBo2QIK1HJQPrw%3D%3D",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2027-06-11T08:22:37.494Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SecureNetflixId",
+        "value": "v%3D3%26mac%3DAQEAEQABABRVSHSHvH3IhoB640ayqmXF4wsmVCZJja0.%26dt%3D1781166157437",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2027-06-11T08:22:37.494Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NetflixId",
+        "value": "v%3D3%26ct%3DBgjHlOvcAxK8AfKRIvz-Uk6D8ou19ufUhHUCdbP1C4_F1GSKzCkB-4f5e9r_HID-gssclGg2Wma2EGV0WQL0HHjoV1OKON-oPSLrlI3t0rk2Tb4DAVqEaZReHfnpRccptsrc3t0l_fpxX5GEyCXd5MDBQmyM_HogcyDpkb33JntoblP-uuzhwStZGNv8lwj00tbDwcYxvxNq6j4EF9YYYEpwjpN7yGQ4TkENjZm4-2Asobbo_DVmoSviNFTs6tWMDH-GCG7OGAYiDgoMxgqZ3BiQ7PShL3pZ",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2027-06-11T08:22:37.495Z",
+        "size": 310,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gsid",
+        "value": "d5da3cc4-2450-4e08-bfe5-3a230d40df7d",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2026-06-12T08:22:38.062Z",
+        "size": 40,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "netflix-sans-normal-3-loaded",
+        "value": "true",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2026-09-09T08:22:39.376Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "netflix-sans-bold-3-loaded",
+        "value": "true",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2026-09-09T08:22:39.377Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A22%3A39+GMT%2B0200+(Central+European+Summer+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=130f9a55-b634-4768-a429-23a62516b35f&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.netflix.com%2Fes-en%2F&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A0%2CC0004%3A0",
+        "domain": "netflix.com",
+        "path": "/",
+        "expires": "2027-06-11T08:22:39.000Z",
+        "size": 385,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OTSessionTracking",
+        "value": "87b6a5c0-0104-4e96-a291-092c11350111",
+        "domain": "www.netflix.com",
+        "path": "/",
+        "expires": "2026-06-12T08:22:40.000Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/adtech_$domain=~adtech.co.uk",
+          "listName": "easylist.txt",
+          "query": {
+            "data": {
+              "country": "ES",
+              "deniedConsentCookieGroups": "C0003,C0004,C0005",
+              "is_member": "ANONYMOUS",
+              "membership_status": "ANONYMOUS",
+              "referrer": "nmLanding",
+              "request_id": "3839eb4d-51a3-409b-825d-1e52c2f974ac-10317935",
+              "wasFormerMember": false
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ae.nflximg.net/monet/scripts/adtech_iframe_target_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22ES%22%2C%22request_id%22%3A%223839eb4d-51a3-409b-825d-1e52c2f974ac-10317935%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0003%2CC0004%2CC0005%22%7D"
+      }
+    ]
+  }
+}

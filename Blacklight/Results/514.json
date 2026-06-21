@@ -1,0 +1,419 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Secure Identity for Employees, Customers, and AI | Okta",
+  "uri_ins": "https://okta.com",
+  "uri_dest": "https://www.okta.com/",
+  "uri_redirects": [
+    "https://okta.com/"
+  ],
+  "secure_connection": {},
+  "host": "okta.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:15:14.947Z",
+  "end_time": "2026-06-11T08:15:20.026Z",
+  "browsing_history": [
+    "https://www.okta.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "okta.com",
+        "www.okta.com",
+        "pages.okta.com"
+      ],
+      "third_party": [
+        "rum.hlx.page",
+        "cdn.cookielaw.org",
+        "assets.adobedtm.com",
+        "fonts.googleapis.com",
+        "static.cloudflareinsights.com",
+        "www.googletagmanager.com",
+        "munchkin.marketo.net",
+        "geolocation.onetrust.com",
+        "855-qah-699.mktoutil.com",
+        "play.vidyard.com",
+        "855-qah-699.mktoresp.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5VD332L9&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.okta.com/etc.clientlibs/okta-www/clientlibs/clientlib-site.lc-3bd7b18d8a40d8d6ce720d97c18f54fc-lc.min.js": [
+          "click",
+          "mousedown",
+          "scroll",
+          "mouseup",
+          "mousemove"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ],
+        "https://munchkin.marketo.net/165/munchkin.js": [
+          "click"
+        ],
+        "https://assets.adobedtm.com/6bb3f7663515/a88f122425e8/launch-58767bf1d43d.min.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.okta.com/etc.clientlibs/okta-www/clientlibs/clientlib-site.lc-3bd7b18d8a40d8d6ce720d97c18f54fc-lc.min.js": [
+          "keydown",
+          "keypress",
+          "input"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "j1KDenSsZ_40tLGjPqhIR7U.ZakVBdES4fP_ancs4QM-1781165715-1.0.1.1-43kufGXW_TeZ8ExzKrGTzxZqJwJ0z2FVE241jP3RYI4BhvCK_8z8OoskDgca0w2Zi.0Jc7kJ24ukiLeOwFd2qw9.c3PBV.k6vbPUNz9oqLE",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": "2026-06-11T08:45:15.660Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "52ggV4vINeaZL_xujBdIuUBR9aaBP3OyP55ycmDDQqc-1781165715650-0.0.1.1-604800000",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": -1,
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "affinity",
+        "value": "\"43d128511e38a996\"",
+        "domain": "www.okta.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_okta_attribution",
+        "value": "{\"utm_page\":\"www.okta.com/\",\"utm_date\":\"06/11/2026\",\"utm_source\":\"Direct\",\"utm_medium\":\"Direct\"}",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": -1,
+        "size": 113,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_okta_session_attribution",
+        "value": "{\"utm_page\":\"www.okta.com/\",\"utm_date\":\"06/11/2026\",\"utm_source\":\"Direct\",\"utm_medium\":\"Direct\"}",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_okta_original_attribution",
+        "value": "{\"utm_page\":\"www.okta.com/\",\"utm_date\":\"06/11/2026\",\"utm_source\":\"Direct\",\"utm_medium\":\"Direct\"}",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": "2027-06-11T08:15:17.516Z",
+        "size": 122,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A15%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=202605.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=727f67be-373b-4680-8515-47b459e4f91b&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.okta.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": "2027-06-11T08:15:17.000Z",
+        "size": 358,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_mkto_trk_http",
+        "value": "id:855-QAH-699&token:_mch-okta.com-c24e729cc1bcb2035736f725f773c407",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": "2027-07-16T08:15:17.680Z",
+        "size": 81,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_mkto_trk",
+        "value": "id:855-QAH-699&token:_mch-okta.com-c24e729cc1bcb2035736f725f773c407",
+        "domain": "okta.com",
+        "path": "/",
+        "expires": "2027-07-16T08:15:17.755Z",
+        "size": 76,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "V4YH54sCmebpCPMXLKf9yDt3wBQwjuAb5XfTvam0eo4-1781165717.6628435-1.0.1.1-q5n_0AXqRPeNatHJvVEsQrTeNlNhiMYQIhoXGJQEErw3fwx3uMKfo_191bOSilrUN8YP0aJIWOAXcbbOuspzGfQCq3fdmbIv0EzYGG9mGAmXLLIba32miKJXrzPdYpbE",
+        "domain": "pages.okta.com",
+        "path": "/",
+        "expires": "2026-06-11T08:45:17.680Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_mchCn": "",
+            "_mchEcid": "",
+            "_mchHa": "",
+            "_mchHo": "www.okta.com",
+            "_mchId": "855-QAH-699",
+            "_mchNc": 1781165717757,
+            "_mchPc": "https:",
+            "_mchPo": "",
+            "_mchQp": "",
+            "_mchRe": "",
+            "_mchRu": "/",
+            "_mchTk": "_mch-okta.com-c24e729cc1bcb2035736f725f773c407",
+            "_mchVr": 165
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.okta.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://855-qah-699.mktoresp.com/webevents/visitWebPage?_mchNc=1781165717757&_mchCn=&_mchId=855-QAH-699&_mchTk=_mch-okta.com-c24e729cc1bcb2035736f725f773c407&_mchHo=www.okta.com&_mchPo=&_mchRu=%2F&_mchPc=https%3A&_mchVr=165&_mchEcid=&_mchHa=&_mchRe=&_mchQp="
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-5VD332L9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.okta.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5VD332L9&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.okta.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/165/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.okta.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KXMLV58"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.okta.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KXMLV58"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.okta.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      }
+    ]
+  }
+}

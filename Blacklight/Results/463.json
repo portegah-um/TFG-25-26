@@ -1,0 +1,231 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Goodreads | Meet your next favorite book",
+  "uri_ins": "https://goodreads.com",
+  "uri_dest": "https://www.goodreads.com/",
+  "uri_redirects": [
+    "https://goodreads.com/"
+  ],
+  "secure_connection": {},
+  "host": "goodreads.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:58:33.960Z",
+  "end_time": "2026-06-11T07:58:38.900Z",
+  "browsing_history": [
+    "https://www.goodreads.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "goodreads.com",
+        "www.goodreads.com"
+      ],
+      "third_party": [
+        "s.gr-assets.com",
+        "i.gr-assets.com",
+        "appleid.cdn-apple.com",
+        "m.media-amazon.com",
+        "fls-na.amazon.com",
+        "unagi.amazon.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://s.gr-assets.com/assets/react_client_side/external_dependencies-ebf499aa1f.js": [
+          "scroll",
+          "click",
+          "mousedown"
+        ],
+        "https://s.gr-assets.com/assets/mobile/goodreads_mobile-ae2234ad982e29a1efc1410b508976dc.js": [
+          "mouseup",
+          "mousemove",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://s.gr-assets.com/assets/react_client_side/external_dependencies-ebf499aa1f.js": [
+          "touchstart"
+        ],
+        "https://s.gr-assets.com/assets/mobile/goodreads_mobile-ae2234ad982e29a1efc1410b508976dc.js": [
+          "touchstart",
+          "touchend",
+          "touchcancel",
+          "touchmove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://s.gr-assets.com/assets/react_client_side/external_dependencies-ebf499aa1f.js": [
+          "keyup",
+          "input",
+          "keydown"
+        ],
+        "https://s.gr-assets.com/assets/mobile/goodreads_mobile-ae2234ad982e29a1efc1410b508976dc.js": [
+          "keydown",
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ccsid",
+        "value": "037-6839727-4357171",
+        "domain": "www.goodreads.com",
+        "path": "/",
+        "expires": "2027-07-16T07:58:35.374Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "logged_out_browsing_page_count",
+        "value": "1",
+        "domain": "www.goodreads.com",
+        "path": "/",
+        "expires": "2027-07-16T07:58:35.374Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "locale",
+        "value": "en",
+        "domain": "www.goodreads.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_session_id2",
+        "value": "37300a45b58b6d1cd13e34a54928bad5",
+        "domain": "www.goodreads.com",
+        "path": "/",
+        "expires": "2026-06-11T13:58:35.374Z",
+        "size": 44,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.goodreads.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod"
+      },
+      {
+        "data": {
+          "filter": "/batch/1/OP/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.goodreads.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A1PQBFHBHS6YH1:037-6839727-4357171:BJY060JRCPZGGBR4J180:www.goodreads.com$uedata=s:%2Fuedata%2F037-6839727-4357171%2F%3Fld%26v%3Da02%26id%3DBJY060JRCPZGGBR4J180%26m%3D1%26sc%3DBJY060JRCPZGGBR4J180%26ue%3D3%26pc%3D953%26tc%3D-1174%26na_%3D-1174%26fe_%3D-697%26lk_%3D-586%26_lk%3D-586%26co_%3D-586%26_co%3D-553%26sc_%3D-573%26rq_%3D-553%26rs_%3D-176%26_rs%3D-171%26dl_%3D-163%26di_%3D85%26de_%3D391%26_de%3D446%26_dc%3D952%26ld_%3D952%26ty%3D0%26rc%3D0%26ld%3D953%26t%3D1781164716503%26ctb%3D1%26csmtags%3D%7C%7Chome%3Aindex%3Asigned_out%7Chome%3Aindex%3Asigned_out%3AmobileWeb%7Cnonredirect:954"
+      }
+    ]
+  }
+}

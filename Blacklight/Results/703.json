@@ -1,0 +1,372 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "AI-powered Observability",
+  "uri_ins": "https://newrelic.com",
+  "uri_dest": "https://newrelic.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "newrelic.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:11:32.123Z",
+  "end_time": "2026-06-11T09:11:36.859Z",
+  "browsing_history": [
+    "https://newrelic.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "newrelic.com",
+        "js-agent.newrelic.com"
+      ],
+      "third_party": [
+        "cmp.osano.com",
+        "cdn.intellimize.co",
+        "cdn.jsdelivr.net",
+        "fonts.googleapis.com",
+        "epsilon.6sense.com",
+        "dev.visualwebsiteoptimizer.com",
+        "bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://newrelic.com/": [
+          "click",
+          "scroll",
+          "mousemove",
+          "mouseup"
+        ]
+      },
+      "KEYBOARD": {
+        "https://newrelic.com/": [
+          "keydown",
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://newrelic.com/": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "nr_lang",
+        "value": "en",
+        "domain": "newrelic.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nr_pn_visited",
+        "value": "1781169094",
+        "domain": "newrelic.com",
+        "path": "/",
+        "expires": "2027-06-11T09:11:33.640Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "nr_medium",
+        "value": "direct",
+        "domain": "newrelic.com",
+        "path": "/",
+        "expires": "2027-06-11T09:11:34.180Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "nr_pn",
+        "value": "lc",
+        "domain": "newrelic.com",
+        "path": "/",
+        "expires": "2027-06-11T09:11:34.447Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 707464402,
+            "at": "GBBCGw1DRE5HUhdbSx5P",
+            "ck": 0,
+            "ptid": "4da93c5c22442525",
+            "ref": "https://newrelic.com/",
+            "rst": 2877,
+            "s": "98da87edb3e7ef79",
+            "to": "NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/ins/1/NRBR-044cd27ea2168d4c185?a=707464402&v=1.316.0&to=NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO&rst=2877&ck=0&s=98da87edb3e7ef79&ref=https://newrelic.com/&ptid=4da93c5c22442525&at=GBBCGw1DRE5HUhdbSx5P"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 707464402,
+            "ck": 0,
+            "ptid": "4da93c5c22442525",
+            "ref": "https://newrelic.com/",
+            "rst": 2875,
+            "s": "98da87edb3e7ef79",
+            "to": "NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRBR-044cd27ea2168d4c185?a=707464402&v=1.316.0&to=NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO&rst=2875&ck=0&s=98da87edb3e7ef79&ref=https://newrelic.com/&ptid=4da93c5c22442525"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 707464402,
+            "ck": 0,
+            "ptid": "4da93c5c22442525",
+            "ref": "https://newrelic.com/",
+            "rst": 2872,
+            "s": "98da87edb3e7ef79",
+            "to": "NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/NRBR-044cd27ea2168d4c185?a=707464402&v=1.316.0&to=NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO&rst=2872&ck=0&s=98da87edb3e7ef79&ref=https://newrelic.com/&ptid=4da93c5c22442525"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 707464402,
+            "ck": 0,
+            "ptid": "4da93c5c22442525",
+            "ref": "https://newrelic.com/",
+            "rst": 2869,
+            "s": "98da87edb3e7ef79",
+            "to": "NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRBR-044cd27ea2168d4c185?a=707464402&v=1.316.0&to=NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO&rst=2869&ck=0&s=98da87edb3e7ef79&ref=https://newrelic.com/&ptid=4da93c5c22442525"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 707464402,
+            "af": "err,xhr,stn,ins",
+            "ap": 285,
+            "at": "GBBCGw1DRE5HUhdbSx5P",
+            "be": 150,
+            "ck": 0,
+            "dc": 1530,
+            "fcp": 1271,
+            "fe": 1850,
+            "fp": 1089,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 41,
+                "ce": 134,
+                "dc": 1990,
+                "de": 1680,
+                "di": 1561,
+                "dn": 41,
+                "dne": 41,
+                "ds": 1600,
+                "f": 2,
+                "l": 1991,
+                "le": 2000,
+                "n": 0,
+                "of": 1781169092588,
+                "rp": 150,
+                "rpe": 176,
+                "rq": 135,
+                "s": 53
+              }
+            },
+            "ptid": "4da93c5c22442525",
+            "ref": "https://newrelic.com/",
+            "rst": 2213,
+            "s": "98da87edb3e7ef79",
+            "to": "NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRBR-044cd27ea2168d4c185?a=707464402&v=1.316.0&to=NFdVbUVZVxEEUEEIXw0ddlpDUVYMSndHFEACXmtXWFxcPiZcWxVCDF5bXEVkdw0BVmMIVRRxWFdDSlYOCVZHTA4VW1JO&rst=2213&ck=0&s=98da87edb3e7ef79&ref=https://newrelic.com/&ptid=4da93c5c22442525&af=err,xhr,stn,ins&ap=285&be=150&fe=1850&dc=1530&at=GBBCGw1DRE5HUhdbSx5P&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781169092588,%22n%22:0,%22f%22:2,%22dn%22:41,%22dne%22:41,%22c%22:41,%22s%22:53,%22ce%22:134,%22rq%22:135,%22rp%22:150,%22rpe%22:176,%22di%22:1561,%22ds%22:1600,%22de%22:1680,%22dc%22:1990,%22l%22:1991,%22le%22:2000%7D,%22navigation%22:%7B%7D%7D&fp=1089&fcp=1271"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 680279,
+            "f": 1,
+            "u": "https://newrelic.com/",
+            "vn": 1.5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=680279&u=https%3A%2F%2Fnewrelic.com%2F&f=1&vn=1.5"
+      },
+      {
+        "data": {
+          "filter": "||intellimize.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://newrelic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.intellimize.co/snippet/117712186.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Únete a XBOX Game Pass: Descubre tu próximo juego favorito | XBOX",
+  "uri_ins": "https://gamepass.com",
+  "uri_dest": "https://www.xbox.com/es-ES/xbox-game-pass",
+  "uri_redirects": [
+    "https://gamepass.com/",
+    "https://www.xbox.com/xbox-game-pass"
+  ],
+  "secure_connection": {},
+  "host": "gamepass.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:55:39.942Z",
+  "end_time": "2026-06-11T07:55:47.208Z",
+  "browsing_history": [
+    "https://www.xbox.com/es-ES/xbox-game-pass"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "gamepass.com",
+        "www.xbox.com",
+        "assets-xbxweb.xbox.com"
+      ],
+      "third_party": [
+        "cdnjs.cloudflare.com",
+        "uhf.microsoft.com",
+        "assets.adobedtm.com",
+        "wcpstatic.microsoft.com",
+        "assets.xboxservices.com",
+        "cms-assets.xboxservices.com",
+        "c.s-microsoft.com",
+        "www.microsoft.com",
+        "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "displaycatalog.mp.microsoft.com",
+        "login.microsoftonline.com",
+        "login.live.com",
+        "emerald.xboxservices.com",
+        "browser.events.data.microsoft.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/mwf/mwf-auto-init-main.var.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js": [
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "click"
+        ],
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/8724.a7d356d9.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://assets.adobedtm.com/launch-ENbcb8955aa2f84046af210e3226cdda04.min.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/client.583bc170.js": [
+          "keydown"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js": [
+          "keypress",
+          "keydown"
+        ],
+        "https://uhf.microsoft.com/statics/20260602.14.12/js/index-Cag8cYw5.js": [
+          "keydown"
+        ],
+        "https://assets-xbxweb.xbox.com/xbox-web/static/js/8724.a7d356d9.js": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "aka_locale",
+        "value": "es-es",
+        "domain": "www.xbox.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "0DC68AA7DC7147AE87087B838608B977",
+        "domain": "xbox.com",
+        "path": "/",
+        "expires": "2027-06-11T07:55:43.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "CE+EQVGYn+q2KWe5c6PO3e|1781164543388|1781164543402",
+        "domain": "www.xbox.com",
+        "path": "/",
+        "expires": "2026-06-11T08:25:43.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "esctx-ZhrFcQyZE9k",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAfB0bfpzNnjG4fFVUl437aa3FshU_lzQnCmakYfXOk3gNap12iiuP6OL96fKc-n3IuMy2vQUQDTa92c8tkHqx4hbhJtg7SOK_Jgp-EZzeE47VfmEJPDyoMFY0ZgjBEozybGevc0YMlGgnijFyx5AHSSAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T08:20:44.569Z",
+        "size": 229,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fpc",
+        "value": "AhvvGc-Ao-RCtZdQAN7zbQA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T07:55:44.569Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "stsservicecookie",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781164544&co=1",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uaid",
+        "value": "144acb4bdd46401aa442d4fc3286be95",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OParams",
+        "value": "11O.Dn8CNiWG*yIacpRBCILhNotsZCYwi0CCYO01TdHuzQx0w2FCjiGwGtyZkCAgGb999nfej4Xd7dcDZOAia0myF*mIw0zdzPfEnq7eXBMVIl*g6tBo83dl8iGnOMxW!FQrF5gNjnFuT1G9w4pDa6mudrzXFb*6VEllAN2csRzs!MkC0MJgK2il7eCv1BGJPW2veGMrhwbsZzWD8N94CUUNyb3kRB2EUvUg3FnV!xN!oaMU85WoD!ULrAPYXKuDDBWg2RjCnyPwlA8ryZflDjnvlGhFo8FS0G2TDjePPASI5gY0JMhwLjD*Blrl3kkk08CgwwHFBdVZ7JG4E!dIQYePKUpth31mWJcHVaM6AMKE3atFS9RhU5HvmrotA!UtlPH03l27wwTO8Ojze1M6DGMyhAnS1xY3ufyYj1y8And*GayQ!aol2C7oSFR*ykLH*6g4g4kOoU0*v36BSTpEY4IYX7BJvNdieZRNnsRR61!AZqXgJVXzUTnJR6QhIFektreS3GJTdrsdO76ac35nwp*qukHlrH0!5xuaUpOuwwzXqt4K7TguqP79ppVkclmFUczvMqzMr9h5K4J*h6yuZGEZvYdGTJisswNbt4QzMelIrldFLI74bJz4NtUVjALgytVLr0Fqv1gFvMI8080KW0e7u9hb6581vkJFR2sGs!6ynQ2xSTNq71Z94fRNvslwAkkA0aVTxPTmY6YNLAMu0MAn0fy5H0w4fIEhX8lqZfR63z!m9kLhnn7RS2P6npC87AZN8nLlQDBeDhCYl3hkovS0QyhyIs4i3LsvVkJ6BdMzIdxAYOEMSwgVezEKo9reOg8oIrLOe!T2VQT6!lMe5kzEopMWASH3YBav2F!7uFOcacO8I8oxQKtGjJmOlG0XkOhSl2T5V*M1lqyqqi0UQWxEbC*1C5VSKZdFR6v8IolW96gW9TqVntOdU9PJGfCg0AAjO9VCMVDhWunqa0ep6TW8FAC5Y9nZV2pvJQwNPX7sBokdspgyaTjdNsj8Wnhoc6XK7WWxUJ3eFryi9UacuNHSSxr6O03Sq8qDNQ7Jgci7XsL*P4SZmlQnitLk1CqGHUgAz0KBZPnLicrNvUdkrXQbFEkaCDCdjDYbIi7xVUuZU9*XkQTuUGk89S5DTlwWdgNgD0jQfjf4TW*CAXJByXb5aF1PUPS7H9rIAKioKDj9aq0CWQl84Lp1Hao7wYCfCLQ9ukY8Q4mOj8jBvOGoitO7NMXJFejrHdrSImEEdFixfLb7sopD1MDa9kC8e01zD5G!lxwxuUU8z4VhuUA3JaiLEjbWs1MvWqxNEEpwGM*qW3At2AkVbdMI*RRVUKvJRG6PiWWH1zrguAdANZwtTB6M!Ucb6x4ikKPuClnZnFCUDyH0",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 1399,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC9e3f09cc24de42d2a9ecafa588684a88-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCa078a9788f724d7295065d6cb57987f9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC10b2dc0f34104f5e8ae6f3604f52042e-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCc4200f88174b49baab46be22ca3e033a-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC2ec13eefb5374f9a8694afeee7579455-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC502420f5374846f99c0fa7f6d80f96e5-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC9507f132144f4e94b436033e254a6caa-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC54cb7ea598ef4d6291c76cc393b28925-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCf5c5b6dacb0f43dda77d7297a06dc395-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCee98c22dd0374a67adf300bd8fa1351c-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC662c504c411844e8bb07bbe178c8ae99-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC11b1a6579e0b41669255f7a755bb8e17-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC6056f85d9d584e868600f0c3a82613d1-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC08a24704e11d47d2b3d2564162240cc9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC74720e5e2717403ba9d0045219842ba2-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCb370e73fbed843638926e0a1f4532577-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC6fb2d032080f4eab9f22aacc55f2a0bc-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCf1d45698d753412f8e70b351ce863b68-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC1d1d599428374648971b4cfb0a53d29e-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RCac7c180170914dd785f4619ebc18e93f-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbox.com/es-ES/xbox-game-pass",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/5ef092d1efb5/80899f83bd8d/92f025f928eb/RC7f2d57421b664dc3adfc05a259d79434-source.min.js"
+      }
+    ]
+  }
+}

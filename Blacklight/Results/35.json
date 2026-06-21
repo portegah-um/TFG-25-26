@@ -1,0 +1,169 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "WhatsApp | Secure and Reliable Free Private Messaging and Calling",
+  "uri_ins": "https://whatsapp.net",
+  "uri_dest": "https://www.whatsapp.com/",
+  "uri_redirects": [
+    "https://whatsapp.net/"
+  ],
+  "secure_connection": {},
+  "host": "whatsapp.net",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:41:57.494Z",
+  "end_time": "2026-06-11T05:42:01.031Z",
+  "browsing_history": [
+    "https://www.whatsapp.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "whatsapp.net",
+        "static.whatsapp.net",
+        "scontent.whatsapp.net",
+        "www.whatsapp.com"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.whatsapp.net/rsrc.php/v4/yD/r/ZzH9K6P2hVu.js": [
+          "click"
+        ],
+        "https://static.whatsapp.net/rsrc.php/v4/y1/r/O1yHWSNLDJc.js": [
+          "click",
+          "scroll"
+        ],
+        "https://static.whatsapp.net/rsrc.php/v4/yV/r/l7UmDMuh4yH.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.whatsapp.net/rsrc.php/v4/yD/r/ZzH9K6P2hVu.js": [
+          "keydown"
+        ],
+        "https://static.whatsapp.net/rsrc.php/v4/y1/r/O1yHWSNLDJc.js": [
+          "keydown",
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "wa_csrf",
+        "value": "zUQz09AqemoRpFcSsF-lcC",
+        "domain": "whatsapp.com",
+        "path": "/",
+        "expires": -1,
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wa_lang_pref",
+        "value": "en",
+        "domain": "whatsapp.com",
+        "path": "/",
+        "expires": "2026-06-18T05:41:58.673Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wa_ul",
+        "value": "5f98d19e-1237-4abf-aeff-3afc430858d9",
+        "domain": "www.whatsapp.com",
+        "path": "/",
+        "expires": "2026-09-09T05:41:58.673Z",
+        "size": 41,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

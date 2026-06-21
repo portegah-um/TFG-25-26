@@ -1,0 +1,480 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Eventbrite - Discover the Best Local Events & Things to Do",
+  "uri_ins": "https://eventbrite.com",
+  "uri_dest": "https://www.eventbrite.com/",
+  "uri_redirects": [
+    "https://eventbrite.com/"
+  ],
+  "secure_connection": {},
+  "host": "eventbrite.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:58:48.153Z",
+  "end_time": "2026-06-11T07:58:55.028Z",
+  "browsing_history": [
+    "https://www.eventbrite.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "eventbrite.com",
+        "www.eventbrite.com",
+        "cdntranscend.eventbrite.com"
+      ],
+      "third_party": [
+        "eventbrite-build.s3.amazonaws.com",
+        "d1n9ior3u0lhlo.cloudfront.net",
+        "www.googletagmanager.com",
+        "js.zi-scripts.com",
+        "cdn.evbstatic.com",
+        "ws.zoominfo.com",
+        "img.evbuc.com",
+        "maps.googleapis.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyC42yQSNEM_G4-F81tgVzgoeCmhJClADHc&libraries=places&callback=Function.prototype": [
+          "touchstart"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/1851-92173bf348e5c78a.js": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyC42yQSNEM_G4-F81tgVzgoeCmhJClADHc&libraries=places&callback=Function.prototype": [
+          "mousedown"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/1851-92173bf348e5c78a.js": [
+          "mousedown"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/pages/_app-f1552b23f7b8d08c.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-TQVES5V6SH&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-1071787441&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5P8FXJ": [
+          "click"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/main-0fd338d6c5711f83.js": [
+          "click"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/2052.868b64688acbe610.js": [
+          "click",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyC42yQSNEM_G4-F81tgVzgoeCmhJClADHc&libraries=places&callback=Function.prototype": [
+          "keydown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-TQVES5V6SH&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/main-0fd338d6c5711f83.js": [
+          "keydown"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/2052.868b64688acbe610.js": [
+          "keydown"
+        ],
+        "https://www.eventbrite.com/home/_next/static/chunks/1851-92173bf348e5c78a.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "csrftoken",
+        "value": "3e3c6b63a63d4a45a30a0f57743ccd61",
+        "domain": "eventbrite.com",
+        "path": "/",
+        "expires": "2027-06-10T07:58:49.607Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tcm",
+        "value": "{\"purposes\":{\"SaleOfInfo\":false,\"Functional\":false,\"Analytics\":false,\"Advertising\":false},\"timestamp\":\"2026-06-11T07:58:49.974Z\",\"confirmed\":false,\"prompted\":false,\"updated\":false}",
+        "domain": "eventbrite.com",
+        "path": "/",
+        "expires": "2027-07-16T07:58:51.503Z",
+        "size": 183,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "guest",
+        "value": "identifier%3D8f4b8009-2078-4c90-821b-e2c80c7a2c92%26a%3D1571%26s%3D8a3aa35a6c10be17ac661ce7c0c0a3c416f42a4c68d50fcd9cdaf2ee6a651a7a",
+        "domain": "www.eventbrite.com",
+        "path": "/",
+        "expires": "2027-06-11T07:58:51.604Z",
+        "size": 136,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "location",
+        "value": "{%22slug%22:%22spain--murcia%22%2C%22place_id%22:%22101748199%22%2C%22latitude%22:37.984147%2C%22longitude%22:-1.127375%2C%22place_type%22:%22locality%22%2C%22current_place%22:%22Murcia%22%2C%22current_place_parent%22:%22Murcia%22%2C%22is_online%22:false}",
+        "domain": "www.eventbrite.com",
+        "path": "/",
+        "expires": "2026-07-11T07:58:51.000Z",
+        "size": 263,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_zitok",
+        "value": "0a7d4038aa5b1d101f8c1781164731",
+        "domain": "www.eventbrite.com",
+        "path": "/",
+        "expires": "2027-06-11T07:58:52.000Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session",
+        "value": "identifier%3D4218bdab56164fe88082a680d8cb10f7%26issuedTs%3D1781164732%26originalTs%3D1781164731%26s%3D9d2f37197e2a89292b68b846a5378784aa661d08e3d35905d9e07459ae97c40b",
+        "domain": "www.eventbrite.com",
+        "path": "/",
+        "expires": -1,
+        "size": 173,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "ORZ2FU.6Q6LhKKPK76i0x44qsxVaW8WV1C2_oTTkrG0-1781164732.3948016-1.0.1.1-UiCmbToF2u0iuqf9i9n3P6A_vPIbfKzmOf.KwO2OSjo",
+        "domain": "zoominfo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=0786a13d-6346-412d-a344-4fe1d2fe3dda&rum=0&expire=1781165634771",
+        "domain": "www.eventbrite.com",
+        "path": "/",
+        "expires": "2027-06-11T07:58:54.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googleapis.com^*/gen_204?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "csp_test": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "iszitag": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/68b22ad41e0310fd11290cab/?iszitag=true"
+      },
+      {
+        "data": {
+          "filter": "||zoominfo.com/pixel/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "iszitag": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ws.zoominfo.com/pixel/68b22ad41e0310fd11290cab/?iszitag=true"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-953580665"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-953580665&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1012298015"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1012298015&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-10956076365"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-10956076365&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-1071787441"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1071787441&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-4080218"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-4080218&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-TQVES5V6SH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-TQVES5V6SH&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5P8FXJ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.eventbrite.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5P8FXJ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "PBS: Public Broadcasting Service",
+  "uri_ins": "https://pbs.org",
+  "uri_dest": "https://www.pbs.org/",
+  "uri_redirects": [
+    "https://pbs.org/"
+  ],
+  "secure_connection": {},
+  "host": "pbs.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:35:22.856Z",
+  "end_time": "2026-06-11T10:35:31.779Z",
+  "browsing_history": [
+    "https://www.pbs.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "pbs.org",
+        "www.pbs.org",
+        "www-tc.pbs.org",
+        "image.pbs.org"
+      ],
+      "third_party": [
+        "securepubads.g.doubleclick.net",
+        "www.googletagmanager.com",
+        "global.ketchcdn.com",
+        "cdn.ketchjs.com",
+        "ep1.adtrafficquality.google",
+        "pagead2.googlesyndication.com",
+        "c119fdf1e314f3ef462602edef5c80bb.safeframe.googlesyndication.com",
+        "ep2.adtrafficquality.google"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.pbs.org/_next/static/chunks/1pty1jdehyyex.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-QCNNW9XL0J&l=GTMDataLayer&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TWTDGH&l=GTMDataLayer": [
+          "click"
+        ],
+        "https://www.pbs.org/_next/static/chunks/0ghhb32uq-q21.js": [
+          "mousedown"
+        ],
+        "https://www.pbs.org/_next/static/chunks/1s1dqwy7m_aeo.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-QCNNW9XL0J&l=GTMDataLayer&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://www.pbs.org/_next/static/chunks/0ghhb32uq-q21.js": [
+          "keydown"
+        ],
+        "https://www.pbs.org/_next/static/chunks/1s1dqwy7m_aeo.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://www.pbs.org/_next/static/chunks/0ghhb32uq-q21.js": [
+          "touchstart"
+        ],
+        "https://www.pbs.org/_next/static/chunks/1s1dqwy7m_aeo.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "pbsol.user_is_unlocalized",
+        "value": "true",
+        "domain": "pbs.org",
+        "path": "/",
+        "expires": "2027-05-31T10:35:24.533Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pbsol.country_id",
+        "value": "ES",
+        "domain": "www.pbs.org",
+        "path": "/",
+        "expires": -1,
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_QCNNW9XL0J",
+        "value": "GS2.1.s1781174125$o1$g0$t1781174125$j60$l0$h0",
+        "domain": "pbs.org",
+        "path": "/",
+        "expires": "2027-07-16T10:35:25.885Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.315668818.1781174126",
+        "domain": "pbs.org",
+        "path": "/",
+        "expires": "2027-07-16T10:35:25.887Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_swb",
+        "value": "23c39b0a-c5b3-4fb8-8cb7-f56b5a619f0a",
+        "domain": "pbs.org",
+        "path": "/",
+        "expires": "2027-07-16T10:35:26.297Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ketch_consent_v1_",
+        "value": "eyJlc3NlbnRpYWxfc2VydmljZXMiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImVzc2VudGlhbF9zZXJ2aWNlcyJdfSwicGVyZm9ybWFuY2UiOnsic3RhdHVzIjoiZ3JhbnRlZCJ9fQ%3D%3D",
+        "domain": "pbs.org",
+        "path": "/",
+        "expires": "2027-07-16T10:35:27.000Z",
+        "size": 186,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_swb_consent_",
+        "value": "eyJjb2xsZWN0ZWRBdCI6MTc4MTE3NDEyNywiY29udGV4dCI6eyJjb25maWd1cmF0aW9uSWQiOiJjR0p6TDNkbFluTnBkR1ZmYzIxaGNuUmZkR0ZuTDNCeWIyUjFZM1JwYjI0dloyUndjaTlsYmk4eE56Z3hNRGsxTkRVNCIsImlzc3VlZEF0IjowLCJzb3VyY2UiOiJsZWdhbEJhc2lzRGVmYXVsdCJ9LCJjb250cm9sbGVyQ29kZSI6IiIsImVudmlyb25tZW50Q29kZSI6InByb2R1Y3Rpb24iLCJpZGVudGl0aWVzIjp7InN3Yl93ZWJzaXRlX3NtYXJ0X3RhZyI6IjIzYzM5YjBhLWM1YjMtNGZiOC04Y2I3LWY1NmI1YTYxOWYwYSJ9LCJqdXJpc2RpY3Rpb25Db2RlIjoiZ2RwciIsInByb3BlcnR5Q29kZSI6IndlYnNpdGVfc21hcnRfdGFnIiwicHVycG9zZXMiOnsiZXNzZW50aWFsX3NlcnZpY2VzIjp7ImFsbG93ZWQiOiJ0cnVlIiwiY29sbGVjdGVkQXQiOjAsImlzc3VlZEF0IjowLCJsZWdhbEJhc2lzQ29kZSI6ImxlZ2l0aW1hdGVpbnRlcmVzdCIsInNvdXJjZSI6IiJ9LCJwZXJmb3JtYW5jZSI6eyJhbGxvd2VkIjoidHJ1ZSIsImNvbGxlY3RlZEF0IjowLCJpc3N1ZWRBdCI6MCwibGVnYWxCYXNpc0NvZGUiOiJsZWdhbG9ibGlnYXRpb25zIiwic291cmNlIjoiIn19LCJpbnRlcmFjdGl2ZSI6ZmFsc2UsImNhY2hlZEF0IjoxNzgxMTc0MTI4fQ%3D%3D",
+        "domain": "pbs.org",
+        "path": "/",
+        "expires": "2026-06-18T10:35:28.000Z",
+        "size": 877,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ixuy7Q": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ep2.adtrafficquality.google/generate_204?Ixuy7Q"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/bg/ak3yblLd0OYemhWQMJ5KL3RLUDZRs_384VHJ6Cc_Auw.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1761066702,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": false,
+            "ids": "eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIyM2MzOWIwYS1jNWIzLTRmYjgtOGNiNy1mNTZiNWE2MTlmMGEifQ==",
+            "jurisdiction": "gdpr",
+            "property": "website_smart_tag",
+            "region": "ES",
+            "tenant": "pbs",
+            "url": "https://www.pbs.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.pbs.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=false&url=https%3A%2F%2Fwww.pbs.org%2F&property=website_smart_tag&environment=production&jurisdiction=gdpr&tenant=pbs&dver=1761066702&event_type=once_identities&ids=eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiIyM2MzOWIwYS1jNWIzLTRmYjgtOGNiNy1mNTZiNWE2MTlmMGEifQ%3D%3D&region=ES"
+      },
+      {
+        "data": {
+          "filter": "||googlesyndication.com/safeframe/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c119fdf1e314f3ef462602edef5c80bb.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "abxe": 1,
+            "adfs": 1182927258,
+            "adks": 1275447127,
+            "adxs": 28,
+            "adys": 304,
+            "bc": 31,
+            "bih": 812,
+            "bisch": 1,
+            "biw": 375,
+            "blev": 1,
+            "btvi": 0,
+            "correlator": 3122977787615207,
+            "cust_params": "pbsuser=no&passport=loggedout",
+            "dids": "mobile-general-homepage",
+            "dlt": 1781174124544,
+            "dmc": 8,
+            "dt": 1781174126206,
+            "eid": 95393820,
+            "enc_prev_ius": "/0/1/2",
+            "eri": 1,
+            "frm": 20,
+            "fws": 4,
+            "gdfp_req": 1,
+            "idt": 1415,
+            "ifi": 1,
+            "impl": "fifs",
+            "iu_parts": "22540141786,n6735.pbs.new,general_homepage",
+            "lmt": 1781174126,
+            "msz": "320x0",
+            "nvt": 1,
+            "ohw": 375,
+            "oid": 2,
+            "output": "ldjh",
+            "pgls": "CAk.",
+            "prev_iu_szs": "320x50",
+            "psz": "352x79",
+            "ptt": 17,
+            "pvsid": 4623720993242978,
+            "sc": 1,
+            "scr_x": 0,
+            "scr_y": 0,
+            "sfv": "1-0-45",
+            "u_ah": 812,
+            "u_aw": 375,
+            "u_cd": 24,
+            "u_h": 812,
+            "u_his": 2,
+            "u_sd": 3,
+            "u_tz": 120,
+            "u_w": 375,
+            "uach": "WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0.",
+            "uas": 3,
+            "ucis": 1,
+            "url": "https://www.pbs.org/",
+            "vis": 1,
+            "vrg": 202606050101
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.pbs.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/gampad/ads?pvsid=4623720993242978&correlator=3122977787615207&eid=95393820&output=ldjh&gdfp_req=1&vrg=202606050101&ptt=17&impl=fifs&iu_parts=22540141786%2Cn6735.pbs.new%2Cgeneral_homepage&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=320x50&ifi=1&dids=mobile-general-homepage&adfs=1182927258&sfv=1-0-45&eri=1&sc=1&abxe=1&dt=1781174126206&lmt=1781174126&adxs=28&adys=304&biw=375&bih=812&scr_x=0&scr_y=0&btvi=0&ucis=1&oid=2&u_his=2&u_h=812&u_w=375&u_ah=812&u_aw=375&u_cd=24&u_sd=3&u_tz=120&dmc=8&bc=31&nvt=1&uach=WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0.&uas=3&url=https%3A%2F%2Fwww.pbs.org%2F&vis=1&psz=352x79&msz=320x0&fws=4&ohw=375&dlt=1781174124544&idt=1415&cust_params=pbsuser%3Dno%26passport%3Dloggedout&adks=1275447127&frm=20&pgls=CAk.&blev=1&bisch=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.pbs.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-QCNNW9XL0J",
+            "l": "GTMDataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.pbs.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-QCNNW9XL0J&l=GTMDataLayer&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TWTDGH",
+            "l": "GTMDataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.pbs.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TWTDGH&l=GTMDataLayer"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.pbs.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      }
+    ]
+  }
+}

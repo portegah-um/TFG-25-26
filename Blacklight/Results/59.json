@@ -1,0 +1,1290 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "MSN | Noticias personalizadas, titulares principales, actualizaciones en directo y mucho más",
+  "uri_ins": "https://msn.com",
+  "uri_dest": "https://www.msn.com/es-es",
+  "uri_redirects": [
+    "https://msn.com/",
+    "https://www.msn.com/"
+  ],
+  "secure_connection": {},
+  "host": "msn.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:49:05.003Z",
+  "end_time": "2026-06-11T05:49:13.889Z",
+  "browsing_history": [
+    "https://www.msn.com/es-es"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "msn.com",
+        "www.msn.com",
+        "assets.msn.com",
+        "c.msn.com",
+        "browser.events.data.msn.com",
+        "srtb.msn.com",
+        "arc.msn.com"
+      ],
+      "third_party": [
+        "c.bing.com",
+        "img-s-msn-com.akamaized.net",
+        "btloader.com",
+        "adsdk.microsoft.com",
+        "scripts.mf.webcontentassessor.com",
+        "login.microsoftonline.com",
+        "cdn.btloader.com",
+        "ad-delivery.net",
+        "ad.doubleclick.net",
+        "ab.dns-finder.com",
+        "wb.dns-finder.com",
+        "cdn.api.btloader.com",
+        "aadcdn.msauth.net",
+        "api.btloader.com",
+        "login.live.com",
+        "browser.events.data.microsoft.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/experiences_display-ads-wc_dist_index_js.d9039069a642052c.js": [
+          "scroll"
+        ],
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/experiences_page-refresh-wc_dist_index_js.c8bea67ab9c3d55d.js": [
+          "scroll",
+          "click"
+        ],
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/diagnostic-web-vitals.9942bca9899d6211.js": [
+          "click"
+        ],
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/common.3926da0d94c4fcd6.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/experiences_social-bar-wc_dist_index_js.450c95300aa7a39e.js": [
+          "keyup"
+        ],
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/diagnostic-web-vitals.9942bca9899d6211.js": [
+          "keydown"
+        ],
+        "https://assets.msn.com/bundles/v1/homePage/latest/mobile/common.3926da0d94c4fcd6.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_C_Auth",
+        "value": "",
+        "domain": "assets.msn.com",
+        "path": "/service/news/feed/pages",
+        "expires": -1,
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "",
+        "domain": "msn.com",
+        "path": "/service/news/feed/pages",
+        "expires": -1,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUIDB",
+        "value": "",
+        "domain": "msn.com",
+        "path": "/service/news/feed/pages",
+        "expires": -1,
+        "size": 5,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_C_Auth",
+        "value": "",
+        "domain": "www.msn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Web-User",
+        "value": "%7B%22userId%22%3A%22m-1F63C467DA8D68D63228D312DB2069D3%22%2C%22cohorts%22%3A%5B%7B%22name%22%3A%22SuperCold%22%2C%22everSelected%22%3Afalse%2C%22reason%22%3A%22MatchedBySignal%22%7D%5D%2C%22accountType%22%3A%22NA%22%2C%22identityType%22%3A%22Web%22%2C%22settings%22%3Anull%2C%22responseCreationDateTime%22%3A%222026-06-11T05%3A49%3A05.8207303Z%22%2C%22debugId%22%3A%221fd1a578-56b3-4876-9a61-12be04c46599%7C2026-06-11T05%3A49%3A05.8207332Z%7CAuth%7CNEU-CF%7Caksgen01000000%22%7D",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": "2026-06-18T05:49:05.852Z",
+        "size": 487,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sptmarket",
+        "value": "en-us%7C%7Ces%7Ces-es%7Ces-es%7Ces%7C%7Creason%3DRevIP%3Aes%7Ccf%3D8%7CRefA%3D6a2a4c51595d445184cfa35a80a02e99.RefC%3D2026-06-11T05%3A49%3A05Z",
+        "domain": "www.msn.com",
+        "path": "/",
+        "expires": "2027-07-16T05:49:05.852Z",
+        "size": 151,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:06.762Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUIDB",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "www.msn.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:05.852Z",
+        "size": 37,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_EDGE_S",
+        "value": "F=1&SID=19336EDBA068658B06E179AEA1C56432",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 47,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_EDGE_V",
+        "value": "1",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:05.852Z",
+        "size": 8,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "USRLOC",
+        "value": "",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": "2027-07-16T05:49:05.926Z",
+        "size": 6,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "msnup",
+        "value": "%7B%22cnex%22%3A%22no%22%7D",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": "2026-09-09T05:49:07.369Z",
+        "size": 32,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUIDB",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "msn.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:06.636Z",
+        "size": 37,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "13qPKV90mkvvS5AW1LhyoG|1781156946642|1781156946642",
+        "domain": "www.msn.com",
+        "path": "/",
+        "expires": "2026-06-11T06:19:06.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:06.681Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2026-06-18T05:49:06.681Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SRM_B",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:06.681Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SRM_M",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:06.681Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SM",
+        "value": "C",
+        "domain": "c.msn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "SRM_M",
+        "value": "1F63C467DA8D68D63228D312DB2069D3",
+        "domain": "c.msn.com",
+        "path": "/",
+        "expires": "2027-07-06T05:49:06.762Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.msn.com",
+        "path": "/",
+        "expires": "2026-06-18T05:49:06.762Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ANONCHK",
+        "value": "0",
+        "domain": "c.msn.com",
+        "path": "/",
+        "expires": "2026-06-11T05:59:06.762Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "msal.cache.encryption",
+        "value": "%7B%22id%22%3A%22019eb53a-25b5-7455-877c-008a5ef01778%22%2C%22key%22%3A%22dJogguUdnmxwOI6dZ1xrBUHtVM5gcsOaj72JXxmaS3E%22%7D",
+        "domain": "www.msn.com",
+        "path": "/",
+        "expires": -1,
+        "size": 144,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "buid",
+        "value": "1.ASUAMe_N-B6jSkuT5F9XHpElWqQwtdeAdiNMqL_FLBIdLocAAAAlAA.AQABGgEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzAwAAAAAA56AVqAX2sWkjFMEQuxHBFwEikl1GkreYQAm6lc8D5wIQnVfSijqKth5gfnhDTrsQYv571VXs9HzoE6HRH0KYplxsB_1YeNQpzGOZaLAa8AkgAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T05:49:08.754Z",
+        "size": 231,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "esctx",
+        "value": "PAQABBwEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAA-1S8ZB3Lu_vEAhFnfveCR4shTFOOB1BdHN4O_Mb9VBMDqGyAs5_V4RhVusv1uQeJH-3lmFARvllUA7zRblYkbqbUmf_sWXtRIEggqJhgnjLJngY2HMEyUZzOv3dtc3ed5p0dPvy_kSo0-JMcD_RfPOL2bd0s3AhfwCp626mmgOQgAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 240,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "esctx-J3PMEEqK4Lw",
+        "value": "AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAHfeth8pTniEfgezTJ2clzJHNFxeuE2tmQEtpo2FoujDt9HKB3ejpLFzNKLE4dbev4PoMw3FOcUmN_Rjtsbi99DAGBnS_lJ5pn9fxrsot6Ay_f5uGz4-cm8jGhjybvq-ZCiVHECsAOoFB26rt97ZSSCAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-06-11T06:14:08.754Z",
+        "size": 229,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fpc",
+        "value": "AtEZwaN_d0JEg642XfND2lCSbVEHAQAAAFRDvOEOAAAA",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": "2026-07-11T05:49:08.754Z",
+        "size": 47,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "stsservicecookie",
+        "value": "estsfd",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": -1,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uaid",
+        "value": "c823d0f6fab74a44afb4bcf990aebd3b",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPRequ",
+        "value": "id=N&lt=1781156949&co=1",
+        "domain": "login.live.com",
+        "path": "/",
+        "expires": -1,
+        "size": 30,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MC1",
+        "value": "GUID=4b3126689ca1431bb2d1dc2b87db3736&HASH=4b31&LV=202606&V=4&LU=1781156950973",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2027-06-11T05:49:11.129Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MS0",
+        "value": "df86a13e833e45d3887685e96d69a45e",
+        "domain": "microsoft.com",
+        "path": "/",
+        "expires": "2026-06-11T06:19:11.129Z",
+        "size": 35,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||btloader.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": "2.1.189-1-gf2b7278",
+            "nlf": false,
+            "sid": "YaNbxBTb-Ogwhnqgv-9eb53a2933",
+            "tid": "mXGa5ZJEt-cGfOAAZJk-9eb53a2932",
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.btloader.com/pv?nlf=false&tid=mXGa5ZJEt-cGfOAAZJk-9eb53a2932&sid=YaNbxBTb-Ogwhnqgv-9eb53a2933&cv=2.1.189-1-gf2b7278&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.6763959750247364,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.6763959750247364"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.5457704877169691
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.5457704877169691"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.536859503377277,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.536859503377277"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.6844323388846174
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.6844323388846174"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.7915033543079961,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.7915033543079961"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.9463477166785788
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.9463477166785788"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.4000668641492382,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.4000668641492382"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.5734065058043627
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.5734065058043627"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "||browser.events.data.microsoft.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "content-type": "application/x-json-stream",
+            "cors": true,
+            "w": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "e": 0.923794717422979
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1&e=0.923794717422979"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "e": 0.0953421388387008
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1&e=0.0953421388387008"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.210262356328611,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.210262356328611"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.9751724521945144
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.9751724521945144"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.4373817428327904
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.4373817428327904"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "e": 0.7396922179692258
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1&e=0.7396922179692258"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.1799128380103756,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.1799128380103756"
+      },
+      {
+        "data": {
+          "filter": "||btloader.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": "2.1.189-1-gf2b7278",
+            "sid": "YaNbxBTb-Ogwhnqgv-9eb53a2933",
+            "tid": "mXGa5ZJEt-cGfOAAZJk-9eb53a2932",
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.btloader.com/exd?tid=mXGa5ZJEt-cGfOAAZJk-9eb53a2932&sid=YaNbxBTb-Ogwhnqgv-9eb53a2933&cv=2.1.189-1-gf2b7278&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "||btloader.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "fullVersionList": [],
+            "orgid": 6208086025961472,
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.api.btloader.com/device?orgid=6208086025961472&fullVersionList=%5B%5D&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "||btloader.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "o": 6208086025961472,
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://btloader.com/trustedIframe.html?o=6208086025961472&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "e": 0.08615343299911382
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1&e=0.08615343299911382"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "e": 0.17900639165785637,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.17900639165785637"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "e": 0.35658152124942966
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2&e=0.35658152124942966"
+      },
+      {
+        "data": {
+          "filter": "||btloader.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.btloader.com/cchecker.html?upapi=true"
+      },
+      {
+        "data": {
+          "filter": "||webcontentassessor.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.mf.webcontentassessor.com/scripts/6a954169fe5821a4c3ba0add714770cb2e65836f4d3a81a8a1286a8dedacdbbb.json"
+      },
+      {
+        "data": {
+          "filter": "||btloader.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "o": 6208086025961472,
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://btloader.com/tag?o=6208086025961472&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "/c.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "CtsSyncId": "97FF8CD335134582B42640C6A9DDE586",
+            "MXFR": "1F63C467DA8D68D63228D312DB2069D3",
+            "RedC": "c.msn.com",
+            "aadState": 2,
+            "activityId": "6a2a4c51b144477080ec031e8db222e3",
+            "anoncknm": "app_anon",
+            "ctsa": "mr",
+            "cvs": "Browser",
+            "d.imd": true,
+            "di": 13041,
+            "issso": false,
+            "lng": "es-es",
+            "pg.c": 11,
+            "pg.n": "startpage",
+            "pg.p": "prime_mobile",
+            "pg.t": "hp",
+            "rf": "",
+            "rid": "6a2a4c51b144477080ec031e8db222e3",
+            "rnd": 1781156946486,
+            "scr": "375x812",
+            "st.dpt": "",
+            "st.sdpt": "hpmsn",
+            "subcvs": "homepage",
+            "tp": "https://www.msn.com/es-es?ocid=hpmsn",
+            "udc": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.msn.com/es-es",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.bing.com/c.gif?rnd=1781156946486&udc=true&pg.n=startpage&pg.t=hp&pg.c=11&pg.p=prime_mobile&rf=&tp=https%3A%2F%2Fwww.msn.com%2Fes-es%3Focid%3Dhpmsn&cvs=Browser&di=13041&st.dpt=&st.sdpt=hpmsn&subcvs=homepage&lng=es-es&rid=6a2a4c51b144477080ec031e8db222e3&activityId=6a2a4c51b144477080ec031e8db222e3&d.imd=true&scr=375x812&anoncknm=app_anon&issso=false&aadState=2&ctsa=mr&CtsSyncId=97FF8CD335134582B42640C6A9DDE586&RedC=c.msn.com&MXFR=1F63C467DA8D68D63228D312DB2069D3"
+      }
+    ]
+  }
+}

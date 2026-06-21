@@ -1,0 +1,208 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "News & E-Mail bei t-online | Politik, Sport, Unterhaltung & Ratgeber",
+  "uri_ins": "https://t-online.de",
+  "uri_dest": "https://www.t-online.de/",
+  "uri_redirects": [
+    "https://t-online.de/"
+  ],
+  "secure_connection": {},
+  "host": "t-online.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:46:12.157Z",
+  "end_time": "2026-06-11T06:46:18.978Z",
+  "browsing_history": [
+    "https://www.t-online.de/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "t-online.de",
+        "www.t-online.de",
+        "consent.t-online.de",
+        "images.t-online.de",
+        "pur.t-online.de",
+        "portal.finanzdaten.t-online.de",
+        "data.rt.t-online.de",
+        "events.rt.t-online.de"
+      ],
+      "third_party": [
+        "widgets.engagement-prod.stroeerws.de",
+        "sdc-next-statics-prod.dcp.stroeerws.de",
+        "fin-statics-prod.dcp.stroeerws.de",
+        "www.googletagmanager.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://consent.t-online.de/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://www.t-online.de/s/paper/_next/static/chunks/43-5c29f0d9eb3e024e.js": [
+          "keydown"
+        ],
+        "https://www.t-online.de/s/paper/_next/static/chunks/8471-b09479ca75c73e2a.js": [
+          "keydown"
+        ],
+        "https://www.t-online.de/s/paper/_next/static/chunks/6836-0f67f1b296c34bd3.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.t-online.de/gtm.js?id=GTM-MGD3ZJWL": [
+          "click"
+        ],
+        "https://www.t-online.de/s/paper/_next/static/chunks/9812-d31a061d1b500413.js": [
+          "click"
+        ],
+        "https://portal.finanzdaten.t-online.de/finanzen/boerse/api/patrack.js": [
+          "click"
+        ],
+        "https://www.t-online.de/metatag/live/scg_t-o-home/core.2.56.1.8cd45c1ee55a01236120.js": [
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://www.t-online.de/metatag/live/scg_t-o-home/metaTag.min.js": [
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "testVariationconsent",
+        "value": "2022-07-26-cmp-pur-7-B",
+        "domain": "www.t-online.de",
+        "path": "/",
+        "expires": "2026-07-11T06:46:13.000Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "t-online.de",
+        "path": "/",
+        "expires": "2027-06-11T06:46:15.871Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "paper_fast_consent",
+        "value": "NO_CONSENT",
+        "domain": "t-online.de",
+        "path": "/",
+        "expires": "2026-11-08T06:46:15.000Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtg_health": 1,
+            "id": "GTM-MGD3ZJWL"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.t-online.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MGD3ZJWL&gtg_health=1"
+      }
+    ]
+  }
+}

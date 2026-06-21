@@ -1,0 +1,197 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "News from California, across the nation and world - Los Angeles Times",
+  "uri_ins": "https://latimes.com",
+  "uri_dest": "https://www.latimes.com/",
+  "uri_redirects": [
+    "https://latimes.com/"
+  ],
+  "secure_connection": {},
+  "host": "latimes.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:46:44.547Z",
+  "end_time": "2026-06-11T09:46:49.202Z",
+  "browsing_history": [
+    "https://www.latimes.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "latimes.com",
+        "www.latimes.com",
+        "libs.platform.latimes.com"
+      ],
+      "third_party": [
+        "ca-times.brightspotcdn.com",
+        "activate.platform.californiatimes.com",
+        "cdn.speedcurve.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js": [
+          "click"
+        ],
+        "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.b2200f7f0abbd09efbdaa71cc235560c.gz.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "domain": "latimes.com",
+        "name": "__cheq_tld_1781171206316",
+        "path": "/",
+        "script": "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||californiatimes.com/privacy/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 2715,
+            "d": "8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI3bXI5M2giLCJwYWNrZXQiOjEsIm1vZGUiOiJlbmZvcmNlWgDyJW9va2llcyI6e30sImVudmlyb25tZW50IjoiRVUiLCJyZXF1ZXN0cyI6W3siZGVzdGluYXSxAPURaHR0cHM6Ly9zdGF0aWMuY2hhcnRiZWF0LmNvbS9qcy8RAPAPX21hYi5qcyIsInR5cGUiOiJzY3JpcHQiLCJzdGFymQDANzgxMTcxMjA3MjkzhwBHZCI6MRQAhjQsInNvdXJjPADyAV9ET01BdHRyTW9kaWZpZWRMALF0dXMiOiJibG9jaxMAYHJlYXNvbrwA8QkiV2hpdGVsaXN0Il0sImRhdGFQYXR0ZXIdADFdLCIaACo6WycAEmmHAM8yNTk0OTMwNjU0fSwEAQXxBXd3dy5nb29nbGV0YWdtYW5hZ2VyCAH_Emd0YWcvanM_aWQ9Ry1GQjVEOTdWSk5NJmw9YWRzRGF0YRYBEx81FgEAHzUWAWqvMTk1NjA3NjcwNhYBBw8aAgUyc3ViAwJPaW9ucxoCFD03OTYEAQEUAA8aAmifMTk4MTYxMDI3GgIIomFjdGl2YXRlLmymAwEWAnBwYy9jYWx0tgPBLz9wdWxzZTIwMDI9UgOQJTNBJTJGJTJGVAIHNQBEJTJGJisAKzQ9HQAFGgAjNT0zAAUSAKU2PWhvbWVwYWdlEwAkOT0LAC0xMB4AITExEwAFIgDwEzI9TmV3cyUyMGZyb20lMjBDYWxpZm9ybmlhJTIwYWNyb3MdAGJ0aGUlMjAcBAAYAJBuZCUyMHdvcmwIAFAlMjBMbyYAYEFuZ2VsZQoAEFT8AAVkAEQzPTIyDQAlMjCeABoyiwAmMjIaABYzCwAWNAsAFTcLANQzNT1zaWduZWQtb3V0WwAXMyAAhTk9Mzc1eDgxeADENDM9dW5kZWZpbmVkMQAWNFwAJDg4XABzMTI3PSUyMCQAUDEzMT0wAQD1EDE3OC1hOGJjLWRmMTctYWI3OS1hZWJkYWM1ZDAwNDYvAAW6AD0xMzRyADUxMzVnAC8zNh8AAPQHNz0wNC0wNi0yMDIxJTIwMTIlM0E1N10AJTQxPgAVNOwAJjE0uwAWNSEA5DU4PU9TdTdwSVIyVjljQgAuNTl1ACU2NlYAKDY4-wAVN6sBJTE3nAE9MTc1QwAlMjjXAD4yOTAfABU5YgAlMjm4ACUyObgAMzMwMmUB8BI5Mi0wNmE1LWQxNTgtYTk5Ny03ZmFkMGM1MjAwMDUlM0GLAfQQMDE4Ny1hNDUwLWQ0YjAtYTFlNy1iZmYwN2IzZDAwMPMBJTMwjAE3MzA02QAlMzHZACUzMdkAJjMxLwAeMbsBJTMx5AAlMzHQAEQzMTk9KwImMzJBABUyWgImMzItABUy_QAmMzL9ABAzjgBVeGxpZD0VB_AYNTkyNjM3NjI4NDcxODcmcGJyZD0xJnBjaD00JnBjaWQ9JmNfcmRwewA1ZWk98QA3MzY9cAaSZW5kQmVhY29uPgcKigc9ODAwcAUBFAAFcAXyA1NFTkRCRUFDT05fTUFOQUdFUkgAD4YHQ9AxNTE4NDAyMjQ5fV19",
+            "i": "7mr93h",
+            "n": 2,
+            "p": "latimes",
+            "s": 2360
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.latimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://activate.platform.californiatimes.com/privacy/v1/b/b.rnc?n=2&c=2715&i=7mr93h&p=latimes&s=2360&d=8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI3bXI5M2giLCJwYWNrZXQiOjEsIm1vZGUiOiJlbmZvcmNlWgDyJW9va2llcyI6e30sImVudmlyb25tZW50IjoiRVUiLCJyZXF1ZXN0cyI6W3siZGVzdGluYXSxAPURaHR0cHM6Ly9zdGF0aWMuY2hhcnRiZWF0LmNvbS9qcy8RAPAPX21hYi5qcyIsInR5cGUiOiJzY3JpcHQiLCJzdGFymQDANzgxMTcxMjA3MjkzhwBHZCI6MRQAhjQsInNvdXJjPADyAV9ET01BdHRyTW9kaWZpZWRMALF0dXMiOiJibG9jaxMAYHJlYXNvbrwA8QkiV2hpdGVsaXN0Il0sImRhdGFQYXR0ZXIdADFdLCIaACo6WycAEmmHAM8yNTk0OTMwNjU0fSwEAQXxBXd3dy5nb29nbGV0YWdtYW5hZ2VyCAH_Emd0YWcvanM_aWQ9Ry1GQjVEOTdWSk5NJmw9YWRzRGF0YRYBEx81FgEAHzUWAWqvMTk1NjA3NjcwNhYBBw8aAgUyc3ViAwJPaW9ucxoCFD03OTYEAQEUAA8aAmifMTk4MTYxMDI3GgIIomFjdGl2YXRlLmymAwEWAnBwYy9jYWx0tgPBLz9wdWxzZTIwMDI9UgOQJTNBJTJGJTJGVAIHNQBEJTJGJisAKzQ9HQAFGgAjNT0zAAUSAKU2PWhvbWVwYWdlEwAkOT0LAC0xMB4AITExEwAFIgDwEzI9TmV3cyUyMGZyb20lMjBDYWxpZm9ybmlhJTIwYWNyb3MdAGJ0aGUlMjAcBAAYAJBuZCUyMHdvcmwIAFAlMjBMbyYAYEFuZ2VsZQoAEFT8AAVkAEQzPTIyDQAlMjCeABoyiwAmMjIaABYzCwAWNAsAFTcLANQzNT1zaWduZWQtb3V0WwAXMyAAhTk9Mzc1eDgxeADENDM9dW5kZWZpbmVkMQAWNFwAJDg4XABzMTI3PSUyMCQAUDEzMT0wAQD1EDE3OC1hOGJjLWRmMTctYWI3OS1hZWJkYWM1ZDAwNDYvAAW6AD0xMzRyADUxMzVnAC8zNh8AAPQHNz0wNC0wNi0yMDIxJTIwMTIlM0E1N10AJTQxPgAVNOwAJjE0uwAWNSEA5DU4PU9TdTdwSVIyVjljQgAuNTl1ACU2NlYAKDY4-wAVN6sBJTE3nAE9MTc1QwAlMjjXAD4yOTAfABU5YgAlMjm4ACUyObgAMzMwMmUB8BI5Mi0wNmE1LWQxNTgtYTk5Ny03ZmFkMGM1MjAwMDUlM0GLAfQQMDE4Ny1hNDUwLWQ0YjAtYTFlNy1iZmYwN2IzZDAwMPMBJTMwjAE3MzA02QAlMzHZACUzMdkAJjMxLwAeMbsBJTMx5AAlMzHQAEQzMTk9KwImMzJBABUyWgImMzItABUy_QAmMzL9ABAzjgBVeGxpZD0VB_AYNTkyNjM3NjI4NDcxODcmcGJyZD0xJnBjaD00JnBjaWQ9JmNfcmRwewA1ZWk98QA3MzY9cAaSZW5kQmVhY29uPgcKigc9ODAwcAUBFAAFcAXyA1NFTkRCRUFDT05fTUFOQUdFUkgAD4YHQ9AxNTE4NDAyMjQ5fV19"
+      },
+      {
+        "data": {
+          "filter": "||californiatimes.com/privacy/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 2715,
+            "d": "8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI3bXI5M2giLCJwYWNrZXQiOjEsIm1vZGUiOiJlbmZvcmNlWgDyJW9va2llcyI6e30sImVudmlyb25tZW50IjoiRVUiLCJyZXF1ZXN0cyI6W3siZGVzdGluYXSxAPIUaHR0cHM6Ly9hY3RpdmF0ZS5wbGF0Zm9ybS5jYWxpZm9ybmmZAJAuY29tL2NhbHSmACIvbBUA8BQvc2VydmVyQ29tcG9uZW50LnBocD9uYW1lc3BhY2U9Q2FsVC8AkCZzdGF0aWNKc-wAHj1GAHJjb2RlLyZDIAEgRD0fAYEmUGFnZUlEPaAA0yUzQSUyRiUyRnd3dy57AACQAAAVAP8UM0ZsYXRCc3BUeXBlJTNEaG9tZXBhZ2UmY3VzdERvbWFpbj3cABLwByIsInR5cGUiOiJmZXRjaCIsInN0YXJxAcA3ODExNzEyMDYzNTVfAUdkIjoxFACAOSwic291cmM7ANJGRVRDSF9NQU5BR0VSQwDRdHVzIjoiYWxsb3dlZIwBQGFzb26LAdRdLCJkYXRhUGF0dGVyEgCxbGlzdCI6W10sImloAN83OTgxNzcxODE2M30svQEFRmxpYnO5AQchAbAvbW9kYWxpdHlqc7MBZmVzdC5qc-oAYnNjcmlwdKgAC-sALjcx6wAnNzPrACBtddQBQ29uT2IEAhJMSAAC8ABbYmxvY2vwAGEiV2hpdGXhAA_7AAkKJwAFBgGPMzA2NDMwNzUGASFgbmV3c2xlZwH_Ai1jYW1wYWlnbi1tYW5hZ2VyFwEdHzMXAQAfNBcBaH8yMDcwMTAxHQII4GNkbi5zcGVlZGN1cnZlNwMQLw4C8AF1eC5qcz9pZD0yMDIwMTkxogQDAQMPFwIJDwIDAC83NgABZb84MDYwMzE4MjIzNBcCBw_-AxIPlAQE8BEyNTA3MWNmN2E1NTc1ZGNjOTU2M2MyZGU3NTk1NWZmMkMBUGNvbmRpTgW_SWQwPTQ4NDk1NDRjAxE9OTQ3TAIBFAAFTgQCiAHhX0RPTUF0dHJNb2RpZmlUAwBPBQ9XBC2fNDc3MjE1NzI4OgFD_xFjODE2MTgzMWNiZmUwMGUxZmMxNWM3YjIxNzcwZmU2ZjoBAi85NzoBFB84OgEAFziGAg86AUqPNzc4NzY3NDh0AkT_EWQ1YmY1MTBkNThkMGJkY2ZiYmEyZGJjOGQxZDg1MjY3OgEAXzUzMzg2dAITHzk6AQAIwgYPOgFIrzgyMjU0NjE4ODHFBQgPrgMp_xE0MGJiYmU5MzU2NWNlYmQ4NGU3YzkyN2JiNDBlMmFhMDoBBCc5JsMDnzE9NDg2Mzc0OU8BEi41ME8BABQAD8MDUb84MDQ3NDMxNDI3N8MDQ_8RMmRkMzQxNTI2NWU5ZTQyN2I5MjY1ZjI4ZDIzYTMyYzVPAQMsOTBPAV81MzM5MU8BEw51CD85NTHYA1MARgZ_ODEzMjQ3Nk8BQ_8QMDRiODJjZmRhODZhZjg2MmZjMjQ1ODZjZjFiMTg2NBIFAU82NDUxOgGPrzc5NDEzMTMyNznYA0T_EDc0YmNmN2U2MzM2MDUwYjFhZmZiNDYwMTQ2NGFjZWPYAwBPOTczMToBFR8ywwMAHzJ0AlOvNzk5NTA1NTczNcMDRP8RZWI0Y2NkNmE4YzhmM2EwY2Q1YzQzY2QyOGU5ODEzNDPDAwMPTAYUHjUMCxA5FAAP_QRTnzc1OTI5MDE1MK4DQ_4ROTgyNWMxZTlhMDgyMjdkY2E4NzViMTIwZjNmNTdiZjk6AV85NTIyN4YHEy81NHQCAAhGDA-GB0ivNzkyOTIwNzE1NzQMCA-GByn-ETFjNTQ1NDE1Nzk2MzFjMTAwMTM2MTVkM2ZhNDQ1YzM0OgEQOCIGDzcGKQ6VDBA5qw8PiQJTfzI4ODA3ODYPCkX-ETQyODQ1NTExOTAxODA4OTAyOGMyMDhiOGFlZGJjZGNjTwFcOTczMDhPAVk5MTEyNhUAPzI9NCcFGR82swIACPkND7MCSo8wNzM2MTY5OGEGRP4RYTAwMWI5MzUyNmVmMTA5YjA1ZGM0ODk5MzRhYmNkZDJkAR84mwcYDzoBaJ84MTgyMTE5NjFhBkX_ETNiZjE2MTRkYmVhN2YzZjg4ZDMyYzYxZmY1NjdjMTk4OgEATzUzMzhzCykPNg8ALzU3sAdTrzgyMzA0NTIyODQkCkT_EWZhYzllOGEyODI1ZTIwMzhkNzdhYjRmMTk1NDI2N2NiTwEAD3AQFx81Ng8AABQADycFU585MDQyMjE1OTmwBwcA3hVieW91dHVipxKvaWZyYW1lX2FwaT4MED03MDYaAgIUAA_gABgfYrcUPZ8yMzU0MTk0ODH2AAcPbAcpD6ASXCk3Md0OyGluc2VydEJlZm9yZf0VP2xvYeoWIg-TEkwPLQFKHTVZEQstAQ8wFwsPMwEsHzQGC0QPxhNcRzcyNDDKBQ9gAj0PuRNMDy0BSg9gAgAKLQEPYAJDAzMBD9oPRQ-gDlwgNzJ6DQUQBg9gAjsvODCTDkwPLQFKHTbKFAstAQ9gAkEGMwEPABFED4wOcSk3MowOD3UCPQ9_DkwPQgFfD4oCAhc1FwYPigJDBEgBD6AKCA-qCSkPxw-GKTcyPg0PnwI7Lzc5ug9MD1cBdA-0AgIIlQ4PtAJBBl0BD7QCRA-yGEsNeBcpNzKODg-KAj0EpRgPuw9EDy0BSw5eDAotAQ9gAkMCMwEvODAqFkQPdxNLDg4QEDJFCw_-CUUFahMPUSFEDy0BSg_ABAIIFyAPYAJBBZ0UHzYeEUQPSiFcIDcyRwEPYAJFDz0hTQ8tAUoAeQMhZW7RKANNKQstAQ9gAkIEMwEfMjcYRA9wInE4NzI2likPNQc7D2MiTg9CAWAPSgcACUIBD4oCQgSrIx84fQhED6sjcTg3MjamDQ-KAjw_MjIzniNKD0IBYA-KAgEIQgEPigJCBEgBD68eRQ-sI1wgNzL2GQ90B0QPnyNODy0BSw9gAgEPlA5PA9IkHzYeK0QPcR5xODcyNm0sD-oEPQ9kHkwPQgFfABcLDf4JCEIBD-oEQwRIAQ8eEUQPIiZcIDcykzMP6gRGDxUmTA8tAUoPYAIBCS0BD2ACQQZIJw9gAgjxBXNiLnNjb3JlY2FyZHJlc2VhcmNogjPwGGI_YzE9MiZjMj02MDM2NDYyJm5zX190PVRodSUyMEp1biUyMDExJZwzITI2DADwFzo0Njo0NyUyMEdNVCswMjAwJTIwKENlbnRyYWwlMjBFdXJvcGVhOACQU3VtbWVyJTIwfDcQKVkA9QtjPVVURi04JmM4PU5ld3MlMjBmcm9tJTIwQ-Q3sCUyQyUyMGFjcm9zIABidGhlJTIwJjgAGACQbmQlMjB3b3JsCABgLSUyMExvJwBgQW5nZWxlCgAAbABPcyZjN7E3DkYmYzk9zyEyaW1nOiAJfzYgNzJUNAwzBAAUAAYAAy9tZxkzCQ_JITyvODEyOTEyMzYzMWkfRA_5I1w4NzI43hEPwgY8HzDsIxAPTBkpDy0BSg9NBAEJLQEPTQRBEzgzAS82MAsTCA9NBAYzYzIvRgQ_L2Nz4TkTPzcyOfEdAAAUAAViAw_RKQ8PZQM84Dc5MDcwNTI1ODc2fV19",
+            "i": "7mr93h",
+            "n": 1,
+            "p": "latimes",
+            "s": 15702
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.latimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://activate.platform.californiatimes.com/privacy/v1/b/b.rnc?n=1&c=2715&i=7mr93h&p=latimes&s=15702&d=8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI3bXI5M2giLCJwYWNrZXQiOjEsIm1vZGUiOiJlbmZvcmNlWgDyJW9va2llcyI6e30sImVudmlyb25tZW50IjoiRVUiLCJyZXF1ZXN0cyI6W3siZGVzdGluYXSxAPIUaHR0cHM6Ly9hY3RpdmF0ZS5wbGF0Zm9ybS5jYWxpZm9ybmmZAJAuY29tL2NhbHSmACIvbBUA8BQvc2VydmVyQ29tcG9uZW50LnBocD9uYW1lc3BhY2U9Q2FsVC8AkCZzdGF0aWNKc-wAHj1GAHJjb2RlLyZDIAEgRD0fAYEmUGFnZUlEPaAA0yUzQSUyRiUyRnd3dy57AACQAAAVAP8UM0ZsYXRCc3BUeXBlJTNEaG9tZXBhZ2UmY3VzdERvbWFpbj3cABLwByIsInR5cGUiOiJmZXRjaCIsInN0YXJxAcA3ODExNzEyMDYzNTVfAUdkIjoxFACAOSwic291cmM7ANJGRVRDSF9NQU5BR0VSQwDRdHVzIjoiYWxsb3dlZIwBQGFzb26LAdRdLCJkYXRhUGF0dGVyEgCxbGlzdCI6W10sImloAN83OTgxNzcxODE2M30svQEFRmxpYnO5AQchAbAvbW9kYWxpdHlqc7MBZmVzdC5qc-oAYnNjcmlwdKgAC-sALjcx6wAnNzPrACBtddQBQ29uT2IEAhJMSAAC8ABbYmxvY2vwAGEiV2hpdGXhAA_7AAkKJwAFBgGPMzA2NDMwNzUGASFgbmV3c2xlZwH_Ai1jYW1wYWlnbi1tYW5hZ2VyFwEdHzMXAQAfNBcBaH8yMDcwMTAxHQII4GNkbi5zcGVlZGN1cnZlNwMQLw4C8AF1eC5qcz9pZD0yMDIwMTkxogQDAQMPFwIJDwIDAC83NgABZb84MDYwMzE4MjIzNBcCBw_-AxIPlAQE8BEyNTA3MWNmN2E1NTc1ZGNjOTU2M2MyZGU3NTk1NWZmMkMBUGNvbmRpTgW_SWQwPTQ4NDk1NDRjAxE9OTQ3TAIBFAAFTgQCiAHhX0RPTUF0dHJNb2RpZmlUAwBPBQ9XBC2fNDc3MjE1NzI4OgFD_xFjODE2MTgzMWNiZmUwMGUxZmMxNWM3YjIxNzcwZmU2ZjoBAi85NzoBFB84OgEAFziGAg86AUqPNzc4NzY3NDh0AkT_EWQ1YmY1MTBkNThkMGJkY2ZiYmEyZGJjOGQxZDg1MjY3OgEAXzUzMzg2dAITHzk6AQAIwgYPOgFIrzgyMjU0NjE4ODHFBQgPrgMp_xE0MGJiYmU5MzU2NWNlYmQ4NGU3YzkyN2JiNDBlMmFhMDoBBCc5JsMDnzE9NDg2Mzc0OU8BEi41ME8BABQAD8MDUb84MDQ3NDMxNDI3N8MDQ_8RMmRkMzQxNTI2NWU5ZTQyN2I5MjY1ZjI4ZDIzYTMyYzVPAQMsOTBPAV81MzM5MU8BEw51CD85NTHYA1MARgZ_ODEzMjQ3Nk8BQ_8QMDRiODJjZmRhODZhZjg2MmZjMjQ1ODZjZjFiMTg2NBIFAU82NDUxOgGPrzc5NDEzMTMyNznYA0T_EDc0YmNmN2U2MzM2MDUwYjFhZmZiNDYwMTQ2NGFjZWPYAwBPOTczMToBFR8ywwMAHzJ0AlOvNzk5NTA1NTczNcMDRP8RZWI0Y2NkNmE4YzhmM2EwY2Q1YzQzY2QyOGU5ODEzNDPDAwMPTAYUHjUMCxA5FAAP_QRTnzc1OTI5MDE1MK4DQ_4ROTgyNWMxZTlhMDgyMjdkY2E4NzViMTIwZjNmNTdiZjk6AV85NTIyN4YHEy81NHQCAAhGDA-GB0ivNzkyOTIwNzE1NzQMCA-GByn-ETFjNTQ1NDE1Nzk2MzFjMTAwMTM2MTVkM2ZhNDQ1YzM0OgEQOCIGDzcGKQ6VDBA5qw8PiQJTfzI4ODA3ODYPCkX-ETQyODQ1NTExOTAxODA4OTAyOGMyMDhiOGFlZGJjZGNjTwFcOTczMDhPAVk5MTEyNhUAPzI9NCcFGR82swIACPkND7MCSo8wNzM2MTY5OGEGRP4RYTAwMWI5MzUyNmVmMTA5YjA1ZGM0ODk5MzRhYmNkZDJkAR84mwcYDzoBaJ84MTgyMTE5NjFhBkX_ETNiZjE2MTRkYmVhN2YzZjg4ZDMyYzYxZmY1NjdjMTk4OgEATzUzMzhzCykPNg8ALzU3sAdTrzgyMzA0NTIyODQkCkT_EWZhYzllOGEyODI1ZTIwMzhkNzdhYjRmMTk1NDI2N2NiTwEAD3AQFx81Ng8AABQADycFU585MDQyMjE1OTmwBwcA3hVieW91dHVipxKvaWZyYW1lX2FwaT4MED03MDYaAgIUAA_gABgfYrcUPZ8yMzU0MTk0ODH2AAcPbAcpD6ASXCk3Md0OyGluc2VydEJlZm9yZf0VP2xvYeoWIg-TEkwPLQFKHTVZEQstAQ8wFwsPMwEsHzQGC0QPxhNcRzcyNDDKBQ9gAj0PuRNMDy0BSg9gAgAKLQEPYAJDAzMBD9oPRQ-gDlwgNzJ6DQUQBg9gAjsvODCTDkwPLQFKHTbKFAstAQ9gAkEGMwEPABFED4wOcSk3MowOD3UCPQ9_DkwPQgFfD4oCAhc1FwYPigJDBEgBD6AKCA-qCSkPxw-GKTcyPg0PnwI7Lzc5ug9MD1cBdA-0AgIIlQ4PtAJBBl0BD7QCRA-yGEsNeBcpNzKODg-KAj0EpRgPuw9EDy0BSw5eDAotAQ9gAkMCMwEvODAqFkQPdxNLDg4QEDJFCw_-CUUFahMPUSFEDy0BSg_ABAIIFyAPYAJBBZ0UHzYeEUQPSiFcIDcyRwEPYAJFDz0hTQ8tAUoAeQMhZW7RKANNKQstAQ9gAkIEMwEfMjcYRA9wInE4NzI2likPNQc7D2MiTg9CAWAPSgcACUIBD4oCQgSrIx84fQhED6sjcTg3MjamDQ-KAjw_MjIzniNKD0IBYA-KAgEIQgEPigJCBEgBD68eRQ-sI1wgNzL2GQ90B0QPnyNODy0BSw9gAgEPlA5PA9IkHzYeK0QPcR5xODcyNm0sD-oEPQ9kHkwPQgFfABcLDf4JCEIBD-oEQwRIAQ8eEUQPIiZcIDcykzMP6gRGDxUmTA8tAUoPYAIBCS0BD2ACQQZIJw9gAgjxBXNiLnNjb3JlY2FyZHJlc2VhcmNogjPwGGI_YzE9MiZjMj02MDM2NDYyJm5zX190PVRodSUyMEp1biUyMDExJZwzITI2DADwFzo0Njo0NyUyMEdNVCswMjAwJTIwKENlbnRyYWwlMjBFdXJvcGVhOACQU3VtbWVyJTIwfDcQKVkA9QtjPVVURi04JmM4PU5ld3MlMjBmcm9tJTIwQ-Q3sCUyQyUyMGFjcm9zIABidGhlJTIwJjgAGACQbmQlMjB3b3JsCABgLSUyMExvJwBgQW5nZWxlCgAAbABPcyZjN7E3DkYmYzk9zyEyaW1nOiAJfzYgNzJUNAwzBAAUAAYAAy9tZxkzCQ_JITyvODEyOTEyMzYzMWkfRA_5I1w4NzI43hEPwgY8HzDsIxAPTBkpDy0BSg9NBAEJLQEPTQRBEzgzAS82MAsTCA9NBAYzYzIvRgQ_L2Nz4TkTPzcyOfEdAAAUAAViAw_RKQ8PZQM84Dc5MDcwNTI1ODc2fV19"
+      },
+      {
+        "data": {
+          "filter": "||californiatimes.com/privacy/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 2715,
+            "d": "8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI3bXI5M2giLCJwYWNrZXQiOjAsIm1vZGUiOiJlbmZvcmNlWgDwFG9va2llcyI6e30sImVudmlyb25tZW50IjoiRVUiLCJkb2N1EADyFFJlZmVycmVyIjoiIiwicmVxdWVzdHMiOlt7ImRlc3RpbmF0xwDwGSIsInR5cGUiOiJiaWxsaW5nIiwic3RhcnQiOjE3ODExNzEyMDY4MjRuAMBkIjotMSwic291cmMyAAIrADR0dXNmAEBhc29uZQDUXSwiZGF0YVBhdHRlchIAwmxpc3QiOltdLCJpZF0AwDE3MTIwNjgyNH1dfQ",
+            "i": "7mr93h",
+            "n": 0,
+            "p": "latimes",
+            "s": 347
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.latimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://activate.platform.californiatimes.com/privacy/v1/b/b.rnc?n=0&c=2715&i=7mr93h&p=latimes&s=347&d=8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI3bXI5M2giLCJwYWNrZXQiOjAsIm1vZGUiOiJlbmZvcmNlWgDwFG9va2llcyI6e30sImVudmlyb25tZW50IjoiRVUiLCJkb2N1EADyFFJlZmVycmVyIjoiIiwicmVxdWVzdHMiOlt7ImRlc3RpbmF0xwDwGSIsInR5cGUiOiJiaWxsaW5nIiwic3RhcnQiOjE3ODExNzEyMDY4MjRuAMBkIjotMSwic291cmMyAAIrADR0dXNmAEBhc29uZQDUXSwiZGF0YVBhdHRlchIAwmxpc3QiOltdLCJpZF0AwDE3MTIwNjgyNH1dfQ"
+      },
+      {
+        "data": {
+          "filter": "||speedcurve.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 20201913
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.latimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.speedcurve.com/js/lux.js?id=20201913"
+      }
+    ]
+  }
+}

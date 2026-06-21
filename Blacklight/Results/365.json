@@ -1,0 +1,1335 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Stanford University",
+  "uri_ins": "https://stanford.edu",
+  "uri_dest": "https://www.stanford.edu/",
+  "uri_redirects": [
+    "https://stanford.edu/"
+  ],
+  "secure_connection": {},
+  "host": "stanford.edu",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:29:21.681Z",
+  "end_time": "2026-06-11T07:29:28.169Z",
+  "browsing_history": [
+    "https://www.stanford.edu/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "stanford.edu",
+        "www.stanford.edu",
+        "events.stanford.edu",
+        "www-media.stanford.edu"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "siteimproveanalytics.com",
+        "connect.facebook.net",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "www.google-analytics.com",
+        "www.youtube.com",
+        "static.hotjar.com",
+        "www.google.com",
+        "80352.global.siteimproveanalytics.io",
+        "6343745.global.r2.siteimproveanalytics.io",
+        "localist-images.azureedge.net",
+        "www.facebook.com",
+        "script.hotjar.com",
+        "region1.analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "region1.google-analytics.com",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.stanford.edu/": [
+          "click",
+          "scroll",
+          "mousemove",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.stanford.edu/": [
+          "keydown",
+          "keypress",
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "value": "1.1.789602675.1781162964",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2026-09-09T07:29:24.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "nmstat",
+        "value": "fa6d9e2e-8e7b-b887-6218-46afb00eda78",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2027-07-16T07:29:24.191Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1781162964328.269639385819087833",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2026-09-09T07:29:24.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-YNID",
+        "value": "19.YT=F5cvRzE0IEUowt1y2vik1YMZwR_gZt7PrBxo9PkvfLBDIYaLuBS7UWbpxs2-O90lRxifA7NoSFcl26EEJMoElJTRCgIn7d-7D7FCX6m0XYfaA5TbgYzoQICSSk4p-WFbH-Pz9fOoeZHJ5rCAGF8bZnr77jgeRRh2KhAMpG0ui3aC2l_fwaC1nffSy5aJ1Rdcc7OfrlePDENVaVgAKoUxy1kDKOJpR8MTgqII8ScErOGvtqnyzGn0n6ZnoOraYvK8JUvcnam7yM6R-nvaA72y7udvjilZJmzi8_hj1fQYtwCWJ79dlnzVFUkOnfkjUHFhgq5cdQuy_D1w3P_LoDStTg",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T07:29:24.612Z",
+        "size": 361,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "YSC",
+        "value": "VPKvXRs6dMc",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Secure-ROLLOUT_TOKEN",
+        "value": "CKyj7sjK9OPAXBCFkaqO1f6UAxiFkaqO1f6UAw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T07:29:24.612Z",
+        "size": 66,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://stanford.edu",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "Ye-1_njy1y4",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T07:29:24.612Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJFUxIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgPw%3D%3D",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2026-12-08T07:29:24.612Z",
+        "size": 84,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_hjSessionUser_6430056",
+        "value": "eyJpZCI6IjdlNjM1YjU4LTI0YjEtNWJkNS1hZTNmLTc5YmU5NWNjYzgyNyIsImNyZWF0ZWQiOjE3ODExNjI5NjQ2NzAsImV4aXN0aW5nIjpmYWxzZX0=",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2027-06-11T07:29:24.000Z",
+        "size": 138,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSession_6430056",
+        "value": "eyJpZCI6ImQ4MWQ0MTExLWNhODgtNDUyNy1iMTNiLWFhMWYwNDUzNmU4MCIsImMiOjE3ODExNjI5NjQ2NzgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2026-06-11T07:59:24.000Z",
+        "size": 166,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.620865300.1781162965",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2027-07-16T07:29:25.125Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1186164591.1781162965",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2026-06-12T07:29:25.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-1860414-1",
+        "value": "1",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2026-06-11T07:30:24.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_E08J4Q7DG7",
+        "value": "GS2.2.s1781162965$o1$g0$t1781162965$j60$l0$h0",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2027-07-16T07:29:25.151Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_RBCPHN00S7",
+        "value": "GS2.1.s1781162964$o1$g0$t1781162965$j59$l0$h0",
+        "domain": "stanford.edu",
+        "path": "/",
+        "expires": "2027-07-16T07:29:25.169Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.stanford.edu/",
+        "raw": "https://www.facebook.com/tr/?id=1199096620574484&ev=PageView&dl=https%3A%2F%2Fwww.stanford.edu%2F&rl=&if=false&ts=1781162964351&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781162964328.269639385819087833&ler=empty&pmd[title]=Stanford%20University&pmd[locale]=en_US&pmd[description]=Our%20mission%20of%20discovery%20and%20learning%20is%20energized%20by%20a%20spirit%20of%20optimism%20and%20possibility%20that%20dates%20to%20our%20founding.&plt=2098.4000000059605&iss=1&imft=1&tz=120&it=1781162964033&coo=false&cdl=&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET"
+      }
+    ],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 620865300.1781163,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v890477239z8810131866za20gzb810131866zd810131866",
+            "npa": 1,
+            "rcb": 2,
+            "tag_exp": "115616986~115938466~115938468~118012008~119456240~119456248",
+            "tid": "G-RBCPHN00S7",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-RBCPHN00S7&cid=620865300.1781162965&gtm=45je6691v890477239z8810131866za20gzb810131866zd810131866&rcb=2&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=115616986~115938466~115938468~118012008~119456240~119456248"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {
+      "script.hotjar.com": [
+        "script.hotjar.com/modules.c3d712579ef0b1b5af2a.js"
+      ],
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-6430056.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAIAAQ",
+            "_p": 1781162963546,
+            "_s": 2,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 620865300.1781163,
+            "dl": "https://www.stanford.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Stanford University",
+            "en": "Stanford University",
+            "ep.event_category": "Scroll Tracking",
+            "ep.event_label": "2%",
+            "frm": 0,
+            "gap.uat": "0~115616986~115938466~115938468~117776794",
+            "gcd": "13l3l3l2l3l1",
+            "gtm": "45je6691v9168113667za20g",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162965,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tfd": 5920,
+            "tid": "G-E08J4Q7DG7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-E08J4Q7DG7&gtm=45je6691v9168113667za20g&_p=1781162963546&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&_eu=EBAIAAQ&are=1&cid=620865300.1781162965&frm=0&ir=1&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938468~119456240~119456248&dl=https%3A%2F%2Fwww.stanford.edu%2F&dt=Stanford%20University&sid=1781162965&sct=1&seg=0&_tu=wAQ&en=Stanford%20University&_ee=1&gap.uat=0~115616986~115938466~115938468~117776794&ep.event_category=Scroll%20Tracking&ep.event_label=2%25&tfd=5920"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1115,
+            "_eu": "AAAAAGQ",
+            "_p": 1781162963546,
+            "_s": 3,
+            "are": 1,
+            "cid": 620865300.1781163,
+            "dl": "https://www.stanford.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Stanford University",
+            "en": "user_engagement",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v890477239za20gzb810131866zd810131866",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162964,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938468~118012008~119456240~119456248",
+            "tfd": 5914,
+            "tid": "G-RBCPHN00S7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-RBCPHN00S7&gtm=45je6691v890477239za20gzb810131866zd810131866&_p=1781162963546&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAGQ&are=1&cid=620865300.1781162965&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=115616986~115938466~115938468~118012008~119456240~119456248&sid=1781162964&sct=1&seg=0&dl=https%3A%2F%2Fwww.stanford.edu%2F&dt=Stanford%20University&en=user_engagement&_et=1115&tfd=5914"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGQ",
+            "_p": 1781162963546,
+            "_s": 2,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 620865300.1781163,
+            "dl": "https://www.stanford.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Stanford University",
+            "en": "scroll",
+            "ep.percentage": "2%",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v890477239z8810131866za20gzb810131866zd810131866",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162964,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938468~118012008~119456240~119456248",
+            "tfd": 5912,
+            "tid": "G-RBCPHN00S7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-RBCPHN00S7&gtm=45je6691v890477239z8810131866za20gzb810131866zd810131866&_p=1781162963546&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAGQ&are=1&cid=620865300.1781162965&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115616986~115938466~115938468~118012008~119456240~119456248&sid=1781162964&sct=1&seg=0&dl=https%3A%2F%2Fwww.stanford.edu%2F&dt=Stanford%20University&_tu=wAQ&en=scroll&ep.percentage=2%25&tfd=5912"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1123999777,
+            "ck": 0,
+            "ptid": "3f22f872daa8577b",
+            "ref": "https://www.stanford.edu/",
+            "rst": 3557,
+            "s": "e16e9e59a1739a4a",
+            "to": "MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E=",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-a5e9036dbeb441881bb?a=1123999777&v=1.316.0&to=MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E%3D&rst=3557&ck=0&s=e16e9e59a1739a4a&ref=https://www.stanford.edu/&ptid=3f22f872daa8577b"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1123999777,
+            "ck": 0,
+            "ptid": "3f22f872daa8577b",
+            "ref": "https://www.stanford.edu/",
+            "rst": 3552,
+            "s": "e16e9e59a1739a4a",
+            "to": "MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E=",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/NRJS-a5e9036dbeb441881bb?a=1123999777&v=1.316.0&to=MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E%3D&rst=3552&ck=0&s=e16e9e59a1739a4a&ref=https://www.stanford.edu/&ptid=3f22f872daa8577b"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1123999777,
+            "ck": 0,
+            "ptid": "3f22f872daa8577b",
+            "ref": "https://www.stanford.edu/",
+            "rst": 3549,
+            "s": "e16e9e59a1739a4a",
+            "to": "MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E=",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-a5e9036dbeb441881bb?a=1123999777&v=1.316.0&to=MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E%3D&rst=3549&ck=0&s=e16e9e59a1739a4a&ref=https://www.stanford.edu/&ptid=3f22f872daa8577b"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1123999777,
+            "af": "err,spa,xhr,stn,ins",
+            "ap": 360,
+            "at": "HhAEFwpPSB8=",
+            "be": 1202,
+            "ck": 0,
+            "dc": 896,
+            "fcp": 1616,
+            "fe": 1789,
+            "fp": 1616,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 1120,
+                "ce": 1163,
+                "dc": 2989,
+                "de": 2098,
+                "di": 1856,
+                "dn": 1120,
+                "dne": 1120,
+                "ds": 2098,
+                "f": 1061,
+                "l": 2989,
+                "le": 2992,
+                "n": 0,
+                "of": 1781162962116,
+                "rp": 1203,
+                "rpe": 1217,
+                "rq": 1163,
+                "s": 1138
+              }
+            },
+            "ptid": "3f22f872daa8577b",
+            "ref": "https://www.stanford.edu/",
+            "rst": 3094,
+            "s": "e16e9e59a1739a4a",
+            "to": "MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E=",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRJS-a5e9036dbeb441881bb?a=1123999777&v=1.316.0&to=MlcHYUJVWxFVBxBRCgsdJFZEXVoMGwIWVwsRHxVUV1E%3D&rst=3094&ck=0&s=e16e9e59a1739a4a&ref=https://www.stanford.edu/&ptid=3f22f872daa8577b&af=err,spa,xhr,stn,ins&ap=360&be=1202&fe=1789&dc=896&at=HhAEFwpPSB8%3D&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781162962116,%22n%22:0,%22f%22:1061,%22dn%22:1120,%22dne%22:1120,%22c%22:1120,%22s%22:1138,%22ce%22:1163,%22rq%22:1163,%22rp%22:1203,%22rpe%22:1217,%22di%22:1856,%22ds%22:2098,%22de%22:2098,%22dc%22:2989,%22l%22:2989,%22le%22:2992%7D,%22navigation%22:%7B%7D%7D&fp=1616&fcp=1616"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-spa-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 2,
+            "e": "*",
+            "eid": 10,
+            "epr": "1G.2G",
+            "es": 1,
+            "gtm": "45je6691v9168113667za20g",
+            "h": "Ag",
+            "id": "G-E08J4Q7DG7",
+            "pid": 1993610575,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tc": 12,
+            "u": "AAAAAAAIAAAAACAAAAAAAAAAAAAAAAAAEA",
+            "ut": "Ag",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=G-E08J4Q7DG7&v=3&t=t&pid=1993610575&gtm=45je6691v9168113667za20g&cv=2&rv=6691&tc=12&tag_exp=115938466~115938468~119456240~119456248&es=1&e=*&eid=10&u=AAAAAAAIAAAAACAAAAAAAAAAAAAAAAAAEA&ut=Ag&h=Ag&epr=1G.2G&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 2,
+            "e": "gtag.config",
+            "eid": 9,
+            "epr": "1G.3G",
+            "es": 1,
+            "gtm": "45je6691v9168113667za20g",
+            "id": "G-E08J4Q7DG7",
+            "pid": 1993610575,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tc": 12,
+            "u": "AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=G-E08J4Q7DG7&v=3&t=t&pid=1993610575&gtm=45je6691v9168113667za20g&cv=2&rv=6691&tc=12&tag_exp=115938466~115938468~119456240~119456248&es=1&e=gtag.config&eid=9&u=AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEA&epr=1G.3G&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 2,
+            "e": "gtm.dom",
+            "eid": 5,
+            "es": 1,
+            "gtm": "45je6691v9168113667za20g",
+            "id": "G-E08J4Q7DG7",
+            "pid": 1993610575,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tc": 12,
+            "u": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=G-E08J4Q7DG7&v=3&t=t&pid=1993610575&gtm=45je6691v9168113667za20g&cv=2&rv=6691&tc=12&tag_exp=115938466~115938468~119456240~119456248&es=1&e=gtm.dom&eid=5&u=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 2,
+            "e": "gtag.config",
+            "eid": 3,
+            "es": 1,
+            "gtm": "45je6691v9168113667za20g",
+            "id": "G-E08J4Q7DG7",
+            "pid": 1993610575,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tc": 12,
+            "ti": "2gct",
+            "tr": "1gct",
+            "u": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=G-E08J4Q7DG7&v=3&t=t&pid=1993610575&gtm=45je6691v9168113667za20g&cv=2&rv=6691&tc=12&tag_exp=115938466~115938468~119456240~119456248&es=1&e=gtag.config&eid=3&u=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA&tr=1gct&ti=2gct&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 2,
+            "e": "gtm.init",
+            "eid": 2,
+            "es": 1,
+            "gtm": "45je6691v9168113667za20g",
+            "id": "G-E08J4Q7DG7",
+            "pid": 1993610575,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tc": 12,
+            "ti": "2ogtgasend.2ogtreferralexclusion.2ogtsessiontimeout.2ogt1pdatav2.2ccdgafirst.2setproductsettings.2ccdgaregscope.2ccdemsitesearch.2ccdconversionmarking.2ccdautoredact.2ccdgalast",
+            "tr": "1ogtgasend.1ogtreferralexclusion.1ogtsessiontimeout.1ogt1pdatav2.1ccdgafirst.1setproductsettings.1ccdgaregscope.1ccdemsitesearch.1ccdconversionmarking.1ccdautoredact.1ccdgalast",
+            "u": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=G-E08J4Q7DG7&v=3&t=t&pid=1993610575&gtm=45je6691v9168113667za20g&cv=2&rv=6691&tc=12&tag_exp=115938466~115938468~119456240~119456248&es=1&e=gtm.init&eid=2&u=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA&tr=1ogtgasend.1ogtreferralexclusion.1ogtsessiontimeout.1ogt1pdatav2.1ccdgafirst.1setproductsettings.1ccdgaregscope.1ccdemsitesearch.1ccdconversionmarking.1ccdautoredact.1ccdgalast&ti=2ogtgasend.2ogtreferralexclusion.2ogtsessiontimeout.2ogt1pdatav2.2ccdgafirst.2setproductsettings.2ccdgaregscope.2ccdemsitesearch.2ccdconversionmarking.2ccdautoredact.2ccdgalast&z=0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_p": 1781162963546,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wAQ",
+            "are": 1,
+            "cid": 620865300.1781163,
+            "dl": "https://www.stanford.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Stanford University",
+            "en": "page_view",
+            "frm": 0,
+            "gap.uat": "0~115616986~115938466~115938468~117776794",
+            "gcd": "13l3l3l2l3l1",
+            "gtm": "45je6691v9168113667za20g",
+            "ir": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162965,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938468~119456240~119456248",
+            "tfd": 2938,
+            "tid": "G-E08J4Q7DG7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-E08J4Q7DG7&gtm=45je6691v9168113667za20g&_p=1781162963546&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&_eu=EBAI&are=1&cid=620865300.1781162965&frm=0&ir=1&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~119456240~119456248&dl=https%3A%2F%2Fwww.stanford.edu%2F&dt=Stanford%20University&sid=1781162965&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=0~115616986~115938466~115938468~117776794&tfd=2938"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-E08J4Q7DG7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-E08J4Q7DG7&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1186164591.1781163,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YADAAEABAAAAACAAI~",
+            "_v": "j102",
+            "a": 1771105279,
+            "cid": 620865300.1781163,
+            "dl": "https://www.stanford.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Stanford University",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 1755312570,
+            "gtm": "45He6691n81T4N2WTTv810131866za200zd810131866",
+            "jid": 1549879550,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115616986~115938466~115938468~117776794",
+            "tid": "UA-1860414-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 833513812
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1771105279&t=pageview&_s=1&dl=https%3A%2F%2Fwww.stanford.edu%2F&ul=en-us&dt=Stanford%20University&sr=375x812&vp=375x812&_u=YADAAEABAAAAACAAI~&jid=1549879550&gjid=1755312570&cid=620865300.1781162965&tid=UA-1860414-1&_gid=1186164591.1781162965&_r=1&_slc=1&gtm=45He6691n81T4N2WTTv810131866za200zd810131866&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616986~115938466~115938468~117776794&npa=1&z=833513812"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 620865300.1781163,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v890477239z8810131866za20gzb810131866zd810131866",
+            "npa": 1,
+            "rcb": 2,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "115616986~115938466~115938468~118012008~119456240~119456248",
+            "tid": "G-RBCPHN00S7",
+            "v": 1,
+            "z": 1465845246
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-RBCPHN00S7&cid=620865300.1781162965&gtm=45je6691v890477239z8810131866za20gzb810131866zd810131866&rcb=2&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=115616986~115938466~115938468~118012008~119456240~119456248&z=1465845246"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1781162963546,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 620865300.1781163,
+            "dl": "https://www.stanford.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Stanford University",
+            "en": "page_view",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v890477239z8810131866za20gzb810131866zd810131866",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 2,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781162964,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938468~118012008~119456240~119456248",
+            "tfd": 2449,
+            "tid": "G-RBCPHN00S7",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-RBCPHN00S7&gtm=45je6691v890477239z8810131866za20gzb810131866zd810131866&_p=1781162963546&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAGA&are=1&cid=620865300.1781162965&frm=0&pscdl=&rcb=2&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118012008~119456240~119456248&sid=1781162964&sct=1&seg=0&dl=https%3A%2F%2Fwww.stanford.edu%2F&dt=Stanford%20University&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2449"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.hotjar.com/modules.c3d712579ef0b1b5af2a.js"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aems": "0;0",
+            "cdl": "",
+            "coo": false,
+            "dl": "https://www.stanford.edu/",
+            "ec": 0,
+            "ev": "PageView",
+            "expv2[0]": "pl1",
+            "expv2[1]": "el3",
+            "expv2[2]": "bc1",
+            "expv2[3]": "ra2",
+            "expv2[4]": "rp2",
+            "expv2[5]": "ct2",
+            "expv2[6]": "hf1",
+            "fbp": "fb.1.1781162964328.269639385819087833",
+            "id": 1199096620574484,
+            "if": false,
+            "imft": 1,
+            "iss": 1,
+            "it": 1781162964033,
+            "iw": false,
+            "ler": "empty",
+            "o": 4126,
+            "plt": 2098.4000000059605,
+            "pmd[description]": "Our mission of discovery and learning is energized by a spirit of optimism and possibility that dates to our founding.",
+            "pmd[locale]": "en_US",
+            "pmd[title]": "Stanford University",
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781162964351,
+            "tz": 120,
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=1199096620574484&ev=PageView&dl=https%3A%2F%2Fwww.stanford.edu%2F&rl=&if=false&ts=1781162964351&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781162964328.269639385819087833&ler=empty&pmd[title]=Stanford%20University&pmd[locale]=en_US&pmd[description]=Our%20mission%20of%20discovery%20and%20learning%20is%20energized%20by%20a%20spirit%20of%20optimism%20and%20possibility%20that%20dates%20to%20our%20founding.&plt=2098.4000000059605&iss=1&imft=1&tz=120&it=1781162964033&coo=false&cdl=&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 6343745,
+            "luid": "17ae6a96-8b1b-e959-b6ca-d08e636a4621",
+            "prev": "fa6d9e2e-8e7b-b887-6218-46afb00eda78",
+            "res": "375x812",
+            "rnd": 3282,
+            "rt": 1928,
+            "title": "Stanford University",
+            "url": "https://www.stanford.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://6343745.global.r2.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.stanford.edu%2F&title=Stanford%20University&res=375x812&accountid=6343745&rt=1928&prev=fa6d9e2e-8e7b-b887-6218-46afb00eda78&luid=17ae6a96-8b1b-e959-b6ca-d08e636a4621&rnd=3282"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 80352,
+            "luid": "17ae6a96-8b1b-e959-b6ca-d08e636a4621",
+            "prev": "fa6d9e2e-8e7b-b887-6218-46afb00eda78",
+            "res": "375x812",
+            "rnd": 58844,
+            "rt": 1928,
+            "title": "Stanford University",
+            "url": "https://www.stanford.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://80352.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.stanford.edu%2F&title=Stanford%20University&res=375x812&accountid=80352&rt=1928&prev=fa6d9e2e-8e7b-b887-6218-46afb00eda78&luid=17ae6a96-8b1b-e959-b6ca-d08e636a4621&rnd=58844"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-6430056.js?sv=6"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-RBCPHN00S7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-RBCPHN00S7&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.stanford.edu",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1199096620574484?v=2.9.337&r=stable&domain=www.stanford.edu&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-T4N2WTT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T4N2WTT"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.stanford.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_80352.js"
+      }
+    ]
+  }
+}

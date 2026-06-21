@@ -1,0 +1,215 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Visual Studio App Center | iOS, Android, Xamarin & React Native",
+  "uri_ins": "https://appcenter.ms",
+  "uri_dest": "https://appcenter.ms/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "appcenter.ms",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:27:18.501Z",
+  "end_time": "2026-06-11T09:27:22.101Z",
+  "browsing_history": [
+    "https://appcenter.ms/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "appcenter.ms"
+      ],
+      "third_party": [
+        "c.s-microsoft.com",
+        "az416426.vo.msecnd.net",
+        "dc.services.visualstudio.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://appcenter.ms/": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ai_user",
+        "value": "OL/pCWc6d+z4TnotXDUfHX|2026-06-11T09:27:20.767Z",
+        "domain": "appcenter.ms",
+        "path": "/",
+        "expires": "2027-06-11T09:27:20.769Z",
+        "size": 54,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ai_session",
+        "value": "dFpsohgBHgnaNEf8oLQSVC|1781170040780|1781170040780",
+        "domain": "appcenter.ms",
+        "path": "/",
+        "expires": "2026-06-11T09:57:20.783Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "session",
+        "value": "eyJ0aW1lc3RhbXAiOiIyMDI2LTA2LTExVDA5OjI3OjIwLjg2MloifQ==",
+        "domain": "appcenter.ms",
+        "path": "/",
+        "expires": -1,
+        "size": 63,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "session.sig",
+        "value": "gfFiaIRwzgzHaRpJBYhW9S2D5Pc",
+        "domain": "appcenter.ms",
+        "path": "/",
+        "expires": -1,
+        "size": 38,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||visualstudio.com/v2/track",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://appcenter.ms/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dc.services.visualstudio.com/v2/track"
+      },
+      {
+        "data": {
+          "filter": "||visualstudio.com/v2/track",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dc.services.visualstudio.com/v2/track"
+      },
+      {
+        "data": {
+          "filter": "||msecnd.net/next/$script",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://appcenter.ms/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://az416426.vo.msecnd.net/next/ai.2.min.js"
+      }
+    ]
+  }
+}

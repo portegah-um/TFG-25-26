@@ -1,0 +1,2344 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Corriere della Sera: News e Ultime notizie in tempo reale da Italia e Mondo",
+  "uri_ins": "https://corriere.it",
+  "uri_dest": "https://www.corriere.it/",
+  "uri_redirects": [
+    "https://corriere.it/"
+  ],
+  "secure_connection": {},
+  "host": "corriere.it",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:27:13.403Z",
+  "end_time": "2026-06-11T10:27:22.759Z",
+  "browsing_history": [
+    "https://www.corriere.it/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "corriere.it",
+        "www.corriere.it",
+        "geoapi.corriere.it",
+        "appservice.corriere.it",
+        "searchapiservice.corriere.it",
+        "meteo.corriere.it"
+      ],
+      "third_party": [
+        "components2.corriereobjects.it",
+        "fundingchoicesmessages.google.com",
+        "d1pp3br6kljy5b.cloudfront.net",
+        "cdn.cxense.com",
+        "websdk.appsflyer.com",
+        "dimages2.corriereobjects.it",
+        "images2.corriereobjects.it",
+        "static.chartbeat.com",
+        "storage.googleapis.com",
+        "components2.rcsobjects.it",
+        "cdn-gl.imrworldwide.com",
+        "banner.appsflyersdk.com",
+        "securepubads.g.doubleclick.net",
+        "mab.chartbeat.com",
+        "cdn.sophi.io",
+        "cdn.tinypass.com",
+        "fonts.googleapis.com",
+        "secure-it.imrworldwide.com",
+        "knl6w4dohakz5lhr1agialqcxpgkc1781173636.nuid.imrworldwide.com",
+        "wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636.nuid.imrworldwide.com",
+        "cdn.permutive.app",
+        "api.permutive.com",
+        "static.anonymised.io",
+        "micro.rubiconproject.com",
+        "config.aps.amazon-adsystem.com",
+        "client.aps.amazon-adsystem.com",
+        "fonts.gstatic.com",
+        "secure.cdn.fastclick.net",
+        "c.amazon-adsystem.com",
+        "cdn1.anonymised.io",
+        "api.anonymised.io",
+        "ad-delivery.net",
+        "secure-assets.rubiconproject.com",
+        "cdn.jsdelivr.net",
+        "components.corriereobjects.it",
+        "api.ipify.org",
+        "dpm.demdex.net",
+        "www.googletagmanager.com",
+        "rcsmediagroupspa.demdex.net",
+        "cm.everesttech.net",
+        "smetrics.rcsmetrics.it",
+        "api-esp.piano.io",
+        "c2.piano.io",
+        "code.jquery.com",
+        "api.cxense.com",
+        "buy.tinypass.com",
+        "id.cxense.com",
+        "comcluster.cxense.com",
+        "content-thumbnail.cxpublic.com",
+        "cdnjs.cloudflare.com",
+        "css2.corriereobjects.it"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js": [
+          "keydown"
+        ],
+        "https://cdn.tinypass.com/api/piano.js?v=1": [
+          "keyup",
+          "keypress"
+        ],
+        "https://cdn.cxense.com/cx.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ],
+        "https://components2.corriereobjects.it/rcs_cor_top-search-bar/v2/index.min.js?v=": [
+          "input"
+        ],
+        "https://components2.corriereobjects.it/rcs_cor_features/v2/20260604102918646.extra/chunks/3995.min.js": [
+          "keydown"
+        ],
+        "https://cdn1.anonymised.io/light/bundle.js?v=1.8.61": [
+          "keypress"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.cxense.com/cx.js": [
+          "mousemove",
+          "mousedown",
+          "scroll"
+        ],
+        "https://cdn.tinypass.com/api/piano.js?v=1": [
+          "scroll",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://components2.corriereobjects.it/rcs_cor_features/v2/20260604102918646.extra/chunks/4747.min.js": [
+          "scroll"
+        ],
+        "https://components2.corriereobjects.it/rcs_cor_features/v2/20260604102918646.extra/chunks/3995.min.js": [
+          "click"
+        ],
+        "https://components2.corriereobjects.it/rcs_tag-manager/v1/20260611081732383.extra/chunks/Corriere-Adobe-feature.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://cdn1.anonymised.io/light/bundle.js?v=1.8.61": [
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://components2.corriereobjects.it/rcs_tag-manager/v1/20260611081732383.extra/chunks/Corriere-CMP-feature.min.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.tinypass.com/api/piano.js?v=1": [
+          "touchstart"
+        ],
+        "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js?v=1": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn.tinypass.com/api/piano.js?v=1": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://components2.corriereobjects.it/rcs_tag-manager/v1/20260611081732383.extra/chunks/Corriere-Adobe-feature.min.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://components2.corriereobjects.it/rcs_tag-manager/v1/20260611081732383.extra/chunks/Corriere-Adobe-feature.min.js": [
+          "white",
+          "red"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "FCCDCF",
+        "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%22ad9de298-acb2-4cf1-817f-a810aab96635%5C%22%2C%5B1781173635%2C447000000%5D%5D%22%5D%5D%5D",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-06T10:27:15.000Z",
+        "size": 162,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "uuidv4",
+        "value": "27f3b418-d55f-454e-845f-aa3d11789874",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:15.000Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TSstop",
+        "value": "NA|1781173635616",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:15.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_t_tests",
+        "value": "eyJUNlk2dkI2WGhFZ3VqIjp7ImNob3NlblZhcmlhbnQiOiJBIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJXM25PUiJdfSwibGlmdF9leHAiOiJtIn0=",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-06-11T11:27:15.000Z",
+        "size": 120,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__ABTcorriere_ct",
+        "value": "A",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-06T10:27:16.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__chkVLST",
+        "value": "0",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-06T10:27:16.000Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__GDPRcorriere_ct",
+        "value": "0",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-06T10:27:16.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__CPcorriere_ct",
+        "value": "4",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-06T10:27:16.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pc_cpwall",
+        "value": "true",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-06T10:27:16.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ml_id",
+        "value": "59fdff05-7bd0-4da3-92b1-7dfca1eb516b.1844332036.0.1844332036.1844332036",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-16T10:27:16.619Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_matheriSegs",
+        "value": "INTERNAL_AB_TEST7-C,MATHER_QS_AB_TEST6-C",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-12-11T11:27:16.000Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "IMRID",
+        "value": "1e7f62bb-6580-11f1-a5cb-55eacef0162a",
+        "domain": "imrworldwide.com",
+        "path": "/",
+        "expires": "2027-07-06T10:27:16.735Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "PermutiveRandomInt",
+        "value": "3",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:16.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "idw-fe-id",
+        "value": "6bb91066-5be5-455c-84c0-fb55e21a2c88",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:17.000Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rcsMeteo",
+        "value": "4074%7CMilano%7C/italia/lombardia/milano",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:18.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ppid",
+        "value": "d41d8cd98f00b204e9800998ecf8427e",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2027-07-16T10:27:18.220Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "s_fid_hashed",
+        "value": "d41d8cd98f00b204e9800998ecf8427e",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:18.000Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "browserBloccoPub",
+        "value": "no",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2026-06-12T10:27:18.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "googleAdBlock",
+        "value": "no",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2026-06-12T10:27:18.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "36569610575798782713336095825493961010",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T10:27:18.858Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_AA5673AE52E15B730A490D4C%40AdobeOrg",
+        "value": "1",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_fid",
+        "value": "45908457791974999142538312920764019783",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_fid_old",
+        "value": "45908457791974999142538312920764019783",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ips",
+        "value": "812",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_tp",
+        "value": "81862",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ppv",
+        "value": "COR%252FHomepage%2C1%2C1%2C1%2C812%2C100%2C1",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_fbsr",
+        "value": "1",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-06-11T10:57:18.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_nr",
+        "value": "1781173638565-New",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-07-11T10:27:18.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gpv_page",
+        "value": "no%20value",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-06-11T10:57:18.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "dpm",
+        "value": "36569610575798782713336095825493961010",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T10:27:18.859Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCV_AA5673AE52E15B730A490D4C%40AdobeOrg",
+        "value": "179643557%7CMCIDTS%7C20616%7CMCMID%7C45908457791974999142538312920764019783%7CMCAAMLH-1781778438%7C6%7CMCAAMB-1781778438%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1781180838s%7CNONE%7CMCSYNCSOP%7C411-20623%7CvVersion%7C5.5.0",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-16T10:27:18.867Z",
+        "size": 288,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pctx",
+        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIEYOAmATgFYA7NwAsYgMwcAHAAYh-AGziQAXyA",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-11T10:27:20.000Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "FP_PRVT_USER",
+        "value": "true",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-09-11T10:27:20.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "FP_PRVT_USER_LSTLGN",
+        "value": "1781173640112",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-09-11T10:27:20.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pcid",
+        "value": "%7B%22browserId%22%3A%22mq9csokw7xdzf5w3%22%7D",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-11T10:27:20.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "RELOFO7RdiQ2mEfR8jLEvjK5pgd9vGH1VRa0XOE.7Uw-1781173640.1902888-1.0.1.1-qNTydLRnoVdZriRSm49rmilTK41y9SDKCuR_0T.udt9TOUr6wcPQOl4SvGwV8bkD71X9db7EhgnkbZpDvbSXuiaS4QHMsFvUjpD9A8hG_Buf5ZzUb1T0FrrWln2Ncfl7",
+        "domain": "piano.io",
+        "path": "/",
+        "expires": "2026-06-11T10:57:20.356Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__tbc",
+        "value": "%7Bkpex%7DazDsPK-EWatvqX5oaYuvFdYUwBg6BfTuKZOaLFtCzcISkslPzIawRC8z3btU-wa6",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-16T10:27:20.402Z",
+        "size": 79,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__pat",
+        "value": "7200000",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-07-11T10:27:20.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__pvi",
+        "value": "eyJpZCI6InYtbXE5Y3NvbHZzMGxoNjF0OSIsImRvbWFpbiI6Ii5jb3JyaWVyZS5pdCIsInRpbWUiOjE3ODExNzM2NDA0MTB9",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2026-06-12T10:27:20.000Z",
+        "size": 101,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "xbc",
+        "value": "%7Bkpex%7DD8_TFXCOuwqDGWLETQMvXYnNepRj0xjPOLxfmo19KyY",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-16T10:27:20.414Z",
+        "size": 56,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pcus",
+        "value": "eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVGM6Zjk2NTQ1ZDM3OTljNDE5NTk3M2I4YWY5NTgxY2E3ZWNkMGRlMjliYTpub19zY29yZSIsIlJldmVudWVPcHQ6ZTk2NjlkNDc2NmVlYWFmNDRhNjQ0YmFhZDcwZGE0YWVkODc4NzM3ZDoyMCIsIkxUczowZDRkYTM4M2MwYjY0N2ExYzA0ODFlZGE5MTMwZWQ1N2YwNDgwOTVlOm5vX3Njb3JlIiwiQ1Njb3JlOjU0NTlmMzc4YmYyMjYxMzZkN2MyMmYxZDNhYzcyYWZkN2M0OGJiMjk6bm9fc2NvcmUiLCJMVHJldHVybjoxNWQ0NmIwMjY5MjBiYWMyNzZiZjUxZTYyNzYzM2FiM2Y0ZTJmMTIxOm5vX3Njb3JlIl19fX0%3D",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-11T10:27:20.000Z",
+        "size": 455,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pc_ltsscore",
+        "value": "NO",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:20.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pc_rcsad_abbonato",
+        "value": "false",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:20.000Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pc_dynamicscore",
+        "value": "20",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:20.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cX_P",
+        "value": "mq9csokw7xdzf5w3",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-11T10:27:20.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gckp",
+        "value": "7vnj3r3ch4rz3d5ooh8rlo40g",
+        "domain": "cxense.com",
+        "path": "/",
+        "expires": "2027-06-11T10:27:20.751Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cX_G",
+        "value": "cx%3Ablixro309hgu3g05shikla7wv%3Aqe0s6sf1810t",
+        "domain": "corriere.it",
+        "path": "/",
+        "expires": "2027-07-11T10:27:20.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "pnespsdk_ssn",
+        "value": "%7B%22%24s%22%3A1781173640931%2C%22visitNumber%22%3A1%7D",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": -1,
+        "size": 68,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pnespsdk_visitor",
+        "value": "90kvykvhamrkhba3",
+        "domain": "www.corriere.it",
+        "path": "/",
+        "expires": "2027-06-11T10:27:20.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": 0,
+            "adid": "95CFEEF87DA86E3A78AC24B0F5080ABC",
+            "ai": "95CFEEF87DA86E3A78AC24B0F5080ABC",
+            "asn": "CorriereHomepage_BRW",
+            "at": "timer",
+            "c1": "nuid,djgc0wmadhu2o6f7mnij9ux1icrhi1781173636",
+            "c10": "plt,",
+            "c11": "agg,1",
+            "c12": "apv,",
+            "c13": "asid,P550170F9-6641-4F5A-ADCA-C327AF68EBC0",
+            "c14": "osver,NA",
+            "c15": "apn,",
+            "c16": "sdkv,bj.6.0.0",
+            "c26": "dmap,1",
+            "c27": "cln,2",
+            "c29": "plid,17811736360704684",
+            "c3": "st,c",
+            "c30": "bldv,6.0.0.748",
+            "c32": "segA,NA",
+            "c33": "segB,NA",
+            "c34": "segC,NA",
+            "c35": "adrsid,",
+            "c36": "cref1,",
+            "c37": "cref2,",
+            "c40": "adbid,",
+            "c44": "progen,",
+            "c51": "adl,0",
+            "c52": "noad,0",
+            "c53": "fef,n",
+            "c54": "oad,",
+            "c55": "cref3,",
+            "c57": "adldf,2",
+            "c58": "isLive,false",
+            "c59": "sesid,",
+            "c6": "vc,c12",
+            "c61": "createtm,1781173641",
+            "c62": "sendTime,1781173641",
+            "c63": "pipMode,",
+            "c64": "starttm,1781173637",
+            "c66": "mediaurl,",
+            "c68": "bndlid,",
+            "c7": "osgrp,",
+            "c73": "phtype,",
+            "c74": "dvcnm,",
+            "c76": "adbsnid,",
+            "c8": "devgrp,",
+            "c9": "devid,",
+            "ca": "NA",
+            "ch": "it-901600_c12_CorriereHomepage_BRW_S",
+            "ci": "it-901600",
+            "cr": "D",
+            "crs": "",
+            "davty": 2,
+            "dd": "",
+            "enc": true,
+            "forward": 0,
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hrd": "",
+            "lat": "",
+            "logTM": "",
+            "lon": "",
+            "nodeTM": "",
+            "pc": "NA",
+            "playerv": "",
+            "plugv": "",
+            "prd": "dcr",
+            "prv": 1,
+            "rnd": 888424,
+            "rt": "text",
+            "sdd": "",
+            "segment1": "",
+            "segment2": "",
+            "sessionId": "wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636",
+            "si": "https://www.corriere.it/",
+            "st": "dcr",
+            "sup": 1,
+            "uoo": "",
+            "ve_id": "",
+            "wkd": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=dcr&ci=it-901600&ch=it-901600_c12_CorriereHomepage_BRW_S&asn=CorriereHomepage_BRW&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&sessionId=wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636&prv=1&c6=vc,c12&ca=NA&c13=asid,P550170F9-6641-4F5A-ADCA-C327AF68EBC0&c32=segA,NA&c33=segB,NA&c34=segC,NA&c15=apn,&sup=1&segment2=&segment1=&forward=0&plugv=&playerv=&ad=0&cr=D&c9=devid,&enc=true&c1=nuid,djgc0wmadhu2o6f7mnij9ux1icrhi1781173636&at=timer&rt=text&c16=sdkv,bj.6.0.0&c27=cln,2&crs=&lat=&lon=&c29=plid,17811736360704684&c30=bldv,6.0.0.748&st=dcr&c7=osgrp,&c8=devgrp,&c10=plt,&c40=adbid,&c14=osver,NA&c26=dmap,1&dd=&hrd=&wkd=&c35=adrsid,&c36=cref1,&c37=cref2,&c11=agg,1&c12=apv,&c51=adl,0&c52=noad,0&pc=NA&c53=fef,n&c54=oad,&c55=cref3,&c57=adldf,2&ai=95CFEEF87DA86E3A78AC24B0F5080ABC&c3=st,c&c64=starttm,1781173637&adid=95CFEEF87DA86E3A78AC24B0F5080ABC&c58=isLive,false&c59=sesid,&c61=createtm,1781173641&c63=pipMode,&uoo=&c68=bndlid,&nodeTM=&logTM=&c73=phtype,&c74=dvcnm,&c76=adbsnid,&c44=progen,&davty=2&si=https%3A%2F%2Fwww.corriere.it%2F&c66=mediaurl,&sdd=&c62=sendTime,1781173641&rnd=888424"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": 0,
+            "adid": "95CFEEF87DA86E3A78AC24B0F5080ABC",
+            "ai": "95CFEEF87DA86E3A78AC24B0F5080ABC",
+            "asn": "CorriereHomepage_BRW",
+            "at": "view",
+            "c1": "nuid,djgc0wmadhu2o6f7mnij9ux1icrhi1781173636",
+            "c10": "plt,",
+            "c11": "agg,1",
+            "c12": "apv,",
+            "c13": "asid,P550170F9-6641-4F5A-ADCA-C327AF68EBC0",
+            "c14": "osver,NA",
+            "c15": "apn,",
+            "c16": "sdkv,bj.6.0.0",
+            "c26": "dmap,1",
+            "c27": "cln,0",
+            "c29": "plid,17811736360704684",
+            "c3": "st,c",
+            "c30": "bldv,6.0.0.748",
+            "c32": "segA,NA",
+            "c33": "segB,NA",
+            "c34": "segC,NA",
+            "c35": "adrsid,",
+            "c36": "cref1,",
+            "c37": "cref2,",
+            "c40": "adbid,",
+            "c44": "progen,",
+            "c51": "adl,0",
+            "c52": "noad,0",
+            "c53": "fef,n",
+            "c54": "oad,",
+            "c55": "cref3,",
+            "c57": "adldf,2",
+            "c58": "isLive,false",
+            "c59": "sesid,",
+            "c6": "vc,c12",
+            "c61": "createtm,1781173640",
+            "c62": "sendTime,1781173640",
+            "c63": "pipMode,",
+            "c64": "starttm,1781173637",
+            "c66": "mediaurl,",
+            "c68": "bndlid,",
+            "c7": "osgrp,",
+            "c73": "phtype,",
+            "c74": "dvcnm,",
+            "c76": "adbsnid,",
+            "c8": "devgrp,",
+            "c9": "devid,",
+            "ca": "NA",
+            "ch": "it-901600_c12_CorriereHomepage_BRW_S",
+            "ci": "it-901600",
+            "cr": "V",
+            "crs": "",
+            "davty": 0,
+            "dd": "",
+            "enc": true,
+            "forward": 0,
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hrd": "",
+            "lat": "",
+            "logTM": "",
+            "lon": "",
+            "nodeTM": "",
+            "pc": "NA",
+            "playerv": "",
+            "plugv": "",
+            "prd": "dcr",
+            "prv": 1,
+            "rnd": 752712,
+            "rt": "text",
+            "sdd": "",
+            "segment1": "",
+            "segment2": "",
+            "sessionId": "wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636",
+            "si": "https://www.corriere.it/",
+            "st": "dcr",
+            "sup": 1,
+            "uoo": "",
+            "ve_id": "",
+            "wkd": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=dcr&ci=it-901600&ch=it-901600_c12_CorriereHomepage_BRW_S&asn=CorriereHomepage_BRW&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&sessionId=wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636&prv=1&c6=vc,c12&ca=NA&c13=asid,P550170F9-6641-4F5A-ADCA-C327AF68EBC0&c32=segA,NA&c33=segB,NA&c34=segC,NA&c15=apn,&sup=1&segment2=&segment1=&forward=0&plugv=&playerv=&ad=0&cr=V&c9=devid,&enc=true&c1=nuid,djgc0wmadhu2o6f7mnij9ux1icrhi1781173636&at=view&rt=text&c16=sdkv,bj.6.0.0&c27=cln,0&crs=&lat=&lon=&c29=plid,17811736360704684&c30=bldv,6.0.0.748&st=dcr&c7=osgrp,&c8=devgrp,&c10=plt,&c40=adbid,&c14=osver,NA&c26=dmap,1&dd=&hrd=&wkd=&c35=adrsid,&c36=cref1,&c37=cref2,&c11=agg,1&c12=apv,&c51=adl,0&c52=noad,0&pc=NA&c53=fef,n&c54=oad,&c55=cref3,&c57=adldf,2&ai=95CFEEF87DA86E3A78AC24B0F5080ABC&c3=st,c&c64=starttm,1781173637&adid=95CFEEF87DA86E3A78AC24B0F5080ABC&c58=isLive,false&c59=sesid,&c61=createtm,1781173640&c63=pipMode,&uoo=&c68=bndlid,&nodeTM=&logTM=&c73=phtype,&c74=dvcnm,&c76=adbsnid,&c44=progen,&davty=0&si=https%3A%2F%2Fwww.corriere.it%2F&c66=mediaurl,&sdd=&c62=sendTime,1781173640&rnd=752712"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.cxense.com/public/widget/data"
+      },
+      {
+        "data": {
+          "filter": "||piano.io/tracker/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "story_url": "https://www.corriere.it/",
+            "visitor": "90kvykvhamrkhba3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-esp.piano.io/tracker/lucid/visit/313?story_url=https%3A%2F%2Fwww.corriere.it%2F&visitor=90kvykvhamrkhba3"
+      },
+      {
+        "data": {
+          "filter": "||piano.io/tracker/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "story_url": "https://www.corriere.it/",
+            "visitor": "90kvykvhamrkhba3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-esp.piano.io/tracker/lucid/visit/313?story_url=https%3A%2F%2Fwww.corriere.it%2F&visitor=90kvykvhamrkhba3"
+      },
+      {
+        "data": {
+          "filter": "/fusion/lucid/data/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "email": "",
+            "pnespid": "",
+            "stored_visitor": "",
+            "visitor": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-esp.piano.io/publisher/fusion/lucid/data/206?email=&visitor=&stored_visitor=&pnespid="
+      },
+      {
+        "data": {
+          "filter": "/fusion/lucid/data/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "email": "",
+            "pnespid": "",
+            "stored_visitor": "",
+            "visitor": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-esp.piano.io/publisher/fusion/lucid/data/206?email=&visitor=&stored_visitor=&pnespid="
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "arf": 0,
+            "bln": "en-US",
+            "chs": "UTF-8",
+            "ckp": "mq9csokw7xdzf5w3",
+            "cks": "mq9csoy84bx9y8jr",
+            "col": 24,
+            "cp_userState": "anon",
+            "dpr": 3,
+            "glb": "",
+            "loc": "https://www.corriere.it/",
+            "ltm": 1781173640338,
+            "new": 1,
+            "ref": "",
+            "res": "375x812",
+            "rnd": "mq9csokw850y71kd",
+            "sid": 1129572444318057600,
+            "typ": "pgv",
+            "tzo": -120,
+            "ver": "3.4.1",
+            "wsz": "375x812"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://comcluster.cxense.com/Repo/rep.gif?ver=3.4.1&typ=pgv&rnd=mq9csokw850y71kd&sid=1129572444318057563&loc=https%3A%2F%2Fwww.corriere.it%2F&new=1&arf=0&ltm=1781173640338&ref=&tzo=-120&wsz=375x812&res=375x812&dpr=3&col=24&bln=en-US&chs=UTF-8&cks=mq9csoy84bx9y8jr&ckp=mq9csokw7xdzf5w3&glb=&cp_userState=anon"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "cXJsonpCB1",
+            "json": {
+              "identities": [
+                {
+                  "id": "mq9csokw7xdzf5w3",
+                  "type": "ckp"
+                }
+              ]
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://id.cxense.com/public/user/id?json=%7B%22identities%22%3A%5B%7B%22type%22%3A%22ckp%22%2C%22id%22%3A%22mq9csokw7xdzf5w3%22%7D%5D%7D&callback=cXJsonpCB1"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.cxense.com/public/widget/data"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.cxense.com/public/widget/data"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.cxense.com/public/widget/data"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.cxense.com/public/widget/data"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cxense.com/cx.js"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cxense.com/cx.cce.js"
+      },
+      {
+        "data": {
+          "filter": "/smetrics.*/b/ss/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AQB": 1,
+            "AQE": 1,
+            "aamlh": 6,
+            "bh": 812,
+            "bw": 375,
+            "c": 24,
+            "ce": "UTF-8",
+            "events": "event190",
+            "g": "https://www.corriere.it/",
+            "j": 1.6,
+            "k": "Y",
+            "lrt": 82,
+            "mcorgid": "AA5673AE52E15B730A490D4C@AdobeOrg",
+            "mid": 4.5908457791975e+37,
+            "ndh": 1,
+            "pageName": "COR/Homepage",
+            "pe": "lnk_o",
+            "pev2": "trackCustomEvent",
+            "pf": 1,
+            "s": "375x812",
+            "t": "11/5/2026 12:27:20 4 -120",
+            "v": "N",
+            "v189": "sophi_decision_promise",
+            "v190": "piano",
+            "v74": "https://www.corriere.it/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://smetrics.rcsmetrics.it/b/ss/rcscorriereproddef/1/JS-2.27.0/s31833350909595?AQB=1&ndh=1&pf=1&t=11%2F5%2F2026%2012%3A27%3A20%204%20-120&mid=45908457791974999142538312920764019783&aamlh=6&ce=UTF-8&pageName=COR%2FHomepage&g=https%3A%2F%2Fwww.corriere.it%2F&events=event190&v74=https%3A%2F%2Fwww.corriere.it%2F&v189=sophi_decision_promise&v190=piano&pe=lnk_o&pev2=trackCustomEvent&s=375x812&c=24&j=1.6&v=N&k=Y&bw=375&bh=812&mcorgid=AA5673AE52E15B730A490D4C%40AdobeOrg&lrt=82&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "/smetrics.*/b/ss/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AQB": 1,
+            "AQE": 1,
+            "aamlh": 6,
+            "bh": 812,
+            "bw": 375,
+            "c": 24,
+            "ce": "UTF-8",
+            "events": "event190",
+            "g": "https://www.corriere.it/",
+            "j": 1.6,
+            "k": "Y",
+            "lrt": 192,
+            "mcorgid": "AA5673AE52E15B730A490D4C@AdobeOrg",
+            "mid": 4.5908457791975e+37,
+            "ndh": 1,
+            "pageName": "COR/Homepage",
+            "pe": "lnk_o",
+            "pev2": "trackCustomEvent",
+            "pf": 1,
+            "s": "375x812",
+            "t": "11/5/2026 12:27:18 4 -120",
+            "v": "N",
+            "v189": "CTR HP CORRIERE",
+            "v190": "Board1",
+            "v74": "https://www.corriere.it/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://smetrics.rcsmetrics.it/b/ss/rcscorriereproddef/1/JS-2.27.0/s31653566260962?AQB=1&ndh=1&pf=1&t=11%2F5%2F2026%2012%3A27%3A18%204%20-120&mid=45908457791974999142538312920764019783&aamlh=6&ce=UTF-8&pageName=COR%2FHomepage&g=https%3A%2F%2Fwww.corriere.it%2F&events=event190&v74=https%3A%2F%2Fwww.corriere.it%2F&v189=CTR%20HP%20CORRIERE&v190=Board1&pe=lnk_o&pev2=trackCustomEvent&s=375x812&c=24&j=1.6&v=N&k=Y&bw=375&bh=812&mcorgid=AA5673AE52E15B730A490D4C%40AdobeOrg&lrt=192&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=aiqNhgAAAGD1cgN-"
+      },
+      {
+        "data": {
+          "filter": "/smetrics.*/b/ss/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            ".c": "",
+            ".cor": "",
+            "AQB": 1,
+            "AQE": 1,
+            "aamb": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "aamlh": 6,
+            "bh": 812,
+            "bw": 375,
+            "c": 24,
+            "c.": "",
+            "c14": "New",
+            "c15": "not logged in",
+            "c16": "10:27 AM",
+            "c17": "Thursday",
+            "c18": "Weekday",
+            "c21": "free_notset",
+            "c28": "no_cookie",
+            "c29": "(none)",
+            "c32": "non sottoscritto",
+            "c36": 0,
+            "c37": "Privacy banner_cmp_1_1022",
+            "c43": "rcscorriereproddef",
+            "c52": "unknown",
+            "c53": "home",
+            "c58": 44,
+            "c69": "corriere.it/homepage/hpcorriere",
+            "c7": "corriere.it",
+            "c70": "highestPercentViewed= | initialPercentViewed= | foldsSeen= | foldsAvailable=",
+            "c71": "no_refresh",
+            "c73": "Homepage",
+            "c75": "Mobile",
+            "c9": "https://www.corriere.it/",
+            "ce": "UTF-8",
+            "ch": "Homepage",
+            "cor.": "",
+            "events": "event2",
+            "g": "https://www.corriere.it/",
+            "getPercentPageViewed": 5.1,
+            "h1": "corriere.it,Homepage",
+            "h2": "Homepage",
+            "j": 1.6,
+            "k": "Y",
+            "mcorgid": "AA5673AE52E15B730A490D4C@AdobeOrg",
+            "mid": 4.5908457791975e+37,
+            "ndh": 1,
+            "pageName": "COR/Homepage",
+            "page_content_type": "home",
+            "page_sezione": "home",
+            "pf": 1,
+            "s": "375x812",
+            "server": "www.corriere.it",
+            "t": "11/5/2026 12:27:18 4 -120",
+            "v": "N",
+            "v10": "D=c21",
+            "v102": "Portrait",
+            "v109": "tab attivo",
+            "v11": "COR/Homepage",
+            "v12": "D=ch",
+            "v137": "default",
+            "v138": "default",
+            "v14": "D=c14",
+            "v142": false,
+            "v15": "D=c15",
+            "v16": "D=c16",
+            "v160": "no",
+            "v163": "6267cdc8662dd5c39ea32805cdeae2f7",
+            "v17": "D=c17",
+            "v18": "D=c18",
+            "v185": -297793516,
+            "v186": 18614.61,
+            "v200": 4.5908457791975e+37,
+            "v33": "D=c28",
+            "v36": "D=c36",
+            "v48": "FA:00",
+            "v49": "d001023",
+            "v53": "D=c53",
+            "v6": "home",
+            "v76": "D=c7",
+            "v77": "D=c71",
+            "v78": "analytics in Tag manager",
+            "v80": "no",
+            "v81": "no_cookie",
+            "v82": "no_cookie",
+            "v84": "D=v6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://smetrics.rcsmetrics.it/b/ss/rcscorriereproddef/1/JS-2.27.0/s39607350357980?AQB=1&ndh=1&pf=1&t=11%2F5%2F2026%2012%3A27%3A18%204%20-120&mid=45908457791974999142538312920764019783&aamlh=6&ce=UTF-8&pageName=COR%2FHomepage&g=https%3A%2F%2Fwww.corriere.it%2F&c.&getPercentPageViewed=5.1&cor.&page_content_type=home&page_sezione=home&.cor&.c&ch=Homepage&server=www.corriere.it&events=event2&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&h1=corriere.it%2CHomepage&h2=Homepage&v6=home&c7=corriere.it&c9=https%3A%2F%2Fwww.corriere.it%2F&v10=D%3Dc21&v11=COR%2FHomepage&v12=D%3Dch&c14=New&v14=D%3Dc14&c15=not%20logged%20in&v15=D%3Dc15&c16=10%3A27%20AM&v16=D%3Dc16&c17=Thursday&v17=D%3Dc17&c18=Weekday&v18=D%3Dc18&c21=free_notset&c28=no_cookie&c29=%28none%29&c32=non%20sottoscritto&v33=D%3Dc28&c36=0&v36=D%3Dc36&c37=Privacy%20banner_cmp_1_1022&c43=rcscorriereproddef&v48=FA%3A00&v49=d001023&c52=unknown&c53=home&v53=D%3Dc53&c58=44&c69=corriere.it%2Fhomepage%2Fhpcorriere&c70=highestPercentViewed%3D%20%7C%20initialPercentViewed%3D%20%7C%20foldsSeen%3D%20%7C%20foldsAvailable%3D&c71=no_refresh&c73=Homepage&c75=Mobile&v76=D%3Dc7&v77=D%3Dc71&v78=analytics%20in%20Tag%20manager&v80=no&v81=no_cookie&v82=no_cookie&v84=D%3Dv6&v102=Portrait&v109=tab%20attivo&v137=default&v138=default&v142=false&v160=no&v163=6267cdc8662dd5c39ea32805cdeae2f7&v185=-297793516&v186=18614.61&v200=45908457791974999142538312920764019783&s=375x812&c=24&j=1.6&v=N&k=Y&bw=375&bh=812&mcorgid=AA5673AE52E15B730A490D4C%40AdobeOrg&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_uuid": 3.6569610575798785e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=36569610575798782713336095825493961010"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_nsid": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rcsmediagroupspa.demdex.net/dest5.html?d_nsid=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "DC-9927244"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-9927244"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "AA5673AE52E15B730A490D4C@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781173638312
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=AA5673AE52E15B730A490D4C%40AdobeOrg&d_nsid=0&ts=1781173638312"
+      },
+      {
+        "data": {
+          "filter": "||ipify.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.ipify.org/"
+      },
+      {
+        "data": {
+          "filter": "/load.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 20241007
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://images2.corriereobjects.it/meteo/load.gif?v=20241007"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-assets.rubiconproject.com/floors/1001-pbjs-floors.json"
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=2"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||fastclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3692"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://micro.rubiconproject.com/prebid/dynamic/10814.js"
+      },
+      {
+        "data": {
+          "filter": "||permutive.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "k": "28fbeef2-8763-403b-b4f5-228613440332"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.permutive.com/ctx/v1/segment?k=28fbeef2-8763-403b-b4f5-228613440332"
+      },
+      {
+        "data": {
+          "filter": "||permutive.app^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.permutive.app/6ccc4e64-d4bc-4642-97b6-db50a75d8a5d-web.js"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636.nuid.imrworldwide.com/"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c13": "asid,P550170F9-6641-4F5A-ADCA-C327AF68EBC0",
+            "c16": "sdkv,bj.6.0.0",
+            "c30": "bldv,6.0.0.748",
+            "c9": "devid,",
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hem_md5": "",
+            "hem_sha1": "",
+            "hem_sha256": "",
+            "hem_unknown": "",
+            "prd": "session",
+            "retry": 0,
+            "sdd": "",
+            "sessionId": "wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636",
+            "uid2": "",
+            "uid2_token": "",
+            "uoo": "",
+            "ve_id": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=session&c9=devid,&c13=asid,P550170F9-6641-4F5A-ADCA-C327AF68EBC0&sessionId=wcebn5qjn5iykrolxhrqxfdqwqlzu1781173636&c16=sdkv,bj.6.0.0&uoo=&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&c30=bldv,6.0.0.748&uid2=&uid2_token=&hem_sha256=&hem_sha1=&hem_md5=&hem_unknown=&sdd=&retry=0"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://knl6w4dohakz5lhr1agialqcxpgkc1781173636.nuid.imrworldwide.com/"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c13": "asid,P07DEB19A-591C-41A4-9748-BDB9A5FC0253",
+            "c16": "sdkv,bj.6.0.0",
+            "c30": "bldv,6.0.0.748",
+            "c9": "devid,",
+            "fp_acc_tm": "",
+            "fp_cr_tm": "",
+            "fp_emm_tm": "",
+            "fp_id": "",
+            "hem_md5": "",
+            "hem_sha1": "",
+            "hem_sha256": "",
+            "hem_unknown": "",
+            "prd": "session",
+            "retry": 0,
+            "sdd": "",
+            "sessionId": "knl6w4dohakz5lhr1agialqcxpgkc1781173636",
+            "uid2": "",
+            "uid2_token": "",
+            "uoo": "",
+            "ve_id": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-it.imrworldwide.com/cgi-bin/gn?prd=session&c9=devid,&c13=asid,P07DEB19A-591C-41A4-9748-BDB9A5FC0253&sessionId=knl6w4dohakz5lhr1agialqcxpgkc1781173636&c16=sdkv,bj.6.0.0&uoo=&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&c30=bldv,6.0.0.748&uid2=&uid2_token=&hem_sha256=&hem_sha1=&hem_md5=&hem_unknown=&sdd=&retry=0"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/novms/html/ls.html"
+      },
+      {
+        "data": {
+          "filter": "||sophi.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "isConsented": false
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.sophi.io/assets/demeter/1/stable/3393617370.js?isConsented=false"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099091
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606100101/pubads_impl.js?cb=31099091"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "corriere.it",
+            "host": "corriere.it",
+            "path": "/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=corriere.it&domain=corriere.it&path=%2F"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "v": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js?v=1"
+      },
+      {
+        "data": {
+          "filter": "://banner.$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://banner.appsflyersdk.com/sb/cf16c847-a056-4f96-85ad-0e01eeeed4bb/creative/list"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/conf/P550170F9-6641-4F5A-ADCA-C327AF68EBC0.js"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn-gl.imrworldwide.com/conf/P07DEB19A-591C-41A4-9748-BDB9A5FC0253.js"
+      },
+      {
+        "data": {
+          "filter": "||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "userId": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://components2.rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml?userId=0"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/subscriptions.js"
+      },
+      {
+        "data": {
+          "filter": "/openx_",
+          "listName": "easylist.txt",
+          "query": {
+            "v": "027932beaf1d8bc579213027d8a6f47a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://components2.corriereobjects.it/rcs_data-tracking/v1/distro/openx/corriere/openx_async.js?v=027932beaf1d8bc579213027d8a6f47a"
+      },
+      {
+        "data": {
+          "filter": "/TrackingService.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "3ab11c40f25816eb799c2ec042520dc0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://components2.corriereobjects.it/rcs_tracking-service/v1/distro/corriere/TrackingService.js?v=3ab11c40f25816eb799c2ec042520dc0"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||websdk.appsflyer.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "st": "banners"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://websdk.appsflyer.com/?st=banners&"
+      },
+      {
+        "data": {
+          "filter": "||cxense.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.corriere.it/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cxense.com/ari-ci.js"
+      }
+    ]
+  }
+}

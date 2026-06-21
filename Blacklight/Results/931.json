@@ -1,0 +1,421 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "U.S. Environmental Protection Agency | US EPA",
+  "uri_ins": "https://epa.gov",
+  "uri_dest": "https://www.epa.gov/",
+  "uri_redirects": [
+    "https://epa.gov/"
+  ],
+  "secure_connection": {},
+  "host": "epa.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:22:03.267Z",
+  "end_time": "2026-06-11T10:22:08.534Z",
+  "browsing_history": [
+    "https://www.epa.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "epa.gov",
+        "www.epa.gov"
+      ],
+      "third_party": [
+        "touchpoints.app.cloud.gov",
+        "www.googletagmanager.com",
+        "dap.digitalgov.gov",
+        "script.crazyegg.com",
+        "region1.google-analytics.com",
+        "cg-1b082c1b-3db7-477f-9ca5-bd51a786b41e.s3-us-gov-west-1.amazonaws.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=EPA": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-L8ZB": [
+          "click"
+        ],
+        "https://www.epa.gov/themes/epa_theme/js/dist/scripts.min.js?v=20251211": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=EPA": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_2SEC4V3SK9",
+        "value": "GS2.1.s1781173326$o1$g0$t1781173326$j60$l0$h0",
+        "domain": "epa.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:22:06.027Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1221415237.1781173326",
+        "domain": "epa.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:22:07.583Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781173327$o1$g0$t1781173327$j60$l0$h0",
+        "domain": "epa.gov",
+        "path": "/",
+        "expires": "2027-07-16T10:22:07.645Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781173325354,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1221415237.1781173,
+            "dl": "https://epa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "U.S. Environmental Protection Agency | US EPA",
+            "en": "page_view",
+            "ep.agency": "EPA",
+            "ep.hostname_dimension": "epa.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:epa.gov",
+            "ep.site_topic": "unspecified:epa.gov",
+            "ep.subagency": "EPA.GOV",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v9131934939za200zb542870zd542870",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173327,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 3853,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb542870zd542870&_p=1781173325354&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1221415237.1781173326&frm=0&pscdl=&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938469&dl=https%3A%2F%2Fepa.gov%2F&dt=U.S.%20Environmental%20Protection%20Agency%20%7C%20US%20EPA&dr=&sid=1781173327&sct=1&seg=0&_tu=wA&en=page_view&_fv=1&_ss=1&_ee=1&ep.agency=EPA&ep.subagency=EPA.GOV&ep.site_topic=unspecified%3Aepa.gov&ep.site_platform=unspecified%3Aepa.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=epa.gov&tfd=3853"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781173325354,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1221415237.1781173,
+            "dl": "https://www.epa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "U.S. Environmental Protection Agency | US EPA",
+            "en": "page_view",
+            "ep.content_type": "Web Area Homepage",
+            "ep.dc_creator_publisher": "US EPA,OA",
+            "ep.dc_date_created": "2013-03-20",
+            "ep.dc_date_reviewed": "2026-08-25",
+            "ep.dc_language": "en",
+            "ep.debug_mode": true,
+            "ep.microsite": "not-assigned",
+            "ep.page_node_id": "not-assigned",
+            "ep.page_type": "not-assigned",
+            "ep.resource_directory": "not-assigned",
+            "ep.tracking_script_name": "GTM-L8ZB",
+            "ep.tracking_script_version": "EPA 3.0 160101 - GTM version 320",
+            "ep.visitor_id": "one and done visitor",
+            "ep.web_area": "U.S. Environmental Protection Agency",
+            "ep.webarea_navigation_type": "sidebar_navigation",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v878556849z8542870za20gzb542870zd542870",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781173326,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469~117776793",
+            "tfd": 2301,
+            "tid": "G-2SEC4V3SK9",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-2SEC4V3SK9&gtm=45je6691v878556849z8542870za20gzb542870zd542870&_p=1781173325354&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1221415237.1781173326&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938469~117776793&sid=1781173326&sct=1&seg=0&dl=https%3A%2F%2Fwww.epa.gov%2F&dt=U.S.%20Environmental%20Protection%20Agency%20%7C%20US%20EPA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.dc_language=en&ep.debug_mode=true&ep.visitor_id=one%20and%20done%20visitor&ep.microsite=not-assigned&ep.resource_directory=not-assigned&ep.page_node_id=not-assigned&ep.tracking_script_version=EPA%203.0%20160101%20-%20GTM%20version%20320&ep.tracking_script_name=GTM-L8ZB&ep.page_type=not-assigned&ep.dc_date_reviewed=2026-08-25&ep.dc_date_created=2013-03-20&ep.dc_creator_publisher=US%20EPA%2COA&ep.webarea_navigation_type=sidebar_navigation&ep.web_area=U.S.%20Environmental%20Protection%20Agency&ep.content_type=Web%20Area%20Homepage&tfd=2301"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0005/9240.js"
+      },
+      {
+        "data": {
+          "filter": "||digitalgov.gov/Universal-Federated-Analytics-Min.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "agency": "EPA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=EPA"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-2SEC4V3SK9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-2SEC4V3SK9&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-L8ZB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.epa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-L8ZB"
+      }
+    ]
+  }
+}

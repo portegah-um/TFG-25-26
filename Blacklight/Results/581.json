@@ -1,0 +1,639 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cornell University",
+  "uri_ins": "https://cornell.edu",
+  "uri_dest": "https://www.cornell.edu/",
+  "uri_redirects": [
+    "https://cornell.edu/"
+  ],
+  "secure_connection": {},
+  "host": "cornell.edu",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:35:17.128Z",
+  "end_time": "2026-06-11T08:35:23.003Z",
+  "browsing_history": [
+    "https://www.cornell.edu/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cornell.edu",
+        "www.cornell.edu",
+        "cdn.universityrelations.cornell.edu",
+        "media.univcomm.cornell.edu"
+      ],
+      "third_party": [
+        "use.typekit.net",
+        "cdnjs.cloudflare.com",
+        "www.googletagmanager.com",
+        "ajax.googleapis.com",
+        "ssl.google-analytics.com",
+        "siteimproveanalytics.com",
+        "cdnsecakmi.kaltura.com",
+        "p.typekit.net",
+        "region1.google-analytics.com",
+        "6120104.global.siteimproveanalytics.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://siteimproveanalytics.com/js/siteanalyze_6120104.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-PMZ19X3F8W": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PSS7W6C5": [
+          "click"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__utma",
+        "value": "220513694.829264211.1781166920.1781166920.1781166920.1",
+        "domain": "www.cornell.edu",
+        "path": "/",
+        "expires": "2027-07-16T08:35:19.678Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utmc",
+        "value": "220513694",
+        "domain": "www.cornell.edu",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utmz",
+        "value": "220513694.1781166920.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "domain": "www.cornell.edu",
+        "path": "/",
+        "expires": "2026-12-10T20:35:19.000Z",
+        "size": 76,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utmt",
+        "value": "1",
+        "domain": "www.cornell.edu",
+        "path": "/",
+        "expires": "2026-06-11T08:45:19.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utmb",
+        "value": "220513694.1.10.1781166920",
+        "domain": "www.cornell.edu",
+        "path": "/",
+        "expires": "2026-06-11T09:05:19.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_PMZ19X3F8W",
+        "value": "GS2.1.s1781166919$o1$g0$t1781166919$j60$l0$h0",
+        "domain": "cornell.edu",
+        "path": "/",
+        "expires": "2027-07-16T08:35:19.932Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1772496866.1781166920",
+        "domain": "cornell.edu",
+        "path": "/",
+        "expires": "2027-07-16T08:35:20.147Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_XJK3YSJ0LV",
+        "value": "GS2.1.s1781166920$o1$g0$t1781166920$j60$l0$h0",
+        "domain": "cornell.edu",
+        "path": "/",
+        "expires": "2027-07-16T08:35:20.144Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "nmstat",
+        "value": "3607bed3-4628-59ab-ab28-e649700c1e98",
+        "domain": "cornell.edu",
+        "path": "/",
+        "expires": "2027-07-16T08:35:20.260Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1021,
+            "_eu": "AAAAAAQ",
+            "_p": 1781166918903,
+            "_s": 2,
+            "are": 1,
+            "cid": 1772496866.1781168,
+            "dl": "https://www.cornell.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Cornell University",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v898388560za200zb9252221555zd9252221555",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166919,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 5308,
+            "tid": "G-PMZ19X3F8W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-PMZ19X3F8W&gtm=45je6691v898388560za200zb9252221555zd9252221555&_p=1781166918903&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=1772496866.1781166920&frm=0&pscdl=&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115616986~115938465~115938469&sid=1781166919&sct=1&seg=0&dl=https%3A%2F%2Fwww.cornell.edu%2F&dt=Cornell%20University&en=user_engagement&_et=1021&tfd=5308"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 6120104,
+            "luid": "3d65b270-1f72-f4da-7b70-360ad7f32289",
+            "prev": "3607bed3-4628-59ab-ab28-e649700c1e98",
+            "res": "375x812",
+            "rnd": 33247,
+            "rt": 2602,
+            "title": "Cornell University",
+            "url": "https://www.cornell.edu/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://6120104.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.cornell.edu%2F&title=Cornell%20University&res=375x812&accountid=6120104&rt=2602&prev=3607bed3-4628-59ab-ab28-e649700c1e98&luid=3d65b270-1f72-f4da-7b70-360ad7f32289&rnd=33247"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1781166918903,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1772496866.1781168,
+            "dl": "https://www.cornell.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Cornell University",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9252235220z89252221555za20gzb9252221555zd9252221555",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166920,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938465~115938469",
+            "tfd": 2578,
+            "tid": "G-XJK3YSJ0LV",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XJK3YSJ0LV&gtm=45je6691v9252235220z89252221555za20gzb9252221555zd9252221555&_p=1781166918903&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1772496866.1781166920&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938465~115938469&sid=1781166920&sct=1&seg=0&dl=https%3A%2F%2Fwww.cornell.edu%2F&dt=Cornell%20University&en=page_view&_fv=1&_ss=1&tfd=2578"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781166918903,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1772496866.1781168,
+            "dl": "https://www.cornell.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Cornell University",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v898388560za200zb9252221555zd9252221555",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781166919,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 2363,
+            "tid": "G-PMZ19X3F8W",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-PMZ19X3F8W&gtm=45je6691v898388560za200zb9252221555zd9252221555&_p=1781166918903&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1772496866.1781166920&frm=0&pscdl=&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938469&sid=1781166919&sct=1&seg=0&dl=https%3A%2F%2Fwww.cornell.edu%2F&dt=Cornell%20University&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2363"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-PMZ19X3F8W"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PMZ19X3F8W&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-XJK3YSJ0LV"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-XJK3YSJ0LV&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1781166919714,
+            "a": 980127,
+            "app": "typekit",
+            "e": "js",
+            "f": "10954.13454.13456.13458.13460.13464.13465.13466.13467.13468.13469",
+            "h": "www.cornell.edu",
+            "ht": "tk",
+            "js": "1.21.0",
+            "k": "gog6dck",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=gog6dck&ht=tk&h=www.cornell.edu&f=10954.13454.13456.13458.13460.13464.13465.13466.13467.13468.13469&a=980127&js=1.21.0&app=typekit&e=js&_=1781166919714"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmac": "UA-1628162-1",
+            "utmcc": "__utma=220513694.829264211.1781166920.1781166920.1781166920.1;+__utmz=220513694.1781166920.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmcs": "UTF-8",
+            "utmdt": "Cornell University",
+            "utmfl": "-",
+            "utmhid": 161932340,
+            "utmhn": "www.cornell.edu",
+            "utmht": 1781166919676,
+            "utmje": 0,
+            "utmjid": 690351154,
+            "utmn": 718501228,
+            "utmp": "/",
+            "utmr": "-",
+            "utmredir": 1,
+            "utms": 1,
+            "utmsc": "24-bit",
+            "utmsr": "375x812",
+            "utmu": "qhAAAAAAAAAAAAAAAAAAAAAE~",
+            "utmul": "en-us",
+            "utmvp": "375x812",
+            "utmwv": "5.7.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/j/__utm.gif?utmwv=5.7.2&utms=1&utmn=718501228&utmhn=www.cornell.edu&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Cornell%20University&utmhid=161932340&utmr=-&utmp=%2F&utmht=1781166919676&utmac=UA-1628162-1&utmcc=__utma%3D220513694.829264211.1781166920.1781166920.1781166920.1%3B%2B__utmz%3D220513694.1781166920.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=690351154&utmredir=1&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_6120104.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/ga.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WW83RG9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WW83RG9"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PSS7W6C5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PSS7W6C5"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-PMZ19X3F8W"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cornell.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PMZ19X3F8W"
+      }
+    ]
+  }
+}

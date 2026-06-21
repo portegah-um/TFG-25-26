@@ -1,0 +1,1010 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "The New York Times - Breaking News, US News, World News and Videos",
+  "uri_ins": "https://nytimes.com",
+  "uri_dest": "https://www.nytimes.com/",
+  "uri_redirects": [
+    "https://nytimes.com/"
+  ],
+  "secure_connection": {},
+  "host": "nytimes.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:19:14.435Z",
+  "end_time": "2026-06-11T06:20:30.972Z",
+  "browsing_history": [
+    "https://www.nytimes.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nytimes.com",
+        "www.nytimes.com",
+        "a.et.nytimes.com",
+        "eg.nytimes.com",
+        "als-svc.nytimes.com",
+        "purr.nytimes.com",
+        "dd.nytimes.com",
+        "static01.nytimes.com",
+        "a.nytimes.com",
+        "samizdat-graphql.nytimes.com",
+        "static.nytimes.com"
+      ],
+      "third_party": [
+        "static01.nyt.com",
+        "g1.nyt.com",
+        "www.datadoghq-browser-agent.com",
+        "www.googletagmanager.com",
+        "pagead2.googlesyndication.com",
+        "vp.nyt.com",
+        "rumcdn.geoedge.be",
+        "warp.media.net",
+        "c.amazon-adsystem.com",
+        "config.aps.amazon-adsystem.com",
+        "hbx.media.net",
+        "cs.media.net",
+        "pay.google.com",
+        "hbxlp.media.net",
+        "www.gstatic.com",
+        "a1.nyt.com",
+        "accounts.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/Masthead-B1r8EZfH.js": [
+          "scroll"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/GoogleAccounts-CNCh6PNl.js": [
+          "scroll"
+        ],
+        "https://dd.nytimes.com/tags.js": [
+          "mousemove",
+          "scroll",
+          "click"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/createFastlyStatsigClientGetters-CB6CxMkD.js": [
+          "scroll"
+        ],
+        "https://static01.nyt.com/vi-assets/static-assets/fides-1182b3743d46b6ae880fe217339d4333.js": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x": [
+          "click"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/vendor-DExNm0Q8.js": [
+          "click"
+        ],
+        "https://warp.media.net/js/tags/clientag.js?cid=8CU26C87G&dn=www.nytimes.com&ysection=home&version=1": [
+          "click"
+        ],
+        "https://www.nytimes.com/": [
+          "click"
+        ],
+        "https://www.gstatic.com/_/mss/boq-payments-consumer/_/js/k=boq-payments-consumer.InstantbuyFrontendBuyflowPayframeUi.en_US.PaCynFcsFso.2018.O/am=AAAAALAB/d=1/excm=_b,_tp,payframeview/ed=1/dg=0/wt=2/ujg=1/rs=AMitfrjtMYepZfPlrPOJG8db6xtAqOlROw/dti=1/m=_b,_tp": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/Masthead-B1r8EZfH.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://dd.nytimes.com/tags.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://static01.nyt.com/vi-assets/static-assets/fides-1182b3743d46b6ae880fe217339d4333.js": [
+          "keydown"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/vendor-DExNm0Q8.js": [
+          "keydown"
+        ],
+        "https://warp.media.net/js/tags/clientag.js?cid=8CU26C87G&dn=www.nytimes.com&ysection=home&version=1": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://dd.nytimes.com/tags.js": [
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://www.nytimes.com/vi-assets/static-assets/chunks/vendor-DExNm0Q8.js": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "nyt-gdpr",
+        "value": "1",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2026-06-11T12:19:47.046Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-a",
+        "value": "Y_hdnZTwlBEKHL6ikcTpRA",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:27.696Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-purr",
+        "value": "cfhhenahhudlhulssdds2fdnd",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:19:15.317Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-geo",
+        "value": "ES",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2026-06-11T12:19:25.824Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-traceid",
+        "value": "00000000000000000ee5456f1851e440",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": -1,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-b-sid",
+        "value": "I2rqbJAVMBQpIrKqcNvBjAmT",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2026-06-11T06:50:27.696Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sessionActive",
+        "value": "true",
+        "domain": "et.nytimes.com",
+        "path": "/",
+        "expires": "2026-06-11T06:50:27.696Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sessionIndex",
+        "value": "1|1781158756125|Y_hdnZTwlBEKHL6ikcTpRA|1781158756125",
+        "domain": "et.nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:19:16.211Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "purr-cache",
+        "value": "<G_<C_<T0<Td_<Tp1_<Tp2_<Tp3_<Tp4_<Tp7_<a0_<K0<r<ua",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2027-07-11T17:59:40.022Z",
+        "size": 60,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "purr-pref-agent",
+        "value": "<G_<C_<T0<Td_<Tp1_<Tp2_<Tp3_<Tp4_<Tp7_<a0_",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2027-07-11T17:59:40.022Z",
+        "size": 57,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gpp-string",
+        "value": "\",,DBABLA~BVQqAAAAAABo.QA\"",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2027-07-11T17:59:40.022Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "jkidd-p",
+        "value": "prevPage=&currPage=",
+        "domain": "a.nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:19:40.288Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NID",
+        "value": "532=THJtvomqwaw_8OSFSooQdokCY5cFEu9ihFP-wK26FLCz8GmbkZOK7rWu230NhZbb0VGBsqAF5fuGwnpGo6N1WYAQ7n8z8voum4dZAjj309yO6AGW7GPhBeKus7iN3J0GDfSHJKMvbMLw4YExF13TaqsQcjTYAfLPCtmyj0sDnDAVndTXFKz0xpXXV7wX0ncw3-qb_CpdGlNxVEnypys899Dl0_m5U_Bl1q_aOlsHZPQ",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2026-12-11T06:19:20.740Z",
+        "size": 242,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "et-ppvid",
+        "value": "https://www.nytimes.com/=3oEC4f_6pYWKfaKHDCeCmIXx",
+        "domain": "et.nytimes.com",
+        "path": "/",
+        "expires": "2026-06-12T06:20:27.696Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "jkidd-s",
+        "value": "referrer=&landing=&start=1781158760384&isNew=0&pageIndex=2",
+        "domain": "a.nytimes.com",
+        "path": "/",
+        "expires": -1,
+        "size": 65,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-jkidd",
+        "value": "uid=0&lastRequest=1781158780189&activeDays=%5B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C1%5D&adv=1&a7dv=1&a14dv=1&a21dv=1&lastKnownType=anon&newsStartDate=&entitlements=",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:19:40.288Z",
+        "size": 252,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "datadome",
+        "value": "NO72e6CNGEAwjCp2Je2Xlk00u3QRpdZ4Hig8LqhLYPiCK9aLRefhrw~LCo3qaMfaamLbyTyC4u8eaRSLNjL8YQXrNF~9tGePO4szS1XK76Avaak~i0J9Md64v5HJcdya",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:21.358Z",
+        "size": 136,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s_v2",
+        "value": "aid=6c59c19e-909a-469c-bb5f-75e0e7104483&id=e40bad80-bf96-41cf-a956-e4554204e5ee&created=1781158759259&expire=1781159727719&c=1",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:27.720Z",
+        "size": 135,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://nytimes.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hbxlp.media.net/log"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3030"
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cid": "8CU26C87G",
+            "coppa": 0,
+            "cs": 16,
+            "cv": 37,
+            "gdpr": 1,
+            "gdprconsent": 2,
+            "hb": 1,
+            "refUrl": "",
+            "usp_consent": 2,
+            "usp_status": 0,
+            "vsSync": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hbx.media.net/checksync.php?cid=8CU26C87G&cs=16&cv=37&hb=1&vsSync=1&refUrl=&gdpr=1&gdprconsent=2&usp_status=0&usp_consent=2&coppa=0"
+      },
+      {
+        "data": {
+          "filter": "/rumcdn.",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cid": "8CU26C87G",
+            "dn": "www.nytimes.com",
+            "version": 1,
+            "ysection": "home"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://warp.media.net/js/tags/clientag.js?cid=8CU26C87G&dn=www.nytimes.com&ysection=home&version=1"
+      },
+      {
+        "data": {
+          "filter": "/rumcdn.",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi-ip.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099063
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202606090101/pubads_impl.js?cb=31099063"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "tfAzqo1rYDLgYhmTnSjPqw",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "env-130",
+            "id": "GTM-P528B3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": "||nyt.com/ads/tpc-check.html$domain=nytimes.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static01.nyt.com/ads/tpc-check.html"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||datadoghq-browser-agent.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hbxlp.media.net/log"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "e": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hbxlp.media.net/log"
+      },
+      {
+        "data": {
+          "filter": "/rumcdn.",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi.js"
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cid": "8CU26C87G",
+            "coppa": 0,
+            "cs": 16,
+            "cv": 37,
+            "gdpr": 1,
+            "gdprconsent": 2,
+            "hb": 1,
+            "refUrl": "",
+            "usp_consent": 2,
+            "usp_status": 0,
+            "vsSync": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hbx.media.net/checksync.php?cid=8CU26C87G&cs=16&cv=37&hb=1&vsSync=1&refUrl=&gdpr=1&gdprconsent=2&usp_status=0&usp_consent=2&coppa=0"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3030"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099063
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202606090101/pubads_impl.js?cb=31099063"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cid": "8CU26C87G",
+            "dn": "www.nytimes.com",
+            "version": 1,
+            "ysection": "home"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://warp.media.net/js/tags/clientag.js?cid=8CU26C87G&dn=www.nytimes.com&ysection=home&version=1"
+      },
+      {
+        "data": {
+          "filter": "/rumcdn.",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi-ip.js"
+      },
+      {
+        "data": {
+          "filter": "||nyt.com/ads/tpc-check.html$domain=nytimes.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static01.nyt.com/ads/tpc-check.html"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm_auth": "tfAzqo1rYDLgYhmTnSjPqw",
+            "gtm_cookies_win": "x",
+            "gtm_preview": "env-130",
+            "id": "GTM-P528B3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x"
+      },
+      {
+        "data": {
+          "filter": "||datadoghq-browser-agent.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js"
+      }
+    ]
+  }
+}

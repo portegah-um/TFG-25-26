@@ -1,0 +1,385 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Check Point Software: Leader in Cyber Security Solutions",
+  "uri_ins": "https://checkpoint.com",
+  "uri_dest": "https://www.checkpoint.com/",
+  "uri_redirects": [
+    "https://checkpoint.com/"
+  ],
+  "secure_connection": {},
+  "host": "checkpoint.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:18:45.207Z",
+  "end_time": "2026-06-11T07:18:55.616Z",
+  "browsing_history": [
+    "https://www.checkpoint.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "checkpoint.com",
+        "www.checkpoint.com",
+        "sc1.checkpoint.com"
+      ],
+      "third_party": [
+        "static.addtoany.com",
+        "dev.visualwebsiteoptimizer.com",
+        "www.googletagmanager.com",
+        "cdn.jsdelivr.net",
+        "analytics.ahrefs.com",
+        "pagead2.googlesyndication.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/styles/aos/aos.js": [
+          "scroll"
+        ],
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/tmp_files/js/cp_nav.js?ver=1.15": [
+          "click"
+        ],
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/lib/jquery/jquery-3.4.0.min.js?ver=6.8.1": [
+          "scroll",
+          "click"
+        ],
+        "https://www.checkpoint.com/": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5JCRGP": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/styles/aos/aos.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.checkpoint.com/": [
+          "touchstart"
+        ],
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/styles/swiper/swiper-bundle.min.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/styles/swiper/swiper-bundle.min.js": [
+          "keydown"
+        ],
+        "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/lib/jquery/jquery-3.4.0.min.js?ver=6.8.1": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_vwo_uuid_v2",
+        "value": "D51A12BA9B4BA92457A143C3ECC064821|cbc0bf29ac7ddfe31f50e8159b12cb8a",
+        "domain": "checkpoint.com",
+        "path": "/",
+        "expires": "2027-06-12T07:18:47.000Z",
+        "size": 78,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "homeVisit",
+        "value": "1",
+        "domain": "www.checkpoint.com",
+        "path": "/",
+        "expires": "2026-06-12T07:18:48.000Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pll_language",
+        "value": "en",
+        "domain": "www.checkpoint.com",
+        "path": "/",
+        "expires": "2027-06-11T07:18:48.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+09%3A18%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202301.1.0&isIABGlobal=false&hosts=&consentId=04cdd46d-7ce8-48ff-a287-fd03597cc25b&interactionCount=0&landingPath=https%3A%2F%2Fwww.checkpoint.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0",
+        "domain": "checkpoint.com",
+        "path": "/",
+        "expires": "2027-07-16T07:18:53.521Z",
+        "size": 320,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/OtAutoBlock.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.cookielaw.org/consent/6be79097-5aaa-4b3b-8be4-f464d92cf186/OtAutoBlock.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.checkpoint.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45fe6691v9198920548z86871859za20gzb6871859zd6871859xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 13,
+            "rnd": 658134067.1781162,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115938465~115938469~119456240~119456248",
+            "tfd": 2524,
+            "tft": 1781162328360,
+            "tid": "DC-15036340",
+            "tids": "DC-15036340"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&en=page_view&dl=https%3A%2F%2Fwww.checkpoint.com%2F&scrsrc=www.googletagmanager.com&rnd=658134067.1781162328&navt=n&npa=1&_tu=CA&gtm=45fe6691v9198920548z86871859za20gzb6871859zd6871859xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115938465~115938469~119456240~119456248&apve=1&apvf=f&apvc=0&tids=DC-15036340&tid=DC-15036340&tft=1781162328360&tfd=2524"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.checkpoint.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45He6691v6871859za200zd6871859xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 6,
+            "rnd": 658134067.1781162,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468~117776793",
+            "tfd": 2386,
+            "tft": 1781162328221
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.checkpoint.com%2F&scrsrc=www.googletagmanager.com&rnd=658134067.1781162328&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45He6691v6871859za200zd6871859xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468~117776793&apve=1&apvf=f&apvc=1&tft=1781162328221&tfd=2386"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-15036340"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-15036340&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 639902,
+            "cd": 0,
+            "d": "checkpoint.com",
+            "h": "cbc0bf29ac7ddfe31f50e8159b12cb8a",
+            "t": false,
+            "u": "D51A12BA9B4BA92457A143C3ECC064821"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/collect/v.gif?cd=0&a=639902&d=checkpoint.com&u=D51A12BA9B4BA92457A143C3ECC064821&h=cbc0bf29ac7ddfe31f50e8159b12cb8a&t=false"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5JCRGP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5JCRGP"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 639902,
+            "ph": 1,
+            "st": 1426.199999988079,
+            "u": "https://www.checkpoint.com/",
+            "vn": 2.2,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.checkpoint.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=639902&u=https%3A%2F%2Fwww.checkpoint.com%2F&vn=2.2&ph=1&st=1426.199999988079&x=true"
+      }
+    ]
+  }
+}

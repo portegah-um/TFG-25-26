@@ -1,0 +1,799 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "U.S. Food and Drug Administration",
+  "uri_ins": "https://fda.gov",
+  "uri_dest": "https://www.fda.gov/",
+  "uri_redirects": [
+    "https://fda.gov/"
+  ],
+  "secure_connection": {},
+  "host": "fda.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:27:47.130Z",
+  "end_time": "2026-06-11T09:27:52.704Z",
+  "browsing_history": [
+    "https://www.fda.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "fda.gov",
+        "www.fda.gov"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "script.crazyegg.com",
+        "dap.digitalgov.gov",
+        "touchpoints.app.cloud.gov",
+        "region1.analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "region1.google-analytics.com",
+        "cg-1b082c1b-3db7-477f-9ca5-bd51a786b41e.s3-us-gov-west-1.amazonaws.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M95XGZW": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://www.fda.gov/files/js/js_slZ_u0aWJFEt1cH1Zwii-QyLhaTNBO65LccU3zlOaaM.js?scope=footer&delta=0&language=en&theme=preview&include=eJxdjtEKwzAIRX-oJXsZ7G-CNS4NS6OotHRfv4VB2Pbo8XivmTlXitCgnl7QQv4DkyjthY6QKy9QZ0Mt4jYtzG6uIEFYeCcdoh1F3uM9QUTepBZoSKGvLF4vty_4cR6UirNGamuHGzW3AIisqXCLzrk_ZCurIycaPajwPCnnARLIjzBO5pH2Am1yXpY": [
+          "scroll",
+          "click"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=FDA&sdor=fda.gov&dclink=true": [
+          "mousedown"
+        ],
+        "https://www.fda.gov/xZWsy2PNx/mGJ0/1N4tA/ObriVL6wkphrr2i9/dyB-VF8vAQ/OQ5BDzwY/ETIB": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "mousemove"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-273DTKB5QW": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=FDA&sdor=fda.gov&dclink=true": [
+          "keydown"
+        ],
+        "https://www.fda.gov/xZWsy2PNx/mGJ0/1N4tA/ObriVL6wkphrr2i9/dyB-VF8vAQ/OQ5BDzwY/ETIB": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://www.fda.gov/files/js/js_slZ_u0aWJFEt1cH1Zwii-QyLhaTNBO65LccU3zlOaaM.js?scope=footer&delta=0&language=en&theme=preview&include=eJxdjtEKwzAIRX-oJXsZ7G-CNS4NS6OotHRfv4VB2Pbo8XivmTlXitCgnl7QQv4DkyjthY6QKy9QZ0Mt4jYtzG6uIEFYeCcdoh1F3uM9QUTepBZoSKGvLF4vty_4cR6UirNGamuHGzW3AIisqXCLzrk_ZCurIycaPajwPCnnARLIjzBO5pH2Am1yXpY": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.fda.gov/files/js/js_slZ_u0aWJFEt1cH1Zwii-QyLhaTNBO65LccU3zlOaaM.js?scope=footer&delta=0&language=en&theme=preview&include=eJxdjtEKwzAIRX-oJXsZ7G-CNS4NS6OotHRfv4VB2Pbo8XivmTlXitCgnl7QQv4DkyjthY6QKy9QZ0Mt4jYtzG6uIEFYeCcdoh1F3uM9QUTepBZoSKGvLF4vty_4cR6UirNGamuHGzW3AIisqXCLzrk_ZCurIycaPajwPCnnARLIjzBO5pH2Am1yXpY": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.fda.gov/xZWsy2PNx/mGJ0/1N4tA/ObriVL6wkphrr2i9/dyB-VF8vAQ/OQ5BDzwY/ETIB": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://www.fda.gov/xZWsy2PNx/mGJ0/1N4tA/ObriVL6wkphrr2i9/dyB-VF8vAQ/OQ5BDzwY/ETIB": [
+          "devicemotion",
+          "deviceorientation"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_273DTKB5QW",
+        "value": "GS2.1.s1781170068$o1$g0$t1781170068$j60$l0$h0",
+        "domain": "fda.gov",
+        "path": "/",
+        "expires": "2027-07-16T09:27:48.389Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1906160161.1781170068",
+        "domain": "fda.gov",
+        "path": "/",
+        "expires": "2027-07-16T09:27:49.249Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "6E96D025DD8F9F413D10D57D75D21A98~YAAQj/MUAulxFXyeAQAAnV4CtgBzW/GaK9EddRivTnotW9eSDkg4xwmkr8sts0siEWvKMXtdvZ0OrCChkdk0w58EMUd/43Rv8gosTOOsoVOKuP3Euqh4/KqhDd5+zHHsa0hLVECOz3q1bNGdvOd3pnu393wnc2ipH/C3rH5o+kd8y0/ptApAFL3n3UepU974smkWWQlvJ+n9yZv74HhjLCQ4ZnCocw4TVjKQCMH+kJSs2qjIxaIJeJeqrDZ+v5KsMPZEKb90oBemGNDjtHzYPcVB8NbHvFXsNux4DbgNL4Kn5iP2BU0F1cpQ8TR2+rSR52UnSmwDfFHFyTnq8vgtYWkRjh7fHgZl/slmXOjf65Xy3BPP9VPpwuONgl0XSn+pY2x/asw5kBNieublMjYi~4407860~4539184",
+        "domain": "fda.gov",
+        "path": "/",
+        "expires": "2026-06-11T13:27:47.161Z",
+        "size": 458,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ce.s",
+        "value": "lcw~1781170069539",
+        "domain": "fda.gov",
+        "path": "/",
+        "expires": "2027-06-11T09:27:49.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_abck",
+        "value": "AAAF642F083594A33060A99A0C144C2B~-1~YAAQj/MUAltyFXyeAQAAl2kCthBREG9CkAqyi3hkJEU5syCQZ8XQoMa7slVa91QY1NF0LuaqwUOfAqP9Bo7y/tA3YtyJTj40yJpJrpJBLO7y3GqqSmx63b2967/KeIY/Bi99hDIeAlwcAiOawmgXcYhVndK8R0Un34CgH8emRtHzPU/p5By7bxAfCcUB+vl2RFt620nkLH+nO5jIQievkslKbOIb9zBORFI4Z0lnXIj/m4IdEf5wXnJ4RNxI36OvLNWxNpUAXVrPVihoT8mcMgcLSW6mH4QiB++ijwWfUnJ7KxFg9S9Lc1Sng54ZSJDzEQR1KjCwt3eRMlZ+Vt+Z2/tWufleLsQuP3AvcIS72j1iGrsXgbcUNcJjW23iAL6GSQ9SKQzCg3/3FN7CERKfzQOpp9AO0/Ft+ROe9+PkCZCeI3IlcUbAVWI1VFP3R9zX7whNHzqLybvVLbjzOyEVXMsHK8AHABaxUdQnLP5voI0hvu1iTKk0KaZf2F44Qz/rYwARSAb/CMZbl61WVn5F41BzlAutj/yA7B8tvDMUtUVZLJ/YQxXr4DHJW5rJMK5oI5I7ExhnjyjDNdiN6sHGUJ5h9XNv7mgbrMaOA15rhLg3A2cMJhzPpGSzp/FIeJXfuq6H12v9bSAEZyfnRTH7rk2sTHwjbO05p6KiShriK3HgPEGrjHp1qLi0rDA2bUiGp5d5IVua2g==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fxLlXUYKolbQUWffHyue2O+4nZGO8yXbsfpcbx7slZ2+nDkkzlXpZy+L206RNSUfOQL+XWTBeHnrpS0fhpOd1WTWu%2fVMT8STDrRa~-1",
+        "domain": "fda.gov",
+        "path": "/",
+        "expires": "2027-06-11T09:27:51.969Z",
+        "size": 894,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781170069$o1$g0$t1781170071$j58$l0$h0",
+        "domain": "fda.gov",
+        "path": "/",
+        "expires": "2027-07-16T09:27:51.975Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1906160161.178117,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l3l1",
+            "gtm": "45je6691h1v895148502za200zd895148502",
+            "npa": 1,
+            "rcb": 11,
+            "tag_exp": "0~115938465~115938469",
+            "tid": "G-273DTKB5QW",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-273DTKB5QW&cid=1906160161.1781170068&gtm=45je6691h1v895148502za200zd895148502&rcb=11&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l3l1&npa=1&frm=0&tag_exp=0~115938465~115938469"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_et": 566,
+            "_eu": "AAAAAAQ",
+            "_p": 1781170068333,
+            "_s": 3,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1906160161.178117,
+            "dl": "https://fda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "U.S. Food and Drug Administration",
+            "en": "INP",
+            "ep.agency": "HHS",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "dom-content-loaded",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "fda.gov",
+            "ep.metric_id": "v4-1781170069035-4435935486370",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:fda.gov",
+            "ep.site_topic": "unspecified:fda.gov",
+            "ep.subagency": "FDA",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 32,
+            "epn.metric_value": 32,
+            "epn.value": 32,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb895148502zd895148502",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170069,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 4907,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb895148502zd895148502&_p=1781170068333&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=1906160161.1781170068&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938465~115938468&dl=https%3A%2F%2Ffda.gov%2F&dt=U.S.%20Food%20and%20Drug%20Administration&dr=&sid=1781170069&sct=1&seg=0&_tu=wA&en=INP&_ee=1&ep.agency=HHS&ep.subagency=FDA&ep.site_topic=unspecified%3Afda.gov&ep.site_platform=unspecified%3Afda.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=fda.gov&epn.value=32&ep.metric_id=v4-1781170069035-4435935486370&epn.metric_value=32&epn.metric_delta=32&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=dom-content-loaded&epn.event_time=0&ep.event_name_dimension=INP&_et=566&tfd=4907"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781170068333,
+            "_s": 2,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1906160161.178117,
+            "dl": "https://fda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "U.S. Food and Drug Administration",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb895148502zd895148502",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170069,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 4892,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb895148502zd895148502&_p=1781170068333&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=1906160161.1781170068&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938465~115938468&dl=https%3A%2F%2Ffda.gov%2F&dt=U.S.%20Food%20and%20Drug%20Administration&dr=&sid=1781170069&sct=1&seg=0&_tu=wA&_s=2&tfd=4892"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1465,
+            "_eu": "AAAAAGQC",
+            "_p": 1781170068333,
+            "_s": 2,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 1906160161.178117,
+            "dl": "https://www.fda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "U.S. Food and Drug Administration",
+            "en": "user_engagement",
+            "ep.page_placeholder": "PLACEHOLDER_page_location",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l3l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691h1v895148502za200zd895148502",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170068,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 4891,
+            "tid": "G-273DTKB5QW",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-273DTKB5QW&gtm=45je6691h1v895148502za200zd895148502&_p=1781170068333&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAGQC&are=1&cid=1906160161.1781170068&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469&sid=1781170068&sct=1&seg=0&dl=https%3A%2F%2Fwww.fda.gov%2F&dt=U.S.%20Food%20and%20Drug%20Administration&_tu=QA&en=user_engagement&ep.page_placeholder=PLACEHOLDER_page_location&_et=1465&tfd=4891"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0024/3700/sampling/www.fda.gov.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0024/3700/site/www.fda.gov.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781170068333,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 1906160161.178117,
+            "dl": "https://fda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "U.S. Food and Drug Administration",
+            "en": "page_view",
+            "ep.agency": "HHS",
+            "ep.hostname_dimension": "fda.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:fda.gov",
+            "ep.site_topic": "unspecified:fda.gov",
+            "ep.subagency": "FDA",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v9131934939za200zb895148502zd895148502",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 17,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170069,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 1603,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb895148502zd895148502&_p=1781170068333&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1906160161.1781170068&frm=0&pscdl=&rcb=17&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&dl=https%3A%2F%2Ffda.gov%2F&dt=U.S.%20Food%20and%20Drug%20Administration&dr=&sid=1781170069&sct=1&seg=0&_tu=wA&en=page_view&_fv=1&_ss=1&_ee=1&ep.agency=HHS&ep.subagency=FDA&ep.site_topic=unspecified%3Afda.gov&ep.site_platform=unspecified%3Afda.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=fda.gov&tfd=1603"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-M95XGZW"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M95XGZW"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1906160161.178117,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l3l1",
+            "gtm": "45je6691h1v895148502za200zd895148502",
+            "npa": 1,
+            "rcb": 11,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "0~115938465~115938469",
+            "tid": "G-273DTKB5QW",
+            "v": 1,
+            "z": 169705583
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-273DTKB5QW&cid=1906160161.1781170068&gtm=45je6691h1v895148502za200zd895148502&rcb=11&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l3l1&npa=1&frm=0&tag_exp=0~115938465~115938469&z=169705583"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAGAC",
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1781170068333,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 1906160161.178117,
+            "dl": "https://www.fda.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "U.S. Food and Drug Administration",
+            "en": "page_view",
+            "ep.page_placeholder": "PLACEHOLDER_page_location",
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l3l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691h1v895148502za200zd895148502",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170068,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 744,
+            "tid": "G-273DTKB5QW",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-273DTKB5QW&gtm=45je6691h1v895148502za200zd895148502&_p=1781170068333&_gaz=1&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAGAC&are=1&cid=1906160161.1781170068&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469&sid=1781170068&sct=1&seg=0&dl=https%3A%2F%2Fwww.fda.gov%2F&dt=U.S.%20Food%20and%20Drug%20Administration&_tu=QA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.page_placeholder=PLACEHOLDER_page_location&tfd=744"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      },
+      {
+        "data": {
+          "filter": "||digitalgov.gov/Universal-Federated-Analytics-Min.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "agency": "HHS",
+            "dclink": true,
+            "sdor": "fda.gov",
+            "subagency": "FDA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=FDA&sdor=fda.gov&dclink=true"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0024/3700.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-273DTKB5QW"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.fda.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-273DTKB5QW"
+      }
+    ]
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "The Global Commerce Intelligence Platform",
+  "uri_ins": "https://criteo.com",
+  "uri_dest": "https://www.criteo.com/",
+  "uri_redirects": [
+    "https://criteo.com/"
+  ],
+  "secure_connection": {},
+  "host": "criteo.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:05:29.637Z",
+  "end_time": "2026-06-11T06:05:41.246Z",
+  "browsing_history": [
+    "https://www.criteo.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "criteo.com",
+        "www.criteo.com",
+        "www2.criteo.com"
+      ],
+      "third_party": [
+        "cdnjs.cloudflare.com",
+        "cdn.jsdelivr.net",
+        "www.googletagmanager.com",
+        "widgets.tree-nation.com",
+        "cdn.eu.amplitude.com",
+        "web.cmp.usercentrics.eu",
+        "unpkg.com",
+        "criteo.my.site.com",
+        "v1.api.service.cmp.usercentrics.eu",
+        "app.usercentrics.eu",
+        "uct.service.usercentrics.eu",
+        "cdn.drda.io",
+        "consent-api.service.consent.usercentrics.eu",
+        "cdn.dreamdata.cloud",
+        "criteo.my.salesforce-scrt.com",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.criteo.com/": [
+          "click",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/267c7bc833/prod/lwr_app": [
+          "scroll"
+        ],
+        "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/9b66f4a4e3/prod/lwr_bootstrap": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.criteo.com/": [
+          "keydown",
+          "keyup"
+        ],
+        "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/9b66f4a4e3/prod/lwr_bootstrap": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.criteo.com/": [
+          "touchmove",
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      },
+      "SENSOR": {
+        "https://www.criteo.com/": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "STYXKEY_geo_cc",
+        "value": "ES",
+        "domain": "criteo.com",
+        "path": "/",
+        "expires": "2026-06-12T06:05:30.279Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "STYXKEY_geo_cc",
+        "value": "ES",
+        "domain": "www.criteo.com",
+        "path": "/",
+        "expires": "2026-06-12T06:05:30.388Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pi_opt_in126241",
+        "value": "false",
+        "domain": "www.criteo.com",
+        "path": "/",
+        "expires": "2026-06-18T06:05:33.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "pi_opt_in126241",
+        "value": "false",
+        "domain": "www2.criteo.com",
+        "path": "/",
+        "expires": "2027-06-11T06:05:33.752Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 72531584,
+            "ck": 0,
+            "ptid": "ee51230149f85542",
+            "ref": "https://www.criteo.com/",
+            "rst": 5681,
+            "s": "f8bec8f97860ede6",
+            "to": "b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/bb94583995?a=72531584&v=1.316.0&to=b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA%3D%3D&rst=5681&ck=0&s=f8bec8f97860ede6&ref=https://www.criteo.com/&ptid=ee51230149f85542"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 72531584,
+            "ck": 0,
+            "ptid": "ee51230149f85542",
+            "ref": "https://www.criteo.com/",
+            "rst": 5678,
+            "s": "f8bec8f97860ede6",
+            "to": "b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/jserrors/1/bb94583995?a=72531584&v=1.316.0&to=b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA%3D%3D&rst=5678&ck=0&s=f8bec8f97860ede6&ref=https://www.criteo.com/&ptid=ee51230149f85542"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 72531584,
+            "ck": 0,
+            "ptid": "ee51230149f85542",
+            "ref": "https://www.criteo.com/",
+            "rst": 5676,
+            "s": "f8bec8f97860ede6",
+            "to": "b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/bb94583995?a=72531584&v=1.316.0&to=b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA%3D%3D&rst=5676&ck=0&s=f8bec8f97860ede6&ref=https://www.criteo.com/&ptid=ee51230149f85542"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "o11y": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/log/metrics?o11y=2"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/sfsites/c/resource/Graphik"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 72531584,
+            "af": "err,xhr,stn,ins",
+            "ap": 1130,
+            "at": "QxEWFAlDS08bBxIJGUVO",
+            "be": 255,
+            "ck": 0,
+            "dc": 1129,
+            "fcp": 1528,
+            "fe": 4870,
+            "fp": 762,
+            "fsh": 1,
+            "perf": {
+              "navigation": {},
+              "timing": {
+                "c": 147,
+                "ce": 147,
+                "dc": 5101,
+                "de": 1383,
+                "di": 1291,
+                "dn": 147,
+                "dne": 147,
+                "ds": 1314,
+                "f": 147,
+                "l": 5102,
+                "le": 5125,
+                "n": 0,
+                "of": 1781157930133,
+                "rp": 254,
+                "rpe": 289,
+                "rq": 231,
+                "s": 147
+              }
+            },
+            "ptid": "ee51230149f85542",
+            "ref": "https://www.criteo.com/",
+            "rst": 5392,
+            "s": "f8bec8f97860ede6",
+            "to": "b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA==",
+            "v": "1.316.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/bb94583995?a=72531584&v=1.316.0&to=b1YBYkFZWBBYBURaDVYcIlVHUVkNFhZRVAd1XAdDX1lEUQlUAA%3D%3D&rst=5392&ck=0&s=f8bec8f97860ede6&ref=https://www.criteo.com/&ptid=ee51230149f85542&af=err,xhr,stn,ins&ap=1130&be=255&fe=4870&dc=1129&at=QxEWFAlDS08bBxIJGUVO&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1781157930133,%22n%22:0,%22f%22:147,%22dn%22:147,%22dne%22:147,%22c%22:147,%22s%22:147,%22ce%22:147,%22rq%22:231,%22rp%22:254,%22rpe%22:289,%22di%22:1291,%22ds%22:1314,%22de%22:1383,%22dc%22:5101,%22l%22:5102,%22le%22:5125%7D,%22navigation%22:%7B%7D%7D&fp=762&fcp=1528"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/0af3d31fc8338a2518abfa12ed682846/prod/en-US/o11y/collectors_cmp"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/769a3bbaf4b329a78402db88550744d6/prod/en-US/o11y/simple_collector_cmp"
+      },
+      {
+        "data": {
+          "filter": "||newrelic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-full-1.316.0.min.js"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/log/metrics"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/js/rpc-manager.iife.js"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/f2955555e0a68e9a0806e1fb4ad01992/prod/en-US/lightning/auraDynamic_cmp"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "asGuest": true,
+            "o11y": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/o11y/246/config?asGuest=true&o11y=1"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "7c4cb5266a": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/styles/salesforce-lightning-design-system.min.css?7c4cb5266a"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "7c4cb5266a": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/styles/embedded-messaging-styling.min.css?7c4cb5266a"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/view/04f60124d855b11535908c15645e105c/prod/en-US/frame_view"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/5b8557d8725fba2dbf2e6a4968ec430c/prod/en-US/force/luvioRuntimeWebruntime_cmp"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/259a789b5905e4a3e65c0942cc97421d/prod/en-US/force/luvioLwcBindings_cmp"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/f7e59173284040df5ea4e524afc999dd/prod/en-US/force/ldsWebruntimeOneStoreInit_cmp"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/component/f6d554e1ec5fc04e51738f9372fd9ac9/prod/en-US/force/ldsEngineWebruntime_cmp"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/view/7da9c9d804550443c9be10ae7f6b391b/prod/en-US/home_view"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/267c7bc833/prod/lwr_app"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/9faac7844c/prod/lwr_lwc"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/744f7852ef/prod/lwr_app_bootstrap_hook"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/9b66f4a4e3/prod/lwr_bootstrap"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/webruntime/framework/1e7fb74fd8/prod/lwr_loader"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "esConfigName": "Criteo_Assistant",
+            "orgId": "00D24000000aEyX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.salesforce-scrt.com/embeddedservice/v1/businesshours?orgId=00D24000000aEyX&esConfigName=Criteo_Assistant"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "lwc.mode": "prod"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/?lwc.mode=prod"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "esConfigName": "Criteo_Assistant",
+            "language": "en_US",
+            "orgId": "00D24000000aEyX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.salesforce-scrt.com/embeddedservice/v1/embedded-service-config?orgId=00D24000000aEyX&esConfigName=Criteo_Assistant&language=en_US"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/js/rpc-manager.iife.js"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/styles/init.min.css"
+      },
+      {
+        "data": {
+          "filter": "/scripts/analytics/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js"
+      },
+      {
+        "data": {
+          "filter": "||usercentrics.eu/session/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "settingsId": "eETjrQB6y3u-TA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=eETjrQB6y3u-TA"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/js/init.min.js"
+      },
+      {
+        "data": {
+          "filter": "/criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://criteo.my.site.com/ESWCriteoAssistant1769612549601/assets/js/bootstrap.min.js"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals.",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/web-vitals@2.1.0/dist/web-vitals.umd.js"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.eu.amplitude.com/libs/analytics-browser-2.9.0-min.js.gz"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-M4Z343H"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.criteo.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M4Z343H"
+      }
+    ]
+  }
+}

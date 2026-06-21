@@ -1,0 +1,2247 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+  "uri_ins": "https://dzen.ru",
+  "uri_dest": "https://dzen.ru/",
+  "uri_redirects": [
+    "https://dzen.ru/?is_autologin_ya=true",
+    "https://login.vk.com/?act=autologin&redirect_uri=https%3A%2F%2Fdzen.ru%2Fapi%2Fauth%2Fweb%2Fautologin-vk-log-only%3FredirectUrl%3Dhttps%253A%252F%252Fdzen.ru%252F%253Fis_autologin_ya%253Dtrue&state=0YrqgzgAZqz9gL4m&uuid=200e7c9b-fd27-4427-867c-926f6869d1c4&app_id=51441269&flow_source=detected_autologin",
+    "https://dzen.ru/api/auth/web/autologin-vk-log-only?errorCode=11300&errorText=invalid+user&redirectUrl=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue&state=0YrqgzgAZqz9gL4m"
+  ],
+  "secure_connection": {},
+  "host": "dzen.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:36:16.976Z",
+  "end_time": "2026-06-11T05:36:26.879Z",
+  "browsing_history": [
+    "https://dzen.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "dzen.ru",
+        "sso.dzen.ru",
+        "suggest.sso.dzen.ru",
+        "531111.ms.dzen.ru"
+      ],
+      "third_party": [
+        "sso.passport.yandex.ru",
+        "login.vk.com",
+        "static.dzeninfra.ru",
+        "mc.yandex.ru",
+        "avatars.dzeninfra.ru",
+        "yastatic.net",
+        "yandex.ru",
+        "top-fwz1.mail.ru",
+        "ad.mail.ru",
+        "csp.yandex.net",
+        "mc.yandex.com",
+        "vk.ru",
+        "an.yandex.ru",
+        "privacy-cs.mail.ru",
+        "id.vk.com",
+        "static.vk.com",
+        "avatars.mds.yandex.net",
+        "stacks.vk-portal.net",
+        "sdk-api.apptracer.ru",
+        "api.vk.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.dzeninfra.ru/s3/zen-apps/dzen-mobile/1.893.0/dzen-mobile-second.modern.bundle.js": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "click"
+        ],
+        "https://static.vk.com/vkid/1.1.1355/button_one_tap_auth.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "click",
+          "scroll",
+          "select",
+          "mousedown",
+          "mousemove",
+          "mouseup"
+        ],
+        "https://yandex.ru/ads/system/context.js?pcode-test-ids=1387854%2C0%2C13%3B1586607%2C0%2C86%3B1586020%2C0%2C12%3B1587580%2C0%2C7%3B1577848%2C0%2C55%3B1588328%2C0%2C90%3B1552820%2C0%2C81%3B1471934%2C0%2C18%3B1534006%2C0%2C19%3B1579167%2C0%2C8%3B1588628%2C0%2C29%3B1569270%2C0%2C30%3B1584245%2C0%2C92%3B1564093%2C0%2C58%3B1503321%2C0%2C26%3B1597992%2C0%2C86%3B1593118%2C0%2C27%3B1569397%2C0%2C58%3B1541073%2C0%2C75%3B1578650%2C0%2C36%3B1513550%2C0%2C36%3B1584272%2C0%2C76&pcode-flags-map=eJyNVmtv2zYU_S_-HBR8SqK_0RIlE6FFlaScZMNAJF02ZPWSYXWHFkX--64eSSq3kZIPSWzpHt7HOefy2-pK-sYHuTFqr9xq_eu31X_Xh8-3q_UKv8uS9B1mJOWrs9Xx9tNR_959zUVK0mz1-NvZai99HIIjRHtt6ykCRTjJkkk0ZSnjQ3ShfR9aKB-cvYrqMihXSxNzp2TQexVlEVuvXMyN9SpChnWYHHD75Z8JOGOiy_bxbOEV8py9U7k0eWtkUPD_-xZSiTsVtraIpXXxwsmmgQRaZ-YP5ogz3qO-d3FjZH4ejQas3GhIOurCTzuDBKGZYHydZWlKCEZrigRKCEr4GgMWSwTP1hSLRKQJp_CUYUQoomshMEOIp2uMEcKYpBCKM_guSbvXMEEoIxhAGGKMC7KmBFPCsgyeEug-EvCeoEQknLNpESkcgfsiZFFEvZOVipU0RrmrqOtYq9bZblq6que7kWGB2BOQrqvY_QlADxhuI52EDgNd-g4DCYLTmzackudH0ESIbH623SvDuaruqdU4tdFFLFpdzIJzlAkxzA8IF33HhDpoSNdYIKEc2ODPdRODPVfzmXJMaYaeKVZ29caOR3UR97pQNnpjAwDFwu7mkSjDNHtOK0hXqQA8LYfWQTNzW6hliHQGAlJcBkh6gErVykFPYGKgl-oqXuiwjbaRuQ5XE5A_rg-Hm-sPH-PD_eHrFI5hjEUPV-pLQKgLexFra5sOfD4TxtNkkK5RsoD8dx7SN7ro1Ntsbb3QCohnYqRlaS9hrLIJb1A3T0CN-HtelT4WHrhRLfQuZaCzPhBoD-3v5wVaKi38AgIMksptXeoq7tkE7Hj975-3xxO8VIzmNeD5rdP1eew66fUv8Nm2Ll_owguGbINtwKvUrveoeg_UjtKAa4HoN-Bh80AZJ6NmhrLmNwGnFJ3ukZSi77sKvFJyN2rkQm2sJwhncU8nWB-Oh1OCIjQ0WXmv6lzFnd3ofkrzganASfrTQGNBHHLBM7IsIdkk_CmudzVd5yFKeBL8iDuB-3R3vD3c3X_89GZQr4MyMG4PhGlhYD-C4gWosbzKgScChfdkgfawKocBAVmH1bwFH9M14EXfur2CvZCf-vbfD3_dndTEyLgcvW_iTmoTXTuOudQmLOk-YUjQZz_tbixjsKorSKb7IOX8qBGl42p76gXssXOg_xtnLVIhyNtmPQJP8G4-H48P969BdsbcufIGxtqvy_HWAJeT0Nt097CxbnFHckExfrmaqdzuQMvOwgHg2jvpYOvs46C2hYITQcWgDSfBondDdaBKXW2hVGPm-w23lZS-Gg6m3U6Iy1H38wrCy9qNFszF9BSs4JZlc9BC135ZL5pelvCBygWwp0e0ZQkpTdfWTeTodJfzMfAtDs4ncPTL5idzBzX0_vv4P-V9TJ4,": [
+          "click"
+        ],
+        "https://yastatic.net/safeframe-bundles/0.83/host.js": [
+          "scroll"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://static.dzeninfra.ru/s3/zen-apps/dzen-layout/1.137.0/dzen-layout-mobile.modern.bundle.js": [
+          "scroll"
+        ],
+        "https://mc.yandex.ru/metrika/watch_zen.js": [
+          "click"
+        ],
+        "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light": [
+          "scroll",
+          "click",
+          "mousedown"
+        ],
+        "https://dzen.ru/": [
+          "mouseup",
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.dzeninfra.ru/s3/zen-apps/dzen-mobile/1.893.0/dzen-mobile-second.modern.bundle.js": [
+          "keydown"
+        ],
+        "https://static.vk.com/vkid/1.1.1355/button_one_tap_auth.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "keypress"
+        ],
+        "https://dzen.ru/": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://static.vk.com/vkid/1.1.1355/button_one_tap_auth.js": [
+          "touchstart"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "touchmove"
+        ],
+        "https://static.dzeninfra.ru/s3/zen-apps/dzen-mobile/1.893.0/dzen-mobile-second.modern.bundle.js": [
+          "touchmove"
+        ],
+        "https://dzen.ru/": [
+          "touchcancel",
+          "touchend"
+        ]
+      },
+      "SENSOR": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://privacy-cs.mail.ru/static/sync-loader.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "zencookie",
+        "value": "141086501781156177",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:17.904Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "zen_sso_checked",
+        "value": "1",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-25T05:36:18.845Z",
+        "size": 16,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mda2_beacon",
+        "value": "1781156178236",
+        "domain": "passport.yandex.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.288Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ys",
+        "value": "c_chck.3870192393",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "Zk3E+I0Cr2sT4eI6/YlbpzxPFrVxp76iU7xW1sbjl6xvsdohaC4zoZTxL+0LrcufaZjGP9irxsVnSwhEcv3k2vMCd4s=",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.288Z",
+        "size": 93,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "yandexuid",
+        "value": "905612861781156178",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.288Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mda2_domains",
+        "value": "dzen.ru",
+        "domain": "passport.yandex.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.288Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_yasc",
+        "value": "SAVuztRCuvVF0UmaC73Og3+ZKTDjq7aqFvWZZpc7nTDGbvqCxIhmbGtZmv9Fvgsnufs=",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.288Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Session_id",
+        "value": "noauth:1781156178",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:36:18.688Z",
+        "size": 27,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sessar",
+        "value": "1.1844558.CiBLRb-a356p8vHM2tUwh35EvTw19kS845oAV4AUvQ-0kw.84iB7xLM-8iNK7twt6_63dhMwqdnBlEYZgef-xuVDm0",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:36:18.688Z",
+        "size": 106,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dzen_sess_id",
+        "value": "noauth:1781156178",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:36:18.688Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "yandex_login",
+        "value": "",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-06-11T05:36:18.688Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ys",
+        "value": "c_chck.3870192393",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "i",
+        "value": "+gICvupudFsuxQ7sgZLcdXXR3AiLrNwrsLPfIL6w0C9ko/ZN6urN8xhoE6GltmGR1Jqdw2bWtpgboyVqAgoFARJTb3I=",
+        "domain": "sso.dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.689Z",
+        "size": 93,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "yandexuid",
+        "value": "905612861781156178",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.689Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mda2_beacon",
+        "value": "1781156178237",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:18.689Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sso_status",
+        "value": "sso.passport.yandex.ru:synchronized",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-11T07:16:18.000Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zen_vk_sso_checked",
+        "value": "1",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-25T05:36:18.845Z",
+        "size": 19,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "yashr",
+        "value": "3325365401781156179",
+        "domain": "sso.dzen.ru",
+        "path": "/",
+        "expires": "2027-06-11T05:36:19.926Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://dzen.ru",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Zen-User-Data",
+        "value": "{%22zen-theme%22:%22light%22%2C%22zen-theme-setting%22:%22light%22}",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-06-11T05:36:22.000Z",
+        "size": 80,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_uid",
+        "value": "1781156181421945531",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-06-11T05:36:20.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1781156181",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-06-11T05:36:20.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_yasc",
+        "value": "k5AFG53FSUF5/nD6nuTnw8XjVyrBYMzZ6StHLt5e9nQMQDqV0adPpo80QjILYsaaw6ndpw==",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:20.637Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PVID",
+        "value": "1K7dlH2a6wYe00260c1AG4oe:::0-0-0-f44a214-0-f44a214:CAASEBrPN0cZIS0KUC0Iw8VHjdQaYLTpjs19U_Be1iysQWb0OkV2PQDRwqu7hgEF_Xuoh9CqCpvnrqEYcZLA6n-ARZ-Me_pP19tdRKYoX9FzcCa3pKl2uxn2LzrtzJcUuW_3mavP83QcNWPUvDx4-AMoRsnYtw",
+        "domain": "ad.mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T05:36:20.847Z",
+        "size": 213,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://dzen.ru",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T01:36:21.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "is_auth_through_phone",
+        "value": "true",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:36:22.000Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "is_online_stat",
+        "value": "false",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:36:22.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zen_gid",
+        "value": "100951",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:21.744Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "zen_vk_gid",
+        "value": "5463",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:21.745Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "logical-device-width",
+        "value": "375",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "logical-device-height",
+        "value": "812",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "compliance-alert",
+        "value": "true",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-12-08T05:36:22.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvid",
+        "value": "b577e997a5942f3621b001d654f5bfe9",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-05-10T05:36:22.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvidTS",
+        "value": "1781156182490",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-05-10T05:36:22.000Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "vid",
+        "value": "5adcc498bbc33a68",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2027-07-16T05:36:22.800Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ym_visorc",
+        "value": "b",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-11T06:06:24.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "domain_sid",
+        "value": "WSJcZRxjTeKjFZ5ZD7Y4S%3A1781156183746",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-18T05:36:23.747Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "is_online_cached",
+        "value": "false",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-11T07:36:24.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_detect",
+        "value": "0%7C1781156185573",
+        "domain": "dzen.ru",
+        "path": "/",
+        "expires": "2026-06-12T05:36:25.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "PVID",
+        "value": "1K7dlH2a6wYe00260c1AG4oe:::0-0-0-f44a214-0-f44a21a:CAASEJQi09jLAyaMlnpmsy3KTT8aYPtl0mx_iHjLEed7BHSOVo6FUOrL99jQ9IdG6fgmSLvZye3kjk5YUOngx4egG1RK8awV74CcgoEo_uN1qKBMTGKw2ArGcI46jODr1XIlHMPe3ZMhks-TZbRvguVMbOIoEQ",
+        "domain": "top-fwz1.mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T05:36:26.302Z",
+        "size": 213,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://dzen.ru",
+          "hasCrossSiteAncestor": true
+        },
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VID",
+        "value": "1K7dlH2a6wYe00260c1AG4oe:::0-0-0-f44a214-0-f44a21a:CAASEJQi09jLAyaMlnpmsy3KTT8aYPtl0mx_iHjLEed7BHSOVo6FUOrL99jQ9IdG6fgmSLvZye3kjk5YUOngx4egG1RK8awV74CcgoEo_uN1qKBMTGKw2ArGcI46jODr1XIlHMPe3ZMhks-TZbRvguVMbOIoEQ",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T05:36:26.303Z",
+        "size": 212,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "mc.yandex.ru/metrika/tag.js": [
+        "mc.yandex.ru/metrika/tag.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.9914341213673836;id=3274592;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params={};detect=0;lvid=1781156182490:1781156186623:17:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT/unload;et=1781156186619;pvt=6369;vtauto=4128"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.9914341213673836;id=3274592;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params=%7B%7D;detect=0;lvid=1781156182490%3A1781156186623%3A17%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT%2Funload;et=1781156186619;pvt=6369;vtauto=4128"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.7783196594030706;id=3471766;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186622:16:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT/unload;et=1781156186619;pvt=6369;vtauto=4128"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.7783196594030706;id=3471766;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186622%3A16%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT%2Funload;et=1781156186619;pvt=6369;vtauto=4128"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.03621836809159751;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186621:15:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT/unload;et=1781156186619;pvt=6369;vtauto=4128"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.03621836809159751;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186621%3A15%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT%2Funload;et=1781156186619;pvt=6369;vtauto=4128"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.29306636937439845;id=3274592;u=https://dzen.ru/;r=https://sso.dzen.ru/;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186617:14:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS:0/1781156182493/0/572/0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.29306636937439845;id=3274592;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186617%3A14%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS%3A0%2F1781156182493%2F0%2F572%2F0"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.9510540198523616;id=3471766;u=https://dzen.ru/;r=https://sso.dzen.ru/;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186616:13:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS:0/1781156182493/0/572/0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.9510540198523616;id=3471766;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186616%3A13%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS%3A0%2F1781156182493%2F0%2F572%2F0"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.36128112237689325;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186614:12:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS:0/1781156182493/0/572/0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.36128112237689325;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186614%3A12%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS%3A0%2F1781156182493%2F0%2F572%2F0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156181421945531:zu:905612861781156178:rn:906830:c:1:s:375x812x24:en:utf-8:t:dzen_interact",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "rn": 437773
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/89625575/1?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156181421945531%3Azu%3A905612861781156178%3Arn%3A906830%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Adzen_interact&rn=437773&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.3099284000797826;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params={};detect=0;lvid=1781156182490:1781156186218:11:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RG:/ad_feed@show"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.3099284000797826;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params=%7B%7D;detect=0;lvid=1781156182490%3A1781156186218%3A11%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RG%3A%2Fad_feed%40show"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:3:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:289864166947:hid:404419524:z:120:i:20260611073626:et:1781156186:c:1:rn:401045478:rqn:3:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,,5761,5764,1,:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156186:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3221482741192982500,
+            "hittoken": "1781156181_a9844581ed9f263cbc0af2a709188509f5b34b4d6441905910aa1873fecc900a",
+            "page-ref": "https://dzen.ru/",
+            "page-url": "goal://dzen.ru/DAU",
+            "site-info": {
+              "params": {
+                "uid": "905612861781156178"
+              }
+            },
+            "t": "gdpr(14)mc(p-4-h-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(42017284)prs(2)wss(2)w2s(0)evt(2303)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/51446871/1?page-url=goal%3A%2F%2Fdzen.ru%2FDAU&page-ref=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3221482741192982685&hittoken=1781156181_a9844581ed9f263cbc0af2a709188509f5b34b4d6441905910aa1873fecc900a&browser-info=ar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A289864166947%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073626%3Aet%3A1781156186%3Ac%3A1%3Arn%3A401045478%3Arqn%3A3%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C5761%2C5764%2C1%2C%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156186%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=gdpr(14)mc(p-4-h-2)clc(0-0-0)rqnt(3)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(42017284)prs(2)wss(2)w2s(0)evt(2303)ti(0)&force-urlencoded=1&site-info=%7B%22params%22%3A%7B%22uid%22%3A%22905612861781156178%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.4545733088001134;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params={};detect=0;lvid=1781156182490:1781156186070:10:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RG:/news_show"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.4545733088001134;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params=%7B%7D;detect=0;lvid=1781156182490%3A1781156186070%3A10%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RG%3A%2Fnews_show"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.3553250286279117;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params={};detect=0;lvid=1781156182490:1781156186068:9:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RG:/DAU"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.3553250286279117;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params=%7B%7D;detect=0;lvid=1781156182490%3A1781156186068%3A9%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RG%3A%2FDAU"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.6346027669293994;id=3274592;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params={};detect=0;lvid=1781156182490:1781156186052:8:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/counter?_=0.6346027669293994;id=3274592;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;params=%7B%7D;detect=0;lvid=1781156182490%3A1781156186052%3A8%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.19397998348042034;id=3471766;u=https://dzen.ru/;r=https://sso.dzen.ru/;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186047:7:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS:0/1781156182493/0/3537/9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.19397998348042034;id=3471766;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186047%3A7%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS%3A0%2F1781156182493%2F0%2F3537%2F9"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.2935960083826874;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490:1781156186043:6:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS:0/1781156182493/0/3537/9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.2935960083826874;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;detect=0;lvid=1781156182490%3A1781156186043%3A6%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=TS%3A0%2F1781156182493%2F0%2F3537%2F9"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ids": 3274592
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/dyn-goal-config.js?ids=3274592"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156181421945531:zu:905612861781156178:rn:906830:c:1:s:375x812x24:en:utf-8:t:dzen_interact",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "rn": 437773
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/89625575?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156181421945531%3Azu%3A905612861781156178%3Arn%3A906830%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Adzen_interact&rn=437773&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "actual-format": 23,
+            "banner-sizes": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMzQzeDgzIn0=",
+            "banner-test-tags": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMjgxNTAwNzQ2NTcxNzkyIn0=",
+            "confirmRatio": 1000000,
+            "confirmTime": 2106000,
+            "constructor-rendered-assets": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo4NDkxfQ",
+            "ctime": 1781156185848,
+            "height": 83,
+            "pcode-active-testids": "1593118,0,27",
+            "rendered-direct-assets": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo1M30",
+            "rnd": 8642377419761,
+            "test-tag": 29,
+            "top-screen-block-area": 28329.65625,
+            "top-screen-block-area-portion": 0.09304,
+            "width": 343,
+            "wmode": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/an/count/WMiejI_zOoVX2LdL0EqA04DJIXLw0DbW0V3LeYxYGJHw46M_u_M6Ero_azLnz3gxpyakStJ_mUm_D9OmW8vJ9PyIgPY1uuII2XuCZYhWO9STlX1qyBem0dYphH0U6zbUGTxzsO3FHxPNaZsmJ6oytaQhL2gLIWrZ6PiTDtW_i0p7XcW1RNI_X8UI8qy_ec3Hus1USX07i87hLvO7rh0tnLIcj1gsleRyfD7ID5a1CZJw0B8q0UW2O32B40JlOKp4L5mkS5LmXNrSgT9cnSJ2TYdJg6owq4BNGHMnKWbZ8pjZh0S6cJ9Q9kkhoZAwfw3JkgvZOyGqZ9c64JEWrNKOhmWtJok026C3fbkX1v0D5W1VBPfwosrpzx_n_o24KgORFPtrOIV6NAbKAaD8808Njc-Y_490yB8QC9UbWWxyJfRZGy7C0I0KXvv07vhzOpfCWA8YGXLmahGk2ch0nA3-Mdy3gH9Fi05mPd21V0W0~2=WXmejI_zOoVX2Lbb0NKG0DCUU2PKGEqve5GgHp0nf-fiXIh2BBLEQo5kIS3i3HFGctvTAoO8U9S8w2PKGEqve5Gg3-ZYXHXfd3oJ0TNoTXhzJbc47V9Itnb3dy_bpfxjT-wyuSvNsNIXXQw3AcAb4iP6TiPO3mmwZZPzN2HT-jFsIGUy0uGdUGLeGNXof00j24_m2j22yCH80LeGdjmLe0NXIP42j20y0HUW1M49amAq82pvAq0BmXA_0hGWB14Ne0LXoP82j20iMPBpDN7dWW6m1jcVqqLwevFYlHGZmLPE827B1lYQ-DijI9aiSJ70bnKmBGkiuE1ylc7QskpUIPCDO7h3LqIRsu-cNraUMCFU55EPqchOqbCrPP_L-5Mk4JkGrNMzHlSqspOSXW-arP0Gm1S8IvO4i7L0r-v5BEmeuGIUsLAugb2-kGAcOAOfRBcmvSMGcphsReSsYuqHqp4w3MFMuEPf1H1XRC1qbzicr_z6xwF75yiiEVB3jU3a1_ift__rFgo-5mOgxckPUqj-DkQEMQQNNXaQt85noXIzTs2SCaLlVHtXbpDlPWRwijTIyv7boNull2JhnmT06RDgyz-xoyXTMDT2A_iTtv78rCZaT6NFQ_sT5q4UYpuhutLVDiLaRn8Co9RtYBOQW44DIGpyH0wKdj2s4ayQvTv9FbUXArgP6CG4Q-ut2lBoMEowgye7L_PpoYKDd080~2?test-tag=29&rnd=8642377419761&confirmRatio=1000000&ctime=1781156185848&banner-sizes=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMzQzeDgzIn0%3D&pcode-active-testids=1593118%2C0%2C27&confirmTime=2106000&width=343&height=83&top-screen-block-area=28329.65625&top-screen-block-area-portion=0.09304&wmode=0&banner-test-tags=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMjgxNTAwNzQ2NTcxNzkyIn0%3D&constructor-rendered-assets=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo4NDkxfQ&rendered-direct-assets=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo1M30&actual-format=23"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "banner-sizes": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMzQzeDgzIn0=",
+            "banner-test-tags": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMjgxNTAwNzQ2NTcxNzkyIn0=",
+            "confirmRatio": 1000000,
+            "confirmTime": 2101000,
+            "constructor-rendered-assets": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo4NDkxfQ",
+            "ctime": 1781156185843,
+            "height": 83,
+            "pcode-active-testids": "1593118,0,27",
+            "rendered-direct-assets": "eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo1M30",
+            "rnd": 1311387440630,
+            "test-tag": 29,
+            "top-screen-block-area": 28329.65625,
+            "top-screen-block-area-portion": 0.09304,
+            "width": 343
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/an/rtbcount/1Hch8yFQ0LG200000000U9nJ37PiiJyeyf_Ni9ozn8g9SQkEPR2dLXO347Z2H4BLztpqZpLdb6H8PGIAPvQpFz46YPU2UBLdW4Gh8uYSoJYFam4C5ZAwiK9OA-6ilOo1H_aPZeBvPnb1Mg-2oRkC328C37yPPp4nCCnb0eaiPMe0ijSojG7PPvd-0y4h9e69op8wojaP62wyZDdxEPYDuIyJ5yXYPcOWsGicfpA3DCzbZW2I9vc3ENNlhbCmTxiA5hqB9dyoEpZnGnp8akby1ypQmCAuWuNn0Cj_662yoG9ny0VxXt3MMnQGip-mN6wQ-6VoZAF_UHUmSfravRuX1fQ_mDhGqD3XS9CrQ65jasJIH9wlh22JEjWQM2QmmRNCOBjoE7W1s-vD3zzqlVZqPptZIZQOyGVOF4wmCJzYuoa8jN8hSQxASCkrjFW9bvx83cCjO6TSmSwuWPrv1plZ2NRn1-pRTqzlMx7lp06k7-my7HnL2pZc2Q_WECQr0OXtS33Uui08jmMS3SmhE0itS39Uu6JwmCduWvDn0TSyuLTSp4cPwH-vmFP8J7Lev8QnEY4icyKE5xZR6feUD3OeFE1cVCkTooiIyObR04Jz_yy01p-u6G7NJh5n?test-tag=29&rnd=1311387440630&confirmRatio=1000000&ctime=1781156185843&banner-sizes=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMzQzeDgzIn0%3D&pcode-active-testids=1593118%2C0%2C27&confirmTime=2101000&width=343&height=83&top-screen-block-area=28329.65625&top-screen-block-area-portion=0.09304&banner-test-tags=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjoiMjgxNTAwNzQ2NTcxNzkyIn0%3D&constructor-rendered-assets=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo4NDkxfQ&rendered-direct-assets=eyIxODc2MjU1MDUyMzYxOTMxNjIxIjo1M30"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:1:en:utf-8:la:en-US:v:2540:cn:4:dp:1:ls:88129192435:hid:404419524:z:120:i:20260611073624:et:1781156185:c:1:rn:746905592:rqn:1:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:fp:1048:wv:2:ds:0,0,285,571,462,0,,177,0,5761,5764,1,2585:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156185",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "force-urlencoded": 1,
+            "hidv2": 3221483633762894000,
+            "hittoken": "1781156184_2e94f71c718d23b1f4883c3022be57f4aed14e24f314ff24f043761b73f6c05a",
+            "page-url": "https://dzen.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "7815601781156183074"
+              }
+            },
+            "t": "mc(p-4-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/19158488/1?page-url=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hidv2=3221483633762893891&hittoken=1781156184_2e94f71c718d23b1f4883c3022be57f4aed14e24f314ff24f043761b73f6c05a&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A4%3Adp%3A1%3Als%3A88129192435%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156185%3Ac%3A1%3Arn%3A746905592%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1048%3Awv%3A2%3Ads%3A0%2C0%2C285%2C571%2C462%2C0%2C%2C177%2C0%2C5761%2C5764%2C1%2C2585%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156185&t=mc(p-4-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%227815601781156183074%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:1:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:251757251523:hid:404419524:z:120:i:20260611073624:et:1781156185:c:1:rn:698741568:rqn:1:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:fp:1048:wv:2:ds:0,0,285,571,462,0,,177,0,5761,5764,1,2585:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156185",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "force-urlencoded": 1,
+            "hidv2": 3221483615858458600,
+            "hittoken": "1781156184_0e7823863a904b1f0001f4bd7b04f4c02af764a930e6f5786c71e7d98efa1200",
+            "page-url": "https://dzen.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "7815601781156183074"
+              }
+            },
+            "t": "mc(p-4-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/1638712/1?page-url=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hidv2=3221483615858458702&hittoken=1781156184_0e7823863a904b1f0001f4bd7b04f4c02af764a930e6f5786c71e7d98efa1200&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A251757251523%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156185%3Ac%3A1%3Arn%3A698741568%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1048%3Awv%3A2%3Ads%3A0%2C0%2C285%2C571%2C462%2C0%2C%2C177%2C0%2C5761%2C5764%2C1%2C2585%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156185&t=mc(p-4-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%227815601781156183074%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:4:dp:1:ls:88129192435:hid:404419524:z:120:i:20260611073624:et:1781156185:c:1:rn:940464734:rqn:2:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156185:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781156184_2e94f71c718d23b1f4883c3022be57f4aed14e24f314ff24f043761b73f6c05a",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "t": "mc(p-4-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/19158488/1?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781156184_2e94f71c718d23b1f4883c3022be57f4aed14e24f314ff24f043761b73f6c05a&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A4%3Adp%3A1%3Als%3A88129192435%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156185%3Ac%3A1%3Arn%3A940464734%3Arqn%3A2%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156185%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=mc%28p-4-h-2%29clc%280-0-0%29rqnt%282%29aw%281%29rcm%281%29yu%28905612861781156178%29csu%280%29eco%284276288%29prs%282%29wss%282%29w2s%286%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:251757251523:hid:404419524:z:120:i:20260611073624:et:1781156185:c:1:rn:489722731:rqn:2:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156185:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781156184_0e7823863a904b1f0001f4bd7b04f4c02af764a930e6f5786c71e7d98efa1200",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "t": "mc(p-4-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/1638712/1?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781156184_0e7823863a904b1f0001f4bd7b04f4c02af764a930e6f5786c71e7d98efa1200&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A251757251523%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156185%3Ac%3A1%3Arn%3A489722731%3Arqn%3A2%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156185%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=mc%28p-4-h-2%29clc%280-0-0%29rqnt%282%29aw%281%29rcm%281%29yu%28905612861781156178%29csu%280%29eco%284276288%29prs%282%29wss%282%29w2s%286%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:4:dp:1:ls:88129192435:hid:404419524:z:120:i:20260611073624:et:1781156185:c:1:rn:940464734:rqn:2:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156185:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781156184_2e94f71c718d23b1f4883c3022be57f4aed14e24f314ff24f043761b73f6c05a",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "t": "mc(p-4-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/19158488?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781156184_2e94f71c718d23b1f4883c3022be57f4aed14e24f314ff24f043761b73f6c05a&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A4%3Adp%3A1%3Als%3A88129192435%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156185%3Ac%3A1%3Arn%3A940464734%3Arqn%3A2%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156185%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=mc(p-4-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:251757251523:hid:404419524:z:120:i:20260611073624:et:1781156185:c:1:rn:489722731:rqn:2:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156185:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781156184_0e7823863a904b1f0001f4bd7b04f4c02af764a930e6f5786c71e7d98efa1200",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "t": "mc(p-4-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/1638712?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781156184_0e7823863a904b1f0001f4bd7b04f4c02af764a930e6f5786c71e7d98efa1200&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A251757251523%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156185%3Ac%3A1%3Arn%3A489722731%3Arqn%3A2%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156185%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=mc(p-4-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.4001429601462023;id=3471766;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;lvid=1781156182490:1781156184525:5:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT/load;et=1781156184519"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.4001429601462023;id=3471766;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;lvid=1781156182490%3A1781156184525%3A5%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT%2Fload;et=1781156184519"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.2537285720816449;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;lvid=1781156182490:1781156184521:4:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT/load;et=1781156184519"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.2537285720816449;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;nt=0/0/1781156178754/////462/462/462/462/462//464/749/1320/769/1496/2584/2584/5761/5764/5765;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=p;ni=10//4g/100/0/;lvid=1781156182490%3A1781156184521%3A4%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;fpid=WSJcZRxjTeKjFZ5ZD7Y4S;visible=true;js=13;e=RT%2Fload;et=1781156184519"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:4:dp:1:ls:88129192435:hid:404419524:z:120:i:20260611073624:et:1781156184:c:1:rn:620435198:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156184:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "t": "clt(4151)mc(p-3-h-1)clc(0-0-0)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/19158488/1?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A4%3Adp%3A1%3Als%3A88129192435%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156184%3Ac%3A1%3Arn%3A620435198%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156184%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt%284151%29mc%28p-3-h-1%29clc%280-0-0%29aw%281%29rcm%281%29yu%28905612861781156178%29csu%280%29eco%284276288%29prs%282%29wss%282%29w2s%286%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "/?sentry_key=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/7.120.3",
+            "sentry_key": "a639677236f945fb863d4f3353655bff",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://id.vk.com/button_one_tap_auth?app_id=51441269&response_type=silent_token&v=1.61.5-alpha.sakSdk.bjviA&origin=https%3A%2F%2Fdzen.ru&uuid=-xfpPhXSxksbBrXjbznJX&display=default&button_skin=primary&show_agreements=0&show_alternative_login=0&style_height=48&style_border_radius=12&lang_id=0&is_for_session_detecting_only=1&code_challenge=M4Y839nTqohO5C_pVqJ4omz3Iaw_CbBtdXSpNU5uZug&code_challenge_method=s256",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stacks.vk-portal.net/api/69/envelope/?sentry_key=a639677236f945fb863d4f3353655bff&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:251757251523:hid:404419524:z:120:i:20260611073624:et:1781156184:c:1:rn:860748054:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156184:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "t": "clt(4102)mc(p-2)clc(0-0-0)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/1638712/1?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A251757251523%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156184%3Ac%3A1%3Arn%3A860748054%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156184%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt%284102%29mc%28p-2%29clc%280-0-0%29aw%281%29rcm%281%29yu%28905612861781156178%29csu%280%29eco%284276288%29prs%282%29wss%282%29w2s%286%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:6thbd54y0ur48zrm3wh5g7zay4v4r:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1248654377770:hid:252006024:phid:404419524:z:120:i:20260611073624:et:1781156184:c:1:rn:462412667:rqn:1:u:1781156181421945531:w:375x62:s:375x812x24:sk:3:ifr:1:ds:0,43,121,218,2,0,,212,21,1937,1937,2,598:co:0:hdl:1:ntf:1:ns:1781156179758:adb:2:rqnl:1:st:1781156184:t:Яндекс",
+            "charset": "utf-8",
+            "exp": "kAtezZ-ozkVDQYFTpev7PgcZjJEm-wY1q2K7mg_ATSCZEGKoE29UVomWvcTpZbPhUJavkOayRbAemu0WyVca4i5mr9sdjTW10LBiGVcjPHxsc8OCdlIvG3kyI66JRJ_kx0GKseHybbk",
+            "page-ref": "https://dzen.ru/",
+            "page-url": "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light",
+            "redirnss": 1,
+            "site-info": {
+              "m_content": "touch",
+              "yandexuid": "905612861781156178"
+            },
+            "t": "gdpr(14)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(51328)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/88488873/1?wmode=7&page-url=https%3A%2F%2Fsuggest.sso.dzen.ru%2Fportal%2Fdzensearch%2Ftouch%3Fyu%3D905612861781156178%26clid%3D%26theme%3Dlight&page-ref=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&exp=kAtezZ-ozkVDQYFTpev7PgcZjJEm-wY1q2K7mg_ATSCZEGKoE29UVomWvcTpZbPhUJavkOayRbAemu0WyVca4i5mr9sdjTW10LBiGVcjPHxsc8OCdlIvG3kyI66JRJ_kx0GKseHybbk&site-info=%7B%22m_content%22%3A%22touch%22%2C%22yandexuid%22%3A%22905612861781156178%22%7D&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3A6thbd54y0ur48zrm3wh5g7zay4v4r%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1248654377770%3Ahid%3A252006024%3Aphid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156184%3Ac%3A1%3Arn%3A462412667%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x62%3As%3A375x812x24%3Ask%3A3%3Aifr%3A1%3Ads%3A0%2C43%2C121%2C218%2C2%2C0%2C%2C212%2C21%2C1937%2C1937%2C2%2C598%3Aco%3A0%3Ahdl%3A1%3Antf%3A1%3Ans%3A1781156179758%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156184%3At%3A%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81&t=gdpr%2814%29rqnt%281%29aw%281%29rcm%281%29yu%28905612861781156178%29eco%2851328%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:4:dp:1:ls:88129192435:hid:404419524:z:120:i:20260611073624:et:1781156184:c:1:rn:620435198:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156184:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "t": "clt(4151)mc(p-3-h-1)clc(0-0-0)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/19158488?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A4%3Adp%3A1%3Als%3A88129192435%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156184%3Ac%3A1%3Arn%3A620435198%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156184%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt(4151)mc(p-3-h-1)clc(0-0-0)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:251757251523:hid:404419524:z:120:i:20260611073624:et:1781156184:c:1:rn:860748054:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156184:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "t": "clt(4102)mc(p-2)clc(0-0-0)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/1638712?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A251757251523%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156184%3Ac%3A1%3Arn%3A860748054%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156184%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt(4102)mc(p-2)clc(0-0-0)aw(1)rcm(1)yu(905612861781156178)csu(0)eco(4276288)prs(2)wss(2)w2s(6)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:6thbd54y0ur48zrm3wh5g7zay4v4r:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1248654377770:hid:252006024:phid:404419524:z:120:i:20260611073624:et:1781156184:c:1:rn:462412667:rqn:1:u:1781156181421945531:w:375x62:s:375x812x24:sk:3:ifr:1:ds:0,43,121,218,2,0,,212,21,1937,1937,2,598:co:0:hdl:1:ntf:1:ns:1781156179758:adb:2:rqnl:1:st:1781156184:t:Яндекс",
+            "charset": "utf-8",
+            "exp": "kAtezZ-ozkVDQYFTpev7PgcZjJEm-wY1q2K7mg_ATSCZEGKoE29UVomWvcTpZbPhUJavkOayRbAemu0WyVca4i5mr9sdjTW10LBiGVcjPHxsc8OCdlIvG3kyI66JRJ_kx0GKseHybbk",
+            "page-ref": "https://dzen.ru/",
+            "page-url": "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light",
+            "site-info": {
+              "m_content": "touch",
+              "yandexuid": "905612861781156178"
+            },
+            "t": "gdpr(14)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(51328)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/88488873?wmode=7&page-url=https%3A%2F%2Fsuggest.sso.dzen.ru%2Fportal%2Fdzensearch%2Ftouch%3Fyu%3D905612861781156178%26clid%3D%26theme%3Dlight&page-ref=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&exp=kAtezZ-ozkVDQYFTpev7PgcZjJEm-wY1q2K7mg_ATSCZEGKoE29UVomWvcTpZbPhUJavkOayRbAemu0WyVca4i5mr9sdjTW10LBiGVcjPHxsc8OCdlIvG3kyI66JRJ_kx0GKseHybbk&site-info=%7B%22m_content%22%3A%22touch%22%2C%22yandexuid%22%3A%22905612861781156178%22%7D&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3A6thbd54y0ur48zrm3wh5g7zay4v4r%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1248654377770%3Ahid%3A252006024%3Aphid%3A404419524%3Az%3A120%3Ai%3A20260611073624%3Aet%3A1781156184%3Ac%3A1%3Arn%3A462412667%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x62%3As%3A375x812x24%3Ask%3A3%3Aifr%3A1%3Ads%3A0%2C43%2C121%2C218%2C2%2C0%2C%2C212%2C21%2C1937%2C1937%2C2%2C598%3Aco%3A0%3Ahdl%3A1%3Antf%3A1%3Ans%3A1781156179758%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156184%3At%3A%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81&t=gdpr(14)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(51328)ti(1)"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/zen_audit"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {
+            "ad-session-id": 7815601781156183000,
+            "callback": "Ya[5727194098372]",
+            "comboblock-unencoded-vast": 1,
+            "csrf-token": "82464df66a94db17c85404bc09bf9f6a1f2e9a04:1781156180",
+            "disable-base64": 1,
+            "duid": "MTc4MTE1NjE4MTQyMTk0NTUzMQ==",
+            "dzen-exp-ids": "1566813,50;1590786,35;1584228,27;1590858,54;",
+            "ecma-version": "es2017",
+            "grab": "eyJncmFiX3ZlcnNpb24iOjJ9ChKjIq3kqO2BaqyjzH_7Z2fdk8bbZFVSJxRSWm0i1Crfsi9T2vLa9oRi1O-Jk_hQdmKTUtSOkxNb1UY2Ue_t6QVcNbDPDPUE2yQCCmbg9vaPv6GtDnpOW-ZijEWwYBFQQBEuo0VnMjMwWtLMysCoS3TmlCECJYIWKSNJBRAlKDUiimSRJlJHkkgTktYFULyQxSFFqA3AVUSSEOmCSxlJF3wwFoJ40RZ0-AOKUOshz1Uj-ULRHkJBWrzoxcusJlKG2rqQFQtSWeFXE0lrJAvhR6qlK0ENyZeKktN2OELAVUPEw-VyvPyJI8XSEskCoFqoy6n6PC5qJScjRzfIaEp1WTVmphQibmuqtxkSal0SG7mrLTbqUqMOIm6__MsxcQj6QlO9NdKmoHpZh1dDiqHlIq6sQ-mI8EVWctYIRHflNUsLBF3zpdbSfDvDi3qLN3URv3_V8iP3yqxexqYm8ldRE8m3F_IANCHZMOEibMXQeSkUkocItxEkNYIRwY7gnHnJgo9o0alDskG_1Sskv6BoMvHbnEaWhIeXF6-Uf8EgWDKfIi-olJzcHAyMHJ3EtLEVWbWZM70eIm46S2pKq103ANqRWxJdWg-u3RabY4PdnNBYdAVsQxzrGnxuBkZrgsIFGKzYYPIgBHxYwUyNuT7NDDZLnhkMMfLcFptMsdFupzZnttQSm62pgZshgtk5H8lrBOClxqSwfAiTkePc0VLpdLERB74aweVwiSoimPIwcjSYDIVbjqZYgewGhAvgDE-rppg2Mad5TpPGtObYhtJut1EZDJttYKfZ1syQO2zcDA5HwHbGl8VFr6fOjII4ae5syHJDpkv1dvsACE5mpkpzB6ArboglejSN2oGCmwEqCbOTixkdI8ew25SG3ExBzMbFDjHkYQodCxc7i4sxPKSCKxmYssSIa-IbdIltIi02k7mpLgivBz3rMlp9bkqNVDkKh92-EFFvUMydg9dB9UPGRlURquCtFtBgGs5iTPyHcEVIykumYUwIHc--MUlTN5xoHsgGPDVP2UKT6S0VTWxMkfGw08cPwgWo5B3jcCNYvOQCZiHpDWpD3Dxk2PcHiIpvU_MqH2Gtr0PoMyvmJcPAzL097pLypnww5p2HlKGWl8wDuxyQ5xHx9j1PcmvIS1ZB68PMSw7g-q-Nl6yDvC9xf-K8w3mgvGQY-pI7kqen7D9EMVeZt4zO5SHHNXWCy8rPc8xxy9a35bZMl5ljmnzvrgFZbkqMybCz17Z_RM7GLuIqaDN9mjcPi6wlMVvXN9AXZCAA_BDWulVlndMUSUMyn6rC_xBKPYJAwFRrnZoTz3dQC3jUmcGa62LqPEOxfRm2cCkgdDkqqrurX45ib6_drR7jdiFBJWk_uHiH7PFojwGsMUvHsL3ZPgTkm7hjq6rHpa0hDpVkTM3Ba2OrqpZk2-zfUA9sBFohiqDc1K4bLAqYT9fGFLk-1-tiAzK7fds2ZHTTMBuKigtSBb2TfhsBWIhw7e0JrYVsfTyIpWrRg4-ajh5waJhKR33gxyalXJc9BpjCL3VIdupvVQrJh-Rr6y4k8f3-jb0X7Bd8yJw8AL_562M9CKKlzmyWVLhiHNM4lptGZUj1-koHzvYM8nYMJyJ5x0Fme9ZNoeANurXexixcFNsgS_7U3nyXvVWNX-lpDN6CDsltKILJaEyhQQT9lZJG-Ewulorl4NlHY4QF7SuC8vjYfE2lzQ3yNn1OgKzo6tHJXwW62JRZMuQoBVKBY1JWFK9gpdnN-SX8oQrhDOWRmqmLBmOgbOcUT_UxDzYe1GO9Y66xLoYO683WNFneuwtoE2IxpxKwI1hMlW1j2QSYl3W28Qnm3_Hh7W8EaQl9Uc1vePb-aEkGv0N7CZaYF_0poIlUS5gi87h0-ib5yk7Rvhlzuof57Ma_XfDUh1YSpKNafazsO6mcWVX6oTt4j5ppctzerN6IupVulKhM4GukL56ZONfdL26VcL2lxSnkD-sukDUrAls7VKx2BcpE7WUQf3J4HFYPvKrjm2NoiomnQZSg8EfiGR0VjRc-sjYm-AhbnHw3I_9O_IDpx09AxVR0VLSC4mmBNtg4w77fn0BhSCG8n7rjd4Bd-SDW7h-17_5ZRKbRjbv8t28OXnsg6K8aoZ_HSm8fkx48iiZxzeIesnqSlbp8kPpx1bd1BqsLeeQJ9wjqQhZPDVSFGG81YQ5mFjUxStKUeHt6l7TZnMV_XPJSICJw9QpjsSComEFFuFBJUCWG1GxO_E-8bElKtHhoIB4i_7R2umge3zZJVJsqpMWjUs5P_EWS8D6MARfBDt4-cY8yN49lZdoiGtLDP4ZSti3cdFjjd0EOa81qYPAmewj_KPLGcw_K34U-2_guEd7v46wyylk64Jbqi8c5YkZr8B40NAUbrvsPrtvnmT7CHcWBf95QPm0VjehnlQnEwacVJmoBFMJgEVswIH9K5ICSnRDHDmewSIfcR6WeO8GtfJBGnugsaFJrQmVCS6WzxAYgrJGcO8DlZgAvs9KkOlQZTeruE7tMUVPRmhO9JbWi1eVOBzeDs37FkIQI-IQnHLjKzIaFigwwVLSjkKZNrbkTzFugZIHr9J3H4Ci-84IgTvQBXxDqjDkVaqGrP7rdJRpSz1TELnUsidWaGtHipQgb-DhSBAfrTp_aRh1bIFrYcMdnk_x-1jNXPogjj8FNjKk-d0A8AfaPYCP4HADVcaOmNcXtIXz1LNwSXxdD5U6245jqdDC38nEN45l5LWyeLRHQQ6R93MO0Wz9pt7sh505zxRmRRE8fm9agXWsOkD3cuyh0S1_54wztSs3iWVvr5_byE7gQjEoU_y92Yqv2Gk_Cm4ii2rsfOeIbghMiH2LEd4cE13o-UBK3eTsg46wRCJ5mkbLH6qJ4DAH-OENQlF-niXYufhtO7eE1wSp8NznDWWVFz17puep_orqVkkvoyu4VcWsH5ROh7uyvX1r6EN8PK2uhkWxalt_biv-utc32k6nen6mGjqOta1tVenogbap6Pkrsa67E9zziosOX3qVOdhKdcvLjfFlw8oluAms46xeT0zIEo564pbUfean0zavBYFMHMqZ6ZyzmV9oAtKXQA0qvHbZNI_plDE6gNps3WZ31ehbKW0pOdBA7rpSaAgnhdsXNM5G8Fsbe7T-7CkM87RbwEsCko8I7_-VbnEAB-j5l6xDWS5yRQHHUt1_cNk9IdrWN8pftL0Ey1OMqVp38BIW_URL-VHWRHSwFv17domp8fjI6A6IaHcVttVYQEXqVk9-gHMw6qU40BvJVQ5ppO0Qc3LtAxeP6PcE6--TWTJouAj448jaORrXMycnZrkA4YgvFN5zWPn1sSzJznhjBinOw4lg34WTOHLU-0f_xm-m4GRzs7Ox418IMS1yxsKLHlgJOIId_qE7Ar59yMnOx1In2M3bgpqMT_uQcGPeXRyA8l--zSTzTBktX3DEBUCKsNIZ0xjHMGQdpw_MIT2sLxe7xlRU9O5PvoaSDVlqmW2ktEyj5xnRFO57AN004k9_f-HK8shFBjqRAxMiHG6a7uwlwbShPtJN7EU3cBgrie78iIau-v5DeFSnL7qycuEBx36P9nKotW6V_QWaq5JyBaAKB9B5_Q0WR9G33cwO1d1KuwKpUfSRcwuby5VLX_EVQ-x5vsaS1hXklrVuOpH_hPeMSDQPy8Vnj8xCH5EV6VnpLRXvkpu9TVFP-Kmm9S5UO-jn4hGWGnObanOtyl6O8IIJ5U64cWml9vG5Vq9L3Kr3afXgr995bswIXRDpObzh8OSnaU_ZY5Yt7XgLzX-8YuNgobmSXa23Pg4GSEy-aZR04URIJRCP71CrqSyFtAmHqLwet9vQYJLtw4_dV4itovif4pT1tegxpbv6KCVvOlHiUwb9eIA5GLrk4y23vxUjKM1QHWFHSpr60s_U7WoMA1En43P8wb7JPvsZV9Cvyp1SyAE88K4k8kJwQiL_pqvyBNnjUfiZ5nzso44jDK4R55SfS2KFP9SdMWHA_kav9V0MdnO3RfMtahrB_mXLGnxetnwiS8viaUvh-BsOHTIeamdmJCY-aDR0zZj9qBys6LjbMftRC_xpnZ-Fp-fJEl5rWUdCMWClde1jwKi7ICPrRTuTcDHSWtIITJ7bUlNF4tMMm9X-pbdkkPV0yihHaGbYbAwr1gk3uDuXdjoYlW1dlyNniIht7I15xlW3Rmo9ldZxVTKpWlbcdO1i5lbhX7hMX61vqnwqC8VRaqCRuwaQxiVXFCrw-QVvwo-Lj3ERCT_coTCZAl_DcGh9W3DRDOPxkAFjuRnDcRO09IQyXt3CXPIJ_8Sv-UNhSK6ox9z5WizjeIQHxVYNt8SBsEf5Ae04SAd9uosju3iSbgUHoaQFZkhuCNNFlnAYqoHaSK_rxqYM_2-7seGBJiaAWMiH9T-_xVeQttn8p3gtSSHeFdNhFcEHToUo2lcT0TGdhLXsS5iR68BUC1VmQ7I_fcwxGPHr_Pqm_N85VlAZvRnz9r7pIxst77evsbmQJA9Wt-tbvTLnBoFn8qvSQxZ6Vi9EzFuMtz77YmG_P9Wbwqm2zWNH8spYojFdEBdLUjGGmZpKyShRatrHyEf4BhaBn9PEexTDtOajlojQFqyMdve_VIrIi5l2dzjr27YyL1cHuQI-hl2YXRdtiDJQKQp1v2pO1YPAs-Uz1IUZ-Xzo_Jq8RQCLQRmzxqwCe0ipxKe3U-hpwPhgthPfts4TDUZT7cD8GN7MNGUWQRksXT4XtJq2esj2yWjCJys5dgsgnK85RwWt8hauiIK0pccSd5gp-hWSqDgcTO3ujbdFoTr5FPPrzVyPoI8CCV4If_69dei16K1d_5NdFz8o84EFJhgmlWTDylwVuhnLF51rRUipwbx76yZ2wH46snUfvi9BKfubD7gfmHlE9sd7vparrrIku2dnKuj8axZdIsgZP3JNxK1-9SblTkKLAhKnsTbHMre5pea4k2InRvPgAMo3pTmasrOludTcXOqCCvhtNvLfcewSQBNGBrC7pAjiLZ_KRiN2Iqw1BFxazGUl9pFeZEF0ifxC5RBll0ZtIH5q_Y2y4r84JSpfhwMhqcNhf_D_RCurH",
+            "grab-orig-len": 5120,
+            "imp-id": 348,
+            "lang": "ru",
+            "layout-config": {
+              "ad_no": 0,
+              "bandwidth": 10,
+              "darkTheme": false,
+              "fullscreenHeaderHeight": 49,
+              "h": 0,
+              "height": 348,
+              "isInIframe": false,
+              "left": 10,
+              "pixel_ratio": 3,
+              "req_no": 0,
+              "safeArea": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "top": 981,
+              "visible": 0,
+              "w": 355,
+              "width": 355,
+              "win_height": 812,
+              "win_width": 375
+            },
+            "page-ref": "https://sso.dzen.ru/",
+            "partner-stat-id": 1,
+            "pcode-flags-map": "eJyNlm2P1DYQx7/LvkbIj0mcd95kNmet1w62k+NaVaODHhXlClVZKhDiu1d54CBbSG7fnHYv84vnP/+Z8efdjY5tTHpvoYewK3/9vPv39v7D3a7c0adFlj+lguVy92R3vnt/Nr8PP0uVs7zYffntya7XEadg7CFE492SwAnNimwRzUUu5BRdmziG1hBT8DcIzxMEpy1WAXQyPaCusYsQsLI+AkIPLi1ecPfx7wVcCDWc9suTjUfYw+kDVNpWndUJMMCzDmLCE6QrX+PBB7wOum0hYBfs+oslkUKO1GcB91ZXR7QmJqysAZfQ1HGpDFGMF0rIsijynDFKSk4UyRjJZEmJFCJTsig5VZnKM8lLTgQljBNeKkUFITIvKSWEUpaTktOCCpLlw2OUEVIwWlIiiBBSsZIzypkoCl5yxkVOVM5LxZnKpBTLJHJKGB2T0HWN5qQbwEZbC+EGjUMHXfBDtUzj1tUoqCLiK8i4Boc/yfihuK0O+gQJQhwVrk1Mwey7dGme/0MzpYr12g6PTO8FN1qrDbA3NdadqVfhkhRKTfXrImAcnOCS0Rat1/Xgw+Gs8WhaTP4I6yeVlPOCPFjsMOSLg49cjb2pwWO0PmHyWPvTOokLyouHYyUdGkgY4DBJZ7GtfA3biHwF0eu4DchGQAMOgrYYU9AJmhu8NukKfasrk24WkFe39/cvbl++wXdv7z8tcYJSqkbcwTzHa+Nqf43O+3aAr59EyDybWteCrg8+nCL22pp66N72yrsNKYTMhZptefDPUde6TY/obpllStLvfXWIWEe0vtnQLhdMTdq1OkSY6oXGHTwal/zcUpV3B9NgLxaw8+0/f9ydL3i5mofXxItXwbgjDkpG8wtg9F2oNlT4xtBd8q3VFZzGGeV6fwTUNmGlrd3r6rgOKiSbe2ZKa30TSM7J5R7JOfle1ZgC6NPcI9ew95ERWmDPF6yX5/tLgxIyiQwxgqsAT35vxiqtB+aKZvkPA633AfXGzCiKjBWL8K9x41QzrkqoY4QUZ+4C9/71+e7+9ds37x8NjSaBNe4YsfKdSz+A0g3UnF4TTD1YuGcbtlcsnwpk3Lyar3TbGgcxYuxCDzdoqsu5/de7P19f5CTYvBxjbPGkjcXQzWU+GJu2+j4TRPGHeTrcWOZgcI1xMHzRer3UhPN5tX3VooZ4TL59ZK1VrhR7XK1n8IL34sP5/O7tz5DDYB6m8t53blyX860hQJXGMT38s/Vhc0dKxSn9djWDyp+w0sF3ESzGkw4JU49Tt20knCmupt4I2tX+NGWH12Caq4Ta2nW9BSU5/2l4r223MK4kw+cnhG9rF30PwY4WbHBvfXWMo/zabQ69IpOTlevYTovcHw4RlvfJVy9QkstdLufAx0xwucDxj/sf1L0Q0wX0y3/lfUye",
+            "pcode-icookie": "UIQPW8A+g1PWPK8qQYNqydQYDQ39ENSuvf/cx7AmXDc+LLq6Gs0TPUUUic66Rca/oZ5Iqtf+kEpFPYcLNMeIfOS1BQA=",
+            "pcode-test-ids": "1387854,0,13;1586607,0,86;1586020,0,12;1587580,0,7;1577848,0,55;1588328,0,90;1552820,0,81;1471934,0,18;1534006,0,19;1579167,0,8;1588628,0,29;1569270,0,30;1584245,0,92;1564093,0,58;1503321,0,26;1597992,0,86;1593118,0,27;1569397,0,58;1541073,0,75;1578650,0,36;1513550,0,36;1584272,0,76",
+            "pcode-uid": 4532343861781156400,
+            "pcode-version": 1305330,
+            "pcodever": 1305330,
+            "same-node-hit-number": 0,
+            "site-theme": "feed_white_touch_vertical",
+            "target-id": 24128692,
+            "target-ref": "https://dzen.ru/",
+            "test-tag": 207257941835778,
+            "tga-with-creatives": 1,
+            "top-ancestor": "https://dzen.ru",
+            "top-ancestor-undetermined": 0,
+            "uniformat": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/meta/19158488?target-ref=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&pcode-version=1305330&pcodever=1305330&comboblock-unencoded-vast=1&ad-session-id=7815601781156183074&target-id=24128692&pcode-test-ids=1387854%2C0%2C13%3B1586607%2C0%2C86%3B1586020%2C0%2C12%3B1587580%2C0%2C7%3B1577848%2C0%2C55%3B1588328%2C0%2C90%3B1552820%2C0%2C81%3B1471934%2C0%2C18%3B1534006%2C0%2C19%3B1579167%2C0%2C8%3B1588628%2C0%2C29%3B1569270%2C0%2C30%3B1584245%2C0%2C92%3B1564093%2C0%2C58%3B1503321%2C0%2C26%3B1597992%2C0%2C86%3B1593118%2C0%2C27%3B1569397%2C0%2C58%3B1541073%2C0%2C75%3B1578650%2C0%2C36%3B1513550%2C0%2C36%3B1584272%2C0%2C76&csrf-token=82464df66a94db17c85404bc09bf9f6a1f2e9a04%3A1781156180&pcode-uid=4532343861781156180&pcode-flags-map=eJyNlm2P1DYQx7%2FLvkbIj0mcd95kNmet1w62k%2BNaVaODHhXlClVZKhDiu1d54CBbSG7fnHYv84vnP%2F%2BZ8efdjY5tTHpvoYewK3%2F9vPv39v7D3a7c0adFlj%2BlguVy92R3vnt%2FNr8PP0uVs7zYffntya7XEadg7CFE492SwAnNimwRzUUu5BRdmziG1hBT8DcIzxMEpy1WAXQyPaCusYsQsLI%2BAkIPLi1ecPfx7wVcCDWc9suTjUfYw%2BkDVNpWndUJMMCzDmLCE6QrX%2BPBB7wOum0hYBfs%2BoslkUKO1GcB91ZXR7QmJqysAZfQ1HGpDFGMF0rIsijynDFKSk4UyRjJZEmJFCJTsig5VZnKM8lLTgQljBNeKkUFITIvKSWEUpaTktOCCpLlw2OUEVIwWlIiiBBSsZIzypkoCl5yxkVOVM5LxZnKpBTLJHJKGB2T0HWN5qQbwEZbC%2BEGjUMHXfBDtUzj1tUoqCLiK8i4Boc%2FyfihuK0O%2BgQJQhwVrk1Mwey7dGme%2F0MzpYr12g6PTO8FN1qrDbA3NdadqVfhkhRKTfXrImAcnOCS0Rat1%2FXgw%2BGs8WhaTP4I6yeVlPOCPFjsMOSLg49cjb2pwWO0PmHyWPvTOokLyouHYyUdGkgY4DBJZ7GtfA3biHwF0eu4DchGQAMOgrYYU9AJmhu8NukKfasrk24WkFe39%2Fcvbl%2B%2BwXdv7z8tcYJSqkbcwTzHa%2BNqf43O%2B3aAr59EyDybWteCrg8%2BnCL22pp66N72yrsNKYTMhZptefDPUde6TY%2FobpllStLvfXWIWEe0vtnQLhdMTdq1OkSY6oXGHTwal%2FzcUpV3B9NgLxaw8%2B0%2Ff9ydL3i5mofXxItXwbgjDkpG8wtg9F2oNlT4xtBd8q3VFZzGGeV6fwTUNmGlrd3r6rgOKiSbe2ZKa30TSM7J5R7JOfle1ZgC6NPcI9ew95ERWmDPF6yX5%2FtLgxIyiQwxgqsAT35vxiqtB%2BaKZvkPA633AfXGzCiKjBWL8K9x41QzrkqoY4QUZ%2B4C9%2F71%2Be7%2B9ds37x8NjSaBNe4YsfKdSz%2BA0g3UnF4TTD1YuGcbtlcsnwpk3Lyar3TbGgcxYuxCDzdoqsu5%2Fde7P19f5CTYvBxjbPGkjcXQzWU%2BGJu2%2Bj4TRPGHeTrcWOZgcI1xMHzRer3UhPN5tX3VooZ4TL59ZK1VrhR7XK1n8IL34sP5%2FO7tz5DDYB6m8t53blyX860hQJXGMT38s%2FVhc0dKxSn9djWDyp%2Bw0sF3ESzGkw4JU49Tt20knCmupt4I2tX%2BNGWH12Caq4Ta2nW9BSU5%2F2l4r223MK4kw%2BcnhG9rF30PwY4WbHBvfXWMo%2FzabQ69IpOTlevYTovcHw4RlvfJVy9QkstdLufAx0xwucDxj%2Fsf1L0Q0wX0y3%2FlfUye&pcode-icookie=UIQPW8A%2Bg1PWPK8qQYNqydQYDQ39ENSuvf%2Fcx7AmXDc%2BLLq6Gs0TPUUUic66Rca%2FoZ5Iqtf%2BkEpFPYcLNMeIfOS1BQA%3D&disable-base64=1&duid=MTc4MTE1NjE4MTQyMTk0NTUzMQ%3D%3D&imp-id=348&lang=ru&ecma-version=es2017&partner-stat-id=1&same-node-hit-number=0&test-tag=207257941835778&site-theme=feed_white_touch_vertical&tga-with-creatives=1&top-ancestor=https%3A%2F%2Fdzen.ru&top-ancestor-undetermined=0&dzen-exp-ids=1566813%2C50%3B1590786%2C35%3B1584228%2C27%3B1590858%2C54%3B&layout-config=%7B%22win_width%22%3A375%2C%22win_height%22%3A812%2C%22pixel_ratio%22%3A3%2C%22bandwidth%22%3A10%2C%22isInIframe%22%3Afalse%2C%22w%22%3A355%2C%22h%22%3A0%2C%22width%22%3A355%2C%22height%22%3A348%2C%22visible%22%3A0%2C%22fullscreenHeaderHeight%22%3A49%2C%22left%22%3A10%2C%22top%22%3A981%2C%22ad_no%22%3A0%2C%22darkTheme%22%3Afalse%2C%22safeArea%22%3A%7B%22top%22%3A0%2C%22bottom%22%3A0%2C%22left%22%3A0%2C%22right%22%3A0%7D%2C%22req_no%22%3A0%7D&grab-orig-len=5120&grab=eyJncmFiX3ZlcnNpb24iOjJ9ChKjIq3kqO2BaqyjzH_7Z2fdk8bbZFVSJxRSWm0i1Crfsi9T2vLa9oRi1O-Jk_hQdmKTUtSOkxNb1UY2Ue_t6QVcNbDPDPUE2yQCCmbg9vaPv6GtDnpOW-ZijEWwYBFQQBEuo0VnMjMwWtLMysCoS3TmlCECJYIWKSNJBRAlKDUiimSRJlJHkkgTktYFULyQxSFFqA3AVUSSEOmCSxlJF3wwFoJ40RZ0-AOKUOshz1Uj-ULRHkJBWrzoxcusJlKG2rqQFQtSWeFXE0lrJAvhR6qlK0ENyZeKktN2OELAVUPEw-VyvPyJI8XSEskCoFqoy6n6PC5qJScjRzfIaEp1WTVmphQibmuqtxkSal0SG7mrLTbqUqMOIm6__MsxcQj6QlO9NdKmoHpZh1dDiqHlIq6sQ-mI8EVWctYIRHflNUsLBF3zpdbSfDvDi3qLN3URv3_V8iP3yqxexqYm8ldRE8m3F_IANCHZMOEibMXQeSkUkocItxEkNYIRwY7gnHnJgo9o0alDskG_1Sskv6BoMvHbnEaWhIeXF6-Uf8EgWDKfIi-olJzcHAyMHJ3EtLEVWbWZM70eIm46S2pKq103ANqRWxJdWg-u3RabY4PdnNBYdAVsQxzrGnxuBkZrgsIFGKzYYPIgBHxYwUyNuT7NDDZLnhkMMfLcFptMsdFupzZnttQSm62pgZshgtk5H8lrBOClxqSwfAiTkePc0VLpdLERB74aweVwiSoimPIwcjSYDIVbjqZYgewGhAvgDE-rppg2Mad5TpPGtObYhtJut1EZDJttYKfZ1syQO2zcDA5HwHbGl8VFr6fOjII4ae5syHJDpkv1dvsACE5mpkpzB6ArboglejSN2oGCmwEqCbOTixkdI8ew25SG3ExBzMbFDjHkYQodCxc7i4sxPKSCKxmYssSIa-IbdIltIi02k7mpLgivBz3rMlp9bkqNVDkKh92-EFFvUMydg9dB9UPGRlURquCtFtBgGs5iTPyHcEVIykumYUwIHc--MUlTN5xoHsgGPDVP2UKT6S0VTWxMkfGw08cPwgWo5B3jcCNYvOQCZiHpDWpD3Dxk2PcHiIpvU_MqH2Gtr0PoMyvmJcPAzL097pLypnww5p2HlKGWl8wDuxyQ5xHx9j1PcmvIS1ZB68PMSw7g-q-Nl6yDvC9xf-K8w3mgvGQY-pI7kqen7D9EMVeZt4zO5SHHNXWCy8rPc8xxy9a35bZMl5ljmnzvrgFZbkqMybCz17Z_RM7GLuIqaDN9mjcPi6wlMVvXN9AXZCAA_BDWulVlndMUSUMyn6rC_xBKPYJAwFRrnZoTz3dQC3jUmcGa62LqPEOxfRm2cCkgdDkqqrurX45ib6_drR7jdiFBJWk_uHiH7PFojwGsMUvHsL3ZPgTkm7hjq6rHpa0hDpVkTM3Ba2OrqpZk2-zfUA9sBFohiqDc1K4bLAqYT9fGFLk-1-tiAzK7fds2ZHTTMBuKigtSBb2TfhsBWIhw7e0JrYVsfTyIpWrRg4-ajh5waJhKR33gxyalXJc9BpjCL3VIdupvVQrJh-Rr6y4k8f3-jb0X7Bd8yJw8AL_562M9CKKlzmyWVLhiHNM4lptGZUj1-koHzvYM8nYMJyJ5x0Fme9ZNoeANurXexixcFNsgS_7U3nyXvVWNX-lpDN6CDsltKILJaEyhQQT9lZJG-Ewulorl4NlHY4QF7SuC8vjYfE2lzQ3yNn1OgKzo6tHJXwW62JRZMuQoBVKBY1JWFK9gpdnN-SX8oQrhDOWRmqmLBmOgbOcUT_UxDzYe1GO9Y66xLoYO683WNFneuwtoE2IxpxKwI1hMlW1j2QSYl3W28Qnm3_Hh7W8EaQl9Uc1vePb-aEkGv0N7CZaYF_0poIlUS5gi87h0-ib5yk7Rvhlzuof57Ma_XfDUh1YSpKNafazsO6mcWVX6oTt4j5ppctzerN6IupVulKhM4GukL56ZONfdL26VcL2lxSnkD-sukDUrAls7VKx2BcpE7WUQf3J4HFYPvKrjm2NoiomnQZSg8EfiGR0VjRc-sjYm-AhbnHw3I_9O_IDpx09AxVR0VLSC4mmBNtg4w77fn0BhSCG8n7rjd4Bd-SDW7h-17_5ZRKbRjbv8t28OXnsg6K8aoZ_HSm8fkx48iiZxzeIesnqSlbp8kPpx1bd1BqsLeeQJ9wjqQhZPDVSFGG81YQ5mFjUxStKUeHt6l7TZnMV_XPJSICJw9QpjsSComEFFuFBJUCWG1GxO_E-8bElKtHhoIB4i_7R2umge3zZJVJsqpMWjUs5P_EWS8D6MARfBDt4-cY8yN49lZdoiGtLDP4ZSti3cdFjjd0EOa81qYPAmewj_KPLGcw_K34U-2_guEd7v46wyylk64Jbqi8c5YkZr8B40NAUbrvsPrtvnmT7CHcWBf95QPm0VjehnlQnEwacVJmoBFMJgEVswIH9K5ICSnRDHDmewSIfcR6WeO8GtfJBGnugsaFJrQmVCS6WzxAYgrJGcO8DlZgAvs9KkOlQZTeruE7tMUVPRmhO9JbWi1eVOBzeDs37FkIQI-IQnHLjKzIaFigwwVLSjkKZNrbkTzFugZIHr9J3H4Ci-84IgTvQBXxDqjDkVaqGrP7rdJRpSz1TELnUsidWaGtHipQgb-DhSBAfrTp_aRh1bIFrYcMdnk_x-1jNXPogjj8FNjKk-d0A8AfaPYCP4HADVcaOmNcXtIXz1LNwSXxdD5U6245jqdDC38nEN45l5LWyeLRHQQ6R93MO0Wz9pt7sh505zxRmRRE8fm9agXWsOkD3cuyh0S1_54wztSs3iWVvr5_byE7gQjEoU_y92Yqv2Gk_Cm4ii2rsfOeIbghMiH2LEd4cE13o-UBK3eTsg46wRCJ5mkbLH6qJ4DAH-OENQlF-niXYufhtO7eE1wSp8NznDWWVFz17puep_orqVkkvoyu4VcWsH5ROh7uyvX1r6EN8PK2uhkWxalt_biv-utc32k6nen6mGjqOta1tVenogbap6Pkrsa67E9zziosOX3qVOdhKdcvLjfFlw8oluAms46xeT0zIEo564pbUfean0zavBYFMHMqZ6ZyzmV9oAtKXQA0qvHbZNI_plDE6gNps3WZ31ehbKW0pOdBA7rpSaAgnhdsXNM5G8Fsbe7T-7CkM87RbwEsCko8I7_-VbnEAB-j5l6xDWS5yRQHHUt1_cNk9IdrWN8pftL0Ey1OMqVp38BIW_URL-VHWRHSwFv17domp8fjI6A6IaHcVttVYQEXqVk9-gHMw6qU40BvJVQ5ppO0Qc3LtAxeP6PcE6--TWTJouAj448jaORrXMycnZrkA4YgvFN5zWPn1sSzJznhjBinOw4lg34WTOHLU-0f_xm-m4GRzs7Ox418IMS1yxsKLHlgJOIId_qE7Ar59yMnOx1In2M3bgpqMT_uQcGPeXRyA8l--zSTzTBktX3DEBUCKsNIZ0xjHMGQdpw_MIT2sLxe7xlRU9O5PvoaSDVlqmW2ktEyj5xnRFO57AN004k9_f-HK8shFBjqRAxMiHG6a7uwlwbShPtJN7EU3cBgrie78iIau-v5DeFSnL7qycuEBx36P9nKotW6V_QWaq5JyBaAKB9B5_Q0WR9G33cwO1d1KuwKpUfSRcwuby5VLX_EVQ-x5vsaS1hXklrVuOpH_hPeMSDQPy8Vnj8xCH5EV6VnpLRXvkpu9TVFP-Kmm9S5UO-jn4hGWGnObanOtyl6O8IIJ5U64cWml9vG5Vq9L3Kr3afXgr995bswIXRDpObzh8OSnaU_ZY5Yt7XgLzX-8YuNgobmSXa23Pg4GSEy-aZR04URIJRCP71CrqSyFtAmHqLwet9vQYJLtw4_dV4itovif4pT1tegxpbv6KCVvOlHiUwb9eIA5GLrk4y23vxUjKM1QHWFHSpr60s_U7WoMA1En43P8wb7JPvsZV9Cvyp1SyAE88K4k8kJwQiL_pqvyBNnjUfiZ5nzso44jDK4R55SfS2KFP9SdMWHA_kav9V0MdnO3RfMtahrB_mXLGnxetnwiS8viaUvh-BsOHTIeamdmJCY-aDR0zZj9qBys6LjbMftRC_xpnZ-Fp-fJEl5rWUdCMWClde1jwKi7ICPrRTuTcDHSWtIITJ7bUlNF4tMMm9X-pbdkkPV0yihHaGbYbAwr1gk3uDuXdjoYlW1dlyNniIht7I15xlW3Rmo9ldZxVTKpWlbcdO1i5lbhX7hMX61vqnwqC8VRaqCRuwaQxiVXFCrw-QVvwo-Lj3ERCT_coTCZAl_DcGh9W3DRDOPxkAFjuRnDcRO09IQyXt3CXPIJ_8Sv-UNhSK6ox9z5WizjeIQHxVYNt8SBsEf5Ae04SAd9uosju3iSbgUHoaQFZkhuCNNFlnAYqoHaSK_rxqYM_2-7seGBJiaAWMiH9T-_xVeQttn8p3gtSSHeFdNhFcEHToUo2lcT0TGdhLXsS5iR68BUC1VmQ7I_fcwxGPHr_Pqm_N85VlAZvRnz9r7pIxst77evsbmQJA9Wt-tbvTLnBoFn8qvSQxZ6Vi9EzFuMtz77YmG_P9Wbwqm2zWNH8spYojFdEBdLUjGGmZpKyShRatrHyEf4BhaBn9PEexTDtOajlojQFqyMdve_VIrIi5l2dzjr27YyL1cHuQI-hl2YXRdtiDJQKQp1v2pO1YPAs-Uz1IUZ-Xzo_Jq8RQCLQRmzxqwCe0ipxKe3U-hpwPhgthPfts4TDUZT7cD8GN7MNGUWQRksXT4XtJq2esj2yWjCJys5dgsgnK85RwWt8hauiIK0pccSd5gp-hWSqDgcTO3ujbdFoTr5FPPrzVyPoI8CCV4If_69dei16K1d_5NdFz8o84EFJhgmlWTDylwVuhnLF51rRUipwbx76yZ2wH46snUfvi9BKfubD7gfmHlE9sd7vparrrIku2dnKuj8axZdIsgZP3JNxK1-9SblTkKLAhKnsTbHMre5pea4k2InRvPgAMo3pTmasrOludTcXOqCCvhtNvLfcewSQBNGBrC7pAjiLZ_KRiN2Iqw1BFxazGUl9pFeZEF0ifxC5RBll0ZtIH5q_Y2y4r84JSpfhwMhqcNhf_D_RCurH&uniformat=true&callback=Ya%5B5727194098372%5D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:1:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:289864166947:hid:404419524:z:120:i:20260611073623:et:1781156183:c:1:rn:142803718:rqn:2:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,0,,,,2585:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156183",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3221482741192982500,
+            "hittoken": "1781156181_a9844581ed9f263cbc0af2a709188509f5b34b4d6441905910aa1873fecc900a",
+            "page-url": "https://dzen.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "7815601781156183074"
+              }
+            },
+            "t": "gdpr(14)mc(p-1)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)eco(42017284)wss(1)w2s(0)evt(2303)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/51446871/1?page-url=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3221482741192982685&hittoken=1781156181_a9844581ed9f263cbc0af2a709188509f5b34b4d6441905910aa1873fecc900a&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A289864166947%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073623%3Aet%3A1781156183%3Ac%3A1%3Arn%3A142803718%3Arqn%3A2%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C0%2C%2C%2C%2C2585%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156183&t=gdpr(14)mc(p-1)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)eco(42017284)wss(1)w2s(0)evt(2303)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%227815601781156183074%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:1:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:876578228697:hid:404419524:z:120:i:20260611073623:et:1781156183:c:1:rn:982419013:rqn:2:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:wv:2:ds:,,,,,,,,0,,,,2585:co:0:hdl:1:eu:1:ns:1781156178754:adb:2:rqnl:1:st:1781156183",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3221482739112870000,
+            "hittoken": "1781156181_6b75a5e877c2c3c1cea72320f9e7203e286f86077754836e98edfb55e5a20e53",
+            "page-url": "https://dzen.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "7815601781156183074"
+              }
+            },
+            "t": "gdpr(14)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)eco(42017284)wss(1)w2s(0)evt(2380)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/88704546/1?page-url=https%3A%2F%2Fdzen.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3221482739112870082&hittoken=1781156181_6b75a5e877c2c3c1cea72320f9e7203e286f86077754836e98edfb55e5a20e53&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A876578228697%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073623%3Aet%3A1781156183%3Ac%3A1%3Arn%3A982419013%3Arqn%3A2%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C0%2C%2C%2C%2C2585%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781156178754%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781156183&t=gdpr(14)clc(0-0-0)rqnt(2)aw(1)rcm(1)yu(905612861781156178)eco(42017284)wss(1)w2s(0)evt(2380)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%227815601781156183074%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.24603652285266153;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=u;ni=10//4g/100/0/;params={};lvid=1781156182490:1781156182692:3:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13;e=RG:/page_view"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/tracker?_=0.24603652285266153;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738/3756/1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=u;ni=10//4g/100/0/;params=%7B%7D;lvid=1781156182490%3A1781156182692%3A3%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13;e=RG%3A%2Fpage_view"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.10347433537119999;id=3471766;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738//1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=u;ni=10//4g/100/0/;lvid=1781156182490:1781156182504:2:b577e997a5942f3621b001d654f5bfe9;opts=sec,jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/counter?_=0.10347433537119999;id=3471766;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738//1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=u;ni=10//4g/100/0/;lvid=1781156182490%3A1781156182504%3A2%3Ab577e997a5942f3621b001d654f5bfe9;opts=sec%2Cjst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": "0.21639273527877312;id=3260250;u=https://dzen.ru/;r=https://sso.dzen.ru/;title=Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120/Europe/Madrid;st=1781156180250;ct=3719/3738/3738//1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=u;ni=10//4g/100/0/;lvid=1781156182490:1781156182501:1:b577e997a5942f3621b001d654f5bfe9;opts=jst-ym,ts,wda,cnhp=h2,cs=19684-48997-19984;visible=true;js=13"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/counter?_=0.21639273527877312;id=3260250;u=https%3A%2F%2Fdzen.ru%2F;r=https%3A%2F%2Fsso.dzen.ru%2F;title=%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.;s=375*812;vp=375*812;touch=0;hds=3;sid=7429c35866ea9466;ver=60.6.0;tz=-120%2FEurope%2FMadrid;st=1781156180250;ct=3719/3738/3738//1430;rt=1432/476/0/0/0/1432/1530/1530/1530/1728/1614/1733/1904/1908;gl=u;ni=10//4g/100/0/;lvid=1781156182490%3A1781156182501%3A1%3Ab577e997a5942f3621b001d654f5bfe9;opts=jst-ym%2Cts%2Cwda%2Ccnhp%3Dh2%2Ccs%3D19684-48997-19984;visible=true;js=13"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ids": "3260250,3471766"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/dyn-goal-config.js?ids=3260250,3471766"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/zen_audit"
+      },
+      {
+        "data": {
+          "filter": "||an.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://an.yandex.ru/system/context.js"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:0:ls:289864166947:hid:404419524:z:120:i:20260611073620:et:1781156181:c:1:rn:58866545:rqn:1:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:fp:1048:wv:2:ds:0,0,285,571,462,0,,177,,,,,:co:0:hdl:1:ns:1781156178754:rqnl:1:st:1781156181:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "site-info": {
+              "uid": "905612861781156178"
+            },
+            "t": "clt(494)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(42017284)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/51446871/1?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&site-info=%7B%22uid%22%3A%22905612861781156178%22%7D&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A0%3Als%3A289864166947%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073620%3Aet%3A1781156181%3Ac%3A1%3Arn%3A58866545%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1048%3Awv%3A2%3Ads%3A0%2C0%2C285%2C571%2C462%2C0%2C%2C177%2C%2C%2C%2C%2C%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781156178754%3Arqnl%3A1%3Ast%3A1781156181%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt%28494%29gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29yu%28905612861781156178%29eco%2842017284%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:876578228697:hid:404419524:z:120:i:20260611073620:et:1781156181:c:1:rn:767961301:rqn:1:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:fp:1048:wv:2:ds:0,0,285,571,462,0,,177,,,,,:co:0:hdl:1:ns:1781156178754:rqnl:1:st:1781156181:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "site-info": {
+              "uid": "905612861781156178"
+            },
+            "t": "clt(396)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(42017284)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/88704546/1?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&site-info=%7B%22uid%22%3A%22905612861781156178%22%7D&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A876578228697%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073620%3Aet%3A1781156181%3Ac%3A1%3Arn%3A767961301%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1048%3Awv%3A2%3Ads%3A0%2C0%2C285%2C571%2C462%2C0%2C%2C177%2C%2C%2C%2C%2C%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781156178754%3Arqnl%3A1%3Ast%3A1781156181%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt%28396%29gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29yu%28905612861781156178%29eco%2842017284%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156180:665112996:zu:905612861781156178:rn:848290:c:1:s:375x812x24:en:utf-8:t:yndx.searchform.iframe.show",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "rn": 146380
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/88704546/1?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156180%3A665112996%3Azu%3A905612861781156178%3Arn%3A848290%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Ayndx.searchform.iframe.show&rn=146380&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156180:268786526:zu:905612861781156178:rn:275985:c:1:s:375x812x24:en:utf-8:t:yndx.searchform.iframe.load",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "rn": 608229
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/88704546/1?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156180%3A268786526%3Azu%3A905612861781156178%3Arn%3A275985%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Ayndx.searchform.iframe.load&rn=608229&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:0:ls:289864166947:hid:404419524:z:120:i:20260611073620:et:1781156181:c:1:rn:58866545:rqn:1:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:fp:1048:wv:2:ds:0,0,285,571,462,0,,177,,,,,:co:0:hdl:1:ns:1781156178754:rqnl:1:st:1781156181:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "site-info": {
+              "uid": "905612861781156178"
+            },
+            "t": "clt(494)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(42017284)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/51446871?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&site-info=%7B%22uid%22%3A%22905612861781156178%22%7D&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A0%3Als%3A289864166947%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073620%3Aet%3A1781156181%3Ac%3A1%3Arn%3A58866545%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1048%3Awv%3A2%3Ads%3A0%2C0%2C285%2C571%2C462%2C0%2C%2C177%2C%2C%2C%2C%2C%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781156178754%3Arqnl%3A1%3Ast%3A1781156181%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt(494)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(42017284)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:876578228697:hid:404419524:z:120:i:20260611073620:et:1781156181:c:1:rn:767961301:rqn:1:u:1781156181421945531:w:375x812:s:375x812x24:sk:3:fp:1048:wv:2:ds:0,0,285,571,462,0,,177,,,,,:co:0:hdl:1:ns:1781156178754:rqnl:1:st:1781156181:t:Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.",
+            "charset": "utf-8",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "site-info": {
+              "uid": "905612861781156178"
+            },
+            "t": "clt(396)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(42017284)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/88704546?wmode=7&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&charset=utf-8&site-info=%7B%22uid%22%3A%22905612861781156178%22%7D&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A876578228697%3Ahid%3A404419524%3Az%3A120%3Ai%3A20260611073620%3Aet%3A1781156181%3Ac%3A1%3Arn%3A767961301%3Arqn%3A1%3Au%3A1781156181421945531%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1048%3Awv%3A2%3Ads%3A0%2C0%2C285%2C571%2C462%2C0%2C%2C177%2C%2C%2C%2C%2C%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781156178754%3Arqnl%3A1%3Ast%3A1781156181%3At%3A%D0%94%D0%B7%D0%B5%D0%BD%20%E2%80%94%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5.&t=clt(396)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)yu(905612861781156178)eco(42017284)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156180:268786526:zu:905612861781156178:rn:275985:c:1:s:375x812x24:en:utf-8:t:yndx.searchform.iframe.load",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "rn": 608229
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/88704546?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156180%3A268786526%3Azu%3A905612861781156178%3Arn%3A275985%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Ayndx.searchform.iframe.load&rn=608229&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156180:665112996:zu:905612861781156178:rn:848290:c:1:s:375x812x24:en:utf-8:t:yndx.searchform.iframe.show",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "rn": 146380
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/88704546?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156180%3A665112996%3Azu%3A905612861781156178%3Arn%3A848290%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Ayndx.searchform.iframe.show&rn=146380&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://suggest.sso.dzen.ru/portal/dzensearch/touch?yu=905612861781156178&clid=&theme=light",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/watch_zen.js"
+      },
+      {
+        "data": {
+          "filter": "||ad.mail.ru^$~image,domain=~mail.ru|~sportmail.ru",
+          "listName": "easylist.txt",
+          "query": {
+            "callback": "cookie_sync_cb",
+            "dzenuid": 905612861781156200,
+            "exd": 1,
+            "q": 48634,
+            "vid": "undefined"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.mail.ru/adq/?q=48634&exd=1&vid=undefined&dzenuid=905612861781156178&callback=cookie_sync_cb"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||top-fwz1.mail.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://top-fwz1.mail.ru/js/code.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156180:526870876:zu:905612861781156178:rn:100042:c:1:s:375x812x24:en:utf-8:t:yndx.searchform.start",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "redirnss": 1,
+            "rn": 645829
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/88704546/1?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156180%3A526870876%3Azu%3A905612861781156178%3Arn%3A100042%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Ayndx.searchform.start&rn=645829&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {
+            "pcode-flags-map": "eJyNVmtv2zYU_S_-HBR8SqK_0RIlE6FFlaScZMNAJF02ZPWSYXWHFkX--64eSSq3kZIPSWzpHt7HOefy2-pK-sYHuTFqr9xq_eu31X_Xh8-3q_UKv8uS9B1mJOWrs9Xx9tNR_959zUVK0mz1-NvZai99HIIjRHtt6ykCRTjJkkk0ZSnjQ3ShfR9aKB-cvYrqMihXSxNzp2TQexVlEVuvXMyN9SpChnWYHHD75Z8JOGOiy_bxbOEV8py9U7k0eWtkUPD_-xZSiTsVtraIpXXxwsmmgQRaZ-YP5ogz3qO-d3FjZH4ejQas3GhIOurCTzuDBKGZYHydZWlKCEZrigRKCEr4GgMWSwTP1hSLRKQJp_CUYUQoomshMEOIp2uMEcKYpBCKM_guSbvXMEEoIxhAGGKMC7KmBFPCsgyeEug-EvCeoEQknLNpESkcgfsiZFFEvZOVipU0RrmrqOtYq9bZblq6que7kWGB2BOQrqvY_QlADxhuI52EDgNd-g4DCYLTmzackudH0ESIbH623SvDuaruqdU4tdFFLFpdzIJzlAkxzA8IF33HhDpoSNdYIKEc2ODPdRODPVfzmXJMaYaeKVZ29caOR3UR97pQNnpjAwDFwu7mkSjDNHtOK0hXqQA8LYfWQTNzW6hliHQGAlJcBkh6gErVykFPYGKgl-oqXuiwjbaRuQ5XE5A_rg-Hm-sPH-PD_eHrFI5hjEUPV-pLQKgLexFra5sOfD4TxtNkkK5RsoD8dx7SN7ro1Ntsbb3QCohnYqRlaS9hrLIJb1A3T0CN-HtelT4WHrhRLfQuZaCzPhBoD-3v5wVaKi38AgIMksptXeoq7tkE7Hj975-3xxO8VIzmNeD5rdP1eew66fUv8Nm2Ll_owguGbINtwKvUrveoeg_UjtKAa4HoN-Bh80AZJ6NmhrLmNwGnFJ3ukZSi77sKvFJyN2rkQm2sJwhncU8nWB-Oh1OCIjQ0WXmv6lzFnd3ofkrzganASfrTQGNBHHLBM7IsIdkk_CmudzVd5yFKeBL8iDuB-3R3vD3c3X_89GZQr4MyMG4PhGlhYD-C4gWosbzKgScChfdkgfawKocBAVmH1bwFH9M14EXfur2CvZCf-vbfD3_dndTEyLgcvW_iTmoTXTuOudQmLOk-YUjQZz_tbixjsKorSKb7IOX8qBGl42p76gXssXOg_xtnLVIhyNtmPQJP8G4-H48P969BdsbcufIGxtqvy_HWAJeT0Nt097CxbnFHckExfrmaqdzuQMvOwgHg2jvpYOvs46C2hYITQcWgDSfBondDdaBKXW2hVGPm-w23lZS-Gg6m3U6Iy1H38wrCy9qNFszF9BSs4JZlc9BC135ZL5pelvCBygWwp0e0ZQkpTdfWTeTodJfzMfAtDs4ncPTL5idzBzX0_vv4P-V9TJ4,",
+            "pcode-test-ids": "1387854,0,13;1586607,0,86;1586020,0,12;1587580,0,7;1577848,0,55;1588328,0,90;1552820,0,81;1471934,0,18;1534006,0,19;1579167,0,8;1588628,0,29;1569270,0,30;1584245,0,92;1564093,0,58;1503321,0,26;1597992,0,86;1593118,0,27;1569397,0,58;1541073,0,75;1578650,0,36;1513550,0,36;1584272,0,76"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/system/context.js?pcode-test-ids=1387854%2C0%2C13%3B1586607%2C0%2C86%3B1586020%2C0%2C12%3B1587580%2C0%2C7%3B1577848%2C0%2C55%3B1588328%2C0%2C90%3B1552820%2C0%2C81%3B1471934%2C0%2C18%3B1534006%2C0%2C19%3B1579167%2C0%2C8%3B1588628%2C0%2C29%3B1569270%2C0%2C30%3B1584245%2C0%2C92%3B1564093%2C0%2C58%3B1503321%2C0%2C26%3B1597992%2C0%2C86%3B1593118%2C0%2C27%3B1569397%2C0%2C58%3B1541073%2C0%2C75%3B1578650%2C0%2C36%3B1513550%2C0%2C36%3B1584272%2C0%2C76&pcode-flags-map=eJyNVmtv2zYU_S_-HBR8SqK_0RIlE6FFlaScZMNAJF02ZPWSYXWHFkX--64eSSq3kZIPSWzpHt7HOefy2-pK-sYHuTFqr9xq_eu31X_Xh8-3q_UKv8uS9B1mJOWrs9Xx9tNR_959zUVK0mz1-NvZai99HIIjRHtt6ykCRTjJkkk0ZSnjQ3ShfR9aKB-cvYrqMihXSxNzp2TQexVlEVuvXMyN9SpChnWYHHD75Z8JOGOiy_bxbOEV8py9U7k0eWtkUPD_-xZSiTsVtraIpXXxwsmmgQRaZ-YP5ogz3qO-d3FjZH4ejQas3GhIOurCTzuDBKGZYHydZWlKCEZrigRKCEr4GgMWSwTP1hSLRKQJp_CUYUQoomshMEOIp2uMEcKYpBCKM_guSbvXMEEoIxhAGGKMC7KmBFPCsgyeEug-EvCeoEQknLNpESkcgfsiZFFEvZOVipU0RrmrqOtYq9bZblq6que7kWGB2BOQrqvY_QlADxhuI52EDgNd-g4DCYLTmzackudH0ESIbH623SvDuaruqdU4tdFFLFpdzIJzlAkxzA8IF33HhDpoSNdYIKEc2ODPdRODPVfzmXJMaYaeKVZ29caOR3UR97pQNnpjAwDFwu7mkSjDNHtOK0hXqQA8LYfWQTNzW6hliHQGAlJcBkh6gErVykFPYGKgl-oqXuiwjbaRuQ5XE5A_rg-Hm-sPH-PD_eHrFI5hjEUPV-pLQKgLexFra5sOfD4TxtNkkK5RsoD8dx7SN7ro1Ntsbb3QCohnYqRlaS9hrLIJb1A3T0CN-HtelT4WHrhRLfQuZaCzPhBoD-3v5wVaKi38AgIMksptXeoq7tkE7Hj975-3xxO8VIzmNeD5rdP1eew66fUv8Nm2Ll_owguGbINtwKvUrveoeg_UjtKAa4HoN-Bh80AZJ6NmhrLmNwGnFJ3ukZSi77sKvFJyN2rkQm2sJwhncU8nWB-Oh1OCIjQ0WXmv6lzFnd3ofkrzganASfrTQGNBHHLBM7IsIdkk_CmudzVd5yFKeBL8iDuB-3R3vD3c3X_89GZQr4MyMG4PhGlhYD-C4gWosbzKgScChfdkgfawKocBAVmH1bwFH9M14EXfur2CvZCf-vbfD3_dndTEyLgcvW_iTmoTXTuOudQmLOk-YUjQZz_tbixjsKorSKb7IOX8qBGl42p76gXssXOg_xtnLVIhyNtmPQJP8G4-H48P969BdsbcufIGxtqvy_HWAJeT0Nt097CxbnFHckExfrmaqdzuQMvOwgHg2jvpYOvs46C2hYITQcWgDSfBondDdaBKXW2hVGPm-w23lZS-Gg6m3U6Iy1H38wrCy9qNFszF9BSs4JZlc9BC135ZL5pelvCBygWwp0e0ZQkpTdfWTeTodJfzMfAtDs4ncPTL5idzBzX0_vv4P-V9TJ4,"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:u:1781156180:526870876:zu:905612861781156178:rn:100042:c:1:s:375x812x24:en:utf-8:t:yndx.searchform.start",
+            "page-ref": "https://sso.dzen.ru/",
+            "page-url": "https://dzen.ru/",
+            "rn": 645829
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://dzen.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/88704546?browser-info=pv%3A1%3Aar%3A1%3Au%3A1781156180%3A526870876%3Azu%3A905612861781156178%3Arn%3A100042%3Ac%3A1%3As%3A375x812x24%3Aen%3Autf-8%3At%3Ayndx.searchform.start&rn=645829&page-url=https%3A%2F%2Fdzen.ru%2F&page-ref=https%3A%2F%2Fsso.dzen.ru%2F"
+      }
+    ]
+  }
+}

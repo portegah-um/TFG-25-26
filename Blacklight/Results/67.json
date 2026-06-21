@@ -1,0 +1,381 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Welcome to the home of the Network Time Protocol (NTP) Project.",
+  "uri_ins": "https://ntp.org",
+  "uri_dest": "https://www.ntp.org/",
+  "uri_redirects": [
+    "https://ntp.org/"
+  ],
+  "secure_connection": {},
+  "host": "ntp.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:51:11.948Z",
+  "end_time": "2026-06-11T05:51:16.988Z",
+  "browsing_history": [
+    "https://www.ntp.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ntp.org",
+        "www.ntp.org"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "cse.google.com",
+        "www.nwtime.org",
+        "www.clarity.ms",
+        "scripts.clarity.ms",
+        "region1.google-analytics.com",
+        "www.google.com",
+        "fonts.gstatic.com",
+        "h.clarity.ms",
+        "clients1.google.com",
+        "ep1.adtrafficquality.google",
+        "ep2.adtrafficquality.google",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "keydown",
+          "input"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://www.google.com/cse/static/element/2e704d61e1b5a4d1/cse_element__en.js?usqp=CAM%3D": [
+          "mousedown"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-K07ZJQFYSZ": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_K07ZJQFYSZ",
+        "value": "GS2.1.s1781157074$o1$g0$t1781157074$j60$l0$h0",
+        "domain": "ntp.org",
+        "path": "/",
+        "expires": "2027-07-16T05:51:14.456Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.948276277.1781157074",
+        "domain": "ntp.org",
+        "path": "/",
+        "expires": "2027-07-16T05:51:14.459Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "McQIuA": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ep2.adtrafficquality.google/generate_204?McQIuA"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/bg/4xVSzlkKiz_HqqW7nCJ98MdV2Vnozido68fp_rFrT_I.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://clients1.google.com/generate_204"
+      },
+      {
+        "data": {
+          "filter": "||google.com/adsense/search/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cse.google.com/adsense/search/async-ads.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781157074121,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 948276277.1781157,
+            "dl": "https://www.ntp.org/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Welcome to the home of the Network Time Protocol (NTP) Project.",
+            "en": "page_view",
+            "ep.anonymize_ip": true,
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v881845073za200zd881845073",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781157074,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 2058,
+            "tid": "G-K07ZJQFYSZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-K07ZJQFYSZ&gtm=45je6691v881845073za200zd881845073&_p=1781157074121&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=948276277.1781157074&frm=0&pscdl=&rcb=1&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&sid=1781157074&sct=1&seg=0&dl=https%3A%2F%2Fwww.ntp.org%2F&dt=Welcome%20to%20the%20home%20of%20the%20Network%20Time%20Protocol%20(NTP)%20Project.&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&tfd=2058"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/c33igkoodm"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-K07ZJQFYSZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.ntp.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-K07ZJQFYSZ"
+      }
+    ]
+  }
+}

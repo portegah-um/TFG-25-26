@@ -1,0 +1,283 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "404 | Salesforce",
+  "uri_ins": "https://force.com",
+  "uri_dest": "https://www.salesforce.com/404/",
+  "uri_redirects": [
+    "https://force.com/"
+  ],
+  "secure_connection": {},
+  "host": "force.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:48:20.877Z",
+  "end_time": "2026-06-11T08:48:27.912Z",
+  "browsing_history": [
+    "https://www.salesforce.com/404/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "force.com",
+        "www.salesforce.com",
+        "c.salesforce.com",
+        "iis-hotfix.digital.salesforce.com"
+      ],
+      "third_party": [
+        "a.sfdcstatic.com",
+        "wp.sfdcdigital.com",
+        "www.googletagmanager.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://c.salesforce.com/digital/@sfdc-www-emu/page-builder-miaw-ui/v1-stable/page-builder-miaw-ui.js": [
+          "scroll"
+        ],
+        "https://a.sfdcstatic.com/digital/@sfdc-www/xsf-nav/v1-stable/navs-ssg.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.salesforce.com/c2/public/exp/pbc/server/scripts.991196b379465bf1fe8c.js": [
+          "click"
+        ],
+        "https://c.salesforce.com/digital/@sfdc-www-emu/pbc-core-analytics/v1-stable/comp-data.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WRXS6TH": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.salesforce.com/c2/public/exp/pbc/server/scripts.991196b379465bf1fe8c.js": [
+          "keypress",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.salesforce.com/c2/public/exp/pbc/server/scripts.991196b379465bf1fe8c.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ak_loc",
+        "value": "cc:ES,ct:MURCIA,st:MC,msa:MC,pmsa:MC",
+        "domain": "www.salesforce.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "salesforce.com",
+        "path": "/",
+        "expires": "2026-06-11T09:48:22.587Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gtm_session_start",
+        "value": "1781167703312",
+        "domain": "www.salesforce.com",
+        "path": "/",
+        "expires": "2026-06-11T09:18:23.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_abck",
+        "value": "FD2689BCBBA76196B2B237586077EA55~-1~YAAQo9c7F4UjVLOeAQAAaUXetRBO4VxKImSkmVzQht+aDceQgnDl5Qaj9Yd4RNfcUwpMRrT5YjK3uI3iDm1BUv9ZRAmjg8coFea7f5R16ifwDhwhIpvI5F5+4FtyRq+zRXSfGDoPYnObd3+tT9Ism4gaRWJu27GoQz51yGuTAm7xq/wz8Rv0VSm1fjpmb6fxMZBztaah/jN7/qAU+eBVZwlLMD1/Az2x/YGJthDd/gGTWBLYtLC1hNeYB9hIHWIFBz0aXLFfCeAOVqGki7cxgfn+ROpVW1yWqLrAoqMyo2+vOxR+9BeUXYlG+rR+6vvlQqti+7q68gsuRoJ0BcP514OXS6Dub0rRciMdxAFfm8MACcfiz0m79xQGerTQkcLCXsDevbciWIo5WuIawiYj4eKpXEz3GZA2XBQIhHOYxkcsZe/K2m9Jye47+NLcdaouzCaxhMLRUv11CWLRtQXgqUysi+egfo8t0n0zFPvfdlOqS3o0jIcie+K7rt3+aPwm8uINQVq1CBR9khQqcus9UxdXhR1D481WymCPmLHxHMrYRgoF39Y=~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f%2f4+nyyB94kDLniAuGda1jXSROfeXHUXpC+zFps%2fntqrKVbcrVfeSbGnaW1jY4CZ7EMKmhSw3O3PauNQ8GMx8ZSs0Em3BH3EMrFO~-1",
+        "domain": "salesforce.com",
+        "path": "/",
+        "expires": "2027-06-11T08:48:23.412Z",
+        "size": 744,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "0256C20397072EEF6DB52CDB87A278F2~YAAQo9c7F4YjVLOeAQAAaUXetQBZci2wzNyyyiziNdwYPterDK4KgJDg4KG76Jf5F8uDmUjZYUAztR2XWzYAjpgV4wpmC7ZuRgzQKQ7pWtQf8z6sIm09Gek9HeobUxe2ZCkon4AhfqApgC9kJq+NWxVTtc3rII/vvT+qlaf6GcBUgLKEKP45qU8wr+HYG8CGfB8WZhY0OK0//BWE8e2F4ugEKLtQqkaPLzz5PV/ilQ0FsrYL2xAONYFjkaVmZZ2uylXBQb/JSgG4zWOgfK97VBJNbxszyFVqkoZdaqweJOVLCVISf0l5SpVZt8vUkKrz/pWU6ro8d86qhdJgEVh4f5EowG2pm7IY3FQ1naPSPI9lowsp2LhfQGSqL9ugoCIiWgfDP6ms0fQx2CsYDsPK4QE=~4277042~4474182",
+        "domain": "salesforce.com",
+        "path": "/",
+        "expires": "2026-06-11T09:33:23.412Z",
+        "size": 462,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sfdcConsent",
+        "value": "1",
+        "domain": "salesforce.com",
+        "path": "/",
+        "expires": "2027-06-11T08:48:24.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A48%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=74e5129c-17d8-417f-8f70-f01eb658601c&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.salesforce.com%2F404%2F&groups=1%3A1%2C3%3A0%2C4%3A0",
+        "domain": "salesforce.com",
+        "path": "/",
+        "expires": "2027-06-11T08:48:24.000Z",
+        "size": 332,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": null,
+            "id": "GTM-N4QVCLK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.salesforce.com/404/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4QVCLK&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WRXS6TH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.salesforce.com/404/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WRXS6TH"
+      }
+    ]
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "National Oceanic and Atmospheric Administration Home",
+  "uri_ins": "https://noaa.gov",
+  "uri_dest": "https://www.noaa.gov/",
+  "uri_redirects": [
+    "https://noaa.gov/"
+  ],
+  "secure_connection": {},
+  "host": "noaa.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:58:28.665Z",
+  "end_time": "2026-06-11T08:58:34.977Z",
+  "browsing_history": [
+    "https://www.noaa.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "noaa.gov",
+        "www.noaa.gov"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "dap.digitalgov.gov",
+        "touchpoints.app.cloud.gov",
+        "cdn.jsdelivr.net",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "siteimproveanalytics.com",
+        "region1.google-analytics.com",
+        "6294131.global.r2.siteimproveanalytics.io",
+        "cg-1b082c1b-3db7-477f-9ca5-bd51a786b41e.s3-us-gov-west-1.amazonaws.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://siteimproveanalytics.com/js/siteanalyze_6294131.js": [
+          "scroll",
+          "mousedown",
+          "click"
+        ],
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NOAA": [
+          "mousedown"
+        ],
+        "https://www.noaa.gov/themes/custom/noaa_guswds/js/noaa/back-to-top.js?tggjxe": [
+          "scroll"
+        ],
+        "https://www.noaa.gov/core/assets/vendor/jquery/jquery.min.js?v=3.7.1": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MNK3D2L": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NOAA": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga_FVJXY24VSZ",
+        "value": "GS2.1.s1781168311$o1$g0$t1781168311$j60$l0$h0",
+        "domain": "noaa.gov",
+        "path": "/",
+        "expires": "2027-07-16T08:58:31.660Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.410309571.1781168312",
+        "domain": "noaa.gov",
+        "path": "/",
+        "expires": "2027-07-16T08:58:31.810Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "nmstat",
+        "value": "4032038a-46aa-f01b-6204-83bae5e151d6",
+        "domain": "noaa.gov",
+        "path": "/",
+        "expires": "2027-07-16T08:58:32.054Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781168311$o1$g0$t1781168314$j57$l0$h0",
+        "domain": "noaa.gov",
+        "path": "/",
+        "expires": "2027-07-16T08:58:34.708Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_et": 140,
+            "_eu": "AAAAAAQ",
+            "_p": 1781168310892,
+            "_s": 3,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 410309571.17811686,
+            "dl": "https://noaa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "National Oceanic and Atmospheric Administration Home",
+            "en": "INP",
+            "ep.agency": "DOC",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "dom-content-loaded",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "noaa.gov",
+            "ep.metric_id": "v4-1781168311684-5930567454458",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:noaa.gov",
+            "ep.site_topic": "unspecified:noaa.gov",
+            "ep.subagency": "NOAA",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 0,
+            "epn.metric_value": 0,
+            "epn.value": 0,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb832124271zd832124271",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781168311,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 5669,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb832124271zd832124271&_p=1781168310892&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=410309571.1781168312&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938466~115938469~117776793&dl=https%3A%2F%2Fnoaa.gov%2F&dt=National%20Oceanic%20and%20Atmospheric%20Administration%20Home&dr=&sid=1781168311&sct=1&seg=0&_tu=wA&en=INP&_ee=1&ep.agency=DOC&ep.subagency=NOAA&ep.site_topic=unspecified%3Anoaa.gov&ep.site_platform=unspecified%3Anoaa.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=noaa.gov&epn.value=0&ep.metric_id=v4-1781168311684-5930567454458&epn.metric_value=0&epn.metric_delta=0&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=dom-content-loaded&epn.event_time=0&ep.event_name_dimension=INP&_et=140&tfd=5669"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781168310892,
+            "_s": 2,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 410309571.17811686,
+            "dl": "https://noaa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "National Oceanic and Atmospheric Administration Home",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb832124271zd832124271",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781168311,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 5654,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb832124271zd832124271&_p=1781168310892&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=410309571.1781168312&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938466~115938469~117776793&dl=https%3A%2F%2Fnoaa.gov%2F&dt=National%20Oceanic%20and%20Atmospheric%20Administration%20Home&dr=&sid=1781168311&sct=1&seg=0&_tu=wA&_s=2&tfd=5654"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 2191,
+            "_eu": "AAAAAAQ",
+            "_p": 1781168310892,
+            "_s": 2,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 410309571.17811686,
+            "dl": "https://www.noaa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Oceanic and Atmospheric Administration Home",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9105965938za20gzb832124271zd832124271",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781168311,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 5653,
+            "tid": "G-FVJXY24VSZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-FVJXY24VSZ&gtm=45je6691v9105965938za20gzb832124271zd832124271&_p=1781168310892&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=410309571.1781168312&frm=0&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115938466~115938468&sid=1781168311&sct=1&seg=0&dl=https%3A%2F%2Fwww.noaa.gov%2F&dt=National%20Oceanic%20and%20Atmospheric%20Administration%20Home&_tu=QA&en=user_engagement&_et=2191&tfd=5653"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "accountid": 6294131,
+            "luid": "1960025e-9925-283b-4e3e-73e7e9cc0552",
+            "prev": "4032038a-46aa-f01b-6204-83bae5e151d6",
+            "res": "375x812",
+            "rnd": 83833,
+            "rt": 2801,
+            "title": "National Oceanic and Atmospheric Administration Home",
+            "url": "https://www.noaa.gov/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://6294131.global.r2.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.noaa.gov%2F&title=National%20Oceanic%20and%20Atmospheric%20Administration%20Home&res=375x812&accountid=6294131&rt=2801&prev=4032038a-46aa-f01b-6204-83bae5e151d6&luid=1960025e-9925-283b-4e3e-73e7e9cc0552&rnd=83833"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781168310892,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 410309571.17811686,
+            "dl": "https://noaa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "National Oceanic and Atmospheric Administration Home",
+            "en": "page_view",
+            "ep.agency": "DOC",
+            "ep.hostname_dimension": "noaa.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:noaa.gov",
+            "ep.site_topic": "unspecified:noaa.gov",
+            "ep.subagency": "NOAA",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb832124271zd832124271",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781168311,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938469~117776793",
+            "tfd": 2616,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb832124271zd832124271&_p=1781168310892&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&are=1&cid=410309571.1781168312&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117776793&dl=https%3A%2F%2Fnoaa.gov%2F&dt=National%20Oceanic%20and%20Atmospheric%20Administration%20Home&dr=&sid=1781168311&sct=1&seg=0&_tu=wA&en=page_view&_fv=1&_ss=1&_ee=1&ep.agency=DOC&ep.subagency=NOAA&ep.site_topic=unspecified%3Anoaa.gov&ep.site_platform=unspecified%3Anoaa.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=noaa.gov&tfd=2616"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781168310892,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 410309571.17811686,
+            "dl": "https://www.noaa.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Oceanic and Atmospheric Administration Home",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9105965938z8832124271za20gzb832124271zd832124271",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781168311,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 2468,
+            "tid": "G-FVJXY24VSZ",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-FVJXY24VSZ&gtm=45je6691v9105965938z8832124271za20gzb832124271zd832124271&_p=1781168310892&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=410309571.1781168312&frm=0&pscdl=&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&sid=1781168311&sct=1&seg=0&dl=https%3A%2F%2Fwww.noaa.gov%2F&dt=National%20Oceanic%20and%20Atmospheric%20Administration%20Home&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2468"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_6294131.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-FVJXY24VSZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FVJXY24VSZ&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MNK3D2L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MNK3D2L"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-FVJXY24VSZ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FVJXY24VSZ"
+      },
+      {
+        "data": {
+          "filter": "||digitalgov.gov/Universal-Federated-Analytics-Min.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "agency": "DOC",
+            "subagency": "NOAA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.noaa.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NOAA"
+      }
+    ]
+  }
+}

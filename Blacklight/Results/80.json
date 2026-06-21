@@ -1,0 +1,239 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Roblox",
+  "uri_ins": "https://roblox.com",
+  "uri_dest": "https://www.roblox.com/",
+  "uri_redirects": [
+    "https://roblox.com/"
+  ],
+  "secure_connection": {},
+  "host": "roblox.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:54:26.802Z",
+  "end_time": "2026-06-11T05:54:32.172Z",
+  "browsing_history": [
+    "https://www.roblox.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "roblox.com",
+        "www.roblox.com",
+        "metrics.roblox.com",
+        "apis.roblox.com",
+        "ecsv2.roblox.com"
+      ],
+      "third_party": [
+        "css.rbxcdn.com",
+        "static.rbxcdn.com",
+        "js.rbxcdn.com",
+        "images.rbxcdn.com",
+        "o293668.ingest.us.sentry.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://js.rbxcdn.com/0496306d944faeb488779bad1af0738e.js": [
+          "keypress",
+          "keydown"
+        ],
+        "https://js.rbxcdn.com/822a5c344565ff5d2f2034f76c43113f599cd62c0f03aaad643da8c6b8401a28-Sentry.js": [
+          "input",
+          "keypress",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://js.rbxcdn.com/822a5c344565ff5d2f2034f76c43113f599cd62c0f03aaad643da8c6b8401a28-Sentry.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://js.rbxcdn.com/0496306d944faeb488779bad1af0738e.js": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://js.rbxcdn.com/822a5c344565ff5d2f2034f76c43113f599cd62c0f03aaad643da8c6b8401a28-Sentry.js": [
+          "mouseup",
+          "mousedown",
+          "click"
+        ],
+        "https://js.rbxcdn.com/0496306d944faeb488779bad1af0738e.js": [
+          "click",
+          "mousemove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "rbx-ip2",
+        "value": "1",
+        "domain": "roblox.com",
+        "path": "/",
+        "expires": "2026-06-11T06:54:28.234Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "RBXEventTrackerV2",
+        "value": "CreateDate=06/11/2026 00:54:27&rbxuid=&browserid=1781157267826002",
+        "domain": "roblox.com",
+        "path": "/",
+        "expires": "2027-07-16T05:54:28.235Z",
+        "size": 82,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "GuestData",
+        "value": "UserID=-727885696",
+        "domain": "roblox.com",
+        "path": "/",
+        "expires": "2027-07-16T05:54:28.235Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "RBXPaymentsFlowContext",
+        "value": "ff48f72f-0c15-42a3-a06e-96ba079fcf22,",
+        "domain": "roblox.com",
+        "path": "/",
+        "expires": "2026-06-11T06:04:29.146Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/10.37.0",
+            "sentry_key": "24df60727c94bd0aa14ab1269d104a21",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.roblox.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o293668.ingest.us.sentry.io/api/4509158985826304/envelope/?sentry_version=7&sentry_key=24df60727c94bd0aa14ab1269d104a21&sentry_client=sentry.javascript.browser%2F10.37.0"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/10.37.0",
+            "sentry_key": "24df60727c94bd0aa14ab1269d104a21",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.roblox.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o293668.ingest.us.sentry.io/api/4509158985826304/envelope/?sentry_version=7&sentry_key=24df60727c94bd0aa14ab1269d104a21&sentry_client=sentry.javascript.browser%2F10.37.0"
+      }
+    ]
+  }
+}

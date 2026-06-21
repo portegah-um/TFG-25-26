@@ -1,0 +1,365 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Le Monde.fr - Actualités et Infos en France et dans le monde",
+  "uri_ins": "https://lemonde.fr",
+  "uri_dest": "https://www.lemonde.fr/",
+  "uri_redirects": [
+    "https://lemonde.fr/"
+  ],
+  "secure_connection": {},
+  "host": "lemonde.fr",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:06:24.630Z",
+  "end_time": "2026-06-11T09:06:28.779Z",
+  "browsing_history": [
+    "https://www.lemonde.fr/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "lemonde.fr",
+        "www.lemonde.fr",
+        "cmp.lemonde.fr"
+      ],
+      "third_party": [
+        "img.lemde.fr",
+        "applets.ebxcdn.com",
+        "eus.rubiconproject.com",
+        "cdn.sitestream.co",
+        "cdn.amplitude.com",
+        "l.seenthis.co",
+        "securepubads.g.doubleclick.net",
+        "delivery.sitestream.co"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.sitestream.co/libs/storylines/5.0.12/storylines.js": [
+          "keyup"
+        ],
+        "https://cmp.lemonde.fr/js/lemonde.min.js": [
+          "keydown"
+        ],
+        "https://www.lemonde.fr/bucket/resources/front/js/home.bcba302943a019e8.js": [
+          "keydown"
+        ],
+        "https://www.lemonde.fr/bucket/resources/front/js/common.0939d9d3fa4dd5bb.js": [
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.lemonde.fr/bucket/resources/front/2ec2d8804538c8c9.6ea8c59cc686962cba1012c0d8335f7d428887f9.js": [
+          "scroll",
+          "click"
+        ],
+        "https://cmp.lemonde.fr/js/lemonde.min.js": [
+          "click"
+        ],
+        "https://www.lemonde.fr/bucket/resources/front/js/home.bcba302943a019e8.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.lemonde.fr/bucket/resources/front/js/common.0939d9d3fa4dd5bb.js": [
+          "scroll",
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "lmd_rand_id",
+        "value": "334720003067494016",
+        "domain": "lemonde.fr",
+        "path": "/",
+        "expires": "2027-06-11T09:06:25.612Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "atauthority",
+        "value": "%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222027-07-13T09%3A06%3A26.268Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+        "domain": "lemonde.fr",
+        "path": "/",
+        "expires": "2027-07-13T09:06:26.000Z",
+        "size": 233,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "pa_privacy",
+        "value": "%22exempt%22",
+        "domain": "lemonde.fr",
+        "path": "/",
+        "expires": "2027-07-11T09:06:26.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lmd_consent_tmp",
+        "value": "7a6af2bb-6aa9-4c14-ae37-c29c73cc802c",
+        "domain": "lemonde.fr",
+        "path": "/",
+        "expires": "2027-06-11T09:06:26.493Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_pctx",
+        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykArAA9KYAQCZUAHwC2ARwCcCgO5I5qEAF8gA",
+        "domain": "lemonde.fr",
+        "path": "/",
+        "expires": "2027-07-11T09:06:26.000Z",
+        "size": 110,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "atidx",
+        "value": "019EB5EE-CD59-778E-9475-EA50F559B632",
+        "domain": "www.lemonde.fr",
+        "path": "/",
+        "expires": "2027-07-11T09:06:26.800Z",
+        "size": 41,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "atid",
+        "value": "019EB5EE-CD59-778E-9475-EA50F559B632",
+        "domain": "www.lemonde.fr",
+        "path": "/",
+        "expires": "2027-07-11T09:06:26.801Z",
+        "size": 40,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lmd_pa",
+        "value": "1781168787",
+        "domain": "lemonde.fr",
+        "path": "/",
+        "expires": "2027-07-12T09:06:26.801Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099091
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lemonde.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606100101/pubads_impl.js?cb=31099091"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lemonde.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||applets.ebxcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lemonde.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://applets.ebxcdn.com/applets/www.lemonde.fr/scripts.js"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lemonde.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.amplitude.com/libs/amplitude-4.2.1-min.gz.js"
+      },
+      {
+        "data": {
+          "filter": "||rubiconproject.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://eus.rubiconproject.com/account/19358.html"
+      },
+      {
+        "data": {
+          "filter": "||applets.ebxcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lemonde.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://applets.ebxcdn.com/ebx.js"
+      }
+    ]
+  }
+}

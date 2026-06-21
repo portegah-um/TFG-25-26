@@ -1,0 +1,892 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Conviva | Consumer-Perspective Analytics for the Agentic Era",
+  "uri_ins": "https://conviva.com",
+  "uri_dest": "https://www.conviva.ai/",
+  "uri_redirects": [
+    "https://conviva.com/"
+  ],
+  "secure_connection": {},
+  "host": "conviva.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:51:51.606Z",
+  "end_time": "2026-06-11T08:51:59.485Z",
+  "browsing_history": [
+    "https://www.conviva.ai/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "conviva.com",
+        "www.conviva.com",
+        "rc.conviva.com",
+        "6635a788adfc564f6438ac87003125376248e949.appgw.conviva.com",
+        "www.conviva.ai"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "cdn.jsdelivr.net",
+        "unpkg.com",
+        "boards.greenhouse.io",
+        "munchkin.marketo.net",
+        "player.vimeo.com",
+        "www.google-analytics.com",
+        "cdn.cookielaw.org",
+        "f.vimeocdn.com",
+        "s.ml-attr.com",
+        "i.vimeocdn.com",
+        "arclight.vimeo.com",
+        "vod-adaptive-ak.vimeocdn.com",
+        "vimeo.com",
+        "orion.bendingspoons.com",
+        "138-xja-134.mktoutil.com",
+        "geolocation.onetrust.com",
+        "138-xja-134.mktoresp.com",
+        "region1.google-analytics.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-7CYPQVYLTP&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://f.vimeocdn.com/p/4.46.58/js/player.module.js": [
+          "keydown",
+          "keyup",
+          "keypress"
+        ],
+        "https://www.conviva.com/wp-content/themes/conviva2025/dist/js/convivaAppTracker.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ],
+        "https://www.conviva.ai/wp-content/themes/conviva2025/dist/js/vendor.js?ver=2.0.16": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-7CYPQVYLTP&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://www.conviva.ai/wp-content/themes/conviva2025/dist/js/site.js?ver=2.0.16": [
+          "scroll",
+          "click"
+        ],
+        "https://f.vimeocdn.com/p/4.46.58/js/player.module.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://munchkin.marketo.net/165/munchkin.js": [
+          "click"
+        ],
+        "https://www.conviva.com/wp-content/themes/conviva2025/dist/js/convivaAppTracker.js": [
+          "scroll",
+          "mousemove",
+          "mousedown",
+          "mouseup",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KSF5BK8": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://f.vimeocdn.com/p/4.46.58/js/player.module.js": [
+          "orientationchange"
+        ],
+        "https://www.conviva.ai/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://f.vimeocdn.com/p/4.46.58/js/vendor.module.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js?ver=1": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "wry0JHM4YAnwX3DUDJvxRJg6wy5H0L_pC9.3xntzFhQ-1781167912.1926548-1.0.1.1-jXwDbKgXddJR0DHCUZgJqVpcQ3p5lPMVLpJAma7ny4qRAeYdnAf3b5NUQbsz7aMafJOuO0IoP_onO.PT3.fePZTH1PeLqLtzsg5czqszY1kGejNQm_zixV19rsTe2Nvz",
+        "domain": "conviva.com",
+        "path": "/",
+        "expires": "2026-06-11T09:21:52.539Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "6ghZHGTfh6VKbNGcXpKAp4_AhR6r29s1fdjN9yiGHek-1781167912.6664536-1.0.1.1-FIUez55kc3m9xGmLGD.V8hwokDRv.9UnbgUZFaYSY_TtG9ztmzOBmDLArHjpb_9LdxPEhbiI0c_pKZHiKZVtbio6TQMX.ws8eJHS2LGBME.fKSlHNdh9KEBdwEZyUuU9",
+        "domain": "www.conviva.ai",
+        "path": "/",
+        "expires": "2026-06-11T09:21:52.737Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "o.V9HWPS2a.0a7.G7Ptfnl4UbOPQ0.k9eLp5jwPXVCg-1781167913.1425269-1.0.1.1-xhZ5ro_z7fGqJFuXebxnq1LRxhRXsFRZ_E3wNgKzl7hTaYEs52bbYzt0XTTEe_cB1QGKoOSNd0gV3iW4deLL7EMJ1A5uf0Tle8etkqcxJfCt8Dz3Ms51tj66n0p7jzjK",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T09:21:53.381Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "YTnhYLtWEmIxX9dhSdA.8JBU6zGWFpA88EO92DeIDkM-1781167913.1425269-1.0.1.1-HQUmztjTnboAds6Vx_mJYchbBAFaSgcFpkpBaFYnvoQ",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vuid",
+        "value": "pl578235527.1311043694",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2027-07-16T08:51:55.440Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cnv_ses.1eb7",
+        "value": "*",
+        "domain": "www.conviva.ai",
+        "path": "/",
+        "expires": "2026-06-11T09:21:56.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.869135216.1781167915",
+        "domain": "conviva.ai",
+        "path": "/",
+        "expires": "2026-06-12T08:51:55.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_38467132_1",
+        "value": "1",
+        "domain": "conviva.ai",
+        "path": "/",
+        "expires": "2026-06-11T08:52:55.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_mkto_trk",
+        "value": "id:138-XJA-134&token:_mch-www.conviva.ai-7f5cd574a16c8e9ef5c9b6025dc50970",
+        "domain": "www.conviva.ai",
+        "path": "/",
+        "expires": "2027-07-16T08:51:55.909Z",
+        "size": 82,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.121815672.1781167915",
+        "domain": "conviva.ai",
+        "path": "/",
+        "expires": "2027-07-16T08:51:56.338Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_7CYPQVYLTP",
+        "value": "GS2.1.s1781167915$o1$g1$t1781167915$j60$l0$h0",
+        "domain": "conviva.ai",
+        "path": "/",
+        "expires": "2027-07-16T08:51:56.275Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_4NDJDJT1QM",
+        "value": "GS2.1.s1781167915$o1$g0$t1781167915$j60$l0$h0",
+        "domain": "conviva.ai",
+        "path": "/",
+        "expires": "2027-07-16T08:51:56.330Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A51%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202511.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fwww.conviva.ai%2F&groups=C0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0001%3A1",
+        "domain": "conviva.ai",
+        "path": "/",
+        "expires": "2027-06-11T08:51:56.000Z",
+        "size": 267,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cnv_id.1eb7",
+        "value": "b82fede4-47f8-432c-9ffb-db887dc9c5c4.1781167915.1.1781167917..055fccb9-846d-4670-80a7-94d1e3e2cfc3...",
+        "domain": "www.conviva.ai",
+        "path": "/",
+        "expires": "2027-07-16T08:51:56.985Z",
+        "size": 113,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781167912803,
+            "_s": 3,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1103740835.1781168,
+            "dl": "https://www.conviva.ai/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Conviva | Consumer-Perspective Analytics for the Agentic Era",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13u3uP-2u5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v889242116za20gzb830280817zd830280817",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 4,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167919,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938468",
+            "tfd": 7321,
+            "tid": "G-7CYPQVYLTP",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7CYPQVYLTP&gtm=45je6691v889242116za20gzb830280817zd830280817&_p=1781167912803&gcs=G100&gcd=13u3uP-2u5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj.dZTNiMT&_eu=AAAAAAAC&are=1&cid=1103740835.1781167919&frm=0&pscdl=denied&rcb=4&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115616986~115938465~115938468&sid=1781167919&sct=1&seg=0&dl=https%3A%2F%2Fwww.conviva.ai%2F&dt=Conviva%20%7C%20Consumer-Perspective%20Analytics%20for%20the%20Agentic%20Era&en=user_engagement&_fv=1&_nsi=1&_ss=1&tfd=7321"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAACAAQC",
+            "_p": 1781167912803,
+            "_s": 2,
+            "are": 1,
+            "cid": 121815672.1781168,
+            "dl": "https://www.conviva.ai/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Conviva | Consumer-Perspective Analytics for the Agentic Era",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13t3tPZ2t5l1",
+            "gcs": "G111",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v889242116za20gzb830280817zd830280817",
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 4,
+            "sct": 1,
+            "seg": 1,
+            "sid": 1781167915,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938468",
+            "tfd": 7320,
+            "tid": "G-7CYPQVYLTP",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7CYPQVYLTP&gtm=45je6691v889242116za20gzb830280817zd830280817&_p=1781167912803&gcs=G111&gcd=13t3tPZ2t5l1&npa=0&dma_cps=a&dma=1&gdid=dYWJhMj.dZTNiMT&_eu=AAACAAQC&are=1&cid=121815672.1781167915&frm=0&pscdl=&rcb=4&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115616986~115938465~115938468&sid=1781167915&sct=1&seg=1&dl=https%3A%2F%2Fwww.conviva.ai%2F&dt=Conviva%20%7C%20Consumer-Perspective%20Analytics%20for%20the%20Agentic%20Era&en=page_view&_ee=1&tfd=7320"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "did": "dYWJhMj",
+            "dl": "https://www.conviva.ai/",
+            "dma": 1,
+            "dma_cps": "-",
+            "frm": 0,
+            "gcd": "13u3uP-2u5l1",
+            "gcs": "G100",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45be6691v9138822291z8830280817za20gzb830280817zd830280817xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 16,
+            "rnd": 1833449481.1781168,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115938465~115938469~119456239~119456247",
+            "tfd": 4454,
+            "tft": 1781167916498,
+            "tid": "AW-688463398",
+            "tids": "AW-688463398"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=16&frm=0&ae=g&dl=https%3A%2F%2Fwww.conviva.ai%2F&scrsrc=www.googletagmanager.com&rnd=1833449481.1781167916&navt=n&npa=1&did=dYWJhMj&gdid=dYWJhMj.dZTNiMT&_tu=CA&gtm=45be6691v9138822291z8830280817za20gzb830280817zd830280817xea&gcs=G100&gcd=13u3uP-2u5l1&dma_cps=-&dma=1&tag_exp=115938465~115938469~119456239~119456247&apve=1&apvf=f&apvc=0&tids=AW-688463398&tid=AW-688463398&tft=1781167916498&tfd=4454"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_p": 1781167912803,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 121815672.1781168,
+            "dl": "https://www.conviva.ai/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Conviva | Consumer-Perspective Analytics for the Agentic Era",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13t3t3Z2t5l1",
+            "gcs": "G111",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v9186372145z8830280817za20gzb830280817zd830280817",
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 18,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167915,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tfd": 4301,
+            "tid": "G-4NDJDJT1QM",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-4NDJDJT1QM&gtm=45je6691v9186372145z8830280817za20gzb830280817zd830280817&_p=1781167912803&gcs=G111&gcd=13t3t3Z2t5l1&npa=0&dma_cps=a&dma=1&gdid=dYWJhMj.dZTNiMT&are=1&cid=121815672.1781167915&frm=0&pscdl=&rcb=18&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938469&sid=1781167915&sct=1&seg=0&dl=https%3A%2F%2Fwww.conviva.ai%2F&dt=Conviva%20%7C%20Consumer-Perspective%20Analytics%20for%20the%20Agentic%20Era&_tu=CA&en=page_view&_fv=1&_ss=1&tfd=4301"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_p": 1781167912803,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 121815672.1781168,
+            "dl": "https://www.conviva.ai/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Conviva | Consumer-Perspective Analytics for the Agentic Era",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13t3tPZ2t5l1",
+            "gcs": "G111",
+            "gdid": "dYWJhMj.dZTNiMT",
+            "gtm": "45je6691v889242116z8830280817za20gzb830280817zd830280817",
+            "npa": 0,
+            "pscdl": "",
+            "rcb": 4,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167915,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938465~115938468",
+            "tfd": 4193,
+            "tid": "G-7CYPQVYLTP",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-7CYPQVYLTP&gtm=45je6691v889242116z8830280817za20gzb830280817zd830280817&_p=1781167912803&gcs=G111&gcd=13t3tPZ2t5l1&npa=0&dma_cps=a&dma=1&gdid=dYWJhMj.dZTNiMT&_eu=AAAAAAAC&are=1&cid=121815672.1781167915&frm=0&pscdl=&rcb=4&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938468&sid=1781167915&sct=1&seg=0&dl=https%3A%2F%2Fwww.conviva.ai%2F&dt=Conviva%20%7C%20Consumer-Perspective%20Analytics%20for%20the%20Agentic%20Era&_tu=CA&en=page_view&_fv=1&_ss=1&tfd=4193"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_mchCn": "",
+            "_mchEcid": "",
+            "_mchHa": "",
+            "_mchHo": "www.conviva.ai",
+            "_mchId": "138-XJA-134",
+            "_mchNc": 1781167915912,
+            "_mchPc": "https:",
+            "_mchPo": "",
+            "_mchQp": "",
+            "_mchRe": "",
+            "_mchRu": "/",
+            "_mchTk": "_mch-www.conviva.ai-7f5cd574a16c8e9ef5c9b6025dc50970",
+            "_mchVr": 165
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://138-xja-134.mktoresp.com/webevents/visitWebPage?_mchNc=1781167915912&_mchCn=&_mchId=138-XJA-134&_mchTk=_mch-www.conviva.ai-7f5cd574a16c8e9ef5c9b6025dc50970&_mchHo=www.conviva.ai&_mchPo=&_mchRu=%2F&_mchPc=https%3A&_mchVr=165&_mchEcid=&_mchHa=&_mchRe=&_mchQp="
+      },
+      {
+        "data": {
+          "filter": "||vimeo.com/ablincoln/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "33a2e3bfebb0a779a4d6dbf06d15068a444837141781167913"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://player.vimeo.com/video/1174932831",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vimeo.com/ablincoln/vuid?pid=33a2e3bfebb0a779a4d6dbf06d15068a444837141781167913"
+      },
+      {
+        "data": {
+          "filter": "||ml-attr.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https://attr.ml-api.io/?domain=conviva.com&pId=$UID": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.ml-attr.com/getuid?https%3a%2f%2fattr.ml-api.io%2f%3fdomain%3dconviva.com%26pId%3d%24UID"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-4NDJDJT1QM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-4NDJDJT1QM&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-7CYPQVYLTP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-7CYPQVYLTP&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-688463398"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-688463398&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/165/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||munchkin.marketo.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://munchkin.marketo.net/munchkin.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KSF5BK8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KSF5BK8"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-7CYPQVYLTP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-7CYPQVYLTP"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-38467132-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.conviva.ai/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-38467132-1"
+      }
+    ]
+  }
+}

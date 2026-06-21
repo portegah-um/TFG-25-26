@@ -1,0 +1,146 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Rich Audience Marketplace",
+  "uri_ins": "https://richaudience.com",
+  "uri_dest": "https://richaudience.com/en/",
+  "uri_redirects": [
+    "https://richaudience.com/"
+  ],
+  "secure_connection": {},
+  "host": "richaudience.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:17:40.076Z",
+  "end_time": "2026-06-11T10:17:42.773Z",
+  "browsing_history": [
+    "https://richaudience.com/en/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "richaudience.com"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://richaudience.com/assets/693bf50d/jquery.js": [
+          "scroll",
+          "click"
+        ],
+        "https://richaudience.com/js/on-screen.min.js": [
+          "scroll"
+        ]
+      },
+      "SENSOR": {
+        "https://richaudience.com/assets/693bf50d/jquery.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://richaudience.com/assets/693bf50d/jquery.js": [
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "language",
+        "value": "f3e0933e8c18d9802ae07359bf61d15277c0726f20f95e235911634790f83b69a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D",
+        "domain": "richaudience.com",
+        "path": "/",
+        "expires": -1,
+        "size": 146,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_csrf-richaudience",
+        "value": "ac8588e5f8760f5dd56d64ff80ccb7f8a0177fcc16488501757bded3b554ad71a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_csrf-richaudience%22%3Bi%3A1%3Bs%3A32%3A%22nTjM3HeQmtetdhn0L5SyUS4_9UCPzbso%22%3B%7D",
+        "domain": "richaudience.com",
+        "path": "/",
+        "expires": -1,
+        "size": 198,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

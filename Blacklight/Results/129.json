@@ -1,0 +1,935 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "National Institutes of Health (NIH) |",
+  "uri_ins": "https://nih.gov",
+  "uri_dest": "https://www.nih.gov/",
+  "uri_redirects": [
+    "https://nih.gov/"
+  ],
+  "secure_connection": {},
+  "host": "nih.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:10:24.679Z",
+  "end_time": "2026-06-11T06:10:30.335Z",
+  "browsing_history": [
+    "https://www.nih.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "nih.gov",
+        "www.nih.gov"
+      ],
+      "third_party": [
+        "script.crazyegg.com",
+        "assets.pinterest.com",
+        "www.googletagmanager.com",
+        "ucm-us.verint-cdn.com",
+        "search.usa.gov",
+        "static.cloudflareinsights.com",
+        "www.google-analytics.com",
+        "dap.digitalgov.gov",
+        "region1.google-analytics.com",
+        "log.pinterest.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "click"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=NIH": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-MP1ZEJXS9F&cx=c&gtm=4e6691h1": [
+          "click"
+        ],
+        "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js": [
+          "mousedown"
+        ],
+        "https://www.nih.gov/sites/default/files/js/js_fBTE1V2ekU0ka8SHcEDHo0Zvkx7gNq69_n9azuxdjZY.js?scope=footer&delta=0&language=en&theme=nih2_uswds&include=eJxdjYEOwiAMRH8IRuIPLQ3UWkUgpczp14uKZjNprr13ydULPO5I5Pw4DK4aOV1ckFYgTsOaI-vCobqxf54Tq6GcKeKsQI66_PsJzrDu4dUkPh3mVm-vzsjFepCwhYIV1RYg3FNtkqzmPmUbVA6YYOmY-pd9omghoug3_PC3PgGlVmKC": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js": [
+          "keydown"
+        ],
+        "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=NIH": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ce.s",
+        "value": "lcw~1781158227714",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2027-06-11T06:10:27.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.277900913.1781158228",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2026-06-12T06:10:27.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-22075261-1",
+        "value": "1",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2026-06-11T06:11:27.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "hA5N4hVGdq_AxTNuNQlhuTF_wcplkfKVaMy6yF0UFzQ-1781158227-1.2.1.1-eAqDAhMzPW2cKzpW0.fOzYW_9j6FndA97SpFj42cF0tZb3pG4uyqfxoQhcnFr665TVP5.Kx_NlWLBKT3bxRbjZb2kSO1kJXZni4VPw28ciiErulfGX8KyYUoxfeQcHD7IaorE89mPyP00zgZakr3r3mP0uL62ymTJUZ4KUkm4y2AyaDeqSf1f0WLxS_RG6y0weHT1d4CoXWqwy5a45mymDqVXdeqDa8wFZWjUaV12d08Fg3hvs3YWXgmbSMOz9aHP3VyMDCkk1brrrIy3PtJyrnschipUsjgOclNA8x48ucBG60j_nAHb3HJ254XxjLRtebyh6LbAX9JiuMKWrya5Q",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2027-06-11T06:10:27.987Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://nih.gov",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "6G482feA4VOvdmdy6eQ0DaD4ovxBhxgiwq8Jl.cFzkw-1781158227.9150922-1.0.1.1-BvZfBmDnh7N4Gd9N42rglCW2ga5xBPK6rkY7hgVcp.mcj8zEd.gS_2mqWU7uyIJZZV7ylq.7d5g2awGb943Bodp0FhoLN7MTJETx62cURmF6rdJfWiQuY5Lvc79EpZc3",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2026-06-11T06:40:27.987Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.976224530.1781158228",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:10:28.484Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_MP1ZEJXS9F",
+        "value": "GS2.1.s1781158228$o1$g0$t1781158228$j60$l0$h0",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:10:28.096Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_CSLL4ZEK4L",
+        "value": "GS2.1.s1781158228$o1$g0$t1781158229$j59$l0$h0",
+        "domain": "nih.gov",
+        "path": "/",
+        "expires": "2027-07-16T06:10:29.406Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_et": 779,
+            "_eu": "AAAAAAQ",
+            "_p": 1781158227189,
+            "_s": 3,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 976224530.1781158,
+            "dl": "https://nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "National Institutes of Health (NIH) |",
+            "en": "INP",
+            "ep.agency": "HHS",
+            "ep.debug_event_type": "",
+            "ep.debug_target": "",
+            "ep.debug_timing": "complete",
+            "ep.event_name_dimension": "INP",
+            "ep.hostname_dimension": "nih.gov",
+            "ep.metric_id": "v4-1781158228224-7795839948648",
+            "ep.metric_rating": "good",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:nih.gov",
+            "ep.site_topic": "unspecified:nih.gov",
+            "ep.subagency": "NIH",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "epn.event_time": 0,
+            "epn.metric_delta": 16,
+            "epn.metric_value": 16,
+            "epn.value": 16,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 5026,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb867164358zd867164358&_p=1781158227189&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fnih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&dr=&sid=1781158228&sct=1&seg=0&_tu=wA&en=INP&_ee=1&ep.agency=HHS&ep.subagency=NIH&ep.site_topic=unspecified%3Anih.gov&ep.site_platform=unspecified%3Anih.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=nih.gov&epn.value=16&ep.metric_id=v4-1781158228224-7795839948648&epn.metric_value=16&epn.metric_delta=16&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=complete&epn.event_time=0&ep.event_name_dimension=INP&_et=779&tfd=5026"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781158227189,
+            "_s": 2,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 976224530.1781158,
+            "dl": "https://nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "National Institutes of Health (NIH) |",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 5010,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb867164358zd867164358&_p=1781158227189&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fnih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&dr=&sid=1781158228&sct=1&seg=0&_tu=wA&_s=2&tfd=5010"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1017,
+            "_eu": "AAAAAAQ",
+            "_p": 1781158227189,
+            "_s": 4,
+            "_tu": "QA",
+            "are": 1,
+            "cid": 976224530.1781158,
+            "dl": "https://www.nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institutes of Health (NIH) |",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691h1v873339392za20gzb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938468~119456239~119456247",
+            "tfd": 5009,
+            "tid": "G-MP1ZEJXS9F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MP1ZEJXS9F&gtm=45je6691h1v873339392za20gzb867164358zd867164358&_p=1781158227189&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&_eu=AAAAAAQ&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=4&tag_exp=115938465~115938468~119456239~119456247&sid=1781158228&sct=1&seg=0&dl=https%3A%2F%2Fwww.nih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&_tu=QA&en=user_engagement&_et=1017&tfd=5009"
+      },
+      {
+        "data": {
+          "filter": "||log.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "board_count": 0,
+            "button_count": 0,
+            "event": "init",
+            "follow_count": 0,
+            "guid": "vMq2GdiiAQDE",
+            "lang": "en",
+            "nvl": "en-US",
+            "pin_count": 0,
+            "profile_count": 0,
+            "section_count": 0,
+            "sub": "www",
+            "tv": 2021110201,
+            "type": "pidget",
+            "via": "https://www.nih.gov/",
+            "viaSrc": "canonical"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.pinterest.com/?type=pidget&guid=vMq2GdiiAQDE&tv=2021110201&event=init&sub=www&button_count=0&follow_count=0&pin_count=0&profile_count=0&board_count=0&section_count=0&lang=en&nvl=en-US&via=https%3A%2F%2Fwww.nih.gov%2F&viaSrc=canonical"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_fv": 1,
+            "_p": 1781158227189,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "wA",
+            "are": 1,
+            "cid": 976224530.1781158,
+            "dl": "https://nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dr": "",
+            "dt": "National Institutes of Health (NIH) |",
+            "en": "page_view",
+            "ep.agency": "HHS",
+            "ep.hostname_dimension": "nih.gov",
+            "ep.protocol": "https:",
+            "ep.script_source": "https://dap.digitalgov.gov/universal-federated-analytics-min.js",
+            "ep.site_platform": "unspecified:nih.gov",
+            "ep.site_topic": "unspecified:nih.gov",
+            "ep.subagency": "NIH",
+            "ep.using_parallel_tracker": "no",
+            "ep.version": "20250702 v8.7 - ga4",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gdid": "dMDhkMT",
+            "gtm": "45je6691v9131934939za200zb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 9,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938469",
+            "tfd": 3318,
+            "tid": "G-CSLL4ZEK4L",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6691v9131934939za200zb867164358zd867164358&_p=1781158227189&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&gdid=dMDhkMT&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=9&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fnih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&dr=&sid=1781158228&sct=1&seg=0&_tu=wA&en=page_view&_fv=1&_ss=1&_ee=1&ep.agency=HHS&ep.subagency=NIH&ep.site_topic=unspecified%3Anih.gov&ep.site_platform=unspecified%3Anih.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20250702%20v8.7%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=nih.gov&tfd=3318"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-CSLL4ZEK4L"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"
+      },
+      {
+        "data": {
+          "filter": "/web-vitals/*",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_c": 1,
+            "_eu": "AAgAAAQ",
+            "_p": 1781158227189,
+            "_s": 3,
+            "are": 1,
+            "cid": 976224530.1781158,
+            "cu": "USD",
+            "dl": "https://www.nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institutes of Health (NIH) |",
+            "en": "click_on_jobs___nih_link",
+            "epn.value": 0,
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v873339392za20gzb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938468~119456239~119456247",
+            "tfd": 2922,
+            "tid": "G-MP1ZEJXS9F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MP1ZEJXS9F&gtm=45je6691h1v873339392za20gzb867164358zd867164358&_p=1781158227189&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAgAAAQ&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938468~119456239~119456247&sid=1781158228&sct=1&seg=0&dl=https%3A%2F%2Fwww.nih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&cu=USD&en=click_on_jobs___nih_link&_c=1&epn.value=0&tfd=2922"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAQ",
+            "_p": 1781158227189,
+            "_s": 2,
+            "are": 1,
+            "cid": 976224530.1781158,
+            "dl": "https://www.nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institutes of Health (NIH) |",
+            "en": "[object Object]",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v873339392z8867164358za20gzb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938468~119456239~119456247",
+            "tfd": 2921,
+            "tid": "G-MP1ZEJXS9F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MP1ZEJXS9F&gtm=45je6691h1v873339392z8867164358za20gzb867164358zd867164358&_p=1781158227189&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~119456239~119456247&sid=1781158228&sct=1&seg=0&dl=https%3A%2F%2Fwww.nih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&en=%5Bobject%20Object%5D&tfd=2921"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "Ag",
+            "_fv": 1,
+            "_p": 1781158227189,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 976224530.1781158,
+            "dl": "https://www.nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institutes of Health (NIH) |",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v873339392z8867164358za20gzb867164358zd867164358",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781158228,
+            "sr": "375x812",
+            "tag_exp": "115938465~115938468~119456239~119456247",
+            "tfd": 2899,
+            "tid": "G-MP1ZEJXS9F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MP1ZEJXS9F&gtm=45je6691h1v873339392z8867164358za20gzb867164358zd867164358&_p=1781158227189&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=Ag&are=1&cid=976224530.1781158228&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~119456239~119456247&sid=1781158228&sct=1&seg=0&dl=https%3A%2F%2Fwww.nih.gov%2F&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&en=page_view&_fv=1&_ss=1&tfd=2899"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 277900913.17811584,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YEBAAEABAAAAACAAI~",
+            "_v": "j102",
+            "a": 598319634,
+            "cid": 976224530.1781158,
+            "dl": "https://www.nih.gov/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "National Institutes of Health (NIH) |",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 1437678933,
+            "gtm": "45He6691h1n815CBCNW2v867164358za200zd867164358",
+            "jid": 1560867293,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115616985~115938465~115938468",
+            "tid": "UA-22075261-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2096217312
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=598319634&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nih.gov%2F&ul=en-us&dt=National%20Institutes%20of%20Health%20(NIH)%20%7C&sr=375x812&vp=375x812&_u=YEBAAEABAAAAACAAI~&jid=1560867293&gjid=1437678933&cid=976224530.1781158228&tid=UA-22075261-1&_gid=277900913.1781158228&_r=1&_slc=1&gtm=45He6691h1n815CBCNW2v867164358za200zd867164358&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616985~115938465~115938468&npa=1&z=2096217312"
+      },
+      {
+        "data": {
+          "filter": "||digitalgov.gov/Universal-Federated-Analytics-Min.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "agency": "HHS",
+            "subagency": "NIH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=NIH"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-MP1ZEJXS9F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-MP1ZEJXS9F&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0011/2616/sampling/www.nih.gov.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/d892378aebb6dbc4da99df634f69dd11.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0011/2616/site/www.nih.gov.json?t=1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5CBCNW2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5CBCNW2"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nih.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0011/2616.js"
+      }
+    ]
+  }
+}

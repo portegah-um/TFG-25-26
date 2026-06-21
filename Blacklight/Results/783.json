@@ -1,0 +1,345 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "BlackBerry | Secure Communications and QNX",
+  "uri_ins": "https://blackberry.com",
+  "uri_dest": "https://www.blackberry.com/en",
+  "uri_redirects": [
+    "https://blackberry.com/",
+    "https://web.blackberry.com/",
+    "https://www.blackberry.com/es/es"
+  ],
+  "secure_connection": {},
+  "host": "blackberry.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:34:38.404Z",
+  "end_time": "2026-06-11T09:34:44.150Z",
+  "browsing_history": [
+    "https://www.blackberry.com/en"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "blackberry.com",
+        "web.blackberry.com",
+        "www.blackberry.com",
+        "assets.blackberry.com"
+      ],
+      "third_party": [
+        "cdn.weglot.com",
+        "cdn.bc0a.com",
+        "www.googletagmanager.com",
+        "ixfd2-api.bc0a.com",
+        "global.ketchcdn.com",
+        "cdn-api-weglot.com",
+        "api.weglot.com",
+        "cdn.ketchjs.com",
+        "region1.google-analytics.com",
+        "ingesteer.services-prod.nsvcs.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-FW4WNKQ41F&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.blackberry.com/.netlify/scripts/rum": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KXKJ3PRQ": [
+          "click"
+        ],
+        "https://www.blackberry.com/_next/static/chunks/app/%5B%5B...slug%5D%5D/page-bd0ff0b5a28e558c.js": [
+          "scroll"
+        ],
+        "https://www.blackberry.com/_next/static/chunks/7514-5742b9da9536ce7b.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://www.blackberry.com/_next/static/chunks/6307-a03d0b5fc16e3fdf.js": [
+          "scroll"
+        ],
+        "https://www.blackberry.com/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.blackberry.com/.netlify/scripts/rum": [
+          "keydown"
+        ],
+        "https://www.blackberry.com/_next/static/chunks/1479-cd8edbee36c5e686.js": [
+          "keydown"
+        ],
+        "https://www.blackberry.com/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://www.blackberry.com/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_swb",
+        "value": "d99796af-8141-43eb-9272-e349187c385c",
+        "domain": "blackberry.com",
+        "path": "/",
+        "expires": "2027-07-16T09:34:42.973Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781170480786,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1970582214.178117,
+            "dl": "https://www.blackberry.com/en",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "BlackBerry | Secure Communications and QNX",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gdid": "dN2JhM2",
+            "gtm": "45je6691v9241440907z89235362491za20gzb9235362491zd9235362491",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 13,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781170483,
+            "sr": "375x812",
+            "tag_exp": "0~115938466~115938468",
+            "tfd": 5093,
+            "tid": "G-FW4WNKQ41F",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.db_company_name": "Non-Company Visitor",
+            "up.db_country_name": "Non-Company Visitor",
+            "up.db_industry": "Non-Company Visitor",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-FW4WNKQ41F&gtm=45je6691v9241440907z89235362491za20gzb9235362491zd9235362491&_p=1781170480786&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dN2JhM2&_eu=AAAAAAAC&are=1&cid=1970582214.1781170484&frm=0&pscdl=denied&rcb=13&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468&sid=1781170483&sct=1&seg=0&dl=https%3A%2F%2Fwww.blackberry.com%2Fen&dt=BlackBerry%20%7C%20Secure%20Communications%20and%20QNX&en=page_view&_fv=1&_nsi=1&_ss=1&up.db_company_name=Non-Company%20Visitor&up.db_industry=Non-Company%20Visitor&up.db_country_name=Non-Company%20Visitor&tfd=5093"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-FW4WNKQ41F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FW4WNKQ41F&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1765836955,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": false,
+            "ids": "eyJzd2JfYmxhY2tiZXJyeV9jb20iOiJkOTk3OTZhZi04MTQxLTQzZWItOTI3Mi1lMzQ5MTg3YzM4NWMifQ==",
+            "jurisdiction": "gdpr",
+            "property": "blackberry_com",
+            "region": "ES",
+            "tenant": "blackberry",
+            "url": "https://www.blackberry.com/en"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=false&url=https%3A%2F%2Fwww.blackberry.com%2Fen&property=blackberry_com&environment=production&jurisdiction=gdpr&tenant=blackberry&dver=1765836955&event_type=once_identities&ids=eyJzd2JfYmxhY2tiZXJyeV9jb20iOiJkOTk3OTZhZi04MTQxLTQzZWItOTI3Mi1lMzQ5MTg3YzM4NWMifQ%3D%3D&region=ES"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "api_key": "wg_8c81b3c5f1de49e34f6b70ee6c90b3cb6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.weglot.com/pageviews?api_key=wg_8c81b3c5f1de49e34f6b70ee6c90b3cb6"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/api/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "client": "js_sdk",
+            "client_version": "1.5.36"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ixfd2-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000319114/0668886200?client=js_sdk&client_version=1.5.36"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KXKJ3PRQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KXKJ3PRQ"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/autopilot/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.blackberry.com/en",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.bc0a.com/autopilot/f00000000319114/autopilot_sdk.js"
+      }
+    ]
+  }
+}

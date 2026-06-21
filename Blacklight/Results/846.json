@@ -1,0 +1,301 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "FOCUS online - Aktuelle Nachrichten",
+  "uri_ins": "https://focus.de",
+  "uri_dest": "https://www.focus.de/",
+  "uri_redirects": [
+    "https://focus.de/"
+  ],
+  "secure_connection": {},
+  "host": "focus.de",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:53:02.483Z",
+  "end_time": "2026-06-11T09:53:07.128Z",
+  "browsing_history": [
+    "https://www.focus.de/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "focus.de",
+        "www.focus.de",
+        "cmp.focus.de",
+        "cp.focus.de",
+        "tags.focus.de",
+        "assets.sp.focus.de",
+        "sp.focus.de",
+        "kommentare-static.focus.de"
+      ],
+      "third_party": [
+        "quadro.burda-forward.de",
+        "a.bf-ad.net",
+        "app.varify.io",
+        "cdn.auth0.com",
+        "benelph.de"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://a.bf-ad.net/adengine/focus/chunk-prepareEngine-D8DRGeK4.js": [
+          "scroll"
+        ],
+        "https://www.focus.de/ctf/assets/renderer/static/chunks/chunk-CmZDgCQc.js": [
+          "scroll"
+        ],
+        "https://www.focus.de/ctf/assets/renderer/static/chunks/chunk-Cypo1DtU.js": [
+          "click"
+        ],
+        "https://www.focus.de/": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cmp.focus.de/Notice.d4c42.js": [
+          "keydown"
+        ],
+        "https://www.focus.de/ctf/assets/renderer/static/chunks/chunk-Cypo1DtU.js": [
+          "keydown"
+        ],
+        "https://www.focus.de/": [
+          "input"
+        ]
+      },
+      "SENSOR": {
+        "https://www.focus.de/ctf/assets/renderer/static/chunks/chunk-myev2cgt.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "utag_main",
+        "value": "v_id:019eb6197a80001fd3acd260a56100087001507f004bb$_sn:1$_se:6$_ss:0$_st:1781173384270$ses_id:1781171583620%3Bexp-session$_pn:1%3Bexp-session",
+        "domain": "focus.de",
+        "path": "/",
+        "expires": "2027-06-11T09:53:04.000Z",
+        "size": 150,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_snow_ses.ea17",
+        "value": "*",
+        "domain": "focus.de",
+        "path": "/",
+        "expires": "2026-06-11T10:23:04.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_snow_id.ea17",
+        "value": "6b119250-2f2d-4e71-8c76-9910a043adf5.1781171584.1.1781171584.1781171584.08831609-14b9-4fef-b0d2-b4188a07bd73",
+        "domain": "focus.de",
+        "path": "/",
+        "expires": "2026-06-11T10:23:04.000Z",
+        "size": 121,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_snow_pv_id.ea17",
+        "value": "67450760-6bb2-42d8-88c2-43c0cdc4772c|focus_web-prod",
+        "domain": "focus.de",
+        "path": "/",
+        "expires": -1,
+        "size": 67,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sp",
+        "value": "a59b7637-7bf4-43a1-a5a4-d7d493867af7",
+        "domain": "focus.de",
+        "path": "/",
+        "expires": "2027-06-11T09:53:04.815Z",
+        "size": 38,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_sp_su",
+        "value": "false",
+        "domain": "focus.de",
+        "path": "/",
+        "expires": "2027-06-11T09:53:04.771Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||bf-ad.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.focus.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.bf-ad.net/adengine/focus/chunk-prepareEngine-D8DRGeK4.js"
+      },
+      {
+        "data": {
+          "filter": "||benelph.de^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.focus.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://benelph.de/fcs/img/ktfjhw/160x600/scoup/xiv/id_C1ZXTyhzmH/unser-jahr-urwald.png"
+      },
+      {
+        "data": {
+          "filter": "||benelph.de^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.focus.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://benelph.de/160x600/0f5d947b43cfccb4fa49.png"
+      },
+      {
+        "data": {
+          "filter": "||bf-ad.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.focus.de/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.bf-ad.net/adengine/focus/adengine.js"
+      }
+    ]
+  }
+}

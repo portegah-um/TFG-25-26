@@ -1,0 +1,335 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Mobile Measurement & Deep Linking Platform | Branch",
+  "uri_ins": "https://branch.io",
+  "uri_dest": "https://www.branch.io/",
+  "uri_redirects": [
+    "https://branch.io/"
+  ],
+  "secure_connection": {},
+  "host": "branch.io",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:46:36.613Z",
+  "end_time": "2026-06-11T08:46:41.979Z",
+  "browsing_history": [
+    "https://www.branch.io/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "branch.io",
+        "www.branch.io",
+        "www2.branch.io"
+      ],
+      "third_party": [
+        "dev.visualwebsiteoptimizer.com",
+        "www.googletagmanager.com",
+        "client.prod.mplat-ppcprotect.com",
+        "www.redditstatic.com",
+        "cdn.cookielaw.org",
+        "www.google.com",
+        "pixel-config.reddit.com",
+        "alb.reddit.com",
+        "click.prod.mplat-ppcprotect.com",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.branch.io/wp-content/themes/branch/assets/dist/js/header.js?ver=1781028184": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MXLT3G7": [
+          "click"
+        ],
+        "https://www.branch.io/wp-content/plugins/branch-texture-container/build/mouse-tracking.js?ver=1776168557": [
+          "mousemove"
+        ],
+        "https://www.branch.io/wp-content/plugins/branch-marketo-forms/build/view.js?ver=1778787754": [
+          "mousemove",
+          "scroll"
+        ],
+        "https://www.branch.io/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=b0f909c3ec791c383210": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.branch.io/wp-content/plugins/branch-marketo-forms/build/view.js?ver=1778787754": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.branch.io/wp-content/plugins/branch-marketo-forms/build/view.js?ver=1778787754": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "XkqZBqP1lk1fyYvSkV9WbGwLsG7kvlHNsQPmOvHAgLI-1781167597.5667229-1.0.1.1-tJQy1RZh3GPQgTIzaJSlTHnlxbq2TUnQhL29oPjUSc8zY2FY9mqVrxHv.7K8VpVGbRzrxbW8CE6FgYfz3BVYURwiwcGatDmruztUkPlRmMH4v5Wto5olkNxLUdWVXt4l",
+        "domain": "www.branch.io",
+        "path": "/",
+        "expires": "2026-06-11T09:16:37.599Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1210472248.1781167598",
+        "domain": "branch.io",
+        "path": "/",
+        "expires": "2026-09-09T08:46:38.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "bnc_returning_visitor",
+        "value": "1",
+        "domain": "www.branch.io",
+        "path": "/",
+        "expires": "2026-07-11T08:46:38.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_rdt_uuid",
+        "value": "1781167598693.4ea0c3a1-7e23-4c01-9e32-bb04494c54bd",
+        "domain": "branch.io",
+        "path": "/",
+        "expires": "2026-09-09T08:46:38.000Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A46%3A39+GMT%2B0200+(Central+European+Summer+Time)&version=202208.1.0&isIABGlobal=false&hosts=&consentId=8c2cd80a-7b97-4e1e-8714-a3faaa53344c&interactionCount=0&landingPath=https%3A%2F%2Fwww.branch.io%2F&groups=C0004%3A0%2CC0002%3A0%2CC0001%3A1%2CC0003%3A0%2CC0005%3A0",
+        "domain": "branch.io",
+        "path": "/",
+        "expires": "2027-06-11T08:46:39.000Z",
+        "size": 327,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "YYZMP2ekhXOQcQUGXSNZzWvh0Jse4kVlVgXCRi_ljIg-1781167601.256332-1.0.1.1-buD4mn.ltXrd3BkZ8zlWcODb8t0PDtOX1DB5_7j_KlamgLfnLd79xYZ_bi.Pb1LOvMoZ_dssC.LP81_chautbf3tRkjx98rfa.oGH163jlGHOg4K9xaoA2UifkQx5k..",
+        "domain": "www2.branch.io",
+        "path": "/",
+        "expires": "2026-06-11T09:16:41.286Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||alb.reddit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aaid": "",
+            "dpcc": "",
+            "dpm": "",
+            "dprc": "",
+            "esurl": "https://www.branch.io/",
+            "event": "PageVisit",
+            "external_id": "",
+            "id": "a2_iuwt1nqwewfs",
+            "idfa": "",
+            "integration": "gtm",
+            "m.conversionId": "",
+            "m.customEventName": "",
+            "m.products": "",
+            "m.transactionId": "",
+            "m.value": "",
+            "opt_out": 0,
+            "partner": "",
+            "partner_version": "1.0.4",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781167598699,
+            "uuid": "4ea0c3a1-7e23-4c01-9e32-bb04494c54bd",
+            "v": "rdt_afb90018"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.branch.io/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://alb.reddit.com/rp.gif?ts=1781167598699&id=a2_iuwt1nqwewfs&event=PageVisit&m.value=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=4ea0c3a1-7e23-4c01-9e32-bb04494c54bd&aaid=&external_id=&idfa=&integration=gtm&partner=&partner_version=1.0.4&opt_out=0&sh=812&sw=375&v=rdt_afb90018&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.branch.io%2F"
+      },
+      {
+        "data": {
+          "filter": "||redditstatic.com/ads/pixel.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pixel_id": "a2_iuwt1nqwewfs"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.branch.io/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.redditstatic.com/ads/pixel.js?pixel_id=a2_iuwt1nqwewfs"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MXLT3G7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.branch.io/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MXLT3G7"
+      },
+      {
+        "data": {
+          "filter": "||visualwebsiteoptimizer.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 1223660,
+            "p": "web",
+            "ph": 1,
+            "st": 613,
+            "u": "https://www.branch.io/",
+            "vn": 2.2,
+            "x": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.branch.io/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=1223660&u=https%3A%2F%2Fwww.branch.io%2F&vn=2.2&ph=1&p=web&st=613&x=true"
+      }
+    ]
+  }
+}

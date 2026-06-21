@@ -1,0 +1,898 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Breaking News, World News and Video from Al Jazeera",
+  "uri_ins": "https://aljazeera.com",
+  "uri_dest": "https://www.aljazeera.com/",
+  "uri_redirects": [
+    "https://aljazeera.com/"
+  ],
+  "secure_connection": {},
+  "host": "aljazeera.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:12:45.858Z",
+  "end_time": "2026-06-11T09:12:52.356Z",
+  "browsing_history": [
+    "https://www.aljazeera.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "aljazeera.com",
+        "www.aljazeera.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "www.googletagmanager.com",
+        "static.chartbeat.com",
+        "cf-images.eu-west-1.prod.boltdns.net",
+        "cdn.amplitude.com",
+        "geolocation.onetrust.com",
+        "ping.chartbeat.net",
+        "region1.google-analytics.com",
+        "api.lab.amplitude.com",
+        "a.pub.network",
+        "d.pub.network",
+        "c.pub.network",
+        "securepubads.g.doubleclick.net",
+        "api2.amplitude.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-XN9JB9Q0M1": [
+          "click"
+        ],
+        "https://static.chartbeat.com/js/chartbeat.js": [
+          "scroll"
+        ],
+        "https://www.aljazeera.com/static/js/component~AudioPlayer~493df0b3.3c0ae473.chunk.js": [
+          "click"
+        ],
+        "https://www.aljazeera.com/static/js/component~amp-route~article-route~common-route~gallery-route~homepage-route~liveblog-route~login-rou~d82eadb2.d0bad4bf.chunk.js": [
+          "mousedown",
+          "scroll"
+        ],
+        "https://www.aljazeera.com/static/js/component~main~6e6dca10.daf85c6a.chunk.js": [
+          "scroll"
+        ],
+        "https://www.aljazeera.com/static/js/component~main~5db14389.49de277f.chunk.js": [
+          "scroll"
+        ],
+        "https://www.aljazeera.com/static/js/react-core~7dbd8cdd.03b5246c.chunk.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.aljazeera.com/static/js/vendor~main~7dbd8cdd.319522f8.chunk.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.aljazeera.com/static/js/component~AudioPlayer~493df0b3.3c0ae473.chunk.js": [
+          "touchstart"
+        ],
+        "https://www.aljazeera.com/static/js/vendor~common-route~featured-gallery~homepage-route~topic-route~vertical-video-experience~video-rout~7433b1ad.87c45a2f.chunk.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.aljazeera.com/static/js/vendor~common-route~featured-gallery~homepage-route~topic-route~vertical-video-experience~video-rout~7433b1ad.87c45a2f.chunk.js": [
+          "keydown"
+        ],
+        "https://www.aljazeera.com/static/js/react-core~7dbd8cdd.03b5246c.chunk.js": [
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://www.aljazeera.com/static/js/vendor~main~7dbd8cdd.319522f8.chunk.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_pbjs_id_optout",
+        "value": "1",
+        "domain": "www.aljazeera.com",
+        "path": "/",
+        "expires": "2027-06-11T09:12:49.376Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cb",
+        "value": "B_Gb10BQy4ryB7eInS",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2027-07-11T09:12:48.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_chartbeat2",
+        "value": ".1781169168249.1781169168249.1.DUFsqUDIGw4FBGvaFNCF_r0CCzoTAe.1",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2027-07-11T09:12:48.000Z",
+        "size": 74,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "external",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2026-06-11T09:42:48.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.886160091.1781169169",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2027-07-16T09:12:48.587Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMP_9e2bdeb55f",
+        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI4MGRlYTkyMi0zZmJmLTQxMzQtYWJjOC1jNTViNjAzNDUyZTYlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzgxMTY5MTY4NjU1JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc4MTE2OTE2OTI2NiUyQyUyMmxhc3RFdmVudElkJTIyJTNBMSU3RA==",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2027-06-11T09:12:49.000Z",
+        "size": 262,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A12%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=bb0101e7-5bf7-441b-be98-917c25043401&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.aljazeera.com%2F&groups=C0001%3A1%2CC0007%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A0%2CV2STACK42%3A0",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2027-06-11T09:12:49.000Z",
+        "size": 404,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_XN9JB9Q0M1",
+        "value": "GS2.1.s1781169168$o1$g0$t1781169171$j57$l0$h0",
+        "domain": "aljazeera.com",
+        "path": "/",
+        "expires": "2027-07-16T09:12:51.185Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAEQC",
+            "_p": 1781169167033,
+            "_s": 5,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 886160091.1781169,
+            "dl": "https://www.aljazeera.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dp": "/",
+            "dt": "Breaking News, World News and Video from Al Jazeera",
+            "en": "INP",
+            "ep.anonymize_ip": true,
+            "ep.debug_load_state": "complete",
+            "ep.debug_target": "#onetrust-policy-text>a.ot-cookie-policy-link",
+            "ep.inp_interaction_type": "keyboard",
+            "ep.inp_longest_script_subpart": "",
+            "ep.inp_longest_script_url": "",
+            "ep.landing_page_path": "/",
+            "ep.metric_id": "v5-1781169167349-1147269509731",
+            "ep.metric_rating": "good",
+            "ep.navigation_type": "navigate",
+            "epn.inp_input_delay": 2,
+            "epn.inp_interaction_time": 4998,
+            "epn.inp_next_paint_time": 5062,
+            "epn.inp_presentation_delay": 34,
+            "epn.inp_processing_duration": 28,
+            "epn.inp_total_paint_duration": 0,
+            "epn.inp_total_script_duration": 0,
+            "epn.inp_total_style_layout_duration": 0,
+            "epn.inp_total_unattributed_duration": 0,
+            "epn.metric_delta": 64,
+            "epn.metric_value": 64,
+            "epn.value": 64,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v894171532za200zb859977376zd859977376",
+            "ngs": 1,
+            "ni": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169168,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 5925,
+            "tid": "G-XN9JB9Q0M1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XN9JB9Q0M1&gtm=45je6691v894171532za200zb859977376zd859977376&_p=1781169167033&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAEQC&are=1&cid=886160091.1781169169&frm=0&ngs=1&ni=1&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=5&tag_exp=0~115938465~115938468&dp=%2F&sid=1781169168&sct=1&seg=0&dl=https%3A%2F%2Fwww.aljazeera.com%2F&dt=Breaking%20News%2C%20World%20News%20and%20Video%20from%20Al%20Jazeera&_tu=AAg&en=INP&_ee=1&ep.anonymize_ip=true&epn.value=64&ep.metric_id=v5-1781169167349-1147269509731&epn.metric_value=64&epn.metric_delta=64&ep.metric_rating=good&ep.navigation_type=navigate&ep.landing_page_path=%2F&ep.debug_target=%23onetrust-policy-text%3Ea.ot-cookie-policy-link&ep.debug_load_state=complete&epn.inp_input_delay=2&epn.inp_processing_duration=28&epn.inp_presentation_delay=34&ep.inp_interaction_type=keyboard&epn.inp_interaction_time=4998&epn.inp_next_paint_time=5062&ep.inp_longest_script_url=&ep.inp_longest_script_subpart=&epn.inp_total_script_duration=0&epn.inp_total_style_layout_duration=0&epn.inp_total_paint_duration=0&epn.inp_total_unattributed_duration=0&tfd=5925"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1005,
+            "_eu": "AAAAAEQC",
+            "_p": 1781169167033,
+            "_s": 4,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 886160091.1781169,
+            "dl": "https://www.aljazeera.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Breaking News, World News and Video from Al Jazeera",
+            "en": "user_engagement",
+            "ep.anonymize_ip": true,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v894171532za200zb859977376zd859977376",
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169168,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 5913,
+            "tid": "G-XN9JB9Q0M1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XN9JB9Q0M1&gtm=45je6691v894171532za200zb859977376zd859977376&_p=1781169167033&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAEQC&are=1&cid=886160091.1781169169&frm=0&ngs=1&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=4&tag_exp=0~115938465~115938468&sid=1781169168&sct=1&seg=0&dl=https%3A%2F%2Fwww.aljazeera.com%2F&dt=Breaking%20News%2C%20World%20News%20and%20Video%20from%20Al%20Jazeera&_tu=AAg&en=user_engagement&ep.anonymize_ip=true&_et=1005&tfd=5913"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAEQC",
+            "_p": 1781169167033,
+            "_s": 3,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 886160091.1781169,
+            "dl": "https://www.aljazeera.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dp": "/",
+            "dt": "Breaking News, World News and Video from Al Jazeera",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v894171532za200zb859977376zd859977376",
+            "ngs": 1,
+            "ni": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169168,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": 10001,
+            "tfd": 5912,
+            "tid": "G-XN9JB9Q0M1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XN9JB9Q0M1&gtm=45je6691v894171532za200zb859977376zd859977376&_p=1781169167033&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&tcfd=10001&_eu=AAAAAEQC&are=1&cid=886160091.1781169169&frm=0&ngs=1&ni=1&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938465~115938468&dp=%2F&sid=1781169168&sct=1&seg=0&dl=https%3A%2F%2Fwww.aljazeera.com%2F&dt=Breaking%20News%2C%20World%20News%20and%20Video%20from%20Al%20Jazeera&_tu=AAg&_s=3&tfd=5912"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099063
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606090101/pubads_impl.js?cb=31099063"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api2.amplitude.com/2/httpapi"
+      },
+      {
+        "data": {
+          "filter": "||pub.network^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.pub.network/aljazeera-com/pubfig.engine.mobile.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||pub.network^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.pub.network/aljazeera-com/prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||pub.network^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.pub.network/v2/c"
+      },
+      {
+        "data": {
+          "filter": "||pub.network^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.pub.network/v2/c"
+      },
+      {
+        "data": {
+          "filter": "||pub.network^",
+          "listName": "easylist.txt",
+          "query": {
+            "env": "PROD"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d.pub.network/v2/sites/aljazeera-com/configs?env=PROD"
+      },
+      {
+        "data": {
+          "filter": "||pub.network^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.pub.network/aljazeera-com/pubfig.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAEQC",
+            "_p": 1781169167033,
+            "_s": 2,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 886160091.1781169,
+            "dl": "https://www.aljazeera.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dp": "/",
+            "dt": "Breaking News, World News and Video from Al Jazeera",
+            "en": "FCP",
+            "ep.anonymize_ip": true,
+            "ep.debug_load_state": "loading",
+            "ep.debug_target": "",
+            "ep.landing_page_path": "/",
+            "ep.metric_id": "v5-1781169167350-5594479663962",
+            "ep.metric_rating": "good",
+            "ep.navigation_type": "navigate",
+            "epn.fcp_first_byte_to_fcp": 489,
+            "epn.fcp_ttfb": 694,
+            "epn.metric_delta": 1182.9000000059605,
+            "epn.metric_value": 1182.9000000059605,
+            "epn.value": 1183,
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v894171532za200zb859977376zd859977376",
+            "ngs": 1,
+            "ni": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169168,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 2790,
+            "tid": "G-XN9JB9Q0M1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XN9JB9Q0M1&gtm=45je6691v894171532za200zb859977376zd859977376&_p=1781169167033&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAEQC&are=1&cid=886160091.1781169169&frm=0&ngs=1&ni=1&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115938465~115938468&dp=%2F&sid=1781169168&sct=1&seg=0&dl=https%3A%2F%2Fwww.aljazeera.com%2F&dt=Breaking%20News%2C%20World%20News%20and%20Video%20from%20Al%20Jazeera&_tu=AAg&en=FCP&_ee=1&ep.anonymize_ip=true&epn.value=1183&ep.metric_id=v5-1781169167350-5594479663962&epn.metric_value=1182.9000000059605&epn.metric_delta=1182.9000000059605&ep.metric_rating=good&ep.navigation_type=navigate&ep.landing_page_path=%2F&ep.debug_target=&ep.debug_load_state=loading&epn.fcp_ttfb=694&epn.fcp_first_byte_to_fcp=489&tfd=2790"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.lab.amplitude.com/sdk/vardata"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAEAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781169167033,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 886160091.1781169,
+            "dl": "https://www.aljazeera.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Breaking News, World News and Video from Al Jazeera",
+            "en": "page_view",
+            "ep.anonymize_ip": true,
+            "ep.dimension13": "Home Page",
+            "ep.dimension15": "Web",
+            "frm": 0,
+            "gcd": "13l3lPl2l1l1",
+            "gtm": "45je6691v894171532za200zb859977376zd859977376",
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 15,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169168,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 2300,
+            "tid": "G-XN9JB9Q0M1",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XN9JB9Q0M1&gtm=45je6691v894171532za200zb859977376zd859977376&_p=1781169167033&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAEAC&are=1&cid=886160091.1781169169&frm=0&ngs=1&pscdl=&rcb=15&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&dt=Breaking%20News%2C%20World%20News%20and%20Video%20from%20Al%20Jazeera&dl=https%3A%2F%2Fwww.aljazeera.com%2F&sid=1781169168&sct=1&seg=0&_tu=AAg&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&ep.dimension15=Web&ep.dimension13=Home%20Page&tfd=2300"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-XN9JB9Q0M1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-XN9JB9Q0M1&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.aljazeera.com/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "_acct": "anon",
+            "b": 1999,
+            "c": 0,
+            "d": "aljazeera.com",
+            "e": 0,
+            "f": "00001",
+            "g": 3291,
+            "g0": "Trending",
+            "g1": "No Author",
+            "g4": "Home Page",
+            "h": "aljazeera.com",
+            "i": "Breaking News, World News and Video from Al Jazeera",
+            "im": "067b2fff",
+            "j": 45,
+            "m": 0,
+            "n": 1,
+            "o": 375,
+            "p": "/",
+            "r": "",
+            "sd": 1,
+            "sn": 1,
+            "sr": "external",
+            "sv": "DUFsqUDIGw4FBGvaFNCF_r0CCzoTAe",
+            "t": "C_fPwYD4PkqUBax4fsSju3v_zCbA",
+            "tz": -120,
+            "u": "B_Gb10BQy4ryB7eInS",
+            "w": 812,
+            "x": 0,
+            "y": 6211
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=aljazeera.com&p=%2F&u=B_Gb10BQy4ryB7eInS&d=aljazeera.com&g=3291&g0=Trending&g1=No%20Author&g4=Home%20Page&n=1&f=00001&c=0&x=0&m=0&y=6211&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.aljazeera.com%2F&b=1999&t=C_fPwYD4PkqUBax4fsSju3v_zCbA&V=151&i=Breaking%20News%2C%20World%20News%20and%20Video%20from%20Al%20Jazeera&tz=-120&_acct=anon&sn=1&sv=DUFsqUDIGw4FBGvaFNCF_r0CCzoTAe&sr=external&sd=1&im=067b2fff&_"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.amplitude.com/libs/analytics-browser-2.0.0-min.js.gz"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MJWQ5L2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MJWQ5L2"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-XN9JB9Q0M1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.aljazeera.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-XN9JB9Q0M1"
+      }
+    ]
+  }
+}

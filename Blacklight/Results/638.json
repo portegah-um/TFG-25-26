@@ -1,0 +1,1464 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "CNET: Product reviews, advice, how-tos and the latest news",
+  "uri_ins": "https://cnet.com",
+  "uri_dest": "https://www.cnet.com/",
+  "uri_redirects": [
+    "https://cnet.com/"
+  ],
+  "secure_connection": {},
+  "host": "cnet.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:53:08.733Z",
+  "end_time": "2026-06-11T08:53:17.644Z",
+  "browsing_history": [
+    "https://www.cnet.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cnet.com",
+        "www.cnet.com",
+        "gurgle.cnet.com"
+      ],
+      "third_party": [
+        "cdn.ziffstatic.com",
+        "securepubads.g.doubleclick.net",
+        "cdn.cookielaw.org",
+        "cdn.static.zdbb.net",
+        "fundingchoicesmessages.google.com",
+        "frugalfiestas.com",
+        "bender.prod.cnet.tech",
+        "static.chartbeat.com",
+        "metrics.rapidedge.io",
+        "config.aps.amazon-adsystem.com",
+        "client.aps.amazon-adsystem.com",
+        "cdn.confiant-integrations.net",
+        "pub.doubleverify.com",
+        "openads-cdn.adsrvr.org",
+        "geolocation.onetrust.com",
+        "aax.amazon-adsystem.com",
+        "ping.chartbeat.net",
+        "zdbb.net",
+        "vtrk.dv.tech",
+        "gurgle.zdbb.net",
+        "www.googletagmanager.com",
+        "c.amazon-adsystem.com",
+        "jogger.zdbb.net",
+        "mab.chartbeat.com",
+        "region1.google-analytics.com",
+        "sb.scorecardresearch.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/destination?id=G-R820W8QX02&cx=c&gtm=4e6691": [
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/destination?id=G-R820W8QX02&cx=c&gtm=4e6691": [
+          "mousedown"
+        ],
+        "https://cdn.ziffstatic.com/jst/otBannerSdk.202604.2.0.js": [
+          "click"
+        ],
+        "https://static.chartbeat.com/js/chartbeat.js": [
+          "scroll"
+        ],
+        "https://cdn.ziffstatic.com/jst/zdconsent.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "fly_geo",
+        "value": "{\"countryCode\": \"es\"}",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2026-06-18T08:53:10.260Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fly_device",
+        "value": "mobile",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2026-06-18T08:53:10.260Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fly_zip",
+        "value": "(null)",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2026-06-18T08:53:10.260Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "country_code",
+        "value": "es",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2026-06-18T08:53:10.260Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "FCCDCF",
+        "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%22a8ad94b4-c334-41c1-b2df-a2f76267dfc2%5C%22%2C%5B1781167993%2C105000000%5D%5D%22%5D%5D%5D",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2027-07-06T08:53:13.000Z",
+        "size": 162,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "fu",
+        "value": "1",
+        "domain": "www.cnet.com",
+        "path": "/",
+        "expires": "2026-07-11T08:53:13.000Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "opt_out",
+        "value": "1",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2027-07-09T08:53:13.961Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "zd_core_lialready",
+        "value": "true",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2026-06-26T08:53:13.962Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_awl",
+        "value": "2.1781167993.5-2a160dc3a83db871034e52080d8f28ab-6763652d6575726f70652d7765737431-0",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2027-07-11T08:53:13.963Z",
+        "size": 86,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+10%3A53%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&consentId=0673ed15-1092-432e-944b-9f39877c0eb8&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.cnet.com%2F&groups=C0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A0%2CC0001%3A1%2CV2STACK42%3A0&genVendors=",
+        "domain": "cnet.com",
+        "path": "/",
+        "expires": "2027-06-11T08:53:14.000Z",
+        "size": 407,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=07d762f7-e638-4d46-9acf-5bf17fbaeaf9&rum=0&expire=1781168896537",
+        "domain": "www.cnet.com",
+        "path": "/",
+        "expires": "2027-06-11T08:53:16.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cd101": "blockingtime",
+            "cd102": "cc2aa80",
+            "cd103": "",
+            "cd104": "www.cnet.com",
+            "cd105": 33936767,
+            "cd106": "DV1379166",
+            "cd107": "35a922e7-d238-45b9-af18-ef81a9e06130",
+            "cd108": "",
+            "cd109": "modern",
+            "cd110": "cdn",
+            "cd160": "0b9f05cf-9e36-4b3a-94f7-97a05c409f82",
+            "cd199": "https://cnet.com",
+            "cd200": "com",
+            "cid": "0b9f05cf-9e36-4b3a-94f7-97a05c409f82",
+            "cm101": 1,
+            "cm106": 0,
+            "cm107": 4147,
+            "cm108": 1888,
+            "cm109": 2688,
+            "cm110": 16,
+            "cm111": 0,
+            "cm112": 0,
+            "cmp": "DV1379166",
+            "ctx": "dvtag",
+            "ea": "blockingtime",
+            "ec": "dvtag",
+            "t": "event",
+            "v": 1,
+            "z": "0b9f05cf-9e36-4b3a-94f7-97a05c409f82"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vtrk.dv.tech/?ec=dvtag&ea=blockingtime&ctx=dvtag&cmp=DV1379166&cd110=cdn&cm106=0&cm107=4147&cm108=1888&cm109=2688&cm110=16&cm111=0&cm112=0&cd102=cc2aa80&cd103=&cd107=35a922e7-d238-45b9-af18-ef81a9e06130&cd109=modern&cd200=com&cd108=&cd105=33936767&cd106=DV1379166&cd104=www.cnet.com&cd199=https%3A%2F%2Fcnet.com&cd101=blockingtime&cm101=1&cid=0b9f05cf-9e36-4b3a-94f7-97a05c409f82&t=event&v=1&z=0b9f05cf-9e36-4b3a-94f7-97a05c409f82&cd160=0b9f05cf-9e36-4b3a-94f7-97a05c409f82"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAEAC",
+            "_p": 1781167994035,
+            "_s": 5,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 828233160.1781168,
+            "dl": "https://www.cnet.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "CNET: Product reviews, advice, how-tos and the latest news",
+            "ecid": 1230780040,
+            "frm": 0,
+            "gcd": "13q3p3q2q7l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9195673958za200zb9209751851zd9209751851",
+            "gtm_up": 1,
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167994,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": "10s5v",
+            "tfd": 8311,
+            "tid": "G-R820W8QX02",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-R820W8QX02&gtm=45je6691v9195673958za200zb9209751851zd9209751851&_p=1781167994035&gcs=G100&gcd=13q3p3q2q7l1&npa=1&dma_cps=-&dma=1&tcfd=10s5v&ecid=1230780040&_eu=AAAAAEAC&are=1&cid=828233160.1781167995&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&tag_exp=0~115938465~115938468&sid=1781167994&sct=1&seg=0&dl=https%3A%2F%2Fwww.cnet.com%2F&dt=CNET%3A%20Product%20reviews%2C%20advice%2C%20how-tos%20and%20the%20latest%20news&_tu=AAg&_s=5&tfd=8311"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dl": "www.cnet.com/",
+            "exp": "0~115938465~115938469",
+            "fin": 1,
+            "gtm": "45He6691v9209751851za200zd9209751851",
+            "id": "GTM-NHBTHTVT",
+            "is_td": 1,
+            "mde": "G-R820W8QX02;0_2~GTM-NHBTHTVT;61_1",
+            "pid": 885335904,
+            "seq": 2,
+            "t": "t",
+            "tdp": "GTM-NHBTHTVT;209751851;0;0;0",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NHBTHTVT&is_td=1&v=3&t=t&pid=885335904&gtm=45He6691v9209751851za200zd9209751851&seq=2&exp=0~115938465~115938469&dl=www.cnet.com%2F&tdp=GTM-NHBTHTVT;209751851;0;0;0&mde=G-R820W8QX02;0_2~GTM-NHBTHTVT;61_1&fin=1&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dl": "www.cnet.com/",
+            "exp": "0~115938465~115938469",
+            "fin": 1,
+            "gtm": "45He6691v9209751851za200zd9209751851",
+            "id": "GTM-NHBTHTVT",
+            "mde": "G-R820W8QX02;0_2~GTM-NHBTHTVT;61_1",
+            "pid": 885335904,
+            "seq": 2,
+            "t": "t",
+            "tdp": "GTM-NHBTHTVT;209751851;0;0;0",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/td?id=GTM-NHBTHTVT&v=3&t=t&pid=885335904&gtm=45He6691v9209751851za200zd9209751851&seq=2&exp=0~115938465~115938469&dl=www.cnet.com%2F&tdp=GTM-NHBTHTVT;209751851;0;0;0&mde=G-R820W8QX02;0_2~GTM-NHBTHTVT;61_1&fin=1&z=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://frugalfiestas.com/p3d1x1g54ghz5b9ph8fv8icbnffvjbeiyhymy0uy"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 6036202,
+            "c7": "https://www.cnet.com/",
+            "c8": "CNET: Product reviews, advice, how-tos and the latest news",
+            "cs_fpdm": "*null",
+            "cs_fpdt": "*null",
+            "cs_fpid": 2099325554.1781168,
+            "cs_fpit": "c",
+            "cs_ucfr": 0,
+            "cv": 3.1,
+            "ns__t": 1781167995379,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=6036202&c7=https://www.cnet.com/&c8=CNET:%20Product%20reviews,%20advice,%20how-tos%20and%20the%20latest%20news&cs_fpdm=*null&cs_fpdt=*null&cs_fpid=2099325554.1781167995&cs_fpit=c&cv=3.1&ns__t=1781167995379&ns_c=UTF-8&cs_ucfr=0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_c": 1,
+            "_ee": 1,
+            "_eu": "AAAAAEAC",
+            "_p": 1781167994035,
+            "_prs": "gs",
+            "_s": 4,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 828233160.1781168,
+            "dl": "https://www.cnet.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "CNET: Product reviews, advice, how-tos and the latest news",
+            "ec_mode": "a",
+            "ecid": 1230780040,
+            "en": "session_start_custom",
+            "ep.cookie_consent_essential": true,
+            "ep.cookie_consent_performance": false,
+            "ep.cookie_consent_preference": false,
+            "ep.cookie_consent_social": false,
+            "ep.cookie_consent_targeting": false,
+            "ep.page_query_string": "",
+            "ep.post_id": "5d3d3049-de15-4978-9803-f8ea1e131e2d",
+            "ep.seamless_instance_id": "",
+            "ep.session_uuid": "4c1aeef5-0170-4b54-8a3d-4f368f704103",
+            "ep.split_test_identifier": "",
+            "ep.split_test_variant": "",
+            "ep.user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "ep.view_instance_uuid": "18e738ff-e650-479f-b276-dbc5a413a016",
+            "frm": 0,
+            "gcd": "13q3p3q2q7l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9195673958za200zb9209751851zd9209751851",
+            "gtm_up": 1,
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167994,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": "10s5v",
+            "tfd": 6183,
+            "tid": "G-R820W8QX02",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-R820W8QX02&gtm=45je6691v9195673958za200zb9209751851zd9209751851&_p=1781167994035&gcs=G100&gcd=13q3p3q2q7l1&npa=1&dma_cps=-&dma=1&tcfd=10s5v&ecid=1230780040&_eu=AAAAAEAC&_prs=gs&are=1&cid=828233160.1781167995&ec_mode=a&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=4&tag_exp=0~115938465~115938468&dp=%2F&sid=1781167994&sct=1&seg=0&dl=https%3A%2F%2Fwww.cnet.com%2F&dt=CNET%3A%20Product%20reviews%2C%20advice%2C%20how-tos%20and%20the%20latest%20news&_tu=AAg&en=session_start_custom&_c=1&_ee=1&ep.post_id=5d3d3049-de15-4978-9803-f8ea1e131e2d&ep.seamless_instance_id=&ep.session_uuid=4c1aeef5-0170-4b54-8a3d-4f368f704103&ep.split_test_variant=&ep.split_test_identifier=&ep.user_agent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&ep.view_instance_uuid=18e738ff-e650-479f-b276-dbc5a413a016&ep.page_query_string=&ep.cookie_consent_essential=true&ep.cookie_consent_performance=false&ep.cookie_consent_preference=false&ep.cookie_consent_social=false&ep.cookie_consent_targeting=false&tfd=6183"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAEAC",
+            "_p": 1781167994035,
+            "_s": 3,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 828233160.1781168,
+            "dl": "https://www.cnet.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "CNET: Product reviews, advice, how-tos and the latest news",
+            "ecid": 1230780040,
+            "en": "element_viewed",
+            "ep.element_label": "iOS 27 Feels Like an Empty Update on Older iPhones",
+            "ep.location": "SECTION",
+            "ep.name": "iOS 27 Feels Like an Empty Update on Older iPhones",
+            "ep.post_id": "5d3d3049-de15-4978-9803-f8ea1e131e2d",
+            "ep.seamless_instance_id": "",
+            "ep.session_uuid": "4c1aeef5-0170-4b54-8a3d-4f368f704103",
+            "ep.split_test_identifier": "",
+            "ep.split_test_variant": "",
+            "ep.type": "ITEM",
+            "ep.user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "ep.view_correlation_id": "d8cb86ad-b6fd-4aef-8897-41cbb6e54991",
+            "ep.view_instance_uuid": "18e738ff-e650-479f-b276-dbc5a413a016",
+            "frm": 0,
+            "gcd": "13q3p3q2q7l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9195673958za200zb9209751851zd9209751851",
+            "gtm_up": 1,
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167994,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": "10s5v",
+            "tfd": 6182,
+            "tid": "G-R820W8QX02",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-R820W8QX02&gtm=45je6691v9195673958za200zb9209751851zd9209751851&_p=1781167994035&gcs=G100&gcd=13q3p3q2q7l1&npa=1&dma_cps=-&dma=1&tcfd=10s5v&ecid=1230780040&_eu=AAAAAEAC&are=1&cid=828233160.1781167995&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=3&tag_exp=0~115938465~115938468&sid=1781167994&sct=1&seg=0&dl=https%3A%2F%2Fwww.cnet.com%2F&dt=CNET%3A%20Product%20reviews%2C%20advice%2C%20how-tos%20and%20the%20latest%20news&_tu=AAg&en=element_viewed&_ee=1&ep.post_id=5d3d3049-de15-4978-9803-f8ea1e131e2d&ep.seamless_instance_id=&ep.session_uuid=4c1aeef5-0170-4b54-8a3d-4f368f704103&ep.split_test_variant=&ep.split_test_identifier=&ep.user_agent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&ep.view_instance_uuid=18e738ff-e650-479f-b276-dbc5a413a016&ep.view_correlation_id=d8cb86ad-b6fd-4aef-8897-41cbb6e54991&ep.type=ITEM&ep.location=SECTION&ep.name=iOS%2027%20Feels%20Like%20an%20Empty%20Update%20on%20Older%20iPhones&ep.element_label=iOS%2027%20Feels%20Like%20an%20Empty%20Update%20on%20Older%20iPhones&tfd=6182"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_c": 1,
+            "_ee": 1,
+            "_eu": "AAAAAEAC",
+            "_p": 1781167994035,
+            "_prs": "gs",
+            "_s": 2,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 828233160.1781168,
+            "dl": "https://www.cnet.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dp": "/",
+            "dt": "CNET: Product reviews, advice, how-tos and the latest news",
+            "ec_mode": "a",
+            "ecid": 1230780040,
+            "en": "page_view_custom",
+            "ep.page_query_string": "",
+            "ep.page_type": "homepage-2024",
+            "ep.post_id": "5d3d3049-de15-4978-9803-f8ea1e131e2d",
+            "ep.seamless_index": "",
+            "ep.seamless_instance_id": "",
+            "ep.section": "home,home",
+            "ep.session_uuid": "4c1aeef5-0170-4b54-8a3d-4f368f704103",
+            "ep.split_test_identifier": "",
+            "ep.split_test_variant": "",
+            "ep.user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "ep.view_instance_uuid": "18e738ff-e650-479f-b276-dbc5a413a016",
+            "frm": 0,
+            "gcd": "13q3p3q2q7l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9195673958za200zb9209751851zd9209751851",
+            "gtm_up": 1,
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167994,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": "10s5v",
+            "tfd": 6167,
+            "tid": "G-R820W8QX02",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-R820W8QX02&gtm=45je6691v9195673958za200zb9209751851zd9209751851&_p=1781167994035&gcs=G100&gcd=13q3p3q2q7l1&npa=1&dma_cps=-&dma=1&tcfd=10s5v&ecid=1230780040&_eu=AAAAAEAC&_prs=gs&are=1&cid=828233160.1781167995&ec_mode=a&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=0~115938465~115938468&dp=%2F&sid=1781167994&sct=1&seg=0&dl=https%3A%2F%2Fwww.cnet.com%2F&dt=CNET%3A%20Product%20reviews%2C%20advice%2C%20how-tos%20and%20the%20latest%20news&_tu=AAg&en=page_view_custom&_c=1&_ee=1&ep.post_id=5d3d3049-de15-4978-9803-f8ea1e131e2d&ep.seamless_instance_id=&ep.session_uuid=4c1aeef5-0170-4b54-8a3d-4f368f704103&ep.split_test_variant=&ep.split_test_identifier=&ep.user_agent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&ep.view_instance_uuid=18e738ff-e650-479f-b276-dbc5a413a016&ep.page_query_string=&ep.page_type=homepage-2024&ep.seamless_index=&ep.section=home%2Chome&tfd=6167"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "AAAAAEAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781167994035,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "AAg",
+            "are": 1,
+            "cid": 828233160.1781168,
+            "dl": "https://www.cnet.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "CNET: Product reviews, advice, how-tos and the latest news",
+            "ec_mode": "a",
+            "ecid": 1230780040,
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13q3p3q2q7l1",
+            "gcs": "G100",
+            "gtm": "45je6691v9195673958za200zb9209751851zd9209751851",
+            "gtm_up": 1,
+            "ngs": 1,
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781167994,
+            "sr": "375x812",
+            "tag_exp": "0~115938465~115938468",
+            "tcfd": "10s5v",
+            "tfd": 6158,
+            "tid": "G-R820W8QX02",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-R820W8QX02&gtm=45je6691v9195673958za200zb9209751851zd9209751851&_p=1781167994035&gcs=G100&gcd=13q3p3q2q7l1&npa=1&dma_cps=-&dma=1&tcfd=10s5v&ecid=1230780040&_eu=AAAAAEAC&are=1&cid=828233160.1781167995&ec_mode=a&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&sid=1781167994&sct=1&seg=0&dl=https%3A%2F%2Fwww.cnet.com%2F&dt=CNET%3A%20Product%20reviews%2C%20advice%2C%20how-tos%20and%20the%20latest%20news&_tu=AAg&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=6158"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bt": 0,
+            "crc": 1,
+            "ct": 3,
+            "dl": "www.cnet.com/",
+            "exp": "0~115938465~115938469",
+            "frm": 0,
+            "gtm": "45He6691v9209751851za200zd9209751851",
+            "hlo": 14,
+            "id": "GTM-NHBTHTVT",
+            "jsp": 1,
+            "lst": 1,
+            "pid": 885335904,
+            "rtg": 209751851,
+            "seq": 1,
+            "slo": 18,
+            "t": "t",
+            "tdp": "GTM-NHBTHTVT;209751851;0;0;0",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/td?id=GTM-NHBTHTVT&v=3&t=t&pid=885335904&gtm=45He6691v9209751851za200zd9209751851&seq=1&exp=0~115938465~115938469&dl=www.cnet.com%2F&tdp=GTM-NHBTHTVT;209751851;0;0;0&frm=0&rtg=209751851&slo=18&hlo=14&lst=1&bt=0&ct=3&jsp=1&crc=1&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-R820W8QX02"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-R820W8QX02&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-R820W8QX02"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=G-R820W8QX02&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cmp": "DV1379166",
+            "ctx": 33936767,
+            "slot-0-/4585/maw-cnet/home@mobile-nav-ad-plus?T1000": "5x5,7x7,120x30",
+            "slot-1-/4585/maw-cnet/home@mobile-incontent-all-1?T1000": "300x250,320x50,320x100,5x5,120x30,8x8,120x90,320x480",
+            "slot-2-/4585/maw-cnet/home@mobile-incontent-ad-plus?T1000": "300x250,320x50,320x100,5x5,120x30,120x90",
+            "token": "61Rjzr0U3PZKy6kN/k0OLsiH7lu+sDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO/DeJSs+UOIC1uvmagQWrBW7wAF+EC51+iewg0MFh2PYhASPdVO74t/vM58/SMWUYcwJYDvGT6pgwvGkjsM3pUm0=",
+            "tvp": 1,
+            "url": "https://cnet.com",
+            "vlp": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/vlp/pub.json?ctx=33936767&cmp=DV1379166&url=https%3A%2F%2Fcnet.com&vlp=1&tvp=1&slot-0-%2F4585%2Fmaw-cnet%2Fhome%40mobile-nav-ad-plus%3FT1000=5x5%2C7x7%2C120x30&slot-1-%2F4585%2Fmaw-cnet%2Fhome%40mobile-incontent-all-1%3FT1000=300x250%2C320x50%2C320x100%2C5x5%2C120x30%2C8x8%2C120x90%2C320x480&slot-2-%2F4585%2Fmaw-cnet%2Fhome%40mobile-incontent-ad-plus%3FT1000=300x250%2C320x50%2C320x100%2C5x5%2C120x30%2C120x90&token=61Rjzr0U3PZKy6kN%2Fk0OLsiH7lu%2BsDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO%2FDeJSs%2BUOIC1uvmagQWrBW7wAF%2BEC51%2Biewg0MFh2PYhASPdVO74t%2FvM58%2FSMWUYcwJYDvGT6pgwvGkjsM3pUm0%3D"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "cnet.com",
+            "host": "cnet.com",
+            "path": "/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=cnet.com&domain=cnet.com&path=%2F"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "href": "https://www.cnet.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jogger.zdbb.net/check?href=https%3A%2F%2Fwww.cnet.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zdbb.net/clear_c"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 31099091
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606100101/pubads_impl.js?cb=31099091"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NHBTHTVT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NHBTHTVT"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "eu_consent": "",
+            "fpx": 1,
+            "lcl_id": "",
+            "url": "https://www.cnet.com/",
+            "zd_opt_out": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gurgle.zdbb.net/info?url=https%3A%2F%2Fwww.cnet.com%2F&fpx=1&lcl_id=&eu_consent=&zd_opt_out="
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cd101": "ad-request",
+            "cd102": "cc2aa80",
+            "cd103": "",
+            "cd104": "www.cnet.com",
+            "cd105": 33936767,
+            "cd106": "DV1379166",
+            "cd107": "35a922e7-d238-45b9-af18-ef81a9e06130",
+            "cd108": "",
+            "cd109": "modern",
+            "cd111": "success",
+            "cd112": "modern",
+            "cd115": "",
+            "cd160": "2b8097f4-5b17-4c22-97b2-eaa681a5a3cc",
+            "cd199": "https://cnet.com",
+            "cd200": "com",
+            "cid": "2b8097f4-5b17-4c22-97b2-eaa681a5a3cc",
+            "cm101": 1,
+            "cm106": 0,
+            "cm107": 296,
+            "cm108": 405,
+            "cm109": 0,
+            "cm110": 348,
+            "cm111": 46,
+            "cm112": 8,
+            "cm113": 31772,
+            "cm116": 1,
+            "cmp": "DV1379166",
+            "ctx": 33936767,
+            "ea": "ad-request",
+            "ec": "dvtag",
+            "t": "event",
+            "v": 1,
+            "z": "2b8097f4-5b17-4c22-97b2-eaa681a5a3cc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vtrk.dv.tech/?ec=dvtag&ea=ad-request&ctx=33936767&cmp=DV1379166&cd111=success&cm106=0&cm107=296&cd112=modern&cd115=&cm116=1&cm108=405&cm109=0&cm110=348&cm111=46&cm112=8&cm113=31772&cd102=cc2aa80&cd103=&cd107=35a922e7-d238-45b9-af18-ef81a9e06130&cd109=modern&cd200=com&cd108=&cd105=33936767&cd106=DV1379166&cd104=www.cnet.com&cd199=https%3A%2F%2Fcnet.com&cd101=ad-request&cm101=1&cid=2b8097f4-5b17-4c22-97b2-eaa681a5a3cc&t=event&v=1&z=2b8097f4-5b17-4c22-97b2-eaa681a5a3cc&cd160=2b8097f4-5b17-4c22-97b2-eaa681a5a3cc"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zdbb.net/clear_c"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cmp": "DV1379166",
+            "ctx": 33936767,
+            "slot-0-/4585/maw-cnet/home": "5x5,7x7,120x30",
+            "slot-1-/4585/maw-cnet/home": "300x250,320x50,320x100,5x5,120x30,8x8,120x90,320x480",
+            "slot-2-/4585/maw-cnet/home": "300x250,320x50,320x100,5x5,120x30,120x90",
+            "token": "61Rjzr0U3PZKy6kN/k0OLsiH7lu+sDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO/DeJSs+UOIC1uvmagQWrBW7wAF+EC51+iewg0MFh2PYhASPdVO74t/vM58/SMWUYcwJYDvGT6pgwvGkjsM3pUm0=",
+            "tvp": 1,
+            "url": "https://cnet.com",
+            "vlp": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/vlp/pub.json?ctx=33936767&cmp=DV1379166&url=https%3A%2F%2Fcnet.com&vlp=1&tvp=1&slot-0-%2F4585%2Fmaw-cnet%2Fhome=5x5%2C7x7%2C120x30&slot-1-%2F4585%2Fmaw-cnet%2Fhome=300x250%2C320x50%2C320x100%2C5x5%2C120x30%2C8x8%2C120x90%2C320x480&slot-2-%2F4585%2Fmaw-cnet%2Fhome=300x250%2C320x50%2C320x100%2C5x5%2C120x30%2C120x90&token=61Rjzr0U3PZKy6kN%2Fk0OLsiH7lu%2BsDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO%2FDeJSs%2BUOIC1uvmagQWrBW7wAF%2BEC51%2Biewg0MFh2PYhASPdVO74t%2FvM58%2FSMWUYcwJYDvGT6pgwvGkjsM3pUm0%3D"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abs": 1,
+            "bsc": 1,
+            "cmp": "DV1379166",
+            "ctx": 33936767,
+            "token": "61Rjzr0U3PZKy6kN/k0OLsiH7lu+sDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO/DeJSs+UOIC1uvmagQWrBW7wAF+EC51+iewg0MFh2PYhASPdVO74t/vM58/SMWUYcwJYDvGT6pgwvGkjsM3pUm0=",
+            "url": "https://cnet.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=33936767&cmp=DV1379166&url=https%3A%2F%2Fcnet.com&bsc=1&abs=1&token=61Rjzr0U3PZKy6kN%2Fk0OLsiH7lu%2BsDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO%2FDeJSs%2BUOIC1uvmagQWrBW7wAF%2BEC51%2Biewg0MFh2PYhASPdVO74t%2FvM58%2FSMWUYcwJYDvGT6pgwvGkjsM3pUm0%3D"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cmp": "DV1379166",
+            "ctx": 33936767,
+            "ids": 1,
+            "token": "61Rjzr0U3PZKy6kN/k0OLsiH7lu+sDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO/DeJSs+UOIC1uvmagQWrBW7wAF+EC51+iewg0MFh2PYhASPdVO74t/vM58/SMWUYcwJYDvGT6pgwvGkjsM3pUm0=",
+            "url": "https://cnet.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=33936767&cmp=DV1379166&url=https%3A%2F%2Fcnet.com&ids=1&token=61Rjzr0U3PZKy6kN%2Fk0OLsiH7lu%2BsDHEn0ca67lEHcjemNbrUogvXbkjDdP2JV2jM8DxbPxO%2FDeJSs%2BUOIC1uvmagQWrBW7wAF%2BEC51%2Biewg0MFh2PYhASPdVO74t%2FvM58%2FSMWUYcwJYDvGT6pgwvGkjsM3pUm0%3D"
+      },
+      {
+        "data": {
+          "filter": "||confiant-integrations.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.confiant-integrations.net/gptprebidnative/202605191507/wrap.js"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "eu_consent": "",
+            "zd_opt_out": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zdbb.net/check_c?eu_consent=&zd_opt_out="
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.cnet.com/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "b": 4035,
+            "c": 0,
+            "d": "cnet.com",
+            "e": 0,
+            "g": 21105,
+            "g0": "home,home",
+            "g1": "No Author",
+            "h": "cnet.com",
+            "i": "CNET: Product reviews, advice, how-tos and the latest news",
+            "im": "067b2fff",
+            "j": 45,
+            "m": 0,
+            "nc": 1,
+            "o": 375,
+            "p": "/",
+            "r": "",
+            "sd": 1,
+            "sn": 1,
+            "sr": "external",
+            "sv": "CA-0MxC9LxydT3fmBD16DsVL9sz0",
+            "t": "DwJeQbC3IID-B3fdc_94BIWBcrWLV",
+            "tz": -120,
+            "u": "CCADVOCPgqs-BJGFaJ",
+            "w": 812,
+            "x": 0,
+            "y": 19953
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=cnet.com&p=%2F&u=CCADVOCPgqs-BJGFaJ&d=cnet.com&g=21105&g0=home%2Chome&g1=No%20Author&nc=1&c=0&x=0&m=0&y=19953&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.cnet.com%2F&b=4035&t=DwJeQbC3IID-B3fdc_94BIWBcrWLV&V=151&i=CNET%3A%20Product%20reviews%2C%20advice%2C%20how-tos%20and%20the%20latest%20news&tz=-120&sn=1&sv=CA-0MxC9LxydT3fmBD16DsVL9sz0&sr=external&sd=1&im=067b2fff&_"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "adunitid": "ryghhm_300x250_965388"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax.amazon-adsystem.com/e/dtb/bid/44366.75/0/prebid?adunitid=ryghhm_300x250_965388"
+      },
+      {
+        "data": {
+          "filter": "/ajs?zoneid=",
+          "listName": "easylist.txt",
+          "query": {
+            "zoneid": "a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/ajs?zoneid=a"
+      },
+      {
+        "data": {
+          "filter": "||adsrvr.org^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://openads-cdn.adsrvr.org/openadsjs/build/v1.0/ziffdavis/openads.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleverify.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pub.doubleverify.com/dvtag/33936767/DV1379166/pub.js"
+      },
+      {
+        "data": {
+          "filter": "||confiant-integrations.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.confiant-integrations.net/J3UXFee1xclY-bfFlWh1mIZ_phU/gpt_and_prebid/config.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://client.aps.amazon-adsystem.com/publisher.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3158"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.static.zdbb.net/eu/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||zdbb.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.static.zdbb.net/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"
+      },
+      {
+        "data": {
+          "filter": "||ziffstatic.com/pg/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/pg/cnet.css"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||ziffstatic.com/pg/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/pg/cnet.prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||ziffstatic.com/pg/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cnet.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ziffstatic.com/pg/cnet.js"
+      }
+    ]
+  }
+}

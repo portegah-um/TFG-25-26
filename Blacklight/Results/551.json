@@ -1,0 +1,150 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Cloud",
+  "uri_ins": "https://tplinkcloud.com",
+  "uri_dest": "https://www.tplinkcloud.com/",
+  "uri_redirects": [
+    "https://tplinkcloud.com/",
+    "http://www.tplinkcloud.com/"
+  ],
+  "secure_connection": {},
+  "host": "tplinkcloud.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:26:11.826Z",
+  "end_time": "2026-06-11T08:26:15.194Z",
+  "browsing_history": [
+    "https://www.tplinkcloud.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "tplinkcloud.com",
+        "www.tplinkcloud.com"
+      ],
+      "third_party": [
+        "d2baw28zdve8g3.cloudfront.net",
+        "www.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://d2baw28zdve8g3.cloudfront.net/ssl/common/lib/jquery-1.8.2.min.js?v=1724834309": [
+          "scroll",
+          "mouseup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "domain": "tplinkcloud.com",
+        "name": "_gid",
+        "path": "/",
+        "script": "https://www.google-analytics.com/analytics.js",
+        "type": "js",
+        "value": "GA1.2.310076770.1781166373",
+        "third_party": false
+      },
+      {
+        "domain": "tplinkcloud.com",
+        "name": "_ga",
+        "path": "/",
+        "script": "https://www.google-analytics.com/analytics.js",
+        "type": "js",
+        "value": "GA1.2.797504163.1781166373",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tplinkcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/plugins/ua/linkid.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.tplinkcloud.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      }
+    ]
+  }
+}

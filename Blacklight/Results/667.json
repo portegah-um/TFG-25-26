@@ -1,0 +1,1329 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "ABC News & Headlines – Australian Broadcasting Corporation",
+  "uri_ins": "https://abc.net.au",
+  "uri_dest": "https://www.abc.net.au/",
+  "uri_redirects": [
+    "https://abc.net.au/"
+  ],
+  "secure_connection": {},
+  "host": "abc.net.au",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:00:40.066Z",
+  "end_time": "2026-06-11T09:00:47.513Z",
+  "browsing_history": [
+    "https://www.abc.net.au/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "abc.net.au",
+        "www.abc.net.au",
+        "login.abc.net.au",
+        "recommendations.abc.net.au",
+        "collector.abc.net.au"
+      ],
+      "third_party": [
+        "static.abc-cdn.net.au",
+        "live-production.wcms.abc-cdn.net.au",
+        "www.googletagmanager.com",
+        "static.chartbeat.com",
+        "au-script.dotmetrics.net",
+        "entitlements.jwplayer.com",
+        "ssl.p.jwpcdn.com",
+        "ping.chartbeat.net",
+        "mab.chartbeat.com",
+        "rm-script.dotmetrics.net",
+        "mediacore-live-production.akamaized.net",
+        "mabping.chartbeat.net",
+        "zn8cegmwgpcwcfqmq-abcfeedback.siteintercept.qualtrics.com",
+        "prd.jwpltx.com",
+        "znafwtcfaxxaxgzds-abcfeedback.siteintercept.qualtrics.com",
+        "siteintercept.qualtrics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.abc.net.au/news-web/_next/static/chunks/6345-9185001b2539626e.js": [
+          "click"
+        ],
+        "https://au-script.dotmetrics.net/Scripts/script.js?v=364": [
+          "mousemove"
+        ],
+        "https://www.abc.net.au/news-assets/jwplayer-8.38.10/jwplayer.js": [
+          "mousedown",
+          "click"
+        ],
+        "https://static.chartbeat.com/js/chartbeat_video.js": [
+          "scroll"
+        ],
+        "https://www.abc.net.au/news-web/_next/static/chunks/pages/_app-39400af1778a1153.js": [
+          "scroll"
+        ],
+        "https://www.abc.net.au/news-web/_next/static/chunks/2362-0637f6de1d45245c.js": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NZ6NQM6F": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.abc.net.au/news-web/_next/static/chunks/6345-9185001b2539626e.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://www.abc.net.au/news-assets/jwplayer-8.38.10/jwplayer.js": [
+          "keydown"
+        ],
+        "https://www.abc.net.au/news-web/_next/static/chunks/pages/_app-39400af1778a1153.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://au-script.dotmetrics.net/Scripts/script.js?v=364": [
+          "touchend"
+        ],
+        "https://www.abc.net.au/news-web/_next/static/chunks/2362-0637f6de1d45245c.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://www.abc.net.au/news-web/_next/static/chunks/pages/_app-39400af1778a1153.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ABCGuestID",
+        "value": "2.16.64.148.21752671781168441215",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-07-16T09:00:41.243Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ABC_LD",
+        "value": "int",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ABC_FF",
+        "value": "mobile",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": "2026-06-11T11:00:45.575Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ABCConsent",
+        "value": "guest",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2026-06-18T09:00:45.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ABC_NEWS_HP_VIEW",
+        "value": "national",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": "2027-06-11T09:00:43.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ABC_Snowplow_ses.3f60",
+        "value": "*",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2026-06-11T09:30:47.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb",
+        "value": "laMOeCwfYCNC1BF4e",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-07-11T09:00:44.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_chartbeat2",
+        "value": ".1781168444158.1781168444158.1.8FKbSXsr4nCM2vv5C3d9jzD-XoAr.1",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-07-11T09:00:44.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "external",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2026-06-11T09:30:44.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_v__chartbeat3",
+        "value": "DWOwxICnG7qYDk7fK3",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-07-11T09:00:44.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sp",
+        "value": "c5b451c1-775e-4ee7-8d8c-19b29fd933ee",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-06-11T09:00:45.501Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gmid",
+        "value": "gmid.ver4.AtLtEp-crw.JuEQAbEN24JBrAsilrKc9n25Xr2n7dkipzDqVc9j0nwnanPj4dhVOk10v3t_SBU6.gVL3hidUEDt-qR8bvxSE7Tdf0eD6DRWaBpN9dNHF2iP-lG9oR0IJYwanYSbJ1nW1iHisjhmHiGZ2jxhRHueOmA.sc3",
+        "domain": "login.abc.net.au",
+        "path": "/",
+        "expires": "2027-06-11T09:00:45.512Z",
+        "size": 180,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ucid",
+        "value": "8FuK7X4Lx-D5fF3w9yU6qA",
+        "domain": "login.abc.net.au",
+        "path": "/",
+        "expires": "2027-06-11T09:00:45.512Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "hasGmid",
+        "value": "ver4",
+        "domain": "login.abc.net.au",
+        "path": "/",
+        "expires": "2026-12-11T09:00:45.512Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gig_bootstrap_3_fA1lYde7bHFw4kAQ_VLT37l-OacxV6xOkYAn0KOPFjrXyrlrovPpV1toELQLABDp",
+        "value": "login_ver4",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-06-11T09:00:44.000Z",
+        "size": 90,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "DotMetrics.DeviceKey",
+        "value": "DeviceID=",
+        "domain": "dotmetrics.net",
+        "path": "/",
+        "expires": "2027-06-11T09:00:45.718Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DotMetrics.UniqueUserIdentityCookie",
+        "value": "UserID=b20f7f68-145a-4a94-91b1-125932448296&Created=06/11/2026 09:00:44&UserMode=0&guid=33a902ca-35c7-45e7-927b-5406a5b15e92&ver=1",
+        "domain": "dotmetrics.net",
+        "path": "/",
+        "expires": "2027-06-11T09:00:45.718Z",
+        "size": 165,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_t_tests",
+        "value": "eyIwVGM3NlNMTUhucUpzIjp7ImNob3NlblZhcmlhbnQiOiJDIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJDWVlUckwiLCJDWVlUckwiLCJDWVlUckwiXX0sImxpZnRfZXhwIjoibSJ9",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2026-06-11T10:00:44.000Z",
+        "size": 144,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "QSI_S_ZN_8cEGmwgPcWCfQmq",
+        "value": "r:1:1",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": "2026-06-18T09:00:45.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "QSI_S_ZN_afwtcfaXXAXGZds",
+        "value": "r:1:1",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": "2026-06-18T09:00:45.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "DM_SitId1615",
+        "value": "1",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": -1,
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "DM_SitId1615SecId13587",
+        "value": "1",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=1d13e32b-71e5-4225-be00-b789de6991cd&rum=0&expire=1781169346822",
+        "domain": "www.abc.net.au",
+        "path": "/",
+        "expires": "2027-06-11T09:00:46.000Z",
+        "size": 72,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ABC_Snowplow_id.3f60",
+        "value": "3e600254-e602-474d-9643-c2cebb04ad89.1781168443.1.1781168447..e5c68ae7-1ad5-4ceb-915c-eee7ccb41554..8e217c83-3472-4fa0-87f6-b12f65c07bf6.1781168443527.10",
+        "domain": "abc.net.au",
+        "path": "/",
+        "expires": "2027-07-16T09:00:47.109Z",
+        "size": 173,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://au-script.dotmetrics.net/BeaconEvent.dotmetrics"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 2,
+            "I": 1,
+            "R": 0,
+            "V": 151,
+            "VS": "JW",
+            "W": 0,
+            "_": "",
+            "_pr": "",
+            "_pt": "DgKhewCCMmsQDDxWauDmHXWkD6dCXV",
+            "_pu": "laMOeCwfYCNC1BF4e",
+            "_vaup": "unkn",
+            "_vbr": -1,
+            "_vce": 2,
+            "_vcs": 1,
+            "_vd": 23161,
+            "_vdd": "abc.net.au",
+            "_vh": "abc.net.au",
+            "_vi": "ABC News & Headlines – Australian Broadcasting Corporation (National edition)",
+            "_vp": "abc.net.au/?edition=National",
+            "_vpt": 2133,
+            "_vs": "s3",
+            "_vt": "ct",
+            "_vvs": 2.853,
+            "b": 3765,
+            "c": 0.05,
+            "g": 48671,
+            "g0": "news",
+            "h": "video@abc.net.au",
+            "i": "undefined",
+            "j": 75,
+            "n": 1,
+            "p": "https://mediacore-live-production.akamaized.net/video/02/ld/Z/ta.mp4",
+            "t": "8ktX7CA32uHsVqC2DsC3n2a0g6x",
+            "tz": -120,
+            "u": "DWOwxICnG7qYDk7fK3",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=video%40abc.net.au&g=48671&p=https%3A%2F%2Fmediacore-live-production.akamaized.net%2Fvideo%2F02%2Fld%2FZ%2Fta.mp4&i=undefined&g0=news&u=DWOwxICnG7qYDk7fK3&t=8ktX7CA32uHsVqC2DsC3n2a0g6x&x=0&y=0&V=151&VS=JW&n=1&b=3765&_vd=23161&_vi=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation%20(National%20edition)&_vp=abc.net.au%2F%3Fedition%3DNational&_vh=abc.net.au&_pu=laMOeCwfYCNC1BF4e&_pt=DgKhewCCMmsQDDxWauDmHXWkD6dCXV&_pr=&_vdd=abc.net.au&_vt=ct&_vs=s3&_vcs=1&_vbr=-1&_vvs=2.853&_vpt=2133&_vaup=unkn&_vce=2&c=0.05&W=0&R=0&I=1&E=2&j=75&tz=-120&_"
+      },
+      {
+        "data": {
+          "filter": "||siteintercept.qualtrics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Q_CLIENTTYPE": "web",
+            "Q_CLIENTVERSION": "2.50.0",
+            "Q_ZoneID": "ZN_afwtcfaXXAXGZds"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_afwtcfaXXAXGZds&Q_CLIENTVERSION=2.50.0&Q_CLIENTTYPE=web"
+      },
+      {
+        "data": {
+          "filter": "||siteintercept.qualtrics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Q_CLIENTTYPE": "web",
+            "Q_CLIENTVERSION": "2.50.0",
+            "Q_ZoneID": "ZN_8cEGmwgPcWCfQmq"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_8cEGmwgPcWCfQmq&Q_CLIENTVERSION=2.50.0&Q_CLIENTTYPE=web"
+      },
+      {
+        "data": {
+          "filter": "||siteintercept.qualtrics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Q_BRANDID": "www.abc.net.au",
+            "Q_CLIENTTYPE": "web",
+            "Q_CLIENTVERSION": "2.50.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/12.2652744dd261a9e74352.chunk.js?Q_CLIENTVERSION=2.50.0&Q_CLIENTTYPE=web&Q_BRANDID=www.abc.net.au"
+      },
+      {
+        "data": {
+          "filter": "||siteintercept.qualtrics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Q_BRANDID": "www.abc.net.au",
+            "Q_CLIENTTYPE": "web",
+            "Q_CLIENTVERSION": "2.50.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/37.cdc98ab0106da9694571.chunk.js?Q_CLIENTVERSION=2.50.0&Q_CLIENTTYPE=web&Q_BRANDID=www.abc.net.au"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 1781168445458,
+            "v": "eyJpZCI6MTM1ODcsImZsIjp0cnVlLCJkb20iOiJ3d3cuYWJjLm5ldC5hdSIsImxzbyI6bnVsbCwidXJsIjoiaHR0cHM6Ly93d3cuYWJjLm5ldC5hdS8iLCJydXJsIjoiIiwiZWNpZCI6IjcyOTdjZTNiLWYyZWQtNDk4ZS1iN2U3LTM5Y2Y4NmJhZWJlNCIsImRjIjoiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiwidmVyIjozNjQsImRmcGgiOiIiLCJ0ek9mZnNldCI6LTEyMCwib3NzIjp0cnVlLCJvc2VzIjp0cnVlfQ=="
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://au-script.dotmetrics.net/SiteEvent.dotmetrics?r=1781168445458&v=eyJpZCI6MTM1ODcsImZsIjp0cnVlLCJkb20iOiJ3d3cuYWJjLm5ldC5hdSIsImxzbyI6bnVsbCwidXJsIjoiaHR0cHM6Ly93d3cuYWJjLm5ldC5hdS8iLCJydXJsIjoiIiwiZWNpZCI6IjcyOTdjZTNiLWYyZWQtNDk4ZS1iN2U3LTM5Y2Y4NmJhZWJlNCIsImRjIjoiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiwidmVyIjozNjQsImRmcGgiOiIiLCJ0ek9mZnNldCI6LTEyMCwib3NzIjp0cnVlLCJvc2VzIjp0cnVlfQ%3D%3D"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.abc.net.au/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "_vap": "",
+            "_vd": 23161,
+            "_vdd": "video@abc.net.au",
+            "_vi": "undefined",
+            "_vp": "https://mediacore-live-production.akamaized.net/video/02/ld/Z/ta.mp4",
+            "_vs": "s2",
+            "_vt": "ct",
+            "_vtn": null,
+            "b": 3722,
+            "c": 0.02,
+            "d": "abc.net.au",
+            "e": 0,
+            "f": "00001",
+            "g": 48671,
+            "g0": "news",
+            "g1": "No Author",
+            "h": "abc.net.au",
+            "im": "0e632ff3",
+            "j": 30,
+            "m": 0,
+            "n": 1,
+            "o": 375,
+            "p": "/?edition=National",
+            "r": "",
+            "sd": 1,
+            "sn": 2,
+            "sr": "external",
+            "sv": "8FKbSXsr4nCM2vv5C3d9jzD-XoAr",
+            "t": "DgKhewCCMmsQDDxWauDmHXWkD6dCXV",
+            "tz": -120,
+            "u": "laMOeCwfYCNC1BF4e",
+            "w": 812,
+            "x": 0,
+            "y": 19388
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=abc.net.au&p=%2F%3Fedition%3DNational&u=laMOeCwfYCNC1BF4e&d=abc.net.au&g=48671&g0=news&g1=No%20Author&n=1&f=00001&c=0.02&x=0&m=0&y=19388&o=375&w=812&j=30&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.abc.net.au%2F&b=3722&t=DgKhewCCMmsQDDxWauDmHXWkD6dCXV&V=151&tz=-120&_vi=undefined&_vp=https://mediacore-live-production.akamaized.net/video/02/ld/Z/ta.mp4&_vdd=video%40abc.net.au&_vs=s2&_vt=ct&_vap=&_vtn=null&_vd=23161&sn=2&sv=8FKbSXsr4nCM2vv5C3d9jzD-XoAr&sr=external&sd=1&im=0e632ff3&_"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 1,
+            "I": 0,
+            "R": 1,
+            "V": 151,
+            "VS": "JW",
+            "W": 0,
+            "_": "",
+            "_pr": "",
+            "_pt": "DgKhewCCMmsQDDxWauDmHXWkD6dCXV",
+            "_pu": "laMOeCwfYCNC1BF4e",
+            "_vaup": "unkn",
+            "_vbr": -1,
+            "_vce": 1,
+            "_vcs": 1,
+            "_vd": 23161,
+            "_vdd": "abc.net.au",
+            "_vh": "abc.net.au",
+            "_vi": "ABC News & Headlines – Australian Broadcasting Corporation (National edition)",
+            "_vp": "abc.net.au/?edition=National",
+            "_vpt": 354,
+            "_vs": "s2",
+            "_vt": "ct",
+            "_vvs": 1.048,
+            "b": 3765,
+            "c": 0.02,
+            "g": 48671,
+            "g0": "news",
+            "h": "video@abc.net.au",
+            "i": "undefined",
+            "j": 20,
+            "n": 1,
+            "p": "https://mediacore-live-production.akamaized.net/video/02/ld/Z/ta.mp4",
+            "t": "8ktX7CA32uHsVqC2DsC3n2a0g6x",
+            "tz": -120,
+            "u": "DWOwxICnG7qYDk7fK3",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=video%40abc.net.au&g=48671&p=https%3A%2F%2Fmediacore-live-production.akamaized.net%2Fvideo%2F02%2Fld%2FZ%2Fta.mp4&i=undefined&g0=news&u=DWOwxICnG7qYDk7fK3&t=8ktX7CA32uHsVqC2DsC3n2a0g6x&x=0&y=0&V=151&VS=JW&n=1&b=3765&_vd=23161&_vi=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation%20(National%20edition)&_vp=abc.net.au%2F%3Fedition%3DNational&_vh=abc.net.au&_pu=laMOeCwfYCNC1BF4e&_pt=DgKhewCCMmsQDDxWauDmHXWkD6dCXV&_pr=&_vdd=abc.net.au&_vt=ct&_vs=s2&_vcs=1&_vbr=-1&_vvs=1.048&_vpt=354&_vaup=unkn&_vce=1&c=0.02&W=0&R=1&I=0&E=1&j=20&tz=-120&_"
+      },
+      {
+        "data": {
+          "filter": "||siteintercept.qualtrics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Q_ZID": "ZN_afwtcfaXXAXGZds"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://znafwtcfaxxaxgzds-abcfeedback.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_afwtcfaXXAXGZds"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abm": 0,
+            "aid": "dCF1lg3yEeSUliIACtqXBA",
+            "amp": 0,
+            "at": 1,
+            "c": -1,
+            "cae": 0,
+            "ccp": 0,
+            "cct": 0,
+            "cdid": "abc-_r_i_",
+            "ch": 2,
+            "cp": 0,
+            "d": 2,
+            "drm": 0,
+            "e": "s",
+            "eb": 0,
+            "ed": 6,
+            "emi": "1nvikicz9z4m",
+            "ff": 660,
+            "fsm": 0,
+            "h": -2008108316,
+            "i": 0,
+            "l": 2,
+            "lid": "1p7hiarlhrzj",
+            "lng": "en-AU",
+            "lsa": "set",
+            "mk": "mp4",
+            "mt": 1,
+            "mu": "https://mediacore-live-production.akamaized.net/video/02/ld/Z/t8.mp4",
+            "n": 9601404012649944,
+            "pbd": 1,
+            "pbr": 1,
+            "pcp": 0,
+            "pd": 1,
+            "pdr": "",
+            "pgi": "cwavklchp6zm",
+            "ph": 0,
+            "pii": 0,
+            "pl": 175,
+            "plc": 1,
+            "pli": "lcyfer1eap59",
+            "plng": "en-AU",
+            "pni": 0,
+            "pp": "html5",
+            "ppm": "VOD",
+            "pr": 7,
+            "prc": 1,
+            "ps": 4,
+            "pss": 1,
+            "pt": "ABC News & Headlines – Australian Broadcasting Corporation",
+            "pu": "https://www.abc.net.au/",
+            "pv": "8.38.10",
+            "pyc": 1,
+            "q": 1,
+            "qcr": "initial choice",
+            "s": 0,
+            "sa": 1781168445153,
+            "sdk": 0,
+            "sp": 0,
+            "stc": 1,
+            "stpe": 0,
+            "strt": 660,
+            "tb": 6.5,
+            "tt": 0,
+            "tv": "4.0.9",
+            "vb": 1,
+            "vd": 23,
+            "vh": 576,
+            "vi": 1,
+            "vl": 90,
+            "vs": 3,
+            "vw": 1024,
+            "wd": 311
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=-2008108316&e=s&n=9601404012649943&aid=dCF1lg3yEeSUliIACtqXBA&amp=0&at=1&c=-1&ccp=0&cp=0&d=2&eb=0&ed=6&emi=1nvikicz9z4m&i=0&lid=1p7hiarlhrzj&lsa=set&mt=1&pbd=1&pbr=1&pgi=cwavklchp6zm&ph=0&pii=0&pl=175&plc=1&pli=lcyfer1eap59&pp=html5&ppm=VOD&prc=1&ps=4&pss=1&pt=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation&pu=https%3A%2F%2Fwww.abc.net.au%2F&pv=8.38.10&pyc=1&s=0&sdk=0&stc=1&stpe=0&tv=4.0.9&vb=1&vi=1&vl=90&wd=311&abm=0&cae=0&cct=0&ch=2&cdid=abc-_r_i_&drm=0&ff=660&fsm=0&l=2&lng=en-AU&mk=mp4&mu=https%3A%2F%2Fmediacore-live-production.akamaized.net%2Fvideo%2F02%2Fld%2FZ%2Ft8.mp4&pcp=0&pd=1&pdr=&plng=en-AU&pni=0&pr=7&q=1&qcr=initial%20choice&sp=0&strt=660&tb=6.5&tt=0&vd=23&vh=576&vs=3&vw=1024&sa=1781168445153"
+      },
+      {
+        "data": {
+          "filter": "/ping.gif?$domain=~mega689.com",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ab": 0,
+            "aid": "dCF1lg3yEeSUliIACtqXBA",
+            "amp": 0,
+            "at": 1,
+            "c": -1,
+            "ccp": 0,
+            "cme": 0,
+            "cp": 0,
+            "d": 2,
+            "e": "pa",
+            "eb": 0,
+            "ed": 6,
+            "emi": "1nvikicz9z4m",
+            "flc": 0,
+            "h": 174417957,
+            "i": 0,
+            "lid": "1p7hiarlhrzj",
+            "lng": "en-AU",
+            "lsa": "set",
+            "mt": 1,
+            "mu": "https://mediacore-live-production.akamaized.net/video/02/ld/Z/t8.mp4",
+            "n": 5268561688642162,
+            "pbd": 1,
+            "pbr": 1,
+            "pd": 1,
+            "pdr": "",
+            "pgi": "cwavklchp6zm",
+            "ph": 0,
+            "pii": 0,
+            "pl": 175,
+            "plc": 1,
+            "pli": "lcyfer1eap59",
+            "plng": "en-AU",
+            "pni": 0,
+            "pogt": "ABC News & Headlines – Australian Broadcasting Corporation",
+            "pp": "html5",
+            "pr": 7,
+            "prc": 1,
+            "ps": 4,
+            "pss": 1,
+            "pt": "ABC News & Headlines – Australian Broadcasting Corporation",
+            "pu": "https://www.abc.net.au/",
+            "pv": "8.38.10",
+            "pyc": 0,
+            "s": 0,
+            "sa": 1781168444491,
+            "sdk": 0,
+            "stc": 1,
+            "stpe": 0,
+            "tb": 0,
+            "tv": "4.0.9",
+            "vb": 1,
+            "vd": 0,
+            "vi": 1,
+            "vl": 90,
+            "wd": 311
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=174417957&e=pa&n=5268561688642162&aid=dCF1lg3yEeSUliIACtqXBA&amp=0&at=1&c=-1&ccp=0&cp=0&d=2&eb=0&ed=6&emi=1nvikicz9z4m&i=0&lid=1p7hiarlhrzj&lsa=set&mt=1&pbd=1&pbr=1&pgi=cwavklchp6zm&ph=0&pii=0&pl=175&plc=1&pli=lcyfer1eap59&pp=html5&prc=1&ps=4&pss=1&pt=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation&pu=https%3A%2F%2Fwww.abc.net.au%2F&pv=8.38.10&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.9&vb=1&vi=1&vl=90&wd=311&ab=0&cme=0&flc=0&lng=en-AU&mu=https%3A%2F%2Fmediacore-live-production.akamaized.net%2Fvideo%2F02%2Fld%2FZ%2Ft8.mp4&pd=1&pdr=&plng=en-AU&pni=0&pogt=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation&pr=7&tb=0&vd=0&sa=1781168444491"
+      },
+      {
+        "data": {
+          "filter": "||siteintercept.qualtrics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Q_ZID": "ZN_8cEGmwgPcWCfQmq"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zn8cegmwgpcwcfqmq-abcfeedback.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_8cEGmwgPcWCfQmq"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "V": 151,
+            "c": 0.01,
+            "d": "abc.net.au",
+            "e": -1,
+            "h": "abc.net.au",
+            "ml": "m",
+            "p": "/?edition=National",
+            "sl": "CYYTrL,CYYTrL,CYYTrL",
+            "u": "laMOeCwfYCNC1BF4e",
+            "v": "C",
+            "x": "0Tc76SLMHnqJs"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mabping.chartbeat.net/ping/mab?h=abc.net.au&p=%2F%3Fedition%3DNational&d=abc.net.au&u=laMOeCwfYCNC1BF4e&c=0.01&V=151&x=0Tc76SLMHnqJs&v=C&ml=m&sl=CYYTrL,CYYTrL,CYYTrL&e=-1"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://au-script.dotmetrics.net/Scripts/script.js?v=364"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": true,
+            "dom": "www.abc.net.au",
+            "id": 13587,
+            "pvid": "7297ce3b-f2ed-498e-b7e7-39cf86baebe4",
+            "pvs": 1,
+            "r": 1781168444423,
+            "tzOffset": -120,
+            "url": "https://www.abc.net.au/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rm-script.dotmetrics.net/hit.gif?id=13587&url=https%3A%2F%2Fwww.abc.net.au%2F&dom=www.abc.net.au&r=1781168444423&pvs=1&pvid=7297ce3b-f2ed-498e-b7e7-39cf86baebe4&c=true&tzOffset=-120"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": true,
+            "dfph": "",
+            "dom": "www.abc.net.au",
+            "doorUrl": "http://au-script.dotmetrics.net/door.js?id=13587",
+            "ecid": "7297ce3b-f2ed-498e-b7e7-39cf86baebe4",
+            "id": 13587,
+            "pvs": 1,
+            "r": 1781168444423,
+            "tzOffset": -120,
+            "url": "https://www.abc.net.au/",
+            "ver": 364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://au-script.dotmetrics.net/hit.gif?id=13587&url=https%3A%2F%2Fwww.abc.net.au%2F&dom=www.abc.net.au&r=1781168444423&pvs=1&ecid=7297ce3b-f2ed-498e-b7e7-39cf86baebe4&c=true&tzOffset=-120&doorUrl=http%3a%2f%2fau-script.dotmetrics.net%2fdoor.js%3fid%3d13587&dfph=&ver=364"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "abc.net.au",
+            "host": "abc.net.au",
+            "path": "/?edition=National"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=abc.net.au&domain=abc.net.au&path=%2F%3Fedition%3DNational"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 1,
+            "R": 0,
+            "V": 151,
+            "VS": "JW",
+            "W": 0,
+            "_": "",
+            "_pr": "",
+            "_pt": "DgKhewCCMmsQDDxWauDmHXWkD6dCXV",
+            "_pu": "laMOeCwfYCNC1BF4e",
+            "_vaup": "unkn",
+            "_vbr": -1,
+            "_vce": 0,
+            "_vcs": 0,
+            "_vdd": "abc.net.au",
+            "_vh": "abc.net.au",
+            "_vi": "ABC News & Headlines – Australian Broadcasting Corporation (National edition)",
+            "_vp": "abc.net.au/?edition=National",
+            "_vpt": 0,
+            "_vs": "s1",
+            "_vt": "ct",
+            "_vvs": 0.015,
+            "b": 3765,
+            "c": 0,
+            "g": 48671,
+            "g0": "news",
+            "h": "video@abc.net.au",
+            "i": "undefined",
+            "j": 75,
+            "n": 1,
+            "p": "https://mediacore-live-production.akamaized.net/video/02/ld/Z/ta.mp4",
+            "r": "",
+            "t": "8ktX7CA32uHsVqC2DsC3n2a0g6x",
+            "tz": -120,
+            "u": "DWOwxICnG7qYDk7fK3",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=video%40abc.net.au&g=48671&p=https%3A%2F%2Fmediacore-live-production.akamaized.net%2Fvideo%2F02%2Fld%2FZ%2Fta.mp4&i=undefined&g0=news&u=DWOwxICnG7qYDk7fK3&t=8ktX7CA32uHsVqC2DsC3n2a0g6x&x=0&y=0&V=151&VS=JW&n=1&b=3765&r=&_vi=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation%20(National%20edition)&_vp=abc.net.au%2F%3Fedition%3DNational&_vh=abc.net.au&_pu=laMOeCwfYCNC1BF4e&_pt=DgKhewCCMmsQDDxWauDmHXWkD6dCXV&_pr=&_vdd=abc.net.au&_vt=ct&_vs=s1&_vcs=0&_vbr=-1&_vvs=0.015&_vpt=0&_vaup=unkn&_vce=0&c=0&W=0&R=0&I=1&E=0&j=75&tz=-120&_"
+      },
+      {
+        "data": {
+          "filter": "/ping?h=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "E": 0,
+            "I": 0,
+            "PA": "https://www.abc.net.au/",
+            "R": 1,
+            "V": 151,
+            "W": 0,
+            "_": "",
+            "b": 3722,
+            "c": 0,
+            "d": "abc.net.au",
+            "e": 0,
+            "f": "00001",
+            "g": 48671,
+            "g0": "news",
+            "g1": "No Author",
+            "h": "abc.net.au",
+            "i": "ABC News & Headlines – Australian Broadcasting Corporation (National edition)",
+            "im": "0e632ff3",
+            "j": 45,
+            "m": 0,
+            "n": 1,
+            "o": 375,
+            "p": "/?edition=National",
+            "r": "",
+            "sd": 1,
+            "sn": 1,
+            "sr": "external",
+            "sv": "8FKbSXsr4nCM2vv5C3d9jzD-XoAr",
+            "t": "DgKhewCCMmsQDDxWauDmHXWkD6dCXV",
+            "tz": -120,
+            "u": "laMOeCwfYCNC1BF4e",
+            "w": 812,
+            "x": 0,
+            "y": 19388
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ping.chartbeat.net/ping?h=abc.net.au&p=%2F%3Fedition%3DNational&u=laMOeCwfYCNC1BF4e&d=abc.net.au&g=48671&g0=news&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=19388&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.abc.net.au%2F&b=3722&t=DgKhewCCMmsQDDxWauDmHXWkD6dCXV&V=151&i=ABC%20News%20%26%20Headlines%20%E2%80%93%20Australian%20Broadcasting%20Corporation%20(National%20edition)&tz=-120&sn=1&sv=8FKbSXsr4nCM2vv5C3d9jzD-XoAr&sr=external&sd=1&im=0e632ff3&_"
+      },
+      {
+        "data": {
+          "filter": "||dotmetrics.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 13587
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://au-script.dotmetrics.net/door.js?id=13587"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_video.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NZ6NQM6F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.abc.net.au/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ6NQM6F"
+      }
+    ]
+  }
+}

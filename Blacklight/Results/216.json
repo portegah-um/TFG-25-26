@@ -1,0 +1,158 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Gmail",
+  "uri_ins": "https://gmail.com",
+  "uri_dest": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S688921540%3A1781160090108897&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvxpTGwvkCNqytoXz3I9-Y4cZ_rBnDSJeApLEqkeoUPb4ZyZJ-3FVkAYkHzHFcBIPIRTtMOa",
+  "uri_redirects": [
+    "https://gmail.com/",
+    "https://mail.google.com/mail/u/0/",
+    "https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1",
+    "https://accounts.google.com/InteractiveLogin?continue=https://mail.google.com/mail/u/0/&emr=1&followup=https://mail.google.com/mail/u/0/&osid=1&passive=1209600&service=mail&dsh=S688921540:1781160090108897"
+  ],
+  "secure_connection": {},
+  "host": "gmail.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:41:29.314Z",
+  "end_time": "2026-06-11T06:41:35.251Z",
+  "browsing_history": [
+    "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S688921540%3A1781160090108897&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvxpTGwvkCNqytoXz3I9-Y4cZ_rBnDSJeApLEqkeoUPb4ZyZJ-3FVkAYkHzHFcBIPIRTtMOa"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "gmail.com",
+        "mail.google.com",
+        "accounts.google.com",
+        "play.google.com",
+        "www.google.com"
+      ],
+      "third_party": [
+        "www.gstatic.com",
+        "fonts.gstatic.com",
+        "accounts.youtube.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        ":2": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.R4nGYkaHqCg.es5.O/ck=boq-identity.AccountsSignInUi.dk7piyKbhQs.L.W1.O/am=EQ0AAAAMin-EDAD-__8bAIAAgmwHfM8CaAKEDAAAAAAAIAAAWAAAgEY/d=1/exm=CMcBD,DqMihc,E87wgc,EFQ78c,EN3i8d,Fndnac,GwYlN,IZT63,K0PMbc,K1ZKnb,KUM7Z,L9OGUe,LDQI,LEikZe,MY7mZe,MpJwZc,NLiXbe,PHUIyb,PrPYRd,SCuOPb,SD8Jgb,SpsfSb,Tbb4sb,UMu52b,UUJqVe,Uas9Hd,WpP9Yc,YHI3We,YTxL4,YYmHzb,YgOFye,ZSzced,_b,_tp,bTi8wc,byfTOb,cYShmd,cciGGe,eWuMIe,f8Gu1e,gJzDyc,hc6Ubd,inNHtf,lkFgGf,lsjVmc,lwddkf,m9oV,mvkUhe,n73qwf,oLggrd,oqkvIf,pxq3x,qPYxq,qmdT9,rmumx,siKnQd,soHxf,t2srLd,tUnxGc,vHEMJe,vfuNJf,vjKJJ,ws9Tlc,xQtZb,xiZRqc,y5vRwf,yRXbo,ywOR5c,z0u0L,zbML3c,zr1jrb,zy0vNb/excm=_b,_tp,identifierview/ed=1/wt=2/ujg=1/rs=AOaEmlFTz6HhLMqqsSrglk2smpcntDli2A/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:GwYlN;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:XVMNvd;Me32dd:MEeYgc;NJ1rfe:yGfSdd;NPKaK:PVlQOd;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;Qi0VDf:vUyhef;SMDL4c:K0PMbc;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;UpnZUd:nnwwYc;Uvc8o:VDovNc;UyjXyd:qXkWrc;VlRiDf:j7ZRif;XdiAjb:NLiXbe;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:vfuNJf;lGvXed:Gtn19d;lOO0Vd:OTA3Ae;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qQEoOc:KUM7Z;qafBPd:yDVVkb;qddgKe:xQtZb;sHdTOe:nSePib;twueg:ouk7y;vNjB7d:YTxL4;wR5FRb:siKnQd;wc73nd:kqeOEd;yxTchf:KUM7Z/dti=1/m=p3hmRc,LvGhrf,RqjULd": [
+          "click"
+        ],
+        "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.R4nGYkaHqCg.es5.O/am=EQ0AAAAMin-EDAD-__8bAIAAgmwHfM8CaAKEDAAAAAAAIAAAWAAAgEY/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlHnSo2piukuZKrOV4_4C0UCKpC1Fw/dti=1/m=_b,_tp": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.R4nGYkaHqCg.es5.O/ck=boq-identity.AccountsSignInUi.dk7piyKbhQs.L.W1.O/am=EQ0AAAAMin-EDAD-__8bAIAAgmwHfM8CaAKEDAAAAAAAIAAAWAAAgEY/d=1/exm=CMcBD,DqMihc,E87wgc,EFQ78c,EN3i8d,Fndnac,GwYlN,IZT63,K0PMbc,K1ZKnb,KUM7Z,L9OGUe,LDQI,LEikZe,MY7mZe,MpJwZc,NLiXbe,PHUIyb,PrPYRd,SCuOPb,SD8Jgb,SpsfSb,Tbb4sb,UMu52b,UUJqVe,Uas9Hd,WpP9Yc,YHI3We,YTxL4,YYmHzb,YgOFye,ZSzced,_b,_tp,bTi8wc,byfTOb,cYShmd,cciGGe,eWuMIe,f8Gu1e,gJzDyc,hc6Ubd,inNHtf,lkFgGf,lsjVmc,lwddkf,m9oV,mvkUhe,n73qwf,oLggrd,oqkvIf,pxq3x,qPYxq,qmdT9,rmumx,siKnQd,soHxf,t2srLd,tUnxGc,vHEMJe,vfuNJf,vjKJJ,ws9Tlc,xQtZb,xiZRqc,y5vRwf,yRXbo,ywOR5c,z0u0L,zbML3c,zr1jrb,zy0vNb/excm=_b,_tp,identifierview/ed=1/wt=2/ujg=1/rs=AOaEmlFTz6HhLMqqsSrglk2smpcntDli2A/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:GwYlN;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:XVMNvd;Me32dd:MEeYgc;NJ1rfe:yGfSdd;NPKaK:PVlQOd;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;Qi0VDf:vUyhef;SMDL4c:K0PMbc;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;UpnZUd:nnwwYc;Uvc8o:VDovNc;UyjXyd:qXkWrc;VlRiDf:j7ZRif;XdiAjb:NLiXbe;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:vfuNJf;lGvXed:Gtn19d;lOO0Vd:OTA3Ae;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qQEoOc:KUM7Z;qafBPd:yDVVkb;qddgKe:xQtZb;sHdTOe:nSePib;twueg:ouk7y;vNjB7d:YTxL4;wR5FRb:siKnQd;wc73nd:kqeOEd;yxTchf:KUM7Z/dti=1/m=p3hmRc,LvGhrf,RqjULd": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.R4nGYkaHqCg.es5.O/am=EQ0AAAAMin-EDAD-__8bAIAAgmwHfM8CaAKEDAAAAAAAIAAAWAAAgEY/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlHnSo2piukuZKrOV4_4C0UCKpC1Fw/dti=1/m=_b,_tp": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__Host-GAPS",
+        "value": "1:PV9_jflB97wS_hXrnqw_NkyJDpF9Tw:TjVHdTed_N6mQhpf",
+        "domain": "accounts.google.com",
+        "path": "/",
+        "expires": "2027-07-16T06:41:30.126Z",
+        "size": 60,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OTZ",
+        "value": "8647602_48_52_123900_48_436380",
+        "domain": "accounts.google.com",
+        "path": "/",
+        "expires": "2026-07-11T06:41:31.000Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

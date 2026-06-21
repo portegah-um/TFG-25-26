@@ -1,0 +1,644 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "One platform to connect | Zoom",
+  "uri_ins": "https://zoom.com",
+  "uri_dest": "https://www.zoom.com/",
+  "uri_redirects": [
+    "https://zoom.us/syncStatus?continue=https://www.zoom.com/"
+  ],
+  "secure_connection": {},
+  "host": "zoom.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:35:08.763Z",
+  "end_time": "2026-06-11T09:35:16.785Z",
+  "browsing_history": [
+    "https://www.zoom.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "zoom.com",
+        "www.zoom.com"
+      ],
+      "third_party": [
+        "st1.zoom.us",
+        "cdn.cookielaw.org",
+        "cdn.bc0a.com",
+        "us01ccistatic.zoom.us",
+        "geolocation.onetrust.com",
+        "www.googletagmanager.com",
+        "ixfd2-api.bc0a.com",
+        "zoom.us",
+        "cdn.jsdelivr.net",
+        "static.cloudflareinsights.com",
+        "us01campaign.zoom.us",
+        "zoom-privacy.my.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://us01ccistatic.zoom.us/us01cci/web-sdk/9523/web-campaign.js?env=us01&apikey=AM_FKF55QOG_vdWum455Vg&lazyLoadCampaignUrl=_blank&v=9544": [
+          "mouseup"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5WKFT9": [
+          "click"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/components/product-hub-components/Footer-v1/Footer-v1.js": [
+          "click"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/js/utilities/datalayer/data-layer-cta.js": [
+          "click"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/js/utilities/datalayer/data-layer-tab.js": [
+          "click"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/js/utilities/datalayer/data-layer-navigation-workplace.js": [
+          "mousedown"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/js/utilities/datalayer/data-layer-search.js": [
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "click"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/components/product-hub-components/NavigationWorkplace/NavigationWorkplace.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/components/product-hub-components/CustomerStoriesNewCards/CustomerStoriesNewCards.js": [
+          "orientationchange"
+        ],
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/components/product-hub-components/NavigationWorkplace/NavigationWorkplace.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/components/product-hub-components/CustomerStoriesExpandedCards/CustomerStoriesExpandedCards.js": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": [
+          "keydown"
+        ],
+        "https://www.zoom.com/?cms_guid=false": [
+          "keydown"
+        ],
+        "https://www.zoom.com/": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://st1.zoom.us/homepage/20260602-1234/primary/dist/js/utilities/swiper-bundle.min.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "UCZgRCfizc1noouu67YlJsXNnFAGdhM_4tKl.qMM7Hg-1781170509-1.0.1.1-4vau81Wx_IuSY4aCxpbbxdLA8jbg.kkcwbgSQTxYGSrSonu9NQebMZiES_INqbSOoq99th5cPjHspjDyA2LPhfRdb25JYJr4NkblVaSs2EE",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2026-06-11T10:05:09.740Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "7qZ9SbyW2KAGBNgDHuBix06IXqzGDZDCpm_cycgp89c-1781170511-1.0.1.1-HThQ.Vbeh9CLNUvOy5P.7EntQWlaTE028aLOHEig7IUf8TeRLFKWmje7IO40XqoJh0HGOcOL9xN4RAnQ7syVgUdhNOLDbUpcnix7V_JGc_k",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": "2026-06-11T10:05:11.104Z",
+        "size": 177,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OnetrustActiveGroups",
+        "value": "C0001",
+        "domain": "www.zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:14.000Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_zm_mtk_guid",
+        "value": "bc876ad9bd0cad5827b52bb873d3c589",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:11.000Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_zm_visitor_guid",
+        "value": "2b36bb34bc80ed760cc3ed6e34ba776c",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:11.000Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_zm_currency",
+        "value": "USD",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:13.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "thirdparty_test",
+        "value": "1",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": -1,
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cf_clearance",
+        "value": "4QrS2SAckkR5q9acLPudAmLjxZv7242xJ.eEOQjk1gs-1781170512-1.2.1.1-4m_8qcJ13lOaCAnaCzLdobKztyeNd.X80_niAhMsuHB7Gv.ctlHopErKy48FlkuCcyTih2s5hCB8NTdRIrmgxNtSZzdrud1YmIZfC1v0RHQOUIfSAAhbhBEkylajJ2.oiJiN0HFcYQu.SS32oZzZb9yFcvNiiz8qTkktnSttihdZg6jM9PI3ajp8_aVKqerGPIm9Vii_Yy8I1hx7dwV6adiLjDr12r4AEikiPD0YqziIQoml1shXGp98_3IphUpPzjmz7LUyE5o1W8mjfgHaZEp0r180B6FPPctSF5FIfls90lZFGR5SMcdmePUBh10Bp8IzlhlSNnBrdesOj39gAA",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:12.529Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://zoom.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_zm_global_mtk_key",
+        "value": "",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:14.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "authorized-access",
+        "value": "97af72b4-4108-4885-b753-f02a39956839",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:14.000Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_zm_ssid",
+        "value": "aw1_c_mlTmpH6_RiWv4BvosohLfA",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cred",
+        "value": "54812F5BEBE2FB1B6217407F174ED282",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_zm_ctaid",
+        "value": "ozaO7DmDSteTGZGmR4wLzw.1781170512786.070e30e42aa581c39c534e54a9cad8bf",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": "2026-06-11T11:35:12.836Z",
+        "size": 78,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_zm_chtaid",
+        "value": "114",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": "2026-06-11T11:35:12.836Z",
+        "size": 13,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_zm_mtk_guid",
+        "value": "49bfd0ddc30746079703e5f3efd15b0c",
+        "domain": "zoom.us",
+        "path": "/",
+        "expires": "2027-07-16T09:35:12.836Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_zm_cms_guid",
+        "value": "false",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2026-06-11T10:05:13.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Thu+Jun+11+2026+11%3A35%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ddbdb89f-c399-4773-8910-f84f888bf651&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.zoom.com%2F&groups=C0004%3A0%2CC0003%3A0%2CC0002%3A0%2CC0001%3A1",
+        "domain": "zoom.com",
+        "path": "/",
+        "expires": "2027-06-11T09:35:14.000Z",
+        "size": 344,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/cdn-cgi/rum?",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://zoom.us/third_party_cookie_check.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zoom.us/cdn-cgi/rum?"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://zoom.us/third_party_cookie_check.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/api/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "client": "js_sdk",
+            "client_version": "1.5.36"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/?cms_guid=false",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ixfd2-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000314502/02136793597?client=js_sdk&client_version=1.5.36"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5WKFT9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/?cms_guid=false",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5WKFT9"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/autopilot/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/?cms_guid=false",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.bc0a.com/autopilot/f00000000314502/autopilot_sdk.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zoom-privacy.my.onetrust.com/request/v1/consentreceipts"
+      },
+      {
+        "data": {
+          "filter": "/cdn-cgi/rum?",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://zoom.us/third_party_cookie_check.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zoom.us/cdn-cgi/rum?"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://zoom.us/third_party_cookie_check.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/api/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "client": "js_sdk",
+            "client_version": "1.5.36"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ixfd2-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000314502/02136793597?client=js_sdk&client_version=1.5.36"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5WKFT9"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5WKFT9"
+      },
+      {
+        "data": {
+          "filter": "||bc0a.com/autopilot/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.zoom.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.bc0a.com/autopilot/f00000000314502/autopilot_sdk.js"
+      }
+    ]
+  }
+}

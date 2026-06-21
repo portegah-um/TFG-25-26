@@ -1,0 +1,148 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "MIT - Massachusetts Institute of Technology",
+  "uri_ins": "https://mit.edu",
+  "uri_dest": "https://web.mit.edu/",
+  "uri_redirects": [
+    "https://mit.edu/"
+  ],
+  "secure_connection": {},
+  "host": "mit.edu",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:44:15.347Z",
+  "end_time": "2026-06-11T06:44:19.616Z",
+  "browsing_history": [
+    "https://web.mit.edu/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mit.edu",
+        "web.mit.edu"
+      ],
+      "third_party": [
+        "use.typekit.net",
+        "p.typekit.net",
+        "www.googletagmanager.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P": [
+          "click"
+        ],
+        "https://web.mit.edu/themes/mit/assets/js/main.js?tf13vj": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://web.mit.edu/themes/mit/assets/js/main.js?tf13vj": [
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-M8MGV4P"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://web.mit.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 53548716,
+            "app": "typekit",
+            "e": "css",
+            "f": "39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509",
+            "ht": "tk",
+            "k": "uby1wjv",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://web.mit.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css"
+      }
+    ]
+  }
+}

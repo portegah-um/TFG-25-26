@@ -1,0 +1,2378 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Welcome | USPS",
+  "uri_ins": "https://usps.com",
+  "uri_dest": "https://www.usps.com/",
+  "uri_redirects": [
+    "https://usps.com/"
+  ],
+  "secure_connection": {},
+  "host": "usps.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:44:58.546Z",
+  "end_time": "2026-06-11T09:45:06.695Z",
+  "browsing_history": [
+    "https://www.usps.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "usps.com",
+        "www.usps.com"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "connect.facebook.net",
+        "s.pinimg.com",
+        "bat.bing.com",
+        "www.redditstatic.com",
+        "sc-static.net",
+        "snap.licdn.com",
+        "c.amazon-adsystem.com",
+        "analytics-sm.com",
+        "c.tvpixel.com",
+        "live.rezync.com",
+        "s.yimg.com",
+        "alb.reddit.com",
+        "beacon.lynx.cognitivlabs.com",
+        "aax-eu.amazon-adsystem.com",
+        "p.tvpixel.com",
+        "idsync.rlcdn.com",
+        "pixel-config.reddit.com",
+        "tr.snapchat.com",
+        "mpc2-prod-23-is5qnl632q-ue.a.run.app",
+        "www.facebook.com",
+        "c1.rfihub.net",
+        "cdn.boomtrain.com",
+        "ct.pinterest.com",
+        "px.ads.linkedin.com",
+        "tr6.snapchat.com",
+        "people.api.boomtrain.com",
+        "bat.bing.net",
+        "20881849p.rfihub.com",
+        "cm.g.doubleclick.net",
+        "ib.adnxs.com",
+        "dpm.demdex.net",
+        "image2.pubmatic.com",
+        "us-u.openx.net",
+        "p.rfihub.com",
+        "contextual.media.net",
+        "wt.rqtrk.eu",
+        "i.liadm.com",
+        "dsum-sec.casalemedia.com",
+        "partners.tremorhub.com",
+        "aa.agkn.com",
+        "x.bidswitch.net",
+        "sync-tm.everesttech.net",
+        "events.api.boomtrain.com",
+        "a.rfihub.com",
+        "sp.analytics.yahoo.com",
+        "ps.eyeota.net",
+        "pagead2.googlesyndication.com",
+        "ade.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js": [
+          "mousedown"
+        ],
+        "https://sc-static.net/scevent.min.js": [
+          "click"
+        ],
+        "https://connect.facebook.net/signals/config/533374513433337?v=2.9.337&r=stable&domain=www.usps.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MVCC8H": [
+          "click"
+        ],
+        "https://www.usps.com/WF7BgK0SiE/7rV4b8Ln/lp/ik5JVb2fJ3zJkbuQ/TgxyDCYfAw/bTkiRns/EexsB": [
+          "mouseup",
+          "mousedown",
+          "click",
+          "mousemove"
+        ],
+        "https://www.usps.com/assets/script/globals/jquery.min.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.usps.com/WF7BgK0SiE/7rV4b8Ln/lp/ik5JVb2fJ3zJkbuQ/TgxyDCYfAw/bTkiRns/EexsB": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://www.usps.com/assets/script/globals/jquery.min.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.usps.com/WF7BgK0SiE/7rV4b8Ln/lp/ik5JVb2fJ3zJkbuQ/TgxyDCYfAw/bTkiRns/EexsB": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ],
+        "https://www.usps.com/assets/script/home/megamenu-additions.js": [
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://www.usps.com/WF7BgK0SiE/7rV4b8Ln/lp/ik5JVb2fJ3zJkbuQ/TgxyDCYfAw/bTkiRns/EexsB": [
+          "devicemotion",
+          "deviceorientation"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "X-AB",
+        "value": "2cd4db51d4a54fedb071daeb33ccfeb3",
+        "domain": "sc-static.net",
+        "path": "/scevent.min.js",
+        "expires": "2026-06-12T09:45:01.273Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "919A9BA6D110B81D5D020B35F9D2452C~000000000000000000000000000000~YAAQzm1lX0yXa5meAQAACxkStgDHhHUkvel2ujHgqFmIQLgPXFBdWON69TlSar38vwGRi2+FiVlO6D1DVas2Lt2oS4gdeKjaqQ98EsskJVTfvmj6VKqlCVFsAQ/noiedIfXXqLwBbPauRl/a7OxsxKC4tCXZgrN5JPJh3XmFR7Sq6NnAR6OU0YMXuQb8CtzYpKv2c4w8Zs5VHvUKCt5R8ZTTe2dIDd/VuMzX57Ik2g593ac6O0mWas/+Yyrh0kyz4ONasYN412hebHSwentYXJBLZS61+hTgN9IA9LcU6ygBv6NXKzhHrb+K+jnOgeRJYUfQ0QX8qAtaXTgcEmJkkUkrlfToWUni5rTNEC36GBls2NYDwxsQLvaQ4k07JslUQ6cmAFxfueWS",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2026-06-11T11:44:59.946Z",
+        "size": 467,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bm_sz",
+        "value": "FF2610C3434F1465BB8A6A727FBF5B7D~YAAQzm1lX02Xa5meAQAACxkStgBWLJwEvTAwLCpeRDgC6teSBVZvNt56r42QGGjwM07Ij26oTLR+kVTf8Bp41BSdkmcSWfPInh0YDTtiKl6pU/9DaVotiD8jO/Ja8oiUB60vZwSDDGdJXox9q5BDxemwcfpMys2U2lX0BUD+8CdAZqyM4gOaLHW4b+Px8uro0JKfQnGNlsRxZeQU/jU25JYJLpZriFZ11zLGpeZJwmU84NRzwYZVf1JOjNnOa1xoNzZKxLv7HEcBbIgBaWTha6SQmD/EWmXPEIXZaH/p0jklMWEciJrV3HIBkgASRIVvLQ4RF/NNK9zIX4f1OMK/nXf25L2lObB9D6cj7+sWnLBSWnbIGrpG0v9lxsLZplBsusa8p/6J1F3bcFQ=~3359286~4343089",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2026-06-11T13:44:59.946Z",
+        "size": 454,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "zync-uuid",
+        "value": "47396184-7188-4eb7-9849-fd65a3efae51:1781171101.3077002",
+        "domain": "rezync.com",
+        "path": "/",
+        "expires": "2026-12-08T09:45:03.080Z",
+        "size": 64,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sm_uuid",
+        "value": "1781171611327",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-07-16T09:45:01.537Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "UID",
+        "value": "80c25c50-fa21-4448-9f92-dff4c190f2db",
+        "domain": "beacon.lynx.cognitivlabs.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:01.778Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_dpm_ses.340b",
+        "value": "*",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2026-06-11T10:15:01.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dpm_id.340b",
+        "value": "d737c928-a858-4ae3-a4b5-0df63a9b5a26.1781171102.1.1781171102.1781171102.98e4f66c-72db-411a-939d-74267bccaefe",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:01.000Z",
+        "size": 120,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ad-id",
+        "value": "A_sfmsvSdUxXqPSjGId6ux8",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2027-01-01T09:45:01.855Z",
+        "size": 28,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2027-07-16T09:45:01.856Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_rdt_uuid",
+        "value": "1781171101868.b209a52a-870a-4a68-94d4-ff4b4a222a35",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2026-09-09T09:45:01.000Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid",
+        "value": "-EQmWgtTgk2oqpxQaW_jPSlZ4tDOo_Vy",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-07-11T09:45:01.000Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_scid_r",
+        "value": "-EQmWgtTgk2oqpxQaW_jPSlZ4tDOo_Vy",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-07-11T09:45:01.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1781171102145.114822637669701759",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2026-09-09T09:45:02.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_bts",
+        "value": "9faefea4-6919-482e-b99d-77cdea160346",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2026-06-11T10:45:02.000Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_pin_unauth",
+        "value": "dWlkPVpUUXdNVEE0WTJZdE1ESmlOeTAwTmprMExXRm1PRFV0WlRBek5XSmpPVGN4TWpnMA",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:02.000Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sp",
+        "value": "454f980c-68bc-4ee8-9d00-e8cb6f992b1f",
+        "domain": "tvpixel.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:02.643Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&11b51b0b-1d5b-498e-8052-0a487be1ba83\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:02.808Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_gc",
+        "value": "MTswOzE3ODExNzExMDI7MjswMjGUcm5nSg8iC9SdwJ/uTj+bnvonAlIZIVdgY1AZjjMMKg==",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-12-08T09:45:02.808Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=VGST02:s=V:r=V:a=V:p=V:g=3776:u=1:x=1:i=1781171102:t=1781257502:v=2:sig=AQGsXMXswtKwDo54NVmitBRxCbDFsMce\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-12T09:45:02.808Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "mTepOJdRSQXHpsAEKSpClHEq.OtYeKNao.iM01SkVbo-1781171102.695759-1.0.1.1-0hgBWRloAeIfv9HvwWu5.h5YGZoNDjUDXL3zrklRwSZCJ4h6MRQNPV8DWs9MRL7CP5d7iMSMBrUmZKa4oZK0nelRIORTdgYieXv79UXpqq63DSILu7hCGtKR0WayITKB",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-11T10:15:02.808Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rud",
+        "value": "H4sIAAAAAAAA_-MSNjcxszQxNrQ0tDQ3ADIsLc0shfgMdcv8iqLS3KPSihON0wBCDUrFJQAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": "2027-07-06T09:45:03.144Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ruds",
+        "value": "H4sIAAAAAAAA_-MSNjcxszQxNrQ0tDQ3ADIsLc0shfgMdcv8iqLS3KPSihON0wBCDUrFJQAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 78,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_bti",
+        "value": "%7B%22app_id%22%3A%22usps-united-states-postal-service%22%2C%22bsin%22%3A%229zN9UAvd4Kl2Rj66z6Z%2Fl0d4SQVvmwUC4cT24lyKaNOpa1NrBBvmHT88hNNsZRlzHvt%2FOenO1eRN5tb3tvEbvQ%3D%3D%22%2C%22external_ids%22%3A%7B%22zync%22%3A%2247396184-7188-4eb7-9849-fd65a3efae51%3A1781171101.3077002%22%7D%2C%22is_identified%22%3Afalse%2C%22known_to_zeta%22%3Afalse%7D",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:02.000Z",
+        "size": 348,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "browser_id",
+        "value": "1:0950245d-34c3-4012-819a-86bf492f87c5",
+        "domain": "rqtrk.eu",
+        "path": "/",
+        "expires": "2026-06-18T09:45:03.027Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sd-session-id",
+        "value": ".eJwNytEOgjAMQNF_6TMzqytru58hU0qyKNMweJHw7-7tnuSeMH1tW3O1ukPat8MGeL5LV4N0Qiu_1V6QgCkqBVRU9j1Uo8I1QLPWyqdOZe4PcdCIQo5RxJE92KmQumWOYw62ZBsxIQsiI3q8Bc_s_R2uP5uOJTE.aiqDng.ZTBVFfVv1N1nPjMOn5GdttHS-TQ",
+        "domain": "live.rezync.com",
+        "path": "/",
+        "expires": "2026-12-08T09:45:03.080Z",
+        "size": 208,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "29867244556320294614207919985205581380",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T09:45:03.154Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "aiqDn7lQJXUAKF6pAPUs6AAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:03.124Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "325",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2026-09-09T09:45:03.124Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "325",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2026-09-09T09:45:03.124Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "eud",
+        "value": "H4sIAAAAAAAA_-NicjUO4jU0tzA0NDc0NDA2NLSYxYjgG5lbmGxC4-9C459C479C4_9C4y9iQuWvQuNvQpdnQeXfQuNvYkVzHzeafcKo_Edo_FmSqHwApeLTdhMBAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": "2027-07-06T09:45:03.144Z",
+        "size": 130,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "euds",
+        "value": "H4sIAAAAAAAA_-NicjUGAEAxo38EAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rlas3",
+        "value": "D/ZVmXerkkrnQxmly1FeVarhh7ModAmi0je8BsLNbMs=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:03.218Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "29867244556320294614207919985205581380",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T09:45:03.154Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CJ+HqtEGEgUI6AcQABIGCLbqARAA",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2026-08-10T09:45:03.218Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SERVERID",
+        "value": "19959~DM",
+        "domain": "eyeota.net",
+        "path": "/",
+        "expires": "2026-06-11T09:55:03.234Z",
+        "size": 16,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_abck",
+        "value": "20B74B0271C25F18BF9018DE9BCBC644~-1~YAAQzm1lX2Gla5meAQAA/zASthDJZpSAZwj8UxY7UGGI94o4hjpkQ10rvhdr3TA0V39jcF8YmSeCCFoacFduKhPDQVUqwRx91IzGws7MXK+YsNXw+8QqW+hesBN2QDpjCwVUC+zfNJdIdxPFl+ullrKis/+IY8dWkUgds/ntPKcTQ+O/r1M9iqACagInF20BfbKX9TRkuPYv9Og1MFgaQDeuVzirMw+5HADvrJu2vmG22cVmWyO5CHo5eLgmIe4PqsMhY3hgXmG0T3ITrTmhHYfaUkJE+gbjiYiD8NHTuIXdR7GlWhvoZgLUznpV7s9f8hr/rGajfE+s8b1Uyh8SmbeesTyDyHDxy7pzUrp8CBhUJ76sT+WejCZnkppx3JYtCDwQ/EANyoKaoFgEz7W8UIQidoo+oCKGJtcX6mala0a/dq2vqCbMMVhYfDKq0Z4GU0d91UJlWT2nWrTzolhi3xYx2n8ZvDh8rNF6yP3tGVnUY1tkT5HMrO/bO2DOb2E17Ri6QADCJQ1935h1PfoZ3wKWfehtB1LelBkLOZ7NDJA/W1GgoGKfnTrup1he3aPBRiNmY0VM6kt9QyRdBiLBfNcEixbZuNfg7nmQRzJxQnUTcID5/ll1Ie2/6z9j~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f3p0VYz6ALSDodQa+6Hob82qmaqK3AiOkLQfB2TAdlQMaQeiL4em1hsal4eDNBSOqQ+oL9vNxEuFtWJQyfl+QhQVqdTVGUOYULLL~-1",
+        "domain": "usps.com",
+        "path": "/",
+        "expires": "2027-06-11T09:45:06.228Z",
+        "size": 812,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.usps.com/",
+        "raw": "https://www.facebook.com/tr/?id=533374513433337&ev=PageView&dl=https%3A%2F%2Fwww.usps.com%2F&rl=&if=false&ts=1781171102176&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781171102145.114822637669701759&eid=ob3_plugin-set_38cf23cfdc93ad5cebeaf530499dbead974210dd9c007984fd24c66bd6c96c6c&ler=empty&pmd[title]=Welcome%20%7C%20USPS&pmd[locale]=en&pmd[keywords]=USPS%2C%20Postal%20Service%2C%20Postal%20Store%2C%20buy%20stamps%2C%20free%20shipping%20supplies%2C%20informed%20delivery%2C%20mail%20previews%2C%20Click-N-Ship%2C%20online%20postage%2C%20track%20packages%2C%20hold%20mail%2C%20forward%20mail%2C%20free%20package%20pickup%2C%20postage%20calculator%2C%20ZIP%20Code%20Lookup%2C%20Find%20a%20Post%20Office&pmd[description]=Welcome%20to%20USPS.com.%20Track%20packages%2C%20pay%20and%20print%20postage%20with%20Click-N-Ship%2C%20schedule%20free%20package%20pickups%2C%20look%20up%20ZIP%20Codes%2C%20calculate%20postage%20prices%2C%20and%20find%20everything%20you%20need%20for%20sending%20mail%20and%20shipping%20packages.&plt=1671.4000000059605&iss=1&imft=1&tz=120&it=1781171101314&coo=false&dpo=LDU&dpoco=0&dpost=0&cdl=&cf=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf0&rqm=GET"
+      }
+    ],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_test": "aiqDnwAAAV2qggBJ",
+            "redir": "https://p.rfihub.com/cm?in=1&pub=21653&userid=${TM_USER_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/ct/upi/pid/Mlpt2JaG/?redir=https%3A%2F%2Fp.rfihub.com%2Fcm%3Fin%3D1%26pub%3D21653%26userid%3D%24%7BTM_USER_ID%7D&_test=aiqDnwAAAV2qggBJ"
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "https://idsync.rlcdn.com/52154.gif?served_by=evergreen&partner_uid=$UID": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "memo": "CM3PHhJDCj8IARDI-AEaNzQ3Mzk2MTg0LTcxODgtNGViNy05ODQ5LWZkNjVhM2VmYWU1MToxNzgxMTcxMTAxLjMwNzcwMDIQABoNCJ-HqtEGEgUI6AcQAEIASgA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/1000.gif?memo=CM3PHhJDCj8IARDI-AEaNzQ3Mzk2MTg0LTcxODgtNGViNy05ODQ5LWZkNjVhM2VmYWU1MToxNzgxMTcxMTAxLjMwNzcwMDIQABoNCJ-HqtEGEgUI6AcQAEIASgA"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 1781171102.9959323,
+            "partner_uid": "47396184-7188-4eb7-9849-fd65a3efae51:1781171101.3077002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/501709.gif?partner_uid=47396184-7188-4eb7-9849-fd65a3efae51%3A1781171101.3077002&_=1781171102.9959323"
+      },
+      {
+        "data": {
+          "filter": "||casalemedia.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "C": 1,
+            "cm_dsp_id": 57,
+            "external_user_id": 7469431919709440000,
+            "forward": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=57&external_user_id=7469431919709439969&forward=&C=1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dpuuid": 7469431919709440000,
+            "et:ibs|data:dpid": 1121,
+            "redir": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=1121&dpuuid=7469431919709439969&redir="
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cb": 1781171102.9959457,
+            "forward": "https://idsync.rlcdn.com/501709.gif?partner_uid=47396184-7188-4eb7-9849-fd65a3efae51%3A1781171101.3077002&_=1781171102.9959323",
+            "in": 0,
+            "pub": 39342,
+            "userid": "47396184-7188-4eb7-9849-fd65a3efae51:1781171101.3077002"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=39342&in=0&userid=47396184-7188-4eb7-9849-fd65a3efae51%3A1781171101.3077002&forward=https%3A//idsync.rlcdn.com/501709.gif%3Fpartner_uid%3D47396184-7188-4eb7-9849-fd65a3efae51%253A1781171101.3077002%26_%3D1781171102.9959323&cb=1781171102.9959457"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "KA",
+            "apvc": 0,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.usps.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691za200xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 2,
+            "rnd": 227068224.1781171,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938468",
+            "tfd": 4046,
+            "tft": 1781171103070,
+            "tid": "AW-978081151",
+            "tids": "AW-978081151"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&en=page_view&dl=https%3A%2F%2Fwww.usps.com%2F&scrsrc=www.googletagmanager.com&rnd=227068224.1781171103&navt=n&npa=1&_tu=KA&gtm=45be6691za200xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938468&apve=1&apvf=f&apvc=0&tids=AW-978081151&tid=AW-978081151&tft=1781171103070&tfd=4046"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "_tu": "CA",
+            "ae": "g",
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.usps.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "ep.ads_data_redaction": 0,
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45He6691h1v78733333za20gzb72384666zd72384666xea",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 1,
+            "rnd": 227068224.1781171,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938465~115938469~117776793",
+            "tfd": 4045,
+            "tft": 1781171103068
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.usps.com%2F&scrsrc=www.googletagmanager.com&rnd=227068224.1781171103&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45He6691h1v78733333za20gzb72384666zd72384666xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115938465~115938469~117776793&apve=1&apvf=f&apvc=1&tft=1781171103068&tfd=4045"
+      },
+      {
+        "data": {
+          "filter": "||eyeota.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bid": "omt9pi0",
+            "uid": 7469431919709440000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ps.eyeota.net/match?uid=7469431919709439969&bid=omt9pi0"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            ".yp": 10214073,
+            "a": 10000,
+            "b": "Welcome | USPS",
+            "d": "Thu, 11 Jun 2026 09:45:03 GMT",
+            "enc": "windows-1252",
+            "f": "https://www.usps.com/",
+            "n": "-2d",
+            "tagmgr": "gtm",
+            "yv": "1.16.6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Thu%2C%2011%20Jun%202026%2009%3A45%3A03%20GMT&n=-2d&b=Welcome%20%7C%20USPS&.yp=10214073&f=https%3A%2F%2Fwww.usps.com%2F&enc=windows-1252&yv=1.16.6&tagmgr=gtm"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "forward": "",
+            "google_error": 3,
+            "in": 0,
+            "pub": 445
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&in=0&forward=&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||boomtrain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.api.boomtrain.com/event/track"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/ct.html"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/static/ct/token_create.js"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://p.rfihub.com/cm?in=1&pub=21653&userid=${TM_USER_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/Mlpt2JaG/?redir=https%3A%2F%2Fp.rfihub.com%2Fcm%3Fin%3D1%26pub%3D21653%26userid%3D%24%7BTM_USER_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dsp_id": 119,
+            "expires": 30,
+            "gdpr": "",
+            "gdpr_consent": "",
+            "gdpr_pd": "{GDPR_PD}",
+            "user_id": 7469431919709440000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/sync?dsp_id=119&user_id=7469431919709439969&expires=30&gdpr=&gdpr_consent=&gdpr_pd={GDPR_PD}"
+      },
+      {
+        "data": {
+          "filter": "||agkn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "rf": 7469431919709440000,
+            "sid": 9212192898
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aa.agkn.com/adscores/g.pixel?sid=9212192898&rf=7469431919709439969"
+      },
+      {
+        "data": {
+          "filter": "||tremorhub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "UIRF": 7469431919709440000,
+            "r": "f6pNeISavBws"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partners.tremorhub.com/sync?UIRF=7469431919709439969&r=f6pNeISavBws"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": 7469431919709440000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/360947.gif?partner_uid=7469431919709439969"
+      },
+      {
+        "data": {
+          "filter": "||casalemedia.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "cm_dsp_id": 57,
+            "external_user_id": 7469431919709440000,
+            "forward": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=57&external_user_id=7469431919709439969&forward="
+      },
+      {
+        "data": {
+          "filter": "||liadm.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bidder_id": 246506,
+            "bidder_uuid": 7469431919709440000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.liadm.com/s/90096?bidder_id=246506&bidder_uuid=7469431919709439969"
+      },
+      {
+        "data": {
+          "filter": "||rqtrk.eu^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "e9UYfSZco6pG",
+            "gdpr": "",
+            "gdpr_consent": "",
+            "gdpr_pd": 0,
+            "pid": "afd6afd5-a807-471d-940d-aa3c19fc7dca",
+            "sid": 1,
+            "src": "www",
+            "type": 100,
+            "uid": 7469431919709440000,
+            "url": "https://www.usps.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://wt.rqtrk.eu/?pid=afd6afd5-a807-471d-940d-aa3c19fc7dca&src=www&type=100&sid=1&cb=e9UYfSZco6pG&uid=7469431919709439969&url=https%3A%2F%2Fwww.usps.com%2F&gdpr=&gdpr_pd=0&gdpr_consent="
+      },
+      {
+        "data": {
+          "filter": "||media.net^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cs": 3,
+            "ovsid": 7469431919709440000,
+            "type": "rkt"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://contextual.media.net/cksync.php?cs=3&type=rkt&ovsid=7469431919709439969"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "gdpr": "",
+            "gdpr_consent": "",
+            "in": 1,
+            "pub": 24472
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=24472&in=1&gdpr=&gdpr_consent="
+      },
+      {
+        "data": {
+          "filter": "||openx.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "id": 537073062,
+            "r": "",
+            "val": 7469431919709440000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-u.openx.net/w/1.0/sd?id=537073062&val=7469431919709439969&r="
+      },
+      {
+        "data": {
+          "filter": "||pubmatic.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "piggybackCookie": 7469431919709440000,
+            "r": "",
+            "vcode": "bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw=="
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTI5NjAw==&piggybackCookie=7469431919709439969&r="
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=1121&dpuuid=7469431919709439969&redir="
+      },
+      {
+        "data": {
+          "filter": "||adnxs.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "code": 7469431919709440000,
+            "entity": 18,
+            "gdpr": "",
+            "gdpr_consent": "",
+            "redir": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/setuid?entity=18&code=7469431919709439969&gdpr=&gdpr_consent=&redir="
+      },
+      {
+        "data": {
+          "filter": ".doubleclick.net/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "forward": "",
+            "google_cm": "",
+            "google_hm": "NzQ2OTQzMTkxOTcwOTQzOTk2OQ==",
+            "google_nid": "zeta_interactive",
+            "google_sc": "",
+            "in": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?&in=0&google_nid=zeta_interactive&google_cm=&google_sc=&google_hm=NzQ2OTQzMTkxOTcwOTQzOTk2OQ==&forward="
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": "bd8618c307ae9885a12561b7191e2cea",
+            "cid": 7469431919709440000,
+            "forward": "",
+            "referrer": "https://www.usps.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/pixel?c=bd8618c307ae9885a12561b7191e2cea&cid=7469431919709439969&referrer=https%3A%2F%2Fwww.usps.com%2F&forward="
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "g",
+            "medium": "fetch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_o": 53312,
+            "_t": 20881849,
+            "ca": 20881849,
+            "pe": "https://www.usps.com/",
+            "pf": "",
+            "ra": 49987993822511940,
+            "rb": 53312,
+            "ver": 9
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://20881849p.rfihub.com/ca.html?ver=9&rb=53312&ca=20881849&_o=53312&_t=20881849&pe=https%3A%2F%2Fwww.usps.com%2F&pf=&ra=49987993822511934"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||tvpixel.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.tvpixel.com/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "asc": "D",
+            "bo": 1,
+            "cdb": "AQAQ",
+            "evt": "consent",
+            "mid": "cdeaee3c-e0b6-443e-8cc3-ceddfecba64d",
+            "src": "default",
+            "ti": 21006064
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.net/actionp/0?ti=21006064&Ver=2&mid=cdeaee3c-e0b6-443e-8cc3-ceddfecba64d&bo=1&evt=consent&src=default&cdb=AQAQ&asc=D"
+      },
+      {
+        "data": {
+          "filter": "||boomtrain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "data": "eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiNDczOTYxODQtNzE4OC00ZWI3LTk4NDktZmQ2NWEzZWZhZTUxOjE3ODExNzExMDEuMzA3NzAwMiJ9fQ==",
+            "site_id": "usps-united-states-postal-service"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://people.api.boomtrain.com/identify/resolve?data=eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiNDczOTYxODQtNzE4OC00ZWI3LTk4NDktZmQ2NWEzZWZhZTUxOjE3ODExNzExMDEuMzA3NzAwMiJ9fQ%3D%3D&site_id=usps-united-states-postal-service"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr6.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 4321490,
+            "time": 1781171102327,
+            "url": "https://www.usps.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=4321490&time=1781171102327&url=https%3A%2F%2Fwww.usps.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/21006064.js"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": {
+              "architecture": "",
+              "bitness": "",
+              "brands": [],
+              "ecm_enabled": true,
+              "if": false,
+              "is_eu": true,
+              "loc": "https://www.usps.com/",
+              "mh": "7a38100c",
+              "mobile": false,
+              "model": "",
+              "platform": "",
+              "platformVersion": "",
+              "ref": "",
+              "sh": 812,
+              "sw": 375,
+              "uaFullVersion": ""
+            },
+            "cb": 1781171102279,
+            "event": "init",
+            "pd": {
+              "em": "24aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0"
+            },
+            "tid": 2621041933204
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/v3/?tid=2621041933204&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.usps.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A812%2C%22sw%22%3A375%2C%22mh%22%3A%227a38100c%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1781171102279"
+      },
+      {
+        "data": {
+          "filter": "||ct.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": 1781171102266,
+            "dep": "2,PAGE_LOAD",
+            "pd": {
+              "em": "24aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0"
+            },
+            "tid": 2621041933204
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ct.pinterest.com/user/?tid=2621041933204&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%7D&cb=1781171102266&dep=2%2CPAGE_LOAD"
+      },
+      {
+        "data": {
+          "filter": "||boomtrain.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.boomtrain.com/p13n/usps-united-states-postal-service/p13n.min.js"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c1.rfihub.net/js/tc.min.js"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/p"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aems": "0;0",
+            "cdl": "",
+            "cf": 1,
+            "coo": false,
+            "dl": "https://www.usps.com/",
+            "dpo": "LDU",
+            "dpoco": 0,
+            "dpost": 0,
+            "ec": 0,
+            "eid": "ob3_plugin-set_38cf23cfdc93ad5cebeaf530499dbead974210dd9c007984fd24c66bd6c96c6c",
+            "ev": "PageView",
+            "expv2[0]": "pl0",
+            "expv2[1]": "el2",
+            "expv2[2]": "bc1",
+            "expv2[3]": "ra2",
+            "expv2[4]": "rp2",
+            "expv2[5]": "ct2",
+            "expv2[6]": "hf0",
+            "fbp": "fb.1.1781171102145.114822637669701759",
+            "id": 533374513433337,
+            "if": false,
+            "imft": 1,
+            "iss": 1,
+            "it": 1781171101314,
+            "iw": false,
+            "ler": "empty",
+            "o": 4126,
+            "plt": 1671.4000000059605,
+            "pmd[description]": "Welcome to USPS.com. Track packages, pay and print postage with Click-N-Ship, schedule free package pickups, look up ZIP Codes, calculate postage prices, and find everything you need for sending mail and shipping packages.",
+            "pmd[keywords]": "USPS, Postal Service, Postal Store, buy stamps, free shipping supplies, informed delivery, mail previews, Click-N-Ship, online postage, track packages, hold mail, forward mail, free package pickup, postage calculator, ZIP Code Lookup, Find a Post Office",
+            "pmd[locale]": "en",
+            "pmd[title]": "Welcome | USPS",
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781171102176,
+            "tz": 120,
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=533374513433337&ev=PageView&dl=https%3A%2F%2Fwww.usps.com%2F&rl=&if=false&ts=1781171102176&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1781171102145.114822637669701759&eid=ob3_plugin-set_38cf23cfdc93ad5cebeaf530499dbead974210dd9c007984fd24c66bd6c96c6c&ler=empty&pmd[title]=Welcome%20%7C%20USPS&pmd[locale]=en&pmd[keywords]=USPS%2C%20Postal%20Service%2C%20Postal%20Store%2C%20buy%20stamps%2C%20free%20shipping%20supplies%2C%20informed%20delivery%2C%20mail%20previews%2C%20Click-N-Ship%2C%20online%20postage%2C%20track%20packages%2C%20hold%20mail%2C%20forward%20mail%2C%20free%20package%20pickup%2C%20postage%20calculator%2C%20ZIP%20Code%20Lookup%2C%20Find%20a%20Post%20Office&pmd[description]=Welcome%20to%20USPS.com.%20Track%20packages%2C%20pay%20and%20print%20postage%20with%20Click-N-Ship%2C%20schedule%20free%20package%20pickups%2C%20look%20up%20ZIP%20Codes%2C%20calculate%20postage%20prices%2C%20and%20find%20everything%20you%20need%20for%20sending%20mail%20and%20shipping%20packages.&plt=1671.4000000059605&iss=1&imft=1&tz=120&it=1781171101314&coo=false&dpo=LDU&dpoco=0&dpost=0&cdl=&cf=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf0&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "cc41fce6-e245-447e-b170-1c36414f246a",
+            "u_sclid": "296404ba-0796-4a60-9e5b-acbf0ae7dbe1",
+            "u_scsid": "d239a458-0c30-4ef4-97b0-87bd80116d29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/cm/i?pid=cc41fce6-e245-447e-b170-1c36414f246a&u_scsid=d239a458-0c30-4ef4-97b0-87bd80116d29&u_sclid=296404ba-0796-4a60-9e5b-acbf0ae7dbe1"
+      },
+      {
+        "data": {
+          "filter": "||tr.snapchat.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "3.56.3-2606082033"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tr.snapchat.com/config/com/cc41fce6-e245-447e-b170-1c36414f246a.js?v=3.56.3-2606082033"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "dcc": "t",
+            "event": "PageView",
+            "eventSource": "amzn.js",
+            "pid": "92ea6c7e-9120-4bf6-8692-a1fb27eb5a6b",
+            "ts": 1781171101154,
+            "uuid": "02af7cb3-440e-4607-ba15-a97fd15901f5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?pid=92ea6c7e-9120-4bf6-8692-a1fb27eb5a6b&event=PageView&ts=1781171101154&eventSource=amzn.js&uuid=02af7cb3-440e-4607-ba15-a97fd15901f5&dcc=t"
+      },
+      {
+        "data": {
+          "filter": "||alb.reddit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aaid": "",
+            "dpcc": "",
+            "dpm": "",
+            "dprc": "",
+            "esurl": "https://www.usps.com/",
+            "event": "PageVisit",
+            "external_id": "",
+            "id": "t2_txtps67",
+            "idfa": "",
+            "integration": "reddit",
+            "m.conversionId": "",
+            "m.currency": "",
+            "m.customEventName": "",
+            "m.itemCount": "",
+            "m.products": "",
+            "m.transactionId": "",
+            "m.value": "",
+            "m.valueDecimal": "",
+            "opt_out": 0,
+            "partner": "",
+            "partner_version": "",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781171101872,
+            "uuid": "b209a52a-870a-4a68-94d4-ff4b4a222a35",
+            "v": "rdt_afb90018"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://alb.reddit.com/rp.gif?ts=1781171101872&id=t2_txtps67&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=b209a52a-870a-4a68-94d4-ff4b4a222a35&aaid=&external_id=&idfa=&integration=reddit&partner=&partner_version=&opt_out=0&sh=812&sw=375&v=rdt_afb90018&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.usps.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "credir": "https://beacon.lynx.cognitivlabs.com/pixel/liveramp/done",
+            "partner_uid": "80c25c50-fa21-4448-9f92-dff4c190f2db"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/711906.gif?partner_uid=80c25c50-fa21-4448-9f92-dff4c190f2db&credir=https%3A%2F%2Fbeacon.lynx.cognitivlabs.com%2Fpixel%2Fliveramp%2Fdone"
+      },
+      {
+        "data": {
+          "filter": "||tvpixel.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.tvpixel.com/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "||tvpixel.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.tvpixel.com/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "||cognitivlabs.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "event": "gtm.js/",
+            "page_url": "https://www.usps.com/",
+            "referer": "",
+            "rf": 1,
+            "tags": "8dd8cf55-3ae9-49dc-a25a-83dcfc60de58"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.lynx.cognitivlabs.com/pixel/capture?tags=8dd8cf55-3ae9-49dc-a25a-83dcfc60de58&referer=&page_url=https%3A%2F%2Fwww.usps.com%2F&event=gtm.js/&rf=1"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "event": "PageView",
+            "eventSource": "amzn.js",
+            "pid": "92ea6c7e-9120-4bf6-8692-a1fb27eb5a6b",
+            "ts": 1781171101154,
+            "uuid": "02af7cb3-440e-4607-ba15-a97fd15901f5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aax-eu.amazon-adsystem.com/s/iu3?pid=92ea6c7e-9120-4bf6-8692-a1fb27eb5a6b&event=PageView&ts=1781171101154&eventSource=amzn.js&uuid=02af7cb3-440e-4607-ba15-a97fd15901f5"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aat/amzn.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aat/amzn.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.usps.com",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/533374513433337?v=2.9.337&r=stable&domain=www.usps.com&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "||cognitivlabs.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "event": "gtm.js/",
+            "page_url": "https://www.usps.com/",
+            "referer": "",
+            "tags": "8dd8cf55-3ae9-49dc-a25a-83dcfc60de58"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.lynx.cognitivlabs.com/pixel/capture?tags=8dd8cf55-3ae9-49dc-a25a-83dcfc60de58&referer=&page_url=https%3A%2F%2Fwww.usps.com%2F&event=gtm.js/"
+      },
+      {
+        "data": {
+          "filter": "||alb.reddit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "q": "CAAHAAABAAoACQAAAA8sjYvfAA==",
+            "s": "758ZB25Erv8S36eTAg3XLKvz7xb4K5BBW3pi8UyQQy8=",
+            "ts": 1781171101147
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://alb.reddit.com/snoo.gif?q=CAAHAAABAAoACQAAAA8sjYvfAA==&s=758ZB25Erv8S36eTAg3XLKvz7xb4K5BBW3pi8UyQQy8=&ts=1781171101147"
+      },
+      {
+        "data": {
+          "filter": "||yimg.com/wi/ytc.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.yimg.com/wi/ytc.js"
+      },
+      {
+        "data": {
+          "filter": "||rezync.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "PageUrl": "https://www.usps.com/",
+            "c": "16b6410431b6374e780104abb0443ca8",
+            "cache_buster": 1781171101160,
+            "gdpr": "${GDPR}",
+            "gdpr_consent": "${GDPR_CONSENT_469}",
+            "gpp": "${GPP_STRING_469}",
+            "gpp_sid": "${GPP_SID}",
+            "k": "usps-united-states-postal-service-pixel-2412",
+            "p": "cd073bead397e736d155b06263e3fdbd",
+            "page_referrer": "",
+            "zmpID": "usps-united-states-postal-service"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://live.rezync.com/sync?c=16b6410431b6374e780104abb0443ca8&p=cd073bead397e736d155b06263e3fdbd&k=usps-united-states-postal-service-pixel-2412&gpp=${GPP_STRING_469}&gpp_sid=${GPP_SID}&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_469}&zmpID=usps-united-states-postal-service&cache_buster=1781171101160&PageUrl=https%3A%2F%2Fwww.usps.com%2F&page_referrer="
+      },
+      {
+        "data": {
+          "filter": "||tvpixel.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": "nbc_usps_1351-d4f85824-4554-91ff-fdb56f962c5c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.tvpixel.com/js/current/dpm_pixel_min.js?aid=nbc_usps_1351-d4f85824-4554-91ff-fdb56f962c5c"
+      },
+      {
+        "data": {
+          "filter": "/beacon.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics-sm.com/js/v1/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aat/amzn.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||sc-static.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sc-static.net/scevent.min.js"
+      },
+      {
+        "data": {
+          "filter": "||redditstatic.com/ads/pixel.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.redditstatic.com/ads/pixel.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-978081151"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-978081151"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||s.pinimg.com/ct/core.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.pinimg.com/ct/core.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "DC-3976941"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-3976941&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gtm": "4e6691h1",
+            "id": "GTM-K2FRZL4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K2FRZL4&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MVCC8H"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.usps.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MVCC8H"
+      }
+    ]
+  }
+}

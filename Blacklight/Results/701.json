@@ -1,0 +1,166 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Google",
+  "uri_ins": "https://google.co.uk",
+  "uri_dest": "https://www.google.com/",
+  "uri_redirects": [
+    "https://google.co.uk/",
+    "https://www.google.co.uk/"
+  ],
+  "secure_connection": {},
+  "host": "google.co.uk",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:11:02.653Z",
+  "end_time": "2026-06-11T09:11:06.153Z",
+  "browsing_history": [
+    "https://www.google.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "google.co.uk",
+        "www.google.co.uk",
+        "www.google.com",
+        "clients1.google.com"
+      ],
+      "third_party": [
+        "ssl.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "SOCS",
+        "value": "CAAaBgiA9afRBg",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2027-07-11T09:11:03.909Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "AEC",
+        "value": "AaJma5tJJaNy7OUikw4y6h2SJs4fTjkugrbj4o1vUVY1_3Pd1CT6gA4uybg",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2026-12-08T09:11:03.910Z",
+        "size": 62,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-ENID",
+        "value": "34.SE=XsA2h-0cFq7znFWUQVxWRIIMatrEjmrJDJGIdgwgttnnJBB-XB-1y5Q6ZfSp0T07qsPFUtrAdpmaUvG5m2OtSLOoTUJHdhbcGHeiPIDD9fbFRAJiIZhNeOmPOgUM7vYpwIZVtY7Ky3z3YZrxrSH2bEr4iogtgIG1N6dYvyNJv178PvNCFFsEl9uUCbSKrQMHIz5fxDSts4zIHA_V5s5vlpK5diJicnr4OtCgottO_Y5pz-iGiw9F_z_c3703Iw",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2027-07-12T01:29:21.910Z",
+        "size": 273,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__Secure-BUCKET",
+        "value": "CD8",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2026-12-08T09:11:03.910Z",
+        "size": 18,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

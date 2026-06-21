@@ -1,0 +1,154 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "",
+  "uri_ins": "https://ieee.org",
+  "uri_dest": "https://www.ieee.org/",
+  "uri_redirects": [
+    "https://ieee.org/"
+  ],
+  "secure_connection": {},
+  "host": "ieee.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:40:42.289Z",
+  "end_time": "2026-06-11T08:40:45.340Z",
+  "browsing_history": [
+    "https://www.ieee.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "ieee.org",
+        "www.ieee.org"
+      ],
+      "third_party": [
+        "127.0.0.1",
+        "burp"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://www.ieee.org/TSPD/08d3fc6170ab2000dba1b97485152724db8cabe0d8de07dfee9a018a6cf243f1e08f9f69db50f0c3?type=10": [
+          "devicemotion",
+          "deviceorientation"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "TS45dadd5e029",
+        "value": "08d3fc6170ab2800e52d175ea68acaeb9db3c884728665690d07835e1e44540dc6e1861e82bf29712ccd837bb69d0d2e",
+        "domain": "www.ieee.org",
+        "path": "/",
+        "expires": "2026-06-11T08:41:13.840Z",
+        "size": 109,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS45dadd5e078",
+        "value": "08d3fc6170ab2000b8b0910f6a739a6683416701a1092f4db8933f52ffa588c7c2b1cd4e5350b9000899940001182001297a2c461c930c3f69828348f29869051574885b9ed38994eb333f28634b2cd3374aeb1673ab5c5b8938298bd4b67397695fde8eb25e8d3773284a152415c9827f91adb6637b1d345696dc40967ce871dbaf46c1396bfd07be03b87797b33c9da67816679fa02730dad7f3f576cd04b09d399d79a8665b8d20d2eefec353a5e20c8989d816c8f20a7d7cd854803e85e932ef0315426bbbe3ca8733a1e32ca4e2ac91271c5a13fa51fd927688f6b914e189516ef2924f0204eb178ae306a7d84cc65c34d6501b02d234664a41e00928ef583bb4b78eb0e583892385c0a2177981846492a20a2e5b1976324fa5987bf7eb12b6861964068864f1ee839c7ab7ce0e59a920465db204df6afb767c6dde32e373ab4a6e6dd6ca4d6fbc6854e9ac3726",
+        "domain": "www.ieee.org",
+        "path": "/",
+        "expires": "2026-06-11T08:41:13.840Z",
+        "size": 685,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS8ecf3524027",
+        "value": "08d3fc6170ab20005a14cda7f5e53447489ee2e1231a7e3fd68cd62d02d3460815153f7f12c7b3dc088af6d2ff1130006cf31ce142afe2790bc317339ace0db39f14b06f8fbee28b9a5c52f22aa22c8e86e887436721fee189de6a80152d5b63",
+        "domain": "www.ieee.org",
+        "path": "/",
+        "expires": -1,
+        "size": 205,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

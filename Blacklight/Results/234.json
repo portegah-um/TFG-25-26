@@ -1,0 +1,503 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Wi-Fi 7 | Network Security | Switches | Routers | Cisco Meraki",
+  "uri_ins": "https://meraki.com",
+  "uri_dest": "https://meraki.cisco.com/",
+  "uri_redirects": [
+    "https://meraki.com/"
+  ],
+  "secure_connection": {},
+  "host": "meraki.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:45:57.602Z",
+  "end_time": "2026-06-11T06:46:01.542Z",
+  "browsing_history": [
+    "https://meraki.cisco.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "meraki.com",
+        "meraki.cisco.com",
+        "www.cisco.com"
+      ],
+      "third_party": [
+        "s.go-mpulse.net",
+        "c.go-mpulse.net",
+        "02179917.akstat.io",
+        "api.ringlead.com",
+        "www.googletagmanager.com",
+        "www.google.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://meraki.cisco.com/": [
+          "scroll",
+          "mouseup",
+          "mousedown",
+          "click",
+          "mousemove"
+        ],
+        "https://s.go-mpulse.net/boomerang/ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX": [
+          "mousedown",
+          "mousemove",
+          "click",
+          "scroll",
+          "mouseup"
+        ]
+      },
+      "TOUCH": {
+        "https://meraki.cisco.com/": [
+          "touchend",
+          "touchstart",
+          "touchcancel",
+          "touchmove"
+        ],
+        "https://s.go-mpulse.net/boomerang/ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://meraki.cisco.com/": [
+          "keyup",
+          "keydown"
+        ],
+        "https://s.go-mpulse.net/boomerang/ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s.go-mpulse.net/boomerang/ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "AKA_A2",
+        "value": "A",
+        "domain": "cisco.com",
+        "path": "/",
+        "expires": "2026-06-11T07:45:58.704Z",
+        "size": 7,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "c_bi",
+        "value": "da7006f607700661cd10c3354722cf6e",
+        "domain": "meraki.cisco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "RT",
+        "value": "\"z=1&dm=meraki.cisco.com&si=b55472b8-ec23-48fc-b84c-f8df6e0ab4f7&ss=mq94w04d&sl=1&tt=x5&bcn=%2F%2F02179917.akstat.io%2F&ld=1gx\"",
+        "domain": "meraki.cisco.com",
+        "path": "/",
+        "expires": "2026-06-18T06:45:59.000Z",
+        "size": 129,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "c_bi",
+        "value": "233f5ed9b51ed0226ea5a7ebf35d2139",
+        "domain": "www.cisco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1336997713.1781160361",
+        "domain": "cisco.com",
+        "path": "/",
+        "expires": "2026-09-09T06:46:00.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "wp-wpml_current_language",
+        "value": "en",
+        "domain": "meraki.cisco.com",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 295,
+            "e": "gtag.config",
+            "eid": 2,
+            "gtm": "45He6691v72457100za200zd72457100",
+            "h": "Ag",
+            "id": "GTM-55HS3J",
+            "pid": 1073685818,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115616986~115938466~115938469~117776794",
+            "tc": 341,
+            "ti": "2googtag",
+            "tr": "5googtag",
+            "u": "AAAAAAAAAAAAAACA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=GTM-55HS3J&v=3&t=t&pid=1073685818&gtm=45He6691v72457100za200zd72457100&cv=295&rv=6691&tc=341&tag_exp=0~115616986~115938466~115938469~117776794&e=gtag.config&eid=2&u=AAAAAAAAAAAAAACA&h=Ag&tr=5googtag&ti=2googtag&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 295,
+            "e": "gtm.load",
+            "eid": 19,
+            "es": 1,
+            "gtm": "45He6691v72457100za200zd72457100",
+            "h": "Ag",
+            "id": "GTM-55HS3J",
+            "pid": 1073685818,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115616986~115938466~115938469~117776794",
+            "tc": 341,
+            "ti": "2paused.2sdl",
+            "tr": "1paused.1sdl",
+            "u": "AAAAAAAAAAAAAACA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=GTM-55HS3J&v=3&t=t&pid=1073685818&gtm=45He6691v72457100za200zd72457100&cv=295&rv=6691&tc=341&tag_exp=0~115616986~115938466~115938469~117776794&es=1&e=gtm.load&eid=19&u=AAAAAAAAAAAAAACA&h=Ag&tr=1paused.1sdl&ti=2paused.2sdl&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 295,
+            "e": "gtm.dom",
+            "eid": 18,
+            "es": 1,
+            "gtm": "45He6691v72457100za200zd72457100",
+            "h": "Ag",
+            "id": "GTM-55HS3J",
+            "pid": 1073685818,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115616986~115938466~115938469~117776794",
+            "tc": 341,
+            "ti": "2tg",
+            "tr": "1tg",
+            "u": "AAAAAAAAAAAAAACA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=GTM-55HS3J&v=3&t=t&pid=1073685818&gtm=45He6691v72457100za200zd72457100&cv=295&rv=6691&tc=341&tag_exp=0~115616986~115938466~115938469~117776794&es=1&e=gtm.dom&eid=18&u=AAAAAAAAAAAAAACA&h=Ag&tr=1tg&ti=2tg&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 295,
+            "e": "gtm.js",
+            "eid": 3,
+            "es": 1,
+            "gtm": "45He6691v72457100za200zd72457100",
+            "h": "Ag",
+            "hf": "0__html",
+            "ht": "p__html",
+            "id": "GTM-55HS3J",
+            "pid": 1073685818,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115616986~115938466~115938469~117776794",
+            "tc": 341,
+            "ti": "2paused.2paused.2paused.2paused.2paused.2paused.2lcl.2tl.2lcl.2lcl.2lcl.2cl.2cl.2cl.2cl.2cl.2fsl.2lcl.2lcl.2evl.2cl.2evl.2lcl.2lcl.2cl.2cl.2cl.2evl.2lcl.2cl.2evl.2evl.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2cl.2cl.2cl.2tg.2lcl.2lcl.2tg.2tl.2tg.2tg.2cl.2html",
+            "tr": "1paused.1paused.1paused.1paused.1paused.1paused.1lcl.1tl.1lcl.1lcl.1lcl.1cl.1cl.1cl.1cl.1cl.1fsl.1lcl.1lcl.1evl.1cl.1evl.1lcl.1lcl.1cl.1cl.1cl.1evl.1lcl.1cl.1evl.1evl.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1cl.1cl.1cl.1tg.1lcl.1lcl.1tg.1tl.1tg.1tg.1cl.1html",
+            "u": "AAAAAAAAAAAAAACA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=GTM-55HS3J&v=3&t=t&pid=1073685818&gtm=45He6691v72457100za200zd72457100&cv=295&rv=6691&tc=341&tag_exp=0~115616986~115938466~115938469~117776794&es=1&e=gtm.js&eid=3&u=AAAAAAAAAAAAAACA&h=Ag&hf=0__html&ht=p__html&tr=1paused.1paused.1paused.1paused.1paused.1paused.1lcl.1tl.1lcl.1lcl.1lcl.1cl.1cl.1cl.1cl.1cl.1fsl.1lcl.1lcl.1evl.1cl.1evl.1lcl.1lcl.1cl.1cl.1cl.1evl.1lcl.1cl.1evl.1evl.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1tg.1cl.1cl.1cl.1tg.1lcl.1lcl.1tg.1tl.1tg.1tg.1cl.1html&ti=2paused.2paused.2paused.2paused.2paused.2paused.2lcl.2tl.2lcl.2lcl.2lcl.2cl.2cl.2cl.2cl.2cl.2fsl.2lcl.2lcl.2evl.2cl.2evl.2lcl.2lcl.2cl.2cl.2cl.2evl.2lcl.2cl.2evl.2evl.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2tg.2cl.2cl.2cl.2tg.2lcl.2lcl.2tg.2tl.2tg.2tg.2cl.2html&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 295,
+            "e": "gtag.config",
+            "eid": 2,
+            "es": 1,
+            "gtm": "45He6691v72457100za200zd72457100",
+            "h": "Ag",
+            "id": "GTM-55HS3J",
+            "pid": 1073685818,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115616986~115938466~115938469~117776794",
+            "tc": 341,
+            "ti": "2googtag",
+            "tr": "1googtag",
+            "u": "AAAAAAAAAAAAAACA",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=GTM-55HS3J&v=3&t=t&pid=1073685818&gtm=45He6691v72457100za200zd72457100&cv=295&rv=6691&tc=341&tag_exp=0~115616986~115938466~115938469~117776794&es=1&e=gtag.config&eid=2&u=AAAAAAAAAAAAAACA&h=Ag&tr=1googtag&ti=2googtag&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "DC-3569326"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-3569326&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-55HS3J"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-55HS3J"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://02179917.akstat.io/"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "acao": "",
+            "ak.ai": 614989,
+            "d": "meraki.cisco.com",
+            "key": "ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX",
+            "plugins": "AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN",
+            "si": "090282db-fdcb-4ee0-b21a-573797c24c3f-tggg4m",
+            "sl": 0,
+            "t": 5937201,
+            "v": "1.720.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.go-mpulse.net/api/config.json?key=ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX&d=meraki.cisco.com&t=5937201&v=1.720.0&sl=0&si=090282db-fdcb-4ee0-b21a-573797c24c3f-tggg4m&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=614989"
+      },
+      {
+        "data": {
+          "filter": "||go-mpulse.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://meraki.cisco.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.go-mpulse.net/boomerang/ZAKMP-3VWKP-7SSBX-R6U8K-ESBYX"
+      }
+    ]
+  }
+}

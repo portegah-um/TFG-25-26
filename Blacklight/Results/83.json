@@ -1,0 +1,122 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "1.1.1.1 — One of the Internet’s Fastest, Privacy-First DNS Resolver",
+  "uri_ins": "https://cloudflare-dns.com",
+  "uri_dest": "https://one.one.one.one/dns/",
+  "uri_redirects": [
+    "https://cloudflare-dns.com/"
+  ],
+  "secure_connection": {},
+  "host": "cloudflare-dns.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T05:55:16.315Z",
+  "end_time": "2026-06-11T05:55:20.766Z",
+  "browsing_history": [
+    "https://one.one.one.one/dns/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "cloudflare-dns.com",
+        "one.one.one.one"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "embed.cloudflarestream.com",
+        "fonts.gstatic.com",
+        "platform.dash.cloudflare.com",
+        "cloudflarestream.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://embed.cloudflarestream.com/embed/iframe-player.a043d637.js": [
+          "mousemove",
+          "click"
+        ],
+        "https://one.one.one.one/dns-aa686e0e9e4d122550f8.js": [
+          "scroll",
+          "click"
+        ],
+        "https://embed.cloudflarestream.com/embed/r4xu.fla9.latest.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://embed.cloudflarestream.com/embed/iframe-player.a043d637.js": [
+          "keyup",
+          "keydown",
+          "input",
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://embed.cloudflarestream.com/embed/iframe-player.a043d637.js": [
+          "touchend"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Clever",
+  "uri_ins": "https://clever.com",
+  "uri_dest": "https://www.clever.com/",
+  "uri_redirects": [
+    "https://clever.com/"
+  ],
+  "secure_connection": {},
+  "host": "clever.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T10:11:31.633Z",
+  "end_time": "2026-06-11T10:11:37.859Z",
+  "browsing_history": [
+    "https://www.clever.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "clever.com",
+        "www.clever.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "cdn.jsdelivr.net",
+        "www.google.com",
+        "www.googletagmanager.com",
+        "www.gstatic.com",
+        "region1.google-analytics.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtag/js?id=G-RKDHZLJBH6&cx=c&gtm=4e6691": [
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtag/js?id=G-RKDHZLJBH6&cx=c&gtm=4e6691": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NXZFLLD": [
+          "click"
+        ],
+        "https://www.clever.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "scroll",
+          "mousedown",
+          "mouseup",
+          "click"
+        ],
+        "https://www.clever.com/wp-content/themes/clever/assets/js/script.js?ver=1.0.0": [
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.clever.com/wp-content/themes/clever/assets/js/script.js?ver=1.0.0": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://www.clever.com/wp-content/themes/clever/assets/js/script.js?ver=1.0.0": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "mtsnb_lastvisited",
+        "value": "1781172294",
+        "domain": "www.clever.com",
+        "path": "/",
+        "expires": "2027-07-16T10:11:33.245Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mtsnb_lastvisit_posts",
+        "value": "%5B99%5D",
+        "domain": "www.clever.com",
+        "path": "/",
+        "expires": "2027-07-16T10:11:33.245Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "dO3zA7lpHjm0Fxckyl1Q39kOCpnPkW_8aWQzRIPMCQ0-1781172694-1.2.1.1-5HEMPthGy4.dP2aoVS3L22faVSZkw_Xv4zWfFEnMcMcuPrGHbx_Zjd04WJxJGO.U14lKrQgPb9osdKvjmhQpRnVi5lKaLtAd5gNr7dxobbsJe2y.uiTKXzh9XirWA60epSJexETlgH0pBaznMtwEWCmFhDkDs5VW6Aa6BZiU3gfJXQarmNIzxIFokgbz35bQ6Q7M35TbI0QIHH5tk9c4YjQ3qbnf.40jcGPM5HVyxE6FsGqlx5MlzCwG30.qjnIR2YmZi8aqx8nWJLfkmTxhktmFt0DIuG7j5G0D8.PpHwbQP0f2sNV.2pv3MJ5Wlnlnl3YoRrqRdN1y6hkhbUtEsA",
+        "domain": "clever.com",
+        "path": "/",
+        "expires": "2027-06-11T10:11:34.266Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://clever.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "vEkVRvfYYChW6DnzrG6sPdwdxOMd3skmqr2fhkMlnp8-1781172694.2537851-1.0.1.1-skouSG.G_dlO1EYHmQRuBP9bhfBnO75bIsxjeEpM7ojadVI2oC1exChQ0mPuhhDwCSjdcsYkV.2JH7ZbepJMRsECfb3UIONsYkbkxkM2R9gl9u8jiR10Vg6AMNCnXOOi",
+        "domain": "www.clever.com",
+        "path": "/",
+        "expires": "2026-06-11T10:41:34.267Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_RKDHZLJBH6",
+        "value": "GS2.1.s1781172694$o1$g0$t1781172694$j60$l0$h0",
+        "domain": "clever.com",
+        "path": "/",
+        "expires": "2027-07-16T10:11:34.633Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1691164935.1781172695",
+        "domain": "clever.com",
+        "path": "/",
+        "expires": "2027-07-16T10:11:34.635Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781172693440,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1691164935.1781173,
+            "dl": "https://www.clever.com/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Clever",
+            "en": "page_view",
+            "frm": 0,
+            "gap.plf": 5,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9100166925z89128874698za20gzb9128874698zd9128874698",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 0,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781172694,
+            "sr": "375x812",
+            "tag_exp": "0~115616985~115938466~115938468",
+            "tfd": 2560,
+            "tid": "G-RKDHZLJBH6",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.clever.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-RKDHZLJBH6&gtm=45je6691v9100166925z89128874698za20gzb9128874698zd9128874698&_p=1781172693440&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1691164935.1781172695&frm=0&pscdl=&rcb=0&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616985~115938466~115938468&sid=1781172694&sct=1&seg=0&dl=https%3A%2F%2Fwww.clever.com%2F&dt=Clever&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=2560"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-RKDHZLJBH6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.clever.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-RKDHZLJBH6&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NXZFLLD"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.clever.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NXZFLLD"
+      }
+    ]
+  }
+}

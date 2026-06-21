@@ -1,0 +1,863 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Harvard University",
+  "uri_ins": "https://harvard.edu",
+  "uri_dest": "https://www.harvard.edu/",
+  "uri_redirects": [
+    "https://harvard.edu/"
+  ],
+  "secure_connection": {},
+  "host": "harvard.edu",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:07:02.944Z",
+  "end_time": "2026-06-11T07:07:07.257Z",
+  "browsing_history": [
+    "https://www.harvard.edu/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "harvard.edu",
+        "www.harvard.edu",
+        "news.harvard.edu"
+      ],
+      "third_party": [
+        "cdn.parsely.com",
+        "stats.wp.com",
+        "cse.google.com",
+        "www.googletagmanager.com",
+        "player.simplecast.com",
+        "p1.parsely.com",
+        "pixel.wp.com",
+        "www.google.com",
+        "www.google-analytics.com",
+        "connect.facebook.net",
+        "api.simplecast.com",
+        "region1.analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "cdn.simplecast.com",
+        "clients1.google.com",
+        "image.simplecastcdn.com",
+        "www.facebook.com",
+        "ep1.adtrafficquality.google",
+        "ep2.adtrafficquality.google",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/vendor.min.js?ver=5b4e48cf0fbd9ab8d8f2c32ec81b6cf96e8c138e7bde68035416aad021a85c7d15959b77e4103dbacc48c75561d99a307a31ef22b69513c11e9d57a52dd9594c": [
+          "scroll",
+          "click"
+        ],
+        "https://connect.facebook.net/signals/config/116026588849778?v=2.9.337&r=stable&domain=www.harvard.edu&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171": [
+          "click"
+        ],
+        "https://player.simplecast.com/assets/index.99f19a69.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5SGSF6G": [
+          "mousemove",
+          "scroll",
+          "mousedown",
+          "click"
+        ],
+        "https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/component-site-nav.min.js": [
+          "click"
+        ],
+        "https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/component-site-masthead.min.js": [
+          "click"
+        ],
+        "https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/scripts.min.js?ver=e96cd733acfdfb3909cc0cb04a087f664206a8de87a4155863efaff221e67dd0693af3ebb48029ad20da849db0c2541451694c11732de2a206c55360f5ed5218": [
+          "click",
+          "scroll"
+        ],
+        "https://cdn.parsely.com/keys/harvard.edu/p.js?ver=3.23.1": [
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://player.simplecast.com/assets/index.99f19a69.js": [
+          "touchmove"
+        ],
+        "https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/vendor.min.js?ver=5b4e48cf0fbd9ab8d8f2c32ec81b6cf96e8c138e7bde68035416aad021a85c7d15959b77e4103dbacc48c75561d99a307a31ef22b69513c11e9d57a52dd9594c": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5SGSF6G": [
+          "keydown"
+        ],
+        "https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/scripts.min.js?ver=e96cd733acfdfb3909cc0cb04a087f664206a8de87a4155863efaff221e67dd0693af3ebb48029ad20da849db0c2541451694c11732de2a206c55360f5ed5218": [
+          "keyup"
+        ],
+        "https://cdn.parsely.com/keys/harvard.edu/p.js?ver=3.23.1": [
+          "keydown",
+          "keyup"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "",
+        "value": "test",
+        "domain": "www.harvard.edu",
+        "path": "/",
+        "expires": -1,
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_parsely_session",
+        "value": "{%22sid%22:1%2C%22surl%22:%22https://www.harvard.edu/%22%2C%22sref%22:%22%22%2C%22sts%22:1781161624176%2C%22slts%22:0}",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2026-06-11T07:37:04.000Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_parsely_visitor",
+        "value": "{%22id%22:%22pid=502f07e4-bdfe-4d55-b7c6-76208c97bf0c%22%2C%22session_count%22:1%2C%22last_session_ts%22:1781161624176}",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2027-07-11T17:07:04.000Z",
+        "size": 135,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_KBLBYHG5EP",
+        "value": "GS2.1.s1781161624$o1$g0$t1781161624$j60$l0$h0",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2027-07-16T07:07:04.914Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.2105230347.1781161625",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2027-07-16T07:07:04.987Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.2033378515.1781161625",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2026-06-12T07:07:04.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-2923555-1",
+        "value": "1",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2026-06-11T07:08:04.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1781161625892.239083694454636297",
+        "domain": "harvard.edu",
+        "path": "/",
+        "expires": "2026-09-09T07:07:05.000Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.harvard.edu",
+        "raw": "https://www.facebook.com/tr/?id=116026588849778&ev=PageView&dl=https%3A%2F%2Fwww.harvard.edu&rl=&if=false&ts=1781161625907&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4124&aems=0%3B0&fbp=fb.1.1781161625892.239083694454636297&cs_est=true&pm=1&hrl=11f79a&ler=empty&plt=934.0999999940395&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1781161625161&coo=false&cs_cc=1&cas=8126674360708628%2C7446479242086813%2C7309069319191122%2C7360424570702624%2C5241003475964338%2C5031144883628519%2C9423066757754499%2C6467223720019870%2C5811942942209277%2C4315512971867087&cdl=&dlc=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im1&expv2[6]=hf1&expv2[7]=pt1&rqm=GET"
+      }
+    ],
+    "google_analytics_events": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 2105230347.178116,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v874580930z8836284894za20gzb836284894zd836284894",
+            "npa": 1,
+            "rcb": 10,
+            "tag_exp": "0~115616986~115938466~115938469~118395334",
+            "tid": "G-KBLBYHG5EP",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "raw": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-KBLBYHG5EP&cid=2105230347.1781161625&gtm=45je6691h1v874580930z8836284894za20gzb836284894zd836284894&rcb=10&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115616986~115938466~115938469~118395334"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||parsely.com/plogger/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "heartbeat",
+            "data": {},
+            "date": "Thu Jun 11 2026 09:07:07 GMT+0200 (Central European Summer Time)",
+            "idsite": "harvard.edu",
+            "inc": 3,
+            "plid": "51bc4c48-9800-4eb0-8e07-ae7fbdc0a8c1",
+            "pvid": "611021d5-965e-48d7-8a4e-9bcf79778443",
+            "rand": 1781161627121,
+            "screen": "375x812|375x812|24",
+            "sid": 1,
+            "slts": 0,
+            "sref": "",
+            "sts": 1781161624176,
+            "surl": "https://www.harvard.edu/",
+            "tt": 2896,
+            "u": "pid=502f07e4-bdfe-4d55-b7c6-76208c97bf0c",
+            "url": "https://www.harvard.edu/",
+            "urlref": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p1.parsely.com/plogger/?rand=1781161627121&plid=51bc4c48-9800-4eb0-8e07-ae7fbdc0a8c1&idsite=harvard.edu&url=https%3A%2F%2Fwww.harvard.edu%2F&urlref=&screen=375x812%7C375x812%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fwww.harvard.edu%2F&sref=&sts=1781161624176&slts=0&date=Thu+Jun+11+2026+09%3A07%3A07+GMT%2B0200+(Central+European+Summer+Time)&action=heartbeat&inc=3&tt=2896&pvid=611021d5-965e-48d7-8a4e-9bcf79778443&u=pid%3D502f07e4-bdfe-4d55-b7c6-76208c97bf0c"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "UoefkA": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ep2.adtrafficquality.google/generate_204?UoefkA"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://ep2.adtrafficquality.google/sodar/sodar2/254/runner.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/bg/ak3yblLd0OYemhWQMJ5KL3RLUDZRs_384VHJ6Cc_Auw.js"
+      },
+      {
+        "data": {
+          "filter": ".facebook.com/tr/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aems": "0;0",
+            "cas": "8126674360708628,7446479242086813,7309069319191122,7360424570702624,5241003475964338,5031144883628519,9423066757754499,6467223720019870,5811942942209277,4315512971867087",
+            "cdl": "",
+            "coo": false,
+            "cs_cc": 1,
+            "cs_est": true,
+            "dl": "https://www.harvard.edu",
+            "dlc": 1,
+            "ec": 0,
+            "ev": "PageView",
+            "expv2[0]": "pl1",
+            "expv2[1]": "el3",
+            "expv2[2]": "bc1",
+            "expv2[3]": "ra0",
+            "expv2[4]": "rp0",
+            "expv2[5]": "im1",
+            "expv2[6]": "hf1",
+            "expv2[7]": "pt1",
+            "fbp": "fb.1.1781161625892.239083694454636297",
+            "hrl": "11f79a",
+            "id": 116026588849778,
+            "if": false,
+            "it": 1781161625161,
+            "iw": false,
+            "ler": "empty",
+            "o": 4124,
+            "plt": 934.0999999940395,
+            "pm": 1,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1781161625907,
+            "ups[pv]": {},
+            "ups[rpv]": {},
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=116026588849778&ev=PageView&dl=https%3A%2F%2Fwww.harvard.edu&rl=&if=false&ts=1781161625907&iw=false&sw=375&sh=812&v=2.9.337&r=stable&ec=0&o=4124&aems=0%3B0&fbp=fb.1.1781161625892.239083694454636297&cs_est=true&pm=1&hrl=11f79a&ler=empty&plt=934.0999999940395&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1781161625161&coo=false&cs_cc=1&cas=8126674360708628%2C7446479242086813%2C7309069319191122%2C7360424570702624%2C5241003475964338%2C5031144883628519%2C9423066757754499%2C6467223720019870%2C5811942942209277%2C4315512971867087&cdl=&dlc=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im1&expv2[6]=hf1&expv2[7]=pt1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.harvard.edu",
+            "ex_m": "105,208,156,22,73,74,147,69,68,11,165,91,16,139,128,39,76,79,135,161,167,8,4,5,7,6,3,92,102,168,173,222,30,75,234,233,232,23,33,55,104,61,10,64,98,99,100,106,131,31,29,133,134,130,129,157,77,160,158,159,50,60,124,15,164,45,267,268,266,26,27,28,48,148,78,113,18,20,44,40,42,41,84,93,97,111,146,149,46,112,24,21,120,70,36,151,150,152,143,141,25,35,59,110,163,71,17,154,115,82,67,19,86,87,117,85,137,136,140,162,34,281,297,215,204,62,205,203,300,291,52,216,108,132,81,122,54,47,49,114,121,127,126,58,65,63,153,116,37,32,53,56,101,166,1,125,14,123,12,2,57,94,66,119,90,89,169,170,95,96,9,103,51,144,88,80,72,118,107,43,145,0,83,138,142,155,38,109,13,171",
+            "hme": "a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2",
+            "r": "stable",
+            "v": "2.9.337"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/116026588849778?v=2.9.337&r=stable&domain=www.harvard.edu&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"
+      },
+      {
+        "data": {
+          "filter": "/generate_204$~xmlhttprequest",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://clients1.google.com/generate_204"
+      },
+      {
+        "data": {
+          "filter": "||google.com/adsense/search/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cse.google.com/adsense/search/async-ads.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 2033378515.178116,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YADAAEABAAAAACAEK~",
+            "_v": "j102",
+            "a": 1298189723,
+            "aip": 1,
+            "cd18": 375,
+            "cd4": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "cd8": 16431,
+            "cid": 2105230347.178116,
+            "dl": "https://www.harvard.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Harvard University",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 146482843,
+            "gtm": "45He6691h1n815SGSF6Gv836284894za200zd836284894",
+            "jid": 141882481,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115938466~115938469",
+            "tid": "UA-2923555-59",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2134498299
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1298189723&t=pageview&_s=1&dl=https%3A%2F%2Fwww.harvard.edu%2F&ul=en-us&dt=Harvard%20University&sr=375x812&vp=375x812&_u=YADAAEABAAAAACAEK~&jid=141882481&gjid=146482843&cid=2105230347.1781161625&tid=UA-2923555-59&_gid=2033378515.1781161625&_r=1&_slc=1&gtm=45He6691h1n815SGSF6Gv836284894za200zd836284894&cd4=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&cd8=16431&cd18=375&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938466~115938469&npa=1&z=2134498299"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 2033378515.178116,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YADAAEABAAAAACAEK~",
+            "_v": "j102",
+            "a": 1298189723,
+            "aip": 1,
+            "cd18": 375,
+            "cd4": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+            "cd8": 16431,
+            "cid": 2105230347.178116,
+            "dl": "https://www.harvard.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Harvard University",
+            "gcd": "13l3l3l2l1l1",
+            "gjid": 146482843,
+            "gtm": "45He6691h1n815SGSF6Gv836284894za200zd836284894",
+            "jid": 141882481,
+            "npa": 1,
+            "sr": "375x812",
+            "t": "pageview",
+            "tag_exp": "0~115938466~115938469",
+            "tid": "UA-2923555-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2134498299
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1298189723&t=pageview&_s=1&dl=https%3A%2F%2Fwww.harvard.edu%2F&ul=en-us&dt=Harvard%20University&sr=375x812&vp=375x812&_u=YADAAEABAAAAACAEK~&jid=141882481&gjid=146482843&cid=2105230347.1781161625&tid=UA-2923555-1&_gid=2033378515.1781161625&_r=1&_slc=1&gtm=45He6691h1n815SGSF6Gv836284894za200zd836284894&cd4=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_0%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.4%20Mobile%2F15E148%20Safari%2F604.1&cd8=16431&cd18=375&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938466~115938469&npa=1&z=2134498299"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 2105230347.178116,
+            "dma": 1,
+            "dma_cps": "a",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v874580930z8836284894za20gzb836284894zd836284894",
+            "npa": 1,
+            "rcb": 10,
+            "slf_rd": 1,
+            "t": "sr",
+            "tag_exp": "0~115616986~115938466~115938469~118395334",
+            "tid": "G-KBLBYHG5EP",
+            "v": 1,
+            "z": 2104129412
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.es/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-KBLBYHG5EP&cid=2105230347.1781161625&gtm=45je6691h1v874580930z8836284894za20gzb836284894zd836284894&rcb=10&aip=1&dma=1&dma_cps=a&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=0~115616986~115938466~115938469~118395334&z=2104129412"
+      },
+      {
+        "data": {
+          "filter": "||analytics.google.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAGA",
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1781161623812,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 2105230347.178116,
+            "dl": "https://www.harvard.edu/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Harvard University",
+            "en": "page_view",
+            "ep.login_status": "logged-out",
+            "ep.page_format": "standard",
+            "ep.page_publish_date": "January 29, 2021",
+            "ep.page_subtype": "single-page",
+            "ep.page_type": "frontpage",
+            "ep.site_name": "Harvard University",
+            "epn.document_height": 16431,
+            "epn.document_width": 375,
+            "epn.page_id": 6392,
+            "frm": 0,
+            "gaf": 2,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691h1v874580930z8836284894za20gzb836284894zd836284894",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 10,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781161624,
+            "sr": "375x812",
+            "tag_exp": "0~115616986~115938466~115938469~118395334",
+            "tfd": 1534,
+            "tid": "G-KBLBYHG5EP",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.login_status": "logged-out",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KBLBYHG5EP&gtm=45je6691h1v874580930z8836284894za20gzb836284894zd836284894&_p=1781161623812&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAGA&are=1&cid=2105230347.1781161625&frm=0&pscdl=&rcb=10&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~118395334&sid=1781161624&sct=1&seg=0&dl=https%3A%2F%2Fwww.harvard.edu%2F&dt=Harvard%20University&en=page_view&_fv=1&_nsi=1&_ss=1&ep.login_status=logged-out&ep.page_format=standard&epn.page_id=6392&ep.page_publish_date=January%2029%2C%202021&ep.page_subtype=single-page&ep.page_type=frontpage&ep.site_name=Harvard%20University&epn.document_height=16431&epn.document_width=375&up.login_status=logged-out&tfd=1534"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-KBLBYHG5EP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KBLBYHG5EP&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||pixel.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "blog": 233797431,
+            "fcp": 581,
+            "host": "www.harvard.edu",
+            "hp": "vip",
+            "j": "1:15.7",
+            "post": 6392,
+            "rand": 0.4838626623917275,
+            "ref": "",
+            "srv": "www.harvard.edu",
+            "tz": -4,
+            "v": "ext"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.wp.com/g.gif?v=ext&blog=233797431&post=6392&tz=-4&srv=www.harvard.edu&hp=vip&j=1%3A15.7&host=www.harvard.edu&ref=&fcp=581&rand=0.4838626623917275"
+      },
+      {
+        "data": {
+          "filter": "||parsely.com/plogger/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "action": "pageview",
+            "data": {},
+            "date": "Thu Jun 11 2026 09:07:04 GMT+0200 (Central European Summer Time)",
+            "idsite": "harvard.edu",
+            "plid": "51bc4c48-9800-4eb0-8e07-ae7fbdc0a8c1",
+            "pvid": "611021d5-965e-48d7-8a4e-9bcf79778443",
+            "rand": 1781161624192,
+            "screen": "375x812|375x812|24",
+            "sid": 1,
+            "slts": 0,
+            "sref": "",
+            "sts": 1781161624176,
+            "surl": "https://www.harvard.edu/",
+            "title": "Harvard University",
+            "u": "pid=502f07e4-bdfe-4d55-b7c6-76208c97bf0c",
+            "url": "https://www.harvard.edu/",
+            "urlref": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p1.parsely.com/plogger/?rand=1781161624192&plid=51bc4c48-9800-4eb0-8e07-ae7fbdc0a8c1&idsite=harvard.edu&url=https%3A%2F%2Fwww.harvard.edu%2F&urlref=&screen=375x812%7C375x812%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fwww.harvard.edu%2F&sref=&sts=1781161624176&slts=0&title=Harvard+University&date=Thu+Jun+11+2026+09%3A07%3A04+GMT%2B0200+(Central+European+Summer+Time)&action=pageview&pvid=611021d5-965e-48d7-8a4e-9bcf79778443&u=pid%3D502f07e4-bdfe-4d55-b7c6-76208c97bf0c"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5SGSF6G"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5SGSF6G"
+      },
+      {
+        "data": {
+          "filter": "||stats.wp.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.wp.com/e-202624.js"
+      },
+      {
+        "data": {
+          "filter": "||parsely.com/keys/$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ver": "3.23.1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.harvard.edu/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.parsely.com/keys/harvard.edu/p.js?ver=3.23.1"
+      }
+    ]
+  }
+}

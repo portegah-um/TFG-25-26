@@ -1,0 +1,687 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Effective Security for WordPress Sites- WPGuardian",
+  "uri_ins": "https://wpguardian.com",
+  "uri_dest": "https://wpguardian.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "wpguardian.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:50:56.784Z",
+  "end_time": "2026-06-11T09:51:06.310Z",
+  "browsing_history": [
+    "https://wpguardian.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "wpguardian.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "wpguardian.io",
+        "static.cloudflareinsights.com",
+        "cdn.amplitude.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "web.cmp.usercentrics.eu",
+        "www.clarity.ms",
+        "scripts.clarity.ms",
+        "h.clarity.ms",
+        "v1.api.service.cmp.usercentrics.eu",
+        "app.usercentrics.eu",
+        "uct.service.usercentrics.eu",
+        "consent-api.service.consent.usercentrics.eu",
+        "api2.amplitude.com",
+        "cdnjs.cloudflare.com",
+        "unpkg.com",
+        "region1.google-analytics.com",
+        "js.hcaptcha.com",
+        "fc9bff0bb50c.w.hcaptcha.com",
+        "newassets.hcaptcha.com",
+        "8f53351ca177.w.hcaptcha.com",
+        "c39e023a343c.w.hcaptcha.com",
+        "51730441901b.w.hcaptcha.com",
+        "320e170a7950.w.hcaptcha.com",
+        "api.hcaptcha.com",
+        "38beb0844114.w.hcaptcha.com",
+        "cae5b7cf4771.w.hcaptcha.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "keydown",
+          "input"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-VRVMM479G2&cx=c&gtm=4e6691": [
+          "keyup"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/bricks.min.js?ver=1741154135": [
+          "keyup"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/libs/splide.min.js?ver=4.1.4": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ],
+        "https://web.cmp.usercentrics.eu/ui/v/3.121.2/UcGdprCmpView.bbcc5a62.js": [
+          "keydown"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "keydown",
+          "input"
+        ],
+        "https://wpguardian.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "keyup"
+        ],
+        "https://wpguardian.com/": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/libs/splide.min.js?ver=4.1.4": [
+          "touchstart"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://wpguardian.com/": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://js.hcaptcha.com/1/api.js?onload=hCaptchaOnLoad&render=explicit": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=G-VRVMM479G2&cx=c&gtm=4e6691": [
+          "mousedown",
+          "click"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js": [
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/bricks.min.js?ver=1741154135": [
+          "click",
+          "scroll"
+        ],
+        "https://wpguardian.com/wp-content/themes/bricks/assets/js/libs/splide.min.js?ver=4.1.4": [
+          "mousedown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://scripts.clarity.ms/0.8.65/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PQ758T4": [
+          "click"
+        ],
+        "https://wpguardian.com/": [
+          "scroll"
+        ],
+        "https://wpguardian.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": [
+          "mouseup",
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://newassets.hcaptcha.com/c/88ae4066d3c4c55f6885bb2c86c874ee8b3653926be621c3b7ceb9b1b860bba9/hsw.js": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAA1pJREFUOE+tlF1oHFUUx//33pndmdkPN9lsU5LsVrubJmhBilQEvwq2DxUxfZJiQRHFUpOCPigI4tdjHwKm+OJnTZsW7IPggxAqKI1UHxSkNU3SxnTbtPnafO3uZHYzM3uPzKy7MSYVhAzcl3vO/d3/uef8h2GLP7bFPGwKNAfa94PTKyyqdDKNtzFwnRw5TJY7ApN+NrToOfbcb/nNxGwAmqfTJ0RL8E0W5IAAGP/7GAEkAXIJlQVnWVjUpR+5fvHf0DqQftinrUzd+Va0BQ6wIANTGZjwVvUIEYAKgRyAbILMu6AF2ht6YezXf0LrwJX+dB/foR3nHsxbgSoUnkLGAEkgFyCHfCCVCZU5Z9oQ6GBdY8Ua1AeaX9+/netymscVcI2BaQzZaRc704F1Fc3MOgirDLrCfaAsSbgThY8jL032rAMWT6d7lJR2kuscXGcYHDJx/ryJPQ+rOH4s4ed6sLffyoEbLj7tTYJKErJEcCat2cjhie3rFfZnzij3aUeYwcANjsGLRfT25fDsM9E6MDfv4vkXbyKVUvFZXxLSqiqszJVhKNDY0+OrHrRa8rnMd0pKO+ipYwb3y74yXEYmHYCu1doM3LixinBEoCkmQCWCtCQqeRe4Ppcyuhcn68DiQOYbdYd2iBsM2ewuMF5CrLWAxoS5YdRujSZQWQkhEM6jOZaDm1sFZpdaQy/PT60p7M/0inuDbyxbDgZ/fxIHDh5CI2VhlwqwpAEbAiFehiEcFEUbfro8Ay13Fk897sDOLiIyNhVk78NeAw607xfN6gUe5ug9tYALQyY6HtiDluRONDRtg26E8OfYHxgfuYz5OV8IvjzRguaoivLV29diR5c71jXFf8ez7aNKMthhEeGDj2ZxZdR/Y9wT0JDQwxjPz9fLf/f1bXhktw53pghneunDhtcK720AWl/tegxxPsQbFH+ov//FhDrSiYci1csX7SIuiUt4dB+hrUmBLNooXbszHO9e2b2pU7zNwhctXTDEmUBrNIya9Xyn1KxXdYqTy8O+vTAR77HSd/VyLVA+lUyXbOtzkYg8qMT0GFfXzOwuFrA6s1wQLjsZ6y68s2EEanO4WcDby38S3ysrlSdA1MmYhBTKj42vLg3cLb/e5f9K+L+xLf9j/wUC11UkM0KCSwAAAABJRU5ErkJggg==",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAABYVJREFUOE9FlH1MVXUYx7+/c859AwQRLgghIYLmFRANidSolCmltt40tVatN9uq9U8vW1m5apW1cm66VqvG0nJWGpippSghZV2KIpWKq0CAF5C8HC73nnvO75zf72lAL9/t2Z6/Pvvu+3z3sJqVN37OhWtWVWVNYLCrU95idLsUxjAhAqBKKB4CeQRUHyHkmf77b0W1n5/eteUmIy3zVNnq2hP7Nm/ZOveakqdmlHo72JbXtj1hael+p+/Sk2d+bmb6uSCeXlQxCQSgqAS4JqHwSBwsLo20e7L0gqb3s/pXPVDf9fa7s0U8bi67s/Ylafbp7NrShSNR1RNO8kzLn+5LTen+/TjWz5mNOelpk0SVwFwE5hFgbmB7xSKENRfm79+GluIVfLSh0ZUxc2bbsuvLn5d8cISdvLeYcjwKHC4R0oHD53UEBwnPLa6a4DGXBGkE5paAS8GOoioM9PdZge5D9OWJQc+GV7c+oZrDw2picCRuhP9i4QeLCDYAmyYzkwTdkXg6GMOyohIUZvomoHABEc9UXMxdibC40N+458XszIobds1aUNamxoYjihXWRSI8xnrXX0GasABnEvafVODwkMRYyuUozEqC4paITwmgTV+DgdE3R9o7mtUZC6rqiktmtYnEX1EkRqJWvMtgf9xYSVNwEXAkQAwgAsavrEhAU/BSKI71tSWIJlT0RpZjyFuKfa2Phtcuy40ePTv0/VVL5hxxG2OjpjFoJqQeY2+Vz6NCLY5KrwOI8dD+GYUBGkF4FezwKajJuxynf1uH7+PN9vzSTZSRstOubxzoKbvO2syjIzHGE1bCGY2xdFcauRnQMDcZ+ePLuEGPZ9KpxiZ6WDdo4Jo1c1H/w5V24IqF0azk/AxTO4/hpE50d0YuudWD6053R9Ly81gPq8zIIZfPi3TJ8U6hF+p4n8dhE8UmEOfohsSvgQxyp9/R4ENBXr8uy4pydPe52ChNKx5lLbvbOzuGvvtq8VL2Abt5ZjGNSaDP4njMr2JtGvsPSJY1wRUgHCjLaUvOWHIKw9UbPG7fNMGGsbezDTfdxnD0s166LPdIlWUrnJVn55MjJbLTUsGEg1ezHMxwMUjT/P/iIHyQ4Q/mlZc3icjcYsvy+kVSy6LjF672rFqiYTDcgy+DMTk/Z898Vrf8ejIdgaNDEfi9PqTpyXjcH5rs5D+6qDHa7GQ2bri2LMj1knkjvsYTA73atpCsTFQEqpLSUxrx05myoC/x8H2s95676Lwexd3fBPHigoAZzvQHV0RCeZeNDhX+C9wfseFfe+vriuCGlMTrf26a2TfcXypVf0dJxSfrFs0+lPL1/rO7srOOv8L67r1Hhizbfr+9U65YWt1QkJvVJ82Yq6jpo/tVh6c4BNrkLyNvTe2P913o+IJ7h2NCZVZH+EjIMJk40bF094YVC6cdOxxsCeS0PsR2b3rmWKo3tScnfWpECptItZmApKSuHwuzO07evvMSje4rWJOasrRavJD47nl4xsYsU3KVuHEy/EVXssKsiyO31l0YGBIl01tvZp0v790KhcClCSkcsh2bOSoHJ5LNn+zYmLpwecPBX04FWp/5qLomFGq6yzxQT1zYqiITzeH9nWQr3DKYo8YVk7k1ix347PbIvJ5bPiTHbZHgZNkWxp2azCbBILgiHFVI/tC7b9wZeez13F3RlmfdTFgJYqZGMI6c/fgcmZAul2bommqzbyP5xKNpME5e+Wfgz9V7SNrSpgQzySILTNqwhUKMc5tbOw9/XPVIbfUxkG3bqrBU6Y5/2vreH6Qx6dK0BDcUwbZv3FjstXVvjW7+yqZMD7OCxV/TVH+YwByDoqrUmC0dwYUDyzajpCbH4jYXHCpM5pBpWIZz6ExdO48r458AfwNYmvf0aRwzYAAAAABJRU5ErkJggg=="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {
+        "https://newassets.hcaptcha.com/c/88ae4066d3c4c55f6885bb2c86c874ee8b3653926be621c3b7ceb9b1b860bba9/hsw.js": [
+          "rgba(214, 214, 214, 1)",
+          "#fff",
+          "#000",
+          "{}"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://newassets.hcaptcha.com/c/88ae4066d3c4c55f6885bb2c86c874ee8b3653926be621c3b7ceb9b1b860bba9/hsw.js": {
+          "": 1,
+          "mwmwmwmwlli": null,
+          "🅿": null,
+          "🅰": null,
+          "✴": null,
+          "☑": null,
+          "☮": null,
+          "☪": null,
+          "☯": null,
+          "↪": null,
+          "⚖": null,
+          "❄": null,
+          "✍": null,
+          "☝": null,
+          "✌": null,
+          "❤": null,
+          "❣": null,
+          "▪": null,
+          "◼": null,
+          "❇": null,
+          "✳": null,
+          "✔": null,
+          "⚜": null,
+          "⚕": null,
+          "〰": null,
+          "✖": null,
+          "♂": null,
+          "♀": null,
+          "⏏": null,
+          "⏯": null,
+          "⏭": null,
+          "▶": null,
+          "☦": null,
+          "✝": null,
+          "✡": null,
+          "⚛": null,
+          "⬅": null,
+          "➡": null,
+          "↗": null,
+          "⬆": null,
+          "☣": null,
+          "☢": null,
+          "⚠": null,
+          "⚱": null,
+          "⚰": null,
+          "⚗": null,
+          "⛓": null,
+          "⚙": null,
+          "⚔": null,
+          "⚒": null,
+          "⛏": null,
+          "✂": null,
+          "✒": null,
+          "👁️‍🗨️": null,
+          "™": null,
+          "®": null,
+          "©": null,
+          "😀": null,
+          "👨‍👩‍👦": null,
+          "👨‍👩‍👧‍👦": null,
+          "👩‍❤️‍💋‍👨": null,
+          "✏": null,
+          "✉": null,
+          "⌨": null,
+          "⛑": null,
+          "♟": null,
+          "⛸": null,
+          "☄": null,
+          "☃": null,
+          "⛱": null,
+          "☂": null,
+          "⛈": null,
+          "⏱": null,
+          "✈": null,
+          "⛴": null,
+          "⛩": null,
+          "⛰": null,
+          "☘": null,
+          "🧑‍🤝‍🧑": null,
+          "⛷": null,
+          "🧏‍♂️": null,
+          "🧑‍🦰": null,
+          "☠": null,
+          "☹": null,
+          "🥲": null,
+          "🏳️‍⚧️": null,
+          "ℹ": null,
+          "⁉": null,
+          "⚧": null,
+          "☸": null,
+          "♨": null,
+          "🤵‍♂️": null,
+          "☺": null,
+          "xyz😃": null
+        }
+      }
+    },
+    "cookies": [
+      {
+        "name": "AMP_MKTG_6b5da0e490",
+        "value": "JTdCJTdE",
+        "domain": "wpguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T09:50:58.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMP_6b5da0e490",
+        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI3OGQ0YWZjZi0xNjE2LTRlMTMtOWI2Mi0xMmJiMmFkODM3NDUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzgxMTcxNDU4NzUwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc4MTE3MTQ1ODc2OCU3RA==",
+        "domain": "wpguardian.com",
+        "path": "/",
+        "expires": "2027-06-11T09:50:58.000Z",
+        "size": 230,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "KmJyM7GtAU7snOAU4MOmSuYFYYXvzv0fb5WPJxK5f4s-1781171462.5979834-1.0.1.1-G8uMkvx0KxrRWUk.r6m8ICqVslBjrbuSz2k0qiQtdG1gSL88UTr__DF.L.kOXYGtGKdphXWK8u24_HLJWv6FCI0JlXYUp7xhEu7wa98VYUCxQboaSxXKKOtPh8d5HznN",
+        "domain": "hcaptcha.com",
+        "path": "/",
+        "expires": "2026-06-11T10:21:02.621Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 3793,
+            "_eu": "AAAAAAAC",
+            "_p": 1781171458482,
+            "_s": 2,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 303599957.17811716,
+            "dl": "https://wpguardian.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Effective Security for WordPress Sites- WPGuardian",
+            "en": "user_engagement",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v9119605864za20gzb9119602362zd9119602362",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781171459,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~119349418~119456239~119456247",
+            "tcfd": "1000h",
+            "tfd": 8679,
+            "tid": "G-VRVMM479G2",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-VRVMM479G2&gtm=45je6691v9119605864za20gzb9119602362zd9119602362&_p=1781171458482&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&gdid=dOThhZD&_eu=AAAAAAAC&are=1&cid=303599957.1781171461&frm=0&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938469~119349418~119456239~119456247&sid=1781171459&sct=1&seg=0&dl=https%3A%2F%2Fwpguardian.com%2F&dt=Effective%20Security%20for%20WordPress%20Sites-%20WPGuardian&_tu=CA&en=user_engagement&_et=3793&tfd=8679"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAAAAAC",
+            "_fv": 1,
+            "_nsi": 1,
+            "_p": 1781171458482,
+            "_s": 1,
+            "_ss": 1,
+            "_tu": "CA",
+            "are": 1,
+            "cid": 303599957.17811716,
+            "dl": "https://wpguardian.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "dt": "Effective Security for WordPress Sites- WPGuardian",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dOThhZD",
+            "gtm": "45je6691v9119605864z89119602362za20gzb9119602362zd9119602362",
+            "npa": 1,
+            "pscdl": "denied",
+            "rcb": 7,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781171459,
+            "sr": "375x812",
+            "tag_exp": "115938466~115938469~119349418~119456239~119456247",
+            "tcfd": "1000h",
+            "tfd": 3814,
+            "tid": "G-VRVMM479G2",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-VRVMM479G2&gtm=45je6691v9119605864z89119602362za20gzb9119602362zd9119602362&_p=1781171458482&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&gdid=dOThhZD&_eu=AAAAAAAC&are=1&cid=303599957.1781171461&frm=0&pscdl=denied&rcb=7&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~119349418~119456239~119456247&sid=1781171459&sct=1&seg=0&dl=https%3A%2F%2Fwpguardian.com%2F&dt=Effective%20Security%20for%20WordPress%20Sites-%20WPGuardian&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=3814"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api2.amplitude.com/2/httpapi"
+      },
+      {
+        "data": {
+          "filter": "||usercentrics.eu/session/$image",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "settingsId": "Qdxox37yt09BBR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=Qdxox37yt09BBR"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://h.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.clarity.ms/0.8.65/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "gtm"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/rtmnv01kgx?ref=gtm"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-VRVMM479G2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-VRVMM479G2&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PQ758T4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PQ758T4"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.amplitude.com/libs/analytics-browser-1.9.1-min.js.gz"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://wpguardian.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

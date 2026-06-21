@@ -1,0 +1,1267 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "See what users do. Improve what matters.",
+  "uri_ins": "https://amplitude.com",
+  "uri_dest": "https://amplitude.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "amplitude.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T07:08:00.464Z",
+  "end_time": "2026-06-11T07:08:22.377Z",
+  "browsing_history": [
+    "https://amplitude.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "amplitude.com",
+        "cdn.amplitude.com",
+        "flag.lab.amplitude.com",
+        "app.amplitude.com",
+        "sr-client-cfg.amplitude.com",
+        "gs.amplitude.com",
+        "sky.lab.amplitude.com",
+        "api-sr.amplitude.com",
+        "api2.amplitude.com"
+      ],
+      "third_party": [
+        "ob.roundprincemusic.com",
+        "cdn.sanity.io",
+        "fast.wistia.net",
+        "fast.wistia.com",
+        "fonts.cdnfonts.com",
+        "o13027.ingest.sentry.io",
+        "www.googletagmanager.com",
+        "obs.roundprincemusic.com",
+        "snap.licdn.com",
+        "pagead2.googlesyndication.com",
+        "px.ads.linkedin.com",
+        "browser.sentry-cdn.com",
+        "cc.cdn.civiccomputing.com",
+        "assets.adoberesources.net",
+        "apikeys.civiccomputing.com",
+        "embed-ssl.wistia.com",
+        "pipedream.wistia.com",
+        "distillery.wistia.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://fast.wistia.net/assets/external/engines/hls_video.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/allIntegrations.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/interFontFace.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/skipControls.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/playPauseLoadingControl.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/E-v1.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://fast.wistia.net/assets/external/airplay.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/marketoForm.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/captions.js": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://fast.wistia.net/assets/external/popover.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "touchstart",
+          "touchend"
+        ],
+        "https://amplitude.com/_next/static/chunks/58d7aa36.8a1ec47665a9e8b3.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "touchcancel",
+          "touchmove"
+        ],
+        "https://ob.roundprincemusic.com/i/8356b7ffc20afc0a5275c6176232dc10.js": [
+          "touchstart"
+        ],
+        "https://amplitude.com/_next/static/chunks/c3b51be6-babd54ce0e99e83c.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      },
+      "MOUSE": {
+        "https://fast.wistia.net/assets/external/engines/hls_video.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/allIntegrations.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/interFontFace.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/skipControls.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/playPauseLoadingControl.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/airplay.js": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/marketoForm.js": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/captions.js": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/popover.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://fast.wistia.net/assets/external/E-v1.js": [
+          "mouseup",
+          "mousedown",
+          "dblclick",
+          "click"
+        ],
+        "https://amplitude.com/_next/static/chunks/58d7aa36.8a1ec47665a9e8b3.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "scroll",
+          "dblclick",
+          "click",
+          "mousemove"
+        ],
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js": [
+          "mousedown"
+        ],
+        "https://amplitude.com/_next/static/chunks/app/%5Blocale%5D/rebrand/home/page-b1cee34472895fad.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "scroll"
+        ],
+        "https://amplitude.com/_next/static/chunks/2514-b110916855d5845a.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "scroll"
+        ],
+        "https://ob.roundprincemusic.com/i/8356b7ffc20afc0a5275c6176232dc10.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-736707024&cx=c&gtm=4e6691": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T6JXPP5": [
+          "click"
+        ],
+        "https://cdn.amplitude.com/script/e3e918f274fa30555c627abdb29840d5.experiment.js": [
+          "click"
+        ],
+        "https://amplitude.com/_next/static/chunks/8800-53e66c6ff7760060.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "click",
+          "mousedown"
+        ],
+        "https://amplitude.com/_next/static/chunks/c3b51be6-babd54ce0e99e83c.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://amplitude.com/_next/static/chunks/6625-653e01294562b2f6.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "click"
+        ],
+        "https://amplitude.com/_next/static/chunks/3250-72fdf00399f1b48a.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://fast.wistia.net/assets/external/engines/hls_video.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/allIntegrations.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/interFontFace.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/skipControls.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/playPauseLoadingControl.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/E-v1.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ],
+        "https://fast.wistia.net/assets/external/airplay.js": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/marketoForm.js": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/captions.js": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://fast.wistia.net/assets/external/popover.js@9f6c420231029221f879ca511ea7707fc059dc81": [
+          "keyup",
+          "keypress",
+          "keydown"
+        ],
+        "https://amplitude.com/_next/static/chunks/58d7aa36.8a1ec47665a9e8b3.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "input"
+        ],
+        "https://ob.roundprincemusic.com/i/8356b7ffc20afc0a5275c6176232dc10.js": [
+          "keydown"
+        ],
+        "https://amplitude.com/_next/static/chunks/8800-53e66c6ff7760060.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "keydown"
+        ],
+        "https://amplitude.com/_next/static/chunks/c3b51be6-babd54ce0e99e83c.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ],
+        "https://amplitude.com/_next/static/chunks/6625-653e01294562b2f6.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "keypress",
+          "keydown"
+        ],
+        "https://amplitude.com/_next/static/chunks/3250-72fdf00399f1b48a.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "keydown"
+        ],
+        "https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://ob.roundprincemusic.com/i/8356b7ffc20afc0a5275c6176232dc10.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://fast.wistia.net/assets/external/E-v1.js": [
+          "rgba(255,255,255,1)",
+          "{}"
+        ],
+        "https://amplitude.com/_next/static/chunks/6487-f0b6f242f45198c3.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "#000",
+          "#fff"
+        ],
+        "https://amplitude.com/_next/static/chunks/952a9b48-e2b51d9c7fb22cd4.js?dpl=dpl_CK6kmCcpPhW7EBnXGUzqk3RNsQkJ": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "cg_uuid",
+        "value": "014b9cd96b00adec08d1b7bf363ae723",
+        "domain": "obs.roundprincemusic.com",
+        "path": "/",
+        "expires": "2027-05-13T07:08:05.762Z",
+        "size": 39,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&6a4e6cbd-ba47-44f3-8ae5-b6a8d4df993d\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2027-06-11T07:08:07.304Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_gc",
+        "value": "MTswOzE3ODExNjE2ODc7MjswMjFgBBoBkmir9VLCuso2+hi8y76Jg7PG0NKx9OHUM06IrQ==",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-12-08T07:08:07.304Z",
+        "size": 77,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=TGST02:s=T:r=T:a=T:p=T:g=3784:u=1:x=1:i=1781161687:t=1781248087:v=2:sig=AQHBuCg8HOhIPgwdizT9bpenQWbydW9t\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-12T07:08:07.304Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "o.Lz1DLWuiG3UpfW4lBwcTf6JDTVibLUcVaZ5IjOzXg-1781161687.1548784-1.0.1.1-.vIIihi3GbCVBf7d43kyidYYDc6vC0Pfq.DvTMs82Xyh3JAGMMC4rUnn2PwIx4tvz.K0eM7lKKCY78WFJDs43AD6dkq6nVGb8e7YRLJvYth58V03ZmgQWr1ad0bvPjFS",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2026-06-11T07:38:07.304Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMP_MKTG_e3e918f274",
+        "value": "JTdCJTdE",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": "2027-06-11T07:08:09.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMP_8f241b95e3",
+        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJiYTA4NjgyMi0yODUzLTQ2MzAtOTUwMy02ZGQ4NGU3NjZjYTQlMjIlMkMlMjJvcHRPdXQlMjIlM0FmYWxzZSUyQyUyMmNvb2tpZURvbWFpbiUyMiUzQSUyMmFtcGxpdHVkZS5jb20lMjIlN0Q=",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": "2027-06-11T07:08:11.000Z",
+        "size": 190,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cq_duid",
+        "value": "1.1781161694.A9cUfZbJOA3rk5UY",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": "2026-09-10T13:08:14.000Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cq_suid",
+        "value": "1.1781161694.H5jebKoZalfMBQPf",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": -1,
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cq_session",
+        "value": "1.1781161694883.mEeSfQRkOtn5PkKX.1781161694881",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": "2027-07-16T07:08:14.884Z",
+        "size": 57,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMP_e3e918f274",
+        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJiYTA4NjgyMi0yODUzLTQ2MzAtOTUwMy02ZGQ4NGU3NjZjYTQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzgxMTYxNjg5OTQzJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc4MTE2MTY5MTQ1NSUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjklMkMlMjJwYWdlQ291bnRlciUyMiUzQTElMkMlMjJjb29raWVEb21haW4lMjIlM0ElMjIuYW1wbGl0dWRlLmNvbSUyMiU3RA==",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": "2027-06-11T07:08:16.000Z",
+        "size": 354,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cq_s",
+        "value": "UN2nzBLUo8FvuOpV:oj5JYcZbisxT7hF3mPHDpqSkEZ/kq20dbVrrY8WdRnr/rF2YzAOTXf7XvWUYH/XGZ5a2za1avmRduhuqT5I4Aejced9a+6YTRuI7SNRcfyLicl7WHceDA3yxoHhXrXDb/tAkd9Rsc81zLEdjue+Gq0ooD1b2h8EUixeF1bCXkWQYZ6i342G2U79dL9NyHyknl2IgxwqONCopfOLiXGn0E/y3Nki95UhQw5BR7ZtQ5NDt/ItV3ke/SnZ5YVtgfPfwi/HmhgFNHaNVkzvGYU+rZ5LillaQE8Jlwsa5x74/35EPujjVhQWPn3E+uy2rlbCDeS22SrGyODiJnuNkE0Y4wdF0LqTR9gLDIKrjuy7LJKGFN/A+9OXQSyXX+hA2N7onyRLs23cl8VQYr40OtNvmYQFARhQkvH6rs9sJFfSGkAN/K48spdZ22VJwNGQl4Z3u4o6Sj0f1ZCRXyVKPtloh5D6rWLUGzaKzJ/IEafqPwXlrboIpq2Y8vmnUJAjwMu/PdZt7FJQ/bi3FmDeFF3IIAGaU9dxxfW/Q5ajSBRNmXu6XpQCoxsolYcQD+cGL1yXT96rpaSsqA9MrCDzMO6v6F9bOJXkcrJ/GpoJ0lFXf+kxXjw+RubjtaxtJTRj2eoxHnNuEm4PwtjU3SgLeY+zrl+3cHpY86RzjCayDKAWPqfdWP9tDYyL7T09lbi46UzsCBfmcdFwrxNg7nNhVKoFLyQFhADNwPwc=:YG89Srk2WjkKQNtma123gQ==",
+        "domain": "amplitude.com",
+        "path": "/",
+        "expires": "2026-06-18T07:08:20.000Z",
+        "size": 783,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://obs.roundprincemusic.com/mon"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||pipedream.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "topic": "metrics"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pipedream.wistia.com/mput?topic=metrics"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.sentry-cdn.com/9.6.1/bundle.min.js"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "g",
+            "medium": "fetch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 38806,
+            "time": 1781161695799,
+            "url": "https://amplitude.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=38806&time=1781161695799&url=https%3A%2F%2Famplitude.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 38806,
+            "time": 1781161695799,
+            "url": "https://amplitude.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=38806&time=1781161695799&url=https%3A%2F%2Famplitude.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://amplitude.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v889144648z8893376489za20gzb893376489zd893376489xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 9,
+            "rnd": 1027118916.1781162,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115616985~115938466~115938468~119456240~119456248",
+            "tfd": 4672,
+            "tft": 1781161695637,
+            "tid": "AW-736707024",
+            "tids": "AW-736707024"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&en=page_view&dl=https%3A%2F%2Famplitude.com%2F&scrsrc=www.googletagmanager.com&rnd=1027118916.1781161696&navt=n&npa=1&gtm=45be6691v889144648z8893376489za20gzb893376489zd893376489xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115616985~115938466~115938468~119456240~119456248&apve=1&apvf=f&apvc=1&tids=AW-736707024&tid=AW-736707024&tft=1781161695637&tfd=4672"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-736707024"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-736707024&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-T6JXPP5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T6JXPP5"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://obs.roundprincemusic.com/mon"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||distillery.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://distillery.wistia.com/x"
+      },
+      {
+        "data": {
+          "filter": "||pipedream.wistia.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "topic": "metrics"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pipedream.wistia.com/mput?topic=metrics"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "g",
+            "medium": "fetch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+      },
+      {
+        "data": {
+          "filter": "||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser.sentry-cdn.com/9.6.1/bundle.min.js"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 38806,
+            "time": 1781161686775,
+            "url": "https://amplitude.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=38806&time=1781161686775&url=https%3A%2F%2Famplitude.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "pid": 38806,
+            "time": 1781161686775,
+            "url": "https://amplitude.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=38806&time=1781161686775&url=https%3A%2F%2Famplitude.com%2F"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://amplitude.com/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3p3p2p5l1",
+            "gcs": "G100",
+            "gtm": "45be6691v889144648z8893376489za20gzb893376489zd893376489xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 9,
+            "rnd": 990698671.1781162,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "115938465~115938469~119456240~119456248",
+            "tfd": 4809,
+            "tft": 1781161685768,
+            "tid": "AW-736707024",
+            "tids": "AW-736707024"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&en=page_view&dl=https%3A%2F%2Famplitude.com%2F&scrsrc=www.googletagmanager.com&rnd=990698671.1781161686&navt=n&npa=1&gtm=45be6691v889144648z8893376489za20gzb893376489zd893376489xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=115938465~115938469~119456240~119456248&apve=1&apvf=f&apvc=1&tids=AW-736707024&tid=AW-736707024&tft=1781161685768&tfd=4809"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-736707024"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-736707024&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-T6JXPP5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T6JXPP5"
+      },
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.nextjs/7.120.4",
+            "sentry_key": "ddeb5197c21046939c992f12e8a48376",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://amplitude.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13027.ingest.sentry.io/api/2691620/envelope/?sentry_key=ddeb5197c21046939c992f12e8a48376&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.4"
+      }
+    ]
+  }
+}

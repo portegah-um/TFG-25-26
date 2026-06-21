@@ -1,0 +1,1370 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+  "uri_ins": "https://imgsmail.ru",
+  "uri_dest": "https://mail.ru/",
+  "uri_redirects": [
+    "https://imgsmail.ru/"
+  ],
+  "secure_connection": {},
+  "host": "imgsmail.ru",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:20:21.450Z",
+  "end_time": "2026-06-11T08:20:29.311Z",
+  "browsing_history": [
+    "https://mail.ru/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "imgsmail.ru",
+        "img.imgsmail.ru",
+        "home.imgsmail.ru",
+        "imgs2.imgsmail.ru",
+        "pogoda.imgsmail.ru",
+        "limg.imgsmail.ru",
+        "mail.ru",
+        "cspreport.mail.ru",
+        "xray.mail.ru",
+        "portal.mail.ru",
+        "ad.mail.ru",
+        "rs.mail.ru",
+        "top-fwz1.mail.ru",
+        "r3.mail.ru",
+        "media-trend.mail.ru",
+        "privacy-cs.mail.ru",
+        "resizer.mail.ru",
+        "a-71230631-6-575-0nm12d-000.pms.mail.ru",
+        "a-71229734-6-77-0nm12d-000.pms.mail.ru",
+        "a-71229152-6-575-0nm12d-000.pms.mail.ru",
+        "a-69212662-51-138-0nm12d-000.pms.mail.ru",
+        "a-71230141-6-575-0nm12d-000.pms.mail.ru",
+        "a-71229355-6-575-0nm12d-000.pms.mail.ru",
+        "a-71230235-6-575-0nm12d-000.pms.mail.ru",
+        "a-69625513-53-586-0nm12d-000.pms.mail.ru",
+        "a-128113-2-1754-0nm12d-000.pms.mail.ru"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "r.mradx.net",
+        "mc.yandex.ru",
+        "yandex.ru",
+        "vk.com",
+        "ok.ru",
+        "yastatic.net",
+        "mc.yandex.com",
+        "counter.yadro.ru",
+        "d.mradx.net",
+        "avatars.mds.yandex.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://home.imgsmail.ru/antares/783793/js/index-8078a929.js": [
+          "scroll",
+          "click"
+        ],
+        "https://yandex.ru/ads/system/context.js": [
+          "click"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove",
+          "select",
+          "scroll"
+        ],
+        "https://yastatic.net/safeframe-bundles/0.83/host.js": [
+          "scroll"
+        ],
+        "https://ad.mail.ru/static/motion_lib.js": [
+          "scroll"
+        ],
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ],
+        "https://mc.yandex.ru/metrika/watch_zen.js": [
+          "click"
+        ],
+        "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1": [
+          "click",
+          "scroll",
+          "mousedown"
+        ],
+        "https://mail.ru/": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "touchmove"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "touchmove",
+          "touchcancel",
+          "touchend",
+          "touchstart"
+        ],
+        "https://home.imgsmail.ru/antares/783793/js/index-8078a929.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://top-fwz1.mail.ru/js/code.js": [
+          "keypress"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1": [
+          "input"
+        ],
+        "https://mail.ru/": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "orientationchange"
+        ],
+        "https://home.imgsmail.ru/antares/783793/js/index-8078a929.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://privacy-cs.mail.ru/static/sync-loader.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://r.mradx.net/img/96/80C5C6.js": {
+          "Рассказывает о громких, но до сих пор не до конца проясненных, делах": 1
+        }
+      }
+    },
+    "cookies": [
+      {
+        "name": "act",
+        "value": "4c76828264c34adfb858d6212b53331e",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 35,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "oid",
+        "value": "7Dy6axb9bVrxEGK95SqSD",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-07-16T08:20:22.764Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mrcu",
+        "value": "A53E6A2A6FC61C78B4166D0D1458",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-07-16T08:20:22.765Z",
+        "size": 32,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "antares_theme_enabled",
+        "value": "true",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-11T08:20:24.402Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "re_theme",
+        "value": "system",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-11T08:20:24.404Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "fah",
+        "value": "true",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-11T08:20:24.406Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_uid",
+        "value": "178116602514901390",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-11T08:20:24.000Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "p",
+        "value": "5pAHAARvSKIA",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-07-16T08:20:24.510Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1781166025",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-11T08:20:24.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "PVID",
+        "value": "0CQv0p1lKSYe0023as1ly5Ye:::0-0-0-f44c888-0-f44c888:CAASEBcAheYMAZIBnPWtcm8YsMcaYJLXR8yFPB677i8DSUY6XmDFarHMIiADBBuY4cU_0fRApuaKRleS1aKST1CcqYG9byR1hGNuqkGPedd8BCgKYMkgl45-0ivM0qF7XkNRWimr52jIi7yozyWgyD0CiBdcEw",
+        "domain": "ad.mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T08:20:24.620Z",
+        "size": 213,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://mail.ru",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2026-06-12T04:20:24.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ss_wb",
+        "value": "wAPo9hjjVc5SmC4jEbEbegJTZfFvBkpAO3Trf93ZlIuIzYUT3Kymk27eGjnu9h4UR6MWnrQib90Mi5XCeTdXvIt0Mp21b7ukJXs",
+        "domain": "ok.ru",
+        "path": "/",
+        "expires": "2026-06-12T08:20:24.676Z",
+        "size": 104,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "AQDIbypqAgA5BQgEAS0GAb0HCAQBVxUB",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2026-12-08T08:20:28.899Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvid",
+        "value": "b4e07b554af5fea5e502e74a0372ab61",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T08:20:27.336Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "tmr_lvidTS",
+        "value": "1781166025192",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T08:20:27.337Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "domain_sid",
+        "value": "zBWdVIpN0ZEvFzGbAWrGr%3A1781166026997",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2026-06-18T08:20:26.998Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "PVID",
+        "value": "0CQv0p1lKSYe0023as1ly5Ye:::0-0-0-f44c888-0-f44c88b:CAASEIHvt9YBThihJbcGNUZulDsaYCH0zfwy7Y2GtDTvWgTsZAlX6o7kabT1fuouUZQcXB5NBjH-LCB9ALakQqYiphtZJr8Zz2_TNIoDFEawD5khtnNYDh7LWodzk5-6PhIlX90lR3Ba9ViypILdwqixWIqQ9A",
+        "domain": "top-fwz1.mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T08:20:27.336Z",
+        "size": 213,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://mail.ru",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "VID",
+        "value": "0CQv0p1lKSYe0023as1ly5Ye:::0-0-0-f44c888-0-f44c88b:CAASEIHvt9YBThihJbcGNUZulDsaYCH0zfwy7Y2GtDTvWgTsZAlX6o7kabT1fuouUZQcXB5NBjH-LCB9ALakQqYiphtZJr8Zz2_TNIoDFEawD5khtnNYDh7LWodzk5-6PhIlX90lR3Ba9ViypILdwqixWIqQ9A",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2027-06-12T08:20:27.336Z",
+        "size": 212,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tmr_detect",
+        "value": "0%7C1781166027724",
+        "domain": "mail.ru",
+        "path": "/",
+        "expires": "2026-06-12T08:20:27.000Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "mc.yandex.ru/metrika/tag.js": [
+        "mc.yandex.ru/metrika/tag.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||yandex.ru/clck/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/clck/click"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:618636258658:hid:35119108:z:120:i:20260611102026:et:1781166026:c:1:rn:95909995:rqn:1:u:178116602514901390:w:375x812:s:375x812x24:sk:3:fp:1538:wv:2:ds:1,173,167,203,352,0,,1472,0,,,,2467:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "force-urlencoded": 1,
+            "hidv2": 3224063552496075000,
+            "hittoken": "1781166025_39cf9b36ea0daffdd40e067c8b5bb55cc012066c3359aa5c7346897f25069550",
+            "page-url": "https://mail.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "9840781781166025148"
+              }
+            },
+            "t": "mc(p-3-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/443824/1?page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hidv2=3224063552496074821&hittoken=1781166025_39cf9b36ea0daffdd40e067c8b5bb55cc012066c3359aa5c7346897f25069550&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A618636258658%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102026%3Aet%3A1781166026%3Ac%3A1%3Arn%3A95909995%3Arqn%3A1%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1538%3Awv%3A2%3Ads%3A1%2C173%2C167%2C203%2C352%2C0%2C%2C1472%2C0%2C%2C%2C%2C2467%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026&t=mc(p-3-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%229840781781166025148%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:844855179115:hid:35119108:z:120:i:20260611102026:et:1781166026:c:1:rn:309016494:rqn:1:u:178116602514901390:w:375x812:s:375x812x24:sk:3:fp:1538:wv:2:ds:1,173,167,203,352,0,,1472,0,,,,2467:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "force-urlencoded": 1,
+            "hidv2": 3224063548802990600,
+            "hittoken": "1781166025_26210cfd75b86a9a3760d416bd5b396ec061bf27f4ec6b36e87119d321a38fd6",
+            "page-url": "https://mail.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "9840781781166025148"
+              }
+            },
+            "t": "mc(p-3-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/152628/1?page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hidv2=3224063548802990439&hittoken=1781166025_26210cfd75b86a9a3760d416bd5b396ec061bf27f4ec6b36e87119d321a38fd6&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A844855179115%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102026%3Aet%3A1781166026%3Ac%3A1%3Arn%3A309016494%3Arqn%3A1%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1538%3Awv%3A2%3Ads%3A1%2C173%2C167%2C203%2C352%2C0%2C%2C1472%2C0%2C%2C%2C%2C2467%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026&t=mc(p-3-h-2)clc(0-0-0)rqnt(1)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%229840781781166025148%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:618636258658:hid:35119108:z:120:i:20260611102026:et:1781166026:c:1:rn:479579312:rqn:2:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781166025_39cf9b36ea0daffdd40e067c8b5bb55cc012066c3359aa5c7346897f25069550",
+            "page-url": "https://mail.ru/",
+            "redirnss": 1,
+            "t": "mc(p-3-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/443824/1?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781166025_39cf9b36ea0daffdd40e067c8b5bb55cc012066c3359aa5c7346897f25069550&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A618636258658%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102026%3Aet%3A1781166026%3Ac%3A1%3Arn%3A479579312%3Arqn%3A2%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=mc%28p-3-h-2%29clc%280-0-0%29rqnt%282%29aw%281%29rcm%281%29csu%280%29eco%284276288%29prs%282%29wss%280%29w2s%280%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:844855179115:hid:35119108:z:120:i:20260611102026:et:1781166026:c:1:rn:424624325:rqn:2:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781166025_26210cfd75b86a9a3760d416bd5b396ec061bf27f4ec6b36e87119d321a38fd6",
+            "page-url": "https://mail.ru/",
+            "redirnss": 1,
+            "t": "mc(p-3-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/152628/1?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781166025_26210cfd75b86a9a3760d416bd5b396ec061bf27f4ec6b36e87119d321a38fd6&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A844855179115%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102026%3Aet%3A1781166026%3Ac%3A1%3Arn%3A424624325%3Arqn%3A2%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=mc%28p-3-h-2%29clc%280-0-0%29rqnt%282%29aw%281%29rcm%281%29csu%280%29eco%284276288%29prs%282%29wss%280%29w2s%280%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:618636258658:hid:35119108:z:120:i:20260611102026:et:1781166026:c:1:rn:479579312:rqn:2:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781166025_39cf9b36ea0daffdd40e067c8b5bb55cc012066c3359aa5c7346897f25069550",
+            "page-url": "https://mail.ru/",
+            "t": "mc(p-3-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/443824?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781166025_39cf9b36ea0daffdd40e067c8b5bb55cc012066c3359aa5c7346897f25069550&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A618636258658%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102026%3Aet%3A1781166026%3Ac%3A1%3Arn%3A479579312%3Arqn%3A2%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=mc(p-3-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:844855179115:hid:35119108:z:120:i:20260611102026:et:1781166026:c:1:rn:424624325:rqn:2:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "hittoken": "1781166025_26210cfd75b86a9a3760d416bd5b396ec061bf27f4ec6b36e87119d321a38fd6",
+            "page-url": "https://mail.ru/",
+            "t": "mc(p-3-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/152628?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&hittoken=1781166025_26210cfd75b86a9a3760d416bd5b396ec061bf27f4ec6b36e87119d321a38fd6&browser-info=pv%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A844855179115%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102026%3Aet%3A1781166026%3Ac%3A1%3Arn%3A424624325%3Arqn%3A2%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=mc(p-3-h-2)clc(0-0-0)rqnt(2)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:618636258658:hid:35119108:z:120:i:20260611102025:et:1781166026:c:1:rn:903787335:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-url": "https://mail.ru/",
+            "redirnss": 1,
+            "t": "clt(2354)mc(p-2-h-1)clc(0-0-0)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/443824/1?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A618636258658%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166026%3Ac%3A1%3Arn%3A903787335%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=clt%282354%29mc%28p-2-h-1%29clc%280-0-0%29aw%281%29rcm%281%29csu%280%29eco%284276288%29prs%282%29wss%280%29w2s%280%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:6thbd54y0ur48zrm3wh5g7zay4v4r:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:653906866164:hid:500921782:phid:35119108:z:120:i:20260611102025:et:1781166026:c:1:rn:745782506:rqn:1:u:178116602544364665:w:367x58:s:800x600x24:sk:1:ifr:1:fp:964:ds:0,464,129,187,9,0,,46,11,1477,1477,3,836:co:0:hdl:1:cpf:1:ntf:1:ns:1781166023484:adb:2:rqnl:1:st:1781166026:t:Яндекс",
+            "charset": "utf-8",
+            "exp": "kAtezZ-ozkVVInUUbi-4pUUWXYw7CyndXcn__grozZgWvcF56ObyV1gVczORUl8oRDRxxArU3G4JPXPYnjxUqp9KsXCZXZJ0JXycdbggo-NWN6FVQGHIw55zGpTibnbK0qy3G6Nwemg",
+            "page-ref": "https://mail.ru/",
+            "page-url": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "redirnss": 1,
+            "site-info": {
+              "m_content": "touch",
+              "yandexuid": "6831728641781166024"
+            },
+            "t": "gdpr(6)rqnt(1)aw(1)rcm(1)eco(51328)ti(1)",
+            "uah": "chm\n?0",
+            "ut": "noindex",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/90635903/1?wmode=7&page-url=https%3A%2F%2Fyandex.ru%2Fportal%2Fsearchframe%2Ftouch%3Ftheme%3Dsystem%26button%3D%26image_search%3D1&page-ref=https%3A%2F%2Fmail.ru%2F&charset=utf-8&exp=kAtezZ-ozkVVInUUbi-4pUUWXYw7CyndXcn__grozZgWvcF56ObyV1gVczORUl8oRDRxxArU3G4JPXPYnjxUqp9KsXCZXZJ0JXycdbggo-NWN6FVQGHIw55zGpTibnbK0qy3G6Nwemg&site-info=%7B%22m_content%22%3A%22touch%22%2C%22yandexuid%22%3A%226831728641781166024%22%7D&ut=noindex&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3A6thbd54y0ur48zrm3wh5g7zay4v4r%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A653906866164%3Ahid%3A500921782%3Aphid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166026%3Ac%3A1%3Arn%3A745782506%3Arqn%3A1%3Au%3A178116602544364665%3Aw%3A367x58%3As%3A800x600x24%3Ask%3A1%3Aifr%3A1%3Afp%3A964%3Ads%3A0%2C464%2C129%2C187%2C9%2C0%2C%2C46%2C11%2C1477%2C1477%2C3%2C836%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Antf%3A1%3Ans%3A1781166023484%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3A%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81&t=gdpr%286%29rqnt%281%29aw%281%29rcm%281%29eco%2851328%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:844855179115:hid:35119108:z:120:i:20260611102025:et:1781166026:c:1:rn:858599887:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-url": "https://mail.ru/",
+            "redirnss": 1,
+            "t": "clt(2249)mc(p-1)clc(0-0-0)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/152628/1?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A844855179115%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166026%3Ac%3A1%3Arn%3A858599887%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=clt%282249%29mc%28p-1%29clc%280-0-0%29aw%281%29rcm%281%29csu%280%29eco%284276288%29prs%282%29wss%280%29w2s%280%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:3:dp:1:ls:618636258658:hid:35119108:z:120:i:20260611102025:et:1781166026:c:1:rn:903787335:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-url": "https://mail.ru/",
+            "t": "clt(2354)mc(p-2-h-1)clc(0-0-0)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/443824?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A3%3Adp%3A1%3Als%3A618636258658%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166026%3Ac%3A1%3Arn%3A903787335%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=clt(2354)mc(p-2-h-1)clc(0-0-0)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {
+            "ad-session-id": 9840781781166025000,
+            "banner-lang": "ru",
+            "callback": "Ya[1042794054952]",
+            "comboblock-unencoded-vast": 1,
+            "csrf-token": "3ded8849cf5b20a780a0225912052f282a59de48:1781166024",
+            "disable-base64": 1,
+            "duid": "MTc4MTE2NjAyNTE0OTAxMzkw",
+            "ecma-version": "es2017",
+            "grab-orig-len": 0,
+            "imp-id": 114,
+            "layout-config": {
+              "ad_no": 0,
+              "bandwidth": 5.7,
+              "fullscreenHeaderHeight": 49,
+              "h": 300,
+              "height": 0,
+              "isInIframe": false,
+              "left": 0,
+              "pixel_ratio": 3,
+              "req_no": 2,
+              "safeArea": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "top": 1116,
+              "visible": 0,
+              "w": 375,
+              "width": 375,
+              "win_height": 812,
+              "win_width": 375
+            },
+            "partner-stat-id": 112,
+            "pcode-flags-map": "eJyNlmFv2zYQhv+LPwcFKZKiqG+0dHYIU6RKUkq8YThkbbYVDbJhyYYNRf57IclNIzeV6i8GbN3Du3vfO+rT5qhjG5PeWughbMqfP23+vbn753ZTbuibIpdvKM+k2FxsHm8fHs374WehZCaLzdMvF5teR5yCsYcQjXdzAiM0L/JZNOOSiym6NnEMrSGm4I8I1wmC0xarADqZHlDX2EUIWFkfAaEHl2YH3P731wzOuRqyfbpYeSR7zj5ApW3VWZ0AA7ztICZsIF36Gnc+4FXQbQsBu2CXDxZEcDFS3wbcWl0d0JqYsLIGXEJTx3lniMpYobgoi0LKLKOkZESRPCO5KCkRnOdKFCWjKlcyF6xkhFOSMcJKpSgnRMiSUkIozSQpGS0oJ7kcHqMZIUVGS0o44VyorGQZZRkvClayjHFJlGSlYpnKheDzIiQlGR2L0HWNptF7wL22FsIRjUMHXfCDWmbvlrtRUEX4F5Bxexy+kvGDuK0OuoEEIY4drk1MwWy7dG6eb6G5UsWytsMj07ngRmu1Abamxroz9SJckEKpSb8uAsbBCS4ZbdF6XQ8+HHKNB9Ni8gdYzlRQxgrybLHdUC8OPnI19qYGj9H6hMlj7ZtlEuOUFc9pJR32kDDAbmqdxbbyNawj5AKi13EdkI+APTgI2mJMQSfYH/HKpEv0ra5MOs4gv93c3f168+4j/nl/9/8cxymlasTtzDVeGVf7K3TetwN8ORMuZD6NrgVd73xoIvbamnqY3vbSu5VWcCG5Otly569R17pNPzDdIs+VoC99tYtYR7R+v9I7yTM19a7VIcKkFxq382hc8qeRqrzbmT32fAZ7vPn799vHM55Up+U18eJlMO6AQyej+Qkw+i5UK134ytBd8q3VFTTjjnK9PwBqm7DS1m51dVgGFSI7zcxU1vJNIBgj5/eIZNOYRHAaeqRL5ylaUCVfihBTAN2cRuoKtj5mhBbYsxnm3ePduZ8JmTSBGMFVgI3fmlHU5UCpaC5fDbTeB9QrK6Yo8qyYhX+JG5egcVVCHSOkeOLOcA8fHm/vPtx/fPhhaDQJrHGHiJXvXHoFSldQp/L2wdSD4/tsZUpUJic9jTvd5Je6bY2DGDF2oYcjmurMGX/c3L8/K4lnfNInxhYbbSyG7qTyzti0tiVyThSb4p/3NVrTmITbIzb6etrjw7ysDEqR83lDaoiH5NvXBf/GL0oqRZ4377B2t75z4314ei0IUKVxDw9/tj6sXoJCMUq/vntB5RusdPBdBIux0SFh6nGaj5XscsVOqyloV/tm8h5egdlfJtTWLodzSiT7bnivbTfrriDD5zuEFzr5HoIdTbPHrfXVIY7Dod3qVityMTW7ju2ksN/tIqTlMigTJ40DNL6H2UvO+Sp55VA1Xo1PnwHgiTxK",
+            "pcode-icookie": "CT+o5LWqWKCPi2JPpckOq74gXbXfogw7YxW1g1GILjO1qHpOPgzQrC2I3rkprsxCE5BmFJZ8bXRlHgl+MUQn8vShIhA=",
+            "pcode-test-ids": "918197,0,74;1387854,0,44;1580501,0,65;1565099,0,86;1578693,0,41;1585870,0,96;1588537,0,52;1560057,0,54;1471934,0,41;1534006,0,52;1579167,0,1;1588628,0,93;1569270,0,94;1584246,0,46;1564093,0,17;1578648,0,69;1597990,0,51;1593118,0,90;1569396,0,0;1541073,0,2;1578650,0,77;1513548,0,98;1578936,0,24",
+            "pcode-uid": 6266322341781166000,
+            "pcode-version": 1305330,
+            "pcodever": 1305330,
+            "same-node-hit-number": 0,
+            "target-id": 61036575,
+            "target-ref": "https://mail.ru/",
+            "test-tag": 207257941835778,
+            "tga-with-creatives": 1,
+            "top-ancestor": "https://mail.ru",
+            "top-ancestor-undetermined": 0,
+            "uniformat": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/meta/152628?target-ref=https%3A%2F%2Fmail.ru%2F&pcode-version=1305330&pcodever=1305330&comboblock-unencoded-vast=1&ad-session-id=9840781781166025148&target-id=61036575&pcode-test-ids=918197%2C0%2C74%3B1387854%2C0%2C44%3B1580501%2C0%2C65%3B1565099%2C0%2C86%3B1578693%2C0%2C41%3B1585870%2C0%2C96%3B1588537%2C0%2C52%3B1560057%2C0%2C54%3B1471934%2C0%2C41%3B1534006%2C0%2C52%3B1579167%2C0%2C1%3B1588628%2C0%2C93%3B1569270%2C0%2C94%3B1584246%2C0%2C46%3B1564093%2C0%2C17%3B1578648%2C0%2C69%3B1597990%2C0%2C51%3B1593118%2C0%2C90%3B1569396%2C0%2C0%3B1541073%2C0%2C2%3B1578650%2C0%2C77%3B1513548%2C0%2C98%3B1578936%2C0%2C24&csrf-token=3ded8849cf5b20a780a0225912052f282a59de48%3A1781166024&pcode-uid=6266322341781166024&pcode-flags-map=eJyNlmFv2zYQhv%2BLPwcFKZKiqG%2B0dHYIU6RKUkq8YThkbbYVDbJhyYYNRf57IclNIzeV6i8GbN3Du3vfO%2BrT5qhjG5PeWughbMqfP23%2Bvbn753ZTbuibIpdvKM%2Bk2FxsHm8fHs374WehZCaLzdMvF5teR5yCsYcQjXdzAiM0L%2FJZNOOSiym6NnEMrSGm4I8I1wmC0xarADqZHlDX2EUIWFkfAaEHl2YH3P731wzOuRqyfbpYeSR7zj5ApW3VWZ0AA7ztICZsIF36Gnc%2B4FXQbQsBu2CXDxZEcDFS3wbcWl0d0JqYsLIGXEJTx3lniMpYobgoi0LKLKOkZESRPCO5KCkRnOdKFCWjKlcyF6xkhFOSMcJKpSgnRMiSUkIozSQpGS0oJ7kcHqMZIUVGS0o44VyorGQZZRkvClayjHFJlGSlYpnKheDzIiQlGR2L0HWNptF7wL22FsIRjUMHXfCDWmbvlrtRUEX4F5Bxexy%2BkvGDuK0OuoEEIY4drk1MwWy7dG6eb6G5UsWytsMj07ngRmu1Abamxroz9SJckEKpSb8uAsbBCS4ZbdF6XQ8%2BHHKNB9Ni8gdYzlRQxgrybLHdUC8OPnI19qYGj9H6hMlj7ZtlEuOUFc9pJR32kDDAbmqdxbbyNawj5AKi13EdkI%2BAPTgI2mJMQSfYH%2FHKpEv0ra5MOs4gv93c3f168%2B4j%2Fnl%2F9%2F8cxymlasTtzDVeGVf7K3TetwN8ORMuZD6NrgVd73xoIvbamnqY3vbSu5VWcCG5Otly569R17pNPzDdIs%2BVoC99tYtYR7R%2Bv9I7yTM19a7VIcKkFxq382hc8qeRqrzbmT32fAZ7vPn799vHM55Up%2BU18eJlMO6AQyej%2BQkw%2Bi5UK134ytBd8q3VFTTjjnK9PwBqm7DS1m51dVgGFSI7zcxU1vJNIBgj5%2FeIZNOYRHAaeqRL5ylaUCVfihBTAN2cRuoKtj5mhBbYsxnm3ePduZ8JmTSBGMFVgI3fmlHU5UCpaC5fDbTeB9QrK6Yo8qyYhX%2BJG5egcVVCHSOkeOLOcA8fHm%2FvPtx%2FfPhhaDQJrHGHiJXvXHoFSldQp%2FL2wdSD4%2FtsZUpUJic9jTvd5Je6bY2DGDF2oYcjmurMGX%2Fc3L8%2FK4lnfNInxhYbbSyG7qTyzti0tiVyThSb4p%2F3NVrTmITbIzb6etrjw7ysDEqR83lDaoiH5NvXBf%2FGL0oqRZ4377B2t75z4314ei0IUKVxDw9%2Ftj6sXoJCMUq%2FvntB5RusdPBdBIux0SFh6nGaj5XscsVOqyloV%2Ftm8h5egdlfJtTWLodzSiT7bnivbTfrriDD5zuEFzr5HoIdTbPHrfXVIY7Dod3qVityMTW7ju2ksN%2FtIqTlMigTJ40DNL6H2UvO%2BSp55VA1Xo1PnwHgiTxK&pcode-icookie=CT%2Bo5LWqWKCPi2JPpckOq74gXbXfogw7YxW1g1GILjO1qHpOPgzQrC2I3rkprsxCE5BmFJZ8bXRlHgl%2BMUQn8vShIhA%3D&disable-base64=1&duid=MTc4MTE2NjAyNTE0OTAxMzkw&imp-id=114&banner-lang=ru&ecma-version=es2017&partner-stat-id=112&same-node-hit-number=0&test-tag=207257941835778&tga-with-creatives=1&top-ancestor=https%3A%2F%2Fmail.ru&top-ancestor-undetermined=0&layout-config=%7B%22win_width%22%3A375%2C%22win_height%22%3A812%2C%22pixel_ratio%22%3A3%2C%22bandwidth%22%3A5.7%2C%22isInIframe%22%3Afalse%2C%22w%22%3A375%2C%22h%22%3A300%2C%22width%22%3A375%2C%22height%22%3A0%2C%22visible%22%3A0%2C%22fullscreenHeaderHeight%22%3A49%2C%22left%22%3A0%2C%22top%22%3A1116%2C%22ad_no%22%3A0%2C%22safeArea%22%3A%7B%22top%22%3A0%2C%22bottom%22%3A0%2C%22left%22%3A0%2C%22right%22%3A0%7D%2C%22req_no%22%3A2%7D&grab-orig-len=0&uniformat=true&callback=Ya%5B1042794054952%5D"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:6thbd54y0ur48zrm3wh5g7zay4v4r:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:653906866164:hid:500921782:phid:35119108:z:120:i:20260611102025:et:1781166026:c:1:rn:745782506:rqn:1:u:178116602544364665:w:367x58:s:800x600x24:sk:1:ifr:1:fp:964:ds:0,464,129,187,9,0,,46,11,1477,1477,3,836:co:0:hdl:1:cpf:1:ntf:1:ns:1781166023484:adb:2:rqnl:1:st:1781166026:t:Яндекс",
+            "charset": "utf-8",
+            "exp": "kAtezZ-ozkVVInUUbi-4pUUWXYw7CyndXcn__grozZgWvcF56ObyV1gVczORUl8oRDRxxArU3G4JPXPYnjxUqp9KsXCZXZJ0JXycdbggo-NWN6FVQGHIw55zGpTibnbK0qy3G6Nwemg",
+            "page-ref": "https://mail.ru/",
+            "page-url": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "site-info": {
+              "m_content": "touch",
+              "yandexuid": "6831728641781166024"
+            },
+            "t": "gdpr(6)rqnt(1)aw(1)rcm(1)eco(51328)ti(1)",
+            "uah": "chm\n?0",
+            "ut": "noindex",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/90635903?wmode=7&page-url=https%3A%2F%2Fyandex.ru%2Fportal%2Fsearchframe%2Ftouch%3Ftheme%3Dsystem%26button%3D%26image_search%3D1&page-ref=https%3A%2F%2Fmail.ru%2F&charset=utf-8&exp=kAtezZ-ozkVVInUUbi-4pUUWXYw7CyndXcn__grozZgWvcF56ObyV1gVczORUl8oRDRxxArU3G4JPXPYnjxUqp9KsXCZXZJ0JXycdbggo-NWN6FVQGHIw55zGpTibnbK0qy3G6Nwemg&site-info=%7B%22m_content%22%3A%22touch%22%2C%22yandexuid%22%3A%226831728641781166024%22%7D&ut=noindex&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3A6thbd54y0ur48zrm3wh5g7zay4v4r%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A653906866164%3Ahid%3A500921782%3Aphid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166026%3Ac%3A1%3Arn%3A745782506%3Arqn%3A1%3Au%3A178116602544364665%3Aw%3A367x58%3As%3A800x600x24%3Ask%3A1%3Aifr%3A1%3Afp%3A964%3Ads%3A0%2C464%2C129%2C187%2C9%2C0%2C%2C46%2C11%2C1477%2C1477%2C3%2C836%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Antf%3A1%3Ans%3A1781166023484%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3A%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81&t=gdpr(6)rqnt(1)aw(1)rcm(1)eco(51328)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:2:dp:1:ls:844855179115:hid:35119108:z:120:i:20260611102025:et:1781166026:c:1:rn:858599887:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166026:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "cnt-class": 1,
+            "nohit": 1,
+            "page-url": "https://mail.ru/",
+            "t": "clt(2249)mc(p-1)clc(0-0-0)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/152628?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&nohit=1&charset=utf-8&cnt-class=1&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A2%3Adp%3A1%3Als%3A844855179115%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166026%3Ac%3A1%3Arn%3A858599887%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166026%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=clt(2249)mc(p-1)clc(0-0-0)aw(1)rcm(1)csu(0)eco(4276288)prs(2)wss(0)w2s(0)ti(1)"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {
+            "ad-session-id": 9840781781166025000,
+            "banner-lang": "ru",
+            "callback": "Ya[1745842908598]",
+            "comboblock-unencoded-vast": 1,
+            "csrf-token": "3ded8849cf5b20a780a0225912052f282a59de48:1781166024",
+            "disable-base64": 1,
+            "duid": "MTc4MTE2NjAyNTE0OTAxMzkw",
+            "ecma-version": "es2017",
+            "grab-orig-len": 0,
+            "imp-id": 185,
+            "layout-config": {
+              "ad_no": 0,
+              "bandwidth": 5.7,
+              "fullscreenHeaderHeight": 49,
+              "h": 763,
+              "height": 763,
+              "isInIframe": false,
+              "left": 0,
+              "pixel_ratio": 3,
+              "req_no": 1,
+              "safeArea": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 49
+              },
+              "top": 812,
+              "visible": 0,
+              "w": 375,
+              "width": 375,
+              "win_height": 812,
+              "win_width": 375
+            },
+            "partner-stat-id": 112,
+            "pcode-flags-map": "eJyNlmFv2zYQhv+LPwcFKZKiqG+0dHYIU6RKUkq8YThkbbYVDbJhyYYNRf57IclNIzeV6i8GbN3Du3vfO+rT5qhjG5PeWughbMqfP23+vbn753ZTbuibIpdvKM+k2FxsHm8fHs374WehZCaLzdMvF5teR5yCsYcQjXdzAiM0L/JZNOOSiym6NnEMrSGm4I8I1wmC0xarADqZHlDX2EUIWFkfAaEHl2YH3P731wzOuRqyfbpYeSR7zj5ApW3VWZ0AA7ztICZsIF36Gnc+4FXQbQsBu2CXDxZEcDFS3wbcWl0d0JqYsLIGXEJTx3lniMpYobgoi0LKLKOkZESRPCO5KCkRnOdKFCWjKlcyF6xkhFOSMcJKpSgnRMiSUkIozSQpGS0oJ7kcHqMZIUVGS0o44VyorGQZZRkvClayjHFJlGSlYpnKheDzIiQlGR2L0HWNptF7wL22FsIRjUMHXfCDWmbvlrtRUEX4F5Bxexy+kvGDuK0OuoEEIY4drk1MwWy7dG6eb6G5UsWytsMj07ngRmu1Abamxroz9SJckEKpSb8uAsbBCS4ZbdF6XQ8+HHKNB9Ni8gdYzlRQxgrybLHdUC8OPnI19qYGj9H6hMlj7ZtlEuOUFc9pJR32kDDAbmqdxbbyNawj5AKi13EdkI+APTgI2mJMQSfYH/HKpEv0ra5MOs4gv93c3f168+4j/nl/9/8cxymlasTtzDVeGVf7K3TetwN8ORMuZD6NrgVd73xoIvbamnqY3vbSu5VWcCG5Otly569R17pNPzDdIs+VoC99tYtYR7R+v9I7yTM19a7VIcKkFxq382hc8qeRqrzbmT32fAZ7vPn799vHM55Up+U18eJlMO6AQyej+Qkw+i5UK134ytBd8q3VFTTjjnK9PwBqm7DS1m51dVgGFSI7zcxU1vJNIBgj5/eIZNOYRHAaeqRL5ylaUCVfihBTAN2cRuoKtj5mhBbYsxnm3ePduZ8JmTSBGMFVgI3fmlHU5UCpaC5fDbTeB9QrK6Yo8qyYhX+JG5egcVVCHSOkeOLOcA8fHm/vPtx/fPhhaDQJrHGHiJXvXHoFSldQp/L2wdSD4/tsZUpUJic9jTvd5Je6bY2DGDF2oYcjmurMGX/c3L8/K4lnfNInxhYbbSyG7qTyzti0tiVyThSb4p/3NVrTmITbIzb6etrjw7ysDEqR83lDaoiH5NvXBf/GL0oqRZ4377B2t75z4314ei0IUKVxDw9/tj6sXoJCMUq/vntB5RusdPBdBIux0SFh6nGaj5XscsVOqyloV/tm8h5egdlfJtTWLodzSiT7bnivbTfrriDD5zuEFzr5HoIdTbPHrfXVIY7Dod3qVityMTW7ju2ksN/tIqTlMigTJ40DNL6H2UvO+Sp55VA1Xo1PnwHgiTxK",
+            "pcode-icookie": "CT+o5LWqWKCPi2JPpckOq74gXbXfogw7YxW1g1GILjO1qHpOPgzQrC2I3rkprsxCE5BmFJZ8bXRlHgl+MUQn8vShIhA=",
+            "pcode-test-ids": "918197,0,74;1387854,0,44;1580501,0,65;1565099,0,86;1578693,0,41;1585870,0,96;1588537,0,52;1560057,0,54;1471934,0,41;1534006,0,52;1579167,0,1;1588628,0,93;1569270,0,94;1584246,0,46;1564093,0,17;1578648,0,69;1597990,0,51;1593118,0,90;1569396,0,0;1541073,0,2;1578650,0,77;1513548,0,98;1578936,0,24",
+            "pcode-uid": 6266322341781166000,
+            "pcode-version": 1305330,
+            "pcodever": 1305330,
+            "same-node-hit-number": 0,
+            "target-id": 55040022,
+            "target-ref": "https://mail.ru/",
+            "test-tag": 207257941835778,
+            "tga-with-creatives": 1,
+            "top-ancestor": "https://mail.ru",
+            "top-ancestor-undetermined": 0,
+            "type": "fullscreen",
+            "uniformat": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/meta/443824?target-ref=https%3A%2F%2Fmail.ru%2F&pcode-version=1305330&pcodever=1305330&comboblock-unencoded-vast=1&ad-session-id=9840781781166025148&target-id=55040022&pcode-test-ids=918197%2C0%2C74%3B1387854%2C0%2C44%3B1580501%2C0%2C65%3B1565099%2C0%2C86%3B1578693%2C0%2C41%3B1585870%2C0%2C96%3B1588537%2C0%2C52%3B1560057%2C0%2C54%3B1471934%2C0%2C41%3B1534006%2C0%2C52%3B1579167%2C0%2C1%3B1588628%2C0%2C93%3B1569270%2C0%2C94%3B1584246%2C0%2C46%3B1564093%2C0%2C17%3B1578648%2C0%2C69%3B1597990%2C0%2C51%3B1593118%2C0%2C90%3B1569396%2C0%2C0%3B1541073%2C0%2C2%3B1578650%2C0%2C77%3B1513548%2C0%2C98%3B1578936%2C0%2C24&csrf-token=3ded8849cf5b20a780a0225912052f282a59de48%3A1781166024&pcode-uid=6266322341781166024&pcode-flags-map=eJyNlmFv2zYQhv%2BLPwcFKZKiqG%2B0dHYIU6RKUkq8YThkbbYVDbJhyYYNRf57IclNIzeV6i8GbN3Du3vfO%2BrT5qhjG5PeWughbMqfP23%2Bvbn753ZTbuibIpdvKM%2Bk2FxsHm8fHs374WehZCaLzdMvF5teR5yCsYcQjXdzAiM0L%2FJZNOOSiym6NnEMrSGm4I8I1wmC0xarADqZHlDX2EUIWFkfAaEHl2YH3P731wzOuRqyfbpYeSR7zj5ApW3VWZ0AA7ztICZsIF36Gnc%2B4FXQbQsBu2CXDxZEcDFS3wbcWl0d0JqYsLIGXEJTx3lniMpYobgoi0LKLKOkZESRPCO5KCkRnOdKFCWjKlcyF6xkhFOSMcJKpSgnRMiSUkIozSQpGS0oJ7kcHqMZIUVGS0o44VyorGQZZRkvClayjHFJlGSlYpnKheDzIiQlGR2L0HWNptF7wL22FsIRjUMHXfCDWmbvlrtRUEX4F5Bxexy%2BkvGDuK0OuoEEIY4drk1MwWy7dG6eb6G5UsWytsMj07ngRmu1Abamxroz9SJckEKpSb8uAsbBCS4ZbdF6XQ8%2BHHKNB9Ni8gdYzlRQxgrybLHdUC8OPnI19qYGj9H6hMlj7ZtlEuOUFc9pJR32kDDAbmqdxbbyNawj5AKi13EdkI%2BAPTgI2mJMQSfYH%2FHKpEv0ra5MOs4gv93c3f168%2B4j%2Fnl%2F9%2F8cxymlasTtzDVeGVf7K3TetwN8ORMuZD6NrgVd73xoIvbamnqY3vbSu5VWcCG5Otly569R17pNPzDdIs%2BVoC99tYtYR7R%2Bv9I7yTM19a7VIcKkFxq382hc8qeRqrzbmT32fAZ7vPn799vHM55Up%2BU18eJlMO6AQyej%2BQkw%2Bi5UK134ytBd8q3VFTTjjnK9PwBqm7DS1m51dVgGFSI7zcxU1vJNIBgj5%2FeIZNOYRHAaeqRL5ylaUCVfihBTAN2cRuoKtj5mhBbYsxnm3ePduZ8JmTSBGMFVgI3fmlHU5UCpaC5fDbTeB9QrK6Yo8qyYhX%2BJG5egcVVCHSOkeOLOcA8fHm%2FvPtx%2FfPhhaDQJrHGHiJXvXHoFSldQp%2FL2wdSD4%2FtsZUpUJic9jTvd5Je6bY2DGDF2oYcjmurMGX%2Fc3L8%2FK4lnfNInxhYbbSyG7qTyzti0tiVyThSb4p%2F3NVrTmITbIzb6etrjw7ysDEqR83lDaoiH5NvXBf%2FGL0oqRZ4377B2t75z4314ei0IUKVxDw9%2Ftj6sXoJCMUq%2FvntB5RusdPBdBIux0SFh6nGaj5XscsVOqyloV%2Ftm8h5egdlfJtTWLodzSiT7bnivbTfrriDD5zuEFzr5HoIdTbPHrfXVIY7Dod3qVityMTW7ju2ksN%2FtIqTlMigTJ40DNL6H2UvO%2BSp55VA1Xo1PnwHgiTxK&pcode-icookie=CT%2Bo5LWqWKCPi2JPpckOq74gXbXfogw7YxW1g1GILjO1qHpOPgzQrC2I3rkprsxCE5BmFJZ8bXRlHgl%2BMUQn8vShIhA%3D&disable-base64=1&duid=MTc4MTE2NjAyNTE0OTAxMzkw&imp-id=185&banner-lang=ru&ecma-version=es2017&partner-stat-id=112&same-node-hit-number=0&test-tag=207257941835778&type=fullscreen&tga-with-creatives=1&top-ancestor=https%3A%2F%2Fmail.ru&top-ancestor-undetermined=0&layout-config=%7B%22win_width%22%3A375%2C%22win_height%22%3A812%2C%22pixel_ratio%22%3A3%2C%22bandwidth%22%3A5.7%2C%22isInIframe%22%3Afalse%2C%22w%22%3A375%2C%22h%22%3A763%2C%22width%22%3A375%2C%22height%22%3A763%2C%22visible%22%3A0%2C%22fullscreenHeaderHeight%22%3A49%2C%22left%22%3A0%2C%22top%22%3A812%2C%22ad_no%22%3A0%2C%22safeArea%22%3A%7B%22top%22%3A49%2C%22bottom%22%3A0%2C%22left%22%3A0%2C%22right%22%3A0%7D%2C%22req_no%22%3A1%7D&grab-orig-len=0&uniformat=true&callback=Ya%5B1745842908598%5D"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {
+            "ad-session-id": 9840781781166025000,
+            "banner-lang": "ru",
+            "callback": "Ya[4837158358866]",
+            "comboblock-unencoded-vast": 1,
+            "csrf-token": "3ded8849cf5b20a780a0225912052f282a59de48:1781166024",
+            "disable-base64": 1,
+            "duid": "MTc4MTE2NjAyNTE0OTAxMzkw",
+            "ecma-version": "es2017",
+            "grab-orig-len": 0,
+            "imp-id": 76,
+            "layout-config": {
+              "ad_no": 0,
+              "bandwidth": 2,
+              "fullscreenHeaderHeight": 49,
+              "h": 0,
+              "height": 0,
+              "isInIframe": false,
+              "left": 0,
+              "pixel_ratio": 3,
+              "req_no": 0,
+              "safeArea": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "top": 480,
+              "visible": 1,
+              "w": 375,
+              "width": 375,
+              "win_height": 812,
+              "win_width": 375
+            },
+            "partner-stat-id": 112,
+            "pcode-flags-map": "eJyNlmFv2zYQhv+LPwcFKZKiqG+0dHYIU6RKUkq8YThkbbYVDbJhyYYNRf57IclNIzeV6i8GbN3Du3vfO+rT5qhjG5PeWughbMqfP23+vbn753ZTbuibIpdvKM+k2FxsHm8fHs374WehZCaLzdMvF5teR5yCsYcQjXdzAiM0L/JZNOOSiym6NnEMrSGm4I8I1wmC0xarADqZHlDX2EUIWFkfAaEHl2YH3P731wzOuRqyfbpYeSR7zj5ApW3VWZ0AA7ztICZsIF36Gnc+4FXQbQsBu2CXDxZEcDFS3wbcWl0d0JqYsLIGXEJTx3lniMpYobgoi0LKLKOkZESRPCO5KCkRnOdKFCWjKlcyF6xkhFOSMcJKpSgnRMiSUkIozSQpGS0oJ7kcHqMZIUVGS0o44VyorGQZZRkvClayjHFJlGSlYpnKheDzIiQlGR2L0HWNptF7wL22FsIRjUMHXfCDWmbvlrtRUEX4F5Bxexy+kvGDuK0OuoEEIY4drk1MwWy7dG6eb6G5UsWytsMj07ngRmu1Abamxroz9SJckEKpSb8uAsbBCS4ZbdF6XQ8+HHKNB9Ni8gdYzlRQxgrybLHdUC8OPnI19qYGj9H6hMlj7ZtlEuOUFc9pJR32kDDAbmqdxbbyNawj5AKi13EdkI+APTgI2mJMQSfYH/HKpEv0ra5MOs4gv93c3f168+4j/nl/9/8cxymlasTtzDVeGVf7K3TetwN8ORMuZD6NrgVd73xoIvbamnqY3vbSu5VWcCG5Otly569R17pNPzDdIs+VoC99tYtYR7R+v9I7yTM19a7VIcKkFxq382hc8qeRqrzbmT32fAZ7vPn799vHM55Up+U18eJlMO6AQyej+Qkw+i5UK134ytBd8q3VFTTjjnK9PwBqm7DS1m51dVgGFSI7zcxU1vJNIBgj5/eIZNOYRHAaeqRL5ylaUCVfihBTAN2cRuoKtj5mhBbYsxnm3ePduZ8JmTSBGMFVgI3fmlHU5UCpaC5fDbTeB9QrK6Yo8qyYhX+JG5egcVVCHSOkeOLOcA8fHm/vPtx/fPhhaDQJrHGHiJXvXHoFSldQp/L2wdSD4/tsZUpUJic9jTvd5Je6bY2DGDF2oYcjmurMGX/c3L8/K4lnfNInxhYbbSyG7qTyzti0tiVyThSb4p/3NVrTmITbIzb6etrjw7ysDEqR83lDaoiH5NvXBf/GL0oqRZ4377B2t75z4314ei0IUKVxDw9/tj6sXoJCMUq/vntB5RusdPBdBIux0SFh6nGaj5XscsVOqyloV/tm8h5egdlfJtTWLodzSiT7bnivbTfrriDD5zuEFzr5HoIdTbPHrfXVIY7Dod3qVityMTW7ju2ksN/tIqTlMigTJ40DNL6H2UvO+Sp55VA1Xo1PnwHgiTxK",
+            "pcode-icookie": "CT+o5LWqWKCPi2JPpckOq74gXbXfogw7YxW1g1GILjO1qHpOPgzQrC2I3rkprsxCE5BmFJZ8bXRlHgl+MUQn8vShIhA=",
+            "pcode-test-ids": "918197,0,74;1387854,0,44;1580501,0,65;1565099,0,86;1578693,0,41;1585870,0,96;1588537,0,52;1560057,0,54;1471934,0,41;1534006,0,52;1579167,0,1;1588628,0,93;1569270,0,94;1584246,0,46;1564093,0,17;1578648,0,69;1597990,0,51;1593118,0,90;1569396,0,0;1541073,0,2;1578650,0,77;1513548,0,98;1578936,0,24",
+            "pcode-uid": 6266322341781166000,
+            "pcode-version": 1305330,
+            "pcodever": 1305330,
+            "same-node-hit-number": 0,
+            "target-id": 17857566,
+            "target-ref": "https://mail.ru/",
+            "test-tag": 207257941835778,
+            "tga-with-creatives": 1,
+            "top-ancestor": "https://mail.ru",
+            "top-ancestor-undetermined": 0,
+            "uniformat": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/meta/152628?target-ref=https%3A%2F%2Fmail.ru%2F&pcode-version=1305330&pcodever=1305330&comboblock-unencoded-vast=1&ad-session-id=9840781781166025148&target-id=17857566&pcode-test-ids=918197%2C0%2C74%3B1387854%2C0%2C44%3B1580501%2C0%2C65%3B1565099%2C0%2C86%3B1578693%2C0%2C41%3B1585870%2C0%2C96%3B1588537%2C0%2C52%3B1560057%2C0%2C54%3B1471934%2C0%2C41%3B1534006%2C0%2C52%3B1579167%2C0%2C1%3B1588628%2C0%2C93%3B1569270%2C0%2C94%3B1584246%2C0%2C46%3B1564093%2C0%2C17%3B1578648%2C0%2C69%3B1597990%2C0%2C51%3B1593118%2C0%2C90%3B1569396%2C0%2C0%3B1541073%2C0%2C2%3B1578650%2C0%2C77%3B1513548%2C0%2C98%3B1578936%2C0%2C24&csrf-token=3ded8849cf5b20a780a0225912052f282a59de48%3A1781166024&pcode-uid=6266322341781166024&pcode-flags-map=eJyNlmFv2zYQhv%2BLPwcFKZKiqG%2B0dHYIU6RKUkq8YThkbbYVDbJhyYYNRf57IclNIzeV6i8GbN3Du3vfO%2BrT5qhjG5PeWughbMqfP23%2Bvbn753ZTbuibIpdvKM%2Bk2FxsHm8fHs374WehZCaLzdMvF5teR5yCsYcQjXdzAiM0L%2FJZNOOSiym6NnEMrSGm4I8I1wmC0xarADqZHlDX2EUIWFkfAaEHl2YH3P731wzOuRqyfbpYeSR7zj5ApW3VWZ0AA7ztICZsIF36Gnc%2B4FXQbQsBu2CXDxZEcDFS3wbcWl0d0JqYsLIGXEJTx3lniMpYobgoi0LKLKOkZESRPCO5KCkRnOdKFCWjKlcyF6xkhFOSMcJKpSgnRMiSUkIozSQpGS0oJ7kcHqMZIUVGS0o44VyorGQZZRkvClayjHFJlGSlYpnKheDzIiQlGR2L0HWNptF7wL22FsIRjUMHXfCDWmbvlrtRUEX4F5Bxexy%2BkvGDuK0OuoEEIY4drk1MwWy7dG6eb6G5UsWytsMj07ngRmu1Abamxroz9SJckEKpSb8uAsbBCS4ZbdF6XQ8%2BHHKNB9Ni8gdYzlRQxgrybLHdUC8OPnI19qYGj9H6hMlj7ZtlEuOUFc9pJR32kDDAbmqdxbbyNawj5AKi13EdkI%2BAPTgI2mJMQSfYH%2FHKpEv0ra5MOs4gv93c3f168%2B4j%2Fnl%2F9%2F8cxymlasTtzDVeGVf7K3TetwN8ORMuZD6NrgVd73xoIvbamnqY3vbSu5VWcCG5Otly569R17pNPzDdIs%2BVoC99tYtYR7R%2Bv9I7yTM19a7VIcKkFxq382hc8qeRqrzbmT32fAZ7vPn799vHM55Up%2BU18eJlMO6AQyej%2BQkw%2Bi5UK134ytBd8q3VFTTjjnK9PwBqm7DS1m51dVgGFSI7zcxU1vJNIBgj5%2FeIZNOYRHAaeqRL5ylaUCVfihBTAN2cRuoKtj5mhBbYsxnm3ePduZ8JmTSBGMFVgI3fmlHU5UCpaC5fDbTeB9QrK6Yo8qyYhX%2BJG5egcVVCHSOkeOLOcA8fHm%2FvPtx%2FfPhhaDQJrHGHiJXvXHoFSldQp%2FL2wdSD4%2FtsZUpUJic9jTvd5Je6bY2DGDF2oYcjmurMGX%2Fc3L8%2FK4lnfNInxhYbbSyG7qTyzti0tiVyThSb4p%2F3NVrTmITbIzb6etrjw7ysDEqR83lDaoiH5NvXBf%2FGL0oqRZ4377B2t75z4314ei0IUKVxDw9%2Ftj6sXoJCMUq%2FvntB5RusdPBdBIux0SFh6nGaj5XscsVOqyloV%2Ftm8h5egdlfJtTWLodzSiT7bnivbTfrriDD5zuEFzr5HoIdTbPHrfXVIY7Dod3qVityMTW7ju2ksN%2FtIqTlMigTJ40DNL6H2UvO%2BSp55VA1Xo1PnwHgiTxK&pcode-icookie=CT%2Bo5LWqWKCPi2JPpckOq74gXbXfogw7YxW1g1GILjO1qHpOPgzQrC2I3rkprsxCE5BmFJZ8bXRlHgl%2BMUQn8vShIhA%3D&disable-base64=1&duid=MTc4MTE2NjAyNTE0OTAxMzkw&imp-id=76&banner-lang=ru&ecma-version=es2017&partner-stat-id=112&same-node-hit-number=0&test-tag=207257941835778&tga-with-creatives=1&top-ancestor=https%3A%2F%2Fmail.ru&top-ancestor-undetermined=0&layout-config=%7B%22win_width%22%3A375%2C%22win_height%22%3A812%2C%22pixel_ratio%22%3A3%2C%22bandwidth%22%3A2%2C%22isInIframe%22%3Afalse%2C%22w%22%3A375%2C%22h%22%3A0%2C%22width%22%3A375%2C%22height%22%3A0%2C%22visible%22%3A1%2C%22fullscreenHeaderHeight%22%3A49%2C%22left%22%3A0%2C%22top%22%3A480%2C%22ad_no%22%3A0%2C%22safeArea%22%3A%7B%22top%22%3A0%2C%22bottom%22%3A0%2C%22left%22%3A0%2C%22right%22%3A0%7D%2C%22req_no%22%3A0%7D&grab-orig-len=0&uniformat=true&callback=Ya%5B4837158358866%5D"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pa:1:ar:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:1:ls:1434967553636:hid:35119108:z:120:i:20260611102025:et:1781166025:c:1:rn:839985036:rqn:2:u:178116602514901390:w:375x812:s:375x812x24:sk:3:wv:2:co:0:hdl:1:eu:1:ns:1781166021972:adb:2:rqnl:1:st:1781166025",
+            "charset": "utf-8",
+            "force-urlencoded": 1,
+            "hidv2": 3224063105434648600,
+            "hittoken": "1781166024_ff8ec0822d522ea58a08769f9236441096b2a316cb5c92c7f0b82022f1b517ba",
+            "page-url": "https://mail.ru/",
+            "site-info": {
+              "__ym": {
+                "adSessionID": "9840781781166025148"
+              }
+            },
+            "t": "gdpr(14)clc(0-0-0)rqnt(2)aw(1)rcm(1)eco(42009088)prs(2)wss(0)w2s(0)evt(290)ti(0)",
+            "uah": "chm\n?0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/101292177/1?page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&uah=chm%0A%3F0&hidv2=3224063105434648796&hittoken=1781166024_ff8ec0822d522ea58a08769f9236441096b2a316cb5c92c7f0b82022f1b517ba&browser-info=pa%3A1%3Aar%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A1%3Als%3A1434967553636%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102025%3Aet%3A1781166025%3Ac%3A1%3Arn%3A839985036%3Arqn%3A2%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Awv%3A2%3Aco%3A0%3Ahdl%3A1%3Aeu%3A1%3Ans%3A1781166021972%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1781166025&t=gdpr(14)clc(0-0-0)rqnt(2)aw(1)rcm(1)eco(42009088)prs(2)wss(0)w2s(0)evt(290)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22adSessionID%22%3A%229840781781166025148%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:6thbd54y0ur48zrm3wh5g7zay4v4r:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1464496889781:hid:500921782:z:120:i:20260611102024:et:1781166025:c:1:rn:686223785:rqn:1:u:178116602544364665:w:367x58:s:800x600x24:sk:1:ifr:1:fp:964:ds:0,464,129,187,9,0,,46,11,,,,836:co:0:hdl:1:cpf:1:ntf:1:ns:1781166023484:st:1781166025",
+            "charset": "utf-8",
+            "page-ref": "https://mail.ru/",
+            "page-url": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "redirnss": 1,
+            "t": "rqnt(1)aw(1)rcm(1)eco(16384)ti(1)",
+            "ut": "noindex",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/3/1?wmode=7&page-url=https%3A%2F%2Fyandex.ru%2Fportal%2Fsearchframe%2Ftouch%3Ftheme%3Dsystem%26button%3D%26image_search%3D1&page-ref=https%3A%2F%2Fmail.ru%2F&charset=utf-8&ut=noindex&browser-info=pv%3A1%3Avf%3A6thbd54y0ur48zrm3wh5g7zay4v4r%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1464496889781%3Ahid%3A500921782%3Az%3A120%3Ai%3A20260611102024%3Aet%3A1781166025%3Ac%3A1%3Arn%3A686223785%3Arqn%3A1%3Au%3A178116602544364665%3Aw%3A367x58%3As%3A800x600x24%3Ask%3A1%3Aifr%3A1%3Afp%3A964%3Ads%3A0%2C464%2C129%2C187%2C9%2C0%2C%2C46%2C11%2C%2C%2C%2C836%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Antf%3A1%3Ans%3A1781166023484%3Ast%3A1781166025&t=rqnt%281%29aw%281%29rcm%281%29eco%2816384%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": "||yandex.ru/clck/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/clck/click"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:6thbd54y0ur48zrm3wh5g7zay4v4r:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1464496889781:hid:500921782:z:120:i:20260611102024:et:1781166025:c:1:rn:686223785:rqn:1:u:178116602544364665:w:367x58:s:800x600x24:sk:1:ifr:1:fp:964:ds:0,464,129,187,9,0,,46,11,,,,836:co:0:hdl:1:cpf:1:ntf:1:ns:1781166023484:st:1781166025",
+            "charset": "utf-8",
+            "page-ref": "https://mail.ru/",
+            "page-url": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "t": "rqnt(1)aw(1)rcm(1)eco(16384)ti(1)",
+            "ut": "noindex",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/3?wmode=7&page-url=https%3A%2F%2Fyandex.ru%2Fportal%2Fsearchframe%2Ftouch%3Ftheme%3Dsystem%26button%3D%26image_search%3D1&page-ref=https%3A%2F%2Fmail.ru%2F&charset=utf-8&ut=noindex&browser-info=pv%3A1%3Avf%3A6thbd54y0ur48zrm3wh5g7zay4v4r%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1464496889781%3Ahid%3A500921782%3Az%3A120%3Ai%3A20260611102024%3Aet%3A1781166025%3Ac%3A1%3Arn%3A686223785%3Arqn%3A1%3Au%3A178116602544364665%3Aw%3A367x58%3As%3A800x600x24%3Ask%3A1%3Aifr%3A1%3Afp%3A964%3Ads%3A0%2C464%2C129%2C187%2C9%2C0%2C%2C46%2C11%2C%2C%2C%2C836%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Antf%3A1%3Ans%3A1781166023484%3Ast%3A1781166025&t=rqnt(1)aw(1)rcm(1)eco(16384)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1434967553636:hid:35119108:z:120:i:20260611102024:et:1781166025:c:1:rn:31720929:rqn:1:u:178116602514901390:w:375x812:s:375x812x24:sk:3:fp:1538:wv:2:ds:1,173,167,203,352,0,,1472,0,,,,2467:co:0:hdl:1:ns:1781166021972:rqnl:1:st:1781166025:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "page-url": "https://mail.ru/",
+            "redirnss": 1,
+            "t": "clt(1009)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42009088)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/101292177/1?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1434967553636%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102024%3Aet%3A1781166025%3Ac%3A1%3Arn%3A31720929%3Arqn%3A1%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1538%3Awv%3A2%3Ads%3A1%2C173%2C167%2C203%2C352%2C0%2C%2C1472%2C0%2C%2C%2C%2C2467%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781166021972%3Arqnl%3A1%3Ast%3A1781166025%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=clt%281009%29gdpr%2814%29clc%280-0-0%29rqnt%281%29aw%281%29rcm%281%29eco%2842009088%29ti%281%29&redirnss=1"
+      },
+      {
+        "data": {
+          "filter": ".ru/ads/",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/ads/system/context.js"
+      },
+      {
+        "data": {
+          "filter": "||counter.yadro.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r;uhttp://m.mail.ru/;": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://counter.yadro.ru/hit;mail-splash/touch?r;uhttp%3A%2F%2Fm.mail.ru%2f;"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "browser-info": "pv:1:vf:pupr1nz2sms3kwcribikwbeshnsgr:fu:0:en:utf-8:la:en-US:v:2540:cn:1:dp:0:ls:1434967553636:hid:35119108:z:120:i:20260611102024:et:1781166025:c:1:rn:31720929:rqn:1:u:178116602514901390:w:375x812:s:375x812x24:sk:3:fp:1538:wv:2:ds:1,173,167,203,352,0,,1472,0,,,,2467:co:0:hdl:1:ns:1781166021972:rqnl:1:st:1781166025:t:Mail: Почта, Облако, Календарь, Заметки, Покупки — сервисы для работы и жизни",
+            "charset": "utf-8",
+            "page-url": "https://mail.ru/",
+            "t": "clt(1009)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42009088)ti(1)",
+            "uah": "chm\n?0",
+            "wmode": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/watch/101292177?wmode=7&page-url=https%3A%2F%2Fmail.ru%2F&charset=utf-8&uah=chm%0A%3F0&browser-info=pv%3A1%3Avf%3Apupr1nz2sms3kwcribikwbeshnsgr%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2540%3Acn%3A1%3Adp%3A0%3Als%3A1434967553636%3Ahid%3A35119108%3Az%3A120%3Ai%3A20260611102024%3Aet%3A1781166025%3Ac%3A1%3Arn%3A31720929%3Arqn%3A1%3Au%3A178116602514901390%3Aw%3A375x812%3As%3A375x812x24%3Ask%3A3%3Afp%3A1538%3Awv%3A2%3Ads%3A1%2C173%2C167%2C203%2C352%2C0%2C%2C1472%2C0%2C%2C%2C%2C2467%3Aco%3A0%3Ahdl%3A1%3Ans%3A1781166021972%3Arqnl%3A1%3Ast%3A1781166025%3At%3AMail%3A%20%D0%9F%D0%BE%D1%87%D1%82%D0%B0%2C%20%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%2C%20%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%2C%20%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%2C%20%D0%9F%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&t=clt(1009)gdpr(14)clc(0-0-0)rqnt(1)aw(1)rcm(1)eco(42009088)ti(1)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "gdpr(14)ti(4)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)"
+      },
+      {
+        "data": {
+          "filter": "||yandex.ru/clck/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/clck/click"
+      },
+      {
+        "data": {
+          "filter": "||yandex.ru/clck/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/clck/counter"
+      },
+      {
+        "data": {
+          "filter": "||yandex.ru/clck/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://yandex.ru/clck/click"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://yandex.ru/portal/searchframe/touch?theme=system&button=&image_search=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/watch_zen.js"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-1M15Q3KLDM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mail.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-1M15Q3KLDM"
+      }
+    ]
+  }
+}

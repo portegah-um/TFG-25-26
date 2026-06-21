@@ -1,0 +1,1005 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Le Figaro - Actualité en direct et informations en continu",
+  "uri_ins": "https://lefigaro.fr",
+  "uri_dest": "https://www.lefigaro.fr/",
+  "uri_redirects": [
+    "https://lefigaro.fr/"
+  ],
+  "secure_connection": {},
+  "host": "lefigaro.fr",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:45:46.878Z",
+  "end_time": "2026-06-11T09:46:30.717Z",
+  "browsing_history": [
+    "https://www.lefigaro.fr/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "lefigaro.fr",
+        "www.lefigaro.fr",
+        "static.lefigaro.fr",
+        "wst.lefigaro.fr",
+        "api-gateway-access.lefigaro.fr",
+        "api-graphql.lefigaro.fr",
+        "he.lefigaro.fr"
+      ],
+      "third_party": [
+        "cdn.appconsent.io",
+        "www.googletagmanager.com",
+        "i.f1g.fr",
+        "collector.appconsent.io",
+        "cdn.taboola.com",
+        "cdn.adsafeprotected.com",
+        "c.amazon-adsystem.com",
+        "pagead2.googlesyndication.com",
+        "cdn.opecloud.com",
+        "trc.taboola.com",
+        "sdk.mrf.io",
+        "marfeelexperimentsexperienceengine.mrf.io",
+        "events.newsroom.bi",
+        "trc-events.taboola.com",
+        "lefigaro.tagger.opecloud.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://static.lefigaro.fr/widget-video/widgets/prod/chunks/vertical-widget.D8CzjG5b.js": [
+          "keydown"
+        ],
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2256": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "MOUSE": {
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2256": [
+          "click",
+          "scroll",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KVRC3GN": [
+          "click"
+        ],
+        "https://cdn.taboola.com/libtrc/unip/1028379/tfa.js": [
+          "scroll"
+        ],
+        "https://www.lefigaro.fr/build/modern/js/dynamic/components-StickyBottomBanner-sticky-bottom-banner-js.a8a86377b039f2c4.js": [
+          "scroll"
+        ],
+        "https://static.lefigaro.fr/widget-video/widgets/prod/chunks/shared.D4wQSX9b.js": [
+          "scroll"
+        ],
+        "https://static.lefigaro.fr/figanalytics/figanalytics-short-ttl.js": [
+          "click"
+        ],
+        "https://static.lefigaro.fr/header/js/figh-index.13c4371.js": [
+          "scroll",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2256": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "ak_bmsc",
+        "value": "F8D0ADA119B31A9C434078900848C2D0~000000000000000000000000000000~YAAQg/MUAqx/mIqeAQAAPNMStgC7ylZch0v7is0nmDRKYL+1q/GQ1SbtMqIH3SbLnAdjvKO1StWehERLilnVbUsHuJjSoSSkZBzROf7ln7sm6G9GjP7fqmAKN1vR0/n1M9K64wfzMsfb0BhNkn6guwWPBvq0xMZWw1HSbssV/ezGFnr2ziWGLh7hrgqLjYn8U7/E8smUnuTXVWEEn8IWZhqSuj6edlJrgEiXjWuMMf0+OSaboBPKe2Lm7zXDtHzaauV9JBh4Xr08UIeXx8Q7kwv4dTogo2jOLWhPt55K6LBs/EcKt7raUVStL8pBVx4a9Cu5+1Jt5KcdxG7eib1cq3N3CnZnSgQhbFu36Fn3unYoDqeLh4PiTZOyvpnPQdGrUkEML7n1hyfZrOvH",
+        "domain": "lefigaro.fr",
+        "path": "/",
+        "expires": "2026-06-11T11:45:47.591Z",
+        "size": 471,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fig_save_consent",
+        "value": "LLs6GxARAmbZuEUScZb4MlAAhg2cAOWi",
+        "domain": "lefigaro.fr",
+        "path": "/",
+        "expires": "2027-06-11T09:45:47.780Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "uhz",
+        "value": "VJuMJdHZKg3",
+        "domain": "lefigaro.fr",
+        "path": "/",
+        "expires": "2026-09-11T09:45:51.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "Wysistat",
+        "value": "0.46564984372331875_1781171148626%C2%A71%C2%A71781171167875%C2%A71%C2%A71781171148%C2%A70.46564984372331875_1781171148626%C2%A71815299148626",
+        "domain": "www.lefigaro.fr",
+        "path": "/",
+        "expires": "2027-07-11T09:45:48.000Z",
+        "size": 148,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dl": "www.lefigaro.fr/",
+            "exp": "0~115938465~115938468",
+            "fin": 1,
+            "gtm": "45He6691h1v76492297za200zd76492297",
+            "id": "GTM-KSBBDKP",
+            "pid": 2141620813,
+            "seq": 2,
+            "t": "t",
+            "tdp": "GTM-KSBBDKP;6492297;0;0;0",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/td?id=GTM-KSBBDKP&v=3&t=t&pid=2141620813&gtm=45He6691h1v76492297za200zd76492297&seq=2&exp=0~115938465~115938468&dl=www.lefigaro.fr%2F&tdp=GTM-KSBBDKP;6492297;0;0;0&fin=1&z=0"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.lefigaro.fr/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYTM3Mj",
+            "gtm": "45be6691h1v9103535041z876492297za20gzb76492297zd76492297xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 3,
+            "rnd": 219180415.17811713,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115616986~115938465~115938469",
+            "tcfd": "1000h",
+            "tfd": 30824,
+            "tft": 1781171188153,
+            "tid": "AW-1030196747",
+            "tids": "AW-1030196747"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fwww.lefigaro.fr%2F&scrsrc=www.googletagmanager.com&rnd=219180415.1781171188&navt=n&npa=1&gdid=dYTM3Mj&gtm=45be6691h1v9103535041z876492297za20gzb76492297zd76492297xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tcfd=1000h&tag_exp=0~115616986~115938465~115938469&apve=1&apvf=f&apvc=1&tids=AW-1030196747&tid=AW-1030196747&tft=1781171188153&tfd=30824"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-NLLLBBNGFK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-NLLLBBNGFK&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "G-NLLLBBNGFK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=G-NLLLBBNGFK&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||tagger.opecloud.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cmp": "tcf2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://lefigaro.tagger.opecloud.com/lefigaro/v2/metrics/sdk-consent-delayed?cmp=tcf2"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com^*/log/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": "20260610-29-RELEASE",
+            "en": "pre_d_eng_tb",
+            "est": 1781171150135,
+            "invt": 4500,
+            "isls": true,
+            "it": "JS_PIXEL",
+            "item-url": "https://www.lefigaro.fr/",
+            "msa": 39664,
+            "ref": null,
+            "ri": "e9083b807aa05f52c49e0467dee4331f",
+            "rv": 1,
+            "scd": 0,
+            "src": "i",
+            "ssd": 1,
+            "tim": 1781171187586,
+            "tos": 34573,
+            "ver": 36,
+            "vi": 1781171169794
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://trc-events.taboola.com/1028379/log/3/unip?en=pre_d_eng_tb&tos=34573&scd=0&ssd=1&est=1781171150135&ver=36&isls=true&src=i&invt=4500&msa=39664&rv=1&tim=1781171187586&vi=1781171169794&ri=e9083b807aa05f52c49e0467dee4331f&ref=null&cv=20260610-29-RELEASE&item-url=https%3A%2F%2Fwww.lefigaro.fr%2F&it=JS_PIXEL"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bt": 0,
+            "ct": 3,
+            "dl": "www.lefigaro.fr/",
+            "exp": "0~115938465~115938468",
+            "frm": 0,
+            "gtm": "45He6691h1v76492297za200zd76492297",
+            "hlo": 40,
+            "id": "GTM-KSBBDKP",
+            "jsp": 1,
+            "lst": 1,
+            "mde": "AW-1030196747;0_1",
+            "pid": 2141620813,
+            "rtg": 6492297,
+            "seq": 1,
+            "slo": 39,
+            "t": "t",
+            "tdp": "GTM-KSBBDKP;6492297;0;0;0",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/td?id=GTM-KSBBDKP&v=3&t=t&pid=2141620813&gtm=45He6691h1v76492297za200zd76492297&seq=1&exp=0~115938465~115938468&dl=www.lefigaro.fr%2F&tdp=GTM-KSBBDKP;6492297;0;0;0&frm=0&rtg=6492297&slo=39&hlo=40&lst=1&bt=0&ct=3&jsp=1&mde=AW-1030196747;0_1&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bt": 0,
+            "ct": 3,
+            "dl": "www.lefigaro.fr/",
+            "exp": "0~115938465~115938468",
+            "frm": 0,
+            "gtm": "45He6691h1v76492297za200zd76492297",
+            "hlo": 40,
+            "id": "GTM-KSBBDKP",
+            "is_td": 1,
+            "jsp": 1,
+            "lst": 1,
+            "mde": "AW-1030196747;0_1",
+            "pid": 2141620813,
+            "rtg": 6492297,
+            "seq": 1,
+            "slo": 39,
+            "t": "t",
+            "tdp": "GTM-KSBBDKP;6492297;0;0;0",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KSBBDKP&is_td=1&v=3&t=t&pid=2141620813&gtm=45He6691h1v76492297za200zd76492297&seq=1&exp=0~115938465~115938468&dl=www.lefigaro.fr%2F&tdp=GTM-KSBBDKP;6492297;0;0;0&frm=0&rtg=6492297&slo=39&hlo=40&lst=1&bt=0&ct=3&jsp=1&mde=AW-1030196747;0_1&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KVRC3GN"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVRC3GN"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "AW-1030196747"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1030196747&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com^*/json?tim=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "data": {
+              "cb": "TFASC.trkCallback",
+              "cv": "20260610-29-RELEASE",
+              "e": null,
+              "id": 695,
+              "ii": "/",
+              "it": "video",
+              "mpvd": {
+                "en": "page_view",
+                "it": "JS_PIXEL",
+                "item-url": "https://www.lefigaro.fr/",
+                "ref": null,
+                "scd": 0,
+                "ssd": 1,
+                "supv": true,
+                "tim": 1781171170351,
+                "tos": 17323
+              },
+              "pa": {
+                "su": true
+              },
+              "psb": true,
+              "qs": "",
+              "r": [
+                {
+                  "li": "rbox-tracking",
+                  "orig_uip": "rbox-tracking",
+                  "s": 0,
+                  "uim": "rbox-tracking:pub=lefigaro-sc:abp=0",
+                  "uip": "rbox-tracking"
+                }
+              ],
+              "sd": null,
+              "u": "https://www.lefigaro.fr/",
+              "ui": null,
+              "uiv": "default",
+              "vi": 1781171169794
+            },
+            "pubit": "i",
+            "tim": 1781171170452
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://trc.taboola.com/1028379/trc/3/json?tim=1781171170452&data=%7B%22id%22%3A695%2C%22ii%22%3A%22%2F%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A1781171169794%2C%22cv%22%3A%2220260610-29-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.lefigaro.fr%2F%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dlefigaro-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22tim%22%3A1781171170351%2C%22ref%22%3Anull%2C%22item-url%22%3A%22https%3A%2F%2Fwww.lefigaro.fr%2F%22%2C%22tos%22%3A17323%2C%22ssd%22%3A1%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KSBBDKP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KSBBDKP"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||adsafeprotected.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.adsafeprotected.com/iasPET.1.js"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com/libtrc/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.taboola.com/libtrc/unip/1028379/tfa.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TC6DVH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TC6DVH"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-NLLLBBNGFK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-NLLLBBNGFK&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-NLLLBBNGFK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/destination?id=G-NLLLBBNGFK&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {
+            "apvc": 1,
+            "apve": 1,
+            "apvf": "f",
+            "dl": "https://www.lefigaro.fr/",
+            "dma": 1,
+            "dma_cps": "-",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13p3pPp2p5l1",
+            "gcs": "G100",
+            "gdid": "dYTM3Mj",
+            "gtm": "45be6691h1v9103535041z876492297za20gzb76492297zd76492297xec",
+            "navt": "n",
+            "npa": 1,
+            "rcb": 13,
+            "rnd": 849889228.1781172,
+            "scrsrc": "www.googletagmanager.com",
+            "tag_exp": "0~115938466~115938469",
+            "tcfd": "1000h",
+            "tfd": 4226,
+            "tft": 1781171151551,
+            "tid": "AW-1030196747",
+            "tids": "AW-1030196747"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&en=page_view&dl=https%3A%2F%2Fwww.lefigaro.fr%2F&scrsrc=www.googletagmanager.com&rnd=849889228.1781171152&navt=n&npa=1&gdid=dYTM3Mj&gtm=45be6691h1v9103535041z876492297za20gzb76492297zd76492297xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tcfd=1000h&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=1&tids=AW-1030196747&tid=AW-1030196747&tft=1781171151551&tfd=4226"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KVRC3GN"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVRC3GN"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": "4e6691h1",
+            "id": "AW-1030196747"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1030196747&cx=c&gtm=4e6691h1"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com^*/json?tim=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "data": {
+              "cb": "TFASC.trkCallback",
+              "cv": "20260610-29-RELEASE",
+              "e": null,
+              "id": 324,
+              "ii": "/",
+              "it": "video",
+              "mpvd": {
+                "en": "page_view",
+                "it": "JS_PIXEL",
+                "item-url": "https://www.lefigaro.fr/",
+                "ref": null,
+                "scd": 0,
+                "ssd": 1,
+                "supv": true,
+                "tim": 1781171150567,
+                "tos": 229
+              },
+              "pa": {
+                "su": true
+              },
+              "psb": true,
+              "qs": "",
+              "r": [
+                {
+                  "li": "rbox-tracking",
+                  "orig_uip": "rbox-tracking",
+                  "s": 0,
+                  "uim": "rbox-tracking:pub=lefigaro-sc:abp=0",
+                  "uip": "rbox-tracking"
+                }
+              ],
+              "sd": null,
+              "u": "https://www.lefigaro.fr/",
+              "ui": null,
+              "uiv": "default",
+              "vi": 1781171149947
+            },
+            "pubit": "i",
+            "tim": 1781171150665
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://trc.taboola.com/1028379/trc/3/json?tim=1781171150665&data=%7B%22id%22%3A324%2C%22ii%22%3A%22%2F%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A1781171149947%2C%22cv%22%3A%2220260610-29-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.lefigaro.fr%2F%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dlefigaro-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22tim%22%3A1781171150567%2C%22ref%22%3Anull%2C%22item-url%22%3A%22https%3A%2F%2Fwww.lefigaro.fr%2F%22%2C%22tos%22%3A229%2C%22ssd%22%3A1%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KSBBDKP"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KSBBDKP"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202606050101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "||adsafeprotected.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.adsafeprotected.com/iasPET.1.js"
+      },
+      {
+        "data": {
+          "filter": "||taboola.com/libtrc/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.taboola.com/libtrc/unip/1028379/tfa.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TC6DVH"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.lefigaro.fr/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TC6DVH"
+      }
+    ]
+  }
+}

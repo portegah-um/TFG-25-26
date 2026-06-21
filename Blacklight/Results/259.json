@@ -1,0 +1,186 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "DropCatch.com",
+  "uri_ins": "https://dropcatch.com",
+  "uri_dest": "https://www.dropcatch.com/",
+  "uri_redirects": [
+    "https://dropcatch.com/"
+  ],
+  "secure_connection": {},
+  "host": "dropcatch.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:55:50.538Z",
+  "end_time": "2026-06-11T06:55:57.228Z",
+  "browsing_history": [
+    "https://www.dropcatch.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "dropcatch.com",
+        "www.dropcatch.com",
+        "translate.dropcatch.com",
+        "client.dropcatch.com",
+        "logging.dropcatch.com"
+      ],
+      "third_party": [
+        "fonts.gstatic.com",
+        "www.google.com",
+        "www.gstatic.com",
+        "www.googletagmanager.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5RLTR9F": [
+          "keyup"
+        ],
+        "https://www.dropcatch.com/chunk-YSQAH5IB.js": [
+          "keydown"
+        ],
+        "https://www.dropcatch.com/main-W5HAOKZ5.js": [
+          "keypress"
+        ]
+      },
+      "MOUSE": {
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5RLTR9F": [
+          "mousedown"
+        ],
+        "https://www.dropcatch.com/chunk-YSQAH5IB.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://www.dropcatch.com/main-W5HAOKZ5.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://www.dropcatch.com/chunk-YSQAH5IB.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.dropcatch.com/chunk-YSQAH5IB.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "value": "1.1.2144490926.1781160954",
+        "domain": "dropcatch.com",
+        "path": "/",
+        "expires": "2026-09-09T06:55:54.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "AW-939608520"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dropcatch.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-939608520&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-5RLTR9F"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.dropcatch.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RLTR9F"
+      }
+    ]
+  }
+}

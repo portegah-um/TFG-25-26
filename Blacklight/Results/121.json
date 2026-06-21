@@ -1,0 +1,229 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Snapchat: dilo en un Snap",
+  "uri_ins": "https://snapchat.com",
+  "uri_dest": "https://www.snapchat.com/",
+  "uri_redirects": [
+    "https://snapchat.com/"
+  ],
+  "secure_connection": {},
+  "host": "snapchat.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:08:25.212Z",
+  "end_time": "2026-06-11T06:08:32.589Z",
+  "browsing_history": [
+    "https://www.snapchat.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "snapchat.com",
+        "www.snapchat.com",
+        "static.snapchat.com",
+        "aws.api.snapchat.com",
+        "us-central1-gcp.api.snapchat.com",
+        "gcp.api.snapchat.com",
+        "story.snapchat.com"
+      ],
+      "third_party": [
+        "growth-web-dev-tool.mesh.sc-corp.net",
+        "accounts.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.snapchat.com/snapchat-dot-com/_next/static/chunks/pages/_app-b2e2d1b371da4ec8.js": [
+          "scroll",
+          "dblclick",
+          "click",
+          "mousemove",
+          "mousedown"
+        ],
+        "https://static.snapchat.com/snapchat-dot-com/_next/static/chunks/main-93dbaebda72da021.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://static.snapchat.com/snapchat-dot-com/_next/static/chunks/pages/_app-b2e2d1b371da4ec8.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.snapchat.com/snapchat-dot-com/_next/static/chunks/pages/_app-b2e2d1b371da4ec8.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://static.snapchat.com/snapchat-dot-com/_next/static/chunks/main-93dbaebda72da021.js": [
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "sc-language",
+        "value": "en-US",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2027-06-11T06:08:29.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_sc-sid",
+        "value": "fdc84bb8-e691-4e07-a6e9-2c2cf0f72642",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2026-06-11T06:38:31.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "EssentialSession",
+        "value": "true",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2027-06-11T06:08:29.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sc-wcid",
+        "value": "729e2c69-3918-435b-802b-6f720573f101",
+        "domain": "snapchat.com",
+        "path": "/",
+        "expires": "2026-06-12T06:08:29.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "GCP_IAP_XSRF_NONCE_360xQtmtOPKnrSollohP_g",
+        "value": "1",
+        "domain": "growth-web-dev-tool.mesh.sc-corp.net",
+        "path": "/",
+        "expires": "2026-06-11T06:18:29.967Z",
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GCP_IAP_XSRF_NONCE_0Ox7J_-DP1y6AnKEXwNcVg",
+        "value": "1",
+        "domain": "growth-web-dev-tool.mesh.sc-corp.net",
+        "path": "/",
+        "expires": "2026-06-11T06:18:30.482Z",
+        "size": 42,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

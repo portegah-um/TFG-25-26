@@ -1,0 +1,435 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Home | Library of Congress",
+  "uri_ins": "https://loc.gov",
+  "uri_dest": "https://www.loc.gov/",
+  "uri_redirects": [
+    "https://loc.gov/"
+  ],
+  "secure_connection": {},
+  "host": "loc.gov",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:47:49.508Z",
+  "end_time": "2026-06-11T08:47:53.682Z",
+  "browsing_history": [
+    "https://www.loc.gov/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "loc.gov",
+        "www.loc.gov",
+        "tile.loc.gov",
+        "smon.loc.gov"
+      ],
+      "third_party": [
+        "assets.adobedtm.com",
+        "dpm.demdex.net",
+        "unitedstateslibraryofcongress.demdex.net",
+        "cm.everesttech.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.loc.gov/": [
+          "mousemove",
+          "mouseup"
+        ],
+        "https://www.loc.gov/static/js/lib/jquery-1.8.2.js": [
+          "click",
+          "scroll",
+          "mouseup"
+        ],
+        "https://www.loc.gov/static/javascript/base.js": [
+          "click"
+        ],
+        "https://assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-6b47f831c184878d7338d4683ecf773a17973bb9.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.loc.gov/static/javascript/base.js": [
+          "keydown",
+          "keypress"
+        ],
+        "https://www.loc.gov/static/js/lib/jquery-1.8.2.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://www.loc.gov/static/js/lib/jquery-1.8.2.js": [
+          "orientationchange"
+        ],
+        "https://assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-6b47f831c184878d7338d4683ecf773a17973bb9.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.loc.gov/static/js/lib/jquery-1.8.2.js": [
+          "touchstart"
+        ],
+        "https://www.loc.gov/static/javascript/base.js": [
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_cfuvid",
+        "value": "fWU8BEwtEXL.F1O9u.0hd8SOEDK8YWXvNPT9pjw0Ktk-1781167670109-0.0.1.1-604800000",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "18111004995490462632184501057925140135",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T08:47:51.432Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_0D15148954E6C5100A4C98BC%40AdobeOrg",
+        "value": "1",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C18146050411773780082187764015398270856",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dpm",
+        "value": "18111004995490462632184501057925140135",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2026-12-08T08:47:51.432Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCV_0D15148954E6C5100A4C98BC%40AdobeOrg",
+        "value": "179643557%7CMCIDTS%7C20616%7CMCMID%7C18146050411773780082187764015398270856%7CMCAAMLH-1781772470%7C6%7CMCAAMB-1781772470%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1781174871s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20623%7CvVersion%7C5.5.0",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": "2027-07-16T08:47:51.699Z",
+        "size": 303,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ptc",
+        "value": "pt.rdr%240.17%5E%5Ept.apc%240.00%5E%5Ept.dns%240.00%5E%5Ept.tcp%240.00%5E%5Ept.req%240.07%5E%5Ept.rsp%240.04%5E%5Ept.prc%241.53%5E%5Ept.onl%240.01%5E%5Ept.tot%241.79%5E%5Ept.pfi%241",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 186,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_plt",
+        "value": "%5B%5BB%5D%5D",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_pltp",
+        "value": "%5B%5BB%5D%5D",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "loc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.loc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=aip2NwAAAN3c8gNn"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_uuid": 1.8111004995490461e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.loc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=18111004995490462632184501057925140135"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_nsid": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unitedstateslibraryofcongress.demdex.net/dest5.html?d_nsid=0"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.loc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.loc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_fieldgroup": "MC",
+            "d_nsid": 0,
+            "d_orgid": "0D15148954E6C5100A4C98BC@AdobeOrg",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_visid_ver": "5.5.0",
+            "ts": 1781167670433
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.loc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=0D15148954E6C5100A4C98BC%40AdobeOrg&d_nsid=0&ts=1781167670433"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.loc.gov/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-6b47f831c184878d7338d4683ecf773a17973bb9.js"
+      }
+    ]
+  }
+}

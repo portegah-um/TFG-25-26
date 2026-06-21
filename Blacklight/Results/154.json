@@ -1,0 +1,505 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Enviar Dinero | Cartera Digital y Gestión de Dinero | PayPal ES",
+  "uri_ins": "https://paypal.com",
+  "uri_dest": "https://www.paypal.com/es/home",
+  "uri_redirects": [
+    "https://paypal.com/",
+    "https://www.paypal.com/"
+  ],
+  "secure_connection": {},
+  "host": "paypal.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:20:52.068Z",
+  "end_time": "2026-06-11T06:20:58.344Z",
+  "browsing_history": [
+    "https://www.paypal.com/es/home"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "paypal.com",
+        "www.paypal.com",
+        "t.paypal.com"
+      ],
+      "third_party": [
+        "www.paypalobjects.com",
+        "www.googletagmanager.com",
+        "www.recaptcha.net",
+        "www.gstatic.com",
+        "browser-intake-us5-datadoghq.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.paypalobjects.com/pa/js/min/pa.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-3dda06d4.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/StickyQRBadge-d3c436af.js": [
+          "scroll"
+        ],
+        "https://www.paypalobjects.com/web/res/6e6/6200bfbb9e92f1de299bfaa13acab/recaptcha/grcenterprise_v3.html": [
+          "click"
+        ],
+        "https://www.paypal.com/auth/createchallenge/da3b23fb74915a89/recaptchav3.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.paypalobjects.com/pa/js/min/pa.js": [
+          "keydown"
+        ],
+        "https://www.paypalobjects.com/globalnav/js/main-Dep_Iec_.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.paypalobjects.com/globalnav/js/main-Dep_Iec_.js": [
+          "touchmove"
+        ]
+      },
+      "SENSOR": {
+        "https://www.paypalobjects.com/globalnav/js/main-Dep_Iec_.js": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_GRECAPTCHA",
+        "value": "09AKhCRwgZfMLoKTnGw0ZkcvJkHHj0SBv7E_TVGC7GcjsoGTRy1TiGKLjvZZqfUcwL5YPhQT7LtYBaEqFptixUCk8",
+        "domain": "www.recaptcha.net",
+        "path": "/recaptcha",
+        "expires": "2026-12-08T06:20:56.613Z",
+        "size": 100,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "LANG",
+        "value": "es_ES%3BES",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2026-06-11T15:06:53.280Z",
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ts_c",
+        "value": "vr%3Db55738d319e73697031760fefffffffe%26vt%3Db55738d319e73697031760fefffffffd",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:57.281Z",
+        "size": 81,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "enforce_policy",
+        "value": "gdpr_v2.1",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:57.280Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "l7_az",
+        "value": "dcg05.phx",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2026-06-11T06:50:57.281Z",
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nsid",
+        "value": "s%3APXRmgkSAISt4E_iuLziAdPYMjVAcD7Uz.aq2nk5D0%2BGm%2BUf%2FRiXOoZVHgwUwG9%2FsKidaf6LiV70I",
+        "domain": "www.paypal.com",
+        "path": "/",
+        "expires": -1,
+        "size": 92,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cookie_prefs",
+        "value": "T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dinitial",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:53.971Z",
+        "size": 50,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "12BUDwuTDLJv0cn7ZDsBgNkFKrjZmkOjCnuaRknMVI8-1781158854.9811199-1.0.1.1-xAyx_VCsNOH2Ty4yVaOAo58rV90umqfs5EtPXay.0igcxgo27kVQhlXF67IwaPYHrK8YW_QzKStQCa3wIrxf9HEGaKGvDHR95CWZrPiuO9U5oqG3vjNo41o1n57qMxzL",
+        "domain": "t.paypal.com",
+        "path": "/",
+        "expires": "2026-06-11T06:50:55.175Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ts",
+        "value": "vreXpYrS%3D1812694856%26vteXpYrS%3D1781160656%26vr%3Db55738d319e73697031760fefffffffe%26vt%3Db55738d319e73697031760fefffffffd%26vtyp%3Dnew",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2027-06-11T06:20:57.281Z",
+        "size": 140,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "x-pp-s",
+        "value": "eyJ0IjoiMTc4MTE1ODg1NzA0NCIsImwiOiIwIiwibSI6IjAifQ",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": -1,
+        "size": 56,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tsrce",
+        "value": "authchallengenodeweb",
+        "domain": "paypal.com",
+        "path": "/",
+        "expires": "2026-06-14T06:20:57.281Z",
+        "size": 25,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=2&id=208a2216-37c2-4bff-b157-a170e4cc4b87&created=1781158853557&expire=1781159757687",
+        "domain": "www.paypal.com",
+        "path": "/",
+        "expires": "2026-06-11T06:35:57.000Z",
+        "size": 93,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/rum?ddsource=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1781158855044,
+            "dd-api-key": "pubc2ea00ebdaf6a0f6395d8d4d458f2802",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "5.35.1",
+            "dd-request-id": "d4700bba-5e74-4631-ab29-731099f4bfbe",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:5.35.1,api:xhr,env:production,service:ppcmsnodeweb,version:2.81.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.81.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=d4700bba-5e74-4631-ab29-731099f4bfbe&batch_time=1781158855044"
+      },
+      {
+        "data": {
+          "filter": "/rum?ddsource=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1781158855041,
+            "dd-api-key": "pubc2ea00ebdaf6a0f6395d8d4d458f2802",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "5.35.1",
+            "dd-request-id": "78c12c9a-ebc0-48e5-8311-62565287c140",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:5.35.1,api:fetch,env:production,service:ppcmsnodeweb,version:2.81.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.81.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=78c12c9a-ebc0-48e5-8311-62565287c140&batch_time=1781158855041"
+      },
+      {
+        "data": {
+          "filter": "/rum?ddsource=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1781158854930,
+            "dd-api-key": "pubc2ea00ebdaf6a0f6395d8d4d458f2802",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "5.35.1",
+            "dd-request-id": "46972602-c196-49dd-bce0-d8ce59bb9885",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:5.35.1,api:fetch,env:production,service:ppcmsnodeweb,version:2.81.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.81.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=46972602-c196-49dd-bce0-d8ce59bb9885&batch_time=1781158854930"
+      },
+      {
+        "data": {
+          "filter": "/rum?ddsource=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1781158854721,
+            "dd-api-key": "pubc2ea00ebdaf6a0f6395d8d4d458f2802",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "5.35.1",
+            "dd-request-id": "a6125b96-f889-4c7f-aacb-0f04919e37f6",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:5.35.1,api:fetch,env:production,service:ppcmsnodeweb,version:2.81.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.81.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=a6125b96-f889-4c7f-aacb-0f04919e37f6&batch_time=1781158854721"
+      },
+      {
+        "data": {
+          "filter": "/rum?ddsource=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1781158854714,
+            "dd-api-key": "pubc2ea00ebdaf6a0f6395d8d4d458f2802",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "5.35.1",
+            "dd-request-id": "f113d843-2e0b-437c-bf65-1223900fc7d4",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:5.35.1,api:fetch,env:production,service:ppcmsnodeweb,version:2.81.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.81.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=f113d843-2e0b-437c-bf65-1223900fc7d4&batch_time=1781158854714"
+      },
+      {
+        "data": {
+          "filter": "/rum?ddsource=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1781158854700,
+            "dd-api-key": "pubc2ea00ebdaf6a0f6395d8d4d458f2802",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "5.35.1",
+            "dd-request-id": "e99226a1-dc01-48b8-a08a-44ff1f56a426",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:5.35.1,api:fetch,env:production,service:ppcmsnodeweb,version:2.81.0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.81.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=e99226a1-dc01-48b8-a08a-44ff1f56a426&batch_time=1781158854700"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-T562K64Q",
+            "l": "gtmMktgDataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.paypal.com/es/home",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T562K64Q&l=gtmMktgDataLayer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Canva: Visual Suite for Everyone",
+  "uri_ins": "https://canva.com",
+  "uri_dest": "https://www.canva.com/",
+  "uri_redirects": [
+    "https://canva.com/"
+  ],
+  "secure_connection": {},
+  "host": "canva.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:44:43.942Z",
+  "end_time": "2026-06-11T06:44:49.935Z",
+  "browsing_history": [
+    "https://www.canva.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "canva.com",
+        "www.canva.com",
+        "static.canva.com",
+        "content-management-files.canva.com",
+        "chunk-composing.canva.com",
+        "telemetry.canva.com"
+      ],
+      "third_party": [
+        "static.cloudflareinsights.com",
+        "o13855.ingest.sentry.io"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.canva.com/web/c2252228a99be486.js": [
+          "scroll",
+          "mousedown"
+        ],
+        "https://chunk-composing.canva.com/chunk-batch/734487fc18df3874.js+54cad794a8f99517.js+609c66a3f328da85.vendor.js+e8fb43b90d84a1d9.js+65c5dfc38cb5bbd9.js+c142256a22ae70a3.js+fa1857f05e014468.js+333793949317eb3a.js+f55bbe04c591209a.js+4d387fd68c54ac8a.js+e4d79805d884c9c3.js+9d30f4e3ffdbd661.js+5c2fcd0f269c3f4d.js+91b90201462aab3c.js+4ccde0149271c7b7.js+5c07ef05d7dface0.js": [
+          "scroll"
+        ],
+        "https://static.canva.com/web/38c2a53358eaa081.1ul071.vendor.js": [
+          "click"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "click"
+        ],
+        "https://static.canva.com/web/a5e931349bbaa4d0.sentry_browser.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://static.canva.com/web/c2252228a99be486.js": [
+          "touchstart"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.canva.com/web/38c2a53358eaa081.1ul071.vendor.js": [
+          "keydown"
+        ],
+        "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447": [
+          "keydown"
+        ],
+        "https://static.canva.com/web/c2252228a99be486.js": [
+          "keydown"
+        ],
+        "https://static.canva.com/web/a5e931349bbaa4d0.sentry_browser.js": [
+          "keypress"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "CDI",
+        "value": "225f3ec4-60e5-4491-bbfc-b9db567c922d",
+        "domain": "www.canva.com",
+        "path": "/",
+        "expires": "2027-06-11T06:44:45.493Z",
+        "size": 39,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CL",
+        "value": "en",
+        "domain": "www.canva.com",
+        "path": "/",
+        "expires": "2026-07-11T06:44:45.494Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CPA",
+        "value": "cnvanZ7YrWS5x1zgi7DiyJ9xrkNOcqff7_AAs_5hnoRj5oA-vVswWcx8Ly4RrswcXnzqJwfqc00el3Af89OQ6ppw1q8PTHTwR0igovSWKthEWvOyM676jlMwum_60gKuPf2gdw0YcaBQAb8zVbCOaFLLtnfBvgt9a1ej263Fv3_bpmgeLCEKRF0G6oTg1Ev2fGwUI5o5BVxvRvyiMoLUPWAxsPhC646gj0FKjXvSTHpBFGMix5p8dfip4PyaeMzhe5CXSgThmOmXR0t38OjYb5PvP14NeYaJpaInmhhzVlBm0MTpohVg8_VNSAxj5IB0Ek6LDsPJmFgkK2eatmkg6Kwd5DSClKEUINm9eyDe0UlOiikhlUvFFyGGoc9Y9a3sRY6to_w6hNLBChVRhlPMzDwFRDW-xWNVmVn7cJ3e4m5eycbJWxabZN5dtOW5teEdfDImRBKln3zirg3uar5-9yzHwtp7pUNcq58wkUjn4m5wosS65j0R_UvUJBEKuTquXeIoNqH6qqK7xz4yjUctz08sP6p9YD1R05zFIFf0RR0OV_0vrClNaYD-ILb-hfSPiQGNJHdKiy2a6M5JGsoDju3yYB05YOnEL5j2cAtN4JgBktqXuTfRoDm6GfT0WvgD6SULvr0WfNHvGyOlb-9OvREep5qwkoSCko_o2YvPksdOawz-VzYlUqslTHi6GYgghXu9Choikwei9VrcYwxQGGJymKmVZKlUoXeyZgROYRJQ7-NJ0SVCEiIZSYUtszcG5XVIXjVhbqXwALmbPVh2_pkNKIJqy7ZMb0016a77",
+        "domain": "www.canva.com",
+        "path": "/",
+        "expires": "2026-06-11T09:44:45.494Z",
+        "size": 811,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CCDA",
+        "value": "eyJBIjo4MTIsIkIiOjM3NSwiQyI6ODEyLCJEIjozNzUsIkUiOiJCIn0=",
+        "domain": "www.canva.com",
+        "path": "/",
+        "expires": "2026-07-11T06:44:46.374Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ASI",
+        "value": "01KTTPT66ME8AVRVNNCC9SJAPM",
+        "domain": "www.canva.com",
+        "path": "/",
+        "expires": "2026-06-11T07:14:49.682Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "Z7N8w36aobaaJbfj.pNTNXtMScah.iLqIjvNSxNesNk-1781160287.0870333-1.0.1.1-UAT_qg8_c4zh4KaDeHpPrbReaUp6ubhHO2YxTz.jXro",
+        "domain": "canva.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "lP8wWxWzwVKFFj9wWRhjjcpZ6DA8XfRwYqPgPx_GDSg-1781160287-1.2.1.1-z_PxEhqRJWFHMsZdJUard4c9VsHnagT2QiL2wDqk1wNy6N91hSjfioaMxymzHo.6JmuO2J304C1CSO0NRaCGdLzr6ikNh4hBu4L2sn9b5Pb6XjkmdXNnvZDvbUCqNbNBfgbdKNjSf4Xlq_5TsVkaCUW2NC9YmsdQmXCZPBRAIlZ46_IuSl12RxjQjD5wfgybx_oK8xGYdXLLjmLz039vkJBEmFB0l1rUyw08DeclGV3INKK2.DNEFdJRXAxkcz6DoDmkVLZU7qz.mHdb2iVRDVaUlh.LUmPBlO0xg3szDR3ZhdcXBig76zRbv14LP4NahMk_9vsktjIDMVW3cI.iEg",
+        "domain": "canva.com",
+        "path": "/",
+        "expires": "2027-06-11T06:44:47.498Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://canva.com",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "HShKASM1gCUIyrHs5Abjqbcj2h6y63ns0w_LdFwDLLo-1781160287.466739-1.0.1.1-DgC6WiOJ8HJdvjvicHDBlza3pZ.cndZSNgZ4QTUvrl1Cwg9Wxqjl8.NfJBH.ki5sEsUxoJNrS_z_Iis1DWDjqORwgzTZRRYjFNAebLvR8Auw189mRq2csJtqEM8Mh752",
+        "domain": "canva.com",
+        "path": "/",
+        "expires": "2026-06-11T07:14:47.499Z",
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||sentry.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sentry_client": "sentry.javascript.browser/10.34.0",
+            "sentry_key": "3e6b0deb414549c8901b5382885e478b",
+            "sentry_version": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.canva.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://o13855.ingest.sentry.io/api/5862012/envelope/?sentry_version=7&sentry_key=3e6b0deb414549c8901b5382885e478b&sentry_client=sentry.javascript.browser%2F10.34.0"
+      },
+      {
+        "data": {
+          "filter": "||cloudflareinsights.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.canva.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+      }
+    ]
+  }
+}

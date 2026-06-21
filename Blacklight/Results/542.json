@@ -1,0 +1,277 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "DeviantArt - The Largest Online Art Gallery and Community",
+  "uri_ins": "https://deviantart.com",
+  "uri_dest": "https://www.deviantart.com/",
+  "uri_redirects": [
+    "https://deviantart.com/"
+  ],
+  "secure_connection": {},
+  "host": "deviantart.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T08:23:08.423Z",
+  "end_time": "2026-06-11T08:23:12.991Z",
+  "browsing_history": [
+    "https://www.deviantart.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "deviantart.com",
+        "www.deviantart.com"
+      ],
+      "third_party": [
+        "images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com",
+        "static.parastorage.com",
+        "st.deviantart.net",
+        "a.deviantart.net",
+        "frog.wix.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.parastorage.com/services/da-browse/dist/js/async/412.060dbdda.js": [
+          "click"
+        ],
+        "https://static.parastorage.com/services/da-browse/dist/js/index.e5fb6120.js": [
+          "scroll"
+        ],
+        "https://static.parastorage.com/services/da-browse/dist/js/lib-react.b73ee42c.js": [
+          "dblclick",
+          "scroll",
+          "mouseup",
+          "mousemove",
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.parastorage.com/services/da-browse/dist/js/async/412.060dbdda.js": [
+          "keydown"
+        ],
+        "https://static.parastorage.com/services/da-browse/dist/js/lib-react.b73ee42c.js": [
+          "keyup",
+          "keypress",
+          "keydown",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "https://static.parastorage.com/services/da-browse/dist/js/lib-react.b73ee42c.js": [
+          "touchmove",
+          "touchstart",
+          "touchend",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "userinfo",
+        "value": "__db5aa7abaf73bfb41949987d5588834b05ed23a56ea13d6f4f9f9d054acdf205%3B%7B%22username%22%3A%22%22%2C%22uniqueid%22%3A%229dafe6485147e6dcf9a05fce32ba57f8%22%2C%22dvs9-1%22%3A1%2C%22ab%22%3A%22tao-00011x-1-a-7%7Ctao-00011z-1-a-9%22%7D",
+        "domain": "deviantart.com",
+        "path": "/",
+        "expires": "2026-07-11T08:23:10.047Z",
+        "size": 238,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "td",
+        "value": "12:375x812",
+        "domain": "deviantart.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 17811661913631,
+            "_brandId": "wix",
+            "_hostingPlatform": "undefined",
+            "_isHeadless": "undefined",
+            "_isca": 1,
+            "_iscf": 1,
+            "_ise": 0,
+            "_ispd": 0,
+            "_lv": "2.0.985|C",
+            "_ms": 2485,
+            "_siteBranchId": "undefined",
+            "appinf": "da-browse:ga:a542bcc13be7a633d24dfe9a11f7d6ae2b4efa5262f5788342c133a6-1.10627.0",
+            "beat": "fcp",
+            "browser_language": "en-US",
+            "client_id": "9dafe648-5147-e6dc-f9a0-5fce32ba57f8",
+            "component": "home",
+            "debug_info": {
+              "connectionTime": 31,
+              "dnsTime": 0,
+              "requestTime": 840.3999999761581,
+              "waitingTime": 297.5
+            },
+            "evid": 1,
+            "fcp_vs": "good",
+            "lng": "en",
+            "ni_dl": 10,
+            "ni_et": "4g",
+            "ni_rtt": 50,
+            "ni_sd": false,
+            "nt_dlt": 0,
+            "nt_dt": 42,
+            "nt_ft": 913,
+            "nt_hs": 300,
+            "nt_tt": 882,
+            "nt_ttfb": 1169,
+            "nt_wt": 0,
+            "p_fcp": 1585,
+            "platform": "mobile",
+            "referer": "",
+            "requestid": "687md32c505240fd6be0a81904747b50df0e",
+            "src": 82,
+            "st_over": 20,
+            "st_papi": 298,
+            "st_react": 36,
+            "st_total": 354,
+            "ttfb_vs": "needs-improvement",
+            "url": "https://www.deviantart.com/",
+            "version": "eclipse;major",
+            "view": "browse"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.deviantart.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://frog.wix.com/da-client?version=eclipse%3Bmajor&platform=mobile&src=82&url=https%3A%2F%2Fwww.deviantart.com%2F&browser_language=en-US&lng=en&client_id=9dafe648-5147-e6dc-f9a0-5fce32ba57f8&requestid=687md32c505240fd6be0a81904747b50df0e&view=browse&component=home&_brandId=wix&_siteBranchId=undefined&_ms=2485&_isHeadless=undefined&_hostingPlatform=undefined&_lv=2.0.985%7CC&referer=&evid=1&appinf=da-browse%3Aga%3Aa542bcc13be7a633d24dfe9a11f7d6ae2b4efa5262f5788342c133a6-1.10627.0&beat=fcp&nt_ft=913&nt_wt=0&nt_tt=882&nt_dt=42&nt_hs=300&nt_dlt=0&ni_dl=10&ni_et=4g&ni_rtt=50&ni_sd=false&fcp_vs=good&debug_info=%7B%22waitingTime%22%3A297.5%2C%22dnsTime%22%3A0%2C%22connectionTime%22%3A31%2C%22requestTime%22%3A840.3999999761581%7D&p_fcp=1585&ttfb_vs=needs-improvement&nt_ttfb=1169&st_papi=298&st_react=36&st_over=20&st_total=354&_isca=1&_iscf=1&_ispd=0&_ise=0&_=17811661913631"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_": 17811661912810,
+            "_brandId": "wix",
+            "_hostingPlatform": "undefined",
+            "_isHeadless": "undefined",
+            "_isca": 1,
+            "_iscf": 1,
+            "_ise": 0,
+            "_ispd": 0,
+            "_lv": "2.0.985|C",
+            "_ms": 2317,
+            "_siteBranchId": "undefined",
+            "browser_language": "en-US",
+            "client_id": "9dafe648-5147-e6dc-f9a0-5fce32ba57f8",
+            "component": "home",
+            "evid": 99,
+            "is_empty_state_view": 0,
+            "lng": "en",
+            "metadata": "undefined",
+            "platform": "mobile",
+            "referer": "",
+            "requestid": "687md32c505240fd6be0a81904747b50df0e",
+            "screen_height": 812,
+            "screen_width": 375,
+            "src": 82,
+            "url": "https://www.deviantart.com/",
+            "version": "eclipse;major",
+            "view": "browse"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.deviantart.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://frog.wix.com/da-client?version=eclipse%3Bmajor&platform=mobile&src=82&url=https%3A%2F%2Fwww.deviantart.com%2F&browser_language=en-US&lng=en&client_id=9dafe648-5147-e6dc-f9a0-5fce32ba57f8&requestid=687md32c505240fd6be0a81904747b50df0e&view=browse&component=home&_brandId=wix&_siteBranchId=undefined&_ms=2317&_isHeadless=undefined&_hostingPlatform=undefined&_lv=2.0.985%7CC&referer=&evid=99&screen_width=375&screen_height=812&metadata=undefined&is_empty_state_view=0&_isca=1&_iscf=1&_ispd=0&_ise=0&_=17811661912810"
+      }
+    ]
+  }
+}

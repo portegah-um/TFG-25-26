@@ -1,0 +1,365 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "AI-Powered Ad Tech for Measurable Performance | PubMatic",
+  "uri_ins": "https://pubmatic.com",
+  "uri_dest": "https://pubmatic.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "pubmatic.com",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T06:36:47.072Z",
+  "end_time": "2026-06-11T06:36:51.955Z",
+  "browsing_history": [
+    "https://pubmatic.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "pubmatic.com"
+      ],
+      "third_party": [
+        "cdnjs.cloudflare.com",
+        "d3m889aznlr23d.cloudfront.net",
+        "thenai.org",
+        "player.vimeo.com",
+        "www.googletagmanager.com",
+        "global.ketchcdn.com",
+        "f.vimeocdn.com",
+        "i.vimeocdn.com",
+        "cdn.ketchjs.com",
+        "arclight.vimeo.com",
+        "vod-adaptive-ak.vimeocdn.com",
+        "vimeo.com",
+        "orion.bendingspoons.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://f.vimeocdn.com/p/4.46.57/js/player.module.js": [
+          "keydown",
+          "keyup",
+          "keypress"
+        ],
+        "https://pubmatic.com/wp-content/themes/pubmatic/js/bootstrap.min.js?ver=5.3.3": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://f.vimeocdn.com/p/4.46.57/js/player.module.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TDPB8VC": [
+          "click"
+        ],
+        "https://pubmatic.com/wp-content/themes/pubmatic/js/jquery.3.7.1.min.js?ver=3.7.1": [
+          "scroll",
+          "mousedown",
+          "mouseup",
+          "click"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js?ver=1": [
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://pubmatic.com/wp-content/themes/pubmatic/js/scripts.js?ver=18112025": [
+          "scroll"
+        ],
+        "https://pubmatic.com/wp-content/themes/pubmatic/js/bootstrap.min.js?ver=5.3.3": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://f.vimeocdn.com/p/4.46.57/js/player.module.js": [
+          "orientationchange"
+        ],
+        "https://pubmatic.com/wp-content/themes/pubmatic/js/scripts.js?ver=18112025": [
+          "orientationchange"
+        ],
+        "https://pubmatic.com/wp-content/themes/pubmatic/js/jquery.3.7.1.min.js?ver=3.7.1": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js?ver=1": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://f.vimeocdn.com/p/4.46.57/js/vendor.module.js": [
+          "data:image/webp;base64,UklGRogCAABXRUJQVlA4WAoAAAAwAAAAKwEAlQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIEgAAAAEHEBEREJAk/v8fRfQ/7X9DAFZQOCCAAAAAcA0AnQEqLAGWAD5tNplJpCMioSAoAIANiWlu4XaxG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32rAAA/v/WAAAAAAAAAAA="
+        ]
+      },
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "PHPSESSID",
+        "value": "7d6d4966314702bdb09ee2f43daba0df",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "utjymTUi0Q7BExZOYF39b7R_rupgHO82u2fxHaZTubI-1781159808.5102131-1.0.1.1-ysenPKtTu24m_IJRLMNbH8paO4fg.C2eNQskDrzSKs13G8ZMhafakSvbgwN_GmbZ7BHcszMWBb.WStHH45JHI4qR62YGnXOcrmJ_Nj8qZuq.FLy2tplVSRswyX_AabRR",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2026-06-11T07:06:48.649Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cfuvid",
+        "value": "m0K0Rv9nCKM6L39s12hUvq.s6n0aO90xtjWTuY4Id6Y-1781159808.5102131-1.0.1.1-KoO79jB3XTlvDcT7l7L9ch74rJDhvQUzeJMMva.3Jgo",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": -1,
+        "size": 121,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cf_bm",
+        "value": "TtowbbXy89ySdScFyRDtkLATYshFmCmy4RYoe5EfLC0-1781159808.6822627-1.0.1.1-B8QfLx5ZSHENuAHkOZqPA7jvrGYMBiY5oxMBGk1WaTV1mU24wfYeW.dXXMNvPQ6m6Pgk5uI3EEDWsQKe.1ENO.Xnm.ktfMFJKG0gjCOv6AMaUbAodL_JjckINDY6qq_i",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2026-06-11T07:06:49.081Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vuid",
+        "value": "pl1344553147.351391047",
+        "domain": "vimeo.com",
+        "path": "/",
+        "expires": "2027-07-16T06:36:49.474Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_swb",
+        "value": "de6aa5d8-f6ba-461a-be93-0752431ccddb",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2027-07-16T06:36:49.998Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ketch_consent_v1_",
+        "value": "eyJlc3NlbnRpYWxfc2VydmljZXMiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImVzc2VudGlhbF9zZXJ2aWNlcyJdfX0%3D",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2027-07-16T06:36:50.000Z",
+        "size": 136,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_swb_consent_",
+        "value": "eyJjb2xsZWN0ZWRBdCI6MTc4MTE1OTgxMCwiY29udGV4dCI6eyJjb25maWd1cmF0aW9uSWQiOiJjSFZpYldGMGFXTXZkMlZpYzJsMFpWOXpiV0Z5ZEY5MFlXY3ZjSEp2WkhWamRHbHZiaTluWkhCeUwyVnVMekUzT0RBMk9UTTNOelE9IiwiaXNzdWVkQXQiOjAsInNvdXJjZSI6ImxlZ2FsQmFzaXNEZWZhdWx0In0sImNvbnRyb2xsZXJDb2RlIjoiIiwiZW52aXJvbm1lbnRDb2RlIjoicHJvZHVjdGlvbiIsImlkZW50aXRpZXMiOnsic3diX3dlYnNpdGVfc21hcnRfdGFnIjoiZGU2YWE1ZDgtZjZiYS00NjFhLWJlOTMtMDc1MjQzMWNjZGRiIn0sImp1cmlzZGljdGlvbkNvZGUiOiJnZHByIiwicHJvcGVydHlDb2RlIjoid2Vic2l0ZV9zbWFydF90YWciLCJwdXJwb3NlcyI6eyJlc3NlbnRpYWxfc2VydmljZXMiOnsiYWxsb3dlZCI6InRydWUiLCJjb2xsZWN0ZWRBdCI6MCwiaXNzdWVkQXQiOjAsImxlZ2FsQmFzaXNDb2RlIjoibGVnaXRpbWF0ZWludGVyZXN0Iiwic291cmNlIjoiIn19LCJpbnRlcmFjdGl2ZSI6ZmFsc2UsImNhY2hlZEF0IjoxNzgxMTU5ODExfQ%3D%3D",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2026-06-18T06:36:51.000Z",
+        "size": 741,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dver": 1756078075,
+            "environment": "production",
+            "event_type": "once_identities",
+            "hasConsent": false,
+            "ids": "eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiJkZTZhYTVkOC1mNmJhLTQ2MWEtYmU5My0wNzUyNDMxY2NkZGIifQ==",
+            "jurisdiction": "gdpr",
+            "property": "website_smart_tag",
+            "region": "ES",
+            "tenant": "pubmatic",
+            "url": "https://pubmatic.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pubmatic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=false&url=https%3A%2F%2Fpubmatic.com%2F&property=website_smart_tag&environment=production&jurisdiction=gdpr&tenant=pubmatic&dver=1756078075&event_type=once_identities&ids=eyJzd2Jfd2Vic2l0ZV9zbWFydF90YWciOiJkZTZhYTVkOC1mNmJhLTQ2MWEtYmU5My0wNzUyNDMxY2NkZGIifQ%3D%3D&region=ES"
+      },
+      {
+        "data": {
+          "filter": "||vimeo.com/ablincoln/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "6eb341adbe54aace205b8cd10f49d356101773da1781159808"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://player.vimeo.com/video/1179919451?&title=0&byline=0&portrait=0",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vimeo.com/ablincoln/vuid?pid=6eb341adbe54aace205b8cd10f49d356101773da1781159808"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-TDPB8VC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pubmatic.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TDPB8VC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "title": "Blacklight Inspection",
+  "page_title": "Home - The NAI: Network Advertising Initiative",
+  "uri_ins": "https://networkadvertising.org",
+  "uri_dest": "https://thenai.org/",
+  "uri_redirects": [
+    "https://networkadvertising.org/"
+  ],
+  "secure_connection": {},
+  "host": "networkadvertising.org",
+  "config": {
+    "emulateDevice": {
+      "name": "iPhone 13 Mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+      "viewport": {
+        "width": 375,
+        "height": 812,
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "isLandscape": false
+      }
+    },
+    "cleareCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "saveBrowserProfile": false,
+    "numPages": 0,
+    "defaultTimeout": 35000,
+    "defaultWaitUntil": "networkidle2",
+    "headless": true,
+    "headers": {},
+    "extraChromiumArgs": [
+      "--disable-features=TrackingProtection3pcd"
+    ],
+    "extraPuppeteerOptions": {}
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/127.0.6533.88",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.18.5-200.fc43.x86_64"
+    }
+  },
+  "script": {
+    "host": "fedora",
+    "version": {
+      "npm": "3.9.0",
+      "commit": "dev"
+    },
+    "node_version": "v22.20.0"
+  },
+  "start_time": "2026-06-11T09:22:44.166Z",
+  "end_time": "2026-06-11T09:22:52.849Z",
+  "browsing_history": [
+    "https://thenai.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "networkadvertising.org",
+        "thenai.org"
+      ],
+      "third_party": [
+        "use.typekit.net",
+        "static.addtoany.com",
+        "www.googletagmanager.com",
+        "p.typekit.net",
+        "www.google-analytics.com",
+        "region1.google-analytics.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://thenai.org/wp-content/themes/nai/public/scripts/vendor.js?id=b2d0069dd848877c1afe": [
+          "scroll",
+          "click",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://thenai.org/wp-content/themes/nai/public/scripts/vendor.js?id=b2d0069dd848877c1afe": [
+          "touchend",
+          "touchstart",
+          "touchcancel"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {
+        "https://thenai.org/wp-content/themes/nai/public/scripts/vendor.js?id=b2d0069dd848877c1afe": [
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_gid",
+        "value": "GA1.2.1973561375.1781169769",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2026-06-12T09:22:48.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_2473248_1",
+        "value": "1",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2026-06-11T09:23:48.000Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_SSJYM8RFWF",
+        "value": "GS2.1.s1781169768$o1$g0$t1781169768$j60$l0$h0",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2027-07-16T09:22:49.008Z",
+        "size": 59,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1086963516.1781169769",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2027-07-16T09:22:49.009Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cf_clearance",
+        "value": "KgbllwbUc_CV8prHrLNpJDWKp84y4JEfM6uI2O6l78Y-1781169770-1.2.1.1-PH3ukHPCOGjH91BcrWUPRTEg8BBMCg4h4SZHeP5A.87Fey0_p8PIexwK_XiW7XSIH92LP6ZQB1BEsZvyCeio1Pdarf0YKfC5ltEI.OoclqO5joq2aek3Nr5PA8hNiYEEYGNm39gMRHaWKNxCrSvwj3otOCL.xiE97OZZ2FE93rfc7HL506K_Zii6llhZgjIn1rhaJA.N2ybBuIJBpQgGLRSTrck2ggD46YcTbOiGIwZmdAeINhAkkQxfxsTh8XXoHEL5vTGQ8g0_n4ed44_5RBD_b0NeccuwZR5Lell679NZ6ta.D6ylwa0ElNx0nrX4WwIF0WAntGpiidmrLebiiA",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2027-06-11T09:22:51.037Z",
+        "size": 417,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "partitionKey": {
+          "topLevelSite": "https://thenai.org",
+          "hasCrossSiteAncestor": false
+        },
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "XTGmr4F4rln4HLemCqik.WSaF96deAGU0aYqQVablHg-1781169770.9687479-1.0.1.1-0WsTmrVFS1B2LjWS67nzIdbg05zeOdmX_lZVWqRZidMZynq.Y46Vn.2QFT7HTzgMytKKr_1Ds7wOm_bT5DXmcEQNf0xiPRWz.nFTI2Af5.KFKPY8CczBJlLA2teXXyBM",
+        "domain": "thenai.org",
+        "path": "/",
+        "expires": "2026-06-11T09:52:51.037Z",
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "google_analytics_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtm.load",
+            "eid": 6,
+            "es": 1,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&es=1&e=gtm.load&eid=6&h=Ag&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtag.config",
+            "eid": 4,
+            "epr": "2UA",
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&e=gtag.config&eid=4&h=Ag&epr=2UA&z=0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_eu": "AAAI",
+            "_fv": 1,
+            "_p": 1781169766207,
+            "_s": 1,
+            "_ss": 1,
+            "are": 1,
+            "cid": 1086963516.178117,
+            "dl": "https://thenai.org/",
+            "dma": 1,
+            "dma_cps": "a",
+            "dt": "Home - The NAI: Network Advertising Initiative",
+            "en": "page_view",
+            "frm": 0,
+            "gcd": "13l3l3l2l1l1",
+            "gtm": "45je6691v9126348498za20g",
+            "npa": 1,
+            "pscdl": "",
+            "rcb": 11,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1781169768,
+            "sr": "375x812",
+            "tag_exp": "115616986~115938466~115938468~119392696~119392704",
+            "tfd": 4359,
+            "tid": "G-SSJYM8RFWF",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-SSJYM8RFWF&gtm=45je6691v9126348498za20g&_p=1781169766207&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAI&are=1&cid=1086963516.1781169769&frm=0&pscdl=&rcb=11&sr=375x812&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~119392696~119392704&sid=1781169768&sct=1&seg=0&dl=https%3A%2F%2Fthenai.org%2F&dt=Home%20-%20The%20NAI%3A%20Network%20Advertising%20Initiative&en=page_view&_fv=1&_ss=1&tfd=4359"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtm.dom",
+            "eid": 5,
+            "es": 1,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&es=1&e=gtm.dom&eid=5&h=Ag&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtag.config",
+            "eid": 3,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "ti": "2rep.1zone",
+            "tr": "5rep.5zone",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&e=gtag.config&eid=3&h=Ag&tr=5rep.5zone&ti=2rep.1zone&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtm.init",
+            "eid": 2,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "ti": "2ogt1pdatav2.2ccdgafirst.2ccdgalast",
+            "tr": "5ogt1pdatav2.5ccdgafirst.5ccdgalast",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&e=gtm.init&eid=2&h=Ag&tr=5ogt1pdatav2.5ccdgafirst.5ccdgalast&ti=2ogt1pdatav2.2ccdgafirst.2ccdgalast&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtag.config",
+            "eid": 4,
+            "epr": "1UA",
+            "es": 1,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&es=1&e=gtag.config&eid=4&h=Ag&epr=1UA&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtag.config",
+            "eid": 3,
+            "es": 1,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "ti": "2rep.1zone",
+            "tr": "1rep.1zone",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&es=1&e=gtag.config&eid=3&h=Ag&tr=1rep.1zone&ti=2rep.1zone&z=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cv": 1,
+            "e": "gtm.init",
+            "eid": 2,
+            "es": 1,
+            "gtm": "457e6691za200",
+            "h": "Ag",
+            "id": "UA-2473248-1",
+            "pid": 1204040204,
+            "rv": 6691,
+            "t": "t",
+            "tag_exp": "0~115938466~115938468",
+            "tc": 5,
+            "ti": "2ogt1pdatav2.2ccdgafirst.2ccdgalast",
+            "tr": "1ogt1pdatav2.1ccdgafirst.1ccdgalast",
+            "v": 3,
+            "z": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/a?id=UA-2473248-1&v=3&t=t&pid=1204040204&gtm=457e6691za200&cv=1&rv=6691&tc=5&tag_exp=0~115938466~115938468&es=1&e=gtm.init&eid=2&h=Ag&tr=1ogt1pdatav2.1ccdgafirst.1ccdgalast&ti=2ogt1pdatav2.2ccdgafirst.2ccdgalast&z=0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "gtm": null,
+            "id": "G-SSJYM8RFWF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-SSJYM8RFWF&cx=c&gtm=4e6691"
+      },
+      {
+        "data": {
+          "filter": "||p.typekit.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 18940737,
+            "app": "typekit",
+            "e": "css",
+            "f": "139.173.175.176.25136",
+            "ht": "tk",
+            "k": "msr3oye",
+            "s": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.css?s=1&k=msr3oye&ht=tk&f=139.173.175.176.25136&a=18940737&app=typekit&e=css"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-2473248-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://thenai.org/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-2473248-1"
+      }
+    ]
+  }
+}
