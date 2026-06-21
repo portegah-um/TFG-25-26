@@ -1,5 +1,6 @@
 import sqlite3
 import pandas as pd
+import tldextract
 
 TOTAL_PAGES = 1000
 
@@ -284,17 +285,19 @@ def scripts():
     script_percentages.to_csv("Analysis-Results-Raw/script_percentages.csv", float_format='%.2f', index=False)
 
 def cookies():
-    cookies_query = '''SELECT JAVASCRIPT_COOKIES.visit_id, JAVASCRIPT_COOKIES.host AS script_url, JAVASCRIPT.top_level_url,
-                        JAVASCRIPT_COOKIES.is_host_only, JAVASCRIPT_COOKIES.is_secure, JAVASCRIPT_COOKIES.is_session
-                FROM JAVASCRIPT_COOKIES
-                JOIN JAVASCRIPT ON JAVASCRIPT.visit_id = JAVASCRIPT_COOKIES.visit_id
-                GROUP BY JAVASCRIPT_COOKIES.visit_id, JAVASCRIPT_COOKIES.host, JAVASCRIPT_COOKIES.name
-                ORDER BY JAVASCRIPT_COOKIES.visit_id, JAVASCRIPT_COOKIES.host, JAVASCRIPT.top_level_url, JAVASCRIPT_COOKIES.event_ordinal ASC
+    cookies_query = '''
+                SELECT javascript_cookies.visit_id, site_visits.site_url, javascript_cookies.host,
+                        javascript_cookies.is_host_only, javascript_cookies.is_secure, javascript_cookies.is_session
+                FROM javascript_cookies
+				JOIN site_visits
+				ON javascript_cookies.visit_id = site_visits.visit_id
+                GROUP BY javascript_cookies.visit_id, javascript_cookies.host, javascript_cookies.name
+                ORDER BY javascript_cookies.visit_id, javascript_cookies.host, javascript_cookies.event_ordinal ASC
     '''
-    cookies_only_visit_ids_query = '''SELECT COUNT(DISTINCT javascript_cookies.visit_id) FROM JAVASCRIPT_COOKIES
-                JOIN JAVASCRIPT ON JAVASCRIPT.visit_id = JAVASCRIPT_COOKIES.visit_id
-                GROUP BY JAVASCRIPT_COOKIES.visit_id
-                ORDER BY JAVASCRIPT_COOKIES.visit_id
+    cookies_only_visit_ids_query = '''
+                SELECT COUNT(DISTINCT javascript_cookies.visit_id) FROM javascript_cookies
+                GROUP BY javascript_cookies.visit_id
+				ORDER BY javascript_cookies.visit_id
 				ASC'''
     total_sites_with_cookies = len(cur.execute(cookies_only_visit_ids_query).fetchall())
     tp_cookies_counter = 0
@@ -307,7 +310,7 @@ def cookies():
     '''
     Tuple format:
         0 --> visit_id
-        1 --> cookie_provider
+        1 --> site_url
         2 --> host_url
         3, 4, 5 --> cookie_options
             3 --> host_only
@@ -320,7 +323,7 @@ def cookies():
     for cookie in all_cookies:
         cookies_row = [0,0,0,0,0]
         # First/Third Party
-        if cookie[1] in cookie[2]:
+        if tldextract.extract(cookie[1]).top_domain_under_public_suffix in cookie[2]:
             fp_cookies_counter += 1
             cookies_row[0] = 1
         else:
@@ -392,9 +395,9 @@ def main():
     total_pages_analysed = TOTAL_PAGES - total_pages_analysed
     print(total_pages_analysed)
     # Analysis
-    #cookies()
+    cookies()
     #scripts()
-    fingerprinting()
+    #fingerprinting()
     con.close()
 
 if __name__=="__main__":
