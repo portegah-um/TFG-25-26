@@ -15,19 +15,25 @@ def exec_query_fg(query):
     return len(results)
 
 def getJSFingerprint():
-    jsf_query_init = '''SELECT DISTINCT visit_id FROM javascript
-    WHERE symbol LIKE 'window.navigator%'
-        OR symbol LIKE 'window.screen%'
-        OR symbol LIKE 'window.Intl.DateTimeFormat'
-        OR symbol LIKE 'window.Intl.getCanonicalLocales'
-    GROUP BY visit_id
+    jsf_query_init = '''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id))
+    SELECT DISTINCT javascript.visit_id FROM javascript
+    INNER JOIN successful_visits
+    ON javascript.visit_id = successful_visits.visit_id
+    WHERE javascript.symbol LIKE 'window.navigator%'
+        OR javascript.symbol LIKE 'window.screen%'
+        OR javascript.symbol LIKE 'window.Intl.DateTimeFormat'
+        OR javascript.symbol LIKE 'window.Intl.getCanonicalLocales'
+    GROUP BY javascript.visit_id
     '''
-    jsf_query_obj_enum = '''SELECT COUNT(DISTINCT symbol) FROM javascript
-    WHERE visit_id == ?
-    AND (symbol LIKE 'window.navigator%'
-        OR symbol LIKE 'window.screen%'
-        OR symbol LIKE 'window.Intl.DateTimeFormat'
-        OR symbol LIKE 'window.Intl.getCanonicalLocales')'''
+    jsf_query_obj_enum = '''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id))
+    SELECT COUNT(DISTINCT javascript.symbol) FROM javascript
+    INNER JOIN successful_visits
+    ON javascript.visit_id = successful_visits.visit_id
+    WHERE javascript.visit_id == ?
+    AND (javascript.symbol LIKE 'window.navigator%'
+        OR javascript.symbol LIKE 'window.screen%'
+        OR javascript.symbol LIKE 'window.Intl.DateTimeFormat'
+        OR javascript.symbol LIKE 'window.Intl.getCanonicalLocales')'''
     jsf_visit_ids = cur.execute(jsf_query_init).fetchall()
     jsf_count = 0
     for site in jsf_visit_ids:
@@ -43,39 +49,48 @@ def getJSFingerprint():
     return jsf_count
 
 def getWebRTC():
-    wrtc_query = '''SELECT DISTINCT visit_id FROM javascript
-    WHERE symbol == 'RTCPeerConnection.addIceCandidate'
-    OR symbol == 'RTCPeerConnection.createDataChannel'
-    OR symbol == 'RTCPeerConnection.createOffer'
-    OR symbol == 'RTCPeerConnection.onicecandidate'
+    wrtc_query = '''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id))
+    SELECT DISTINCT javascript.visit_id FROM javascript
+    INNER JOIN successful_visits
+    ON javascript.visit_id = successful_visits.visit_id
+    WHERE javascript.symbol == 'RTCPeerConnection.addIceCandidate'
+    OR javascript.symbol == 'RTCPeerConnection.createDataChannel'
+    OR javascript.symbol == 'RTCPeerConnection.createOffer'
+    OR javascript.symbol == 'RTCPeerConnection.onicecandidate'
     '''
     return exec_query_fg(wrtc_query)
 
 def getWebGL():
-    webgl_query = '''WITH TargetVisits AS (
-	SELECT DISTINCT visit_id FROM javascript
-	WHERE (symbol == 'WebGLRenderingContext.getParameter'
-		AND arguments LIKE '%3744_%')
-		OR symbol == 'HTMLCanvasElement.get%Extension%'
-		OR symbol == 'WebGLRenderingContext.getContextAttributes'
-		OR symbol == 'readPixels'
+    webgl_query = '''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)),
+    TargetVisits AS (
+	SELECT DISTINCT javascript.visit_id FROM javascript
+    INNER JOIN successful_visits
+    ON javascript.visit_id = successful_visits.visit_id
+	WHERE (javascript.symbol == 'WebGLRenderingContext.getParameter'
+		AND javascript.arguments LIKE '%3744_%')
+		OR javascript.symbol == 'HTMLCanvasElement.get%Extension%'
+		OR javascript.symbol == 'WebGLRenderingContext.getContextAttributes'
+		OR javascript.symbol == 'readPixels'
     )
-    SELECT DISTINCT visit_id
+    SELECT DISTINCT javascript.visit_id
     FROM javascript
-    WHERE visit_id IN (SELECT visit_id FROM TargetVisits)
-    AND (symbol == 'HTMLCanvasElement.toDataURL'
-    OR symbol == 'HTMLCanvasElement.toBlob'
-    OR symbol == 'CanvasRenderingContext2D.getImageData')
+    WHERE javascript.visit_id IN (SELECT javascript.visit_id FROM TargetVisits)
+    AND (javascript.symbol == 'HTMLCanvasElement.toDataURL'
+    OR javascript.symbol == 'HTMLCanvasElement.toBlob'
+    OR javascript.symbol == 'CanvasRenderingContext2D.getImageData')
     '''
     return exec_query_fg(webgl_query)
 
 def getCanvasFont():
-    cvf_query_init = '''SELECT DISTINCT visit_id FROM javascript
-    WHERE symbol == 'CanvasRenderingContext2D.measureText'
+    cvf_query_init = '''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id))
+    SELECT DISTINCT javascript.visit_id FROM javascript
+    INNER JOIN successful_visits
+    ON javascript.visit_id = successful_visits.visit_id
+    WHERE javascript.symbol == 'CanvasRenderingContext2D.measureText'
     '''
     cvf_query_count = '''SELECT COUNT(*) FROM javascript
-    WHERE visit_id = ?
-    AND symbol == 'CanvasRenderingContext2D.measureText'
+    WHERE javascript.visit_id = ?
+    AND javascript.symbol == 'CanvasRenderingContext2D.measureText'
     '''
     cvf_visit_ids = cur.execute(cvf_query_init).fetchall()
     cvf_count = 0
@@ -92,38 +107,44 @@ def getCanvasFont():
     return cvf_count
 
 def getCanvas():
-    canvas_query='''WITH TargetVisits AS (
-	SELECT DISTINCT visit_id FROM javascript
-	WHERE ((symbol == 'HTMLCanvasElement.width'
-		AND CAST(value as int) < 16)
-		OR (symbol == 'HTMLCanvasElement.height'
-		AND CAST(value as int) < 16))
-	OR (symbol == 'HTMLCanvasElement.setAttribute'
-		AND arguments LIKE '%hidden%')
+    canvas_query='''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)),
+    TargetVisits AS (
+	SELECT DISTINCT javascript.visit_id FROM javascript
+    INNER JOIN successful_visits
+    ON javascript.visit_id = successful_visits.visit_id
+	WHERE ((javascript.symbol == 'HTMLCanvasElement.width'
+		AND CAST(javascript.value as int) < 16)
+		OR (javascript.symbol == 'HTMLCanvasElement.height'
+		AND CAST(javascript.value as int) < 16))
+	OR (javascript.symbol == 'HTMLCanvasElement.setAttribute'
+		AND javascript.arguments LIKE '%hidden%')
     )
-    SELECT DISTINCT visit_id
+    SELECT DISTINCT javascript.visit_id
     FROM javascript
-    WHERE visit_id IN (SELECT visit_id FROM TargetVisits)
-    AND symbol == 'HTMLCanvasElement.toDataURL'
-    OR symbol == 'HTMLCanvasElement.toBlob'
-    OR symbol == 'CanvasRenderingContext2D.getImageData'
-    '''
+    WHERE javascript.visit_id IN (SELECT javascript.visit_id FROM TargetVisits)
+    AND (javascript.symbol == 'HTMLCanvasElement.toDataURL'
+    OR javascript.symbol == 'HTMLCanvasElement.toBlob'
+    OR javascript.symbol == 'CanvasRenderingContext2D.getImageData'
+    )'''
     return exec_query_fg(canvas_query)
 
 def getAudioContext():
-    audiocontext_query = '''WITH TargetVisits AS (
-        SELECT DISTINCT visit_id
+    audiocontext_query = '''with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)),
+        TargetVisits AS (
+        SELECT DISTINCT javascript.visit_id
         FROM javascript
-        WHERE symbol LIKE '%AudioContext.create%'
-        OR symbol LIKE '%AudioContext.audioWorklet'
+        INNER JOIN successful_visits
+        ON javascript.visit_id = successful_visits.visit_id
+        WHERE javascript.symbol LIKE '%AudioContext.create%'
+        OR javascript.symbol LIKE '%AudioContext.audioWorklet'
     )
-    SELECT DISTINCT visit_id
+    SELECT DISTINCT javascript.visit_id
     FROM javascript
-    WHERE visit_id IN (SELECT visit_id FROM TargetVisits)
-    AND (symbol LIKE 'AudioBuffer%'
-    OR symbol LIKE 'AnalyserNode.get%Data%'
-    OR symbol LIKE '%.destination'
-    OR symbol LIKE '%.listener')'''
+    WHERE javascript.visit_id IN (SELECT javascript.visit_id FROM TargetVisits)
+    AND (javascript.symbol LIKE 'AudioBuffer%'
+    OR javascript.symbol LIKE 'AnalyserNode.get%Data%'
+    OR javascript.symbol LIKE '%.destination'
+    OR javascript.symbol LIKE '%.listener')'''
     return exec_query_fg(audiocontext_query)
 
 def fingerprinting():
@@ -192,16 +213,16 @@ def fingerprinting():
 
 def scripts():
     count_queries = {
-        "google": "SELECT COUNT(DISTINCT(visit_id)) FROM http_responses WHERE url LIKE \'%google-analytics%\' OR url LIKE \'%googleanalytics%\' OR url LIKE \'%googletagmanager%\' OR url LIKE \'%googletagservices%\' OR url LIKE \'%doubleclick%\' OR url LIKE \'%invitemedia%\' OR url LIKE \'%2mdn%\'",
-        "facebook": "SELECT COUNT(DISTINCT(visit_id)) FROM http_responses WHERE url LIKE \'%facebook%\'",
-        "microsoft": "SELECT COUNT(DISTINCT(visit_id)) FROM http_responses WHERE url LIKE \'%bing%\' OR url LIKE \'%clarity%\'",
-        "hotjar": "SELECT COUNT(DISTINCT(visit_id)) FROM http_responses WHERE url LIKE \'%hotjar%\'",
+        "google": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT COUNT(DISTINCT(http_responses.visit_id)) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%google-analytics%\' OR http_responses.url LIKE \'%googleanalytics%\' OR http_responses.url LIKE \'%googletagmanager%\' OR http_responses.url LIKE \'%googletagservices%\' OR http_responses.url LIKE \'%doubleclick%\' OR http_responses.url LIKE \'%invitemedia%\' OR http_responses.url LIKE \'%2mdn%\'",
+        "facebook": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT COUNT(DISTINCT(http_responses.visit_id)) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%facebook%\'",
+        "microsoft": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT COUNT(DISTINCT(http_responses.visit_id)) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%bing%\' OR http_responses.url LIKE \'%clarity%\'",
+        "hotjar": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT COUNT(DISTINCT(http_responses.visit_id)) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%hotjar%\'",
     }
     distinct_queries = {
-        "google": "SELECT DISTINCT(visit_id) FROM http_responses WHERE url LIKE \'%google-analytics%\' OR url LIKE \'%googleanalytics%\' OR url LIKE \'%googletagmanager%\' OR url LIKE \'%googletagservices%\' OR url LIKE \'%doubleclick%\' OR url LIKE \'%invitemedia%\' OR url LIKE \'%2mdn%\'",
-        "facebook": "SELECT DISTINCT(visit_id) FROM http_responses WHERE url LIKE \'%facebook%\'",
-        "microsoft": "SELECT DISTINCT(visit_id) FROM http_responses WHERE url LIKE \'%bing%\' OR url LIKE \'%clarity%\'",
-        "hotjar": "SELECT DISTINCT(visit_id) FROM http_responses WHERE url LIKE \'%hotjar%\'",
+        "google": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT DISTINCT(http_responses.visit_id) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%google-analytics%\' OR http_responses.url LIKE \'%googleanalytics%\' OR http_responses.url LIKE \'%googletagmanager%\' OR http_responses.url LIKE \'%googletagservices%\' OR http_responses.url LIKE \'%doubleclick%\' OR http_responses.url LIKE \'%invitemedia%\' OR http_responses.url LIKE \'%2mdn%\'",
+        "facebook": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT DISTINCT(http_responses.visit_id) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%facebook%\'",
+        "microsoft": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT DISTINCT(http_responses.visit_id) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%bing%\' OR http_responses.url LIKE \'%clarity%\'",
+        "hotjar": "with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id)) SELECT DISTINCT(http_responses.visit_id) FROM http_responses JOIN successful_visits ON http_responses.visit_id = successful_visits.visit_id WHERE http_responses.url LIKE \'%hotjar%\'",
     }
     g_count = 0
     fb_count = 0
@@ -286,16 +307,22 @@ def scripts():
 
 def cookies():
     cookies_query = '''
-                SELECT javascript_cookies.visit_id, site_visits.site_url, javascript_cookies.host,
+    with successful_visits as (select visit_id, site_url from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id))
+
+                SELECT javascript_cookies.visit_id, successful_visits.site_url, javascript_cookies.host,
                         javascript_cookies.is_host_only, javascript_cookies.is_secure, javascript_cookies.is_session
                 FROM javascript_cookies
-				JOIN site_visits
-				ON javascript_cookies.visit_id = site_visits.visit_id
+				JOIN successful_visits
+				ON javascript_cookies.visit_id = successful_visits.visit_id
                 GROUP BY javascript_cookies.visit_id, javascript_cookies.host, javascript_cookies.name
                 ORDER BY javascript_cookies.visit_id, javascript_cookies.host, javascript_cookies.event_ordinal ASC
     '''
     cookies_only_visit_ids_query = '''
+    with successful_visits as (select visit_id from site_visits where not exists (select visit_id from incomplete_visits where incomplete_visits.visit_id = site_visits.visit_id))
+
                 SELECT COUNT(DISTINCT javascript_cookies.visit_id) FROM javascript_cookies
+                JOIN successful_visits
+                ON javascript_cookies.visit_id = successful_visits.visit_id
                 GROUP BY javascript_cookies.visit_id
 				ORDER BY javascript_cookies.visit_id
 				ASC'''
@@ -395,9 +422,9 @@ def main():
     total_pages_analysed = TOTAL_PAGES - total_pages_analysed
     print(total_pages_analysed)
     # Analysis
-    cookies()
+    #cookies()
     #scripts()
-    #fingerprinting()
+    fingerprinting()
     con.close()
 
 if __name__=="__main__":
